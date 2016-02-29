@@ -1,7 +1,7 @@
 Yeast Consensus Metabolic Model
 ========================
 
-This repository contains the current genome-scale model of _Saccharomyces cerevisiae_ used in the @SysBioChalmers group. It's an improved version of the consensus metabolic model (version 7.6, downloaded from https://sourceforge.net/projects/yeast/), with several issues corrected (detailed in the script _modelCorrections.m_). The usage of this model is exactly the same as any other COBRA developed model.
+This repository contains the current genome-scale model of _Saccharomyces cerevisiae_ used in the @SysBioChalmers group. It's an improved version of the consensus metabolic model (version 7.6, downloaded from the developer's website https://sourceforge.net/projects/yeast/), with several issues corrected. The usage of this model is exactly the same as any other COBRA developed model.
 
 This repository is administered by Benjamín J. Sánchez (@BenjaSanchez), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
