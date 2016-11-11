@@ -1,4 +1,4 @@
-# Genome-scale metabolic model for _Saccharomyces cervisiae_ - Aerobic Branch
+# Genome-scale metabolic model of _Saccharomyces cerevisiae_ Aerobic Branch
 
 This repository contains the current genome-scale model of _Saccharomyces cerevisiae_ used in the [@SysBioChalmers](https://github.com/SysBioChalmers) group. It's an improved version of [the consensus metabolic model, version 7.6](https://sourceforge.net/projects/yeast/), FBCv2 compliant, with subSystem and EC number information connected to reactions, and with several issues corrected. The usage of this model is exactly the same as any other COBRA developed model.
 
@@ -17,7 +17,7 @@ Last update: 2016-11-11
 * Gurobi Optimizer for MATLAB ([version 6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
-* Clone [yeast-metabolic-network-7.6](git@github.com:SysBioChalmers/yeast-metabolic-network-7.6) branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers)
+* Clone aerobic branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers/yeast-metabolic-network-7.6)
 * Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com)
 
 ## Contributors
