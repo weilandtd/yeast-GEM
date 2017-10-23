@@ -1,4 +1,4 @@
-# Genome-Scale Model of _S. cerevisiae_ - Aerobic Branch
+# Genome-Scale Model of _S. cerevisiae_ - Anaerobic Branch
 
 This repository contains the current genome-scale metabolic model of _Saccharomyces cerevisiae_ used in the [@SysBioChalmers](https://github.com/SysBioChalmers) group. It's an improved version of [the consensus metabolic model, version 7.6](https://sourceforge.net/projects/yeast/), FBCv2 compliant, with subSystem and EC number information connected to reactions, and with several issues corrected. The usage of this model is exactly the same as any other COBRA developed model.
 
