@@ -4,7 +4,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
-Last update: 2017-01-30
+Last update: 2017-10-23
 
 ## Installation
 
