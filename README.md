@@ -55,6 +55,20 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 * Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
 
 
+## Complementary Scripts
+
+* `convertYmn2FBC2.m`: Converts yeast metabolic network 7.6 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
+* `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
+* `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
+* `anaerobicModel.m`: Transforms the model to anaerobic conditions.
+* `saveYeastModel.m`: Saves yeast model as an `sbml` and `txt` file, and creates `boundaryMets.txt`.
+* `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
+* `missingFields`: Folder with functions for adding missing fields to the model.
+   * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from KEGG. 
+   * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m` and `findSubSystem.m` for reading the databases. The latter 3 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/gecko).
+   * `ProtDatabase.mat`: Contains the relevant data from Swissprot and KEGG.
+
+
 ## Contributors
 - [Benjamín J. Sánchez](https://www.chalmers.se/en/staff/Pages/bensan.aspx) ([@BenjaSanchez](https://github.com/benjasanchez)), Chalmers University of Technology, Gothenburg Sweden
 - [Simonas Marcišauskas](https://www.chalmers.se/en/Staff/Pages/simmarc.aspx) ([@simas232](https://github.com/simas232)), Chalmers University of Technology, Gothenburg Sweden
