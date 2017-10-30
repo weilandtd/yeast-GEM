@@ -14,7 +14,7 @@ model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 
 %Save changes to current model:
 cd ../ModelFiles/mat
-writeCbModel(model,'mat','yeast_7.6_cobra.mat');
+save('yeast_7.6_cobra.mat','model');
 cd ../xml
 writeCbModel(model,'sbml','yeast_7.6_cobra.xml');
 cd ../txt

@@ -9,7 +9,7 @@ A collection of scripts for handling the [consensus genome scale model of yeast 
 * `saveYeastModel.m`: Saves yeast model as an `sbml` and `txt` file, and creates `boundaryMets.txt`.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
 * `missingFields`: Folder with functions for adding missing fields to the model.
-   * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from Swissprot. 
+   * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from KEGG. 
    * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m` and `findSubSystem.m` for reading the databases. The latter 3 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/gecko).
    * `ProtDatabase.mat`: Contains the relevant data from Swissprot and KEGG.
 
