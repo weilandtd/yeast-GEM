@@ -48,7 +48,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 ### Dependencies - Recommended Software:
 * libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
 * The SBML Toolbox (version [4.1.0](https://sourceforge.net/projects/sbml/files/SBMLToolbox/4.1.0/)  is recommended).
-* Gurobi Optimizer for MATLAB ([version 6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
+* Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
 * Clone aerobic branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers/yeast-metabolic-network-7.6).
