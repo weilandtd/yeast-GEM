@@ -43,7 +43,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 * A functional Matlab installation (MATLAB 7.3 or higher)
 * One of the 2 following:
   * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
-  * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN). An up-to-date version from COBRA GitHub repository is strongly recommended . Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
+  * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
 
 ### Dependencies - Recommended Software:
 * libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
