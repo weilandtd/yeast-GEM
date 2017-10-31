@@ -24,7 +24,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2017-10-30
+* Last update: 2017-10-31
 
 * The model:
 
@@ -57,7 +57,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 
 ## Complementary Scripts
 
-* `convertYmn2FBC2.m`: Converts yeast metabolic network 7.6 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
+* `convertYmn2FBC2.m`: Converts yeast7 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
 * `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
 * `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
 * `anaerobicModel.m`: Transforms the model to anaerobic conditions.
