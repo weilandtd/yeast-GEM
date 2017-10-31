@@ -1,33 +1,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % modelCorrections.m
-% Corrects various issues in yeast7 and saves it back as an .sbml and .txt file.
+% Corrects various issues in yeast7
 %
-% Benjamín J. Sánchez. Last edited: 2016-11-08
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%Load model:
-model = readCbModel('yeast_7.6_cobra.xml');
-model.c(strcmp(model.rxns,'r_2111')) = +1;
-
+% Benjamín J. Sánchez. Last edited: 2017-10-31
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %1st change: correct glucan coefficients in biomass reaction
 model.S(strcmp(model.mets,'s_0002[c]'), strcmp(model.rxns,'r_4041')) = 0;
 model.S(strcmp(model.mets,'s_0001[ce]'),strcmp(model.rxns,'r_4041')) = -0.8506;
 model.S(strcmp(model.mets,'s_0004[ce]'),strcmp(model.rxns,'r_4041')) = -0.2842;
-%Save all changes:
-saveYeastModel(model)
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %2nd change: Correctly represent proton balance inside cell
 model.lb(strcmp(model.rxns,'r_1824')) = 0;  %Block free H+ export
 model.ub(strcmp(model.rxns,'r_1250')) = 0;  %Block free putrescine export
 model.ub(strcmp(model.rxns,'r_1259')) = 0;  %Block free spermidine export
-%Save all changes:
-saveYeastModel(model)
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %3rd change: Changes in Ox.Pho.
 %COMPLEX III: H+ pumping corrected for eff P/O ratio:
@@ -44,21 +30,11 @@ model.S(:,rxn_pos) = model.S(:,rxn_pos)./ferro_S;
 %COMPLEX V: For 1 ATP 3 H+ are needed, not 4:
 model.S(strcmp(model.mets,'s_0799[m]'),strcmp(model.rxns,'r_0226')) = +2;
 model.S(strcmp(model.mets,'s_0794[c]'),strcmp(model.rxns,'r_0226')) = -3;
-%Save all changes:
-saveYeastModel(model)
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %4th change: Refit GAM and NGAM to exp. data, change biomass composition
-GAM_aer  = 40.8;   %Data from Van Hoek at al. 1998
-P_aer    = 0.4266; %Data from Van Hoek at al. 1998
-NGAM_aer = 0.7;    %Refit done in Nilsson et al. 2016
-GAM_ana  = 30.49;  %Data from Nissen et al. 1997
-P_ana    = 0.461;  %Data from Nissen et al. 1997
-NGAM_ana = 0;      %Refit done in Jouthen et al. 2012
-%Aerobic model:
-model = changeBiomass(model,P_aer,GAM_aer,NGAM_aer);
-% %Anaerobic model:
-% model = changeBiomass(model,P_ana,GAM_ana,NGAM_ana);
-%Save all changes:
-saveYeastModel(model)
+GAM   = 40.8;   %Data from Van Hoek at al. 1998
+P     = 0.4266; %Data from Van Hoek at al. 1998
+NGAM  = 0.7;    %Refit done in Nilsson et al. 2016
+model = changeBiomass(model,P,GAM,NGAM);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
