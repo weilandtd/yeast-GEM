@@ -201,8 +201,8 @@ r_0222	s_0394[c] + s_0434[c] + s_0794[c]  -> s_1282[c] + s_1322[c] 	(YDR530C)	  
 r_0223	s_0394[c] + s_0785[c] + s_0794[c]  -> s_1284[c] + s_1322[c] 	(YCL050C)	  0.00	1000.00	  0.00
 r_0224	s_0739[c] + s_0785[c] + s_0794[c]  -> s_1283[c] + s_1322[c] 	(YCL050C)	  0.00	1000.00	  0.00
 r_0225	s_0434[c] + s_1386[c]  -> s_0326[c] + s_0633[c] 	(YER055C)	  0.00	1000.00	  0.00
-r_0226	s_0397[m] + 3 s_0794[c] + s_1326[m]  -> s_0437[m] + 2 s_0799[m] + s_0807[m] 	(((Q0080) and (Q0085) and (Q0130) and (YBL099W) and (YBR039W) and (YDL004W) and (YDR298C) and (YDR322C_A) and (YDR377W) and (YJR121W) and (YKL016C) and (YLR295C) and (YML081C_A) and (YPL078C) and (YPL271W)) or ((Q0080) and (Q0085) and (Q0130) and (YBL099W) and (YBR039W) and (YDL004W) and (YDR298C) and (YDR377W) and (YJR121W) and (YKL016C) and (YLR295C) and (YML081C_A) and (YPL078C) and (YPL271W) and (YPR020W)))	  0.00	1000.00	  0.00
-r_0227	s_0434[c] + s_0803[c]  -> s_0394[c] + s_0796[e] + s_1322[c] 	(((YCR024C_A) and (YEL017C_A) and (YGL008C)) or ((YCR024C_A) and (YEL017C_A) and (YPL036W)) or (YER005W))	  0.00	1000.00	  0.00
+r_0226	s_0397[m] + 3 s_0794[c] + s_1326[m]  -> s_0437[m] + 2 s_0799[m] + s_0807[m] 	(((Q0080) and (Q0085) and (Q0130) and (YBL099W) and (YBR039W) and (YDL004W) and (YDR298C) and (YDR322C-A) and (YDR377W) and (YJR121W) and (YKL016C) and (YLR295C) and (YML081C-A) and (YPL078C) and (YPL271W)) or ((Q0080) and (Q0085) and (Q0130) and (YBL099W) and (YBR039W) and (YDL004W) and (YDR298C) and (YDR377W) and (YJR121W) and (YKL016C) and (YLR295C) and (YML081C-A) and (YPL078C) and (YPL271W) and (YPR020W)))	  0.00	1000.00	  0.00
+r_0227	s_0434[c] + s_0803[c]  -> s_0394[c] + s_0796[e] + s_1322[c] 	(((YCR024C-A) and (YEL017C-A) and (YGL008C)) or ((YCR024C-A) and (YEL017C-A) and (YPL036W)) or (YER005W))	  0.00	1000.00	  0.00
 r_0228	s_0743[c] + s_1184[c]  -> s_0443[c] + s_0739[c] 	(YBR110W)	  0.00	1000.00	  0.00
 r_0229	s_0612[c] + s_1371[c]  <=> s_0451[c] + 2 s_0794[c] 	(YGR286C)	-1000.00	1000.00	  0.00
 r_0230	s_0434[c] + s_0451[c] + s_0794[c]  -> s_0453[c] + s_0633[c] 	(YDL141W)	  0.00	1000.00	  0.00
@@ -334,7 +334,7 @@ r_0412	s_0439[p] + s_0534[p] + s_1166[p]  <=> s_0426[p] + s_0638[p] + s_1179[p] 
 r_0436	s_0926[m] + s_1383[m]  -> s_0712[m] + 2 s_0799[m] 	(YOR176W)	  0.00	1000.00	  0.00
 r_0437	2 s_0710[m] + s_0838[m]  -> 2 s_0709[m] + 2 s_0807[m] 	(((YEL039C) and (YKR066C)) or ((YJR048W) and (YKR066C)))	  0.00	1000.00	  0.00
 r_0438	s_0710[m] + 1.266 s_0799[m] + 0.25 s_1278[m]  -> s_0709[m] + 0.633 s_0794[c] + 0.5 s_0807[m] 	(((Q0045) and (Q0250) and (Q0275) and (YDL067C) and (YEL039C) and (YGL187C) and (YGL191W) and (YHR051W) and (YIL111W) and (YLR038C) and (YLR395C) and (YMR256C)) or ((Q0045) and (Q0250) and (Q0275) and (YDL067C) and (YEL039C) and (YGL187C) and (YGL191W) and (YHR051W) and (YLR038C) and (YLR395C) and (YMR256C) and (YNL052W)) or ((Q0045) and (Q0250) and (Q0275) and (YDL067C) and (YGL187C) and (YGL191W) and (YHR051W) and (YIL111W) and (YJR048W) and (YLR038C) and (YLR395C) and (YMR256C)) or ((Q0045) and (Q0250) and (Q0275) and (YDL067C) and (YGL187C) and (YGL191W) and (YHR051W) and (YJR048W) and (YLR038C) and (YLR395C) and (YMR256C) and (YNL052W)))	  0.00	1000.00	  0.00
-r_0439	2 s_0709[m] + 1.266 s_0799[m] + s_1535[m]  -> 2 s_0710[m] + 2.532 s_0794[c] + s_1537[m] 	(((Q0105) and (YBL045C) and (YDR529C) and (YEL024W) and (YEL039C) and (YFR033C) and (YGR183C) and (YHR001W_A) and (YJL166W) and (YOR065W) and (YPR191W)) or ((Q0105) and (YBL045C) and (YDR529C) and (YEL024W) and (YFR033C) and (YGR183C) and (YHR001W_A) and (YJL166W) and (YJR048W) and (YOR065W) and (YPR191W)))	  0.00	1000.00	  0.00
+r_0439	2 s_0709[m] + 1.266 s_0799[m] + s_1535[m]  -> 2 s_0710[m] + 2.532 s_0794[c] + s_1537[m] 	(((Q0105) and (YBL045C) and (YDR529C) and (YEL024W) and (YEL039C) and (YFR033C) and (YGR183C) and (YHR001W-A) and (YJL166W) and (YOR065W) and (YPR191W)) or ((Q0105) and (YBL045C) and (YDR529C) and (YEL024W) and (YFR033C) and (YGR183C) and (YHR001W-A) and (YJL166W) and (YJR048W) and (YOR065W) and (YPR191W)))	  0.00	1000.00	  0.00
 r_0440	s_0434[c] + s_0714[c] + s_0794[c]  -> s_0633[c] + s_0687[c] 	(YDL045C)	  0.00	1000.00	  0.00
 r_0441	s_0714[c] + s_0794[c] + s_1203[c]  -> s_0717[c] + s_1198[c] 	(YLR011W)	  0.00	1000.00	  0.00
 r_0442	s_0714[c] + s_0794[c] + s_1212[c]  -> s_0717[c] + s_1207[c] 	(YLR011W)	  0.00	1000.00	  0.00
@@ -759,7 +759,7 @@ r_0988	s_0803[c] + s_1038[c] + s_1198[c]  -> s_0180[c] + s_0794[c] + s_1025[c] +
 r_0989	s_0794[c] + s_0959[c] + s_0991[c] + s_1212[c]  -> s_0803[c] + s_1038[c] + s_1207[c] 	(YNR050C)	  0.00	1000.00	  0.00
 r_0990	s_1426[c]  <=> s_0551[c] + s_0629[c] 	(YKL060C)	-1000.00	1000.00	  0.00
 r_0992	s_0373[c] + s_1039[c]  -> s_0529[c] + s_1234[c] 		  0.00	1000.00	  0.00
-r_0993	s_1040[er] + s_1303[er]  -> s_0231[er] + s_0457[er] + s_0530[er] 	(((YBR058C_A) and (YDR062W) and (YMR296C)) or ((YDR062W) and (YMR296C)))	  0.00	1000.00	  0.00
+r_0993	s_1040[er] + s_1303[er]  -> s_0231[er] + s_0457[er] + s_0530[er] 	(((YBR058C-A) and (YDR062W) and (YMR296C)) or ((YDR062W) and (YMR296C)))	  0.00	1000.00	  0.00
 r_0995	s_0434[c] + s_1039[c] + s_1607[c]  -> s_0423[c] + s_0633[c] + s_1428[c] 	((YDR023W) or (YHR011W))	  0.00	1000.00	  0.00
 r_0996	s_0211[c] + s_0794[c] + s_1212[c]  -> s_1207[c] + s_1429[c] 	(YDR127W)	  0.00	1000.00	  0.00
 r_0997	s_0434[c] + s_1429[c]  -> s_0261[c] + s_0394[c] + s_0794[c] 	(YDR127W)	  0.00	1000.00	  0.00
@@ -2009,8 +2009,8 @@ r_4042	s_3715[e]  -> s_0554[e] + s_3716[e] 	(YIL020C)	  0.00	1000.00	  0.00
 r_4045	s_0803[c] + s_1556[c]  -> s_0575[c] + s_1550[c] 	(YDR400W)	  0.00	1000.00	  0.00
 r_0964	s_0434[c] + s_0750[c] + s_0803[c]  -> s_0394[c] + s_0753[v] + s_0794[c] + s_1322[c] 	(YDR135C)	  0.00	1000.00	  0.00
 r_1028	s_0434[c] + s_0803[c] + s_1473[c]  -> s_0394[c] + s_0794[c] + s_1322[c] + s_1474[v] 	(YLL048C)	  0.00	1000.00	  0.00
-r_1085	s_0434[c] + s_0794[c] + s_0803[c]  -> s_0394[c] + 2 s_0797[g] + s_1322[c] 	((YBR127C) and (YDL185W) and (YEL027W) and (YEL051W) and (YGR020C) and (YHR026W) and (YHR039C_A) and (YKL080W) and (YLR447C) and (YMR054W) and (YOR332W) and (YPL234C) and (YPR036W))	  0.00	1000.00	  0.00
-r_1086	s_0434[c] + s_0794[c] + s_0803[c]  -> s_0394[c] + 2 s_0802[v] + s_1322[c] 	((YBR127C) and (YDL185W) and (YEL027W) and (YEL051W) and (YGR020C) and (YHR026W) and (YHR039C_A) and (YKL080W) and (YLR447C) and (YOR270C) and (YOR332W) and (YPL234C) and (YPR036W))	  0.00	1000.00	  0.00
+r_1085	s_0434[c] + s_0794[c] + s_0803[c]  -> s_0394[c] + 2 s_0797[g] + s_1322[c] 	((YBR127C) and (YDL185W) and (YEL027W) and (YEL051W) and (YGR020C) and (YHR026W) and (YHR039C-A) and (YKL080W) and (YLR447C) and (YMR054W) and (YOR332W) and (YPL234C) and (YPR036W))	  0.00	1000.00	  0.00
+r_1086	s_0434[c] + s_0794[c] + s_0803[c]  -> s_0394[c] + 2 s_0802[v] + s_1322[c] 	((YBR127C) and (YDL185W) and (YEL027W) and (YEL051W) and (YGR020C) and (YHR026W) and (YHR039C-A) and (YKL080W) and (YLR447C) and (YOR270C) and (YOR332W) and (YPL234C) and (YPR036W))	  0.00	1000.00	  0.00
 r_1096	s_0029[e]  <=> s_0028[c] 		-1000.00	1000.00	  0.00
 r_1097	s_0035[c]  <=> s_0036[e] 		-1000.00	1000.00	  0.00
 r_1098	s_0172[c]  -> s_0173[e] 		  0.00	1000.00	  0.00
@@ -2022,7 +2022,7 @@ r_1103	s_0320[e]  <=> s_0319[c] 		-1000.00	1000.00	  0.00
 r_1104	s_0354[e] + s_0796[e]  <=> s_0352[c] + s_0794[c] 	(YNR056C)	-1000.00	1000.00	  0.00
 r_1106	s_0362[c]  <=> s_0364[e] 	(YCR010C)	-1000.00	1000.00	  0.00
 r_1107	s_0685[c]  -> s_0686[e] 		  0.00	1000.00	  0.00
-r_1108	s_0384[e] + s_0796[e]  -> s_0383[c] + s_0794[c] 	((YER056C) or (YER060W) or (YER060W_A) or (YGL186C))	  0.00	1000.00	  0.00
+r_1108	s_0384[e] + s_0796[e]  -> s_0383[c] + s_0794[c] 	((YER056C) or (YER060W) or (YER060W-A) or (YGL186C))	  0.00	1000.00	  0.00
 r_1109	s_0387[e] + s_0796[e]  -> s_0386[c] + s_0794[c] 	(YAL022C)	  0.00	1000.00	  0.00
 r_1110	s_0394[c] + s_0437[m]  <=> s_0397[m] + s_0434[c] 	((YBL030C) or (YBR085W) or (YMR056C))	-1000.00	1000.00	  0.00
 r_1111	s_0399[p] + s_0434[c] + s_0801[p]  -> s_0394[c] + s_0439[p] + s_0794[c] 	(YPR128C)	  0.00	1000.00	  0.00
@@ -2046,7 +2046,7 @@ r_1129	s_0529[c]  -> s_0532[m] 	(YHR002W)	  0.00	1000.00	  0.00
 r_1130	s_0528[m] + s_0539[c] + s_0794[c]  -> s_0526[c] + s_0541[m] + s_0799[m] 	(YBR192W)	  0.00	1000.00	  0.00
 r_1131	s_0528[m] + s_0539[c] + 2 s_0794[c]  -> s_0526[c] + s_0541[m] + 2 s_0799[m] 	(YBR192W)	  0.00	1000.00	  0.00
 r_1132	s_0544[e] + s_0796[e]  -> s_0543[c] + s_0794[c] 	(YAL022C)	  0.00	1000.00	  0.00
-r_1133	s_0546[e] + s_0796[e]  -> s_0545[c] + s_0794[c] 	((YER056C) or (YER060W) or (YER060W_A) or (YGL186C))	  0.00	1000.00	  0.00
+r_1133	s_0546[e] + s_0796[e]  -> s_0545[c] + s_0794[c] 	((YER056C) or (YER060W) or (YER060W-A) or (YGL186C))	  0.00	1000.00	  0.00
 r_1134	s_0554[e] + s_0796[e]  -> s_0553[c] + s_0794[c] 	((YDL245C) or (YDR342C) or (YDR343C) or (YDR345C) or (YEL069C) or (YFL011W) or (YHR092C) or (YHR094C) or (YHR096C) or (YJL214W) or (YJL219W) or (YJR158W) or (YMR011W) or (YNR072W) or (YOL156W))	  0.00	1000.00	  0.00
 r_1135	s_0559[e] + s_0796[e]  -> s_0558[c] + s_0794[c] 	((YDR536W) or (YFL011W) or (YJL219W) or (YLR081W) or (YNL318C) or (YOL156W))	  0.00	1000.00	  0.00
 r_1136	s_0026[e] + s_0796[e]  <=> s_0025[c] + s_0794[c] 	(YKL217W)	-1000.00	1000.00	  0.00
@@ -2072,7 +2072,7 @@ r_1172	s_0765[c]  -> s_0766[e] 	(YLL043W)	  0.00	1000.00	  0.00
 r_1173	s_0796[e] + s_1004[e]  <=> s_0794[c] + s_1003[c] 	((YCL025C) or (YKR039W) or (YOL020W) or (YOR348C) or (YPL265W))	-1000.00	1000.00	  0.00
 r_1174	s_0773[c]  -> s_0774[v] 		  0.00	1000.00	  0.00
 r_1175	s_0741[m] + s_0785[c] + s_0794[c]  -> s_0739[c] + s_0786[m] + s_0799[m] 	(YDL198C)	  0.00	1000.00	  0.00
-r_1176	s_0788[e] + s_0796[e]  <=> s_0787[c] + s_0794[c] 	((YER056C) or (YER060W) or (YER060W_A) or (YGL186C))	-1000.00	1000.00	  0.00
+r_1176	s_0788[e] + s_0796[e]  <=> s_0787[c] + s_0794[c] 	((YER056C) or (YER060W) or (YER060W-A) or (YGL186C))	-1000.00	1000.00	  0.00
 r_1177	s_0796[e] + s_1154[e]  -> s_0794[c] + s_1153[c] 	((YDR497C) or (YOL103W))	  0.00	1000.00	  0.00
 r_1178	s_0925[e]  -> s_0924[c] 	(YMR319C)	  0.00	1000.00	  0.00
 r_1179	s_0924[c]  -> s_0926[m] 		  0.00	1000.00	  0.00
