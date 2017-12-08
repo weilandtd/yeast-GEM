@@ -24,7 +24,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2017-11-30
+* Last update: 2017-12-08
 
 * The model:
 
@@ -57,17 +57,18 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 
 ## Complementary Scripts
 
-* `convertYmn2FBC2.m`: Converts yeast7 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
-* `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
-* `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
-* `calculateContent.m`: Calculates the protein and carb fraction in the biomass pseudo-rxn.
 * `anaerobicModel.m`: Transforms the model to anaerobic conditions.
-* `saveYeastModel.m`: Saves yeast model as an `sbml` and `txt` file, and creates `boundaryMets.txt`.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
+* `calculateContent.m`: Calculates the protein and carb fraction in the biomass pseudo-rxn.
+* `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
+* `convertYmn2FBC2.m`: Converts yeast7 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
+* `getNewIndex.m`: Finds the highest index available in either metabolites or rxns, and then adds one to it, for creating any new species.
 * `missingFields`: Folder with functions for adding missing fields to the model.
    * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from KEGG. 
    * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m` and `findSubSystem.m` for reading the databases. The latter 3 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/gecko).
    * `ProtDatabase.mat`: Contains the relevant data from Swissprot and KEGG.
+* `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
+* `saveYeastModel.m`: Saves yeast model as an `sbml` and `txt` file, and creates `boundaryMets.txt`.
 
 
 ## Contributors
