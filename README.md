@@ -9,6 +9,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
   * Format changes:
     * FBCv2 compliant.
     * Compatible with latest COBRA and RAVEN parsers.
+    * Biomass clustered by 5 main groups: protein, carbohydrate, lipid, RNA and DNA
   * Added information:
     * `subSystems` and `rxnECnumbers` added to reactions based on [KEGG](http://www.genome.jp/kegg/) & [Swissprot](http://www.uniprot.org/uniprot/?query=*&fil=organism%3A%22Saccharomyces+cerevisiae+%28strain+ATCC+204508+%2F+S288c%29+%28Baker%27s+yeast%29+%5B559292%5D%22+AND+reviewed%3Ayes) data.
     * `geneNames` added to genes based on [KEGG](http://www.genome.jp/kegg/) data.
@@ -24,13 +25,13 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2017-12-08
+* Last update: 2017-12-27
 
 * The model:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
-|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3494|2220|909|
+|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3498|2224|909|
 
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
@@ -51,7 +52,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 * Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
-* Clone aerobic branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers/yeast-metabolic-network-7.6).
+* Clone main branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM).
 * Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
 
 
@@ -61,6 +62,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
 * `calculateContent.m`: Calculates the protein and carb fraction in the biomass pseudo-rxn.
 * `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
+* `clusterBiomass.m`: Separates the biomass in 5 main components: protein, carbohydrate, lipid, RNA and DNA.
 * `convertYmn2FBC2.m`: Converts yeast7 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
 * `getNewIndex.m`: Finds the highest index available in either metabolites or rxns, and then adds one to it, for creating any new species.
 * `missingFields`: Folder with functions for adding missing fields to the model.
