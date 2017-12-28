@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [Ptot,Ctot] = calculateContent(model)
 %
-% Benjamín J. Sánchez. Last edited: 2017-10-31
+% Benjamín J. Sánchez. Last edited: 2017-12-28
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [Ptot,Ctot] = calculateContent(model)
@@ -40,16 +40,20 @@ carbs = {'s_0001[ce]'	180.16      % (1->3)-beta-D-glucan
 Ptot = 0;
 Ctot = 0;
 
-%Count protein/carb content in biomass pseudo-rxn:
-bio_pos = strcmp(model.rxns,'r_4041');
+%Count protein/carb content in the corresponding pseudo-rxn:
+protPos = strcmp(model.metNames,'protein [cytoplasm]');
+carbPos = strcmp(model.metNames,'carbohydrate [cytoplasm]');
+protRxn = model.S(protPos,:) == 1;
+carbRxn = model.S(carbPos,:) == 1;
 for i = 1:length(model.mets)
-    S_ix  = abs(model.S(i,bio_pos));             % mmol/gDW
-    pos_P = strcmp(aas(:,1),model.mets{i});
-    pos_C = strcmp(carbs(:,1),model.mets{i});
-    if sum(pos_P) == 1
-        Ptot = Ptot + S_ix*aas{pos_P,2}/1000;    % mmol/gDW * g/mmol = g/gDW
-    elseif sum(pos_C) == 1
-        Ctot = Ctot + S_ix*carbs{pos_C,2}/1000;  % mmol/gDW * g/mmol = g/gDW
+    posP = strcmp(aas(:,1),model.mets{i});
+    posC = strcmp(carbs(:,1),model.mets{i});
+    if sum(posP) == 1
+        Sprot = abs(model.S(i,protRxn));            % mmol/gDW
+        Ptot  = Ptot + Sprot*aas{posP,2}/1000;      % mmol/gDW * g/mmol = g/gDW
+    elseif sum(posC) == 1
+        Scarb = abs(model.S(i,carbRxn));            % mmol/gDW
+        Ctot  = Ctot + Scarb*carbs{posC,2}/1000;    % mmol/gDW * g/mmol = g/gDW
     end
 end
 

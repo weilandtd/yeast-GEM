@@ -2,7 +2,7 @@
 % modelCorrections.m
 % Corrects various issues in yeast7
 %
-% Benjamín J. Sánchez. Last edited: 2017-10-31
+% Benjamín J. Sánchez. Last edited: 2017-12-28
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %1st change: correct glucan coefficients in biomass reaction
@@ -34,7 +34,7 @@ model.S(strcmp(model.mets,'s_0794[c]'),strcmp(model.rxns,'r_0226')) = -3;
 %4th change: Refit GAM and NGAM to exp. data, change biomass composition
 GAM   = 40.8;   %Data from Van Hoek at al. 1998
 P     = 0.4266; %Data from Van Hoek at al. 1998
-NGAM  = 0.7;    %Refit done in Nilsson et al. 2016
+NGAM  = 0.7;    %Refit done in Nilsson & Nielsen 2016
 model = changeBiomass(model,P,GAM,NGAM);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
