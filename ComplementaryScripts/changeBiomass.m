@@ -6,17 +6,11 @@
 
 function model = changeBiomass(model,P,GAM,NGAM)
 
-%Recalculate GAM based on original GAM:
-Pbase   = 0.4668;         %Value from original biomass comp. (Förster et al. 2003)
-Cbase   = 0.4514;         %Value from original biomass comp. (Förster et al. 2003)
-Pfactor = P/Pbase;
-Cfactor = (Cbase+Pbase-P)/Cbase;    %Assumption: change in protein is balanced with a change in carbohydrate
-fullGAM = GAM + 16.965*Pfactor + 5.210*Cfactor;
-
 %Get current contents and calculate conversion factors for proteins and carbs:
 [Pbase,Cbase] = calculateContent(model);
 Pfactor = P/Pbase;
 Cfactor = (Cbase+Pbase-P)/Cbase;    %Assumption: change in protein is balanced with a change in carbohydrate
+fullGAM = GAM + 16.965*Pfactor + 5.210*Cfactor;
 
 %Change biomass composition:
 protPos = strcmp(model.metNames,'protein [cytoplasm]');
