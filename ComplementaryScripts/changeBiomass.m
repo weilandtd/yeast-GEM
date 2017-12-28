@@ -38,16 +38,16 @@ for i = 1:length(model.mets)
                 
         %Variable ATP growth related maintenance (GAM):
         if isATP || isADP || isH2O || isH || isP
-            model.S(i,bioRxn) = sign(Sbio)*fullGAM;
+            model.S(i,bioRxn) = sign(Sbio)*round(fullGAM,4);
         end
         
     elseif Sprot ~= 0 && Sprot ~= 1
         %Variable aa content in biomass eq:
-        model.S(i,protRxn) = Sprot*Pfactor;
+        model.S(i,protRxn) = round(Sprot*Pfactor,4);
         
     elseif Scarb ~= 0 && Scarb ~= 1
         %Variable carb content in biomass eq:
-        model.S(i,carbRxn) = Scarb*Cfactor;
+        model.S(i,carbRxn) = round(Scarb*Cfactor,4);
     end
 end
 
