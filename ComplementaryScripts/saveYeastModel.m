@@ -1,24 +1,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % saveYeastModel(model,version)
-% Saves model as an .sbml and .txt file.
+% Saves model as a .mat, .xml and .txt file.
 %
-% Benjamín J. Sánchez. Last edited: 2017-10-31
+% Benjamín J. Sánchez. Last edited: 2018-01-18
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function saveYeastModel(model,version)
 
-model.description = ['yeast_' version '.xml'];
+model.description = ['yeastGEM_' version];
 
 %Remove any space in rxnECNumbers:
 model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 
 %Save changes to current model:
 cd ../ModelFiles/mat
-save(['yeast_' version '.mat'],'model');
+save('yeastGEM.mat','model');
 cd ../xml
-writeCbModel(model,'sbml',['yeast_' version '.xml']);
+writeCbModel(model,'sbml','yeastGEM.xml');
 cd ../txt
-writeCbModel(model,'text',['yeast_' version '.txt']);
+writeCbModel(model,'text','yeastGEM.txt');
 
 %Detect boundary metabolites and save them in a .txt file:
 cd ../../ComplementaryScripts
