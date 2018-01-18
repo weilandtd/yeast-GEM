@@ -1,13 +1,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% saveYeastModel(model,version)
+% saveYeastModel(model)
 % Saves model as a .mat, .xml and .txt file.
 %
 % Benjamín J. Sánchez. Last edited: 2018-01-18
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function saveYeastModel(model,version)
+function saveYeastModel(model)
 
-model.description = ['yeastGEM_' version];
+model.description = 'yeastGEM';
 
 %Remove any space in rxnECNumbers:
 model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
