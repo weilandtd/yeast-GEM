@@ -27,6 +27,25 @@ for i = 1:length(model.rxns)
 end
 fclose(fid);
 
+%Retrieve SBML toolbox version:
+paths    = path;
+paths    = strsplit(paths,';');
+SBMLpos  = ~cellfun(@isempty,strfind(paths,'\SBMLToolbox-'));
+SBMLpath = paths(SBMLpos);
+pathLen  = cellfun(@numel,SBMLpath);
+SBMLpath = SBMLpath(pathLen == min(pathLen));
+SBMLpath = SBMLpath{1};     %in case of tie choose any
+slashPos = strfind(SBMLpath,'\');
+SBMLpath = SBMLpath(1:slashPos(end));
+fid      = fopen([SBMLpath 'VERSION.txt'],'r');
+SBMLTver = fscanf(fid,'%s');
+fclose(fid);
+
+%Save file with versions:
+fid = fopen('dependencies.txt','wt');
+fprintf(fid,['SBML toolbox version: \t' SBMLTver '\n']);
+fclose(fid);
+
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
