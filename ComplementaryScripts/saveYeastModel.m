@@ -37,7 +37,7 @@ fclose(fid);
 
 %Save file with versions:
 fid = fopen('dependencies.txt','wt');
-fprintf(fid,['SBML toolbox\tv' SBMLTver '\n']);
+fprintf(fid,['SBML_toolbox\tv' SBMLTver '\n']);
 fields = fieldnames(model.modelVersion);
 for i = 1:length(fields)
     value = model.modelVersion.(fields{i});
