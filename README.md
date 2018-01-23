@@ -13,10 +13,12 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
   * Added information:
     * `subSystems` and `rxnECnumbers` added to reactions based on [KEGG](http://www.genome.jp/kegg/) & [Swissprot](http://www.uniprot.org/uniprot/?query=*&fil=organism%3A%22Saccharomyces+cerevisiae+%28strain+ATCC+204508+%2F+S288c%29+%28Baker%27s+yeast%29+%5B559292%5D%22+AND+reviewed%3Ayes) data.
     * `geneNames` added to genes based on [KEGG](http://www.genome.jp/kegg/) data.
-    * `rxnKEGGID` added from old version
-    * `rxnNotes` enriched with Pubmed ids (`pmid`) from old version
-    * `rxnConfidenceScores` added based on [automatic script](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/f7870589d16c08e18057a8f6cc880466373b77a7/ComplementaryScripts/getConfidenceScores.m)
+    * `rxnKEGGID` added from old version.
+    * `rxnNotes` enriched with Pubmed ids (`pmid`) from old version.
+    * `rxnConfidenceScores` added based on [automatic script](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/f7870589d16c08e18057a8f6cc880466373b77a7/ComplementaryScripts/getConfidenceScores.m).
+    * `metFormulas` added for lipid species.
     * Boundary metabolites tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/yeast-metabolic-network-7.6/blob/master/ComplementaryScripts/boundaryMets.txt)).
+    * Dependencies tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/yeast-metabolic-network-7.6/blob/master/ComplementaryScripts/dependencies.txt)).
   * Simulation improvements:
     * Glucan composition fixed in biomass pseudo-rxn.
     * Proton balance in membrane restored.
@@ -28,7 +30,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-01-18
+* Last update: 2018-01-23
 
 * The model:
 
@@ -67,13 +69,15 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 * `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
 * `clusterBiomass.m`: Separates the biomass in 5 main components: protein, carbohydrate, lipid, RNA and DNA.
 * `convertYmn2FBC2.m`: Converts yeast7 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
+* `dependencies.txt`: Tracks SBML versions and levels used for saving the model.
 * `getNewIndex.m`: Finds the highest index available in either metabolites or rxns, and then adds one to it, for creating any new species.
+* `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file.
 * `missingFields`: Folder with functions for adding missing fields to the model.
    * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from KEGG. 
    * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m` and `findSubSystem.m` for reading the databases. The latter 3 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/gecko).
    * `ProtDatabase.mat`: Contains the relevant data from Swissprot and KEGG.
 * `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
-* `saveYeastModel.m`: Saves yeast model as an `sbml` and `txt` file, and creates `boundaryMets.txt`.
+* `saveYeastModel.m`: Saves yeast model as a `.mat`, `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
 
 
 ## Contributors
