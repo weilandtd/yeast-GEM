@@ -7,16 +7,16 @@
 % Exchange reactions -none;
 
 % hongzhong, Benjamin
-% January 15, 2018
+% January 23, 2018
 
 %%%%%%%%%%%%%%%%%%%%
 function rxnConfidenceScores = getConfidenceScores(model)
-t=length(model.rxnNames)
-rxnConfidenceScores = cell(t,1)
+t=length(model.rxnNames);
+rxnConfidenceScores = cell(t,1);
 
 for i = 1:t
     if ~isempty(model.rules{i}) 
-        if ~isempty(strfind(model.rxnReferences{i},'pmid:'))
+        if ~isempty(strfind(model.rxnNotes{i},'pmid:'))
             rxnConfidenceScores{i} = 3;
         else
             rxnConfidenceScores{i} = 2;
