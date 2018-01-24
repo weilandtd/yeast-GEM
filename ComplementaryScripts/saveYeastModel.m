@@ -30,10 +30,17 @@ fclose(fid);
 %Retrieve SBML toolbox version:
 SBMLpath = which('SBMLToolbox.m');
 slashPos = strfind(SBMLpath,'\');
-SBMLpath = SBMLpath(1:slashPos(end-1));
-fid      = fopen([SBMLpath 'VERSION.txt'],'r');
-SBMLTver = fscanf(fid,'%s');
-fclose(fid);
+if isempty(slashPos)
+    slashPos = strfind(SBMLpath,'/');
+end
+try
+    SBMLpath = SBMLpath(1:slashPos(end-1));
+    fid      = fopen([SBMLpath 'VERSION.txt'],'r');
+    SBMLTver = fscanf(fid,'%s');
+    fclose(fid);
+catch
+    SBMLTver = '?';
+end
 
 %Save file with versions:
 fid = fopen('dependencies.txt','wt');
