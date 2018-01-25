@@ -13,7 +13,6 @@ model.description = 'yeastGEM';
 model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 
 %Save changes to current model:
-save('../ModelFiles/mat/yeastGEM.mat','model');
 writeCbModel(model,'sbml','../ModelFiles/xml/yeastGEM.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
 
