@@ -1,8 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % saveYeastModel(model)
 % Saves model as a .mat, .xml and .txt file.
-%
-% Benjamín J. Sánchez. Last edited: 2018-01-22
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function saveYeastModel(model)
@@ -29,10 +27,17 @@ fclose(fid);
 %Retrieve SBML toolbox version:
 SBMLpath = which('SBMLToolbox.m');
 slashPos = strfind(SBMLpath,'\');
-SBMLpath = SBMLpath(1:slashPos(end-1));
-fid      = fopen([SBMLpath 'VERSION.txt'],'r');
-SBMLTver = fscanf(fid,'%s');
-fclose(fid);
+if isempty(slashPos)
+    slashPos = strfind(SBMLpath,'/');
+end
+try
+    SBMLpath = SBMLpath(1:slashPos(end-1));
+    fid      = fopen([SBMLpath 'VERSION.txt'],'r');
+    SBMLTver = fscanf(fid,'%s');
+    fclose(fid);
+catch
+    SBMLTver = '?';
+end
 
 %Save file with versions:
 fid = fopen('dependencies.txt','wt');
