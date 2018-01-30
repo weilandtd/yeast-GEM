@@ -4,6 +4,14 @@
 
 function increaseVersion(version)
 
+%Check if history has been updated:
+fid = fopen('../history.md','r');
+history = fscanf(fid,'%s');
+fclose(fid);
+if isempty(strfind(history,['yeast' version ':']))
+    error('ERROR: update history.md first')
+end
+
 %Load model:
 initCobraToolbox
 model = readCbModel('../ModelFiles/xml/yeastGEM.xml');
