@@ -21,7 +21,6 @@ model.description = ['yeastGEM_v' version];
 saveYeastModel(model)
 
 %Store model as .mat (only for releases):
-mkdir('../ModelFiles/mat');
 save('../ModelFiles/mat/yeastGEM.mat','model');
 
 %Update version file:
