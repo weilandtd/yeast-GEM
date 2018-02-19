@@ -31,6 +31,8 @@ model.ub(strcmp(model.rxns,'r_0472')) = 0;
 GAM   = 30.49;  %Data from Nissen et al. 1997
 P     = 0.461;  %Data from Nissen et al. 1997
 NGAM  = 0;      %Refit done in Jouthen et al. 2012
+cd modelCuration
 model = changeBiomass(model,P,GAM,NGAM);
+cd ..
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
