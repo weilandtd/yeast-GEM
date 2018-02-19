@@ -23,16 +23,10 @@ end
 fclose(fid);
 
 %Retrieve SBML toolbox version:
-SBMLpath = which('SBMLToolbox.m');
-slashPos = getSlashPos(SBMLpath);
-try
-    SBMLpath = SBMLpath(1:slashPos(end-1));
-    fid      = fopen([SBMLpath 'VERSION.txt'],'r');
-    SBMLTver = fscanf(fid,'%s');
-    fclose(fid);
-catch
-    SBMLTver = '?';
-end
+SBMLTver = getVersion('SBMLToolbox.m','VERSION.txt');
+
+%Retrieve RAVEN version:
+RAVENver = getVersion('checkInstallation.m','version.txt');
 
 %Retrieve latest COBRA commit:
 COBRApath = which('initCobraToolbox.m');
@@ -50,8 +44,26 @@ for i = 1:length(fields)
     value = model.modelVersion.(fields{i});
     fprintf(fid,[fields{i} '\t' num2str(value) '\n']);
 end
+fprintf(fid,['RAVEN toolbox\tv' RAVENver '\n']);
 fprintf(fid,['COBRA latest commit\t' COBRAcommit(1:7) '\n']);
 fclose(fid);
+
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function version = getVersion(IDfileName,VERfileName)
+
+try
+    path     = which(IDfileName);
+    slashPos = getSlashPos(path);
+    path     = path(1:slashPos(end-1));
+    fid      = fopen([path VERfileName],'r');
+    version  = fscanf(fid,'%s');
+    fclose(fid);
+catch
+    version = '?';
+end
 
 end
 
