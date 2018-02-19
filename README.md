@@ -47,9 +47,8 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 ### Required Software:
 
 * A functional Matlab installation (MATLAB 7.3 or higher)
-* One of the 2 following:
-  * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
-  * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
+* The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
+* The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
 * A [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
 ### Dependencies - Recommended Software:
