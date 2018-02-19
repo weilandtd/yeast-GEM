@@ -24,10 +24,7 @@ fclose(fid);
 
 %Retrieve SBML toolbox version:
 SBMLpath = which('SBMLToolbox.m');
-slashPos = strfind(SBMLpath,'\');
-if isempty(slashPos)
-    slashPos = strfind(SBMLpath,'/');
-end
+slashPos = getSlashPos(SBMLpath);
 try
     SBMLpath = SBMLpath(1:slashPos(end-1));
     fid      = fopen([SBMLpath 'VERSION.txt'],'r');
@@ -39,10 +36,7 @@ end
 
 %Retrieve latest COBRA commit:
 COBRApath = which('initCobraToolbox.m');
-slashPos = strfind(COBRApath,'\');
-if isempty(slashPos)
-    slashPos = strfind(COBRApath,'/');
-end
+slashPos  = getSlashPos(COBRApath);
 currentPath = pwd;
 cd(COBRApath(1:slashPos(end)-1))
 COBRAcommit = git('log -n 1 --format=%H');
@@ -58,6 +52,17 @@ for i = 1:length(fields)
 end
 fprintf(fid,['COBRA latest commit\t' COBRAcommit(1:7) '\n']);
 fclose(fid);
+
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function slashPos = getSlashPos(path)
+
+slashPos = strfind(path,'\');
+if isempty(slashPos)
+    slashPos = strfind(path,'/');
+end
 
 end
 
