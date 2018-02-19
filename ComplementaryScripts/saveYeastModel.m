@@ -29,10 +29,11 @@ SBMLTver = getVersion('SBMLToolbox.m','VERSION.txt');
 RAVENver = getVersion('checkInstallation.m','version.txt');
 
 %Retrieve latest COBRA commit:
-COBRApath = which('initCobraToolbox.m');
-slashPos  = getSlashPos(COBRApath);
+COBRApath   = which('initCobraToolbox.m');
+slashPos    = getSlashPos(COBRApath);
+COBRApath   = COBRApath(1:slashPos(end)-1);
 currentPath = pwd;
-cd(COBRApath(1:slashPos(end)-1))
+cd(COBRApath)
 COBRAcommit = git('log -n 1 --format=%H');
 cd(currentPath)
 
@@ -44,8 +45,8 @@ for i = 1:length(fields)
     value = model.modelVersion.(fields{i});
     fprintf(fid,[fields{i} '\t' num2str(value) '\n']);
 end
-fprintf(fid,['RAVEN toolbox\tv' RAVENver '\n']);
-fprintf(fid,['COBRA latest commit\t' COBRAcommit(1:7) '\n']);
+fprintf(fid,['RAVEN_toolbox\tv' RAVENver '\n']);
+fprintf(fid,['COBRA_toolbox\tcommit ' COBRAcommit(1:7) '\n']);
 fclose(fid);
 
 end
@@ -71,9 +72,9 @@ end
 
 function slashPos = getSlashPos(path)
 
-slashPos = strfind(path,'\');
+slashPos = strfind(path,'\');       %Windows
 if isempty(slashPos)
-    slashPos = strfind(path,'/');
+    slashPos = strfind(path,'/');   %MAC/Linux
 end
 
 end
