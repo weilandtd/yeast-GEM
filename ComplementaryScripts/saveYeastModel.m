@@ -37,6 +37,17 @@ catch
     SBMLTver = '?';
 end
 
+%Retrieve latest COBRA commit:
+COBRApath = which('initCobraToolbox.m');
+slashPos = strfind(COBRApath,'\');
+if isempty(slashPos)
+    slashPos = strfind(COBRApath,'/');
+end
+currentPath = pwd;
+cd(COBRApath(1:slashPos(end)-1))
+COBRAcommit = git('log -n 1 --format=%H');
+cd(currentPath)
+
 %Save file with versions:
 fid = fopen('dependencies.txt','wt');
 fprintf(fid,['SBML_toolbox\tv' SBMLTver '\n']);
@@ -45,6 +56,7 @@ for i = 1:length(fields)
     value = model.modelVersion.(fields{i});
     fprintf(fid,[fields{i} '\t' num2str(value) '\n']);
 end
+fprintf(fid,['COBRA latest commit\t' COBRAcommit(1:7) '\n']);
 fclose(fid);
 
 end
