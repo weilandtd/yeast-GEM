@@ -48,7 +48,8 @@ for i = 1:length(model.mets)
             model.metFormulas{i} = [model.metFormulas{aaPos} 'R'];
             model.metFormulas{i} = takeOutFromFormula(model.metFormulas{i},'OH');
         catch
-            model.metFormulas{i} = 'NA';    %f-met CHANGE LATER
+            %formyl-met: C6H11NO3S
+            model.metFormulas{i} = 'C6H10NO2SR';
         end
         
         %Correct associated tRNA pair:
