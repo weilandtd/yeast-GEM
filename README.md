@@ -9,7 +9,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
   * Format changes:
     * FBCv2 compliant.
     * Compatible with latest COBRA and RAVEN parsers.
-    * Biomass clustered by 5 main groups: protein, carbohydrate, lipid, RNA and DNA
+    * Biomass clustered by 5 main groups: protein, carbohydrate, lipid, RNA and DNA.
   * Added information:
     * `subSystems` and `rxnECnumbers` added to reactions based on [KEGG](http://www.genome.jp/kegg/) & [Swissprot](http://www.uniprot.org/uniprot/?query=*&fil=organism%3A%22Saccharomyces+cerevisiae+%28strain+ATCC+204508+%2F+S288c%29+%28Baker%27s+yeast%29+%5B559292%5D%22+AND+reviewed%3Ayes) data.
     * `geneNames` added to genes based on [KEGG](http://www.genome.jp/kegg/) data.
@@ -19,6 +19,8 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
     * `metFormulas` added for lipid species.
     * Boundary metabolites tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/boundaryMets.txt)).
     * Dependencies tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/dependencies.txt)).
+  * Manual curation:
+    * `metFormulas` for tRNA's curated and mass-balanced.
   * Simulation improvements:
     * Glucan composition fixed in biomass pseudo-rxn.
     * Proton balance in membrane restored.
@@ -30,7 +32,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-02-19
+* Last update: 2018-02-23
 
 * The model:
 
@@ -74,6 +76,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
    * `checkMetBalance.m`: Shows rxns that consume/produce a given metabolite in the model.
    * `makeFormulasCompliant.m`: Fixes the compliance problems of some metabolite formulas.
    * `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
+   * `takeOutFromFormula.m`: Takes away from formula each of the elements specified.
 * `otherChanges`: Folder with other types of changes.
    * `anaerobicModel.m`: Transforms the model to anaerobic conditions.
    * `clusterBiomass.m`: Separates the biomass in 5 main components: protein, carbohydrate, lipid, RNA and DNA.
