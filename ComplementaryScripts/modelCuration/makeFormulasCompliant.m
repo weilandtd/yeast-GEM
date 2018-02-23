@@ -30,10 +30,12 @@ aas = {'s_0955[c]'	'ala'   	% A     Alanine
 %i.e. aa-tRNA(aa) will have "R" + the formula of the corresponding aa and
 %tRNA(aa) will just have an "R". Example:
 %     tRNA(Ala): C10H17 O10PR2(C5H8O6PR)n -> R
-% Ala-tRNA(Ala): C13H22NO11PR2(C5H8O6PR)n -> C3H5NOR (ala-R)
+% Ala-tRNA(Ala): C13H22NO11PR2(C5H8O6PR)n -> C3H6NOR (ala-R without an -OH)
 % Cycle in which the 2 are involved:
-% r_0157: ATP + L-alanine + tRNA(Ala) -> Ala-tRNA(Ala) + AMP + diphosphate
-% r_4047: 0.4193 Ala-tRNA(Ala) + ...  -> 0.4193 tRNA(Ala) + ... + protein
+% r_4047: 0.4193 Ala-tRNA(Ala) + ...  -> 0.4193 tRNA(Ala) + ... + protein (growth)
+% r_0157: ATP           + L-alanine + tRNA(Ala) -> Ala-tRNA(Ala) + AMP         + diphosphate
+%         C10H12N5O13P3   C3H7NO2     R      	   C3H6NOR		   C10H12N5O7P	 HO7P2
+
 for i = 1:length(model.mets)
     name    = model.metNames{i};
     formula = model.metFormulas{i};
@@ -44,6 +46,7 @@ for i = 1:length(model.mets)
             aaID   = aas{strcmp(aas(:,2),aaName),1};
             aaPos  = strcmp(model.mets,aaID);
             model.metFormulas{i} = [model.metFormulas{aaPos} 'R'];
+            model.metFormulas{i} = takeOutFromFormula(model.metFormulas{i},'OH');
         catch
             model.metFormulas{i} = 'NA';    %f-met CHANGE LATER
         end
