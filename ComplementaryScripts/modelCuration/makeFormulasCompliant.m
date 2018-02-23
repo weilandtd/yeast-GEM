@@ -25,12 +25,12 @@ aas = {'s_0955[c]'	'ala'   	% A     Alanine
        's_1048[c]'	'trp'       % W     Tryptophan
        's_1051[c]'	'tyr'};     % Y     Tyrosine
 
-%tRNA's are just produced and consumed in single loops, so we can just remove
-%the radical part and still maintain mass balances, i.e. aa-tRNA(aa) will have
-%the same formula as aa and tRNA(aa) won't have any formula at all. Example:
-%     tRNA(Ala): C10H17 O10PR2(C5H8O6PR)n
-% Ala-tRNA(Ala): C13H22NO11PR2(C5H8O6PR)n
-%    diff (ala): C3 H5 NO
+%tRNA's are just produced and consumed in single loops, so we can just
+%replace the radical part with an "R" and still maintain mass balances,
+%i.e. aa-tRNA(aa) will have "R" + the formula of the corresponding aa and
+%tRNA(aa) will just have an "R". Example:
+%     tRNA(Ala): C10H17 O10PR2(C5H8O6PR)n -> R
+% Ala-tRNA(Ala): C13H22NO11PR2(C5H8O6PR)n -> C3H5NOR (ala-R)
 % Cycle in which the 2 are involved:
 % r_0157: ATP + L-alanine + tRNA(Ala) -> Ala-tRNA(Ala) + AMP + diphosphate
 % r_4047: 0.4193 Ala-tRNA(Ala) + ...  -> 0.4193 tRNA(Ala) + ... + protein
@@ -43,7 +43,7 @@ for i = 1:length(model.mets)
             aaName = lower(name(1:strfind(name,'-')-1));
             aaID   = aas{strcmp(aas(:,2),aaName),1};
             aaPos  = strcmp(model.mets,aaID);
-            model.metFormulas{i} = model.metFormulas{aaPos};
+            model.metFormulas{i} = [model.metFormulas{aaPos} 'R'];
         catch
             model.metFormulas{i} = 'NA';    %f-met CHANGE LATER
         end
@@ -52,7 +52,7 @@ for i = 1:length(model.mets)
         pairName = name(strfind(name,'-')+1:end);
         pairPos  = strcmp(model.metNames,pairName);
         if sum(pairPos) > 0
-            model.metFormulas{pairPos} = 'NA';
+            model.metFormulas{pairPos} = 'R';
         end
     end
 end
