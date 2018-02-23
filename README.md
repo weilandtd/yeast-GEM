@@ -71,6 +71,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 * `modelCuration`: Folder with curation functions.
    * `calculateContent.m`: Calculates the protein and carb fraction in the biomass pseudo-rxn.
    * `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
+   * `checkMetBalance.m`: Shows rxns that consume/produce a given metabolite in the model.
    * `makeFormulasCompliant.m`: Fixes the compliance problems of some metabolite formulas.
    * `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
 * `otherChanges`: Folder with other types of changes.
