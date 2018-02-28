@@ -39,14 +39,14 @@ cd(currentPath)
 
 %Save file with versions:
 fid = fopen('dependencies.txt','wt');
+fprintf(fid,['RAVEN_toolbox\tv' RAVENver '\n']);
+fprintf(fid,['COBRA_toolbox\tcommit ' COBRAcommit(1:7) '\n']);
 fprintf(fid,['SBML_toolbox\tv' SBMLTver '\n']);
 fields = fieldnames(model.modelVersion);
 for i = 1:length(fields)
     value = model.modelVersion.(fields{i});
     fprintf(fid,[fields{i} '\t' num2str(value) '\n']);
 end
-fprintf(fid,['RAVEN_toolbox\tv' RAVENver '\n']);
-fprintf(fid,['COBRA_toolbox\tcommit ' COBRAcommit(1:7) '\n']);
 fclose(fid);
 
 end
