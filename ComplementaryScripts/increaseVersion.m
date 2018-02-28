@@ -8,7 +8,7 @@ function increaseVersion(version)
 fid = fopen('../history.md','r');
 history = fscanf(fid,'%s');
 fclose(fid);
-if isempty(strfind(history,['yeast' version ':']))
+if contains(history,['yeast' version ':'])
     error('ERROR: update history.md first')
 end
 

@@ -41,7 +41,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 |_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3496|2224|909|
 
 
-This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
+This repository is administered by BenjamÃ­n J. SÃ¡nchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
 
 ## Installation
@@ -49,9 +49,9 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 ### Required Software:
 
 * A functional Matlab installation (MATLAB 7.3 or higher)
-* One of the 2 following:
-  * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
-  * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
+* The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
+* The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
+* A [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
 ### Dependencies - Recommended Software:
 * libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
@@ -93,5 +93,5 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://
 * [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Gothenburg Sweden
 * [Feiran Li](https://www.chalmers.se/en/staff/Pages/feiranl.aspx) ([@feiranl](https://github.com/feiranl)), Chalmers University of Technology, Gothenburg Sweden
 * [Hongzhong Lu](https://www.chalmers.se/en/Staff/Pages/luho.aspx) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Gothenburg Sweden
-* [Simonas Marcišauskas](https://www.chalmers.se/en/Staff/Pages/simmarc.aspx) ([@simas232](https://github.com/simas232)), Chalmers University of Technology, Gothenburg Sweden
-* [Benjamín J. Sánchez](https://www.chalmers.se/en/staff/Pages/bensan.aspx) ([@BenjaSanchez](https://github.com/benjasanchez)), Chalmers University of Technology, Gothenburg Sweden
+* [Simonas MarciÅ¡auskas](https://www.chalmers.se/en/Staff/Pages/simmarc.aspx) ([@simas232](https://github.com/simas232)), Chalmers University of Technology, Gothenburg Sweden
+* [BenjamÃ­n J. SÃ¡nchez](https://www.chalmers.se/en/staff/Pages/bensan.aspx) ([@BenjaSanchez](https://github.com/benjasanchez)), Chalmers University of Technology, Gothenburg Sweden
