@@ -22,30 +22,56 @@ for i = 1:length(model.rxns)
 end
 fclose(fid);
 
-%Retrieve SBML toolbox version:
-SBMLpath = which('SBMLToolbox.m');
-slashPos = strfind(SBMLpath,'\');
-if isempty(slashPos)
-    slashPos = strfind(SBMLpath,'/');
-end
-try
-    SBMLpath = SBMLpath(1:slashPos(end-1));
-    fid      = fopen([SBMLpath 'VERSION.txt'],'r');
-    SBMLTver = fscanf(fid,'%s');
-    fclose(fid);
-catch
-    SBMLTver = '?';
-end
+%Retrieve RAVEN version:
+RAVENver = getVersion('checkInstallation.m','version.txt');
+
+%Retrieve latest COBRA commit:
+COBRApath   = which('initCobraToolbox.m');
+slashPos    = getSlashPos(COBRApath);
+COBRApath   = COBRApath(1:slashPos(end)-1);
+currentPath = pwd;
+cd(COBRApath)
+COBRAcommit = git('log -n 1 --format=%H');
+cd(currentPath)
 
 %Save file with versions:
 fid = fopen('dependencies.txt','wt');
-fprintf(fid,['SBML_toolbox\tv' SBMLTver '\n']);
+fprintf(fid,['RAVEN_toolbox\tv' RAVENver '\n']);
+fprintf(fid,['COBRA_toolbox\tcommit ' COBRAcommit(1:7) '\n']);
 fields = fieldnames(model.modelVersion);
 for i = 1:length(fields)
     value = model.modelVersion.(fields{i});
     fprintf(fid,[fields{i} '\t' num2str(value) '\n']);
 end
 fclose(fid);
+
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function version = getVersion(IDfileName,VERfileName)
+
+try
+    path     = which(IDfileName);
+    slashPos = getSlashPos(path);
+    path     = path(1:slashPos(end-1));
+    fid      = fopen([path VERfileName],'r');
+    version  = fscanf(fid,'%s');
+    fclose(fid);
+catch
+    version = '?';
+end
+
+end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function slashPos = getSlashPos(path)
+
+slashPos = strfind(path,'\');       %Windows
+if isempty(slashPos)
+    slashPos = strfind(path,'/');   %MAC/Linux
+end
 
 end
 
