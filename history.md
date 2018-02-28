@@ -32,3 +32,10 @@ First release of the yeast model
 * solved inter-OS issues
 * remade license to follow GitHub format
 * added `history.md` and made it a requirement to update when increasing version
+
+### yeast 7.8.3:
+* curated tRNA's formulas
+* started tracking COBRA and RAVEN versions
+* dropped SBML toolbox as requirement
+* reorganized `complementaryScripts`
+* switched to a CC-BY-4.0 license
