@@ -16,7 +16,7 @@ update_annotation = load('updated metabolite annotation.mat')
 % column 7: ChEBI ID
 function model = updateMetaboliteAnnotation(model,update_annotation)
 for  i = 1 : size(model.mets, 1)
-model.metNames{1} = update_annotation.metabolite{i,2};
+model.metNames{i} = update_annotation.metabolite{i,2};
 model.metCharges(i,1) = str2double(update_annotation.metabolite{i,4});
 model.metKEGGID{i} = update_annotation.metabolite{i,6};
 model.metChEBIID{i} = update_annotation.metabolite{i,7};
