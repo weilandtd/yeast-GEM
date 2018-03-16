@@ -8,22 +8,23 @@
 function model = updateMetaboliteAnnotation(model)
 
 %Load data:
-metData = tdfread('../../ComplementaryData/metabolite_manual_curation.tsv','\t');
+fid = fopen('../../ComplementaryData/metabolite_manual_curation.tsv');
+metaboliteData = textscan(fid,'%s %s %s %s %f32 %s %s %s %f32 %s','Delimiter','\t','HeaderLines',1);
+fclose(fid);
 
-for i = 1:length(metData)
+for i = 1:length(metaboliteData{1})
     for j = 1:length(model.mets)
-        if startsWith(model.metNames{j},[metData.name_original(i,:) ' ['])	%old name
-            
+        if startsWith(model.metNames{j},[metaboliteData{2}{i} ' ['])	%old name
             %find corresponding compartment:
             metName = model.metNames{j};
             comp    = metName(strfind(metName,' ['):strfind(metName,']'));
-            metName = [metData.name_new(i,:) comp];
+            metName = [metaboliteData{6}{i} comp];
             
             %Update other fields:
-            model.metNames{j}   = metName;
-            model.metChEBIID{j} = metData.CHEBI_new(i,:);
-            model.metKEGGID{j}  = metData.KEGG_new(i,:);
-            model.metCharges(j) = metData.charge_new(i);
+            model.metNames{j}   = metName;              %new name
+            model.metChEBIID{j} = metaboliteData{7}{i};	%new CHEBI
+            model.metKEGGID{j}  = metaboliteData{8}{i};	%new KEGG
+            model.metCharges(j) = metaboliteData{9}(i);	%new charge
         end
     end
 end
