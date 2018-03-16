@@ -1,15 +1,15 @@
 metID	name_original	CHEBI_original	KEGG_original	charge_original	name_new	CHEBI_new	KEGG_new	charge_new	remark
-s_0260	3-phosphoglycerate	CHEBI:58272	C00197	-3	3-phosphonato-D-glycerate(3?)	CHEBI:58272	C00197	-3	update fullname. the old keggid represent for the molecular form
+s_0260	3-phosphoglycerate	CHEBI:58272	C00197	-3	3-phosphonato-D-glycerate(3-)	CHEBI:58272	C00197	-3	update fullname. the old keggid represent for the molecular form
 s_0415	alpha-D-ribose 1-phosphate	CHEBI:57720	C00442	-2	alpha-D-ribose 1-phosphate(2-)	CHEBI:57720	C00620	-2	update fullname and kegg id. the new keggid is for the molecular form
 s_0664	ergosta-5,7,24(28)-trien-3beta-ol	CHEBI:52972		0	ergosta-5,7,24(28)-trien-3beta-ol	CHEBI:52972	C15780	0	update keggid
 s_0924	iron	CHEBI:29033	C14818	2	iron(2+)	CHEBI:29033	C14818	2	update fullname
 s_1376	prenyl diphosphate	CHEBI:57623	C00235	-3	prenyl diphosphate(3-)	CHEBI:57623	C00235	-3	update fullname
 s_1432	sn-glycero-3-phosphocholine	CHEBI:16870	C00670	1	sn-glycero-3-phosphocholine	CHEBI:16870	C00670	0	Right chebiID.Wrong standard formula and charge according to the chebiID
-s_1532	TTP	CHEBI:58938	C03028	-3	thiamine(1+) triphosphate(4?)	CHEBI:58938	C03028	-3	Right chebiID. Not standard fullname
+s_1532	TTP	CHEBI:58938	C03028	-3	thiamine(1+) triphosphate(4-)	CHEBI:58938	C03028	-3	Right chebiID. Not standard fullname
 s_2793	icosanoyl-CoA	CHEBI:15830	C01092	0	icosanoyl-CoA	CHEBI:15527	C02041	0	Wrong chebiID and keggid. CHEBI:15527
 s_2795	docosanoyl-CoA	CHEBI:15343	C00084	0	docosanoyl-CoA	CHEBI:65088	C16528	0	Wrong chebiID and keggid. CHEBI:65088. Has charge of -4
 s_2810	trans-hexadec-2-enoyl-CoA	CHEBI:16040	C00380	0	trans-hexadec-2-enoyl-CoA	CHEBI:24549	C05272	0	Wrong chebiID and keggid. Wrong fullname.   hexadecenoyl-CoA;  CHEBI:24549
-s_2819	palmitoleoyl-CoA	CHEBI:15936	C00181	-4	palmitoleoyl-CoA(4?)	CHEBI:61540	C21072	-4	wrong chebiID and keggid. updata fullname. keggid and full name in chebi. CHEBI:61540
+s_2819	palmitoleoyl-CoA	CHEBI:15936	C00181	-4	palmitoleoyl-CoA(4-)	CHEBI:61540	C21072	-4	wrong chebiID and keggid. updata fullname. keggid and full name in chebi. CHEBI:61540
 s_2822	butyrate	CHEBI:58370	C00459	0	butyrate	CHEBI:17968	C00246	-1	wrong chebiID and keggid. updata keggid. formula and charge. CHEBI:17968
 s_2824	hexanoate	CHEBI:23929	C15777	0	hexanoate	CHEBI:17120	C01585	-1	Wrong chebiID and keggid. updata keggid. formula and charge. CHEBI:17120
 s_2884	butanoyl-CoA	CHEBI:17306	C00208	0	butanoyl-CoA	CHEBI:15517	C00136	0	wrong chebiID and keggid. CHEBI:15517. Has charge of -4
@@ -116,7 +116,7 @@ s_2936	1-acyl-sn-glycerol 3-phosphate (16:1)			0	1-acyl-sn-glycerol 3-phosphate 
 s_2937	1-acyl-sn-glycerol 3-phosphate (18:0)			0	1-acyl-sn-glycerol 3-phosphate (18:0)	CHEBI:74850		0	mouse
 s_2938	1-acyl-sn-glycerol 3-phosphate (18:1)			0	1-acyl-sn-glycerol 3-phosphate (18:1)	CHEBI:62837		0	mouse
 s_2940	acylglycerone phosphate (16:0)			0	acylglycerone phosphate (16:0)	CHEBI:17868	C01192	0	MOUSE
-s_2941	acylglycerone phosphate (16:1)			0	acylglycerone phosphate (16:1)	CHEBI:74694		-2	CHEBI:74694  for 1-palmitoleoyl-sn-glycerol 3-phosphate(2?);
+s_2941	acylglycerone phosphate (16:1)			0	acylglycerone phosphate (16:1)	CHEBI:74694		-2	CHEBI:74694  for 1-palmitoleoyl-sn-glycerol 3-phosphate(2-);
 s_2942	acylglycerone phosphate (18:0)			0	acylglycerone phosphate (18:0)	CHEBI:36476	C03805	-2	chebi has some problemthis is a charged chebi id 2-
 s_2943	acylglycerone phosphate (18:1)			0	acylglycerone phosphate (18:1)	CHEBI:36475	C03630	0	mouse
 s_2954	phosphatidate (1-16:0, 2-16:1)			0	phosphatidate (1-16:0, 2-16:1)	CHEBI:73998		-2	;chebi has some problem;this is a charged chebi id 2-
