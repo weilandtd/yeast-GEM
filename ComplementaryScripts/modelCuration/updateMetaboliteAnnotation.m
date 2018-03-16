@@ -1,30 +1,31 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% model = updateMetaboliteAnnotation(model)
 % update the metabolite annoation information in the model
-% updateMetaboliteAnnotation.m is a function from cobra
-% March 11, 2018 by Hongzhong
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Hongzhong Lu & Benjamín J. Sánchez
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-model = readCbModel('yeastGEM.xml');
-update_annotation = load('updated metabolite annotation.mat')
-% update_annotation
-% column 1: Abbreviation
-% column 2: Description
-% column 3: Charged formula
-% column 4: Charge
-% column 5: Compartment
-% column 6: KEGG ID
-% column 7: ChEBI ID
-function model = updateMetaboliteAnnotation(model,update_annotation)
-for  i = 1 : size(model.mets, 1)
-model.metNames{i} = update_annotation.metabolite{i,2};
-model.metCharges(i,1) = str2double(update_annotation.metabolite{i,4});
-model.metKEGGID{i} = update_annotation.metabolite{i,6};
-model.metChEBIID{i} = update_annotation.metabolite{i,7};
+function model = updateMetaboliteAnnotation(model)
+
+%Load data:
+fid = fopen('../../ComplementaryData/metabolite_manual_curation.csv');
+metaboliteData = textscan(fid,'%s %s %s %s %f32 %s %s %s %f32 %s','Delimiter',',','HeaderLines',1);
+fclose(fid);
+
+for i = 1:length(metaboliteData)
+    for j = 1:length(model.mets)
+        if contains(model.mets{j},metaboliteData{1}{i})	%metID
+            metName = model.metNames{i};
+            comp    = metName(strfind(metName,' ['):strfind(metName,'['));
+            metName = [metaboliteData{6}{i} comp];
+            model.metNames{j}   = metName;              %new name
+            model.metChEBIID{j} = metaboliteData{7}{i};	%new CHEBI
+            model.metKEGGID{j}  = metaboliteData{8}{i};	%new KEGG
+            model.metCharges(j) = metaboliteData{9}(i);	%new charge
+        end
+    end
 end
 
-%model.metCharges(isnan(model.metCharges))= []
-
 end
 
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
