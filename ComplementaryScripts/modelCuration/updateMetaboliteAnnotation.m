@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % model = updateMetaboliteAnnotation(model)
-% update the metabolite annoation information in the model
+% update the metabolite annotation information in the model
 %
 % Hongzhong Lu & Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -14,10 +14,14 @@ fclose(fid);
 
 for i = 1:length(metaboliteData)
     for j = 1:length(model.mets)
-        if contains(model.mets{j},metaboliteData{1}{i})	%metID
+        if startsWith(model.metNames{j},[metaboliteData{2}{i} ' ['])	%old name
+            
+            %find corresponding compartment:
             metName = model.metNames{j};
             comp    = metName(strfind(metName,' ['):strfind(metName,']'));
             metName = [metaboliteData{6}{i} comp];
+            
+            %Update other fields:
             model.metNames{j}   = metName;              %new name
             model.metChEBIID{j} = metaboliteData{7}{i};	%new CHEBI
             model.metKEGGID{j}  = metaboliteData{8}{i};	%new KEGG
