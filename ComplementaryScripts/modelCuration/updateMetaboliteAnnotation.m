@@ -15,7 +15,7 @@ fclose(fid);
 for i = 1:length(metaboliteData)
     for j = 1:length(model.mets)
         if contains(model.mets{j},metaboliteData{1}{i})	%metID
-            metName = model.metNames{i};
+            metName = model.metNames{j};
             comp    = metName(strfind(metName,' ['):strfind(metName,']'));
             metName = [metaboliteData{6}{i} comp];
             model.metNames{j}   = metName;              %new name
