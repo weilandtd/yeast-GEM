@@ -25,34 +25,34 @@ s_3715	raffinose			0	raffinose	CHEBI:16634	C00492	0	updata keggid. New CHEBI:166
 s_3716	melibiose			0	melibiose	CHEBI:28053	C05402	0	updata keggid. New CHEBI:28053
 s_0162	2-isopropylmalate	CHEBI:35129	C02504	-2	2-isopropylmalate	CHEBI:28107	C02504	-2	Wrong chebiID.  CHEBI:28107
 s_0297	4beta-methylzymosterol-4alpha-carboxylic acid	CHEBI:50591		0	4beta-methylzymosterol-4alpha-carboxylic acid	CHEBI:50591	C15808	0	Right chebiID. New keggid
-s_1583	tRNA(Arg), cytoplasmic	CHEBI:29171		0	tRNA(Arg), cytoplasmic	CHEBI:29171	C01636	0	Right chebiID. New keggid
-s_1584	tRNA(Arg), mitchondrial	CHEBI:29171		0	tRNA(Arg), mitchondrial	CHEBI:29171	C01636	0	Right chebiID. New keggid
-s_1585	tRNA(Asn), cytoplasmic	CHEBI:29172		0	tRNA(Asn), cytoplasmic	CHEBI:29172	C01637	0	Right chebiID. New keggid
-s_1586	tRNA(Asn), mitchondrial	CHEBI:29172		0	tRNA(Asn), mitchondrial	CHEBI:29172	C01637	0	Right chebiID. New keggid
-s_1587	tRNA(Asp), cytoplasmic	CHEBI:29186		0	tRNA(Asp), cytoplasmic	CHEBI:29186	C01638	0	Right chebiID. New keggid
-s_1588	tRNA(Asp), mitchondrial	CHEBI:29186		0	tRNA(Asp), mitchondrial	CHEBI:29186	C01638	0	Right chebiID. New keggid
-s_1591	tRNA(Glu), cytoplasmic	CHEBI:29175		0	tRNA(Glu), cytoplasmic	CHEBI:29175	C01641	0	Right chebiID. New keggid
-s_1592	tRNA(Glu), mitchondrial	CHEBI:29175		0	tRNA(Glu), mitchondrial	CHEBI:29175	C01641	0	Right chebiID. New keggid
-s_1594	tRNA(His), cytoplasmic	CHEBI:29178		0	tRNA(His), cytoplasmic	CHEBI:29178	C01643	0	Right chebiID. New keggid
-s_1595	tRNA(His), mitchondrial	CHEBI:29178		0	tRNA(His), mitchondrial	CHEBI:29178	C01643	0	Right chebiID. New keggid
-s_1596	tRNA(Ile), cytoplasmic	CHEBI:29174		0	tRNA(Ile), cytoplasmic	CHEBI:29174	C01644	0	Right chebiID. New keggid
-s_1597	tRNA(Ile), mitchondrial	CHEBI:29174		0	tRNA(Ile), mitchondrial	CHEBI:29174	C01644	0	Right chebiID. New keggid
-s_1598	tRNA(Leu), cytoplasmic	CHEBI:29169		0	tRNA(Leu), cytoplasmic	CHEBI:29169	C01645	0	Right chebiID. New keggid
-s_1599	tRNA(Leu), mitchondrial	CHEBI:29169		0	tRNA(Leu), mitchondrial	CHEBI:29169	C01645	0	Right chebiID. New keggid
-s_1600	tRNA(Lys), cytoplasmic	CHEBI:29185		0	tRNA(Lys), cytoplasmic	CHEBI:29185	C01646	0	Right chebiID. New keggid
-s_1601	tRNA(Lys), mitchondrial	CHEBI:29185		0	tRNA(Lys), mitchondrial	CHEBI:29185	C01646	0	Right chebiID. New keggid
-s_1602	tRNA(Met), cytoplasmic	CHEBI:29173		0	tRNA(Met), cytoplasmic	CHEBI:29173	C01647	0	Right chebiID. New keggid
-s_1603	tRNA(Met), mitchondrial	CHEBI:29173		0	tRNA(Met), mitchondrial	CHEBI:29173	C01647	0	Right chebiID. New keggid
-s_1604	tRNA(Phe), cytoplasmic	CHEBI:29184		0	tRNA(Phe), cytoplasmic	CHEBI:29184	C01648	0	Right chebiID. New keggid
-s_1605	tRNA(Phe), mitchondrial	CHEBI:29184		0	tRNA(Phe), mitchondrial	CHEBI:29184	C01648	0	Right chebiID. New keggid
-s_1608	tRNA(Thr), cytoplasmic	CHEBI:29180		0	tRNA(Thr), cytoplasmic	CHEBI:29180	C01651	0	Right chebiID. New keggid
-s_1609	tRNA(Thr), mitchondrial	CHEBI:29180		0	tRNA(Thr), mitchondrial	CHEBI:29180	C01651	0	Right chebiID. New keggid
-s_1610	tRNA(Trp), cytoplasmic	CHEBI:29181		0	tRNA(Trp), cytoplasmic	CHEBI:29181	C01652	0	Right chebiID. New keggid
-s_1611	tRNA(Trp), mitchondrial	CHEBI:29181		0	tRNA(Trp), mitchondrial	CHEBI:29181	C01652	0	Right chebiID. New keggid
-s_1612	tRNA(Tyr), cytoplasmic	CHEBI:29182		0	tRNA(Tyr), cytoplasmic	CHEBI:29182	C00787	0	Right chebiID. New keggid
-s_1613	tRNA(Tyr), mitchondrial	CHEBI:29182		0	tRNA(Tyr), mitchondrial	CHEBI:29182	C00787	0	Right chebiID. New keggid
-s_1614	tRNA(Val), cytoplasmic	CHEBI:29183		0	tRNA(Val), cytoplasmic	CHEBI:29183	C01653	0	Right chebiID. New keggid
-s_1615	tRNA(Val), mitchondrial	CHEBI:29183		0	tRNA(Val), mitchondrial	CHEBI:29183	C01653	0	Right chebiID. New keggid
+s_1583	tRNA(Arg)	CHEBI:29171		0	tRNA(Arg)	CHEBI:29171	C01636	0	Right chebiID. New keggid
+s_1584	tRNA(Arg)	CHEBI:29171		0	tRNA(Arg)	CHEBI:29171	C01636	0	Right chebiID. New keggid
+s_1585	tRNA(Asn)	CHEBI:29172		0	tRNA(Asn)	CHEBI:29172	C01637	0	Right chebiID. New keggid
+s_1586	tRNA(Asn)	CHEBI:29172		0	tRNA(Asn)	CHEBI:29172	C01637	0	Right chebiID. New keggid
+s_1587	tRNA(Asp)	CHEBI:29186		0	tRNA(Asp)	CHEBI:29186	C01638	0	Right chebiID. New keggid
+s_1588	tRNA(Asp)	CHEBI:29186		0	tRNA(Asp)	CHEBI:29186	C01638	0	Right chebiID. New keggid
+s_1591	tRNA(Glu)	CHEBI:29175		0	tRNA(Glu)	CHEBI:29175	C01641	0	Right chebiID. New keggid
+s_1592	tRNA(Glu)	CHEBI:29175		0	tRNA(Glu)	CHEBI:29175	C01641	0	Right chebiID. New keggid
+s_1594	tRNA(His)	CHEBI:29178		0	tRNA(His)	CHEBI:29178	C01643	0	Right chebiID. New keggid
+s_1595	tRNA(His)	CHEBI:29178		0	tRNA(His)	CHEBI:29178	C01643	0	Right chebiID. New keggid
+s_1596	tRNA(Ile)	CHEBI:29174		0	tRNA(Ile)	CHEBI:29174	C01644	0	Right chebiID. New keggid
+s_1597	tRNA(Ile)	CHEBI:29174		0	tRNA(Ile)	CHEBI:29174	C01644	0	Right chebiID. New keggid
+s_1598	tRNA(Leu)	CHEBI:29169		0	tRNA(Leu)	CHEBI:29169	C01645	0	Right chebiID. New keggid
+s_1599	tRNA(Leu)	CHEBI:29169		0	tRNA(Leu)	CHEBI:29169	C01645	0	Right chebiID. New keggid
+s_1600	tRNA(Lys)	CHEBI:29185		0	tRNA(Lys)	CHEBI:29185	C01646	0	Right chebiID. New keggid
+s_1601	tRNA(Lys)	CHEBI:29185		0	tRNA(Lys)	CHEBI:29185	C01646	0	Right chebiID. New keggid
+s_1602	tRNA(Met)	CHEBI:29173		0	tRNA(Met)	CHEBI:29173	C01647	0	Right chebiID. New keggid
+s_1603	tRNA(Met)	CHEBI:29173		0	tRNA(Met)	CHEBI:29173	C01647	0	Right chebiID. New keggid
+s_1604	tRNA(Phe)	CHEBI:29184		0	tRNA(Phe)	CHEBI:29184	C01648	0	Right chebiID. New keggid
+s_1605	tRNA(Phe)	CHEBI:29184		0	tRNA(Phe)	CHEBI:29184	C01648	0	Right chebiID. New keggid
+s_1608	tRNA(Thr)	CHEBI:29180		0	tRNA(Thr)	CHEBI:29180	C01651	0	Right chebiID. New keggid
+s_1609	tRNA(Thr)	CHEBI:29180		0	tRNA(Thr)	CHEBI:29180	C01651	0	Right chebiID. New keggid
+s_1610	tRNA(Trp)	CHEBI:29181		0	tRNA(Trp)	CHEBI:29181	C01652	0	Right chebiID. New keggid
+s_1611	tRNA(Trp)	CHEBI:29181		0	tRNA(Trp)	CHEBI:29181	C01652	0	Right chebiID. New keggid
+s_1612	tRNA(Tyr)	CHEBI:29182		0	tRNA(Tyr)	CHEBI:29182	C00787	0	Right chebiID. New keggid
+s_1613	tRNA(Tyr)	CHEBI:29182		0	tRNA(Tyr)	CHEBI:29182	C00787	0	Right chebiID. New keggid
+s_1614	tRNA(Val)	CHEBI:29183		0	tRNA(Val)	CHEBI:29183	C01653	0	Right chebiID. New keggid
+s_1615	tRNA(Val)	CHEBI:29183		0	tRNA(Val)	CHEBI:29183	C01653	0	Right chebiID. New keggid
 s_1845	ACP1	CHEBI:37671	C00965	0	ACP1	CHEBI:18359	C00229	0	Wrong chebiID. Wrong full name. should be: holo-[acyl-carrier protein]. Keggid:C00229; CHEBI:18359; formula: HSR
 s_2770	acetoacetyl-ACP	CHEBI:36464	C00418	0	acetoacetyl-ACP	CHEBI:2393	C05744	0	wrong cheibID and keggid.  CHEBI:2393. C05744
 s_2771	butanoyl-ACP	CHEBI:29032	C00864	0	butanoyl-ACP	CHEBI:3247	C05745	0	wrong chebiID and keggid.  Not standard fullname. CHEBI:3247. C4H7OSR
