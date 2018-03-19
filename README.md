@@ -32,7 +32,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-02-23
+* Last update: 2018-02-28
 
 * The model:
 
@@ -55,7 +55,6 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 
 ### Dependencies - Recommended Software:
 * libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
-* The SBML Toolbox (version [4.1.0](https://sourceforge.net/projects/sbml/files/SBMLToolbox/4.1.0/)  is recommended).
 * Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
