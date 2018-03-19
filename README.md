@@ -17,10 +17,11 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
     * `rxnNotes` enriched with Pubmed ids (`pmid`) from old version.
     * `rxnConfidenceScores` added based on [automatic script](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/missingFields/getConfidenceScores.m).
     * `metFormulas` added for lipid species.
+    * `metChEBIID` & `metKEGGID` added for multiple species
     * Boundary metabolites tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/boundaryMets.txt)).
     * Dependencies tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/dependencies.txt)).
   * Manual curation:
-    * `metFormulas` for tRNA's curated and mass-balanced.
+    * Metabolites, including `metNames`, `metFormulas`, `metCharges`, `metChEBIID` & `metKEGGID`
   * Simulation improvements:
     * Glucan composition fixed in biomass pseudo-rxn.
     * Proton balance in membrane restored.
@@ -32,7 +33,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-02-28
+* Last update: 2018-03-19
 
 * The model:
 
@@ -76,6 +77,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
    * `makeFormulasCompliant.m`: Fixes the compliance problems of some metabolite formulas.
    * `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
    * `takeOutFromFormula.m`: Takes away from formula each of the elements specified.
+   * `updateMetaboliteAnnotation.m`: Reads `metabolite_manual_curation.tsv` and updates the model with it.
 * `otherChanges`: Folder with other types of changes.
    * `anaerobicModel.m`: Transforms the model to anaerobic conditions.
    * `clusterBiomass.m`: Separates the biomass in 5 main components: protein, carbohydrate, lipid, RNA and DNA.
@@ -86,6 +88,9 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file.
 * `saveYeastModel.m`: Saves yeast model as a `.mat`, `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
 
+## Complementary Data
+
+* `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
 
 ## Contributors
 
