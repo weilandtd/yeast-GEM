@@ -8,8 +8,11 @@ function model = addGeneNames(model)
 model.genes = strrep(model.genes,'_','-');
 
 %Load data:
-data        = load('ProtDatabase.mat');
-swiss.genes = data.swissprot(:,3);
+
+fid  = fopen('../../ComplementaryData/swissprot.tsv','r');
+data = textscan(fid,'%s %s %s %s %f32 %s','Delimiter','\t','HeaderLines',1);
+fclose(fid);
+swiss.genes = data{3};
 for i = 1:length(swiss.genes)
     swiss.genes{i} = strsplit(swiss.genes{i},' ');
 end
@@ -24,12 +27,10 @@ for i = 1:length(model.genes)
     disp(['Adding gene names: Ready with gene #' int2str(i)])
 end
 
-%Revert gene ids for SBML compatibility:
-model.genes = strrep(model.genes,'-','_');
-
 %Save model:
 cd ..
 saveYeastModel(model)
+cd missingFields
 
 end
 

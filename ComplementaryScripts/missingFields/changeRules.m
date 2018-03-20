@@ -8,8 +8,8 @@ for i = 1:length(model.rules)
     rule = model.rules{i};
     
     %Change and's & or's:
-    rule = strrep(rule,'&','AND');
-    rule = strrep(rule,'|','OR');
+    rule = strrep(rule,'&','and');
+    rule = strrep(rule,'|','or');
     
     %Change gene ids:
     start_pos = strfind(rule,'x(');

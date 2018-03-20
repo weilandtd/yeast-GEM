@@ -9,9 +9,9 @@ subSystem = '';
 %Gather all matches:
 uniprot = strsplit(uniprot,' ');
 for i = 1:length(uniprot)
-    for j = 1:length(kegg)
-        if strcmp(uniprot{i},kegg{j,1}) && ~isempty(kegg{j,6})
-            subSystem = strjoin({subSystem,kegg{j,6}},' ');
+    for j = 1:length(kegg{1})
+        if strcmp(uniprot{i},kegg{1}{j}) && ~isempty(kegg{6}{j})
+            subSystem = strjoin({subSystem,kegg{6}{j}},' ');
         end
     end
 end
@@ -34,10 +34,14 @@ if ~isempty(subSystem)
                 strcmp(sub_i,'0460  Cyanoamino acid metabolism') || ...
                 strcmp(sub_i,'0680  Methane metabolism');
         if ~weird
-            subSystem = strjoin({subSystem,sub_i},' / sce0');
+            subSystem = strjoin({subSystem,sub_i},' ;; sce0');
         end
     end
-    subSystem = subSystem(4:end);
+    subSystem = subSystem(5:end);
+end
+
+if ~isempty(subSystem)
+    subSystem = strsplit(subSystem,' ;; ');
 end
 
 end

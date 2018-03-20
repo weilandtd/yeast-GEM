@@ -8,7 +8,7 @@
 function model = updateMetaboliteAnnotation(model)
 
 %Load data:
-fid = fopen('../../ComplementaryData/metabolite_manual_curation.tsv');
+fid = fopen('../../ComplementaryData/metabolite_manual_curation.tsv','r');
 metaboliteData = textscan(fid,'%s %s %s %s %f32 %s %s %s %f32 %s','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 
