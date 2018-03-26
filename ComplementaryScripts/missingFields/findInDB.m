@@ -1,6 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [uni,EC] = findInDB(rxn_pos,model,DB)
 % Matches the uniprot and EC number for a given rxn into a given database.
+%
+% Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [uni,EC] = findInDB(rxn_pos,model,DB)
@@ -125,10 +127,10 @@ for i = 1:length(EC)-1
         ECi = EC_trimmed{i};
         ECj = EC_trimmed{j};
         %If ECj fits in ECi then ECj can be disregarded:
-        if strfind(ECi,ECj)
+        if contains(ECi,ECj)
             non_repeated(j) = false;
         %Else, if ECi fits in ECj then ECi can be disregarded:
-        elseif strfind(ECj,ECi)
+        elseif contains(ECj,ECi)
             non_repeated(i) = false;
         end
     end
