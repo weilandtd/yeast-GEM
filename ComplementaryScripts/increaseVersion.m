@@ -6,6 +6,12 @@
 
 function increaseVersion(version)
 
+%Check if in master:
+currentBranch = git('rev-parse --abbrev-ref HEAD');
+if ~strcmp(currentBranch,'master')
+    error('ERROR: not in master')
+end
+
 %Check if history has been updated:
 fid     = fopen('../history.md','r');
 history = fscanf(fid,'%s');
