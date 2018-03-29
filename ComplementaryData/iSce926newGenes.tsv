@@ -11,6 +11,5 @@ r_0992	NA	((YDL040C and YGR147C and YHR013C) or (YDL040C and YGR147C))	((YDL040C
 r_1603	NA	YGL234W	YFL058W	The gene should be YFL058W based on SGD database
 r_1623	NA	YER183C	YER183C	Evidence from isce926 and latest gene annotation
 r_1624	NA	YER183C	YER183C	Evidence from isce926 and latest gene annotation
-r_1685	NA	YUBIC	YUBIC	Add an E. coli like ubiC gene for reaction r_1685. We call it here Y-ubiC . The ORF is unknown but the gene has been identified as GG based on isce926
 r_1739	NA	YDR071C	YDR071C	Evidence from isce926 and latest gene annotation
 r_1790	NA	YDL045C	YDL045C	Evidence from isce926 and latest gene annotation
