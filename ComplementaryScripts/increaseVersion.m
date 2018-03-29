@@ -1,10 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% increaseVersion(version)
+% increaseVersion(bumpType)
 %
 % Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function increaseVersion(version)
+function increaseVersion(bumpType)
 
 %Check if in master:
 currentBranch = git('rev-parse --abbrev-ref HEAD');
@@ -12,11 +12,32 @@ if ~strcmp(currentBranch,'master')
     error('ERROR: not in master')
 end
 
+%Bump version number:
+oldModel   = load('../ModelFiles/mat/yeastGEM.mat');
+oldVersion = oldModel.model.description;
+oldVersion = oldVersion(strfind(oldVersion,'_v')+2:end);
+oldVersion = str2double(strsplit(oldVersion,'.'));
+newVersion = oldVersion;
+switch bumpType
+    case 'major'
+        newVersion(1) = newVersion(1) + 1;
+        newVersion(2) = 0;
+        newVersion(3) = 0;
+    case 'minor'
+        newVersion(2) = newVersion(2) + 1;
+        newVersion(3) = 0;
+    case 'patch'
+        newVersion(3) = newVersion(3) + 1;
+    otherwise
+        error('ERROR: invalid input. Use "major", "minor" or "patch"')
+end
+newVersion = num2str(newVersion,'%d.%d.%d');
+
 %Check if history has been updated:
 fid     = fopen('../history.md','r');
 history = fscanf(fid,'%s');
 fclose(fid);
-if ~contains(history,['yeast' version ':'])
+if ~contains(history,['yeast' newVersion ':'])
     error('ERROR: update history.md first')
 end
 
@@ -24,8 +45,8 @@ end
 initCobraToolbox
 model = readCbModel('../ModelFiles/xml/yeastGEM.xml');
 
-%Include tag in model:
-model.description = ['yeastGEM_v' version];
+%Include tag and save model:
+model.description = ['yeastGEM_v' newVersion];
 saveYeastModel(model)
 
 %Allow .mat & .xls storage:
@@ -53,7 +74,7 @@ exportToExcelFormat(model,'../ModelFiles/xlsx/yeastGEM.xlsx');
 
 %Update version file:
 fid = fopen('../version.txt','wt');
-fprintf(fid,version);
+fprintf(fid,newVersion);
 fclose(fid);
 
 end
