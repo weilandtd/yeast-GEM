@@ -37,15 +37,19 @@ while still_reading
   inline = fgets(fin);
   if ~ischar(inline)
       still_reading = false;
-  elseif ~startsWith(inline,'*.mat') && ~startsWith(inline,'*.xls')
+  elseif ~startsWith(inline,'*.mat') && ~startsWith(inline,'*.xlsx')
       fwrite(fout,inline);
   end
 end
 fclose('all');
 delete('backup');
 
-%Store model as .mat (only for releases):
+%Store model as .mat:
 save('../ModelFiles/mat/yeastGEM.mat','model');
+
+%Convert to RAVEN format and store model as .xlsx:
+model = ravenCobraWrapper(model);
+exportToExcelFormat(model,'../ModelFiles/xlsx/yeastGEM.xlsx');
 
 %Update version file:
 fid = fopen('../version.txt','wt');
