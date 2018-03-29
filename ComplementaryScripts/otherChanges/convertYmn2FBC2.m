@@ -1,3 +1,5 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% convertYmn2FBC2
 % The main purpose of this script is to convert yeast metabolic network 7.6
 % from COBRA-compatible SBML2 to FBC v2 thereby adding the missing
 % annotation data, which could not be retained with the older COBRA
@@ -8,19 +10,20 @@
 % otherwise gene-reaction association information is lost for several
 % reactions in FBC v2 file.
 %
+% Simonas Marcišauskas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Firstly loading an old COBRA version, i.e. the latest commit before
 % pulling request from 'aebrahim-patch-1' branch, which brings FBC v2
 % support and thereby discontinues SBML2 support.
 % So the last SBML2-compatible COBRA version can be downloaded from
 % https://github.com/opencobra/cobratoolbox/tree/10f98a0ab834118c6dfb943970c38d68c7e1ae70
 % 
-
 % The whole idea of the script is to load curated Yeast 7.6 from 'master'
 % branch, then load SBML3 format model from
 % https://sourceforge.net/projects/yeast/files/, add the missing
 % annotation to the former model, do some final changes and export it to
 % FBC v2.
-
 model_sbml2=readCbModel('yeast_7.6_cobra.xml');
 save('yeast_7.6_cobra_sbml2.mat','model_sbml2');
 
@@ -131,8 +134,4 @@ model_sbml2.grRules=regexprep(model_sbml2.grRules,'-','_');
 % Save model:
 saveYeastModel(model_sbml2);
 
-
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
