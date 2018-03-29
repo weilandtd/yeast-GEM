@@ -1,5 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % model = clusterBiomass(model)
+%
+% Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function model = clusterBiomass(model)
@@ -23,7 +25,7 @@ for i = 1:length(model.mets)
     Six = model.S(i,bioPos);
     if Six ~= 0        
         name   = model.metNames{i};
-        isProt = ~isempty(strfind(name,'tRNA'));
+        isProt = contains(name,'tRNA');
         isCarb = sum(strcmpi({'(1->3)-beta-D-glucan [cell envelope]', ...
                               '(1->6)-beta-D-glucan [cell envelope]', ...
                               'chitin [cytoplasm]','glycogen [cytoplasm]', ...

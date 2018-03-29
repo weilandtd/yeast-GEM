@@ -69,8 +69,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * `missingFields`: Folder with functions for adding missing fields to the model.
    * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from KEGG.
    * `getConfidenceScores.m`: Assigns confidence scores based in a basic automatic criteria.
-   * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m` and `findSubSystem.m` for reading the databases. The latter 3 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/GECKO).
-   * `ProtDatabase.mat`: Contains the relevant data from Swissprot and KEGG.
+   * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m`, `findSubSystem.m` & `deleteRepeated.m` for reading the databases. The latter 4 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/GECKO).
 * `modelCuration`: Folder with curation functions.
    * `addiSce926changes.m`: Updates the model to include curation from [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
    * `calculateContent.m`: Calculates the protein and carb fraction in the biomass pseudo-rxn.
@@ -87,8 +86,10 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
    * `getNewIndex.m`: Finds the highest index available in either metabolites or rxns, and then adds one to it, for creating any new species.
 * `dependencies.txt`: Tracks SBML versions and levels used for saving the model.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
-* `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file.
-* `saveYeastModel.m`: Saves yeast model as a `.mat`, `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
+* `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file. Saves the model as `.mat` and as `.xlsx`
+* `saveYeastModel.m`: Saves yeast model as a `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
+* `loadYeastModel.m`: Loads the yeast model from the `.xml` file.
+
 
 ## Complementary Data
 
@@ -96,6 +97,8 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * `iSce926newGenes.tsv`: New genes added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
 * `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
 * `SGDgeneNames.tsv`: Short gene names for each gene ID.
+* `kegg.tsv`: KEGG data for S. cerevisiae.
+* `swissprot.tsv`: SWISSPROT data for S. cerevisiae.
 
 ## Contributors
 

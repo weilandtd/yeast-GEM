@@ -1,12 +1,17 @@
-%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% rxnConfidenceScores = getConfidenceScores(model)
 % Rough confidence scores for reaction
 % Reactions with pubmedID and with gene information -3
 % Reactions with gene but without pubmedID -2; 
 % Reactions without gene but need for modelling -1;
 % Reactions without gene -0;
 % Exchange reactions -none;
-%%%%%%%%%%%%%%%%%%%%
+%
+% Hongzhong Lu & Benjamín J. Sánchez
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function rxnConfidenceScores = getConfidenceScores(model)
+
 t=length(model.rxnNames);
 rxnConfidenceScores = cell(t,1);
 
@@ -19,9 +24,7 @@ for i = 1:t
         end
     else
             rxnConfidenceScores{i} = 0;
-    
     end
-        
 end
 
 for i = 1:t
@@ -32,10 +35,8 @@ for i = 1:t
     else 
            rxnConfidenceScores{i} = rxnConfidenceScores{i};
     end
-        
 end
 
+end
 
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
