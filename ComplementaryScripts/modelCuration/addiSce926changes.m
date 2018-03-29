@@ -43,13 +43,14 @@ SGD  = textscan(fid2,'%s %s','Delimiter','\t','HeaderLines',1);
 fclose(fid2);
 
 ss3 = length(model.genes);
-genePosition = zeros(ss3,1);
+genePosition = NaN(ss3,1);
+model.geneNames = model.genes;
 for i = 1:ss3
     if ismember(model.genes{i},SGD{1})
-        genePosition(i)    = find(strcmp(SGD{1}, model.genes{i}));
-        model.geneNames{i} = SGD{2}{genePosition(i)};
-    else
-        genePosition(i) = NaN;
+        genePosition(i) = find(strcmp(SGD{1}, model.genes{i}));
+        if ~isempty(SGD{2}{genePosition(i)})
+            model.geneNames{i} = SGD{2}{genePosition(i)};
+        end
     end
 end
 
