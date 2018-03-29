@@ -33,7 +33,7 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-03-20
+* Last update: 2018-03-29
 
 * The model:
 
@@ -84,8 +84,10 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
    * `getNewIndex.m`: Finds the highest index available in either metabolites or rxns, and then adds one to it, for creating any new species.
 * `dependencies.txt`: Tracks SBML versions and levels used for saving the model.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
-* `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file.
-* `saveYeastModel.m`: Saves yeast model as a `.mat`, `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
+* `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file. Saves the model as `.mat` and as `.xlsx`
+* `saveYeastModel.m`: Saves yeast model as a `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
+* `loadYeastModel.m`: Loads the yeast model from the `.xml` file.
+
 
 ## Complementary Data
 
