@@ -1,6 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [uni,EC] = findInDB(rxn_pos,model,DB)
 % Matches the uniprot and EC number for a given rxn into a given database.
+%
+% Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [uni,EC] = findInDB(rxn_pos,model,DB)
@@ -17,13 +19,13 @@ for i = 1:length(gene_sets)
     uni_set  = cell(size(gene_set));
     EC_set   = cell(size(gene_set));
     for j = 1:length(gene_set)
-        for k = 1:length(DB)
-            if sum(strcmp(DB{k,3},gene_set{j})) > 0
-                uni_set{j} = DB{k,1};
-                if ~isempty(DB{k,4})
-                    new_EC_set = strsplit(DB{k,4},' ');
+        for k = 1:length(DB{3})
+            if sum(strcmp(DB{3}{k},gene_set{j})) > 0
+                uni_set{j} = DB{1}{k};
+                if ~isempty(DB{4}{k})
+                    new_EC_set = strsplit(DB{4}{k},' ');
                     for l = 1:length(new_EC_set)
-                        EC_set{j} = [EC_set{j} 'EC' new_EC_set{l} ' '];
+                        EC_set{j} = [EC_set{j} new_EC_set{l} ';'];
                     end
                 end
             end
@@ -68,7 +70,7 @@ end
 uni = union_string(uni);
 EC  = union_string(EC);
 uni = strsplit(uni,' ');
-EC  = strsplit(EC,' ');
+EC  = strsplit(EC,';');
 
 %Delete repeated stuff:
 uni = unique(uni);
@@ -125,10 +127,10 @@ for i = 1:length(EC)-1
         ECi = EC_trimmed{i};
         ECj = EC_trimmed{j};
         %If ECj fits in ECi then ECj can be disregarded:
-        if strfind(ECi,ECj)
+        if contains(ECi,ECj)
             non_repeated(j) = false;
         %Else, if ECi fits in ECj then ECi can be disregarded:
-        elseif strfind(ECj,ECi)
+        elseif contains(ECj,ECi)
             non_repeated(i) = false;
         end
     end
@@ -145,7 +147,7 @@ function str = union_string(cell_array)
 %elements as a string
 
 nonempty = ~cellfun(@isempty,cell_array);
-str      = strjoin(cell_array(nonempty)',' ');
+str      = strjoin(cell_array(nonempty)',';');
 
 end
  

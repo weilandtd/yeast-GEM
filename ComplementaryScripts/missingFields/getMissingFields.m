@@ -1,19 +1,26 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % model = getMissingFields(model)
+%
+% Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function model = getMissingFields(model)
 
 %Change rule format:
+old_rules = model.rules;
 model = changeRules(model);
 
-%Load data:
-data       = load('ProtDatabase.mat');
-swissprot  = data.swissprot;
-kegg       = data.kegg;
-
+%Load swissprot:
+fid       = fopen('../../ComplementaryData/swissprot.tsv','r');
+swissprot = textscan(fid,'%s %s %s %s %f32 %s','Delimiter','\t','HeaderLines',1);
 swissprot = standardizeDatabase(swissprot);
-kegg      = standardizeDatabase(kegg);
+fclose(fid);
+
+%Load kegg:
+fid  = fopen('../../ComplementaryData/kegg.tsv','r');
+kegg = textscan(fid,'%s %s %s %s %f32 %s %s','Delimiter','\t','HeaderLines',1);
+kegg = standardizeDatabase(kegg);
+fclose(fid);
 
 %Get rxn EC numbers and uniprots:
 model.rxnECNumbers = cell(size(model.rxns));
@@ -65,7 +72,7 @@ for i = 1:length(model.rxns)
     %5th column: is the rxn part of a subsystem?
     classification(i,5) = ~isempty(model.subSystems{i});
     %6th column: more than 1 EC number?
-    classification(i,6) = length(strfind(model.rxnECNumbers{i},'EC'));
+    classification(i,6) = length(strfind(model.rxnECNumbers{i},';'))+1;
     %7th column: more than 1 subsystem?
     classification(i,7) = length(strfind(model.subSystems{i},'sce0'));
     disp(['Adding missing fields: Ready with rxn ' int2str(i)])
@@ -91,9 +98,11 @@ disp(['Rxns with >1 EC numbers: ' num2str(mec) ' (' num2str(mec/ecn*100) '% of a
 msu = sum(classification(:,7)>1);
 disp(['Rxns with >1 subsystems: ' num2str(msu) ' (' num2str(msu/sub*100) '% of all)'])
 
-%Save model:
+%Save model (with old rules):
 cd ..
+model.rules = old_rules;
 saveYeastModel(model)
+cd missingFields
 
 end
 
@@ -101,8 +110,8 @@ end
 
 function database = standardizeDatabase(database)
 
-for i = 1:length(database)
-    database{i,3} = strsplit(database{i,3},' ');
+for i = 1:length(database{3})
+    database{3}{i} = strsplit(database{3}{i},' ');
 end
 
 end

@@ -11,6 +11,8 @@
 % OUTPUTS:
 % FinalGenesets     All gene sets with only "ANDs" (cell array)
 % FinalReactions    New reaction IDs (cell array)
+%
+% Cheng Zhang
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [FinalGenesets, FinalReactions] = getAllPath(model,reaction)
