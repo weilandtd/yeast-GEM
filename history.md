@@ -39,3 +39,18 @@ First release of the yeast model
 * dropped SBML toolbox as requirement
 * reorganized `complementaryScripts`
 * switched to a CC-BY-4.0 license
+
+### yeast 8.0.0:
+First version of the yeast8 model, to separate it from previous versions:
+
+* Manual curation project:
+  * All metabolite information manually curated (names, charges, kegg IDs, chebi IDs)
+  * Reaction gene rules updated with curation from [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm). 13 genes added in this process
+* Format changes:
+  * Folder `ComplementaryData` introduced
+  * All data is stored in `.tsv` format now (can be navigated in Github)
+  * Releases now come in `.xlsx` as well
+* Other new features:
+  * Added `loadYeastModel.m`
+  * A much smarter `increaseVersion.m`
+  * Lots of refactoring
