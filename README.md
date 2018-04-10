@@ -1,4 +1,4 @@
-# yeast-GEM: The metabolic model of _Saccharomyces cerevisiae_
+# yeast-GEM: The consensus genome-scale metabolic model of _Saccharomyces cerevisiae_
 
 * Brief Model Description:
 
