@@ -8,7 +8,7 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-04-10
+* Last update: 2018-04-12
 
 * The model:
 
@@ -25,7 +25,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * A functional Matlab installation (MATLAB 7.3 or higher)
 * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
 
-### Required Software - Contributer:
+### Required Software - Contributor:
 
 * Both of the above.
 * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
