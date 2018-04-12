@@ -26,7 +26,7 @@ end
 fclose(fid);
 
 %Retrieve RAVEN version:
-RAVENver = getVersion('checkInstallation.m','version.txt');
+RAVENver = getVersion('ravenCobraWrapper.m','version.txt');
 
 %Retrieve latest COBRA commit:
 COBRApath   = which('initCobraToolbox.m');
