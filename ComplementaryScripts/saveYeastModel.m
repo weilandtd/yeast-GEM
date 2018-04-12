@@ -14,7 +14,7 @@ model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 %Save changes to current model:
 writeCbModel(model,'sbml','../ModelFiles/xml/yeastGEM.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
-writeYaml(model,'../ModelFiles/yaml/yeastGEM.yml');
+writeYaml(model,'../ModelFiles/yml/yeastGEM.yml');
 
 %Detect boundary metabolites and save them in a .txt file:
 fid = fopen('boundaryMets.txt','wt');
