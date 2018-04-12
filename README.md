@@ -2,7 +2,7 @@
 
 * Brief Model Description:
 
-This repository contains the current consensus genome-scale metabolic model of _Saccharomyces cerevisiae_. It is the continuation of the legacy project [yeast.sf.net](http://yeast.sourceforge.net/). For the latest release please [click here](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/releases).
+This repository contains the current consensus genome-scale metabolic model of _Saccharomyces cerevisiae_. It is the continuation of the legacy project [yeast.sf.net](http://yeast.sourceforge.net/). For the latest release please [click here](https://github.com/SysBioChalmers/yeast-GEM/releases).
 
 * Model KeyWords:
 
@@ -36,8 +36,8 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * For simulations, Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
-* Just want to use the model? Clone it from [`master`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/releases).
-* Wish to also contribute? Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/tree/devel).
+* Just want to use the model? Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases).
+* Wish to also contribute? Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
 
 ## Complementary Scripts
 
