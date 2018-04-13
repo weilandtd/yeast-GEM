@@ -1,67 +1,43 @@
-# YeastMetabolicNetwork-GEM
+# yeast-GEM: The consensus genome-scale metabolic model of _Saccharomyces cerevisiae_
 
 * Brief Model Description:
 
-This repository contains the current genome-scale metabolic model of _Saccharomyces cerevisiae_ used in the [@SysBioChalmers](https://github.com/SysBioChalmers) group. It is an improved version of [the consensus metabolic model, version 7.6](https://sourceforge.net/projects/yeast/).
-
-* Main Improvements to Original Model:
-
-  * Format changes:
-    * FBCv2 compliant.
-    * Compatible with latest COBRA and RAVEN parsers.
-    * Biomass clustered by 5 main groups: protein, carbohydrate, lipid, RNA and DNA.
-  * Added information:
-    * `subSystems` and `rxnECnumbers` added to reactions based on [KEGG](http://www.genome.jp/kegg/) & [Swissprot](http://www.uniprot.org/uniprot/?query=*&fil=organism%3A%22Saccharomyces+cerevisiae+%28strain+ATCC+204508+%2F+S288c%29+%28Baker%27s+yeast%29+%5B559292%5D%22+AND+reviewed%3Ayes) data.
-    * `geneNames` added to genes based on [KEGG](http://www.genome.jp/kegg/) data.
-    * `rxnKEGGID` added from old version.
-    * `rxnNotes` enriched with Pubmed ids (`pmid`) from old version.
-    * `rxnConfidenceScores` added based on [automatic script](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/missingFields/getConfidenceScores.m).
-    * `metFormulas` added for lipid species.
-    * `metChEBIID` & `metKEGGID` added for multiple species
-    * Boundary metabolites tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/boundaryMets.txt)).
-    * Dependencies tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/dependencies.txt)).
-  * Manual curation:
-    * Metabolites, including `metNames`, `metFormulas`, `metCharges`, `metChEBIID` & `metKEGGID`
-  * Simulation improvements:
-    * Glucan composition fixed in biomass pseudo-rxn.
-    * Proton balance in membrane restored.
-    * Ox.Pho. stoichiometry fixed.
-    * NGAM rxn introduced.
-    * GAM in biomass pseudo-rxn fixed and refitted to chemostat data.
+This repository contains the current consensus genome-scale metabolic model of _Saccharomyces cerevisiae_. It is the continuation of the legacy project [yeast.sf.net](http://yeast.sourceforge.net/). For the latest release please [click here](https://github.com/SysBioChalmers/yeast-GEM/releases).
 
 * Model KeyWords:
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-03-29
+* Last update: 2018-04-12
 
 * The model:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
-|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3496|2224|909|
-
+|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3496|2224|922|
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
-
 ## Installation
 
-### Required Software:
+### Required Software - User:
 
 * A functional Matlab installation (MATLAB 7.3 or higher)
 * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
+
+### Required Software - Contributor:
+
+* Both of the above.
 * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
 * A [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
 ### Dependencies - Recommended Software:
 * libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
-* Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
+* For simulations, Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
-* Clone main branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM).
-* Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
-
+* Just want to use the model? Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases).
+* Wish to also contribute? Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
 
 ## Complementary Scripts
 
@@ -70,6 +46,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
    * `getConfidenceScores.m`: Assigns confidence scores based in a basic automatic criteria.
    * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m`, `findSubSystem.m` & `deleteRepeated.m` for reading the databases. The latter 4 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/GECKO).
 * `modelCuration`: Folder with curation functions.
+   * `addiSce926changes.m`: Updates the model to include curation from [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
    * `calculateContent.m`: Calculates the protein and carb fraction in the biomass pseudo-rxn.
    * `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
    * `checkMetBalance.m`: Shows rxns that consume/produce a given metabolite in the model.
@@ -91,7 +68,10 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 
 ## Complementary Data
 
+* `iSce926curatedGeneRules.tsv`: Manually curated gene rules added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
+* `iSce926newGenes.tsv`: New genes added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
 * `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
+* `SGDgeneNames.tsv`: Short gene names for each gene ID.
 * `kegg.tsv`: KEGG data for S. cerevisiae.
 * `swissprot.tsv`: SWISSPROT data for S. cerevisiae.
 
