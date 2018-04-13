@@ -18061,7 +18061,7 @@
       - s_1543: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YGR032W or YLR342W
+    - gene_reaction_rule: YGR032W or (YLR342W and YCR034W)
     - subsystem:
         - sce00500  Starch and sucrose metabolism
         - sce04011  MAPK signaling pathway - yeast
@@ -18287,7 +18287,7 @@
       - s_1361: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YDR035W
+    - gene_reaction_rule: YDR035W or YBR249C
     - subsystem:
         - sce00400  Phenylalanine, tyrosine and tryptophan biosynthesis
         - sce01110  Biosynthesis of secondary metabolites
@@ -18424,6 +18424,7 @@
       - s_1029: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YHR208W or YJR148W or YGL202W or YHR137W
     - annotation: !!omap
       - kegg.reaction: R07396
       - pmid: 14506228
@@ -18739,6 +18740,7 @@
       - s_1275: -0.5
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YPL252C or YDR376W
     - annotation: !!omap
       - kegg.reaction: R06865
       - pmid: 15792955
@@ -18753,6 +18755,7 @@
       - s_0799: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR538W and YDR539W
     - annotation: !!omap
       - kegg.reaction: R06866
       - pmid: 15792955
@@ -19334,6 +19337,7 @@
       - s_1423: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YJR024C
     - annotation: !!omap
       - kegg.reaction: R07392
       - pmid: 14506228
@@ -19346,6 +19350,7 @@
       - s_1423: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YPR118W
     - annotation: !!omap
       - kegg.reaction: R04420
       - pmid: 14506228
@@ -19476,6 +19481,7 @@
       - s_1368: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YAR069W-A or YHR214W-F
     - annotation: !!omap
       - kegg.reaction: R03210
       - pmid: 16269718
@@ -19937,7 +19943,7 @@
       - s_1406: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YAR071W or YBR093C
+    - gene_reaction_rule: YBR093C or YAR071W or YBR092C or YHR215W
     - subsystem:
         - sce00730  Thiamine metabolism
         - sce00740  Riboflavin metabolism
@@ -22515,7 +22521,7 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YJL130C or (YJR109C and YOR303W)
+    - gene_reaction_rule: YJL130C and YJR109C and YOR303W
     - subsystem:
         - sce00240  Pyrimidine metabolism
         - sce00250  Alanine, aspartate and glutamate metabolism
@@ -29082,6 +29088,7 @@
       - s_1203: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YOL151W
     - annotation: !!omap
       - kegg.reaction: R01446
       - pmid: 3908097
@@ -31596,7 +31603,7 @@
       - s_0794: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YGR240C and YMR205C
+    - gene_reaction_rule: YMR205C or (YGR240C and YMR205C)
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -31624,7 +31631,7 @@
       - s_1427: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YGR240C and YMR205C
+    - gene_reaction_rule: YMR205C or (YGR240C and YMR205C)
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -31648,7 +31655,7 @@
       - s_0568: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YKL127W or YMR105C
+    - gene_reaction_rule: YMR105C or YKL127W
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -32077,7 +32084,7 @@
       - s_1408: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (YBL068W and YOL061W) or (YER099C and YOL061W) or (YHL011C and YKL181W)
+    - gene_reaction_rule: (YKL181W and YER099C) or (YKL181W and YHL011C) or (YKL181W and YBL068W) or (YER099C and YOL061W) or (YBL068W and YOL061W)
     - subsystem:
         - sce00030  Pentose phosphate pathway
         - sce00230  Purine metabolism
@@ -33201,6 +33208,7 @@
       - s_1234: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: (YDL040C and YGR147C and YHR013C) or (YDL040C and YGR147C)
     - annotation: !!omap
       - kegg.reaction: R00586
       - pmid: 8335636
@@ -35720,7 +35728,7 @@
       - s_0925: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YMR319C
+    - gene_reaction_rule: YMR319C or YMR058W
     - annotation: !!omap
       - pmid: 9115232
     - confidence_score: 3
@@ -38264,6 +38272,7 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YFL058W
     - confidence_score: 0
   - !!omap
     - id: r_1604
@@ -38453,6 +38462,7 @@
       - s_1326: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YER183C
     - confidence_score: 0
   - !!omap
     - id: r_1624
@@ -38467,6 +38477,7 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YER183C
     - confidence_score: 0
   - !!omap
     - id: r_1625
@@ -39405,6 +39416,7 @@
       - s_1442: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR071C
     - confidence_score: 0
   - !!omap
     - id: r_1743
@@ -39678,6 +39690,7 @@
       - s_0799: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDL045C
     - confidence_score: 0
   - !!omap
     - id: r_1791
@@ -42090,7 +42103,7 @@
       - s_1203: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YMR170C
+    - gene_reaction_rule: YMR170C or YOR374W or YER073W
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -71510,8 +71523,6 @@
       - s_1322: 1
     - lower_bound: 0.7
     - upper_bound: 0.7
-    - annotation: !!omap
-      - pmid: NOTES:NA
     - confidence_score: 0
   - !!omap
     - id: r_4047
@@ -71560,8 +71571,6 @@
       - s_3717: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - annotation: !!omap
-      - pmid: NOTES:NA
     - confidence_score: 0
   - !!omap
     - id: r_4048
@@ -71575,8 +71584,6 @@
       - s_3718: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - annotation: !!omap
-      - pmid: NOTES:NA
     - confidence_score: 0
   - !!omap
     - id: r_4049
@@ -71589,8 +71596,6 @@
       - s_3719: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - annotation: !!omap
-      - pmid: NOTES:NA
     - confidence_score: 0
   - !!omap
     - id: r_4050
@@ -71603,8 +71608,6 @@
       - s_3720: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - annotation: !!omap
-      - pmid: NOTES:NA
     - confidence_score: 0
 - genes:
   - !!omap
@@ -71658,6 +71661,9 @@
   - !!omap
     - id: YAR035W
     - name: YAT1
+  - !!omap
+    - id: YAR069W-A
+    - name: YAR069W-A
   - !!omap
     - id: YAR071W
     - name: PHO11
@@ -71986,6 +71992,9 @@
     - id: YDL022W
     - name: GPD1
   - !!omap
+    - id: YDL040C
+    - name: NAT1
+  - !!omap
     - id: YDL042C
     - name: SIR2
   - !!omap
@@ -72114,6 +72123,9 @@
   - !!omap
     - id: YDR062W
     - name: LCB2
+  - !!omap
+    - id: YDR071C
+    - name: PAA1
   - !!omap
     - id: YDR072C
     - name: IPT1
@@ -72313,6 +72325,12 @@
     - id: YDR536W
     - name: STL1
   - !!omap
+    - id: YDR538W
+    - name: PAD1
+  - !!omap
+    - id: YDR539W
+    - name: FDC1
+  - !!omap
     - id: YEL006W
     - name: YEA6
   - !!omap
@@ -72493,6 +72511,9 @@
     - id: YFL055W
     - name: AGP3
   - !!omap
+    - id: YFL058W
+    - name: THI5
+  - !!omap
     - id: YFR015C
     - name: GSY1
   - !!omap
@@ -72664,6 +72685,9 @@
     - id: YGR143W
     - name: SKN1
   - !!omap
+    - id: YGR147C
+    - name: NAT2
+  - !!omap
     - id: YGR155W
     - name: CYS4
   - !!omap
@@ -72793,6 +72817,9 @@
     - id: YHR011W
     - name: DIA4
   - !!omap
+    - id: YHR013C
+    - name: ARD1
+  - !!omap
     - id: YHR018C
     - name: ARG4
   - !!omap
@@ -72888,6 +72915,12 @@
   - !!omap
     - id: YHR208W
     - name: BAT1
+  - !!omap
+    - id: YHR214W-F
+    - name: YHR214W-F
+  - !!omap
+    - id: YHR215W
+    - name: PHO12
   - !!omap
     - id: YHR216W
     - name: IMD2
@@ -73089,6 +73122,9 @@
   - !!omap
     - id: YJR019C
     - name: TES1
+  - !!omap
+    - id: YJR024C
+    - name: MDE1
   - !!omap
     - id: YJR025C
     - name: BNA1
@@ -73635,6 +73671,9 @@
   - !!omap
     - id: YMR056C
     - name: AAC1
+  - !!omap
+    - id: YMR058W
+    - name: FET3
   - !!omap
     - id: YMR062C
     - name: ARG7
@@ -74295,6 +74334,9 @@
   - !!omap
     - id: YPR113W
     - name: PIS1
+  - !!omap
+    - id: YPR118W
+    - name: MRI1
   - !!omap
     - id: YPR121W
     - name: THI22
