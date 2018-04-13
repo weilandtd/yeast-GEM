@@ -74376,7 +74376,7 @@
   - !!omap
     - id: YPR192W
     - name: AQY1
-- compartments:
+- compartments: !!omap
     - c: cytoplasm
     - ce: cell envelope
     - e: extracellular
