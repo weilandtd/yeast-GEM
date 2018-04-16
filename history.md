@@ -1,5 +1,45 @@
 # History
 
+### yeast 8.0.1:
+* `.yml` format included for easier visualization of model changes
+* Empty notes removed from model
+* Issue and PR templates included
+* `README.md` updated to comply with new repo's name
+
+### yeast 8.0.0:
+First version of the yeast8 model, to separate it from previous versions:
+
+* Manual curation project:
+  * All metabolite information manually curated (names, charges, kegg IDs, chebi IDs)
+  * Reaction gene rules updated with curation from [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm). 13 genes added in this process
+* Format changes:
+  * Folder `ComplementaryData` introduced
+  * All data is stored in `.tsv` format now (can be navigated in Github)
+  * Releases now come in `.xlsx` as well
+* Other new features:
+  * Added `loadYeastModel.m`
+  * A much smarter `increaseVersion.m`
+  * Lots of refactoring
+
+### yeast 7.8.3:
+* curated tRNA's formulas
+* started tracking COBRA and RAVEN versions
+* dropped SBML toolbox as requirement
+* reorganized `complementaryScripts`
+* switched to a CC-BY-4.0 license
+
+### yeast 7.8.2:
+* fixed subSystems bug: now they are saved as individual groups
+* solved inter-OS issues
+* remade license to follow GitHub format
+* added `history.md` and made it a requirement to update when increasing version
+
+### yeast 7.8.1:
+* started following dependencies
+* started keeping track of the version in the repo (`version.txt`)
+* included `.gitignore`
+* dropped `.mat` storage for `devel` + feature branches (but kept it in `master`)
+
 ### yeast 7.8.0:
 First release of the yeast model
 
@@ -20,37 +60,3 @@ First release of the yeast model
   * Ox.Pho. stoichiometry fixed
   * NGAM rxn introduced
   * GAM in biomass pseudo-rxn fixed and refitted to chemostat data
-
-### yeast 7.8.1:
-* started following dependencies
-* started keeping track of the version in the repo (`version.txt`)
-* included `.gitignore`
-* dropped `.mat` storage for `devel` + feature branches (but kept it in `master`)
-
-### yeast 7.8.2:
-* fixed subSystems bug: now they are saved as individual groups
-* solved inter-OS issues
-* remade license to follow GitHub format
-* added `history.md` and made it a requirement to update when increasing version
-
-### yeast 7.8.3:
-* curated tRNA's formulas
-* started tracking COBRA and RAVEN versions
-* dropped SBML toolbox as requirement
-* reorganized `complementaryScripts`
-* switched to a CC-BY-4.0 license
-
-### yeast 8.0.0:
-First version of the yeast8 model, to separate it from previous versions:
-
-* Manual curation project:
-  * All metabolite information manually curated (names, charges, kegg IDs, chebi IDs)
-  * Reaction gene rules updated with curation from [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm). 13 genes added in this process
-* Format changes:
-  * Folder `ComplementaryData` introduced
-  * All data is stored in `.tsv` format now (can be navigated in Github)
-  * Releases now come in `.xlsx` as well
-* Other new features:
-  * Added `loadYeastModel.m`
-  * A much smarter `increaseVersion.m`
-  * Lots of refactoring
