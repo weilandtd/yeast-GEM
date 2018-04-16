@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % saveYeastModel(model)
-% Saves model as a .xml and .txt file. Also updates complementary files
-% (boundaryMets.txt and dependencies.txt).
+% Saves model as a .xml, .txt and .yml file. Also updates complementary
+% files (boundaryMets.txt and dependencies.txt).
 %
 % Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -17,6 +17,7 @@ model.rxnNotes = strrep(model.rxnNotes,'NOTES: NA','');
 %Save changes to current model:
 writeCbModel(model,'sbml','../ModelFiles/xml/yeastGEM.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
+writeYaml(model,'../ModelFiles/yml/yeastGEM.yml');
 
 %Detect boundary metabolites and save them in a .txt file:
 fid = fopen('boundaryMets.txt','wt');
@@ -29,7 +30,7 @@ end
 fclose(fid);
 
 %Retrieve RAVEN version:
-RAVENver = getVersion('checkInstallation.m','version.txt');
+RAVENver = getVersion('ravenCobraWrapper.m','version.txt');
 
 %Retrieve latest COBRA commit:
 COBRApath   = which('initCobraToolbox.m');

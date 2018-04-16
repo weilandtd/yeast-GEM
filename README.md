@@ -62,7 +62,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * `dependencies.txt`: Tracks SBML versions and levels used for saving the model.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
 * `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file. Saves the model as `.mat` and as `.xlsx`
-* `saveYeastModel.m`: Saves yeast model as a `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
+* `saveYeastModel.m`: Saves yeast model as a `.xml`, `.yml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
 * `loadYeastModel.m`: Loads the yeast model from the `.xml` file.
 
 
