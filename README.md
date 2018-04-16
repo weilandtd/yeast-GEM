@@ -1,40 +1,14 @@
-# YeastMetabolicNetwork-GEM
+# yeast-GEM: The consensus genome-scale metabolic model of _Saccharomyces cerevisiae_
 
 * Brief Model Description:
 
-This repository contains the current genome-scale metabolic model of _Saccharomyces cerevisiae_ used in the [@SysBioChalmers](https://github.com/SysBioChalmers) group. It is an improved version of [the consensus metabolic model, version 7.6](https://sourceforge.net/projects/yeast/).
-
-* Main Improvements to Original Model:
-
-  * Format changes:
-    * FBCv2 compliant.
-    * Compatible with latest COBRA and RAVEN parsers.
-    * Biomass clustered by 5 main groups: protein, carbohydrate, lipid, RNA and DNA.
-  * Added information:
-    * `subSystems` and `rxnECnumbers` added to reactions based on [KEGG](http://www.genome.jp/kegg/) & [Swissprot](http://www.uniprot.org/uniprot/?query=*&fil=organism%3A%22Saccharomyces+cerevisiae+%28strain+ATCC+204508+%2F+S288c%29+%28Baker%27s+yeast%29+%5B559292%5D%22+AND+reviewed%3Ayes) data.
-    * `geneNames` added to genes based on [KEGG](http://www.genome.jp/kegg/) data.
-    * `rxnKEGGID` added from old version.
-    * `rxnNotes` enriched with Pubmed ids (`pmid`) from old version.
-    * `rxnConfidenceScores` added based on [automatic script](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/missingFields/getConfidenceScores.m).
-    * `metFormulas` added for lipid species.
-    * `metChEBIID` & `metKEGGID` added for multiple species.
-    * Boundary metabolites tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/boundaryMets.txt)).
-    * Dependencies tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/master/ComplementaryScripts/dependencies.txt)).
-  * Manual curation:
-    * Metabolites, including `metNames`, `metFormulas`, `metCharges`, `metChEBIID` & `metKEGGID`.
-    * Gene rules for reactions.
-  * Simulation improvements:
-    * Glucan composition fixed in biomass pseudo-rxn.
-    * Proton balance in membrane restored.
-    * Ox.Pho. stoichiometry fixed.
-    * NGAM rxn introduced.
-    * GAM in biomass pseudo-rxn fixed and refitted to chemostat data.
+This repository contains the current consensus genome-scale metabolic model of _Saccharomyces cerevisiae_. It is the continuation of the legacy project [yeast.sf.net](http://yeast.sourceforge.net/). For the latest release please [click here](https://github.com/SysBioChalmers/yeast-GEM/releases).
 
 * Model KeyWords:
 
 **GEM Category:** Species; **Utilisation:** maximising growth; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Bioreactor**
 
-* Last update: 2018-03-29
+* Last update: 2018-04-12
 
 * The model:
 
@@ -42,27 +16,28 @@ This repository contains the current genome-scale metabolic model of _Saccharomy
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
 |_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3496|2224|922|
 
-
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
-
 
 ## Installation
 
-### Required Software:
+### Required Software - User:
 
 * A functional Matlab installation (MATLAB 7.3 or higher)
 * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
+
+### Required Software - Contributor:
+
+* Both of the above.
 * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
 * A [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
 ### Dependencies - Recommended Software:
 * libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
-* Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
+* For simulations, Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
-* Clone main branch from [SysBioChalmers GitHub](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM).
-* Add the directory to your Matlab path, instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com).
-
+* Just want to use the model? Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases).
+* Wish to also contribute? Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
 
 ## Complementary Scripts
 
@@ -87,7 +62,7 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * `dependencies.txt`: Tracks SBML versions and levels used for saving the model.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
 * `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file. Saves the model as `.mat` and as `.xlsx`
-* `saveYeastModel.m`: Saves yeast model as a `.xml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
+* `saveYeastModel.m`: Saves yeast model as a `.xml`, `.yml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
 * `loadYeastModel.m`: Loads the yeast model from the `.xml` file.
 
 
