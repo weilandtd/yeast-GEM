@@ -17,9 +17,9 @@
 ```
 
 **I hereby confirm that I have:**
-- [ ] Tested my code with [all requirements](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM#required-software) for running the model
+- [ ] Tested my code with [all requirements](https://github.com/SysBioChalmers/yeast-GEM#required-software---user) for running the model
 - [ ] Done this analysis in the `master` branch of the repository
 - [ ] Checked that a similar issue does not exist already
-- [ ] If needed, asked first in the [Gitter chat room](https://gitter.im/SysBioChalmers/YeastMetabolicNetwork-GEM) about the issue
+- [ ] If needed, asked first in the [Gitter chat room](https://gitter.im/SysBioChalmers/yeast-GEM) about the issue
 
 *Note: replace [ ] with [X] to check the box. PLEASE DELETE THIS LINE*
