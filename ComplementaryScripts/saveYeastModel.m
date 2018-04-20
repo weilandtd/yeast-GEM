@@ -11,9 +11,6 @@ function saveYeastModel(model)
 %Remove any space in rxnECNumbers:
 model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 
-%Remove any empty notes (created automatically by addReaction):
-model.rxnNotes = strrep(model.rxnNotes,'NOTES: NA','');
-
 %Save changes to current model:
 writeCbModel(model,'sbml','../ModelFiles/xml/yeastGEM.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
