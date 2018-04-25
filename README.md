@@ -8,9 +8,9 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** Species; **Utilisation:** predictive simulation, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Condition:** aerobic, glucose-limited, defined media, maximization of growth.
 
-* Last update: 2018-04-23
+* Last update: 2018-04-25
 
-* The model:
+* Main Model Descriptors:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
@@ -22,22 +22,37 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 
 ### Required Software - User:
 
-* A functional Matlab installation (MATLAB 7.3 or higher)
-* The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
+* Matlab user:
+  * A functional Matlab installation (MATLAB 7.3 or higher).
+  * The [COBRA toolbox for MATLAB](https://github.com/opencobra/cobratoolbox).
+* Python user:
+  * Python 2.7, 3.4, 3.5 or 3.6
+  * [cobrapy](https://github.com/opencobra/cobrapy)
 
 ### Required Software - Contributor:
 
-* Both of the above.
+* Both of the previous Matlab requirements.
 * The [RAVEN toolbox for MATLAB](https://github.com/SysBioChalmers/RAVEN).
 * A [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
 ### Dependencies - Recommended Software:
-* libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
-* For simulations, Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
+* For Matlab, libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
+* [Gurobi Optimizer](http://www.gurobi.com/registration/download-reg) for any simulations.
 
 ### Installation Instructions
 * For users: Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases).
 * For contributors: Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/yeast-GEM/tree/devel).
+
+## Usage
+
+Make sure to load/save the model with the corresponding wrapper functions!
+* In Matlab:
+  * Loading: `complementaryScripts/loadYeastModel.m`
+  * Saving: `complementaryScripts/saveYeastModel.m`
+* In Python:
+  * Loading: `complementaryScripts/loadYeastModel.py`
+  * Saving: currently unavailable
+
 
 ## Complementary Scripts
 
@@ -62,9 +77,9 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * `dependencies.txt`: Tracks SBML versions and levels used for saving the model.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
 * `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file. Saves the model as `.mat` and as `.xlsx`
+* `loadYeastModel.m`: Loads the yeast model from the `.xml` file for Matlab.
+* `loadYeastModel.py`: Loads the yeast model from the `.xml` file for Python.
 * `saveYeastModel.m`: Saves yeast model as a `.xml`, `.yml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
-* `loadYeastModel.m`: Loads the yeast model from the `.xml` file.
-
 
 ## Complementary Data
 
@@ -72,8 +87,8 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * `iSce926newGenes.tsv`: New genes added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
 * `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
 * `SGDgeneNames.tsv`: Short gene names for each gene ID.
-* `kegg.tsv`: KEGG data for S. cerevisiae.
-* `swissprot.tsv`: SWISSPROT data for S. cerevisiae.
+* `kegg.tsv`: KEGG data for _S. cerevisiae_.
+* `swissprot.tsv`: SWISSPROT data for _S. cerevisiae_.
 
 ## Contributors
 
