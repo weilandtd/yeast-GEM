@@ -17,7 +17,7 @@ writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
 writeYaml(model,'../ModelFiles/yml/yeastGEM.yml');
 
 %Detect boundary metabolites and save them in a .txt file:
-fid = fopen('boundaryMets.txt','wt');
+fid = fopen('../ModelFiles/boundaryMets.txt','wt');
 for i = 1:length(model.rxns)
     pos = find(model.S(:,i) ~= 0);
     if length(pos) == 1 %Exchange rxn
