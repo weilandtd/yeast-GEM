@@ -34,8 +34,8 @@ This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https:
 * A [git wrapper](https://github.com/manur/MATLAB-git) added to the search path.
 
 ### Dependencies - Recommended Software:
-* libSBML MATLAB API (version [5.15.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
-* For simulations, Gurobi Optimizer for MATLAB (version [6.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
+* libSBML MATLAB API (version [5.16.0](https://sourceforge.net/projects/sbml/files/libsbml/5.15.0/stable/MATLAB%20interface/) is recommended).
+* For simulations, Gurobi Optimizer for MATLAB (version [7.5.2](http://www.gurobi.com/registration/download-reg) is recommended). 
 
 ### Installation Instructions
 * For users: Clone it from [`master`](https://github.com/SysBioChalmers/yeast-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/yeast-GEM/releases).
