@@ -1,5 +1,16 @@
 # History
 
+### yeast 8.0.2:
+* New features:
+  * Model can now be used with cobrapy by running `loadYeastModel.py`
+  * `loadYeastModel.m` now adds the `rxnGeneMat` field to the model
+* Refactoring:
+  * Moved `pmids` of model from `rxnNotes` to `rxnReferences` (COBRA-compliant)
+  * `yeastGEM.yml` and `dependencies.txt` are now updated by RAVEN (a few dependencies added)
+  * Moved `boundaryMets.txt` and `dependencies.txt` to the `ModelFiles` folder
+* Documentation:
+  * Added badges and adapted README ro reflect new features
+
 ### yeast 8.0.1:
 * `.yml` format included for easier visualization of model changes
 * Empty notes removed from model
