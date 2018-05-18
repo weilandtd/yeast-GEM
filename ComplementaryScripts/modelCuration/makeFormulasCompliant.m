@@ -75,12 +75,12 @@ for i = 1:length(model.mets)
         formula_new = '';
         rxn_set     = find(model.S(i,:) ~= 0);
         disp(' ')
-        disp([name ':']);
+        disp([model.mets{i} ' - ' name ':']);
         try
             pos = strcmp(metFormulae(:,1),model.mets{i});
             formula_new = metFormulae{pos,2};
         catch
-            disp([model.mets{i} ': could not balance with COBRA!'])
+            disp('Could not balance with COBRA!')
         end
         
         %For the rest solve by manual inspection of rxn formulas:
@@ -93,7 +93,7 @@ for i = 1:length(model.mets)
             rxn_prods = model.S(:,j) > 0;
             rxn_prods = model.metFormulas(rxn_prods);
             rxn_prods = strjoin(rxn_prods,' + ');
-            disp([model.rxns{j} ': ' rxn_subs ' -> ' rxn_prods])
+            disp([model.rxns{j} ' - ' model.rxnNames{j} ': ' rxn_subs ' -> ' rxn_prods])
         end
         
         %Solve depending on the case:
@@ -117,7 +117,7 @@ for i = 1:length(model.mets)
         
         %Adapt metabolite formula:
         model.metFormulas{i} = formula_new;
-        disp([model.mets{i} ': ' formula ' -> ' formula_new]);
+        disp(['Resolution: ' formula ' -> ' formula_new]);
         
         %Verify that reactions associated to the metabolite are balanced with RAVEN:
         for j = rxn_set
