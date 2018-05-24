@@ -11,13 +11,13 @@ old_rules = model.rules;
 model = changeRules(model);
 
 %Load swissprot:
-fid       = fopen('../../ComplementaryData/swissprot.tsv','r');
+fid       = fopen('../../ComplementaryData/databases/swissprot.tsv','r');
 swissprot = textscan(fid,'%s %s %s %s %f32 %s','Delimiter','\t','HeaderLines',1);
 swissprot = standardizeDatabase(swissprot);
 fclose(fid);
 
 %Load kegg:
-fid  = fopen('../../ComplementaryData/kegg.tsv','r');
+fid  = fopen('../../ComplementaryData/databases/kegg.tsv','r');
 kegg = textscan(fid,'%s %s %s %s %f32 %s %s','Delimiter','\t','HeaderLines',1);
 kegg = standardizeDatabase(kegg);
 fclose(fid);

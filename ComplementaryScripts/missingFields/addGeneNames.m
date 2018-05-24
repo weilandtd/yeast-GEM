@@ -11,7 +11,7 @@ model.genes = strrep(model.genes,'_','-');
 
 %Load data:
 
-fid  = fopen('../../ComplementaryData/swissprot.tsv','r');
+fid  = fopen('../../ComplementaryData/databases/swissprot.tsv','r');
 data = textscan(fid,'%s %s %s %s %f32 %s','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 swiss.genes = data{3};
