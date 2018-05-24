@@ -85,12 +85,14 @@ Make sure to load/save the model with the corresponding wrapper functions!
 
 ## Complementary Data
 
-* `iSce926curatedGeneRules.tsv`: Manually curated gene rules added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
-* `iSce926newGenes.tsv`: New genes added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
-* `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
-* `SGDgeneNames.tsv`: Short gene names for each gene ID.
-* `kegg.tsv`: KEGG data for _S. cerevisiae_.
-* `swissprot.tsv`: SWISSPROT data for _S. cerevisiae_.
+* `databases`
+  * `kegg.tsv`: KEGG data for _S. cerevisiae_.
+  * `SGDgeneNames.tsv`: Short gene names for each gene ID.
+  * `swissprot.tsv`: SWISSPROT data for _S. cerevisiae_.
+* `modelCuration`
+  * `iSce926curatedGeneRules.tsv`: Manually curated gene rules added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
+  * `iSce926newGenes.tsv`: New genes added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
+  * `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
 
 ## Contributors
 
