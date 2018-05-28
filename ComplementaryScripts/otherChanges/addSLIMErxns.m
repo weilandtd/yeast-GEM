@@ -23,6 +23,30 @@ data = readLahtveeData(1);
 rmpath('../simulations')
 rmpath('../data')
 
+%Update backbone names:
+backbones = {'1-phosphatidyl-1D-myo-inositol'
+			 'sn-2-acyl-1-lysophosphatidylinositol'
+			 'phosphatidyl-L-serine'
+			 'phosphatidylcholine'
+			 'phosphatidylethanolamine'
+			 'phosphatidate'
+			 'diglyceride'
+			 'triglyceride'
+			 'phosphatidylglycerol'
+			 'cardiolipin'
+			 'ceramide'
+			 'inositol-P-ceramide'
+			 'inositol phosphomannosylinositol phosphoceramide'
+			 'mannosylinositol phosphorylceramide'
+			 'fatty acid'
+			 'ergosterol ester'
+			 'long-chain base'
+			 'long-chain base phosphate'};
+for i = 1:length(backbones)
+	metPos = startsWith(model_SLIMEr.metNames,[backbones{i} ' [']);
+    model_SLIMEr.metNames(metPos) = strrep(model_SLIMEr.metNames(metPos),[backbones{i} ' ['],[backbones{i} ' backbone [']);
+end
+
 %Reinsert previous GAM and correct O.F.:
 GAM    = 61.9779;
 bioRxn = strcmp(model_SLIMEr.rxnNames,'biomass pseudoreaction');

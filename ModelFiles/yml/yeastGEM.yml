@@ -575,7 +575,7 @@
       - kegg.compound: C02918
   - !!omap
     - id: s_0089
-    - name: 1-phosphatidyl-1D-myo-inositol
+    - name: 1-phosphatidyl-1D-myo-inositol backbone
     - compartment: c
     - formula: C9H15O9P
     - charge: -1
@@ -4187,7 +4187,7 @@
       - kegg.compound: C01344
   - !!omap
     - id: s_0620
-    - name: diglyceride
+    - name: diglyceride backbone
     - compartment: er
     - formula: C3H4O
     - annotation: !!omap
@@ -4542,7 +4542,7 @@
       - chebi: CHEBI:52973
   - !!omap
     - id: s_0672
-    - name: ergosterol ester
+    - name: ergosterol ester backbone
     - compartment: c
     - formula: C28H42
     - charge: 0
@@ -4685,7 +4685,7 @@
       - kegg.compound: C00448
   - !!omap
     - id: s_0694
-    - name: fatty acid
+    - name: fatty acid backbone
     - compartment: c
     - charge: 0
     - annotation: !!omap
@@ -5792,7 +5792,7 @@
       - kegg.compound: C00294
   - !!omap
     - id: s_0859
-    - name: inositol phosphomannosylinositol phosphoceramide
+    - name: inositol phosphomannosylinositol phosphoceramide backbone
     - compartment: g
     - formula: C18H33NO23P2
     - charge: 0
@@ -6040,7 +6040,7 @@
       - chebi: CHEBI:62684
   - !!omap
     - id: s_0892
-    - name: inositol-P-ceramide
+    - name: inositol-P-ceramide backbone
     - compartment: g
     - formula: C6H12NO10P
     - annotation: !!omap
@@ -7707,7 +7707,7 @@
       - chebi: CHEBI:60448
   - !!omap
     - id: s_1114
-    - name: mannosylinositol phosphorylceramide
+    - name: mannosylinositol phosphorylceramide backbone
     - compartment: g
     - formula: C12H22NO15P
     - annotation: !!omap
@@ -9122,7 +9122,7 @@
       - kegg.compound: C00009
   - !!omap
     - id: s_1337
-    - name: phosphatidyl-L-serine
+    - name: phosphatidyl-L-serine backbone
     - compartment: c
     - formula: C6H10NO6P
     - charge: 0
@@ -9131,7 +9131,7 @@
       - kegg.compound: C02737
   - !!omap
     - id: s_1346
-    - name: phosphatidylcholine
+    - name: phosphatidylcholine backbone
     - compartment: c
     - formula: C8H16NO3P
     - charge: 1
@@ -9140,7 +9140,7 @@
       - kegg.compound: C00157
   - !!omap
     - id: s_1351
-    - name: phosphatidylethanolamine
+    - name: phosphatidylethanolamine backbone
     - compartment: c
     - formula: C5H10NO4P
     - charge: 0
@@ -9149,7 +9149,7 @@
       - kegg.compound: C00350
   - !!omap
     - id: s_1352
-    - name: phosphatidylethanolamine
+    - name: phosphatidylethanolamine backbone
     - compartment: er
     - formula: C5H10NO4P
     - charge: 0
@@ -10282,7 +10282,7 @@
       - chebi: CHEBI:53040
   - !!omap
     - id: s_1524
-    - name: triglyceride
+    - name: triglyceride backbone
     - compartment: c
     - formula: C3H2
     - charge: 0
@@ -17804,31 +17804,31 @@
       - chebi: CHEBI:82837
   - !!omap
     - id: s_3709
-    - name: ergosterol ester
+    - name: ergosterol ester backbone
     - compartment: erm
     - formula: C28H42
     - charge: 0
   - !!omap
     - id: s_3710
-    - name: phosphatidyl-L-serine
+    - name: phosphatidyl-L-serine backbone
     - compartment: erm
     - formula: C6H10NO6P
     - charge: 0
   - !!omap
     - id: s_3711
-    - name: phosphatidylcholine
+    - name: phosphatidylcholine backbone
     - compartment: erm
     - formula: C8H16NO3P
     - charge: 1
   - !!omap
     - id: s_3712
-    - name: phosphatidylethanolamine
+    - name: phosphatidylethanolamine backbone
     - compartment: erm
     - formula: C5H10NO4P
     - charge: 0
   - !!omap
     - id: s_3713
-    - name: triglyceride
+    - name: triglyceride backbone
     - compartment: erm
     - formula: C3H2
     - charge: 0
@@ -17873,97 +17873,97 @@
     - compartment: c
   - !!omap
     - id: s_3721
-    - name: ceramide
+    - name: ceramide backbone
     - compartment: g
     - formula: HNO2
   - !!omap
     - id: s_3722
-    - name: ceramide
+    - name: ceramide backbone
     - compartment: c
     - formula: HNO2
   - !!omap
     - id: s_3723
-    - name: inositol phosphomannosylinositol phosphoceramide
+    - name: inositol phosphomannosylinositol phosphoceramide backbone
     - compartment: c
     - formula: C18H33NO23P2
   - !!omap
     - id: s_3724
-    - name: inositol-P-ceramide
+    - name: inositol-P-ceramide backbone
     - compartment: c
     - formula: C6H12NO10P
   - !!omap
     - id: s_3725
-    - name: mannosylinositol phosphorylceramide
+    - name: mannosylinositol phosphorylceramide backbone
     - compartment: c
     - formula: C12H22NO15P
   - !!omap
     - id: s_3726
-    - name: long-chain base
+    - name: long-chain base backbone
     - compartment: er
     - formula: H4N
   - !!omap
     - id: s_3727
-    - name: long-chain base
+    - name: long-chain base backbone
     - compartment: c
     - formula: H4N
   - !!omap
     - id: s_3728
-    - name: long-chain base phosphate
+    - name: long-chain base phosphate backbone
     - compartment: er
     - formula: H3NO3P
   - !!omap
     - id: s_3729
-    - name: long-chain base phosphate
+    - name: long-chain base phosphate backbone
     - compartment: c
     - formula: H3NO3P
   - !!omap
     - id: s_3730
-    - name: phosphatidate
+    - name: phosphatidate backbone
     - compartment: erm
     - formula: C3H5O4P
   - !!omap
     - id: s_3731
-    - name: phosphatidate
+    - name: phosphatidate backbone
     - compartment: c
     - formula: C3H5O4P
   - !!omap
     - id: s_3732
-    - name: diglyceride
+    - name: diglyceride backbone
     - compartment: erm
     - formula: C3H4O
   - !!omap
     - id: s_3733
-    - name: diglyceride
+    - name: diglyceride backbone
     - compartment: c
     - formula: C3H4O
   - !!omap
     - id: s_3734
-    - name: sn-2-acyl-1-lysophosphatidylinositol
+    - name: sn-2-acyl-1-lysophosphatidylinositol backbone
     - compartment: erm
     - formula: C9H11O10P
   - !!omap
     - id: s_3735
-    - name: sn-2-acyl-1-lysophosphatidylinositol
+    - name: sn-2-acyl-1-lysophosphatidylinositol backbone
     - compartment: c
     - formula: C9H11O10P
   - !!omap
     - id: s_3736
-    - name: phosphatidylglycerol
+    - name: phosphatidylglycerol backbone
     - compartment: mm
     - formula: C6H11O6P
   - !!omap
     - id: s_3737
-    - name: phosphatidylglycerol
+    - name: phosphatidylglycerol backbone
     - compartment: c
     - formula: C6H11O6P
   - !!omap
     - id: s_3738
-    - name: cardiolipin
+    - name: cardiolipin backbone
     - compartment: mm
     - formula: C9H14O9P2
   - !!omap
     - id: s_3739
-    - name: cardiolipin
+    - name: cardiolipin backbone
     - compartment: c
     - formula: C9H14O9P2
   - !!omap
