@@ -3,13 +3,18 @@
 % Saves model as a .xml, .txt and .yml file. Also updates complementary
 % files (boundaryMets.txt and dependencies.txt).
 %
-% Benjamín J. Sánchez
+% Benjamï¿½n J. Sï¿½nchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function saveYeastModel(model)
 
 %Remove any space in rxnECNumbers:
 model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
+
+%Get and change to the script folder, as all folders are relative to this
+%folder
+scriptFolder = fileparts(which(mfilename));
+currentDir = cd(scriptFolder);
 
 %Save changes to current model:
 writeCbModel(model,'sbml','../ModelFiles/xml/yeastGEM.xml');
@@ -26,4 +31,6 @@ for i = 1:length(model.rxns)
 end
 fclose(fid);
 
+%Switch back to original folder
+cd(currentDir)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

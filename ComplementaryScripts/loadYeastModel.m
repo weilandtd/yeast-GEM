@@ -2,13 +2,16 @@
 % model = loadYeastModel
 % Loads model and adds the rxnGeneMatrix to the structure
 %
-% Benjamín J. Sánchez
+% Benjamï¿½n J. Sï¿½nchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function model = loadYeastModel
 
+scriptFolder = fileparts(which(mfilename));
+currentDir = cd(scriptFolder);
 model = readCbModel('../ModelFiles/xml/yeastGEM.xml');
 model = buildRxnGeneMat(model);
+cd(currentDir)
 
 end
 
