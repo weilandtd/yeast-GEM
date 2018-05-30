@@ -1,5 +1,16 @@
 # History
 
+### yeast 8.1.0:
+* New features:
+  * SLIME reactions added to the model using [SLIMEr](https://github.com/SysBioChalmers/SLIMEr), to properly account for constraints on lipid metabolism (fixes #21):
+    * SLIME rxns replace old ISA rxns for lumping lipids. They create 2 types of lipid pseudometabolites: backbones and acyl chains.
+    * There are now 3 lipid pseudoreactions: 1 constrains backbones, 1 constrains acyl chains, 1 merges both.
+* Fixes:
+  * All metabolite formulas made compliant with SBML (fixes #19). Model is now a valid SBML object.
+  * Biomass composition was rescaled to experimental data from [Lahtvee et al. 2017](https://www.sciencedirect.com/science/article/pii/S2405471217300881), including protein and RNA content, trehalose and glycogen concentrations, lipid profile and FAME data. Biomass was fitted to add up to 1 g/gDW by rescaling total carbohydrate content (unmeasured).
+* Refactoring:
+  * Organized all files in `ComplementaryData`
+
 ### yeast 8.0.2:
 * New features:
   * Model can now be used with cobrapy by running `loadYeastModel.py`
