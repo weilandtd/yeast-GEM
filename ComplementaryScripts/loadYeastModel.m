@@ -2,7 +2,7 @@
 % model = loadYeastModel
 % Loads model and adds the rxnGeneMatrix to the structure
 %
-% Benjaín J. Sánchez
+% Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function model = loadYeastModel
