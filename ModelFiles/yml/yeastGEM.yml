@@ -4,7 +4,7 @@
     - id: s_0001
     - name: (1->3)-beta-D-glucan
     - compartment: ce
-    - formula: (C6H10O5)n
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:37671
@@ -13,7 +13,7 @@
     - id: s_0002
     - name: (1->3)-beta-D-glucan
     - compartment: c
-    - formula: (C6H10O5)n
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:37671
@@ -22,7 +22,7 @@
     - id: s_0003
     - name: (1->3)-beta-D-glucan
     - compartment: e
-    - formula: (C6H10O5)n
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:37671
@@ -31,7 +31,7 @@
     - id: s_0004
     - name: (1->6)-beta-D-glucan
     - compartment: ce
-    - formula: C12H22O11(C6H10O5)n
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:27380
@@ -575,9 +575,9 @@
       - kegg.compound: C02918
   - !!omap
     - id: s_0089
-    - name: 1-phosphatidyl-1D-myo-inositol
+    - name: 1-phosphatidyl-1D-myo-inositol backbone
     - compartment: c
-    - formula: C11H16O13PR2
+    - formula: C9H15O9P
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:57880
@@ -2130,7 +2130,6 @@
     - id: s_0330
     - name: 6-(alpha-D-glucosaminyl)-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:53055
   - !!omap
@@ -2146,7 +2145,7 @@
     - id: s_0332
     - name: 6-[6-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-2-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-alpha-2-(2-aminoethylphosphoryl)mannosyl-(1->4)-alpha-glucosaminyl]-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: (GlcN)1 (Ino(acyl)-P)1 (Man)3 (EtN)2 (P)2
+    - formula: C43H44N9O
     - annotation: !!omap
       - chebi: CHEBI:53060
   - !!omap
@@ -2161,7 +2160,6 @@
     - id: s_0334
     - name: 6-O-[alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:53056
   - !!omap
@@ -2177,21 +2175,18 @@
     - id: s_0337
     - name: 6-O-{2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:53057
   - !!omap
     - id: s_0338
     - name: 6-O-{alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:53059
   - !!omap
     - id: s_0339
     - name: 6-O-{alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:53058
   - !!omap
@@ -2710,7 +2705,7 @@
     - id: s_0414
     - name: alpha-D-mannosyl-beta-D-mannosyldiacetylchitobiosyldiphosphodolichol
     - compartment: g
-    - formula: C38H68N2O27P2(C5H8)n
+    - formula: C38H68N2O27P2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28067
@@ -2938,7 +2933,7 @@
     - id: s_0443
     - name: beta-D-mannosyldiacetylchitobiosyldiphosphodolichol
     - compartment: c
-    - formula: C32H58N2O22P2(C5H8)n
+    - formula: C32H58N2O22P2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18396
@@ -2947,7 +2942,7 @@
     - id: s_0444
     - name: beta-D-mannosyldiacetylchitobiosyldiphosphodolichol
     - compartment: g
-    - formula: C32H58N2O22P2(C5H8)n
+    - formula: C32H58N2O22P2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18396
@@ -2992,7 +2987,6 @@
     - id: s_0450
     - name: biomass
     - compartment: c
-    - formula: NA
   - !!omap
     - id: s_0451
     - name: biotin
@@ -3389,7 +3383,7 @@
     - id: s_0509
     - name: chitin
     - compartment: c
-    - formula: H2O(C8H13NO5)n
+    - formula: C8H13NO5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17029
@@ -3398,7 +3392,7 @@
     - id: s_0510
     - name: chitosan
     - compartment: ce
-    - formula: H2O(C6H12NO4)n
+    - formula: C6H12NO4
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16261
@@ -3574,27 +3568,6 @@
     - annotation: !!omap
       - chebi: CHEBI:57287
       - kegg.compound: C00010
-  - !!omap
-    - id: s_0535
-    - name: complex sphingolipid
-    - compartment: c
-    - formula: NA
-    - annotation: !!omap
-      - chebi: CHEBI:26739
-  - !!omap
-    - id: s_0536
-    - name: complex sphingolipid
-    - compartment: g
-    - formula: NA
-    - annotation: !!omap
-      - chebi: CHEBI:26739
-  - !!omap
-    - id: s_0537
-    - name: complex sphingolipid
-    - compartment: m
-    - formula: NA
-    - annotation: !!omap
-      - chebi: CHEBI:26739
   - !!omap
     - id: s_0538
     - name: coproporphyrinogen III
@@ -4214,9 +4187,9 @@
       - kegg.compound: C01344
   - !!omap
     - id: s_0620
-    - name: diglyceride
+    - name: diglyceride backbone
     - compartment: er
-    - formula: C5H6O5R2
+    - formula: C3H4O
     - annotation: !!omap
       - chebi: CHEBI:18035
       - kegg.compound: C00165
@@ -4356,16 +4329,7 @@
     - id: s_0642
     - name: dolichol
     - compartment: c
-    - formula: C20H36O(C5H8)n
-    - charge: 0
-    - annotation: !!omap
-      - chebi: CHEBI:16091
-      - kegg.compound: C00381
-  - !!omap
-    - id: s_0643
-    - name: dolichol
-    - compartment: lp
-    - formula: C20H36O(C5H8)n
+    - formula: C20H36O
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16091
@@ -4374,7 +4338,7 @@
     - id: s_0644
     - name: dolichyl D-mannosyl phosphate
     - compartment: er
-    - formula: C26H47O9P(C5H8)n
+    - formula: C26H47O9P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15809
@@ -4383,7 +4347,7 @@
     - id: s_0645
     - name: dolichyl phosphate
     - compartment: c
-    - formula: C20H37O4P(C5H8)n
+    - formula: C20H37O4P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16214
@@ -4392,7 +4356,7 @@
     - id: s_0646
     - name: dolichyl phosphate
     - compartment: er
-    - formula: C20H37O4P(C5H8)n
+    - formula: C20H37O4P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16214
@@ -4578,9 +4542,9 @@
       - chebi: CHEBI:52973
   - !!omap
     - id: s_0672
-    - name: ergosterol ester
+    - name: ergosterol ester backbone
     - compartment: c
-    - formula: C29H43O2R
+    - formula: C28H42
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52320
@@ -4721,9 +4685,8 @@
       - kegg.compound: C00448
   - !!omap
     - id: s_0694
-    - name: fatty acid
+    - name: fatty acid backbone
     - compartment: c
-    - formula: CHO2R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:35366
@@ -4768,7 +4731,6 @@
     - id: s_0709
     - name: ferricytochrome c
     - compartment: m
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:15991
       - kegg.compound: C00125
@@ -4776,7 +4738,6 @@
     - id: s_0710
     - name: ferrocytochrome c
     - compartment: m
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:16928
       - kegg.compound: C00126
@@ -5175,7 +5136,6 @@
     - id: s_0773
     - name: glycogen
     - compartment: c
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:28087
       - kegg.compound: C00182
@@ -5183,7 +5143,6 @@
     - id: s_0774
     - name: glycogen
     - compartment: v
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:28087
       - kegg.compound: C00182
@@ -5832,26 +5791,10 @@
       - chebi: CHEBI:17596
       - kegg.compound: C00294
   - !!omap
-    - id: s_0858
-    - name: inositol phosphomannosylinositol phosphoceramide
-    - compartment: er
-    - formula: C22H39NO24P2R2
-    - charge: 0
-    - annotation: !!omap
-      - chebi: CHEBI:62682
-  - !!omap
     - id: s_0859
-    - name: inositol phosphomannosylinositol phosphoceramide
+    - name: inositol phosphomannosylinositol phosphoceramide backbone
     - compartment: g
-    - formula: C22H39NO24P2R2
-    - charge: 0
-    - annotation: !!omap
-      - chebi: CHEBI:62682
-  - !!omap
-    - id: s_0860
-    - name: inositol phosphomannosylinositol phosphoceramide
-    - compartment: m
-    - formula: C22H39NO24P2R2
+    - formula: C18H33NO23P2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:62682
@@ -6096,24 +6039,10 @@
     - annotation: !!omap
       - chebi: CHEBI:62684
   - !!omap
-    - id: s_0891
-    - name: inositol-P-ceramide
-    - compartment: er
-    - formula: C11H20NO12PR2
-    - annotation: !!omap
-      - chebi: CHEBI:60245
-  - !!omap
     - id: s_0892
-    - name: inositol-P-ceramide
+    - name: inositol-P-ceramide backbone
     - compartment: g
-    - formula: C11H20NO12PR2
-    - annotation: !!omap
-      - chebi: CHEBI:60245
-  - !!omap
-    - id: s_0893
-    - name: inositol-P-ceramide
-    - compartment: m
-    - formula: C11H20NO12PR2
+    - formula: C6H12NO10P
     - annotation: !!omap
       - chebi: CHEBI:60245
   - !!omap
@@ -7658,7 +7587,6 @@
     - id: s_1096
     - name: lipid
     - compartment: c
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:18059
       - kegg.compound: C01356
@@ -7675,7 +7603,7 @@
     - id: s_1098
     - name: lipoylprotein
     - compartment: m
-    - formula: C12H18N2O4S2R2(C2H2NOR)n
+    - formula: C12H18N2O4S2R2
     - annotation: !!omap
       - chebi: CHEBI:15804
       - kegg.compound: C02051
@@ -7735,7 +7663,6 @@
     - id: s_1107
     - name: mannan
     - compartment: c
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:28808
       - kegg.compound: C00464
@@ -7743,7 +7670,6 @@
     - id: s_1108
     - name: mannan
     - compartment: er
-    - formula: NA
     - annotation: !!omap
       - chebi: CHEBI:28808
       - kegg.compound: C00464
@@ -7780,24 +7706,10 @@
     - annotation: !!omap
       - chebi: CHEBI:60448
   - !!omap
-    - id: s_1113
-    - name: mannosylinositol phosphorylceramide
-    - compartment: er
-    - formula: C16H28NO16PR2
-    - annotation: !!omap
-      - chebi: CHEBI:25168
-  - !!omap
     - id: s_1114
-    - name: mannosylinositol phosphorylceramide
+    - name: mannosylinositol phosphorylceramide backbone
     - compartment: g
-    - formula: C16H28NO16PR2
-    - annotation: !!omap
-      - chebi: CHEBI:25168
-  - !!omap
-    - id: s_1115
-    - name: mannosylinositol phosphorylceramide
-    - compartment: m
-    - formula: C16H28NO16PR2
+    - formula: C12H22NO15P
     - annotation: !!omap
       - chebi: CHEBI:25168
   - !!omap
@@ -8213,7 +8125,7 @@
     - id: s_1184
     - name: N,N'-diacetylchitobiosyldiphosphodolichol
     - compartment: c
-    - formula: C36H64N2O17P2(C5H8)n
+    - formula: C36H64N2O17P2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:12427
@@ -9044,7 +8956,7 @@
     - id: s_1309
     - name: pectin
     - compartment: e
-    - formula: H2O(C6H8O6)n
+    - formula: C6H8O6
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17309
@@ -9210,36 +9122,36 @@
       - kegg.compound: C00009
   - !!omap
     - id: s_1337
-    - name: phosphatidyl-L-serine
+    - name: phosphatidyl-L-serine backbone
     - compartment: c
-    - formula: C8H12NO10PR2
+    - formula: C6H10NO6P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18303
       - kegg.compound: C02737
   - !!omap
     - id: s_1346
-    - name: phosphatidylcholine
+    - name: phosphatidylcholine backbone
     - compartment: c
-    - formula: C10H19NO8PR2
+    - formula: C8H16NO3P
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:49183
       - kegg.compound: C00157
   - !!omap
     - id: s_1351
-    - name: phosphatidylethanolamine
+    - name: phosphatidylethanolamine backbone
     - compartment: c
-    - formula: C7H12NO8PR2
+    - formula: C5H10NO4P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16038
       - kegg.compound: C00350
   - !!omap
     - id: s_1352
-    - name: phosphatidylethanolamine
+    - name: phosphatidylethanolamine backbone
     - compartment: er
-    - formula: C7H12NO8PR2
+    - formula: C5H10NO4P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16038
@@ -10370,9 +10282,9 @@
       - chebi: CHEBI:53040
   - !!omap
     - id: s_1524
-    - name: triglyceride
+    - name: triglyceride backbone
     - compartment: c
-    - formula: C6H5O6R3
+    - formula: C3H2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17855
@@ -11176,7 +11088,6 @@
     - id: s_1845
     - name: ACP1
     - compartment: m
-    - formula: NA
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18359
@@ -11266,7 +11177,6 @@
     - id: s_2775
     - name: 3-hydroxybutanoyl-ACP
     - compartment: m
-    - formula: NA
     - charge: 0
     - annotation: !!omap
       - kegg.compound: C04618
@@ -11292,7 +11202,6 @@
     - id: s_2778
     - name: trans-but-2-enoyl-ACP
     - compartment: m
-    - formula: NA
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:132146
@@ -11300,7 +11209,6 @@
     - id: s_2779
     - name: trans-hex-2-enoyl-ACP
     - compartment: m
-    - formula: NA
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:10727
@@ -11309,7 +11217,6 @@
     - id: s_2780
     - name: trans-oct-2-enoyl-ACP
     - compartment: m
-    - formula: NA
     - charge: 0
     - annotation: !!omap
       - kegg.compound: C05751
@@ -11588,7 +11495,6 @@
     - id: s_2812
     - name: trans-icos-2-enoyl-CoA
     - compartment: erm
-    - formula: NA
     - charge: 0
   - !!omap
     - id: s_2813
@@ -12238,7 +12144,6 @@
     - id: s_2889
     - name: trans-icos-2-enoyl-CoA
     - compartment: p
-    - formula: NA
     - charge: 0
   - !!omap
     - id: s_2890
@@ -12294,7 +12199,6 @@
     - id: s_2896
     - name: trans-2,cis-5-dodecadienoyl-CoA
     - compartment: p
-    - formula: NA
     - charge: 0
   - !!omap
     - id: s_2897
@@ -12358,7 +12262,6 @@
     - id: s_2904
     - name: (R)-3-hydroxyoctanoyl-CoA
     - compartment: p
-    - formula: NA
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28573
@@ -12399,13 +12302,11 @@
     - id: s_2909
     - name: (R)-3-hydroxy-cis-tetradec-7-enoyl-CoA
     - compartment: p
-    - formula: NA
     - charge: 0
   - !!omap
     - id: s_2910
     - name: (R)-3-hydroxy-cis-dodec-5-enoyl-CoA
     - compartment: p
-    - formula: NA
     - charge: 0
   - !!omap
     - id: s_2911
@@ -12502,7 +12403,6 @@
     - id: s_2922
     - name: 3-oxo-cis-dodec-5-enoyl-CoA
     - compartment: p
-    - formula: NA
     - charge: 0
   - !!omap
     - id: s_2923
@@ -16354,7 +16254,6 @@
     - id: s_3479
     - name: 1-acylglycerophosphoserine (16:0)
     - compartment: ce
-    - formula: NA
   - !!omap
     - id: s_3480
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1)
@@ -16364,7 +16263,6 @@
     - id: s_3481
     - name: 1-acylglycerophosphoserine (16:1)
     - compartment: ce
-    - formula: NA
   - !!omap
     - id: s_3482
     - name: phosphatidyl-L-serine (1-18:0, 2-16:1)
@@ -16377,7 +16275,6 @@
     - id: s_3483
     - name: 1-acylglycerophosphoserine (18:0)
     - compartment: ce
-    - formula: NA
   - !!omap
     - id: s_3484
     - name: phosphatidyl-L-serine (1-18:1, 2-16:1)
@@ -16390,7 +16287,6 @@
     - id: s_3485
     - name: 1-acylglycerophosphoserine (18:1)
     - compartment: ce
-    - formula: NA
   - !!omap
     - id: s_3486
     - name: phosphatidyl-L-serine (1-16:0, 2-18:1)
@@ -17908,33 +17804,33 @@
       - chebi: CHEBI:82837
   - !!omap
     - id: s_3709
-    - name: ergosterol ester
+    - name: ergosterol ester backbone
     - compartment: erm
-    - formula: C29H43O2R
+    - formula: C28H42
     - charge: 0
   - !!omap
     - id: s_3710
-    - name: phosphatidyl-L-serine
+    - name: phosphatidyl-L-serine backbone
     - compartment: erm
-    - formula: C8H12NO10PR2
+    - formula: C6H10NO6P
     - charge: 0
   - !!omap
     - id: s_3711
-    - name: phosphatidylcholine
+    - name: phosphatidylcholine backbone
     - compartment: erm
-    - formula: C10H19NO8PR2
+    - formula: C8H16NO3P
     - charge: 1
   - !!omap
     - id: s_3712
-    - name: phosphatidylethanolamine
+    - name: phosphatidylethanolamine backbone
     - compartment: erm
-    - formula: C7H12NO8PR2
+    - formula: C5H10NO4P
     - charge: 0
   - !!omap
     - id: s_3713
-    - name: triglyceride
+    - name: triglyceride backbone
     - compartment: erm
-    - formula: C6H5O6R3
+    - formula: C3H2
     - charge: 0
   - !!omap
     - id: s_3714
@@ -17974,6 +17870,139 @@
   - !!omap
     - id: s_3720
     - name: DNA
+    - compartment: c
+  - !!omap
+    - id: s_3721
+    - name: ceramide backbone
+    - compartment: g
+    - formula: HNO2
+  - !!omap
+    - id: s_3722
+    - name: ceramide backbone
+    - compartment: c
+    - formula: HNO2
+  - !!omap
+    - id: s_3723
+    - name: inositol phosphomannosylinositol phosphoceramide backbone
+    - compartment: c
+    - formula: C18H33NO23P2
+  - !!omap
+    - id: s_3724
+    - name: inositol-P-ceramide backbone
+    - compartment: c
+    - formula: C6H12NO10P
+  - !!omap
+    - id: s_3725
+    - name: mannosylinositol phosphorylceramide backbone
+    - compartment: c
+    - formula: C12H22NO15P
+  - !!omap
+    - id: s_3726
+    - name: long-chain base backbone
+    - compartment: er
+    - formula: H4N
+  - !!omap
+    - id: s_3727
+    - name: long-chain base backbone
+    - compartment: c
+    - formula: H4N
+  - !!omap
+    - id: s_3728
+    - name: long-chain base phosphate backbone
+    - compartment: er
+    - formula: H3NO3P
+  - !!omap
+    - id: s_3729
+    - name: long-chain base phosphate backbone
+    - compartment: c
+    - formula: H3NO3P
+  - !!omap
+    - id: s_3730
+    - name: phosphatidate backbone
+    - compartment: erm
+    - formula: C3H5O4P
+  - !!omap
+    - id: s_3731
+    - name: phosphatidate backbone
+    - compartment: c
+    - formula: C3H5O4P
+  - !!omap
+    - id: s_3732
+    - name: diglyceride backbone
+    - compartment: erm
+    - formula: C3H4O
+  - !!omap
+    - id: s_3733
+    - name: diglyceride backbone
+    - compartment: c
+    - formula: C3H4O
+  - !!omap
+    - id: s_3734
+    - name: sn-2-acyl-1-lysophosphatidylinositol backbone
+    - compartment: erm
+    - formula: C9H11O10P
+  - !!omap
+    - id: s_3735
+    - name: sn-2-acyl-1-lysophosphatidylinositol backbone
+    - compartment: c
+    - formula: C9H11O10P
+  - !!omap
+    - id: s_3736
+    - name: phosphatidylglycerol backbone
+    - compartment: mm
+    - formula: C6H11O6P
+  - !!omap
+    - id: s_3737
+    - name: phosphatidylglycerol backbone
+    - compartment: c
+    - formula: C6H11O6P
+  - !!omap
+    - id: s_3738
+    - name: cardiolipin backbone
+    - compartment: mm
+    - formula: C9H14O9P2
+  - !!omap
+    - id: s_3739
+    - name: cardiolipin backbone
+    - compartment: c
+    - formula: C9H14O9P2
+  - !!omap
+    - id: s_3740
+    - name: C16:0 chain
+    - compartment: c
+    - formula: C16H32O2
+  - !!omap
+    - id: s_3741
+    - name: C16:1 chain
+    - compartment: c
+    - formula: C16H30O2
+  - !!omap
+    - id: s_3742
+    - name: C18:0 chain
+    - compartment: c
+    - formula: C18H36O2
+  - !!omap
+    - id: s_3743
+    - name: C18:1 chain
+    - compartment: c
+    - formula: C18H34O2
+  - !!omap
+    - id: s_3744
+    - name: C24:0 chain
+    - compartment: c
+    - formula: C24H48O2
+  - !!omap
+    - id: s_3745
+    - name: C26:0 chain
+    - compartment: c
+    - formula: C26H52O2
+  - !!omap
+    - id: s_3746
+    - name: lipid - backbones
+    - compartment: c
+  - !!omap
+    - id: s_3747
+    - name: lipid - tails
     - compartment: c
 - reactions:
   - !!omap
@@ -36947,947 +36976,332 @@
       - pmid: 12077145
     - confidence_score: 3
   - !!omap
-    - id: r_1357
-    - name: isa complex sphingolipid
-    - metabolites: !!omap
-      - s_0536: 0.80645
-      - s_0892: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1358
-    - name: isa complex sphingolipid
-    - metabolites: !!omap
-      - s_0536: 0.90323
-      - s_1114: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1359
-    - name: isa complex sphingolipid
-    - metabolites: !!omap
-      - s_0536: 1
-      - s_0859: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1360
-    - name: isa complex sphingolipid
-    - metabolites: !!omap
-      - s_0537: 0.80645
-      - s_0893: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1361
-    - name: isa complex sphingolipid
-    - metabolites: !!omap
-      - s_0537: 0.90323
-      - s_1115: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1362
-    - name: isa complex sphingolipid
-    - metabolites: !!omap
-      - s_0537: 1
-      - s_0860: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1363
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.63636
-      - s_1483: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1364
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.68182
-      - s_1310: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1365
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.72727
-      - s_0829: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1366
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.77273
-      - s_0814: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1367
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.81818
-      - s_1246: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1368
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.86364
-      - s_1229: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1369
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.90909
-      - s_0845: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1370
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0643: 0.95455
-      - s_0813: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1371
-    - name: isa dolichol
-    - metabolites: !!omap
-      - s_0640: -1
-      - s_0643: 1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
     - id: r_1449
-    - name: isa IPC
+    - name: inositol-P-ceramide B' (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 0.96
+      - s_0892: 0.91026
       - s_0907: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1450
-    - name: isa IPC
+    - name: inositol-P-ceramide B' (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 1
+      - s_0892: 0.93832
       - s_0910: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1451
-    - name: isa IPC
+    - name: inositol-P-ceramide C (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 0.96
+      - s_0892: 0.92626
       - s_0913: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1452
-    - name: isa IPC
+    - name: inositol-P-ceramide C (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 1
+      - s_0892: 0.95432
       - s_0916: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1453
-    - name: isa IPC
+    - name: inositol-P-ceramide A (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 0.96
+      - s_0892: 0.89426
       - s_0895: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1454
-    - name: isa IPC
+    - name: inositol-P-ceramide A (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 1
+      - s_0892: 0.92232
       - s_0898: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1455
-    - name: isa IPC
+    - name: inositol-P-ceramide B (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 0.96
+      - s_0892: 0.91026
       - s_0901: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1456
-    - name: isa IPC
+    - name: inositol-P-ceramide B (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 1
+      - s_0892: 0.93832
       - s_0904: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1457
-    - name: isa IPC
+    - name: inositol-P-ceramide D (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 0.96
+      - s_0892: 0.94226
       - s_0919: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1458
-    - name: isa IPC
+    - name: inositol-P-ceramide D (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0892: 1
+      - s_0892: 0.97032
       - s_0922: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1459
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 0.96
-      - s_0906: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1460
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 1
-      - s_0909: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1461
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 0.96
-      - s_0912: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1462
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 1
-      - s_0915: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1463
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 0.96
-      - s_0894: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1464
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 1
-      - s_0897: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1465
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 0.96
-      - s_0900: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1466
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 1
-      - s_0903: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1467
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 0.96
-      - s_0918: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1468
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0891: 1
-      - s_0921: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1469
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 0.96
-      - s_0908: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1470
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 1
-      - s_0911: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1471
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 0.96
-      - s_0914: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1472
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 1
-      - s_0917: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1473
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 0.96
-      - s_0896: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1474
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 1
-      - s_0899: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1475
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 0.96
-      - s_0902: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1476
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 1
-      - s_0905: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1477
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 0.96
-      - s_0920: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1478
-    - name: isa IPC
-    - metabolites: !!omap
-      - s_0893: 1
-      - s_0923: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1479
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide A (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 0.96774
+      - s_0859: 1.2985
       - s_0862: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1480
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide A (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 1
+      - s_0859: 1.3266
       - s_0865: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1481
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide B' (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 0.96774
+      - s_0859: 1.3145
       - s_0874: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1482
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide B' (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 1
+      - s_0859: 1.3426
       - s_0877: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1483
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide B (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 0.96774
+      - s_0859: 1.3145
       - s_0868: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1484
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide B (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 1
+      - s_0859: 1.3426
       - s_0871: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1485
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide C (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 0.96774
+      - s_0859: 1.3305
       - s_0880: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1486
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide C (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 1
+      - s_0859: 1.3586
       - s_0883: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1487
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide D (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 0.96774
+      - s_0859: 1.3465
       - s_0886: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1488
-    - name: isa M(IP)2C
+    - name: inositol phosphomannosylinositol phosphoceramide D (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_0859: 1
+      - s_0859: 1.3746
       - s_0889: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1489
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 0.96774
-      - s_0861: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1490
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 1
-      - s_0864: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1491
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 0.96774
-      - s_0873: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1492
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 1
-      - s_0876: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1493
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 0.96774
-      - s_0867: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1494
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 1
-      - s_0870: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1495
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 0.96774
-      - s_0879: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1496
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 1
-      - s_0882: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1497
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 0.96774
-      - s_0885: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1498
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0858: 1
-      - s_0888: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1499
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 0.96774
-      - s_0863: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1500
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 1
-      - s_0866: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1501
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 0.96774
-      - s_0875: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1502
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 1
-      - s_0878: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1503
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 0.96774
-      - s_0869: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1504
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 1
-      - s_0872: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1505
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 0.96774
-      - s_0881: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1506
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 1
-      - s_0884: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1507
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 0.96774
-      - s_0887: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1508
-    - name: isa M(IP)2C
-    - metabolites: !!omap
-      - s_0860: 1
-      - s_0890: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1509
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide B' (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 0.96429
+      - s_1114: 1.0724
       - s_1129: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1510
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide B' (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 1
+      - s_1114: 1.1005
       - s_1132: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1511
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide C (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 0.96429
+      - s_1114: 1.0884
       - s_1135: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1512
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide C (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 1
+      - s_1114: 1.1165
       - s_1138: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1513
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide A (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 0.96429
+      - s_1114: 1.0564
       - s_1117: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1514
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide A (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 1
+      - s_1114: 1.0845
       - s_1120: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1515
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide B (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 0.96429
+      - s_1114: 1.0724
       - s_1123: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1516
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide B (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 1
+      - s_1114: 1.1005
       - s_1126: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1517
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide D (C24) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 0.96429
+      - s_1114: 1.1044
       - s_1141: -1
+      - s_3742: 0.28448
+      - s_3744: 0.36864
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_1518
-    - name: isa MIPC
+    - name: mannosylinositol phosphorylceramide D (C26) [Golgi] SLIME rxn
     - metabolites: !!omap
-      - s_1114: 1
+      - s_1114: 1.1325
       - s_1144: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1519
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 0.96429
-      - s_1128: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1520
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 1
-      - s_1131: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1521
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 0.96429
-      - s_1134: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1522
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 1
-      - s_1137: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1523
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 0.96429
-      - s_1116: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1524
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 1
-      - s_1119: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1525
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 0.96429
-      - s_1122: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1526
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 1
-      - s_1125: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1527
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 0.96429
-      - s_1140: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1528
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1113: 1
-      - s_1143: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1529
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 0.96429
-      - s_1130: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1530
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 1
-      - s_1133: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1531
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 0.96429
-      - s_1136: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1532
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 1
-      - s_1139: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1533
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 0.96429
-      - s_1118: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1534
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 1
-      - s_1121: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1535
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 0.96429
-      - s_1124: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1536
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 1
-      - s_1127: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1537
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 0.96429
-      - s_1142: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
-    - id: r_1538
-    - name: isa MIPC
-    - metabolites: !!omap
-      - s_1115: 1
-      - s_1145: -1
+      - s_3742: 0.28448
+      - s_3745: 0.3967
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
@@ -39062,15 +38476,6 @@
     - metabolites: !!omap
       - s_0529: 1
       - s_0534: -1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - confidence_score: 0
-  - !!omap
-    - id: r_1701
-    - name: complex sphingolipid transport
-    - metabolites: !!omap
-      - s_0535: 1
-      - s_0536: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - confidence_score: 0
@@ -41996,24 +41401,11 @@
     - confidence_score: 0
   - !!omap
     - id: r_2108
-    - name: lipid pseudoreaction
+    - name: lipid pseudoreaction - merge
     - metabolites: !!omap
-      - s_0089: -0.001583
-      - s_0122: -5.6e-05
-      - s_0535: -0.000417
-      - s_0657: -9.6e-05
-      - s_0662: -0.000125
-      - s_0666: -0.0056
-      - s_0672: -0.000812
-      - s_0694: -0.000206
-      - s_0700: -0.000114
-      - s_1059: -3.2e-05
       - s_1096: 1
-      - s_1337: -0.00039
-      - s_1346: -0.00288
-      - s_1351: -0.000697
-      - s_1524: -0.000781
-      - s_1569: -1.5e-05
+      - s_3746: -1
+      - s_3747: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -70734,91 +70126,107 @@
     - confidence_score: 0
   - !!omap
     - id: r_3963
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-16:0, 2-16:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.67213
+      - s_0089: 0.80903
       - s_3545: -1
+      - s_3740: 0.25643
+      - s_3741: 0.25441
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3964
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-16:1, 2-16:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.67213
+      - s_0089: 0.80701
       - s_3547: -1
+      - s_3741: 0.50883
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3965
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-18:0, 2-16:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.70492
+      - s_0089: 0.83708
       - s_3549: -1
+      - s_3741: 0.25441
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3966
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-18:1, 2-16:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.70492
+      - s_0089: 0.83507
       - s_3551: -1
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3967
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-16:0, 2-18:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.70492
+      - s_0089: 0.83708
       - s_3553: -1
+      - s_3740: 0.25643
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3968
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-16:1, 2-18:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.70492
+      - s_0089: 0.83507
       - s_3555: -1
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3969
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-18:0, 2-18:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.7377
+      - s_0089: 0.86514
       - s_3557: -1
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3970
-    - name: isa 1-phosphatidyl-1D-myo-inositol for PI (1-18:1, 2-18:1)
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-18:1) [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0089: 0.7377
+      - s_0089: 0.86312
       - s_3559: -1
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3971
-    - name: isa ergosterol ester for ergosteryl palmitoleate
+    - name: ergosteryl palmitoleate [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3443: -1
-      - s_3709: 0.95652
+      - s_3709: 0.63305
+      - s_3741: 0.25441
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3972
-    - name: isa ergosterol ester for ergosteryl oleate
+    - name: ergosteryl oleate [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3442: -1
-      - s_3709: 1
+      - s_3709: 0.66111
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
@@ -70832,119 +70240,128 @@
     - upper_bound: 1000
     - confidence_score: 0
   - !!omap
-    - id: r_3974
-    - name: isa fatty acid for myristate
-    - metabolites: !!omap
-      - s_0694: 0.53846
-      - s_1161: -1
-    - lower_bound: 0
-    - upper_bound: 1000
-    - confidence_score: 1
-  - !!omap
     - id: r_3975
-    - name: isa fatty acid for palmitate
+    - name: palmitate [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0694: 0.61538
+      - s_0694: 0.25542
       - s_1286: -1
+      - s_3740: 0.25643
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3976
-    - name: isa fatty acid for palmitoleate
+    - name: palmitoleate [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0694: 0.61538
+      - s_0694: 0.25341
       - s_1293: -1
+      - s_3741: 0.25441
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3977
-    - name: isa fatty acid for stearate
+    - name: stearate [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0694: 0.69231
+      - s_0694: 0.28347
       - s_1449: -1
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3978
-    - name: isa fatty acid for oleate
+    - name: oleate [cytoplasm] SLIME rxn
     - metabolites: !!omap
-      - s_0694: 0.69231
+      - s_0694: 0.28146
       - s_1260: -1
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3979
-    - name: isa phosphatidyl-L-serine for PS (1-16:0, 2-16:1)
+    - name: phosphatidyl-L-serine (1-16:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3109: -1
-      - s_3710: 0.65517
+      - s_3710: 0.73396
+      - s_3740: 0.25643
+      - s_3741: 0.25441
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3980
-    - name: isa phosphatidyl-L-serine for PS (1-16:1, 2-16:1)
+    - name: phosphatidyl-L-serine (1-16:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3110: -1
-      - s_3710: 0.65517
+      - s_3710: 0.73195
+      - s_3741: 0.50883
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3981
-    - name: isa phosphatidyl-L-serine for PS (1-18:0, 2-16:1)
+    - name: phosphatidyl-L-serine (1-18:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3111: -1
-      - s_3710: 0.68966
+      - s_3710: 0.76202
+      - s_3741: 0.25441
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3982
-    - name: isa phosphatidyl-L-serine for PS (1-18:1, 2-16:1)
+    - name: phosphatidyl-L-serine (1-18:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3112: -1
-      - s_3710: 0.68966
+      - s_3710: 0.76
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3983
-    - name: isa phosphatidyl-L-serine for PS (1-16:0, 2-18:1)
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3113: -1
-      - s_3710: 0.68966
+      - s_3710: 0.76202
+      - s_3740: 0.25643
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3984
-    - name: isa phosphatidyl-L-serine for PS (1-16:1, 2-18:1)
+    - name: phosphatidyl-L-serine (1-16:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3114: -1
-      - s_3710: 0.68966
+      - s_3710: 0.76
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3985
-    - name: isa phosphatidyl-L-serine for PS (1-18:0, 2-18:1)
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3115: -1
-      - s_3710: 0.72414
+      - s_3710: 0.79007
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3986
-    - name: isa phosphatidyl-L-serine for PS (1-18:1, 2-18:1)
+    - name: phosphatidyl-L-serine (1-18:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3116: -1
-      - s_3710: 0.72414
+      - s_3710: 0.78806
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
@@ -70959,73 +70376,87 @@
     - confidence_score: 0
   - !!omap
     - id: r_3988
-    - name: isa phosphatidylcholine for PC (1-16:0, 2-16:1)
+    - name: phosphatidylcholine (1-16:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3207: -1
-      - s_3711: 0.66667
+      - s_3711: 0.73204
+      - s_3740: 0.25643
+      - s_3741: 0.25441
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3989
-    - name: isa phosphatidylcholine for PC (1-16:1, 2-16:1)
+    - name: phosphatidylcholine (1-16:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3208: -1
-      - s_3711: 0.66667
+      - s_3711: 0.73002
+      - s_3741: 0.50883
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3990
-    - name: isa phosphatidylcholine for PC (1-18:0, 2-16:1)
+    - name: phosphatidylcholine (1-18:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3209: -1
-      - s_3711: 0.7
+      - s_3711: 0.74409
+      - s_3741: 0.25441
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3991
-    - name: isa phosphatidylcholine for PC (1-18:1, 2-16:1)
+    - name: phosphatidylcholine (1-18:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3210: -1
-      - s_3711: 0.7
+      - s_3711: 0.74207
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3992
-    - name: isa phosphatidylcholine for PC (1-16:0, 2-18:1)
+    - name: phosphatidylcholine (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3211: -1
-      - s_3711: 0.7
+      - s_3711: 0.76009
+      - s_3740: 0.25643
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3993
-    - name: isa phosphatidylcholine for PC (1-16:1, 2-18:1)
+    - name: phosphatidylcholine (1-16:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3212: -1
-      - s_3711: 0.7
+      - s_3711: 0.75807
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3994
-    - name: isa phosphatidylcholine for PC (1-18:0, 2-18:1)
+    - name: phosphatidylcholine (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3213: -1
-      - s_3711: 0.73333
+      - s_3711: 0.77214
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3995
-    - name: isa phosphatidylcholine for PC (1-18:1, 2-18:1)
+    - name: phosphatidylcholine (1-18:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3214: -1
-      - s_3711: 0.73333
+      - s_3711: 0.77013
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
@@ -71040,73 +70471,87 @@
     - confidence_score: 0
   - !!omap
     - id: r_3997
-    - name: isa phosphatidylethanolamine for PE (1-16:0, 2-16:1)
+    - name: phosphatidylethanolamine (1-16:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3181: -1
-      - s_3712: 0.64912
+      - s_3712: 0.68995
+      - s_3740: 0.25643
+      - s_3741: 0.25441
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3998
-    - name: isa phosphatidylethanolamine for PE (1-16:1, 2-16:1)
+    - name: phosphatidylethanolamine (1-16:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3185: -1
-      - s_3712: 0.64912
+      - s_3712: 0.68794
+      - s_3741: 0.50883
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_3999
-    - name: isa phosphatidylethanolamine for PE (1-18:0, 2-16:1)
+    - name: phosphatidylethanolamine (1-18:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3187: -1
-      - s_3712: 0.68421
+      - s_3712: 0.71801
+      - s_3741: 0.25441
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4000
-    - name: isa phosphatidylethanolamine for PE (1-18:1, 2-16:1)
+    - name: phosphatidylethanolamine (1-18:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3189: -1
-      - s_3712: 0.68421
+      - s_3712: 0.71599
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4001
-    - name: isa phosphatidylethanolamine for PE (1-16:0, 2-18:1)
+    - name: phosphatidylethanolamine (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3191: -1
-      - s_3712: 0.68421
+      - s_3712: 0.71801
+      - s_3740: 0.25643
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4002
-    - name: isa phosphatidylethanolamine for PE (1-16:1, 2-18:1)
+    - name: phosphatidylethanolamine (1-16:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3193: -1
-      - s_3712: 0.68421
+      - s_3712: 0.71599
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4003
-    - name: isa phosphatidylethanolamine for PE (1-18:0, 2-18:1)
+    - name: phosphatidylethanolamine (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3195: -1
-      - s_3712: 0.7193
+      - s_3712: 0.74606
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4004
-    - name: isa phosphatidylethanolamine for PE (1-18:1, 2-18:1)
+    - name: phosphatidylethanolamine (1-18:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3197: -1
-      - s_3712: 0.7193
+      - s_3712: 0.74405
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
@@ -71121,289 +70566,363 @@
     - confidence_score: 0
   - !!omap
     - id: r_4006
-    - name: isa triglyceride for TAG (1-16:0, 2-16:1, 3-16:0)
+    - name: triglyceride (1-16:0, 2-16:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3011: -1
-      - s_3713: 0.62963
+      - s_3713: 0.80532
+      - s_3740: 0.51286
+      - s_3741: 0.25441
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4007
-    - name: isa triglyceride for TAG (1-16:0, 2-18:1, 3-16:0)
+    - name: triglyceride (1-16:0, 2-18:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3012: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83337
+      - s_3740: 0.51286
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4008
-    - name: isa triglyceride for TAG (1-16:1, 2-16:1, 3-16:0)
+    - name: triglyceride (1-16:1, 2-16:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3013: -1
-      - s_3713: 0.62963
+      - s_3713: 0.8033
+      - s_3740: 0.25643
+      - s_3741: 0.50883
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4009
-    - name: isa triglyceride for TAG (1-16:1, 2-18:1, 3-16:0)
+    - name: triglyceride (1-16:1, 2-18:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3014: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83136
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4010
-    - name: isa triglyceride for TAG (1-18:0, 2-16:1, 3-16:0)
+    - name: triglyceride (1-18:0, 2-16:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3015: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83337
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4011
-    - name: isa triglyceride for TAG (1-18:0, 2-18:1, 3-16:0)
+    - name: triglyceride (1-18:0, 2-18:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3016: -1
-      - s_3713: 0.67901
+      - s_3713: 0.86143
+      - s_3740: 0.25643
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4012
-    - name: isa triglyceride for TAG (1-18:1, 2-16:1, 3-16:0)
+    - name: triglyceride (1-18:1, 2-16:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3017: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83136
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4013
-    - name: isa triglyceride for TAG (1-18:1, 2-18:1, 3-16:0)
+    - name: triglyceride (1-18:1, 2-18:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3018: -1
-      - s_3713: 0.67901
+      - s_3713: 0.85941
+      - s_3740: 0.25643
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4014
-    - name: isa triglyceride for TAG (1-16:0, 2-16:1, 3-16:1)
+    - name: triglyceride (1-16:0, 2-16:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3019: -1
-      - s_3713: 0.62963
+      - s_3713: 0.8033
+      - s_3740: 0.25643
+      - s_3741: 0.50883
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4015
-    - name: isa triglyceride for TAG (1-16:0, 2-18:1, 3-16:1)
+    - name: triglyceride (1-16:0, 2-18:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3020: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83136
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4016
-    - name: isa triglyceride for TAG (1-16:1, 2-16:1, 3-16:1)
+    - name: triglyceride (1-16:1, 2-16:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3021: -1
-      - s_3713: 0.62963
+      - s_3713: 0.80129
+      - s_3741: 0.76324
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4017
-    - name: isa triglyceride for TAG (1-16:1, 2-18:1, 3-16:1)
+    - name: triglyceride (1-16:1, 2-18:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3022: -1
-      - s_3713: 0.65432
+      - s_3713: 0.82934
+      - s_3741: 0.50883
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4018
-    - name: isa triglyceride for TAG (1-18:0, 2-16:1, 3-16:1)
+    - name: triglyceride (1-18:0, 2-16:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3023: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83136
+      - s_3741: 0.50883
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4019
-    - name: isa triglyceride for TAG (1-18:0, 2-18:1, 3-16:1)
+    - name: triglyceride (1-18:0, 2-18:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3024: -1
-      - s_3713: 0.67901
+      - s_3713: 0.85941
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4020
-    - name: isa triglyceride for TAG (1-18:1, 2-16:1, 3-16:1)
+    - name: triglyceride (1-18:1, 2-16:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3025: -1
-      - s_3713: 0.65432
+      - s_3713: 0.82934
+      - s_3741: 0.50883
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4021
-    - name: isa triglyceride for TAG (1-18:1, 2-18:1, 3-16:1)
+    - name: triglyceride (1-18:1, 2-18:1, 3-16:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3026: -1
-      - s_3713: 0.67901
+      - s_3713: 0.8574
+      - s_3741: 0.25441
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4022
-    - name: isa triglyceride for TAG (1-16:0, 2-16:1, 3-18:0)
+    - name: triglyceride (1-16:0, 2-16:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3027: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83337
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4023
-    - name: isa triglyceride for TAG (1-16:0, 2-18:1, 3-18:0)
+    - name: triglyceride (1-16:0, 2-18:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3028: -1
-      - s_3713: 0.67901
+      - s_3713: 0.86143
+      - s_3740: 0.25643
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4024
-    - name: isa triglyceride for TAG (1-16:1, 2-16:1, 3-18:0)
+    - name: triglyceride (1-16:1, 2-16:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3029: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83136
+      - s_3741: 0.50883
+      - s_3742: 0.28448
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4025
-    - name: isa triglyceride for TAG (1-16:1, 2-18:1, 3-18:0)
+    - name: triglyceride (1-16:1, 2-18:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3030: -1
-      - s_3713: 0.67901
+      - s_3713: 0.85941
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4026
-    - name: isa triglyceride for TAG (1-18:0, 2-16:1, 3-18:0)
+    - name: triglyceride (1-18:0, 2-16:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3031: -1
-      - s_3713: 0.67901
+      - s_3713: 0.86143
+      - s_3741: 0.25441
+      - s_3742: 0.56897
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4027
-    - name: isa triglyceride for TAG (1-18:0, 2-18:1, 3-18:0)
+    - name: triglyceride (1-18:0, 2-18:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3032: -1
-      - s_3713: 0.7037
+      - s_3713: 0.88948
+      - s_3742: 0.56897
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4028
-    - name: isa triglyceride for TAG (1-18:1, 2-16:1, 3-18:0)
+    - name: triglyceride (1-18:1, 2-16:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3033: -1
-      - s_3713: 0.67901
+      - s_3713: 0.85941
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4029
-    - name: isa triglyceride for TAG (1-18:1, 2-18:1, 3-18:0)
+    - name: triglyceride (1-18:1, 2-18:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3034: -1
-      - s_3713: 0.7037
+      - s_3713: 0.88747
+      - s_3742: 0.28448
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4030
-    - name: isa triglyceride for TAG (1-16:0, 2-16:1, 3-18:1)
+    - name: triglyceride (1-16:0, 2-16:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3035: -1
-      - s_3713: 0.65432
+      - s_3713: 0.83136
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4031
-    - name: isa triglyceride for TAG (1-16:0, 2-18:1, 3-18:1)
+    - name: triglyceride (1-16:0, 2-18:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3036: -1
-      - s_3713: 0.67901
+      - s_3713: 0.85941
+      - s_3740: 0.25643
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4032
-    - name: isa triglyceride for TAG (1-16:1, 2-16:1, 3-18:1)
+    - name: triglyceride (1-16:1, 2-16:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3037: -1
-      - s_3713: 0.65432
+      - s_3713: 0.82934
+      - s_3741: 0.50883
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4033
-    - name: isa triglyceride for TAG (1-16:1, 2-18:1, 3-18:1)
+    - name: triglyceride (1-16:1, 2-18:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3038: -1
-      - s_3713: 0.67901
+      - s_3713: 0.8574
+      - s_3741: 0.25441
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4034
-    - name: isa triglyceride for TAG (1-18:0, 2-16:1, 3-18:1)
+    - name: triglyceride (1-18:0, 2-16:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3039: -1
-      - s_3713: 0.67901
+      - s_3713: 0.85941
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.28247
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4035
-    - name: isa triglyceride for TAG (1-18:0, 2-18:1, 3-18:1)
+    - name: triglyceride (1-18:0, 2-18:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3040: -1
-      - s_3713: 0.7037
+      - s_3713: 0.88747
+      - s_3742: 0.28448
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4036
-    - name: isa triglyceride for TAG (1-18:1, 2-16:1, 3-18:1)
+    - name: triglyceride (1-18:1, 2-16:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3041: -1
-      - s_3713: 0.67901
+      - s_3713: 0.8574
+      - s_3741: 0.25441
+      - s_3743: 0.56493
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
     - id: r_4037
-    - name: isa triglyceride for TAG (1-18:1, 2-18:1, 3-18:1)
+    - name: triglyceride (1-18:1, 2-18:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn
     - metabolites: !!omap
       - s_3042: -1
-      - s_3713: 0.7037
+      - s_3713: 0.88545
+      - s_3743: 0.8474
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 1
@@ -71528,46 +71047,46 @@
     - id: r_4047
     - name: protein pseudoreaction
     - metabolites: !!omap
-      - s_0404: -0.4193
-      - s_0428: -0.1469
-      - s_0430: -0.0929
-      - s_0432: -0.2719
-      - s_0542: -0.006
-      - s_0747: -0.0963
-      - s_0748: -0.2758
-      - s_0757: -0.2654
-      - s_0832: -0.0606
-      - s_0847: -0.1761
-      - s_1077: -0.2709
-      - s_1099: -0.2616
-      - s_1148: -0.0463
-      - s_1314: -0.1224
-      - s_1379: -0.1505
-      - s_1428: -0.1694
-      - s_1491: -0.1749
-      - s_1527: -0.026
-      - s_1533: -0.0932
-      - s_1561: -0.2418
-      - s_1582: 0.4193
-      - s_1583: 0.1469
-      - s_1585: 0.0929
-      - s_1587: 0.2719
-      - s_1589: 0.006
-      - s_1590: 0.0963
-      - s_1591: 0.2758
-      - s_1593: 0.2654
-      - s_1594: 0.0606
-      - s_1596: 0.1761
-      - s_1598: 0.2709
-      - s_1600: 0.2616
-      - s_1602: 0.0463
-      - s_1604: 0.1224
-      - s_1606: 0.1505
-      - s_1607: 0.1694
-      - s_1608: 0.1749
-      - s_1610: 0.026
-      - s_1612: 0.0932
-      - s_1614: 0.2418
+      - s_0404: -0.45212
+      - s_0428: -0.1584
+      - s_0430: -0.10017
+      - s_0432: -0.29318
+      - s_0542: -0.0064696
+      - s_0747: -0.10384
+      - s_0748: -0.29739
+      - s_0757: -0.28617
+      - s_0832: -0.065343
+      - s_0847: -0.18988
+      - s_1077: -0.2921
+      - s_1099: -0.28208
+      - s_1148: -0.049924
+      - s_1314: -0.13198
+      - s_1379: -0.16228
+      - s_1428: -0.18266
+      - s_1491: -0.18859
+      - s_1527: -0.028035
+      - s_1533: -0.1005
+      - s_1561: -0.26073
+      - s_1582: 0.45212
+      - s_1583: 0.1584
+      - s_1585: 0.10017
+      - s_1587: 0.29318
+      - s_1589: 0.0064696
+      - s_1590: 0.10384
+      - s_1591: 0.29739
+      - s_1593: 0.28617
+      - s_1594: 0.065343
+      - s_1596: 0.18988
+      - s_1598: 0.2921
+      - s_1600: 0.28208
+      - s_1602: 0.049924
+      - s_1604: 0.13198
+      - s_1606: 0.16228
+      - s_1607: 0.18266
+      - s_1608: 0.18859
+      - s_1610: 0.028035
+      - s_1612: 0.1005
+      - s_1614: 0.26073
       - s_3717: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -71576,11 +71095,11 @@
     - id: r_4048
     - name: carbohydrate pseudoreaction
     - metabolites: !!omap
-      - s_0001: -0.9266
-      - s_0004: -0.3095
-      - s_0773: -0.5647
-      - s_1107: -0.8801
-      - s_1520: -0.0255
+      - s_0001: -0.71609
+      - s_0004: -0.23919
+      - s_0773: -0.28569
+      - s_1107: -0.68015
+      - s_1520: -0.11505
       - s_3718: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -71589,10 +71108,10 @@
     - id: r_4049
     - name: RNA pseudoreaction
     - metabolites: !!omap
-      - s_0423: -0.046
-      - s_0526: -0.0447
-      - s_0782: -0.046
-      - s_1545: -0.0599
+      - s_0423: -0.042167
+      - s_0526: -0.040975
+      - s_0782: -0.042167
+      - s_1545: -0.054908
       - s_3719: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -71609,6 +71128,1109 @@
     - lower_bound: 0
     - upper_bound: 1000
     - confidence_score: 0
+  - !!omap
+    - id: r_4051
+    - name: ceramide transport
+    - metabolites: !!omap
+      - s_3721: -1
+      - s_3722: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4052
+    - name: inositol phosphomannosylinositol phosphoceramide transport
+    - metabolites: !!omap
+      - s_0859: -1
+      - s_3723: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4053
+    - name: inositol-P-ceramide transport
+    - metabolites: !!omap
+      - s_0892: -1
+      - s_3724: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4054
+    - name: mannosylinositol phosphorylceramide transport
+    - metabolites: !!omap
+      - s_1114: -1
+      - s_3725: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4055
+    - name: long-chain base transport
+    - metabolites: !!omap
+      - s_3726: -1
+      - s_3727: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4056
+    - name: long-chain base phosphate transport
+    - metabolites: !!omap
+      - s_3728: -1
+      - s_3729: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4057
+    - name: phosphatidate transport
+    - metabolites: !!omap
+      - s_3730: -1
+      - s_3731: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4058
+    - name: diglyceride transport
+    - metabolites: !!omap
+      - s_3732: -1
+      - s_3733: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4059
+    - name: sn-2-acyl-1-lysophosphatidylinositol transport
+    - metabolites: !!omap
+      - s_3734: -1
+      - s_3735: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4060
+    - name: phosphatidylglycerol transport
+    - metabolites: !!omap
+      - s_3736: -1
+      - s_3737: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4061
+    - name: cardiolipin transport
+    - metabolites: !!omap
+      - s_3738: -1
+      - s_3739: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4062
+    - name: lipid - backbones exchange
+    - metabolites: !!omap
+      - s_3746: -1
+    - lower_bound: 0
+    - upper_bound: 0
+    - confidence_score: 0
+  - !!omap
+    - id: r_4063
+    - name: lipid pseudoreaction - backbone
+    - metabolites: !!omap
+      - s_0089: -0.0069103
+      - s_0666: -0.026583
+      - s_0672: -0.0068058
+      - s_0694: -0.0014801
+      - s_1337: -0.0059508
+      - s_1346: -0.025783
+      - s_1351: -0.0069293
+      - s_1524: -0.0068571
+      - s_3746: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4064
+    - name: lipid - tails exchange
+    - metabolites: !!omap
+      - s_3747: -1
+    - lower_bound: 0
+    - upper_bound: 0
+    - confidence_score: 0
+  - !!omap
+    - id: r_4065
+    - name: lipid pseudoreaction - tail
+    - metabolites: !!omap
+      - s_3740: -0.0080858
+      - s_3741: -0.02373
+      - s_3742: -0.0022663
+      - s_3743: -0.0087066
+      - s_3747: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4066
+    - name: ceramide-1 (C24) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0476: -1
+      - s_3721: 0.65214
+      - s_3742: 0.28448
+      - s_3744: 0.36864
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4067
+    - name: ceramide-1 (C26) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0479: -1
+      - s_3721: 0.6802
+      - s_3742: 0.28448
+      - s_3745: 0.3967
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4068
+    - name: ceramide-2 (C24) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0482: -1
+      - s_3721: 0.66814
+      - s_3742: 0.28448
+      - s_3744: 0.36864
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4069
+    - name: ceramide-2 (C26) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0485: -1
+      - s_3721: 0.6962
+      - s_3742: 0.28448
+      - s_3745: 0.3967
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4070
+    - name: ceramide-2' (C24) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0488: -1
+      - s_3721: 0.66814
+      - s_3742: 0.28448
+      - s_3744: 0.36864
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4071
+    - name: ceramide-2' (C26) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0491: -1
+      - s_3721: 0.6962
+      - s_3742: 0.28448
+      - s_3745: 0.3967
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4072
+    - name: ceramide-3 (C24) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0494: -1
+      - s_3721: 0.68414
+      - s_3742: 0.28448
+      - s_3744: 0.36864
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4073
+    - name: ceramide-3 (C26) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0497: -1
+      - s_3721: 0.71219
+      - s_3742: 0.28448
+      - s_3745: 0.3967
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4074
+    - name: ceramide-4 (C24) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0500: -1
+      - s_3721: 0.70014
+      - s_3742: 0.28448
+      - s_3744: 0.36864
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4075
+    - name: ceramide-4 (C26) [Golgi] SLIME rxn
+    - metabolites: !!omap
+      - s_0503: -1
+      - s_3721: 0.72819
+      - s_3742: 0.28448
+      - s_3745: 0.3967
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4076
+    - name: phytosphingosine [endoplasmic reticulum] SLIME rxn
+    - metabolites: !!omap
+      - s_1366: -1
+      - s_3726: 0.31751
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4077
+    - name: phytosphingosine 1-phosphate [endoplasmic reticulum] SLIME rxn
+    - metabolites: !!omap
+      - s_1367: -1
+      - s_3728: 0.39749
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4078
+    - name: sphinganine [endoplasmic reticulum] SLIME rxn
+    - metabolites: !!omap
+      - s_1445: -1
+      - s_3726: 0.30252
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4079
+    - name: sphinganine 1-phosphate [endoplasmic reticulum] SLIME rxn
+    - metabolites: !!omap
+      - s_1446: -1
+      - s_3728: 0.38049
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4080
+    - name: phosphatidate (1-16:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2954: -1
+      - s_3730: 0.64487
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4081
+    - name: phosphatidate (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2955: -1
+      - s_3730: 0.67494
+      - s_3740: 0.25643
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4082
+    - name: phosphatidate (1-16:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2956: -1
+      - s_3730: 0.64487
+      - s_3741: 0.50883
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4083
+    - name: phosphatidate (1-16:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2957: -1
+      - s_3730: 0.67292
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4084
+    - name: phosphatidate (1-18:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2958: -1
+      - s_3730: 0.67494
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4085
+    - name: phosphatidate (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2959: -1
+      - s_3730: 0.70299
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4086
+    - name: phosphatidate (1-18:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2960: -1
+      - s_3730: 0.67292
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4087
+    - name: phosphatidate (1-18:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2961: -1
+      - s_3730: 0.70098
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4088
+    - name: diglyceride (1-16:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2967: -1
+      - s_3732: 0.56892
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4089
+    - name: diglyceride (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2968: -1
+      - s_3732: 0.59496
+      - s_3740: 0.25643
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4090
+    - name: diglyceride (1-16:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2969: -1
+      - s_3732: 0.56489
+      - s_3741: 0.50883
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4091
+    - name: diglyceride (1-16:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2970: -1
+      - s_3732: 0.59294
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4092
+    - name: diglyceride (1-18:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2971: -1
+      - s_3732: 0.59496
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4093
+    - name: diglyceride (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2972: -1
+      - s_3732: 0.62301
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4094
+    - name: diglyceride (1-18:1, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2973: -1
+      - s_3732: 0.59294
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4095
+    - name: diglyceride (1-18:1, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_2974: -1
+      - s_3732: 0.621
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4096
+    - name: sn-2-acyl-1-lysophosphatidylinositol (16:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3126: -1
+      - s_3734: 0.56457
+      - s_3741: 0.25441
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4097
+    - name: sn-2-acyl-1-lysophosphatidylinositol (18:1) [endoplasmic reticulum membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3127: -1
+      - s_3734: 0.59262
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4098
+    - name: phosphatidylglycerol (1-16:0, 2-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3227: -1
+      - s_3736: 0.72097
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4099
+    - name: phosphatidylglycerol (1-16:1, 2-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3229: -1
+      - s_3736: 0.71895
+      - s_3741: 0.50883
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4100
+    - name: phosphatidylglycerol (1-18:0, 2-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3230: -1
+      - s_3736: 0.74902
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4101
+    - name: phosphatidylglycerol (1-18:1, 2-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3231: -1
+      - s_3736: 0.747
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4102
+    - name: phosphatidylglycerol (1-16:0, 2-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3232: -1
+      - s_3736: 0.74902
+      - s_3740: 0.25643
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4103
+    - name: phosphatidylglycerol (1-16:1, 2-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3233: -1
+      - s_3736: 0.747
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4104
+    - name: cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3234: -1
+      - s_3738: 1.3519
+      - s_3740: 0.51286
+      - s_3741: 0.50883
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4105
+    - name: cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3235: -1
+      - s_3738: 1.3478
+      - s_3740: 0.25643
+      - s_3741: 0.76324
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4106
+    - name: cardiolipin (1-16:0, 2-16:1, 3-18:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3236: -1
+      - s_3738: 1.3799
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4107
+    - name: cardiolipin (1-16:0, 2-16:1, 3-18:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3237: -1
+      - s_3738: 1.3759
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4108
+    - name: cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3238: -1
+      - s_3738: 1.3799
+      - s_3740: 0.51286
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4109
+    - name: cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3239: -1
+      - s_3738: 1.3759
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4110
+    - name: cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3240: -1
+      - s_3738: 1.3498
+      - s_3740: 0.25643
+      - s_3741: 0.76324
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4111
+    - name: cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3241: -1
+      - s_3738: 1.3458
+      - s_3741: 1.0177
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4112
+    - name: cardiolipin (1-16:1, 2-16:1, 3-18:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3242: -1
+      - s_3738: 1.3779
+      - s_3741: 0.76324
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4113
+    - name: cardiolipin (1-16:1, 2-16:1, 3-18:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3243: -1
+      - s_3738: 1.3739
+      - s_3741: 0.76324
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4114
+    - name: cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3244: -1
+      - s_3738: 1.3779
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4115
+    - name: cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3245: -1
+      - s_3738: 1.3739
+      - s_3741: 0.76324
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4116
+    - name: cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3246: -1
+      - s_3738: 1.3799
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4117
+    - name: cardiolipin (1-18:0, 2-16:1, 3-16:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3247: -1
+      - s_3738: 1.3759
+      - s_3741: 0.76324
+      - s_3742: 0.28448
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4118
+    - name: cardiolipin (1-18:0, 2-16:1, 3-18:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3248: -1
+      - s_3738: 1.408
+      - s_3741: 0.50883
+      - s_3742: 0.56897
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4119
+    - name: cardiolipin (1-18:0, 2-16:1, 3-18:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3249: -1
+      - s_3738: 1.4039
+      - s_3741: 0.50883
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4120
+    - name: cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3250: -1
+      - s_3738: 1.408
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4121
+    - name: cardiolipin (1-18:0, 2-16:1, 3-16:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3251: -1
+      - s_3738: 1.4039
+      - s_3741: 0.50883
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4122
+    - name: cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3252: -1
+      - s_3738: 1.3779
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4123
+    - name: cardiolipin (1-18:1, 2-16:1, 3-16:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3253: -1
+      - s_3738: 1.3739
+      - s_3741: 0.76324
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4124
+    - name: cardiolipin (1-18:1, 2-16:1, 3-18:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3254: -1
+      - s_3738: 1.4059
+      - s_3741: 0.50883
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4125
+    - name: cardiolipin (1-18:1, 2-16:1, 3-18:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3255: -1
+      - s_3738: 1.4019
+      - s_3741: 0.50883
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4126
+    - name: cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3256: -1
+      - s_3738: 1.4059
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4127
+    - name: cardiolipin (1-18:1, 2-16:1, 3-16:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3257: -1
+      - s_3738: 1.4019
+      - s_3741: 0.50883
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4128
+    - name: cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3258: -1
+      - s_3738: 1.3799
+      - s_3740: 0.51286
+      - s_3741: 0.25441
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4129
+    - name: cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3259: -1
+      - s_3738: 1.3759
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4130
+    - name: cardiolipin (1-16:0, 2-18:1, 3-18:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3260: -1
+      - s_3738: 1.408
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4131
+    - name: cardiolipin (1-16:0, 2-18:1, 3-18:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3261: -1
+      - s_3738: 1.4039
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4132
+    - name: cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3262: -1
+      - s_3738: 1.408
+      - s_3740: 0.51286
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4133
+    - name: cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3263: -1
+      - s_3738: 1.4039
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4134
+    - name: cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3264: -1
+      - s_3738: 1.3779
+      - s_3740: 0.25643
+      - s_3741: 0.50883
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4135
+    - name: cardiolipin (1-16:1, 2-18:1, 3-16:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3265: -1
+      - s_3738: 1.3739
+      - s_3741: 0.76324
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4136
+    - name: cardiolipin (1-16:1, 2-18:1, 3-18:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3266: -1
+      - s_3738: 1.4059
+      - s_3741: 0.50883
+      - s_3742: 0.28448
+      - s_3743: 0.28247
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4137
+    - name: cardiolipin (1-16:1, 2-18:1, 3-18:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3267: -1
+      - s_3738: 1.4019
+      - s_3741: 0.50883
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4138
+    - name: cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3268: -1
+      - s_3738: 1.4059
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4139
+    - name: cardiolipin (1-16:1, 2-18:1, 3-16:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3269: -1
+      - s_3738: 1.4019
+      - s_3741: 0.50883
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4140
+    - name: cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3308: -1
+      - s_3738: 1.4059
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4141
+    - name: cardiolipin (1-18:1, 2-18:1, 3-16:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3309: -1
+      - s_3738: 1.4019
+      - s_3741: 0.50883
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4142
+    - name: cardiolipin (1-18:1, 2-18:1, 3-18:0, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3310: -1
+      - s_3738: 1.434
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4143
+    - name: cardiolipin (1-18:1, 2-18:1, 3-18:1, 4-16:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3311: -1
+      - s_3738: 1.43
+      - s_3741: 0.25441
+      - s_3743: 0.8474
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4144
+    - name: cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3312: -1
+      - s_3738: 1.434
+      - s_3740: 0.25643
+      - s_3743: 0.8474
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4145
+    - name: cardiolipin (1-18:1, 2-18:1, 3-16:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3313: -1
+      - s_3738: 1.43
+      - s_3741: 0.25441
+      - s_3743: 0.8474
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4146
+    - name: cardiolipin (1-16:0, 2-16:1, 3-18:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3314: -1
+      - s_3738: 1.4039
+      - s_3740: 0.25643
+      - s_3741: 0.25441
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4147
+    - name: cardiolipin (1-16:1, 2-16:1, 3-18:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3315: -1
+      - s_3738: 1.4019
+      - s_3741: 0.50883
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4148
+    - name: cardiolipin (1-18:0, 2-16:1, 3-18:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3316: -1
+      - s_3738: 1.432
+      - s_3741: 0.25441
+      - s_3742: 0.28448
+      - s_3743: 0.56493
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4149
+    - name: cardiolipin (1-18:1, 2-16:1, 3-18:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3317: -1
+      - s_3738: 1.43
+      - s_3741: 0.25441
+      - s_3743: 0.8474
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4150
+    - name: cardiolipin (1-16:0, 2-18:1, 3-18:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3318: -1
+      - s_3738: 1.432
+      - s_3740: 0.25643
+      - s_3743: 0.8474
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
+  - !!omap
+    - id: r_4151
+    - name: cardiolipin (1-16:1, 2-18:1, 3-18:1, 4-18:1) [mitochondrial membrane] SLIME rxn
+    - metabolites: !!omap
+      - s_3319: -1
+      - s_3738: 1.43
+      - s_3741: 0.25441
+      - s_3743: 0.8474
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 1
 - genes:
   - !!omap
     - id: Q0045
