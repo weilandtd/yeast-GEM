@@ -3,7 +3,7 @@
 % Saves model as a .xml, .txt and .yml file. Also updates complementary
 % files (boundaryMets.txt and dependencies.txt).
 %
-% Benjam�n J. S�nchez
+% Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function saveYeastModel(model)
