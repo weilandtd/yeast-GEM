@@ -37,8 +37,8 @@ while still_reading
     if ~ischar(inline)
         still_reading = false;
     else
-        if length(regexp(inline,'-00[0-9]')) == 1 && length(regexp(inline,'-00')) == 1
-            inline = strrep(inline,'-00','-0');
+        if length(regexp(inline,'[0-9]e-00[0-9]')) == 1 && length(regexp(inline,'e-00')) == 1
+            inline = strrep(inline,'e-00','e-0');
         end
         fwrite(fout,inline);
     end
