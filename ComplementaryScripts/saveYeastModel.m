@@ -42,8 +42,8 @@ while still_reading
     if ~ischar(inline)
         still_reading = false;
     else
-        if length(regexp(inline,'[0-9]e-00[0-9]')) == 1 && length(regexp(inline,'e-00')) == 1
-            inline = strrep(inline,'e-00','e-0');
+        if ~isempty(regexp(inline,'[0-9]e-?00[0-9]','once'))
+            inline = regexprep(inline,'(?<=[0-9]e-?)00(?=[0-9])','0');
         end
         fwrite(fout,inline);
     end
