@@ -17,7 +17,7 @@ for i = 1:length(metaboliteData{1})
         %Correct name:
         if startsWith(model.metNames{j},[metaboliteData{1}{i} ' ['])	%old name
             metName = model.metNames{j};
-            comp    = metName(strfind(metName,' ['):strfind(metName,']'));
+            comp    = metName(strfind(metName,' ['):end);
             metName = [metaboliteData{2}{i} comp];
             model.metNames{j} = metName;
         end
