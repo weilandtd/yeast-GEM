@@ -31,6 +31,27 @@ for i = 1:length(model.rxns)
 end
 fclose(fid);
 
+%Convert notation "e-005" to "e-05 " in stoich. coeffs. to avoid
+%inconsistencies between Windows and MAC:
+copyfile('../ModelFiles/xml/yeastGEM.xml','backup.xml')
+fin  = fopen('backup.xml','r');
+fout = fopen('../ModelFiles/xml/yeastGEM.xml','w');
+still_reading = true;
+while still_reading
+    inline = fgets(fin);
+    if ~ischar(inline)
+        still_reading = false;
+    else
+        if ~isempty(regexp(inline,'[0-9]e-?00[0-9]','once'))
+            inline = regexprep(inline,'(?<=[0-9]e-?)00(?=[0-9])','0');
+        end
+        fwrite(fout,inline);
+    end
+end
+fclose('all');
+delete('backup.xml');
+
 %Switch back to original folder
 cd(currentDir)
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
