@@ -11118,7 +11118,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18364
-      - kegg.compound: C00318
+      - kegg.compound: C05108
   - !!omap
     - id: s_2768
     - name: ergosta-5,7,22,24(28)-tetraen-3beta-ol
@@ -11127,7 +11127,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18249
-      - kegg.compound: C00256
+      - kegg.compound: C05440
   - !!omap
     - id: s_2770
     - name: acetoacetyl-ACP
@@ -11228,7 +11228,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57375
-      - kegg.compound: C00526
+      - kegg.compound: C01832
   - !!omap
     - id: s_2782
     - name: malonyl-CoA
@@ -11237,7 +11237,7 @@
     - charge: -5
     - annotation: !!omap
       - chebi: CHEBI:57384
-      - kegg.compound: C02504
+      - kegg.compound: C00083
   - !!omap
     - id: s_2783
     - name: H+
@@ -11246,7 +11246,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:24636
-      - kegg.compound: C02223
+      - kegg.compound: C00080
   - !!omap
     - id: s_2784
     - name: carbon dioxide
@@ -11255,6 +11255,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16526
+      - kegg.compound: C00011
   - !!omap
     - id: s_2785
     - name: coenzyme A
@@ -11263,6 +11264,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57287
+      - kegg.compound: C00010
   - !!omap
     - id: s_2786
     - name: 3-oxotetradecanoyl-CoA
@@ -11271,7 +11273,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28726
-      - kegg.compound: C00026
+      - kegg.compound: C05261
   - !!omap
     - id: s_2787
     - name: myristoyl-CoA
@@ -11280,7 +11282,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57385
-      - kegg.compound: C05853
+      - kegg.compound: C02593
   - !!omap
     - id: s_2788
     - name: 3-oxopalmitoyl-CoA
@@ -11289,7 +11291,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57349
-      - kegg.compound: C07329
+      - kegg.compound: C05259
   - !!omap
     - id: s_2789
     - name: palmitoyl-CoA
@@ -11298,7 +11300,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57379
-      - kegg.compound: C00568
+      - kegg.compound: C00154
   - !!omap
     - id: s_2790
     - name: 3-oxooctadecanoyl-CoA
@@ -11307,7 +11309,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:50571
-      - kegg.compound: C00430
+      - kegg.compound: C16216
   - !!omap
     - id: s_2791
     - name: stearoyl-CoA
@@ -11316,7 +11318,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57394
-      - kegg.compound: C03479
+      - kegg.compound: C00412
   - !!omap
     - id: s_2792
     - name: 3-oxoicosanoyl-CoA
@@ -11367,7 +11369,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52974
-      - kegg.compound: C00147
+      - kegg.compound: C16529
   - !!omap
     - id: s_2798
     - name: 3-oxohexacosanoyl-CoA
@@ -11376,7 +11378,6 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52977
-      - kegg.compound: C00212
   - !!omap
     - id: s_2799
     - name: NADPH
@@ -11385,7 +11386,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57783
-      - kegg.compound: C00054
+      - kegg.compound: C00005
   - !!omap
     - id: s_2800
     - name: NADP(+)
@@ -11394,7 +11395,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:58349
-      - kegg.compound: C00499
+      - kegg.compound: C00006
   - !!omap
     - id: s_2801
     - name: (S)-3-hydroxytetradecanoyl-CoA
@@ -11403,7 +11404,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:27466
-      - kegg.compound: C01551
+      - kegg.compound: C05260
   - !!omap
     - id: s_2802
     - name: (S)-3-hydroxypalmitoyl-CoA
@@ -11412,7 +11413,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:27402
-      - kegg.compound: C00352
+      - kegg.compound: C05258
   - !!omap
     - id: s_2803
     - name: 3-hydroxyoctadecanoyl-CoA
@@ -11421,7 +11422,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:50583
-      - kegg.compound: C01342
+      - kegg.compound: C16217
   - !!omap
     - id: s_2804
     - name: 3-hydroxyicosanoyl-CoA
@@ -11454,7 +11455,6 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52976
-      - kegg.compound: C00114
   - !!omap
     - id: s_2808
     - name: H2O
@@ -11463,7 +11463,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15377
-      - kegg.compound: C00158
+      - kegg.compound: C00001
   - !!omap
     - id: s_2809
     - name: trans-tetradec-2-enoyl-CoA
@@ -11472,7 +11472,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:61405
-      - kegg.compound: C00475
+      - kegg.compound: C05273
   - !!omap
     - id: s_2810
     - name: trans-hexadec-2-enoyl-CoA
@@ -11490,7 +11490,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:50570
-      - kegg.compound: C00216
+      - kegg.compound: C16218
   - !!omap
     - id: s_2812
     - name: trans-icos-2-enoyl-CoA
@@ -11521,7 +11521,6 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52975
-      - kegg.compound: C00794
   - !!omap
     - id: s_2816
     - name: hexacosanoyl-CoA
@@ -11530,7 +11529,6 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52966
-      - kegg.compound: C00031
   - !!omap
     - id: s_2817
     - name: oxygen
@@ -11539,7 +11537,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15379
-      - kegg.compound: C00159
+      - kegg.compound: C00007
   - !!omap
     - id: s_2818
     - name: NADH
@@ -11548,7 +11546,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:57945
-      - kegg.compound: C00121
+      - kegg.compound: C00004
   - !!omap
     - id: s_2819
     - name: palmitoleoyl-CoA(4-)
@@ -11566,7 +11564,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:57540
-      - kegg.compound: C01571
+      - kegg.compound: C00003
   - !!omap
     - id: s_2821
     - name: oleoyl-CoA
@@ -11575,7 +11573,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57387
-      - kegg.compound: C00881
+      - kegg.compound: C00510
   - !!omap
     - id: s_2822
     - name: butyrate
@@ -11602,7 +11600,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30823
-      - kegg.compound: C01694
+      - kegg.compound: C00712
   - !!omap
     - id: s_2828
     - name: butyrate
@@ -11629,7 +11627,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:30616
-      - kegg.compound: C00849
+      - kegg.compound: C00002
   - !!omap
     - id: s_2832
     - name: laurate
@@ -11638,7 +11636,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:18262
-      - kegg.compound: C04525
+      - kegg.compound: C02679
   - !!omap
     - id: s_2833
     - name: AMP
@@ -11647,7 +11645,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:456215
-      - kegg.compound: C00061
+      - kegg.compound: C00020
   - !!omap
     - id: s_2834
     - name: diphosphate
@@ -11656,7 +11654,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:33019
-      - kegg.compound: C00504
+      - kegg.compound: C00013
   - !!omap
     - id: s_2835
     - name: myristate
@@ -11665,7 +11663,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30807
-      - kegg.compound: C00058
+      - kegg.compound: C06424
   - !!omap
     - id: s_2836
     - name: palmitate
@@ -11674,7 +11672,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:7896
-      - kegg.compound: C00122
+      - kegg.compound: C00249
   - !!omap
     - id: s_2837
     - name: palmitoleate
@@ -11683,7 +11681,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:32372
-      - kegg.compound: C00334
+      - kegg.compound: C08362
   - !!omap
     - id: s_2838
     - name: stearate
@@ -11692,7 +11690,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:25629
-      - kegg.compound: C00051
+      - kegg.compound: C01530
   - !!omap
     - id: s_2839
     - name: oleate
@@ -11701,7 +11699,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30823
-      - kegg.compound: C00127
+      - kegg.compound: C00712
   - !!omap
     - id: s_2840
     - name: ATP
@@ -11710,7 +11708,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:30616
-      - kegg.compound: C00116
+      - kegg.compound: C00002
   - !!omap
     - id: s_2841
     - name: laurate
@@ -11719,7 +11717,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:18262
-      - kegg.compound: C00266
+      - kegg.compound: C02679
   - !!omap
     - id: s_2842
     - name: AMP
@@ -11728,7 +11726,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:456215
-      - kegg.compound: C00048
+      - kegg.compound: C00020
   - !!omap
     - id: s_2843
     - name: lauroyl-CoA
@@ -11737,7 +11735,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57375
-      - kegg.compound: C00242
+      - kegg.compound: C01832
   - !!omap
     - id: s_2844
     - name: myristate
@@ -11746,7 +11744,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30807
-      - kegg.compound: C00387
+      - kegg.compound: C06424
   - !!omap
     - id: s_2845
     - name: myristoyl-CoA
@@ -11755,7 +11753,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57385
-      - kegg.compound: C00080
+      - kegg.compound: C02593
   - !!omap
     - id: s_2846
     - name: palmitate
@@ -11764,7 +11762,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:7896
-      - kegg.compound: C00001
+      - kegg.compound: C00249
   - !!omap
     - id: s_2847
     - name: palmitoyl-CoA
@@ -11773,7 +11771,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57379
-      - kegg.compound: C00517
+      - kegg.compound: C00154
   - !!omap
     - id: s_2848
     - name: palmitoleate
@@ -11782,7 +11780,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:32372
-      - kegg.compound: C00262
+      - kegg.compound: C08362
   - !!omap
     - id: s_2849
     - name: palmitoleoyl-CoA(4-)
@@ -11800,7 +11798,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:25629
-      - kegg.compound: C00294
+      - kegg.compound: C01530
   - !!omap
     - id: s_2851
     - name: stearoyl-CoA
@@ -11809,7 +11807,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57394
-      - kegg.compound: C14818
+      - kegg.compound: C00412
   - !!omap
     - id: s_2852
     - name: oleate
@@ -11818,7 +11816,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30823
-      - kegg.compound: C12296
+      - kegg.compound: C00712
   - !!omap
     - id: s_2853
     - name: oleoyl-CoA
@@ -11827,7 +11825,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57387
-      - kegg.compound: C07328
+      - kegg.compound: C00510
   - !!omap
     - id: s_2854
     - name: palmitoleoyl-CoA(4-)
@@ -11845,6 +11843,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30823
+      - kegg.compound: C00712
   - !!omap
     - id: s_2856
     - name: ATP
@@ -11853,6 +11852,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:30616
+      - kegg.compound: C00002
   - !!omap
     - id: s_2857
     - name: coenzyme A
@@ -11861,7 +11861,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57287
-      - kegg.compound: C00041
+      - kegg.compound: C00010
   - !!omap
     - id: s_2858
     - name: arachidate
@@ -11878,7 +11878,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:456215
-      - kegg.compound: C00259
+      - kegg.compound: C00020
   - !!omap
     - id: s_2860
     - name: diphosphate
@@ -11887,7 +11887,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:33019
-      - kegg.compound: C00062
+      - kegg.compound: C00013
   - !!omap
     - id: s_2861
     - name: icosanoyl-CoA
@@ -11923,7 +11923,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31014
-      - kegg.compound: C01722
+      - kegg.compound: C08320
   - !!omap
     - id: s_2865
     - name: tetracosanoyl-CoA
@@ -11932,7 +11932,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52974
-      - kegg.compound: C00025
+      - kegg.compound: C16529
   - !!omap
     - id: s_2866
     - name: cerotic acid
@@ -11941,7 +11941,6 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31013
-      - kegg.compound: C00064
   - !!omap
     - id: s_2867
     - name: hexacosanoyl-CoA
@@ -11950,7 +11949,6 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52966
-      - kegg.compound: C00037
   - !!omap
     - id: s_2868
     - name: behenate
@@ -11968,7 +11966,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31014
-      - kegg.compound: C00263
+      - kegg.compound: C08320
   - !!omap
     - id: s_2870
     - name: cerotic acid
@@ -11977,7 +11975,6 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31013
-      - kegg.compound: C00407
   - !!omap
     - id: s_2871
     - name: behenate
@@ -12004,7 +12001,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31014
-      - kegg.compound: C00073
+      - kegg.compound: C08320
   - !!omap
     - id: s_2874
     - name: tetracosanoyl-CoA
@@ -12013,7 +12010,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52974
-      - kegg.compound: C00079
+      - kegg.compound: C16529
   - !!omap
     - id: s_2875
     - name: cerotic acid
@@ -12022,7 +12019,6 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31013
-      - kegg.compound: C00148
   - !!omap
     - id: s_2876
     - name: hexacosanoyl-CoA
@@ -12031,7 +12027,6 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52966
-      - kegg.compound: C00065
   - !!omap
     - id: s_2877
     - name: palmitoleoyl-CoA(4-)
@@ -12340,7 +12335,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57286
-      - kegg.compound: C00245
+      - kegg.compound: C00332
   - !!omap
     - id: s_2915
     - name: 3-oxohexanoyl-CoA
@@ -12504,6 +12499,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:57597
+      - kegg.compound: C00093
   - !!omap
     - id: s_2935
     - name: 1-acyl-sn-glycerol 3-phosphate (16:0)
@@ -12545,6 +12541,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:57642
+      - kegg.compound: C00111
   - !!omap
     - id: s_2940
     - name: acylglycerone phosphate (16:0)
@@ -12656,6 +12653,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57783
+      - kegg.compound: C00005
   - !!omap
     - id: s_2953
     - name: NADP(+)
@@ -12664,6 +12662,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:58349
+      - kegg.compound: C00006
   - !!omap
     - id: s_2954
     - name: phosphatidate (1-16:0, 2-16:1)
@@ -12770,6 +12769,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:43474
+      - kegg.compound: C00009
   - !!omap
     - id: s_2967
     - name: diglyceride (1-16:0, 2-16:1)
@@ -12850,6 +12850,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15377
+      - kegg.compound: C00001
   - !!omap
     - id: s_2977
     - name: phosphate
@@ -12858,6 +12859,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:43474
+      - kegg.compound: C00009
   - !!omap
     - id: s_2978
     - name: diglyceride (1-16:0, 2-16:1)
@@ -12995,6 +12997,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15377
+      - kegg.compound: C00001
   - !!omap
     - id: s_2995
     - name: phosphate
@@ -13003,6 +13006,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:43474
+      - kegg.compound: C00009
   - !!omap
     - id: s_2996
     - name: diglyceride (1-16:0, 2-16:1)
@@ -13708,6 +13712,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:37563
+      - kegg.compound: C00063
   - !!omap
     - id: s_3084
     - name: CDP-diacylglycerol (1-16:0, 2-16:1)
@@ -13777,6 +13782,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:37563
+      - kegg.compound: C00063
   - !!omap
     - id: s_3094
     - name: H+
@@ -13785,6 +13791,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:24636
+      - kegg.compound: C00080
   - !!omap
     - id: s_3095
     - name: diphosphate
@@ -13793,6 +13800,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:33019
+      - kegg.compound: C00013
   - !!omap
     - id: s_3096
     - name: CDP-diacylglycerol (1-16:0, 2-16:1)
@@ -13882,6 +13890,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17115
+      - kegg.compound: C00065
   - !!omap
     - id: s_3108
     - name: CMP
@@ -13890,6 +13899,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:60377
+      - kegg.compound: C00055
   - !!omap
     - id: s_3109
     - name: phosphatidyl-L-serine (1-16:0, 2-16:1)
@@ -13959,6 +13969,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17268
+      - kegg.compound: C00137
   - !!omap
     - id: s_3118
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)
@@ -14047,6 +14058,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16526
+      - kegg.compound: C00011
   - !!omap
     - id: s_3130
     - name: phosphatidylethanolamine (1-16:0, 2-16:1)
@@ -14180,6 +14192,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:24636
+      - kegg.compound: C00080
   - !!omap
     - id: s_3147
     - name: carbon dioxide
@@ -14188,6 +14201,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16526
+      - kegg.compound: C00011
   - !!omap
     - id: s_3148
     - name: phosphatidylethanolamine (1-16:0, 2-16:1)
@@ -14321,6 +14335,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:24636
+      - kegg.compound: C00080
   - !!omap
     - id: s_3165
     - name: carbon dioxide
@@ -14329,6 +14344,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16526
+      - kegg.compound: C00011
   - !!omap
     - id: s_3166
     - name: phosphatidylethanolamine (1-16:0, 2-16:1)
@@ -14462,6 +14478,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:15414
+      - kegg.compound: C00019
   - !!omap
     - id: s_3183
     - name: S-adenosyl-L-homocysteine
@@ -14470,6 +14487,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16680
+      - kegg.compound: C00021
   - !!omap
     - id: s_3184
     - name: phosphatidyl-N-methylethanolamine (1-16:0, 2-16:1)
@@ -14684,6 +14702,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:58069
+      - kegg.compound: C00112
   - !!omap
     - id: s_3216
     - name: CDP-ethanolamine
@@ -14692,6 +14711,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:57876
+      - kegg.compound: C00570
   - !!omap
     - id: s_3217
     - name: CDP-choline
@@ -14700,6 +14720,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16436
+      - kegg.compound: C00307
   - !!omap
     - id: s_3218
     - name: glycerol 3-phosphate
@@ -14708,6 +14729,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:57597
+      - kegg.compound: C00093
   - !!omap
     - id: s_3219
     - name: CMP
@@ -14716,6 +14738,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:60377
+      - kegg.compound: C00055
   - !!omap
     - id: s_3220
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:0, 2-16:1)
@@ -14754,6 +14777,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15377
+      - kegg.compound: C00001
   - !!omap
     - id: s_3227
     - name: phosphatidylglycerol (1-16:0, 2-16:1)
@@ -14770,6 +14794,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:43474
+      - kegg.compound: C00009
   - !!omap
     - id: s_3229
     - name: phosphatidylglycerol (1-16:1, 2-16:1)
@@ -15004,6 +15029,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:7896
+      - kegg.compound: C00249
   - !!omap
     - id: s_3272
     - name: monolysocardiolipin (2-16:1, 3-16:1, 4-16:1)
@@ -15037,6 +15063,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:25629
+      - kegg.compound: C01530
   - !!omap
     - id: s_3278
     - name: monolysocardiolipin (2-18:1, 3-16:0, 4-16:1)
@@ -15292,6 +15319,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57287
+      - kegg.compound: C00010
   - !!omap
     - id: s_3322
     - name: oleoyl-CoA
@@ -15300,6 +15328,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57387
+      - kegg.compound: C00510
   - !!omap
     - id: s_3323
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)
@@ -15316,6 +15345,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:456216
+      - kegg.compound: C00008
   - !!omap
     - id: s_3325
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
@@ -15429,6 +15459,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:30616
+      - kegg.compound: C00002
   - !!omap
     - id: s_3342
     - name: ADP
@@ -15437,6 +15468,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:456216
+      - kegg.compound: C00008
   - !!omap
     - id: s_3343
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
@@ -15550,6 +15582,7 @@
     - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:30616
+      - kegg.compound: C00002
   - !!omap
     - id: s_3360
     - name: ADP
@@ -15558,6 +15591,7 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:456216
+      - kegg.compound: C00008
   - !!omap
     - id: s_3361
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
@@ -15993,6 +16027,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:23929
+      - kegg.compound: C15777
   - !!omap
     - id: s_3433
     - name: episteryl oleate
@@ -16017,6 +16052,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17038
+      - kegg.compound: C04525
   - !!omap
     - id: s_3436
     - name: fecosteryl oleate
@@ -16041,6 +16077,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16521
+      - kegg.compound: C01724
   - !!omap
     - id: s_3439
     - name: lanosteryl oleate
@@ -16065,6 +16102,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16933
+      - kegg.compound: C01694
   - !!omap
     - id: s_3442
     - name: ergosteryl oleate
@@ -16089,6 +16127,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18252
+      - kegg.compound: C05437
   - !!omap
     - id: s_3445
     - name: zymosteryl oleate
@@ -16130,6 +16169,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15377
+      - kegg.compound: C00001
   - !!omap
     - id: s_3450
     - name: 1-acylglycerophosphocholine (16:0)
@@ -16144,6 +16184,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:32372
+      - kegg.compound: C08362
   - !!omap
     - id: s_3452
     - name: phosphatidylcholine (1-16:1, 2-16:1)
@@ -16202,6 +16243,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30823
+      - kegg.compound: C00712
   - !!omap
     - id: s_3460
     - name: phosphatidylcholine (1-16:1, 2-18:1)
@@ -16234,6 +16276,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:7896
+      - kegg.compound: C00249
   - !!omap
     - id: s_3464
     - name: stearate
@@ -16242,6 +16285,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:25629
+      - kegg.compound: C01530
   - !!omap
     - id: s_3465
     - name: phosphatidylethanolamine (1-16:0, 2-16:1)
@@ -16469,6 +16513,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:58444
+      - kegg.compound: C01225
   - !!omap
     - id: s_3496
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)
@@ -16490,6 +16535,7 @@
     - charge: -6
     - annotation: !!omap
       - chebi: CHEBI:203600
+      - kegg.compound: C01245
   - !!omap
     - id: s_3499
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)
@@ -16774,6 +16820,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:43474
+      - kegg.compound: C00009
   - !!omap
     - id: s_3537
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)
@@ -17523,6 +17570,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15377
+      - kegg.compound: C00001
   - !!omap
     - id: s_3658
     - name: ergosteryl oleate
@@ -17547,6 +17595,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:23929
+      - kegg.compound: C15777
   - !!omap
     - id: s_3661
     - name: episteryl oleate
@@ -17587,6 +17636,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16521
+      - kegg.compound: C01724
   - !!omap
     - id: s_3666
     - name: lanosteryl oleate
@@ -17683,6 +17733,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:30823
+      - kegg.compound: C00712
   - !!omap
     - id: s_3678
     - name: diglyceride (1-16:1, 2-18:1)
@@ -17739,6 +17790,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17754
+      - kegg.compound: C00116
   - !!omap
     - id: s_3685
     - name: 1-acylglycerophosphoethanolamine (16:0)
@@ -17957,6 +18009,7 @@
     - formula: C49H56FeN4O6
     - annotation: !!omap
       - chebi: CHEBI:24479
+      - kegg.compound: C15670
   - !!omap
     - id: s_3715
     - name: raffinose
