@@ -2130,6 +2130,7 @@
     - id: s_0330
     - name: 6-(alpha-D-glucosaminyl)-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53055
   - !!omap
@@ -2146,6 +2147,7 @@
     - name: 6-[6-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-2-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-alpha-2-(2-aminoethylphosphoryl)mannosyl-(1->4)-alpha-glucosaminyl]-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
     - formula: C43H44N9O
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53060
   - !!omap
@@ -2160,6 +2162,7 @@
     - id: s_0334
     - name: 6-O-[alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl]-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53056
   - !!omap
@@ -2175,18 +2178,21 @@
     - id: s_0337
     - name: 6-O-{2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53057
   - !!omap
     - id: s_0338
     - name: 6-O-{alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53059
   - !!omap
     - id: s_0339
     - name: 6-O-{alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol
     - compartment: er
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53058
   - !!omap
@@ -2617,6 +2623,7 @@
     - name: Ala-tRNA(Ala)
     - compartment: c
     - formula: C3H6NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17732
       - kegg.compound: C00886
@@ -2823,6 +2830,7 @@
     - name: Arg-tRNA(Arg)
     - compartment: c
     - formula: C6H14N4OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18366
       - kegg.compound: C02163
@@ -2831,6 +2839,7 @@
     - name: Arg-tRNA(Arg)
     - compartment: m
     - formula: C6H14N4OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18366
       - kegg.compound: C02163
@@ -2839,6 +2848,7 @@
     - name: Asn-tRNA(Asn)
     - compartment: c
     - formula: C4H7N2O2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29265
       - kegg.compound: C03402
@@ -2847,6 +2857,7 @@
     - name: Asn-tRNA(Asn)
     - compartment: m
     - formula: C4H7N2O2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29265
       - kegg.compound: C03402
@@ -2855,6 +2866,7 @@
     - name: Asp-tRNA(Asp)
     - compartment: c
     - formula: C4H5NO3R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29158
       - kegg.compound: C02984
@@ -2863,6 +2875,7 @@
     - name: Asp-tRNA(Asp)
     - compartment: m
     - formula: C4H5NO3R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29158
       - kegg.compound: C02984
@@ -2987,6 +3000,7 @@
     - id: s_0450
     - name: biomass
     - compartment: c
+    - charge: 0
   - !!omap
     - id: s_0451
     - name: biotin
@@ -3600,6 +3614,7 @@
     - name: Cys-tRNA(Cys)
     - compartment: c
     - formula: C3H6NOSR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29152
       - kegg.compound: C03125
@@ -3869,6 +3884,7 @@
     - name: D-mannose 6-phosphate
     - compartment: c
     - formula: C6H13O9P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17369
       - kegg.compound: C00275
@@ -4225,6 +4241,7 @@
     - name: dihydrolipoylprotein
     - compartment: m
     - formula: C8H15OS2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16194
       - kegg.compound: C02972
@@ -4731,6 +4748,7 @@
     - id: s_0709
     - name: ferricytochrome c
     - compartment: m
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15991
       - kegg.compound: C00125
@@ -4738,6 +4756,7 @@
     - id: s_0710
     - name: ferrocytochrome c
     - compartment: m
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16928
       - kegg.compound: C00126
@@ -4755,6 +4774,7 @@
     - name: fMet-tRNA(fMet)
     - compartment: m
     - formula: C6H10NO2SR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17119
       - kegg.compound: C03294
@@ -4979,6 +4999,7 @@
     - name: Gln-tRNA(Gln)
     - compartment: c
     - formula: C5H9N2O2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29166
       - kegg.compound: C02282
@@ -4987,6 +5008,7 @@
     - name: Glu-tRNA(Glu)
     - compartment: c
     - formula: C5H7NO3R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29157
       - kegg.compound: C02987
@@ -4995,6 +5017,7 @@
     - name: Glu-tRNA(Glu)
     - compartment: m
     - formula: C5H7NO3R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29157
       - kegg.compound: C02987
@@ -5066,6 +5089,7 @@
     - name: Gly-tRNA(Gly)
     - compartment: c
     - formula: C2H4NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29156
       - kegg.compound: C02412
@@ -5136,6 +5160,7 @@
     - id: s_0773
     - name: glycogen
     - compartment: c
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28087
       - kegg.compound: C00182
@@ -5143,6 +5168,7 @@
     - id: s_0774
     - name: glycogen
     - compartment: v
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28087
       - kegg.compound: C00182
@@ -5457,6 +5483,7 @@
     - name: heme a
     - compartment: m
     - formula: C49H56FeN4O6
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:24479
       - kegg.compound: C15670
@@ -5465,6 +5492,7 @@
     - name: heme o
     - compartment: m
     - formula: C49H58FeN4O5
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:24480
       - kegg.compound: C15672
@@ -5575,6 +5603,7 @@
     - name: His-tRNA(His)
     - compartment: c
     - formula: C6H8N3OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29155
       - kegg.compound: C02988
@@ -5583,6 +5612,7 @@
     - name: His-tRNA(His)
     - compartment: m
     - formula: C6H8N3OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29155
       - kegg.compound: C02988
@@ -5698,6 +5728,7 @@
     - name: Ile-tRNA(Ile)
     - compartment: c
     - formula: C6H12NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29160
       - kegg.compound: C03127
@@ -5706,6 +5737,7 @@
     - name: Ile-tRNA(Ile)
     - compartment: m
     - formula: C6H12NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29160
       - kegg.compound: C03127
@@ -7527,6 +7559,7 @@
     - name: Leu-tRNA(Leu)
     - compartment: c
     - formula: C6H12NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16624
       - kegg.compound: C02047
@@ -7535,6 +7568,7 @@
     - name: Leu-tRNA(Leu)
     - compartment: m
     - formula: C6H12NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16624
       - kegg.compound: C02047
@@ -7587,6 +7621,7 @@
     - id: s_1096
     - name: lipid
     - compartment: c
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18059
       - kegg.compound: C01356
@@ -7604,6 +7639,7 @@
     - name: lipoylprotein
     - compartment: m
     - formula: C12H18N2O4S2R2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15804
       - kegg.compound: C02051
@@ -7612,6 +7648,7 @@
     - name: Lys-tRNA(Lys)
     - compartment: c
     - formula: C6H14N2OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16047
       - kegg.compound: C01931
@@ -7620,6 +7657,7 @@
     - name: Lys-tRNA(Lys)
     - compartment: m
     - formula: C6H14N2OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16047
       - kegg.compound: C01931
@@ -7663,6 +7701,7 @@
     - id: s_1107
     - name: mannan
     - compartment: c
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28808
       - kegg.compound: C00464
@@ -7670,6 +7709,7 @@
     - id: s_1108
     - name: mannan
     - compartment: er
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28808
       - kegg.compound: C00464
@@ -7957,6 +7997,7 @@
     - name: Met-tRNA(Met)
     - compartment: c
     - formula: C5H10NOSR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16635
       - kegg.compound: C02430
@@ -7965,6 +8006,7 @@
     - name: Met-tRNA(Met)
     - compartment: m
     - formula: C5H10NOSR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16635
       - kegg.compound: C02430
@@ -9001,6 +9043,7 @@
     - name: Phe-tRNA(Phe)
     - compartment: c
     - formula: C9H10NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29153
       - kegg.compound: C03511
@@ -9009,6 +9052,7 @@
     - name: Phe-tRNA(Phe)
     - compartment: m
     - formula: C9H10NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29153
       - kegg.compound: C03511
@@ -9295,6 +9339,7 @@
     - name: Pro-tRNA(Pro)
     - compartment: c
     - formula: C5H8NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29154
       - kegg.compound: C02702
@@ -9545,6 +9590,7 @@
     - name: S(8)-aminomethyldihydrolipoylprotein
     - compartment: m
     - formula: C9H18NOS2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16882
       - kegg.compound: C01242
@@ -9688,6 +9734,7 @@
     - name: Ser-tRNA(Ser)
     - compartment: c
     - formula: C3H6NO2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29162
       - kegg.compound: C02553
@@ -10136,6 +10183,7 @@
     - name: Thr-tRNA(Thr)
     - compartment: c
     - formula: C4H8NO2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29163
       - kegg.compound: C02992
@@ -10144,6 +10192,7 @@
     - name: Thr-tRNA(Thr)
     - compartment: m
     - formula: C4H8NO2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29163
       - kegg.compound: C02992
@@ -10303,6 +10352,7 @@
     - name: Trp-tRNA(Trp)
     - compartment: c
     - formula: C11H11N2OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29159
       - kegg.compound: C03512
@@ -10311,6 +10361,7 @@
     - name: Trp-tRNA(Trp)
     - compartment: m
     - formula: C11H11N2OR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29159
       - kegg.compound: C03512
@@ -10355,6 +10406,7 @@
     - name: Tyr-tRNA(Tyr)
     - compartment: c
     - formula: C9H10NO2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29161
       - kegg.compound: C02839
@@ -10363,6 +10415,7 @@
     - name: Tyr-tRNA(Tyr)
     - compartment: m
     - formula: C9H10NO2R
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29161
       - kegg.compound: C02839
@@ -10596,6 +10649,7 @@
     - name: Val-tRNA(Val)
     - compartment: c
     - formula: C5H10NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29164
       - kegg.compound: C02554
@@ -10604,6 +10658,7 @@
     - name: Val-tRNA(Val)
     - compartment: m
     - formula: C5H10NOR
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29164
       - kegg.compound: C02554
@@ -11025,6 +11080,7 @@
     - name: TRX1
     - compartment: c
     - formula: C6H9NO2S2R2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
@@ -11033,6 +11089,7 @@
     - name: TRX1
     - compartment: m
     - formula: C6H9NO2S2R2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
@@ -11041,6 +11098,7 @@
     - name: TRX1
     - compartment: n
     - formula: C6H9NO2S2R2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
@@ -11049,6 +11107,7 @@
     - name: TRX1
     - compartment: p
     - formula: C6H9NO2S2R2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
@@ -11057,6 +11116,7 @@
     - name: TRX1 disulphide
     - compartment: c
     - formula: C6H8N2O2S2R4
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -11065,6 +11125,7 @@
     - name: TRX1 disulphide
     - compartment: m
     - formula: C6H8N2O2S2R4
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -11073,6 +11134,7 @@
     - name: TRX1 disulphide
     - compartment: n
     - formula: C6H8N2O2S2R4
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -11081,6 +11143,7 @@
     - name: TRX1 disulphide
     - compartment: p
     - formula: C6H8N2O2S2R4
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -13718,6 +13781,7 @@
     - name: CDP-diacylglycerol (1-16:0, 2-16:1)
     - compartment: erm
     - formula: C44H79N3O15P2
+    - charge: 0
   - !!omap
     - id: s_3085
     - name: CDP-diacylglycerol (1-16:1, 2-16:1)
@@ -13739,6 +13803,7 @@
     - name: CDP-diacylglycerol (1-18:1, 2-16:1)
     - compartment: erm
     - formula: C46H81N3O15P2
+    - charge: 0
   - !!omap
     - id: s_3088
     - name: CDP-diacylglycerol (1-16:0, 2-18:1)
@@ -13753,11 +13818,13 @@
     - name: CDP-diacylglycerol (1-16:1, 2-18:1)
     - compartment: erm
     - formula: C46H81N3O15P2
+    - charge: 0
   - !!omap
     - id: s_3090
     - name: CDP-diacylglycerol (1-18:0, 2-18:1)
     - compartment: erm
     - formula: C48H83N3O15P2
+    - charge: 0
   - !!omap
     - id: s_3091
     - name: CDP-diacylglycerol (1-18:1, 2-18:1)
@@ -13806,6 +13873,7 @@
     - name: CDP-diacylglycerol (1-16:0, 2-16:1)
     - compartment: mm
     - formula: C44H79N3O15P2
+    - charge: 0
   - !!omap
     - id: s_3097
     - name: phosphatidate (1-16:1, 2-16:1)
@@ -13851,6 +13919,7 @@
     - name: CDP-diacylglycerol (1-18:1, 2-16:1)
     - compartment: mm
     - formula: C46H81N3O15P2
+    - charge: 0
   - !!omap
     - id: s_3103
     - name: phosphatidate (1-16:0, 2-18:1)
@@ -13882,6 +13951,7 @@
     - name: CDP-diacylglycerol (1-16:1, 2-18:1)
     - compartment: mm
     - formula: C46H81N3O15P2
+    - charge: 0
   - !!omap
     - id: s_3107
     - name: L-serine
@@ -13913,6 +13983,7 @@
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1)
     - compartment: erm
     - formula: C38H70NO10P
+    - charge: 0
   - !!omap
     - id: s_3111
     - name: phosphatidyl-L-serine (1-18:0, 2-16:1)
@@ -13983,6 +14054,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)
     - compartment: erm
     - formula: C41H75O13P
+    - charge: 0
   - !!omap
     - id: s_3120
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)
@@ -14037,11 +14109,13 @@
     - name: sn-2-acyl-1-lysophosphatidylinositol (16:1)
     - compartment: erm
     - formula: C25H41O12P
+    - charge: 0
   - !!omap
     - id: s_3127
     - name: sn-2-acyl-1-lysophosphatidylinositol (18:1)
     - compartment: erm
     - formula: C27H45O12P
+    - charge: 0
   - !!omap
     - id: s_3128
     - name: phosphatidyl-L-serine (1-16:0, 2-16:1)
@@ -14072,6 +14146,7 @@
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1)
     - compartment: mm
     - formula: C38H70NO10P
+    - charge: 0
   - !!omap
     - id: s_3132
     - name: phosphatidylethanolamine (1-16:1, 2-16:1)
@@ -14215,6 +14290,7 @@
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1)
     - compartment: gm
     - formula: C38H70NO10P
+    - charge: 0
   - !!omap
     - id: s_3150
     - name: phosphatidylethanolamine (1-16:1, 2-16:1)
@@ -14358,6 +14434,7 @@
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1)
     - compartment: vm
     - formula: C38H70NO10P
+    - charge: 0
   - !!omap
     - id: s_3168
     - name: phosphatidylethanolamine (1-16:1, 2-16:1)
@@ -14493,6 +14570,7 @@
     - name: phosphatidyl-N-methylethanolamine (1-16:0, 2-16:1)
     - compartment: erm
     - formula: C38H74NO8P
+    - charge: 0
   - !!omap
     - id: s_3185
     - name: phosphatidylethanolamine (1-16:1, 2-16:1)
@@ -14506,6 +14584,7 @@
     - name: phosphatidyl-N-methylethanolamine (1-16:1, 2-16:1)
     - compartment: erm
     - formula: C38H72NO8P
+    - charge: 0
   - !!omap
     - id: s_3187
     - name: phosphatidylethanolamine (1-18:0, 2-16:1)
@@ -14519,6 +14598,7 @@
     - name: phosphatidyl-N-methylethanolamine (1-18:0, 2-16:1)
     - compartment: erm
     - formula: C40H78NO8P
+    - charge: 0
   - !!omap
     - id: s_3189
     - name: phosphatidylethanolamine (1-18:1, 2-16:1)
@@ -14532,6 +14612,7 @@
     - name: phosphatidyl-N-methylethanolamine (1-18:1, 2-16:1)
     - compartment: erm
     - formula: C40H76NO8P
+    - charge: 0
   - !!omap
     - id: s_3191
     - name: phosphatidylethanolamine (1-16:0, 2-18:1)
@@ -14545,6 +14626,7 @@
     - name: phosphatidyl-N-methylethanolamine (1-16:0, 2-18:1)
     - compartment: erm
     - formula: C40H78NO8P
+    - charge: 0
   - !!omap
     - id: s_3193
     - name: phosphatidylethanolamine (1-16:1, 2-18:1)
@@ -14558,6 +14640,7 @@
     - name: phosphatidyl-N-methylethanolamine (1-16:1, 2-18:1)
     - compartment: erm
     - formula: C40H76NO8P
+    - charge: 0
   - !!omap
     - id: s_3195
     - name: phosphatidylethanolamine (1-18:0, 2-18:1)
@@ -14571,6 +14654,7 @@
     - name: phosphatidyl-N-methylethanolamine (1-18:0, 2-18:1)
     - compartment: erm
     - formula: C42H82NO8P
+    - charge: 0
   - !!omap
     - id: s_3197
     - name: phosphatidylethanolamine (1-18:1, 2-18:1)
@@ -14592,36 +14676,43 @@
     - name: phosphatidyl-N,N-dimethylethanolamine (1-16:0, 2-16:1)
     - compartment: erm
     - formula: C39H76NO8P
+    - charge: 0
   - !!omap
     - id: s_3200
     - name: phosphatidyl-N,N-dimethylethanolamine (1-16:1, 2-16:1)
     - compartment: erm
     - formula: C39H74NO8P
+    - charge: 0
   - !!omap
     - id: s_3201
     - name: phosphatidyl-N,N-dimethylethanolamine (1-18:0, 2-16:1)
     - compartment: erm
     - formula: C41H80NO8P
+    - charge: 0
   - !!omap
     - id: s_3202
     - name: phosphatidyl-N,N-dimethylethanolamine (1-18:1, 2-16:1)
     - compartment: erm
     - formula: C41H78NO8P
+    - charge: 0
   - !!omap
     - id: s_3203
     - name: phosphatidyl-N,N-dimethylethanolamine (1-16:0, 2-18:1)
     - compartment: erm
     - formula: C41H80NO8P
+    - charge: 0
   - !!omap
     - id: s_3204
     - name: phosphatidyl-N,N-dimethylethanolamine (1-16:1, 2-18:1)
     - compartment: erm
     - formula: C41H78NO8P
+    - charge: 0
   - !!omap
     - id: s_3205
     - name: phosphatidyl-N,N-dimethylethanolamine (1-18:0, 2-18:1)
     - compartment: erm
     - formula: C43H84NO8P
+    - charge: 0
   - !!omap
     - id: s_3206
     - name: phosphatidyl-N,N-dimethylethanolamine (1-18:1, 2-18:1)
@@ -14744,31 +14835,37 @@
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:0, 2-16:1)
     - compartment: mm
     - formula: C40H74O13P2
+    - charge: 0
   - !!omap
     - id: s_3221
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:1, 2-16:1)
     - compartment: mm
     - formula: C40H72O13P2
+    - charge: 0
   - !!omap
     - id: s_3222
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-18:0, 2-16:1)
     - compartment: mm
     - formula: C42H76O13P2
+    - charge: 0
   - !!omap
     - id: s_3223
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-18:1, 2-16:1)
     - compartment: mm
     - formula: C42H74O13P2
+    - charge: 0
   - !!omap
     - id: s_3224
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:0, 2-18:1)
     - compartment: mm
     - formula: C42H76O13P2
+    - charge: 0
   - !!omap
     - id: s_3225
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:1, 2-18:1)
     - compartment: mm
     - formula: C42H74O13P2
+    - charge: 0
   - !!omap
     - id: s_3226
     - name: H2O
@@ -14800,6 +14897,7 @@
     - name: phosphatidylglycerol (1-16:1, 2-16:1)
     - compartment: mm
     - formula: C38H71O10P
+    - charge: 0
   - !!omap
     - id: s_3230
     - name: phosphatidylglycerol (1-18:0, 2-16:1)
@@ -14838,36 +14936,43 @@
     - name: cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C73H140O17P2
+    - charge: 0
   - !!omap
     - id: s_3235
     - name: cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C73H136O17P2
+    - charge: 0
   - !!omap
     - id: s_3236
     - name: cardiolipin (1-16:0, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C75H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3237
     - name: cardiolipin (1-16:0, 2-16:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C75H140O17P2
+    - charge: 0
   - !!omap
     - id: s_3238
     - name: cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C75H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3239
     - name: cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C75H140O17P2
+    - charge: 0
   - !!omap
     - id: s_3240
     - name: cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C73H138O17P2
+    - charge: 0
   - !!omap
     - id: s_3241
     - name: cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-16:1)
@@ -14881,146 +14986,175 @@
     - name: cardiolipin (1-16:1, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C75H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3243
     - name: cardiolipin (1-16:1, 2-16:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C75H138O17P2
+    - charge: 0
   - !!omap
     - id: s_3244
     - name: cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C75H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3245
     - name: cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C75H138O17P2
+    - charge: 0
   - !!omap
     - id: s_3246
     - name: cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C75H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3247
     - name: cardiolipin (1-18:0, 2-16:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C75H140O17P2
+    - charge: 0
   - !!omap
     - id: s_3248
     - name: cardiolipin (1-18:0, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C77H148O17P2
+    - charge: 0
   - !!omap
     - id: s_3249
     - name: cardiolipin (1-18:0, 2-16:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C77H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3250
     - name: cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C77H148O17P2
+    - charge: 0
   - !!omap
     - id: s_3251
     - name: cardiolipin (1-18:0, 2-16:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C77H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3252
     - name: cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C75H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3253
     - name: cardiolipin (1-18:1, 2-16:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C75H138O17P2
+    - charge: 0
   - !!omap
     - id: s_3254
     - name: cardiolipin (1-18:1, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C77H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3255
     - name: cardiolipin (1-18:1, 2-16:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C77H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3256
     - name: cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C77H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3257
     - name: cardiolipin (1-18:1, 2-16:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C77H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3258
     - name: cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C75H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3259
     - name: cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C75H140O17P2
+    - charge: 0
   - !!omap
     - id: s_3260
     - name: cardiolipin (1-16:0, 2-18:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C77H148O17P2
+    - charge: 0
   - !!omap
     - id: s_3261
     - name: cardiolipin (1-16:0, 2-18:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C77H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3262
     - name: cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C77H148O17P2
+    - charge: 0
   - !!omap
     - id: s_3263
     - name: cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C77H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3264
     - name: cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C75H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3265
     - name: cardiolipin (1-16:1, 2-18:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C75H138O17P2
+    - charge: 0
   - !!omap
     - id: s_3266
     - name: cardiolipin (1-16:1, 2-18:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C77H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3267
     - name: cardiolipin (1-16:1, 2-18:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C77H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3268
     - name: cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C77H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3269
     - name: cardiolipin (1-16:1, 2-18:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C77H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3270
     - name: monolysocardiolipin (2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C57H108O16P2
+    - charge: 0
   - !!omap
     - id: s_3271
     - name: palmitate
@@ -15035,26 +15169,31 @@
     - name: monolysocardiolipin (2-16:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C57H106O16P2
+    - charge: 0
   - !!omap
     - id: s_3273
     - name: monolysocardiolipin (2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C59H112O16P2
+    - charge: 0
   - !!omap
     - id: s_3274
     - name: monolysocardiolipin (2-16:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C59H110O16P2
+    - charge: 0
   - !!omap
     - id: s_3275
     - name: monolysocardiolipin (2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C59H112O16P2
+    - charge: 0
   - !!omap
     - id: s_3276
     - name: monolysocardiolipin (2-16:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C59H110O16P2
+    - charge: 0
   - !!omap
     - id: s_3277
     - name: stearate
@@ -15069,91 +15208,109 @@
     - name: monolysocardiolipin (2-18:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C59H112O16P2
+    - charge: 0
   - !!omap
     - id: s_3279
     - name: monolysocardiolipin (2-18:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C59H110O16P2
+    - charge: 0
   - !!omap
     - id: s_3280
     - name: monolysocardiolipin (2-18:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C61H116O16P2
+    - charge: 0
   - !!omap
     - id: s_3281
     - name: monolysocardiolipin (2-18:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C61H114O16P2
+    - charge: 0
   - !!omap
     - id: s_3282
     - name: monolysocardiolipin (2-18:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C61H116O16P2
+    - charge: 0
   - !!omap
     - id: s_3283
     - name: monolysocardiolipin (2-18:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C61H114O16P2
+    - charge: 0
   - !!omap
     - id: s_3284
     - name: monolysocardiolipin (1-16:0, 2-16:1, 4-16:1)
     - compartment: mm
     - formula: C57H108O16P2
+    - charge: 0
   - !!omap
     - id: s_3285
     - name: monolysocardiolipin (1-16:0, 2-16:1, 4-18:1)
     - compartment: mm
     - formula: C59H112O16P2
+    - charge: 0
   - !!omap
     - id: s_3286
     - name: monolysocardiolipin (1-16:1, 2-16:1, 4-16:1)
     - compartment: mm
     - formula: C57H106O16P2
+    - charge: 0
   - !!omap
     - id: s_3287
     - name: monolysocardiolipin (1-16:1, 2-16:1, 4-18:1)
     - compartment: mm
     - formula: C59H110O16P2
+    - charge: 0
   - !!omap
     - id: s_3288
     - name: monolysocardiolipin (1-18:0, 2-16:1, 4-16:1)
     - compartment: mm
     - formula: C59H112O16P2
+    - charge: 0
   - !!omap
     - id: s_3289
     - name: monolysocardiolipin (1-18:0, 2-16:1, 4-18:1)
     - compartment: mm
     - formula: C61H116O16P2
+    - charge: 0
   - !!omap
     - id: s_3290
     - name: monolysocardiolipin (1-18:1, 2-16:1, 4-16:1)
     - compartment: mm
     - formula: C59H110O16P2
+    - charge: 0
   - !!omap
     - id: s_3291
     - name: monolysocardiolipin (1-18:1, 2-16:1, 4-18:1)
     - compartment: mm
     - formula: C61H114O16P2
+    - charge: 0
   - !!omap
     - id: s_3292
     - name: monolysocardiolipin (1-16:0, 2-18:1, 4-16:1)
     - compartment: mm
     - formula: C59H112O16P2
+    - charge: 0
   - !!omap
     - id: s_3293
     - name: monolysocardiolipin (1-16:0, 2-18:1, 4-18:1)
     - compartment: mm
     - formula: C61H116O16P2
+    - charge: 0
   - !!omap
     - id: s_3294
     - name: monolysocardiolipin (1-16:1, 2-18:1, 4-16:1)
     - compartment: mm
     - formula: C59H110O16P2
+    - charge: 0
   - !!omap
     - id: s_3295
     - name: monolysocardiolipin (1-16:1, 2-18:1, 4-18:1)
     - compartment: mm
     - formula: C61H114O16P2
+    - charge: 0
   - !!omap
     - id: s_3296
     - name: phosphatidylcholine (1-16:0, 2-16:1)
@@ -15247,61 +15404,73 @@
     - name: cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-16:1)
     - compartment: mm
     - formula: C77H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3309
     - name: cardiolipin (1-18:1, 2-18:1, 3-16:1, 4-16:1)
     - compartment: mm
     - formula: C77H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3310
     - name: cardiolipin (1-18:1, 2-18:1, 3-18:0, 4-16:1)
     - compartment: mm
     - formula: C79H150O17P2
+    - charge: 0
   - !!omap
     - id: s_3311
     - name: cardiolipin (1-18:1, 2-18:1, 3-18:1, 4-16:1)
     - compartment: mm
     - formula: C79H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3312
     - name: cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-18:1)
     - compartment: mm
     - formula: C79H150O17P2
+    - charge: 0
   - !!omap
     - id: s_3313
     - name: cardiolipin (1-18:1, 2-18:1, 3-16:1, 4-18:1)
     - compartment: mm
     - formula: C79H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3314
     - name: cardiolipin (1-16:0, 2-16:1, 3-18:1, 4-18:1)
     - compartment: mm
     - formula: C77H144O17P2
+    - charge: 0
   - !!omap
     - id: s_3315
     - name: cardiolipin (1-16:1, 2-16:1, 3-18:1, 4-18:1)
     - compartment: mm
     - formula: C77H142O17P2
+    - charge: 0
   - !!omap
     - id: s_3316
     - name: cardiolipin (1-18:0, 2-16:1, 3-18:1, 4-18:1)
     - compartment: mm
     - formula: C79H148O17P2
+    - charge: 0
   - !!omap
     - id: s_3317
     - name: cardiolipin (1-18:1, 2-16:1, 3-18:1, 4-18:1)
     - compartment: mm
     - formula: C79H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3318
     - name: cardiolipin (1-16:0, 2-18:1, 3-18:1, 4-18:1)
     - compartment: mm
     - formula: C79H148O17P2
+    - charge: 0
   - !!omap
     - id: s_3319
     - name: cardiolipin (1-16:1, 2-18:1, 3-18:1, 4-18:1)
     - compartment: mm
     - formula: C79H146O17P2
+    - charge: 0
   - !!omap
     - id: s_3320
     - name: palmitoleoyl-CoA(4-)
@@ -15351,16 +15520,19 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
     - compartment: ce
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3326
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)
     - compartment: ce
     - formula: C41H75O13P
+    - charge: 0
   - !!omap
     - id: s_3327
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)
     - compartment: ce
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3328
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)
@@ -15374,6 +15546,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)
     - compartment: ce
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3330
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)
@@ -15387,6 +15560,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)
     - compartment: ce
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3332
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)
@@ -15401,6 +15575,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)
     - compartment: ce
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3334
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)
@@ -15414,6 +15589,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)
     - compartment: ce
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3336
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)
@@ -15443,6 +15619,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)
     - compartment: ce
     - formula: C45H84O16P2
+    - charge: 0
   - !!omap
     - id: s_3340
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)
@@ -15474,16 +15651,19 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
     - compartment: vm
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3344
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)
     - compartment: vm
     - formula: C41H75O13P
+    - charge: 0
   - !!omap
     - id: s_3345
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)
     - compartment: vm
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3346
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)
@@ -15497,6 +15677,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)
     - compartment: vm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3348
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)
@@ -15510,6 +15691,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)
     - compartment: vm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3350
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)
@@ -15524,6 +15706,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)
     - compartment: vm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3352
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)
@@ -15537,6 +15720,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)
     - compartment: vm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3354
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)
@@ -15566,6 +15750,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)
     - compartment: vm
     - formula: C45H84O16P2
+    - charge: 0
   - !!omap
     - id: s_3358
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)
@@ -15597,16 +15782,19 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
     - compartment: gm
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3362
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)
     - compartment: gm
     - formula: C41H75O13P
+    - charge: 0
   - !!omap
     - id: s_3363
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)
     - compartment: gm
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3364
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)
@@ -15620,6 +15808,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)
     - compartment: gm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3366
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)
@@ -15633,6 +15822,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)
     - compartment: gm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3368
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)
@@ -15647,6 +15837,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)
     - compartment: gm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3370
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)
@@ -15660,6 +15851,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)
     - compartment: gm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3372
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)
@@ -15689,6 +15881,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)
     - compartment: gm
     - formula: C45H84O16P2
+    - charge: 0
   - !!omap
     - id: s_3376
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)
@@ -15702,16 +15895,19 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
     - compartment: n
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3378
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)
     - compartment: n
     - formula: C41H75O13P
+    - charge: 0
   - !!omap
     - id: s_3379
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)
     - compartment: n
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3380
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)
@@ -15725,6 +15921,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)
     - compartment: n
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3382
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)
@@ -15738,6 +15935,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)
     - compartment: n
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3384
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)
@@ -15752,6 +15950,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)
     - compartment: n
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3386
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)
@@ -15765,6 +15964,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)
     - compartment: n
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3388
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1)
@@ -15794,36 +15994,43 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)
     - compartment: n
     - formula: C45H84O16P2
+    - charge: 0
   - !!omap
     - id: s_3392
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)
     - compartment: vm
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3393
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)
     - compartment: vm
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3394
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)
     - compartment: vm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3395
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)
     - compartment: vm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3396
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)
     - compartment: vm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3397
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)
     - compartment: vm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3398
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)
@@ -15845,31 +16052,37 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)
     - compartment: n
     - formula: C41H79O19P3
+    - charge: 0
   - !!omap
     - id: s_3401
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)
     - compartment: n
     - formula: C41H77O19P3
+    - charge: 0
   - !!omap
     - id: s_3402
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)
     - compartment: n
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3403
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)
     - compartment: n
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3404
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)
     - compartment: n
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3405
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)
     - compartment: n
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3406
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1)
@@ -15883,36 +16096,43 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)
     - compartment: n
     - formula: C45H85O19P3
+    - charge: 0
   - !!omap
     - id: s_3408
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)
     - compartment: ce
     - formula: C41H79O19P3
+    - charge: 0
   - !!omap
     - id: s_3409
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)
     - compartment: ce
     - formula: C41H77O19P3
+    - charge: 0
   - !!omap
     - id: s_3410
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)
     - compartment: ce
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3411
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)
     - compartment: ce
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3412
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)
     - compartment: ce
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3413
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)
     - compartment: ce
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3414
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1)
@@ -15926,46 +16146,55 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)
     - compartment: ce
     - formula: C45H85O19P3
+    - charge: 0
   - !!omap
     - id: s_3416
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)
     - compartment: vm
     - formula: C41H79O19P3
+    - charge: 0
   - !!omap
     - id: s_3417
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)
     - compartment: vm
     - formula: C41H77O19P3
+    - charge: 0
   - !!omap
     - id: s_3418
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)
     - compartment: vm
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3419
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)
     - compartment: vm
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3420
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)
     - compartment: vm
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3421
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)
     - compartment: vm
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3422
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)
     - compartment: vm
     - formula: C45H87O19P3
+    - charge: 0
   - !!omap
     - id: s_3423
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)
     - compartment: vm
     - formula: C45H85O19P3
+    - charge: 0
   - !!omap
     - id: s_3424
     - name: 1-acylglycerophosphoethanolamine (16:0)
@@ -15979,6 +16208,7 @@
     - name: 1-acylglycerophosphoethanolamine (16:1)
     - compartment: erm
     - formula: C21H42NO7P
+    - charge: 0
   - !!omap
     - id: s_3426
     - name: 1-acylglycerophosphoethanolamine (18:0)
@@ -16315,6 +16545,7 @@
     - name: 1-acylglycerophosphoethanolamine (16:1)
     - compartment: ce
     - formula: C21H42NO7P
+    - charge: 0
   - !!omap
     - id: s_3469
     - name: phosphatidylethanolamine (1-18:0, 2-16:1)
@@ -16400,15 +16631,18 @@
     - id: s_3479
     - name: 1-acylglycerophosphoserine (16:0)
     - compartment: ce
+    - charge: 0
   - !!omap
     - id: s_3480
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1)
     - compartment: ce
     - formula: C38H70NO10P
+    - charge: 0
   - !!omap
     - id: s_3481
     - name: 1-acylglycerophosphoserine (16:1)
     - compartment: ce
+    - charge: 0
   - !!omap
     - id: s_3482
     - name: phosphatidyl-L-serine (1-18:0, 2-16:1)
@@ -16421,6 +16655,7 @@
     - id: s_3483
     - name: 1-acylglycerophosphoserine (18:0)
     - compartment: ce
+    - charge: 0
   - !!omap
     - id: s_3484
     - name: phosphatidyl-L-serine (1-18:1, 2-16:1)
@@ -16433,6 +16668,7 @@
     - id: s_3485
     - name: 1-acylglycerophosphoserine (18:1)
     - compartment: ce
+    - charge: 0
   - !!omap
     - id: s_3486
     - name: phosphatidyl-L-serine (1-16:0, 2-18:1)
@@ -16519,6 +16755,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)
     - compartment: c
     - formula: C41H79O19P3
+    - charge: 0
   - !!omap
     - id: s_3497
     - name: diglyceride (1-16:0, 2-16:1)
@@ -16541,6 +16778,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)
     - compartment: c
     - formula: C41H77O19P3
+    - charge: 0
   - !!omap
     - id: s_3500
     - name: diglyceride (1-16:1, 2-16:1)
@@ -16554,6 +16792,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)
     - compartment: c
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3502
     - name: diglyceride (1-18:0, 2-16:1)
@@ -16567,6 +16806,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)
     - compartment: c
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3504
     - name: diglyceride (1-18:1, 2-16:1)
@@ -16580,6 +16820,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)
     - compartment: c
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3506
     - name: diglyceride (1-16:0, 2-18:1)
@@ -16593,6 +16834,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)
     - compartment: c
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3508
     - name: diglyceride (1-16:1, 2-18:1)
@@ -16622,6 +16864,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)
     - compartment: c
     - formula: C45H85O19P3
+    - charge: 0
   - !!omap
     - id: s_3512
     - name: diglyceride (1-18:1, 2-18:1)
@@ -16812,6 +17055,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)
     - compartment: ce
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3536
     - name: phosphate
@@ -16826,26 +17070,31 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)
     - compartment: ce
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3538
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)
     - compartment: ce
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3539
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)
     - compartment: ce
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3540
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)
     - compartment: ce
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3541
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)
     - compartment: ce
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3542
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)
@@ -16867,6 +17116,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)
     - compartment: c
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3545
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1)
@@ -16880,16 +17130,19 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)
     - compartment: c
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3547
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-16:1)
     - compartment: c
     - formula: C41H75O13P
+    - charge: 0
   - !!omap
     - id: s_3548
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)
     - compartment: c
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3549
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1)
@@ -16903,6 +17156,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)
     - compartment: c
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3551
     - name: 1-phosphatidyl-1D-myo-inositol (1-18:1, 2-16:1)
@@ -16916,6 +17170,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)
     - compartment: c
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3553
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1)
@@ -16930,6 +17185,7 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)
     - compartment: c
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3555
     - name: 1-phosphatidyl-1D-myo-inositol (1-16:1, 2-18:1)
@@ -16975,31 +17231,37 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)
     - compartment: erm
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3561
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)
     - compartment: erm
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3562
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)
     - compartment: erm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3563
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)
     - compartment: erm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3564
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)
     - compartment: erm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3565
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)
     - compartment: erm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3566
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)
@@ -17021,31 +17283,37 @@
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-16:1)
     - compartment: gm
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3569
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-16:1)
     - compartment: gm
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3570
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-16:1)
     - compartment: gm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3571
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:1, 2-16:1)
     - compartment: gm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3572
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1)
     - compartment: gm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3573
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:1, 2-18:1)
     - compartment: gm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3574
     - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1)
@@ -17067,31 +17335,37 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
     - compartment: c
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3577
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)
     - compartment: c
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3578
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)
     - compartment: c
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3579
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)
     - compartment: c
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3580
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)
     - compartment: c
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3581
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)
     - compartment: c
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3582
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)
@@ -17105,36 +17379,43 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)
     - compartment: c
     - formula: C45H84O16P2
+    - charge: 0
   - !!omap
     - id: s_3584
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-16:1)
     - compartment: erm
     - formula: C41H78O16P2
+    - charge: 0
   - !!omap
     - id: s_3585
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-16:1)
     - compartment: erm
     - formula: C41H76O16P2
+    - charge: 0
   - !!omap
     - id: s_3586
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-16:1)
     - compartment: erm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3587
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-16:1)
     - compartment: erm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3588
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1)
     - compartment: erm
     - formula: C43H82O16P2
+    - charge: 0
   - !!omap
     - id: s_3589
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:1, 2-18:1)
     - compartment: erm
     - formula: C43H80O16P2
+    - charge: 0
   - !!omap
     - id: s_3590
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1)
@@ -17148,116 +17429,139 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:1, 2-18:1)
     - compartment: erm
     - formula: C45H84O16P2
+    - charge: 0
   - !!omap
     - id: s_3592
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)
     - compartment: ce
     - formula: C41H79O19P3
+    - charge: 0
   - !!omap
     - id: s_3593
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)
     - compartment: ce
     - formula: C41H77O19P3
+    - charge: 0
   - !!omap
     - id: s_3594
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)
     - compartment: ce
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3595
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)
     - compartment: ce
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3596
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)
     - compartment: ce
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3597
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)
     - compartment: ce
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3598
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)
     - compartment: ce
     - formula: C45H87O19P3
+    - charge: 0
   - !!omap
     - id: s_3599
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)
     - compartment: ce
     - formula: C45H85O19P3
+    - charge: 0
   - !!omap
     - id: s_3600
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-16:1)
     - compartment: c
     - formula: C41H79O19P3
+    - charge: 0
   - !!omap
     - id: s_3601
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-16:1)
     - compartment: c
     - formula: C41H77O19P3
+    - charge: 0
   - !!omap
     - id: s_3602
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-16:1)
     - compartment: c
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3603
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-16:1)
     - compartment: c
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3604
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1)
     - compartment: c
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3605
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:1, 2-18:1)
     - compartment: c
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3606
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1)
     - compartment: c
     - formula: C45H87O19P3
+    - charge: 0
   - !!omap
     - id: s_3607
     - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:1, 2-18:1)
     - compartment: c
     - formula: C45H85O19P3
+    - charge: 0
   - !!omap
     - id: s_3608
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-16:1)
     - compartment: erm
     - formula: C41H79O19P3
+    - charge: 0
   - !!omap
     - id: s_3609
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-16:1)
     - compartment: erm
     - formula: C41H77O19P3
+    - charge: 0
   - !!omap
     - id: s_3610
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-16:1)
     - compartment: erm
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3611
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-16:1)
     - compartment: erm
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3612
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1)
     - compartment: erm
     - formula: C43H83O19P3
+    - charge: 0
   - !!omap
     - id: s_3613
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:1, 2-18:1)
     - compartment: erm
     - formula: C43H81O19P3
+    - charge: 0
   - !!omap
     - id: s_3614
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1)
@@ -17271,26 +17575,31 @@
     - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:1, 2-18:1)
     - compartment: erm
     - formula: C45H85O19P3
+    - charge: 0
   - !!omap
     - id: s_3616
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:0, 2-16:1)
     - compartment: vm
     - formula: C35H68O11P2
+    - charge: 0
   - !!omap
     - id: s_3617
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:1, 2-16:1)
     - compartment: vm
     - formula: C35H66O11P2
+    - charge: 0
   - !!omap
     - id: s_3618
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:0, 2-16:1)
     - compartment: vm
     - formula: C37H72O11P2
+    - charge: 0
   - !!omap
     - id: s_3619
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:1, 2-16:1)
     - compartment: vm
     - formula: C37H70O11P2
+    - charge: 0
   - !!omap
     - id: s_3620
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:0, 2-18:1)
@@ -17305,36 +17614,43 @@
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:1, 2-18:1)
     - compartment: vm
     - formula: C37H70O11P2
+    - charge: 0
   - !!omap
     - id: s_3622
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:0, 2-18:1)
     - compartment: vm
     - formula: C39H76O11P2
+    - charge: 0
   - !!omap
     - id: s_3623
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:1, 2-18:1)
     - compartment: vm
     - formula: C39H74O11P2
+    - charge: 0
   - !!omap
     - id: s_3624
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:0, 2-16:1)
     - compartment: gm
     - formula: C35H68O11P2
+    - charge: 0
   - !!omap
     - id: s_3625
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:1, 2-16:1)
     - compartment: gm
     - formula: C35H66O11P2
+    - charge: 0
   - !!omap
     - id: s_3626
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:0, 2-16:1)
     - compartment: gm
     - formula: C37H72O11P2
+    - charge: 0
   - !!omap
     - id: s_3627
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:1, 2-16:1)
     - compartment: gm
     - formula: C37H70O11P2
+    - charge: 0
   - !!omap
     - id: s_3628
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:0, 2-18:1)
@@ -17349,16 +17665,19 @@
     - name: 1,2-diacylglycerol 3-diphosphate (1-16:1, 2-18:1)
     - compartment: gm
     - formula: C37H70O11P2
+    - charge: 0
   - !!omap
     - id: s_3630
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:0, 2-18:1)
     - compartment: gm
     - formula: C39H76O11P2
+    - charge: 0
   - !!omap
     - id: s_3631
     - name: 1,2-diacylglycerol 3-diphosphate (1-18:1, 2-18:1)
     - compartment: gm
     - formula: C39H74O11P2
+    - charge: 0
   - !!omap
     - id: s_3632
     - name: 1-acyl-sn-glycerol 3-phosphate (16:0)
@@ -17812,6 +18131,7 @@
     - name: 1-acylglycerophosphoethanolamine (16:1)
     - compartment: lp
     - formula: C21H42NO7P
+    - charge: 0
   - !!omap
     - id: s_3688
     - name: phosphatidylethanolamine (1-16:1, 2-18:1)
@@ -18007,6 +18327,7 @@
     - name: heme a
     - compartment: c
     - formula: C49H56FeN4O6
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:24479
       - kegg.compound: C15670
