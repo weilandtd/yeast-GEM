@@ -1,11 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % model = addConfidenceScores(model)
 % Rough confidence scores for reaction
-% Reactions with pubmedID and with gene information -3
-% Reactions with gene but without pubmedID -2; 
-% Reactions without gene but need for modelling -1;
-% Reactions without gene -0;
-% Exchange reactions -none;
+% Reactions with pubmedID and with gene information: 3
+% Reactions with gene but without pubmedID: 2 
+% Reactions without gene but need for modelling: 1
+% Reactions without gene: 0
+% Exchange reactions: NaN
 %
 % Hongzhong Lu & Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
