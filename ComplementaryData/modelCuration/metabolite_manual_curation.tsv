@@ -1,15 +1,15 @@
 name_original	name_correct	CHEBI	KEGG	charge	remark
-(R)-3-hydroxybutanoyl-CoA	(R)-3-hydroxybutanoyl-CoA	CHEBI:15452	C03561	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4. 
+(R)-3-hydroxybutanoyl-CoA	(R)-3-hydroxybutanoyl-CoA	CHEBI:15452	C03561	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4.
 (R)-3-hydroxy-cis-dodec-5-enoyl-CoA	(R)-3-hydroxy-cis-dodec-5-enoyl-CoA			0	wrong chebiID and keggid. Can't find from database
 (R)-3-hydroxy-cis-hexadec-7-enoyl-CoA	(R)-3-hydroxy-cis-hexadec-7-enoyl-CoA	CHEBI:88087		0	wrong chebiID and keggid. CHEBI:88087 for  (3S.7Z)-3-hydroxyhexadecenoyl-CoA
-(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA	(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA	CHEBI:87781		0	wrong chebiID and keggid. CHEBI:87781 for   (3S)-3-hydroxyoleoyl-CoA. (3S.9Z)-3-hydroxyoctadec-9-enoyl-CoA
+(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA	(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA			0	"wrong chebiID and keggid. CHEBI:87781 for   (3S)-3-hydroxyoleoyl-CoA. (3S.9Z)-3-hydroxyoctadec-9-enoyl-CoA;remove duplicated chebiID"
 (R)-3-hydroxy-cis-octadec-9-enoyl-CoA	(R)-3-hydroxy-cis-octadec-9-enoyl-CoA	CHEBI:87781		0	wrong chebiID and keggid. CHEBI:87781 for (3S)-3-hydroxyoleoyl-CoA. (3S.9Z)-3-hydroxyoctadec-9-enoyl-CoA
 (R)-3-hydroxy-cis-tetradec-5-enoyl-CoA	(R)-3-hydroxy-cis-tetradec-5-enoyl-CoA	CHEBI:88072		0	wrong chebiID and keggid. CHEBI:88072 for (3S.5Z)-3-hydroxytetradec-5-enoyl-CoA
 (R)-3-hydroxy-cis-tetradec-7-enoyl-CoA	(R)-3-hydroxy-cis-tetradec-7-enoyl-CoA			0	wrong chebiID and keggid. No chebiID. (3S)-Hydroxy-cis-tetradec-7-enoyl-CoA. C35H56N7O18P3S. https://webapps.molecular-networks.com/biopath3/biopath/mols/(3S)-Hydroxy-cis-tetradec-7-enoyl-CoA
 (R)-3-hydroxydocosanoyl-CoA	(R)-3-hydroxydocosanoyl-CoA	CHEBI:76375		-4	wrong chebiID and keggid. Update charge
 (R)-3-hydroxyhexanoyl-CoA	(R)-3-hydroxyhexanoyl-CoA	CHEBI:74474		0	wrong chebiID and keggid
 (R)-3-hydroxyicosanoyl-CoA	(R)-3-hydroxyicosanoyl-CoA	CHEBI:76453		0	wrong chebiID and keggid
-(R)-3-hydroxyoctanoyl-CoA	(R)-3-hydroxyoctanoyl-CoA	CHEBI:28573	C05278	0	wrong chebiID and wrong keggid 
+(R)-3-hydroxyoctanoyl-CoA	(R)-3-hydroxyoctanoyl-CoA	CHEBI:28573	C05278	0	wrong chebiID and wrong keggid
 (R)-3-hydroxytetracosanoyl-CoA	(R)-3-hydroxytetracosanoyl-CoA	CHEBI:76463		0	wrong chebiID and keggid
 (S)-3-hydroxyhexacosanoyl-CoA	(S)-3-hydroxyhexacosanoyl-CoA	CHEBI:52976		0	Wrong CHEBI in erm. Wrong KEGG in erm.
 (S)-3-hydroxypalmitoyl-CoA	(S)-3-hydroxypalmitoyl-CoA	CHEBI:27402	C05258	0	Wrong CHEBI in erm. Wrong KEGG in erm.
@@ -104,19 +104,19 @@ name_original	name_correct	CHEBI	KEGG	charge	remark
 3-hydroxyoctanoyl-ACP	3-hydroxyoctanoyl-ACP	CHEBI:80387	C16220	0	wrong chebiID and keggid.  Not standard fullname
 3-hydroxytetracosanoyl-CoA	3-hydroxytetracosanoyl-CoA	CHEBI:52326		0	wrong chebiID and keggid
 3-oxo-cis-dodec-5-enoyl-CoA	3-oxo-cis-dodec-5-enoyl-CoA			0	wrong chebiID and keggid. PubChem CID: 90658857 for  (5E)-3-oxo-dodecenoyl-CoA. https://pubchem.ncbi.nlm.nih.gov/compound/90658857#section=Top  C33H50N7O18P3S(-4)
-3-oxo-cis-hexadec-7-enoyl-CoA	3-oxo-cis-hexadec-7-enoyl-CoA	CHEBI:88008		0	wrong chebiID and keggid. CHEBI:88008 for (7Z)-hexadecenoyl-CoA
+3-oxo-cis-hexadec-7-enoyl-CoA	3-oxo-cis-hexadec-7-enoyl-CoA			0	"wrong chebiID and keggid. CHEBI:88008 for (7Z)-hexadecenoyl-CoA;remove duplicated chebiID"
 3-oxo-cis-hexadec-9-enoyl-CoA	3-oxo-cis-hexadec-9-enoyl-CoA	CHEBI:53152		0	wrong chebiID and keggid. CHEBI:53152 for palmitoleoyl-CoA cis-9-hexadecenoyl-CoA
 3-oxo-cis-octadec-9-enoyl-CoA	3-oxo-cis-octadec-9-enoyl-CoA	CHEBI:78146		0	wrong chebiID and keggID. CHEBI:78146 for trans-9-octadecenoyl-CoA. Has charge of -4
-3-oxo-cis-tetradec-5-enoyl-CoA	3-oxo-cis-tetradec-5-enoyl-CoA	CHEBI:70712		0	wrong chebiID and keggid. CHEBI:70712 for (5Z)-tetradecenoyl-CoA.  cis-5-tetradecenoyl-CoA
-3-oxo-cis-tetradec-7-enoyl-CoA	3-oxo-cis-tetradec-7-enoyl-CoA	CHEBI:62014		0	wrong chebiID and keggid. CHEBI:62014 for cis-tetradec-3-enoyl-CoA. No cis-tetradec-7-enoyl-CoA
+3-oxo-cis-tetradec-5-enoyl-CoA	3-oxo-cis-tetradec-5-enoyl-CoA			0	"wrong chebiID and keggid. CHEBI:70712 for (5Z)-tetradecenoyl-CoA.  cis-5-tetradecenoyl-CoA;remove duplicated chebiID"
+3-oxo-cis-tetradec-7-enoyl-CoA	3-oxo-cis-tetradec-7-enoyl-CoA			0	"wrong chebiID and keggid. CHEBI:62014 for cis-tetradec-3-enoyl-CoA. No cis-tetradec-7-enoyl-CoA;remove duplicated chebiID"
 3-oxodocosanoyl-CoA	3-oxodocosanoyl-CoA	CHEBI:52328		0	wrong chebiID and keggid
 3-oxohexacosanoyl-CoA	3-oxohexacosanoyl-CoA	CHEBI:52977		0	Wrong CHEBI in erm. Wrong KEGG in erm.
 3-oxo-hexanoyl-ACP	3-oxo-hexanoyl-ACP	CHEBI:1642	C05746	0	wrong chebiID and keggid
-3-oxohexanoyl-CoA	3-oxohexanoyl-CoA	CHEBI:27648	C05269	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4. 
+3-oxohexanoyl-CoA	3-oxohexanoyl-CoA	CHEBI:27648	C05269	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4.
 3-oxoicosanoyl-CoA	3-oxoicosanoyl-CoA	CHEBI:52327		0	wrong chebiID and keggid
 3-oxooctadecanoyl-CoA	3-oxooctadecanoyl-CoA	CHEBI:50571	C16216	0	Wrong CHEBI in erm. Wrong KEGG in erm.
 3-oxo-octanoyl-ACP	3-oxo-octanoyl-ACP	CHEBI:1646	C05750	0	wrong chebiID and keggid
-3-oxooctanoyl-CoA	3-oxooctanoyl-CoA	CHEBI:28264	C05267	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4. 
+3-oxooctanoyl-CoA	3-oxooctanoyl-CoA	CHEBI:28264	C05267	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4.
 3-oxopalmitoyl-CoA	3-oxopalmitoyl-CoA	CHEBI:57349	C05259	-4	Wrong CHEBI in erm. Wrong KEGG in erm.
 3-oxotetracosanoyl-CoA	3-oxotetracosanoyl-CoA	CHEBI:52329		0	wrong chebiID and keggid
 3-oxotetradecanoyl-CoA	3-oxotetradecanoyl-CoA	CHEBI:28726	C05261	0	Wrong CHEBI in erm. Wrong KEGG in erm.
@@ -211,12 +211,12 @@ CDP-diacylglycerol (1-18:1, 2-16:1)	CDP-diacylglycerol (1-18:1, 2-16:1)			0	Wron
 CDP-diacylglycerol (1-18:1, 2-18:1)	CDP-diacylglycerol (1-18:1, 2-18:1)	CHEBI:104362		0	new chebiID. CHEBI:104362 for 1.2-dioctadec-11-enoyl-sn-glycero-3-cytidine 5'-diphosphate CDP-DG(18:1/18:1)
 CDP-ethanolamine	CDP-ethanolamine	CHEBI:57876	C00570	-1	Wrong CHEBI in erm. Wrong KEGG in erm.
 cerotic acid	cerotic acid	CHEBI:31013		-1	Wrong CHEBI in ce/erm/lp. Wrong KEGG in ce/erm/lp.
-cis-dec-3-enoyl-CoA	cis-dec-3-enoyl-CoA	CHEBI:10723	C05275	0	wrong chebiID and keggid. CHEBI:10723 for trans-dec-2-enoyl-CoA
-cis-dodec-3-enoyl-CoA	cis-dodec-3-enoyl-CoA	CHEBI:27989	C02944	0	wrong chebiID and keggid
-cis-dodec-5-enoyl-CoA	cis-dodec-5-enoyl-CoA	CHEBI:27989	C02944	0	wrong chebiID and keggid.  CHEBI:27989 for cis-dodec-3-enoyl-CoA
+cis-dec-3-enoyl-CoA	cis-dec-3-enoyl-CoA			0	"wrong chebiID and keggid. CHEBI:10723 for trans-dec-2-enoyl-CoA;remove duplicated chebiID;remove duplicated keggID"
+cis-dodec-3-enoyl-CoA	cis-dodec-3-enoyl-CoA	CHEBI:27989		0	"wrong chebiID and keggid;remove duplicated keggID"
+cis-dodec-5-enoyl-CoA	cis-dodec-5-enoyl-CoA			0	"wrong chebiID and keggid.  CHEBI:27989 for cis-dodec-3-enoyl-CoA;remove duplicated chebiID;remove duplicated keggID"
 cis-hexadec-7-enoyl-CoA	cis-hexadec-7-enoyl-CoA	CHEBI:88008		0	wrong chebiID and keggid
 cis-tetradec-5-enoyl-CoA	cis-tetradec-5-enoyl-CoA	CHEBI:70712		0	wrong chebiID and keggid
-cis-tetradec-7-enoyl-CoA	cis-tetradec-7-enoyl-CoA	CHEBI:62014		0	Wrong chebiID and keggid .CHEBI:62014 for  cis-tetradec-3-enoyl-CoA
+cis-tetradec-7-enoyl-CoA	cis-tetradec-7-enoyl-CoA			0	"Wrong chebiID and keggid .CHEBI:62014 for  cis-tetradec-3-enoyl-CoA;remove duplicated chebiID"
 CMP	CMP	CHEBI:60377	C00055	-2	Wrong CHEBI in erm/mm. Wrong KEGG in erm/mm.
 coenzyme A	coenzyme A	CHEBI:57287	C00010	-4	Wrong CHEBI in erm/ce/mm. Wrong KEGG in erm/ce/mm.
 CTP	CTP	CHEBI:37563	C00063	-4	Wrong CHEBI in erm/mm. Wrong KEGG in erm/mm.
@@ -324,7 +324,7 @@ phosphate	phosphate	CHEBI:43474	C00009	-2	Wrong CHEBI in erm/vm/gm/mm/ce. Wrong 
 phosphatidate (1-16:0, 2-16:1)	phosphatidate (1-16:0, 2-16:1)	CHEBI:73998		-2	new chebiID. Update charge. chebi has some problemthis is a charged chebi id 2-
 phosphatidate (1-16:0, 2-18:1)	phosphatidate (1-16:0, 2-18:1)	CHEBI:64844	C13889	0	new chebiID. new keggid
 phosphatidate (1-16:1, 2-16:1)	phosphatidate (1-16:1, 2-16:1)	CHEBI:75071		0	new chebiID
-phosphatidate (1-16:1, 2-18:1)	phosphatidate (1-16:1, 2-18:1)	CHEBI:75074		0	new chebiID. standard fullname: 1-(9Z)-octadecenoyl-2-(9Z)-hexadecenoyl-sn-glycero-3-phosphate  Synonyms: PA(18:1(9Z)/16:1(9Z))
+phosphatidate (1-16:1, 2-18:1)	phosphatidate (1-16:1, 2-18:1)			0	"new chebiID. standard fullname: 1-(9Z)-octadecenoyl-2-(9Z)-hexadecenoyl-sn-glycero-3-phosphate  Synonyms: PA(18:1(9Z)/16:1(9Z));remove duplicated chebiID"
 phosphatidate (1-18:0, 2-16:1)	phosphatidate (1-18:0, 2-16:1)	CHEBI:75073		0	new chebiID
 phosphatidate (1-18:0, 2-18:1)	phosphatidate (1-18:0, 2-18:1)	CHEBI:74847		0	new chebiID
 phosphatidate (1-18:1, 2-16:1)	phosphatidate (1-18:1, 2-16:1)	CHEBI:75074		0	new chebiID
@@ -392,7 +392,7 @@ stearoyl-CoA	stearoyl-CoA	CHEBI:57394	C00412	-4	Wrong CHEBI in erm/lp. Wrong KEG
 tetracosanoyl-CoA	tetracosanoyl-CoA	CHEBI:52974	C16529	0	Wrong CHEBI in erm/ce/lp. Wrong KEGG in erm/ce/lp.
 Thr-tRNA(Thr)	Thr-tRNA(Thr)	CHEBI:29163	C02992	0	Wrong charge in c/m.
 trans-2,cis-5-dodecadienoyl-CoA	trans-2,cis-5-dodecadienoyl-CoA			0	wrong chebiID and keggid.  Can't find chebiID according to the fullname
-trans-2,cis-5-tetradecadienoyl-CoA	trans-2,cis-5-tetradecadienoyl-CoA	CHEBI:72001		0	wrong chebiID and keggid. CHEBI:72001 for  (3E.5Z)-tetradecadienoyl-CoA. Has charge of -4
+trans-2,cis-5-tetradecadienoyl-CoA	trans-2,cis-5-tetradecadienoyl-CoA			0	"wrong chebiID and keggid. CHEBI:72001 for  (3E.5Z)-tetradecadienoyl-CoA. Has charge of -4;remove duplicated chebiID"
 trans-2,cis-7-hexadecadienoyl-CoA	trans-2,cis-7-hexadecadienoyl-CoA	CHEBI:88086		0	wrong chebiID and keggid. CHEBI:88086 for (2E.7Z)-hexadecadienoyl-CoA. Has charge of -4
 trans-2,cis-7-tetradecadienoyl-CoA	trans-2,cis-7-tetradecadienoyl-CoA	CHEBI:88067		0	wrong chebiID and keggid.  CHEBI:88067 for  (2E.5Z)-tetradecadienoyl-CoA
 trans-2,cis-9-hexadecadienoyl-CoA	trans-2,cis-9-hexadecadienoyl-CoA	CHEBI:76889		0	wrong chebiID and keggid. CHEBI:76889 for (9Z.12Z)-hexadecadienoyl-CoA?? Has charge of -4
@@ -403,15 +403,15 @@ trans-3,cis-5-dodecadienoyl-CoA	trans-3,cis-5-dodecadienoyl-CoA	CHEBI:139121		0	
 trans-3,cis-5-tetradecadienoyl-CoA	trans-3,cis-5-tetradecadienoyl-CoA	CHEBI:72001		0	new chebiID
 trans-but-2-enoyl-ACP	trans-but-2-enoyl-ACP	CHEBI:132146		0	wrong chebiID and keggid
 trans-but-2-enoyl-CoA	but-2-enoyl-CoA	CHEBI:36926	C00877	0	new keggid, formula & fullname. Wrong chebiID.
-trans-docos-2-enoyl-CoA	trans-docos-2-enoyl-CoA	CHEBI:15471	C03221	0	Wrong chebiID and keggid. Not standard fullname
-trans-dodec-3-enoyl-CoA	trans-dodec-3-enoyl-CoA	CHEBI:15471	C03221	0	new chebiID. new keggid. CHEBI:15471 for  trans-dodec-2-enoyl-CoA has charge of 0.
+trans-docos-2-enoyl-CoA	trans-docos-2-enoyl-CoA			0	"Wrong chebiID and keggid. Not standard fullname;remove duplicated chebiID;remove duplicated keggID"
+trans-dodec-3-enoyl-CoA	trans-dodec-3-enoyl-CoA			0	"new chebiID. new keggid. CHEBI:15471 for  trans-dodec-2-enoyl-CoA has charge of 0.;remove duplicated chebiID;remove duplicated keggID"
 trans-hex-2-enoyl-ACP	trans-hex-2-enoyl-ACP	CHEBI:10727	C05748	0	wrong chebiID and keggid
-trans-hex-2-enoyl-CoA	trans-hex-2-enoyl-CoA	CHEBI:28706	C05271	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4. 
+trans-hex-2-enoyl-CoA	trans-hex-2-enoyl-CoA	CHEBI:28706	C05271	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4.
 trans-hexacos-2-enoyl-CoA	trans-hexacos-2-enoyl-CoA	CHEBI:52975		0	Wrong CHEBI in erm. Wrong KEGG in erm.
-trans-hexadec-2-enoyl-CoA	trans-hexadec-2-enoyl-CoA	CHEBI:24549	C05272	0	Wrong chebiID and keggid
+trans-hexadec-2-enoyl-CoA	trans-hexadec-2-enoyl-CoA		C05272	0	"Wrong chebiID and keggid;remove duplicated chebiID"
 trans-icos-2-enoyl-CoA	trans-icos-2-enoyl-CoA			0	Wrong chebiID and keggid. Can't find such a metabolite in chebi
 trans-oct-2-enoyl-ACP	trans-oct-2-enoyl-ACP		C05751	0	wrong chebiID. can't find such a metabolite in chebi. Not standard fullname
-trans-oct-2-enoyl-CoA	trans-oct-2-enoyl-CoA	CHEBI:27537	C05276	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4. 
+trans-oct-2-enoyl-CoA	trans-oct-2-enoyl-CoA	CHEBI:27537	C05276	0	wrong chebiID and keggid. update keggid, formula. has formula in charge of -4.
 trans-octadec-2-enoyl-CoA	trans-octadec-2-enoyl-CoA	CHEBI:50570	C16218	0	Wrong CHEBI in erm. Wrong KEGG in erm.
 trans-tetracos-2-enoyl-CoA	trans-tetracos-2-enoyl-CoA	CHEBI:75068		0	Wrong chebiID and keggid.  Not standard fullname. should be trans-2-tetracosenoyl-CoA   has charge of -4 according to YMDB
 trans-tetradec-2-enoyl-CoA	trans-tetradec-2-enoyl-CoA	CHEBI:61405	C05273	-4	Wrong CHEBI in erm. Wrong KEGG in erm.
@@ -419,34 +419,34 @@ trans-tetradec-3-enoyl-CoA	trans-tetradec-3-enoyl-CoA	CHEBI:88083		0	new chebiID
 triglyceride (1-16:0, 2-16:1, 3-16:0)	triglyceride (1-16:0, 2-16:1, 3-16:0)	CHEBI:85427		0	new chebiID. chebi has some problem. this is 16:0.16:0.16:1
 triglyceride (1-16:0, 2-16:1, 3-16:1)	triglyceride (1-16:0, 2-16:1, 3-16:1)	CHEBI:89765		0	new chebiID
 triglyceride (1-16:0, 2-16:1, 3-18:0)	triglyceride (1-16:0, 2-16:1, 3-18:0)	CHEBI:89763		0	new chebiID
-triglyceride (1-16:0, 2-16:1, 3-18:1)	triglyceride (1-16:0, 2-16:1, 3-18:1)	CHEBI:89019		0	new chebiID. chebi has some problem. this is 11z
+triglyceride (1-16:0, 2-16:1, 3-18:1)	triglyceride (1-16:0, 2-16:1, 3-18:1)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
 triglyceride (1-16:0, 2-18:1, 3-16:0)	triglyceride (1-16:0, 2-18:1, 3-16:0)	CHEBI:89759		0	new chebiID
-triglyceride (1-16:0, 2-18:1, 3-16:1)	triglyceride (1-16:0, 2-18:1, 3-16:1)	CHEBI:89019		0	new chebiID. chebi has some problem. this is 11z
+triglyceride (1-16:0, 2-18:1, 3-16:1)	triglyceride (1-16:0, 2-18:1, 3-16:1)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
 triglyceride (1-16:0, 2-18:1, 3-18:0)	triglyceride (1-16:0, 2-18:1, 3-18:0)	CHEBI:88998		0	new chebiID
-triglyceride (1-16:0, 2-18:1, 3-18:1)	triglyceride (1-16:0, 2-18:1, 3-18:1)	CHEBI:89959		0	new chebiID
-triglyceride (1-16:1, 2-16:1, 3-16:0)	triglyceride (1-16:1, 2-16:1, 3-16:0)	CHEBI:89765		0	new chebiID
+triglyceride (1-16:0, 2-18:1, 3-18:1)	triglyceride (1-16:0, 2-18:1, 3-18:1)			0	"new chebiID;remove duplicated chebiID"
+triglyceride (1-16:1, 2-16:1, 3-16:0)	triglyceride (1-16:1, 2-16:1, 3-16:0)			0	"new chebiID;remove duplicated chebiID"
 triglyceride (1-16:1, 2-16:1, 3-16:1)	triglyceride (1-16:1, 2-16:1, 3-16:1)	CHEBI:75841		0	new chebiID
-triglyceride (1-16:1, 2-16:1, 3-18:0)	triglyceride (1-16:1, 2-16:1, 3-18:0)	CHEBI:89019		0	new chebiID. chebi has some problem. this is 11z
+triglyceride (1-16:1, 2-16:1, 3-18:0)	triglyceride (1-16:1, 2-16:1, 3-18:0)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
 triglyceride (1-16:1, 2-16:1, 3-18:1)	triglyceride (1-16:1, 2-16:1, 3-18:1)	CHEBI:90051		0	new chebiID
-triglyceride (1-16:1, 2-18:1, 3-16:0)	triglyceride (1-16:1, 2-18:1, 3-16:0)	CHEBI:89019		0	new chebiID. chebi has some problem. this is 11z
-triglyceride (1-16:1, 2-18:1, 3-16:1)	triglyceride (1-16:1, 2-18:1, 3-16:1)	CHEBI:90051		0	new chebiID
-triglyceride (1-16:1, 2-18:1, 3-18:0)	triglyceride (1-16:1, 2-18:1, 3-18:0)	CHEBI:89959		0	new chebiID
+triglyceride (1-16:1, 2-18:1, 3-16:0)	triglyceride (1-16:1, 2-18:1, 3-16:0)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
+triglyceride (1-16:1, 2-18:1, 3-16:1)	triglyceride (1-16:1, 2-18:1, 3-16:1)			0	"new chebiID;remove duplicated chebiID"
+triglyceride (1-16:1, 2-18:1, 3-18:0)	triglyceride (1-16:1, 2-18:1, 3-18:0)			0	"new chebiID;remove duplicated chebiID"
 triglyceride (1-16:1, 2-18:1, 3-18:1)	triglyceride (1-16:1, 2-18:1, 3-18:1)	CHEBI:90048		0	new chebiID
-triglyceride (1-18:0, 2-16:1, 3-16:0)	triglyceride (1-18:0, 2-16:1, 3-16:0)	CHEBI:89763		0	new chebiID
+triglyceride (1-18:0, 2-16:1, 3-16:0)	triglyceride (1-18:0, 2-16:1, 3-16:0)			0	"new chebiID;remove duplicated chebiID"
 triglyceride (1-18:0, 2-16:1, 3-16:1)	triglyceride (1-18:0, 2-16:1, 3-16:1)	CHEBI:90053		0	new chebiID
 triglyceride (1-18:0, 2-16:1, 3-18:0)	triglyceride (1-18:0, 2-16:1, 3-18:0)	CHEBI:89958		0	new chebiID
-triglyceride (1-18:0, 2-16:1, 3-18:1)	triglyceride (1-18:0, 2-16:1, 3-18:1)	CHEBI:89959		0	new chebiID. chebi has some problem. this is 11z
+triglyceride (1-18:0, 2-16:1, 3-18:1)	triglyceride (1-18:0, 2-16:1, 3-18:1)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
 triglyceride (1-18:0, 2-18:1, 3-16:0)	triglyceride (1-18:0, 2-18:1, 3-16:0)	CHEBI:89755		0	new chebiID
-triglyceride (1-18:0, 2-18:1, 3-16:1)	triglyceride (1-18:0, 2-18:1, 3-16:1)	CHEBI:89959		0	new chebiID
+triglyceride (1-18:0, 2-18:1, 3-16:1)	triglyceride (1-18:0, 2-18:1, 3-16:1)			0	"new chebiID;remove duplicated chebiID"
 triglyceride (1-18:0, 2-18:1, 3-18:0)	triglyceride (1-18:0, 2-18:1, 3-18:0)	CHEBI:90305		0	new chebiID. CHEBI:90305 for triacylglycerol 54:1 . has charge of 0
-triglyceride (1-18:0, 2-18:1, 3-18:1)	triglyceride (1-18:0, 2-18:1, 3-18:1)	CHEBI:88980		0	new chebiID. chebi has some problem. this is 11z
-triglyceride (1-18:1, 2-16:1, 3-16:0)	triglyceride (1-18:1, 2-16:1, 3-16:0)	CHEBI:89019		0	new chebiID
-triglyceride (1-18:1, 2-16:1, 3-16:1)	triglyceride (1-18:1, 2-16:1, 3-16:1)	CHEBI:90051		0	new chebiID
-triglyceride (1-18:1, 2-16:1, 3-18:0)	triglyceride (1-18:1, 2-16:1, 3-18:0)	CHEBI:89959		0	new chebiID
+triglyceride (1-18:0, 2-18:1, 3-18:1)	triglyceride (1-18:0, 2-18:1, 3-18:1)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
+triglyceride (1-18:1, 2-16:1, 3-16:0)	triglyceride (1-18:1, 2-16:1, 3-16:0)			0	"new chebiID;remove duplicated chebiID"
+triglyceride (1-18:1, 2-16:1, 3-16:1)	triglyceride (1-18:1, 2-16:1, 3-16:1)			0	"new chebiID;remove duplicated chebiID"
+triglyceride (1-18:1, 2-16:1, 3-18:0)	triglyceride (1-18:1, 2-16:1, 3-18:0)			0	"new chebiID;remove duplicated chebiID"
 triglyceride (1-18:1, 2-16:1, 3-18:1)	triglyceride (1-18:1, 2-16:1, 3-18:1)	CHEBI:88984		0	new chebiID
 triglyceride (1-18:1, 2-18:1, 3-16:0)	triglyceride (1-18:1, 2-18:1, 3-16:0)	CHEBI:88999		0	new chebiID. chebi has some problem. this is 11z
-triglyceride (1-18:1, 2-18:1, 3-16:1)	triglyceride (1-18:1, 2-18:1, 3-16:1)	CHEBI:88984		0	new chebiID. chebi has some problem. this is 11z
-triglyceride (1-18:1, 2-18:1, 3-18:0)	triglyceride (1-18:1, 2-18:1, 3-18:0)	CHEBI:88980		0	new chebiID. chebi has some problem. this is 11z
+triglyceride (1-18:1, 2-18:1, 3-16:1)	triglyceride (1-18:1, 2-18:1, 3-16:1)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
+triglyceride (1-18:1, 2-18:1, 3-18:0)	triglyceride (1-18:1, 2-18:1, 3-18:0)			0	"new chebiID. chebi has some problem. this is 11z;remove duplicated chebiID"
 triglyceride (1-18:1, 2-18:1, 3-18:1)	triglyceride (1-18:1, 2-18:1, 3-18:1)	CHEBI:88970		0	new chebiID. chebi has some problem. this is 11z
 tRNA(Arg)	tRNA(Arg)	CHEBI:29171	C01636	0	New keggid
 tRNA(Asn)	tRNA(Asn)	CHEBI:29172	C01637	0	New keggid
@@ -471,3 +471,6 @@ Val-tRNA(Val)	Val-tRNA(Val)	CHEBI:29164	C02554	0	Wrong charge in c/m.
 zymosterol	zymosterol	CHEBI:18252	C05437	0	Wrong CHEBI in erm. Wrong KEGG in erm.
 zymosteryl oleate	zymosteryl oleate	CHEBI:52384		0	new chebiID
 zymosteryl palmitoleate	zymosteryl palmitoleate	CHEBI:52385		0	new chebiID
+trans-dec-2-enoyl-CoA	trans-dec-2-enoyl-CoA		C05275	-4	remove duplicated chebiID
+trans-dodec-2-enoyl-CoA	trans-dodec-2-enoyl-CoA		C03221	-4	remove duplicated chebiID
+hexadec-2-enoyl-CoA	hexadec-2-enoyl-CoA			0	"remove duplicated chebiID;remove duplicated keggID"
