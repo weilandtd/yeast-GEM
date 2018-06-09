@@ -205,7 +205,6 @@ CDP-diacylglycerol (1-16:0, 2-18:1)	CDP-diacylglycerol (1-16:0, 2-18:1)	CHEBI:34
 CDP-diacylglycerol (1-16:1, 2-16:1)	CDP-diacylglycerol (1-16:1, 2-16:1)	CHEBI:104012		0	new chebiID
 CDP-diacylglycerol (1-16:1, 2-18:1)	CDP-diacylglycerol (1-16:1, 2-18:1)			0	Wrong charge in erm/mm.
 CDP-diacylglycerol (1-18:0, 2-16:1)	CDP-diacylglycerol (1-18:0, 2-16:1)			0	No chebi id found. ECMDB23374
-CDP-diacylglycerol (1-18:0, 2-16:1)	CDP-diacylglycerol (1-18:0, 2-16:1)	ECMDB23374		0	Wrong CHEBI in erm/mm.
 CDP-diacylglycerol (1-18:0, 2-18:1)	CDP-diacylglycerol (1-18:0, 2-18:1)			0	Wrong charge in erm.
 CDP-diacylglycerol (1-18:1, 2-16:1)	CDP-diacylglycerol (1-18:1, 2-16:1)			0	Wrong charge in erm/mm.
 CDP-diacylglycerol (1-18:1, 2-18:1)	CDP-diacylglycerol (1-18:1, 2-18:1)	CHEBI:104362		0	new chebiID. CHEBI:104362 for 1.2-dioctadec-11-enoyl-sn-glycero-3-cytidine 5'-diphosphate CDP-DG(18:1/18:1)
