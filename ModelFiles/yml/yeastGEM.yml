@@ -18833,7 +18833,7 @@
     - annotation: !!omap
       - kegg.reaction: R07396
       - pmid: 14506228
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0027
     - name: 2-methylcitrate dehydratase
@@ -19149,7 +19149,7 @@
     - annotation: !!omap
       - kegg.reaction: R06865
       - pmid: 15792955
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0044
     - name: 3-hexaprenyl-4-hydroxy-5-methoxybenzoate decarboxylase
@@ -19164,7 +19164,7 @@
     - annotation: !!omap
       - kegg.reaction: R06866
       - pmid: 15792955
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0045
     - name: 3-hydroxy-L-kynurenine hydrolase
@@ -19746,7 +19746,7 @@
     - annotation: !!omap
       - kegg.reaction: R07392
       - pmid: 14506228
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0087
     - name: 5-methylthioribose-1-phosphate isomerase
@@ -19759,7 +19759,7 @@
     - annotation: !!omap
       - kegg.reaction: R04420
       - pmid: 14506228
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0088
     - name: 5PP-IP5 pyrophosphorylation to 4,5-PP2-IP4
@@ -19890,7 +19890,7 @@
     - annotation: !!omap
       - kegg.reaction: R03210
       - pmid: 16269718
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0095
     - name: acetaldehyde condensation
@@ -29497,7 +29497,7 @@
     - annotation: !!omap
       - kegg.reaction: R01446
       - pmid: 3908097
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0697
     - name: lactoylglutathione lyase
@@ -33617,7 +33617,7 @@
     - annotation: !!omap
       - kegg.reaction: R00586
       - pmid: 8335636
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0993
     - name: serine palmitotransferase
@@ -38063,7 +38063,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YFL058W
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1604
     - name: 4-aminobenzoate exchange
@@ -38253,7 +38253,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YER183C
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1624
     - name: 5-formyltetrahydrofolate:10-formyltetrahydrofolate isomerase
@@ -38268,7 +38268,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YER183C
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1625
     - name: 5-formyltetrahydrofolic acid exchange
@@ -39198,7 +39198,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR071C
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1743
     - name: dihydrofolate transport
@@ -39472,7 +39472,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDL045C
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1791
     - name: FMN exchange
@@ -41786,7 +41786,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - pmid: 18687109
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_2111
     - name: growth
@@ -42051,6 +42051,7 @@
     - gene_reaction_rule: YOR222W or YPL134C
     - annotation: !!omap
       - pmid: 16844075
+    - confidence_score: 3
   - !!omap
     - id: r_2134
     - name: 14-demethyllanosterol exchange
@@ -70614,7 +70615,7 @@
       - s_3709: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_3975
     - name: palmitate [cytoplasm] SLIME rxn
@@ -70749,7 +70750,7 @@
       - s_3710: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_3988
     - name: phosphatidylcholine (1-16:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
@@ -70844,7 +70845,7 @@
       - s_3711: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_3997
     - name: phosphatidylethanolamine (1-16:0, 2-16:1) [endoplasmic reticulum membrane] SLIME rxn
@@ -70939,7 +70940,7 @@
       - s_3712: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4006
     - name: triglyceride (1-16:0, 2-16:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn
@@ -71310,7 +71311,7 @@
       - s_3713: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4039
     - name: succinyl-CoA:acetate CoA transferase
@@ -71356,7 +71357,7 @@
       - s_3720: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4042
     - name: raffinose invertase
@@ -71466,7 +71467,7 @@
       - s_3717: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4048
     - name: carbohydrate pseudoreaction
@@ -71479,7 +71480,7 @@
       - s_3718: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4049
     - name: RNA pseudoreaction
@@ -71491,7 +71492,7 @@
       - s_3719: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4050
     - name: DNA pseudoreaction
@@ -71503,7 +71504,7 @@
       - s_3720: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4051
     - name: ceramide transport
@@ -71512,7 +71513,7 @@
       - s_3722: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4052
     - name: inositol phosphomannosylinositol phosphoceramide transport
@@ -71521,7 +71522,7 @@
       - s_3723: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4053
     - name: inositol-P-ceramide transport
@@ -71530,7 +71531,7 @@
       - s_3724: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4054
     - name: mannosylinositol phosphorylceramide transport
@@ -71539,7 +71540,7 @@
       - s_3725: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4055
     - name: long-chain base transport
@@ -71548,7 +71549,7 @@
       - s_3727: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4056
     - name: long-chain base phosphate transport
@@ -71557,7 +71558,7 @@
       - s_3729: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4057
     - name: phosphatidate transport
@@ -71566,7 +71567,7 @@
       - s_3731: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4058
     - name: diglyceride transport
@@ -71575,7 +71576,7 @@
       - s_3733: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4059
     - name: sn-2-acyl-1-lysophosphatidylinositol transport
@@ -71584,7 +71585,7 @@
       - s_3735: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4060
     - name: phosphatidylglycerol transport
@@ -71593,7 +71594,7 @@
       - s_3737: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4061
     - name: cardiolipin transport
@@ -71602,7 +71603,7 @@
       - s_3739: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4062
     - name: lipid - backbones exchange
@@ -71610,7 +71611,6 @@
       - s_3746: -1
     - lower_bound: 0
     - upper_bound: 0
-    - confidence_score: 0
   - !!omap
     - id: r_4063
     - name: lipid pseudoreaction - backbone
@@ -71634,7 +71634,6 @@
       - s_3747: -1
     - lower_bound: 0
     - upper_bound: 0
-    - confidence_score: 0
   - !!omap
     - id: r_4065
     - name: lipid pseudoreaction - tail
