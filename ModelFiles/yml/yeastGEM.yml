@@ -13686,8 +13686,6 @@
     - compartment: erm
     - formula: C46H83N3O15P2
     - charge: 0
-    - annotation: !!omap
-      - chebi: ECMDB23374
   - !!omap
     - id: s_3087
     - name: CDP-diacylglycerol (1-18:1, 2-16:1)
@@ -13794,8 +13792,6 @@
     - compartment: mm
     - formula: C46H83N3O15P2
     - charge: 0
-    - annotation: !!omap
-      - chebi: ECMDB23374
   - !!omap
     - id: s_3101
     - name: phosphatidate (1-18:1, 2-16:1)

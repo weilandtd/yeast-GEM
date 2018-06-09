@@ -1,7 +1,7 @@
-MATLAB	9.3.0.713579 (R2017b)
+MATLAB	9.4.0.813654 (R2018a)
 libSBML	5.17.0
 RAVEN_toolbox	2.0.0
-COBRA_toolbox	commit 7f88d93
+COBRA_toolbox	commit 4bfe8b3
 SBML_level	3
 SBML_version	1
 fbc_version	2
