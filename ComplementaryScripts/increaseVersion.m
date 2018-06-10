@@ -47,7 +47,7 @@ model = readCbModel('../ModelFiles/xml/yeastGEM.xml');
 
 %Include tag and save model:
 model.description = ['yeastGEM_v' newVersion];
-saveYeastModel(model)
+saveYeastModel(model,false)
 
 %Allow .mat & .xls storage:
 copyfile('../.gitignore','backup')

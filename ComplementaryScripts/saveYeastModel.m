@@ -1,12 +1,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% saveYeastModel(model)
+% saveYeastModel(model,upDATE)
 % Saves model as a .xml, .txt and .yml file. Also updates complementary
 % files (boundaryMets.txt, README.md and dependencies.txt).
 %
 % Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function saveYeastModel(model)
+function saveYeastModel(model,upDATE)
+
+if nargin < 2
+    upDATE = true;
+end
 
 %Remove any space in rxnECNumbers:
 model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
@@ -41,7 +45,7 @@ while still_reading
     if ~ischar(inline)
         still_reading = false;
     else
-        if startsWith(inline,'* Last update: ')
+        if startsWith(inline,'* Last update: ') && upDATE
             inline = ['* Last update: ' datestr(datetime,'yyyy-mm-dd') newline];
         elseif startsWith(inline,'|_Saccharomyces cerevisiae_|')
             inline = ['|_Saccharomyces cerevisiae_|[Yeast 7.6]' ...
