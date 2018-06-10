@@ -1,5 +1,12 @@
 # History
 
+### yeast 8.1.1:
+* Fixes:
+  * Fixes #96: regardless if the model is saved with a windows or a MAC machine, the `.xml` file is now stored with the same scientific format.
+  * Fixes #108: No CHEBI or KEGG ids are now shared by different metabolites. Also, updated the metabolites that were skipped in the previous manual curation (PR #74).
+  * Remade function for defining confidence scores, which fixed 38 scores in `rxnConfidenceScores` (most of them from pseudoreactions).
+  * `loadYeastModel` and `saveYeastModel` were improved to allow their use also when outside of the actual folder.
+
 ### yeast 8.1.0:
 * New features:
   * SLIME reactions added to the model using [SLIMEr](https://github.com/SysBioChalmers/SLIMEr), to properly account for constraints on lipid metabolism (fixes #21):
@@ -64,7 +71,6 @@ First version of the yeast8 model, to separate it from previous versions:
 
 ### yeast 7.8.0:
 First release of the yeast model
-
 * Format changes:
   * FBCv2 compliant
   * Compatible with latest COBRA and RAVEN parsers
