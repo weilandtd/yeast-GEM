@@ -31,16 +31,16 @@ yeast_gene_annotation = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 for i = 1: length(model.genes)
     geneIndex = strcmp(yeast_gene_annotation{1}, model.genes{i});
-    if sum(geneIndex) == 1
+    if sum(geneIndex) == 1 && ~isempty(yeast_gene_annotation{2}{geneIndex})
         model.geneNames{i} = yeast_gene_annotation{2}{geneIndex};
     else
-        model.geneNames{i} = ' ';
+        model.geneNames{i} = model.genes{i};
     end
 end
 
 % Add protein name for genes
 for i = 1:length(model.genes)
-    model.proteins{i} = strcat('COBRARProtein',num2str(i));
+    model.proteins{i} = strcat('COBRAProtein',num2str(i));
 end
 
 % Save model:

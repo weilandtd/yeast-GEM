@@ -72671,7 +72671,7 @@
     - name: YAT1
   - !!omap
     - id: YAR069W-A
-    - name:  
+    - name: YAR069W-A
   - !!omap
     - id: YAR071W
     - name: PHO11
@@ -72884,6 +72884,7 @@
     - name: PDB1
   - !!omap
     - id: YBR241C
+    - name: YBR241C
   - !!omap
     - id: YBR244W
     - name: GPX2
@@ -73306,6 +73307,7 @@
     - name: TIM11
   - !!omap
     - id: YDR341C
+    - name: YDR341C
   - !!omap
     - id: YDR342C
     - name: HXT7
@@ -73563,6 +73565,7 @@
     - name: COX15
   - !!omap
     - id: YER152C
+    - name: YER152C
   - !!omap
     - id: YER170W
     - name: ADK2
@@ -73913,6 +73916,7 @@
     - name: PRS3
   - !!omap
     - id: YHL012W
+    - name: YHL012W
   - !!omap
     - id: YHL016C
     - name: DUR3
@@ -73945,6 +73949,7 @@
     - name: DED81
   - !!omap
     - id: YHR020W
+    - name: YHR020W
   - !!omap
     - id: YHR025W
     - name: THR1
@@ -74040,7 +74045,7 @@
     - name: BAT1
   - !!omap
     - id: YHR214W-F
-    - name:  
+    - name: YHR214W-F
   - !!omap
     - id: YHR215W
     - name: PHO12
@@ -74121,10 +74126,10 @@
     - name: SUC2
   - !!omap
     - id: YIL167W
-    - name:  
+    - name: YIL167W
   - !!omap
     - id: YIL168W
-    - name:  
+    - name: YIL168W
   - !!omap
     - id: YIL172C
     - name: IMA3
@@ -74166,6 +74171,7 @@
     - name: RNR2
   - !!omap
     - id: YJL045W
+    - name: YJL045W
   - !!omap
     - id: YJL052W
     - name: TDH1
@@ -74174,6 +74180,7 @@
     - name: BNA3
   - !!omap
     - id: YJL068C
+    - name: YJL068C
   - !!omap
     - id: YJL071W
     - name: ARG2
@@ -74566,6 +74573,7 @@
     - name: JLP1
   - !!omap
     - id: YLL058W
+    - name: YLL058W
   - !!omap
     - id: YLL061W
     - name: MMP1
@@ -74727,6 +74735,7 @@
     - name: FKS1
   - !!omap
     - id: YLR345W
+    - name: YLR345W
   - !!omap
     - id: YLR348C
     - name: DIC1
@@ -74771,6 +74780,7 @@
     - name: CAR2
   - !!omap
     - id: YLR446W
+    - name: YLR446W
   - !!omap
     - id: YLR447C
     - name: VMA6
@@ -74812,6 +74822,7 @@
     - name: ATP18
   - !!omap
     - id: YML082W
+    - name: YML082W
   - !!omap
     - id: YML086C
     - name: ALO1
@@ -74874,6 +74885,7 @@
     - name: ADH3
   - !!omap
     - id: YMR084W
+    - name: YMR084W
   - !!omap
     - id: YMR088C
     - name: VBA1
@@ -74930,6 +74942,7 @@
     - name: ERG8
   - !!omap
     - id: YMR226C
+    - name: YMR226C
   - !!omap
     - id: YMR241W
     - name: YHM2
@@ -75073,6 +75086,7 @@
     - name: ZWF1
   - !!omap
     - id: YNL247W
+    - name: YNL247W
   - !!omap
     - id: YNL248C
     - name: RPA49
