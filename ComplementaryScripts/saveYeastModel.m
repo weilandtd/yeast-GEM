@@ -20,8 +20,17 @@ model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 scriptFolder = fileparts(which(mfilename));
 currentDir = cd(scriptFolder);
 
-%Save changes to current model:
-writeCbModel(model,'sbml','../ModelFiles/xml/yeastGEM.xml');
+%Check if model is a valid SBML structure:
+writeCbModel(model,'sbml','tempModel.xml');
+[~,errors] = TranslateSBML('tempModel.xml');
+if ~isempty(errors)
+    delete('tempModel.xml');
+    error('Model should be a valid SBML structure. Please fix all errors before saving.')
+end
+
+%Update .xml, .txt and .yml models:
+copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
+delete('tempModel.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
 exportForGit(model,'yeastGEM','..',{'yml'});
 
