@@ -27444,7 +27444,7 @@
       - s_1565: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YAR073W or YHR216W or YLR432W or YML056C
+    - gene_reaction_rule: YHR216W or YLR432W or YML056C
     - subsystem:
         - sce00230  Purine metabolism
         - sce01110  Biosynthesis of secondary metabolites
@@ -29353,7 +29353,7 @@
       - s_1399: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YIL168W or YIL167W or YCL064C
+    - gene_reaction_rule: YCL064C
     - subsystem:
         - sce00260  Glycine, serine and threonine metabolism
         - sce00270  Cysteine and methionine metabolism
