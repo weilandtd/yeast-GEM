@@ -18466,7 +18466,7 @@
       - s_1543: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YGR032W or (YLR342W and YCR034W)
+    - gene_reaction_rule: YGR032W or YMR306W or (YLR342W and YCR034W)
     - subsystem:
         - sce00500  Starch and sucrose metabolism
         - sce04011  MAPK signaling pathway - yeast
@@ -20730,7 +20730,7 @@
       - s_1386: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YML022W
+    - gene_reaction_rule: YDR441C or YML022W
     - subsystem: sce00230  Purine metabolism
     - annotation: !!omap
       - ec-code: 2.4.2.7
@@ -20868,7 +20868,7 @@
       - s_0434: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YDR226W
+    - gene_reaction_rule: YDL166C or YDR226W
     - subsystem:
         - sce00230  Purine metabolism
         - sce00730  Thiamine metabolism
@@ -21361,7 +21361,7 @@
       - s_1203: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YMR169C or YMR170C
+    - gene_reaction_rule: YMR110C or YMR169C or YMR170C
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -21901,7 +21901,7 @@
       - s_1522: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YPR026W
+    - gene_reaction_rule: YPR026W or YBR001C
     - subsystem: sce00500  Starch and sucrose metabolism
     - annotation: !!omap
       - ec-code: 3.2.1.28
@@ -21970,7 +21970,7 @@
       - s_0803: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YMR293C
+    - gene_reaction_rule: YDR242W or YMR293C
     - subsystem: sce00970  Aminoacyl-tRNA biosynthesis
     - annotation: !!omap
       - ec-code: 6.3.5.7
@@ -22550,7 +22550,7 @@
       - s_1326: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR322C-A and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W) or (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YPR020W)
+    - gene_reaction_rule: (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR322C-A and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W) or (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YPR020W) or (Q0080 and Q0085 and Q0130 and YBL099W and YBR039W and YDL004W and YDR298C and YDR322C-A and YDR377W and YJR121W and YKL016C and YLR295C and YML081C-A and YPL078C and YPL271W and YJL180C and YLR393W and YNL315C and YOL077W-A and YCL005W-A)
     - subsystem: sce00190  Oxidative phosphorylation
     - annotation: !!omap
       - ec-code: 3.6.3.14
@@ -23920,7 +23920,7 @@
       - s_1399: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YGL184C
+    - gene_reaction_rule: YFR055W or YGL184C
     - subsystem:
         - sce00270  Cysteine and methionine metabolism
         - sce00450  Selenocompound metabolism
@@ -24204,7 +24204,7 @@
       - s_1203: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YJR159W
+    - gene_reaction_rule: YDL246C or YJR159W
     - subsystem:
         - sce00040  Pentose and glucuronate interconversions
         - sce00051  Fructose and mannose metabolism
@@ -24818,7 +24818,7 @@
       - s_0803: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YBR252W
+    - gene_reaction_rule: YJR069C or YBR252W
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 3.6.1.23
@@ -24848,7 +24848,7 @@
       - s_1360: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YGR254W or YHR174W
+    - gene_reaction_rule: YPL281C or YGR254W or YHR174W or YMR323W or YOR393W
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -25092,7 +25092,7 @@
       - s_1278: -0.25
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (Q0045 and Q0250 and Q0275 and YDL067C and YEL039C and YGL187C and YGL191W and YHR051W and YIL111W and YLR038C and YLR395C and YMR256C) or (Q0045 and Q0250 and Q0275 and YDL067C and YEL039C and YGL187C and YGL191W and YHR051W and YLR038C and YLR395C and YMR256C and YNL052W) or (Q0045 and Q0250 and Q0275 and YDL067C and YGL187C and YGL191W and YHR051W and YIL111W and YJR048W and YLR038C and YLR395C and YMR256C) or (Q0045 and Q0250 and Q0275 and YDL067C and YGL187C and YGL191W and YHR051W and YJR048W and YLR038C and YLR395C and YMR256C and YNL052W)
+    - gene_reaction_rule: (Q0045 and Q0250 and Q0275 and YDL067C and YEL039C and YGL187C and YGL191W and YHR051W and YIL111W and YLR038C and YLR395C and YMR256C) or (Q0045 and Q0250 and Q0275 and YDL067C and YEL039C and YGL187C and YGL191W and YHR051W and YLR038C and YLR395C and YMR256C and YNL052W) or (Q0045 and Q0250 and Q0275 and YDL067C and YGL187C and YGL191W and YHR051W and YIL111W and YJR048W and YLR038C and YLR395C and YMR256C) or (Q0045 and Q0250 and Q0275 and YDL067C and YGL187C and YGL191W and YHR051W and YJR048W and YLR038C and YLR395C and YMR256C and YNL052W) or (Q0045 and Q0250 and Q0275 and YDL067C and YHR116W and YDR231C and YGR062C and YJL003W and YPL132W and YLL018C-A)
     - subsystem:
         - sce00190  Oxidative phosphorylation
         - sce00920  Sulfur metabolism
@@ -25278,7 +25278,7 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YJL155C
+    - gene_reaction_rule: YLR345W or YJL155C
     - subsystem: sce00051  Fructose and mannose metabolism
     - annotation: !!omap
       - ec-code: 3.1.3.46
@@ -25775,6 +25775,7 @@
       - s_0999: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YFL060C
     - annotation: !!omap
       - pmid: 3309138
     - confidence_score: 0
@@ -25812,7 +25813,7 @@
       - s_0999: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YKL104C
+    - gene_reaction_rule: YMR084W or YKL104C
     - subsystem:
         - sce00250  Alanine, aspartate and glutamate metabolism
         - sce00520  Amino sugar and nucleotide sugar metabolism
@@ -25929,7 +25930,7 @@
       - s_0837: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YBR244W or YCL035C or YDR513W or YIR037W or YKL026C
+    - gene_reaction_rule: YNL229C or YBR244W or YCL035C or YDR513W or YIR037W or YKL026C
     - subsystem: sce00480  Glutathione metabolism
     - annotation: !!omap
       - ec-code:
@@ -26724,7 +26725,7 @@
       - s_1278: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YDR376W and YPL252C
+    - gene_reaction_rule: YER141W or (YDR376W and YPL252C)
     - annotation: !!omap
       - ec-code: 1.18.1.6
       - pmid: 11788607
@@ -26784,7 +26785,7 @@
       - s_0794: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YFR053C or YGL253W
+    - gene_reaction_rule: YLR446W or YFR053C or YGL253W
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -26810,7 +26811,7 @@
       - s_0794: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YCL040W or YFR053C or YGL253W
+    - gene_reaction_rule: YLR446W or YCL040W or YFR053C or YGL253W
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -26839,7 +26840,7 @@
       - s_0794: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YFR053C or YGL253W
+    - gene_reaction_rule: YLR446W or YFR053C or YGL253W
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -26984,7 +26985,7 @@
       - s_0836: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YDR234W
+    - gene_reaction_rule: YJL200C or YDR234W
     - subsystem:
         - sce00300  Lysine biosynthesis
         - sce01130  Biosynthesis of antibiotics
@@ -30888,7 +30889,7 @@
       - s_1224: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YLR328W
+    - gene_reaction_rule: YCL047C or YLR328W
     - subsystem: sce00760  Nicotinate and nicotinamide metabolism
     - annotation: !!omap
       - ec-code:
@@ -31278,7 +31279,7 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YER005W
+    - gene_reaction_rule: YAL035W or YLL001W or YER005W
     - subsystem:
         - sce00230  Purine metabolism
         - sce00240  Pyrimidine metabolism
@@ -31442,7 +31443,7 @@
       - s_1458: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YAL012W
+    - gene_reaction_rule: YLL058W or YML082W or YAL012W
     - subsystem:
         - sce00260  Glycine, serine and threonine metabolism
         - sce00270  Cysteine and methionine metabolism
@@ -34985,7 +34986,7 @@
       - s_1556: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YNR012W
+    - gene_reaction_rule: YDR020C or YNR012W
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 2.7.1.48
@@ -35002,7 +35003,7 @@
       - s_1556: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YNR012W
+    - gene_reaction_rule: YDR020C or YNR012W
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 2.7.1.48
@@ -35105,7 +35106,7 @@
       - s_1559: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YKL035W
+    - gene_reaction_rule: YHL012W or YKL035W
     - subsystem:
         - sce00040  Pentose and glucuronate interconversions
         - sce00052  Galactose metabolism
@@ -35981,7 +35982,7 @@
       - s_0565: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YDL245C or YDL247W or YDR342C or YDR343C or YDR345C or YDR536W or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YJR160C or YLR081W or YMR011W or YNR072W or YOL156W
+    - gene_reaction_rule: YDL245C or YDL247W or YDR342C or YDR343C or YDR345C or YDR536W or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YJR160C or YLR081W or YMR011W or YNR072W or YOL156W or YDR387C
     - subsystem: sce04113  Meiosis - yeast
     - annotation: !!omap
       - pmid: 10618490
@@ -36058,7 +36059,7 @@
       - s_0766: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YLL043W
+    - gene_reaction_rule: YFL054C or YLL043W
     - confidence_score: 2
   - !!omap
     - id: r_1173
@@ -36219,7 +36220,7 @@
       - s_0968: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YBR293W
+    - gene_reaction_rule: YOL092W or YBR293W
     - annotation: !!omap
       - pmid: 15572352
     - confidence_score: 3
@@ -36419,7 +36420,7 @@
       - s_1009: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YBR293W or YCL069W or YMR088C
+    - gene_reaction_rule: YOL092W or YBR293W or YCL069W or YMR088C
     - annotation: !!omap
       - pmid: 15572352
     - confidence_score: 3
@@ -36579,7 +36580,7 @@
       - s_1028: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YBR293W or YCL069W or YMR088C
+    - gene_reaction_rule: YOL092W or YBR293W or YCL069W or YMR088C
     - annotation: !!omap
       - pmid: 15572352
     - confidence_score: 3
@@ -36641,7 +36642,7 @@
       - s_1041: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YCL025C or YDR508C or YFL055W or YKR039W or YPL265W
+    - gene_reaction_rule: YCL025C or YDR508C or YFL055W or YKR039W or YPL265W or YDR105C
     - confidence_score: 2
   - !!omap
     - id: r_1218
@@ -36972,7 +36973,7 @@
       - s_1374: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YJL129C
+    - gene_reaction_rule: YDR456W or YJL129C
     - annotation: !!omap
       - pmid: 3043197
     - confidence_score: 3
@@ -37088,7 +37089,7 @@
       - s_1438: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YLR138W
+    - gene_reaction_rule: YDR456W or YLR138W
     - confidence_score: 2
   - !!omap
     - id: r_1259
@@ -38576,6 +38577,7 @@
       - s_0803: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL036W
     - confidence_score: 0
   - !!omap
     - id: r_1668
@@ -39100,6 +39102,7 @@
       - s_0584: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL166C
     - confidence_score: 0
   - !!omap
     - id: r_1730
@@ -39582,6 +39585,7 @@
       - s_0566: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YBR241C or YGL104C
     - confidence_score: 0
   - !!omap
     - id: r_1806
@@ -41112,6 +41116,7 @@
       - s_1393: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YNR027W
     - confidence_score: 0
   - !!omap
     - id: r_2026
@@ -41423,6 +41428,7 @@
       - s_1497: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDL024C
     - confidence_score: 0
   - !!omap
     - id: r_2065
@@ -41871,7 +41877,7 @@
       - s_1203: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YMR170C or YOR374W or YER073W
+    - gene_reaction_rule: YMR110C or YMR170C or YER073W or YOR374W
     - subsystem:
         - Gluconeogenesis
         - sce00010  Glycolysis
@@ -62113,7 +62119,7 @@
       - s_3657: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YBR204C or YKR089C or YMR313C or YOR081C
+    - gene_reaction_rule: YBR204C or YKR089C or YMR313C or YOR081C or YCR068W
     - subsystem:
         - sce00100  Steroid biosynthesis
         - sce00561  Glycerolipid metabolism
@@ -62866,7 +62872,7 @@
       - s_3672: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YMR313C
+    - gene_reaction_rule: YCR068W or YMR313C
     - subsystem: sce00561  Glycerolipid metabolism
     - annotation: !!omap
       - ec-code: 3.1.1.3
@@ -71492,6 +71498,7 @@
       - s_3719: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBL035C or YBR278W or YCR014C or YIR008C or YKL045W or YDL102W or YDL164C or YDR121W or YDR419W or YJR006W or YJR043C or YNL102W or YNL262W or YOR330C or YPL167C or YPR175W or YKR002W
     - confidence_score: 1
   - !!omap
     - id: r_4050
@@ -71504,6 +71511,7 @@
       - s_3720: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBR154C or YHR143W-A or YIL021W or YKL144C or YKR025W or YFL036W or YDL140C or YDL150W or YDR045C or YDR156W or YDR404C or YGL070C or YJL011C or YJL140W or YJL148W or YJR063W or YNL113W or YNL151C or YNL248C or YNR003C or YOL005C or YOR116C or YOR151C or YOR207C or YOR210W or YOR224C or YOR340C or YOR341W or YPR010C or YPR110C or YPR187W or YPR190C
     - confidence_score: 1
   - !!omap
     - id: r_4051
@@ -72638,6 +72646,9 @@
     - id: YAL023C
     - name: PMT2
   - !!omap
+    - id: YAL035W
+    - name: FUN12
+  - !!omap
     - id: YAL038W
     - name: CDC19
   - !!omap
@@ -72680,6 +72691,9 @@
     - id: YBL033C
     - name: RIB1
   - !!omap
+    - id: YBL035C
+    - name: POL12
+  - !!omap
     - id: YBL039C
     - name: URA7
   - !!omap
@@ -72703,6 +72717,9 @@
   - !!omap
     - id: YBL099W
     - name: ATP1
+  - !!omap
+    - id: YBR001C
+    - name: NTH2
   - !!omap
     - id: YBR002C
     - name: RER2
@@ -72815,6 +72832,9 @@
     - id: YBR153W
     - name: RIB7
   - !!omap
+    - id: YBR154C
+    - name: RPB5
+  - !!omap
     - id: YBR159W
     - name: IFA38
   - !!omap
@@ -72860,6 +72880,9 @@
     - id: YBR221C
     - name: PDB1
   - !!omap
+    - id: YBR241C
+    - name: YBR241C
+  - !!omap
     - id: YBR244W
     - name: GPX2
   - !!omap
@@ -72880,6 +72903,9 @@
   - !!omap
     - id: YBR265W
     - name: TSC10
+  - !!omap
+    - id: YBR278W
+    - name: DPB3
   - !!omap
     - id: YBR291C
     - name: CTP1
@@ -72902,6 +72928,9 @@
     - id: YCL004W
     - name: PGS1
   - !!omap
+    - id: YCL005W-A
+    - name: VMA9
+  - !!omap
     - id: YCL009C
     - name: ILV6
   - !!omap
@@ -72923,6 +72952,9 @@
     - id: YCL040W
     - name: GLK1
   - !!omap
+    - id: YCL047C
+    - name: POF1
+  - !!omap
     - id: YCL050C
     - name: APA1
   - !!omap
@@ -72943,6 +72975,9 @@
   - !!omap
     - id: YCR012W
     - name: PGK1
+  - !!omap
+    - id: YCR014C
+    - name: POL4
   - !!omap
     - id: YCR024C
     - name: SLM5
@@ -72968,6 +73003,9 @@
     - id: YCR053W
     - name: THR4
   - !!omap
+    - id: YCR068W
+    - name: ATG15
+  - !!omap
     - id: YCR075C
     - name: ERS1
   - !!omap
@@ -72988,6 +73026,9 @@
   - !!omap
     - id: YDL022W
     - name: GPD1
+  - !!omap
+    - id: YDL024C
+    - name: DIA3
   - !!omap
     - id: YDL040C
     - name: NAT1
@@ -73031,17 +73072,32 @@
     - id: YDL100C
     - name: GET3
   - !!omap
+    - id: YDL102W
+    - name: POL3
+  - !!omap
     - id: YDL103C
     - name: QRI1
   - !!omap
     - id: YDL131W
     - name: LYS21
   - !!omap
+    - id: YDL140C
+    - name: RPO21
+  - !!omap
     - id: YDL141W
     - name: BPL1
   - !!omap
     - id: YDL142C
     - name: CRD1
+  - !!omap
+    - id: YDL150W
+    - name: RPC53
+  - !!omap
+    - id: YDL164C
+    - name: CDC9
+  - !!omap
+    - id: YDL166C
+    - name: FAP7
   - !!omap
     - id: YDL168W
     - name: SFA1
@@ -73079,6 +73135,9 @@
     - id: YDL245C
     - name: HXT15
   - !!omap
+    - id: YDL246C
+    - name: SOR2
+  - !!omap
     - id: YDL247W
     - name: MPH2
   - !!omap
@@ -73094,6 +73153,9 @@
     - id: YDR019C
     - name: GCV1
   - !!omap
+    - id: YDR020C
+    - name: DAS2
+  - !!omap
     - id: YDR023W
     - name: SES1
   - !!omap
@@ -73105,6 +73167,9 @@
   - !!omap
     - id: YDR044W
     - name: HEM13
+  - !!omap
+    - id: YDR045C
+    - name: RPC11
   - !!omap
     - id: YDR046C
     - name: BAP3
@@ -73133,6 +73198,12 @@
     - id: YDR098C
     - name: GRX3
   - !!omap
+    - id: YDR105C
+    - name: TMS1
+  - !!omap
+    - id: YDR121W
+    - name: DPB4
+  - !!omap
     - id: YDR127W
     - name: ARO1
   - !!omap
@@ -73144,6 +73215,9 @@
   - !!omap
     - id: YDR148C
     - name: KGD2
+  - !!omap
+    - id: YDR156W
+    - name: RPA14
   - !!omap
     - id: YDR158W
     - name: HOM2
@@ -73169,6 +73243,9 @@
     - id: YDR226W
     - name: ADK1
   - !!omap
+    - id: YDR231C
+    - name: COX20
+  - !!omap
     - id: YDR232W
     - name: HEM1
   - !!omap
@@ -73177,6 +73254,9 @@
   - !!omap
     - id: YDR236C
     - name: FMN1
+  - !!omap
+    - id: YDR242W
+    - name: AMD2
   - !!omap
     - id: YDR256C
     - name: CTA1
@@ -73262,6 +73342,9 @@
     - id: YDR384C
     - name: ATO3
   - !!omap
+    - id: YDR387C
+    - name: CIN10
+  - !!omap
     - id: YDR399W
     - name: HPT1
   - !!omap
@@ -73274,17 +73357,29 @@
     - id: YDR403W
     - name: DIT1
   - !!omap
+    - id: YDR404C
+    - name: RPB7
+  - !!omap
     - id: YDR408C
     - name: ADE8
   - !!omap
+    - id: YDR419W
+    - name: RAD30
+  - !!omap
     - id: YDR428C
     - name: BNA7
+  - !!omap
+    - id: YDR441C
+    - name: APT2
   - !!omap
     - id: YDR453C
     - name: TSA2
   - !!omap
     - id: YDR454C
     - name: GUK1
+  - !!omap
+    - id: YDR456W
+    - name: NHX1
   - !!omap
     - id: YDR481C
     - name: PHO8
@@ -73463,6 +73558,9 @@
     - id: YER119C
     - name: AVT6
   - !!omap
+    - id: YER141W
+    - name: COX15
+  - !!omap
     - id: YER152C
     - name: YER152C
   - !!omap
@@ -73499,17 +73597,26 @@
     - id: YFL030W
     - name: AGX1
   - !!omap
+    - id: YFL036W
+    - name: RPO41
+  - !!omap
     - id: YFL045C
     - name: SEC53
   - !!omap
     - id: YFL053W
     - name: DAK2
   - !!omap
+    - id: YFL054C
+    - name: AQY3
+  - !!omap
     - id: YFL055W
     - name: AGP3
   - !!omap
     - id: YFL058W
     - name: THI5
+  - !!omap
+    - id: YFL060C
+    - name: SNO3
   - !!omap
     - id: YFR015C
     - name: GSY1
@@ -73531,6 +73638,9 @@
   - !!omap
     - id: YFR053C
     - name: HXK1
+  - !!omap
+    - id: YFR055W
+    - name: IRC7
   - !!omap
     - id: YGL001C
     - name: ERG26
@@ -73565,6 +73675,9 @@
     - id: YGL067W
     - name: NPY1
   - !!omap
+    - id: YGL070C
+    - name: RPB9
+  - !!omap
     - id: YGL077C
     - name: HNM1
   - !!omap
@@ -73573,6 +73686,9 @@
   - !!omap
     - id: YGL084C
     - name: GUP1
+  - !!omap
+    - id: YGL104C
+    - name: VPS73
   - !!omap
     - id: YGL119W
     - name: COQ8
@@ -73651,6 +73767,9 @@
   - !!omap
     - id: YGR061C
     - name: ADE6
+  - !!omap
+    - id: YGR062C
+    - name: COX18
   - !!omap
     - id: YGR065C
     - name: VHT1
@@ -73793,6 +73912,9 @@
     - id: YHL011C
     - name: PRS3
   - !!omap
+    - id: YHL012W
+    - name: YHL012W
+  - !!omap
     - id: YHL016C
     - name: DUR3
   - !!omap
@@ -73883,6 +74005,9 @@
     - id: YHR106W
     - name: TRR2
   - !!omap
+    - id: YHR116W
+    - name: COX23
+  - !!omap
     - id: YHR123W
     - name: EPT1
   - !!omap
@@ -73891,6 +74016,9 @@
   - !!omap
     - id: YHR137W
     - name: ARO9
+  - !!omap
+    - id: YHR143W-A
+    - name: RPC10
   - !!omap
     - id: YHR144C
     - name: DCD1
@@ -73939,6 +74067,9 @@
   - !!omap
     - id: YIL020C
     - name: HIS6
+  - !!omap
+    - id: YIL021W
+    - name: RPB3
   - !!omap
     - id: YIL053W
     - name: GPP1
@@ -73994,6 +74125,9 @@
     - id: YIL172C
     - name: IMA3
   - !!omap
+    - id: YIR008C
+    - name: PRI1
+  - !!omap
     - id: YIR027C
     - name: DAL1
   - !!omap
@@ -74015,8 +74149,14 @@
     - id: YIR037W
     - name: HYR1
   - !!omap
+    - id: YJL003W
+    - name: COX16
+  - !!omap
     - id: YJL005W
     - name: CYR1
+  - !!omap
+    - id: YJL011C
+    - name: RPC17
   - !!omap
     - id: YJL026W
     - name: RNR2
@@ -74069,6 +74209,12 @@
     - id: YJL139C
     - name: YUR1
   - !!omap
+    - id: YJL140W
+    - name: RPB4
+  - !!omap
+    - id: YJL148W
+    - name: RPA34
+  - !!omap
     - id: YJL153C
     - name: INO1
   - !!omap
@@ -74081,11 +74227,17 @@
     - id: YJL167W
     - name: ERG20
   - !!omap
+    - id: YJL180C
+    - name: ATP12
+  - !!omap
     - id: YJL196C
     - name: ELO1
   - !!omap
     - id: YJL198W
     - name: PHO90
+  - !!omap
+    - id: YJL200C
+    - name: ACO2
   - !!omap
     - id: YJL212C
     - name: OPT1
@@ -74104,6 +74256,9 @@
   - !!omap
     - id: YJR001W
     - name: AVT1
+  - !!omap
+    - id: YJR006W
+    - name: POL31
   - !!omap
     - id: YJR009C
     - name: TDH2
@@ -74126,6 +74281,9 @@
     - id: YJR025C
     - name: BNA1
   - !!omap
+    - id: YJR043C
+    - name: POL32
+  - !!omap
     - id: YJR048W
     - name: CYC1
   - !!omap
@@ -74134,6 +74292,12 @@
   - !!omap
     - id: YJR057W
     - name: CDC8
+  - !!omap
+    - id: YJR063W
+    - name: RPA12
+  - !!omap
+    - id: YJR069C
+    - name: HAM1
   - !!omap
     - id: YJR073C
     - name: OPI3
@@ -74222,6 +74386,9 @@
     - id: YKL035W
     - name: UGP1
   - !!omap
+    - id: YKL045W
+    - name: PRI2
+  - !!omap
     - id: YKL055C
     - name: OAR1
   - !!omap
@@ -74263,6 +74430,9 @@
   - !!omap
     - id: YKL141W
     - name: SDH3
+  - !!omap
+    - id: YKL144C
+    - name: RPC25
   - !!omap
     - id: YKL146W
     - name: AVT3
@@ -74309,8 +74479,14 @@
     - id: YKL217W
     - name: JEN1
   - !!omap
+    - id: YKR002W
+    - name: PAP1
+  - !!omap
     - id: YKR009C
     - name: FOX2
+  - !!omap
+    - id: YKR025W
+    - name: RPC37
   - !!omap
     - id: YKR031C
     - name: SPO14
@@ -74351,6 +74527,9 @@
     - id: YKR097W
     - name: PCK1
   - !!omap
+    - id: YLL001W
+    - name: DNM1
+  - !!omap
     - id: YLL012W
     - name: YEH1
   - !!omap
@@ -74359,6 +74538,9 @@
   - !!omap
     - id: YLL018C
     - name: DPS1
+  - !!omap
+    - id: YLL018C-A
+    - name: COX19
   - !!omap
     - id: YLL028W
     - name: TPO1
@@ -74380,6 +74562,9 @@
   - !!omap
     - id: YLL057C
     - name: JLP1
+  - !!omap
+    - id: YLL058W
+    - name: YLL058W
   - !!omap
     - id: YLL061W
     - name: MMP1
@@ -74540,6 +74725,9 @@
     - id: YLR342W
     - name: FKS1
   - !!omap
+    - id: YLR345W
+    - name: YLR345W
+  - !!omap
     - id: YLR348C
     - name: DIC1
   - !!omap
@@ -74564,6 +74752,9 @@
     - id: YLR386W
     - name: VAC14
   - !!omap
+    - id: YLR393W
+    - name: ATP10
+  - !!omap
     - id: YLR395C
     - name: COX8
   - !!omap
@@ -74578,6 +74769,9 @@
   - !!omap
     - id: YLR438W
     - name: CAR2
+  - !!omap
+    - id: YLR446W
+    - name: YLR446W
   - !!omap
     - id: YLR447C
     - name: VMA6
@@ -74617,6 +74811,9 @@
   - !!omap
     - id: YML081C-A
     - name: ATP18
+  - !!omap
+    - id: YML082W
+    - name: YML082W
   - !!omap
     - id: YML086C
     - name: ALO1
@@ -74678,6 +74875,9 @@
     - id: YMR083W
     - name: ADH3
   - !!omap
+    - id: YMR084W
+    - name: YMR084W
+  - !!omap
     - id: YMR088C
     - name: VBA1
   - !!omap
@@ -74689,6 +74889,9 @@
   - !!omap
     - id: YMR108W
     - name: ILV2
+  - !!omap
+    - id: YMR110C
+    - name: HFD1
   - !!omap
     - id: YMR113W
     - name: FOL3
@@ -74780,6 +74983,9 @@
     - id: YMR303C
     - name: ADH2
   - !!omap
+    - id: YMR306W
+    - name: FKS3
+  - !!omap
     - id: YMR313C
     - name: TGL3
   - !!omap
@@ -74789,6 +74995,9 @@
     - id: YMR319C
     - name: FET4
   - !!omap
+    - id: YMR323W
+    - name: ERR3
+  - !!omap
     - id: YNL003C
     - name: PET8
   - !!omap
@@ -74797,6 +75006,9 @@
   - !!omap
     - id: YNL029C
     - name: KTR5
+  - !!omap
+    - id: YNL036W
+    - name: NCE103
   - !!omap
     - id: YNL037C
     - name: IDH1
@@ -74816,11 +75028,17 @@
     - id: YNL101W
     - name: AVT4
   - !!omap
+    - id: YNL102W
+    - name: POL1
+  - !!omap
     - id: YNL104C
     - name: LEU4
   - !!omap
     - id: YNL106C
     - name: INP52
+  - !!omap
+    - id: YNL113W
+    - name: RPC19
   - !!omap
     - id: YNL117W
     - name: MLS1
@@ -74837,6 +75055,9 @@
     - id: YNL142W
     - name: MEP2
   - !!omap
+    - id: YNL151C
+    - name: RPC31
+  - !!omap
     - id: YNL169C
     - name: PSD1
   - !!omap
@@ -74849,14 +75070,23 @@
     - id: YNL220W
     - name: ADE12
   - !!omap
+    - id: YNL229C
+    - name: URE2
+  - !!omap
     - id: YNL241C
     - name: ZWF1
   - !!omap
     - id: YNL247W
     - name: YNL247W
   - !!omap
+    - id: YNL248C
+    - name: RPA49
+  - !!omap
     - id: YNL256W
     - name: FOL1
+  - !!omap
+    - id: YNL262W
+    - name: POL2
   - !!omap
     - id: YNL267W
     - name: PIK1
@@ -74876,6 +75106,9 @@
     - id: YNL292W
     - name: PUS4
   - !!omap
+    - id: YNL315C
+    - name: ATP11
+  - !!omap
     - id: YNL316C
     - name: PHA2
   - !!omap
@@ -74887,6 +75120,9 @@
   - !!omap
     - id: YNR001C
     - name: CIT1
+  - !!omap
+    - id: YNR003C
+    - name: RPC34
   - !!omap
     - id: YNR008W
     - name: LRO1
@@ -74902,6 +75138,9 @@
   - !!omap
     - id: YNR019W
     - name: ARE2
+  - !!omap
+    - id: YNR027W
+    - name: BUD17
   - !!omap
     - id: YNR033W
     - name: ABZ1
@@ -74929,6 +75168,9 @@
   - !!omap
     - id: YNR072W
     - name: HXT17
+  - !!omap
+    - id: YOL005C
+    - name: RPB11
   - !!omap
     - id: YOL011W
     - name: PLB3
@@ -74969,8 +75211,14 @@
     - id: YOL068C
     - name: HST1
   - !!omap
+    - id: YOL077W-A
+    - name: ATP19
+  - !!omap
     - id: YOL086C
     - name: ADH1
+  - !!omap
+    - id: YOL092W
+    - name: YPQ1
   - !!omap
     - id: YOL096C
     - name: COQ3
@@ -75038,6 +75286,9 @@
     - id: YOR109W
     - name: INP53
   - !!omap
+    - id: YOR116C
+    - name: RPO31
+  - !!omap
     - id: YOR120W
     - name: GCY1
   - !!omap
@@ -75061,6 +75312,9 @@
   - !!omap
     - id: YOR143C
     - name: THI80
+  - !!omap
+    - id: YOR151C
+    - name: RPB2
   - !!omap
     - id: YOR155C
     - name: ISN1
@@ -75095,14 +75349,23 @@
     - id: YOR202W
     - name: HIS3
   - !!omap
+    - id: YOR207C
+    - name: RET1
+  - !!omap
     - id: YOR209C
     - name: NPT1
+  - !!omap
+    - id: YOR210W
+    - name: RPB10
   - !!omap
     - id: YOR221C
     - name: MCT1
   - !!omap
     - id: YOR222W
     - name: ODC2
+  - !!omap
+    - id: YOR224C
+    - name: RPB8
   - !!omap
     - id: YOR236W
     - name: DFR1
@@ -75137,11 +75400,20 @@
     - id: YOR323C
     - name: PRO2
   - !!omap
+    - id: YOR330C
+    - name: MIP1
+  - !!omap
     - id: YOR332W
     - name: VMA4
   - !!omap
     - id: YOR335C
     - name: ALA1
+  - !!omap
+    - id: YOR340C
+    - name: RPA43
+  - !!omap
+    - id: YOR341W
+    - name: RPA190
   - !!omap
     - id: YOR347C
     - name: PYK2
@@ -75163,6 +75435,9 @@
   - !!omap
     - id: YOR388C
     - name: FDH1
+  - !!omap
+    - id: YOR393W
+    - name: ERR1
   - !!omap
     - id: YPL015C
     - name: HST2
@@ -75221,6 +75496,9 @@
     - id: YPL117C
     - name: IDI1
   - !!omap
+    - id: YPL132W
+    - name: COX11
+  - !!omap
     - id: YPL134C
     - name: ODC1
   - !!omap
@@ -75232,6 +75510,9 @@
   - !!omap
     - id: YPL160W
     - name: CDC60
+  - !!omap
+    - id: YPL167C
+    - name: REV3
   - !!omap
     - id: YPL172C
     - name: COX10
@@ -75284,6 +75565,9 @@
     - id: YPL274W
     - name: SAM3
   - !!omap
+    - id: YPL281C
+    - name: ERR2
+  - !!omap
     - id: YPR001W
     - name: CIT3
   - !!omap
@@ -75292,6 +75576,9 @@
   - !!omap
     - id: YPR006C
     - name: ICL2
+  - !!omap
+    - id: YPR010C
+    - name: RPA135
   - !!omap
     - id: YPR020W
     - name: ATP20
@@ -75329,6 +75616,9 @@
     - id: YPR081C
     - name: GRS2
   - !!omap
+    - id: YPR110C
+    - name: RPC40
+  - !!omap
     - id: YPR113W
     - name: PIS1
   - !!omap
@@ -75362,11 +75652,20 @@
     - id: YPR167C
     - name: MET16
   - !!omap
+    - id: YPR175W
+    - name: DPB2
+  - !!omap
     - id: YPR183W
     - name: DPM1
   - !!omap
     - id: YPR184W
     - name: GDB1
+  - !!omap
+    - id: YPR187W
+    - name: RPO26
+  - !!omap
+    - id: YPR190C
+    - name: RPC82
   - !!omap
     - id: YPR191W
     - name: QCR2
