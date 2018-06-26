@@ -46,7 +46,7 @@ initCobraToolbox
 model = readCbModel('../ModelFiles/xml/yeastGEM.xml');
 
 %Include tag and save model:
-model.description = ['yeastGEM_v' newVersion];
+model.modelID = ['yeastGEM_v' newVersion];
 saveYeastModel(model,false)
 
 %Allow .mat & .xls storage:
