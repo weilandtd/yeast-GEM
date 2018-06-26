@@ -25,6 +25,9 @@ for i = 1:length(newGPR.ID)
     model    = changeGeneAssociation(model, model.rxns{rxnIndex}, newGPR.GPR{i});
 end
 
+% Delete unused genes (if any)
+model = removeUnusedGenes(model);
+
 % Add gene standard name for new genes
 fid = fopen('../ComplementaryData/databases/SGDgeneNames.tsv');
 yeast_gene_annotation = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
