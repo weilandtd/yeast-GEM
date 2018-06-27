@@ -1,12 +1,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% saveYeastModel(model)
+% saveYeastModel(model,upDATE)
 % Saves model as a .xml, .txt and .yml file. Also updates complementary
-% files (boundaryMets.txt and dependencies.txt).
+% files (boundaryMets.txt, README.md and dependencies.txt).
 %
 % Benjamín J. Sánchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function saveYeastModel(model)
+function saveYeastModel(model,upDATE)
+
+if nargin < 2
+    upDATE = true;
+end
 
 %Remove any space in rxnECNumbers:
 model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
@@ -16,8 +20,17 @@ model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 scriptFolder = fileparts(which(mfilename));
 currentDir = cd(scriptFolder);
 
-%Save changes to current model:
-writeCbModel(model,'sbml','../ModelFiles/xml/yeastGEM.xml');
+%Check if model is a valid SBML structure:
+writeCbModel(model,'sbml','tempModel.xml');
+[~,errors] = TranslateSBML('tempModel.xml');
+if ~isempty(errors)
+    delete('tempModel.xml');
+    error('Model should be a valid SBML structure. Please fix all errors before saving.')
+end
+
+%Update .xml, .txt and .yml models:
+copyfile('tempModel.xml','../ModelFiles/xml/yeastGEM.xml')
+delete('tempModel.xml');
 writeCbModel(model,'text','../ModelFiles/txt/yeastGEM.txt');
 exportForGit(model,'yeastGEM','..',{'yml'});
 
@@ -30,6 +43,31 @@ for i = 1:length(model.rxns)
     end
 end
 fclose(fid);
+
+%Update README file: date + size of model
+copyfile('../README.md','backup.md')
+fin  = fopen('backup.md','r');
+fout = fopen('../README.md','w');
+still_reading = true;
+while still_reading
+    inline = fgets(fin);
+    if ~ischar(inline)
+        still_reading = false;
+    else
+        if startsWith(inline,'* Last update: ') && upDATE
+            inline = ['* Last update: ' datestr(datetime,'yyyy-mm-dd') newline];
+        elseif startsWith(inline,'|_Saccharomyces cerevisiae_|')
+            inline = ['|_Saccharomyces cerevisiae_|[Yeast 7.6]' ...
+                '(https://sourceforge.net/projects/yeast/)|' ...
+                num2str(length(model.rxns)) '|' ...
+                num2str(length(model.mets)) '|' ...
+                num2str(length(model.genes)) '|' newline];
+        end
+        fwrite(fout,inline);
+    end
+end
+fclose('all');
+delete('backup.md');
 
 %Convert notation "e-005" to "e-05 " in stoich. coeffs. to avoid
 %inconsistencies between Windows and MAC:
