@@ -1,5 +1,14 @@
 # History
 
+### yeast 8.1.2:
+* New features:
+  * `saveYeastModel.m` now checks if the model is a valid SBML structure; if it isn't it will error (PR #126).
+  * Date + model size in `README.md` updates automatically when saving the model (PR #123).
+  * Added `modelName` and `modelID`; the latter which will now store the version number (PR #127).
+* Fixes:
+  * Fixes #60: New GPR relations for existing reactions were added according to new annotation from 5 different databases (PR #124).
+  * Various fixes in `README.md` (PR #123).
+
 ### yeast 8.1.1:
 * Fixes:
   * Fixes #96: regardless if the model is saved with a windows or a MAC machine, the `.xml` file is now stored with the same scientific format.
@@ -70,21 +79,29 @@ First version of the yeast8 model, to separate it from previous versions:
 * dropped `.mat` storage for `devel` + feature branches (but kept it in `master`)
 
 ### yeast 7.8.0:
-First release of the yeast model
+* Added information:
+  * `metFormulas` added for all lipids
+  * `rxnKEGGID` added from old version
+  * `rxnNotes` enriched with Pubmed ids (`pmid`) from old version
+  * `rxnConfidenceScores` added based on  automatic script (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/yeast-GEM/blob/master/ComplementaryScripts))
+* Format changes:
+  * Biomass clustered by 5 main groups: protein, carbohydrate, lipid, RNA and DNA
+
+### yeast 7.7.0:
 * Format changes:
   * FBCv2 compliant
   * Compatible with latest COBRA and RAVEN parsers
-  * Biomass clustered by 5 main groups: protein, carbohydrate, lipid, RNA and DNA
+  * Created main structure of repository
 * Added information:
-  * `subSystems` and `rxnECnumbers` added to reactions based on [KEGG](http://www.genome.jp/kegg/) & [Swissprot](http://www.uniprot.org/uniprot/?query=*&fil=organism%3A%22Saccharomyces+cerevisiae+%28strain+ATCC+204508+%2F+S288c%29+%28Baker%27s+yeast%29+%5B559292%5D%22+AND+reviewed%3Ayes) data
   * `geneNames` added to genes based on [KEGG](http://www.genome.jp/kegg/) data
-  * `rxnKEGGID` added from old version
-  * `rxnNotes` enriched with Pubmed ids (`pmid`) from old version
-  * `rxnConfidenceScores` added based on [automatic script](https://github.com/SysBioChalmers/YeastMetabolicNetwork-GEM/blob/f7870589d16c08e18057a8f6cc880466373b77a7/ComplementaryScripts/getConfidenceScores.m)
-  * Boundary metabolites tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/yeast-metabolic-network-7.6/blob/master/ComplementaryScripts/boundaryMets.txt))
+  * `subSystems` and `rxnECnumbers` added to reactions based on [KEGG](http://www.genome.jp/kegg/) & [Swissprot](http://www.uniprot.org/uniprot/?query=*&fil=organism%3A%22Saccharomyces+cerevisiae+%28strain+ATCC+204508+%2F+S288c%29+%28Baker%27s+yeast%29+%5B559292%5D%22+AND+reviewed%3Ayes) data
+  * Boundary metabolites tracked (available in [`ComplementaryScripts`](https://github.com/SysBioChalmers/yeast-GEM/blob/master/ComplementaryScripts))
 * Simulation improvements:
   * Glucan composition fixed in biomass pseudo-rxn
   * Proton balance in membrane restored
   * Ox.Pho. stoichiometry fixed
   * NGAM rxn introduced
   * GAM in biomass pseudo-rxn fixed and refitted to chemostat data
+  
+  ### yeast 7.6.0:
+First release of the yeast model in GitHub, identical to the last model available at https://sourceforge.net/projects/yeast/
