@@ -71614,14 +71614,14 @@
     - confidence_score: 1
   - !!omap
     - id: r_4062
-    - name: lipid - backbones exchange
+    - name: lipid backbone exchange
     - metabolites: !!omap
       - s_3746: -1
     - lower_bound: 0
     - upper_bound: 0
   - !!omap
     - id: r_4063
-    - name: lipid pseudoreaction - backbone
+    - name: lipid backbone pseudoreaction
     - metabolites: !!omap
       - s_0089: -0.0069103
       - s_0666: -0.026583
@@ -71637,14 +71637,14 @@
     - confidence_score: 1
   - !!omap
     - id: r_4064
-    - name: lipid - tails exchange
+    - name: lipid chain exchange
     - metabolites: !!omap
       - s_3747: -1
     - lower_bound: 0
     - upper_bound: 0
   - !!omap
     - id: r_4065
-    - name: lipid pseudoreaction - tail
+    - name: lipid chain pseudoreaction
     - metabolites: !!omap
       - s_3740: -0.0080858
       - s_3741: -0.02373
