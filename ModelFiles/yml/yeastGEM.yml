@@ -18374,11 +18374,11 @@
     - formula: C26H52O2
   - !!omap
     - id: s_3746
-    - name: lipid - backbones
+    - name: lipid backbone
     - compartment: c
   - !!omap
     - id: s_3747
-    - name: lipid - tails
+    - name: lipid chain
     - compartment: c
 - reactions:
   - !!omap
