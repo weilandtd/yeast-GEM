@@ -66,6 +66,7 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 * `missingFields`: Folder with functions for adding missing fields to the model.
   * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from KEGG.
   * `addConfidenceScores.m`: Adds confidence scores based in a basic automatic criteria.
+  * `addSBOterms.m`: Adds SBO terms to metabolites and reactions based on the corresponding names.
   * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m`, `findSubSystem.m` & `deleteRepeated.m` for reading the databases. The latter 4 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/GECKO).
 * `modelCuration`: Folder with curation functions.
   * `addiSce926changes.m`: Updates the model to include curation from [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).

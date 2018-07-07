@@ -21,6 +21,38 @@ for i = 1:length(model.mets)
     end
 end
 
+%Add SBO terms for rxns:
+model.rxnSBOTerms = cell(size(model.rxns));
+for i = 1:length(model.rxns)
+    rxnName  = model_r.rxnNames{i};
+    metNames = model_r.metNames(model.S(:,i) ~= 0);
+    metComps = model_r.metComps(model.S(:,i) ~= 0);
+    
+    if length(metNames) == 1
+        if strcmp(model_r.comps{metComps},'e')
+            model.rxnSBOTerms{i} = 'SBO:0000627';	%Exchange rxn
+            
+        else
+            model.rxnSBOTerms{i} = 'SBO:0000632';	%Sink rxn
+        end
+        
+    elseif strcmp(rxnName,'biomass pseudoreaction')
+        model.rxnSBOTerms{i} = 'SBO:0000629';       %Biomass pseudo-rxn
+        
+    elseif strcmp(rxnName,'non-growth associated maintenance reaction')
+        model.rxnSBOTerms{i} = 'SBO:0000630';       %ATP maintenance
+        
+    elseif contains(rxnName,'pseudoreaction') || contains(rxnName,'SLIME rxn')
+        model.rxnSBOTerms{i} = 'SBO:0000395';       %Encapsulating process
+        
+    elseif length(unique(metComps)) > 1 && length(unique(metNames)) < length(metNames)
+        model.rxnSBOTerms{i} = 'SBO:0000655';       %Transport rxn
+        
+    else
+        model.rxnSBOTerms{i} = 'SBO:0000176';       %Metabolic rxn
+    end
+end
+
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
