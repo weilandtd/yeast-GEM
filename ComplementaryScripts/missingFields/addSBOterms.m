@@ -24,14 +24,17 @@ end
 %Add SBO terms for rxns:
 model.rxnSBOTerms = cell(size(model.rxns));
 for i = 1:length(model.rxns)
-    rxnName  = model_r.rxnNames{i};
-    metNames = model_r.metNames(model.S(:,i) ~= 0);
-    metComps = model_r.metComps(model.S(:,i) ~= 0);
+    rxnName   = model_r.rxnNames{i};
+    metNames  = model_r.metNames(model.S(:,i) ~= 0);
+    metComps  = model_r.metComps(model.S(:,i) ~= 0);
+    metStoich = model_r.S(model.S(:,i) ~= 0,i);
     
     if length(metNames) == 1
         if strcmp(model_r.comps{metComps},'e')
             model.rxnSBOTerms{i} = 'SBO:0000627';	%Exchange rxn
             
+        elseif metStoich > 0
+            model.rxnSBOTerms{i} = 'SBO:0000628';	%Demand rxn
         else
             model.rxnSBOTerms{i} = 'SBO:0000632';	%Sink rxn
         end
