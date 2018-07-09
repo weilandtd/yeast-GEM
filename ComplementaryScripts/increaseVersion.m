@@ -14,7 +14,7 @@ end
 
 %Bump version number:
 oldModel   = load('../ModelFiles/mat/yeastGEM.mat');
-oldVersion = oldModel.model.description;
+oldVersion = oldModel.model.modelID;
 oldVersion = oldVersion(strfind(oldVersion,'_v')+2:end);
 oldVersion = str2double(strsplit(oldVersion,'.'));
 newVersion = oldVersion;
