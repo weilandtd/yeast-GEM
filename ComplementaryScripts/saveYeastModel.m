@@ -20,6 +20,11 @@ model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
 scriptFolder = fileparts(which(mfilename));
 currentDir = cd(scriptFolder);
 
+%Update SBO terms in model:
+cd missingFields
+model = addSBOterms(model);
+cd ..
+
 %Check if model is a valid SBML structure:
 writeCbModel(model,'sbml','tempModel.xml');
 [~,errors] = TranslateSBML('tempModel.xml');
