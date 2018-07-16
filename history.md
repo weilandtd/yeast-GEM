@@ -1,5 +1,15 @@
 # History
 
+### yeast 8.1.3:
+* Features:
+  * Added SBO terms for all metabolites and reactions, based on an automatic script now part of `saveYeastModel.m` (PR #132).
+  * `increaseVersion.m` now avoids conflicts between `devel` and `master` by erroring before releasing and guiding the admin to change first `devel` (PR #133).
+  * Website now available in `gh-pages` branch: http://sysbiochalmers.github.io/yeast-GEM/
+* Fixes:
+  * Standardize naming of pseudo-metabolites "lipid backbone" & "lipid chain" (PR #130).
+* Chores:
+  * Updated COBRA, which swapped around the order of the `bqbiol:is` and `bqbiol:isDescribedBy` qualifiers in the `.xml` file (PR #131).
+
 ### yeast 8.1.2:
 * New features:
   * `saveYeastModel.m` now checks if the model is a valid SBML structure; if it isn't it will error (PR #126).
