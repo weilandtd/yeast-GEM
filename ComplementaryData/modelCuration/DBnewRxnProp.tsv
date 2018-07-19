@@ -41,12 +41,14 @@ R00275_2	1	YHR008C	superoxide:superoxide oxidoreductase	1.15.1.1	sce04146  perox
 R02587	1	( YHR043C or YHR044C )	2-Deoxy-D-glucose 6-phosphate phosphohydrolase	3.1.3.68	alternate carbon metabolism
 R03875	1	YHR109W	Cytochrome c lysine N-methyltransferase 1 (EC 2.1.1.59)	2.1.1.59	lysine metabolism
 R03938	1	( YHR119W or YDR440W or YJL168C )	S-Adenosyl-L-methionine:histone-L-lysine N6-methyltransferase	2.1.1.43	lysine metabolism
-MNXR105277	1	( YIL023C or YMR243C or YOR316C )	Zinc transporter YKE4		zinc transport
+MNXR105277	1	YIL023C	Zinc transporter YKE4		zinc transport
+MNXR105277_2	1	( YMR243C or YOR316C )	Zinc transporter YKE4		zinc transport
 R00100	1	( YIL043C or YML125C )	NADH:ferricytochrome-b5 oxidoreductase	1.6.2.2	sce00520  amino sugar and nucleotide sugar metabolism
 R00100_2	1	( YIL043C or YKL150W or YML125C )	NADH-cytochrome b5 reductase 1 (EC 1.6.2.2) (Microsomal cytochrome b reductase) (P35)	1.6.2.2	sce00520  amino sugar and nucleotide sugar metabolism
 RXN-12898	1	YIR036C	Benzil reductase ((S)-benzoin forming) IRC24 (EC 1.1.1.320) (Increased recombination centers protein 24)	1.1.1.320	other
-R03522	1	( YIR038C or YLL060C or YMR251W )	Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	2.5.1.18	sce00480  glutathione metabolism
-R03522_2	1	( YLL060C or YMR251W or YKR076W )	Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	2.5.1.18	sce00480  glutathione metabolism
+R03522	1	YIR038C	Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	2.5.1.18	sce00480  glutathione metabolism
+R03522_2	1	( YMR251W or YKR076W )	Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	2.5.1.18	sce00480  glutathione metabolism
+R03522_4	1	YLL060C	Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	2.5.1.18	sce00480  glutathione metabolism
 R02025	1	YKL069W	L-methionine:oxidized-thioredoxin S-oxidoreductase	1.8.4.14	sce00270  cysteine and methionine metabolism
 RXN0-6977	1	YKL103C	Vacuolar aminopeptidase 1 (EC 3.4.11.22) (Aminopeptidase yscI) (Leucine aminopeptidase IV) (LAPIV) (Lysosomal aminopeptidase III) (Polypeptidase) (Vacuolar aminopeptidase I)	3.4.11.22	hydrolysis of peptide bond
 RXN0-6979	1	YKL103C	Vacuolar aminopeptidase 1 (EC 3.4.11.22) (Aminopeptidase yscI) (Leucine aminopeptidase IV) (LAPIV) (Lysosomal aminopeptidase III) (Polypeptidase) (Vacuolar aminopeptidase I)	3.4.11.22	hydrolysis of peptide bond
@@ -82,7 +84,8 @@ R04496	1	YDR410C	S-Adenosyl-L-methionine:protein-C-terminal-S-farnesyl-L-cystein
 R05916	1	( YDR437W and YGR216C and YNL038W and YPL076W and YPL175W and YPL096C-A )	Phosphatidylinositol N-acetylglucosaminyltransferase subunit GPI19 (GPI-GlcNAc transferase complex subunit GPI19) (GPI-GnT subunit GPI19) (EC 2.4.1.198)	2.4.1.198	lycosylphosphatidylinositol (gpi)-anchor biosynthesis
 R00299	0	YDR516C	ATP:D-glucose 6-phosphotransferase	2.7.1.1	sce00010  glycolysis / gluconeogenesis
 R09796	1	( YDR533C or YMR322C or YOR391C or YPL280W )	(R)-lactate hydro-lyase	4.2.1.130	methylglyoxal metabolism
-MNXR96434	0	( YGL006W or YGL167C )	Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)	3.6.3.8	ca2+ transport
+MNXR96434	0	YGL006W	Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)	3.6.3.8	ca2+ transport
+MNXR96434_2	0	YGL167C	Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)	3.6.3.8	ca2+ transport
 R03862	1	YGL017W	L-arginyl-tRNA(Arg):protein arginyltransferase	2.3.2.8	other
 R05976	1	YGL022W	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3 (Oligosaccharyl transferase subunit STT3) (EC 2.4.99.18)	2.4.99.18	sce00510  n-glycan biosynthesis
 R05979	1	YGL027C	Mannosyl-oligosaccharide glucosidase (EC 3.2.1.106) (Processing A-glucosidase I) (Glucosidase I)	3.2.1.106	sce00510  n-glycan biosynthesis
@@ -119,7 +122,8 @@ R05982	1	( YJR131W or YLR057W )	Endoplasmic reticulum mannosyl-oligosaccharide 1
 R06722	1	( YJR131W or YLR057W )	alpha 1,2-mannosyloligosaccharide alpha-D-mannohydrolase	3.2.1.113;3.2.1.-	sce00510  n-glycan biosynthesis
 R00025	1	YJR149W	ethylnitronate:oxygen 2-oxidoreductase (nitrite-forming)	1.13.12.16	sce00910  nitrogen metabolism
 R00999	1	( YLL058W or YML082W )	O-Succinyl-L-homoserine succinate-lyase (deaminating; 2-oxobutanoate-forming)	2.5.1.48	sce00270  cysteine and methionine metabolism
-R09541	1	( YLR047C  or YKL220C or YLL051C or YLR214W or YNR060W or YOL152W or YOR381W or YOR384W )	Fe(II):NADP+ oxidoreductase	1.16.1.7	ferric-chelate reductase
+R09541	1	( YLR047C  or YKL220C or YLR214W or YNR060W or YOL152W or YOR381W or YOR384W )	Fe(II):NADP+ oxidoreductase	1.16.1.7	ferric-chelate reductase
+R09541_2	1	YLL051C	Fe(II):NADP+ oxidoreductase	1.16.1.7	ferric-chelate reductase
 R00851	1	( YLR099C or YPR139C )	acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase	2.3.1.51	sce00561  glycerolipid metabolism;sce00564  glycerophospholipid metabolism
 R03613	0	YLR143W	diphthine:ammonia ligase (AMP-forming)	6.3.1.14	diphthamide biosynthesis
 R09832	1	YLR151C	8-oxo-dGTP diphosphohydrolase	3.6.1.55	other

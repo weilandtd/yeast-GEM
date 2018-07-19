@@ -150,9 +150,9 @@ R03661	1	diphosphate	product	mitochondrion
 R11861	1	glutathione	reactant	cytoplasm
 R11861	1	5-oxo-L-proline	product	cytoplasm
 R11861	1	L-cysteinylglycine	product	cytoplasm
-R04734	1	4a-Hydroxytetrahydrobiopterin	reactant	cytoplasm
-R04734	1	Dihydrobiopterin	product	cytoplasm
-R04734	1	H2O	product	cytoplasm
+R04734	1	4a-Hydroxytetrahydrobiopterin	reactant	mitochondrion
+R04734	1	Dihydrobiopterin	product	mitochondrion
+R04734	1	H2O	product	mitochondrion
 R00275_2	2	H+	reactant	mitochondrion
 R00275_2	2	superoxide	reactant	mitochondrion
 R00275_2	1	hydrogen peroxide	product	mitochondrion
@@ -346,7 +346,7 @@ R09796	1	methylglyoxal	product	cytoplasm
 R09796	1	H2O	product	cytoplasm
 MNXR96434	1	Ca(2+)	reactant	cytoplasm
 MNXR96434	1	ATP	reactant	vacuole
-MNXR96434	1	H2O	reactant	cytoplasm
+MNXR96434	1	H2O	reactant	vacuole
 MNXR96434	1	Ca(2+)	product	vacuole
 MNXR96434	1	ADP	product	vacuole
 MNXR96434	1	phosphate	product	vacuole
@@ -375,14 +375,14 @@ R06238	1	GDP-alpha-D-mannose	reactant	endoplasmic reticulum
 R06238	1	G00004	reactant	endoplasmic reticulum
 R06238	1	GDP	product	endoplasmic reticulum
 R06238	1	G00005	product	endoplasmic reticulum
-R09645	1	2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate	reactant	cytoplasm
-R09645	1	H2O	reactant	cytoplasm
-R09645	1	D-mannose 6-phosphate	product	cytoplasm
-R09645	1	D-Glycerate	product	cytoplasm
-3.2.1.24-RXN	1	alpha-D-mannoside	reactant	cytoplasm
-3.2.1.24-RXN	1	H2O	reactant	cytoplasm
-3.2.1.24-RXN	1	alpha-D-mannopyranose	product	cytoplasm
-3.2.1.24-RXN	1	non glycosylated sugar acceptor	product	cytoplasm
+R09645	1	2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate	reactant	vacuole
+R09645	1	H2O	reactant	vacuole
+R09645	1	D-mannose 6-phosphate	product	vacuole
+R09645	1	D-Glycerate	product	vacuole
+3.2.1.24-RXN	1	alpha-D-mannoside	reactant	vacuole
+3.2.1.24-RXN	1	H2O	reactant	vacuole
+3.2.1.24-RXN	1	alpha-D-mannopyranose	product	vacuole
+3.2.1.24-RXN	1	non glycosylated sugar acceptor	product	vacuole
 R10463	1	L-threonine	reactant	cytoplasm
 R10463	1	ATP	reactant	cytoplasm
 R10463	1	bicarbonate	reactant	cytoplasm
@@ -512,7 +512,7 @@ R00999	1	2-oxobutanoate	product	cytoplasm
 R00999	1	succinate	product	cytoplasm
 R00999	1	ammonium	product	cytoplasm
 R00999	1	H+	product	cytoplasm
-R09541	2	iron(3+)	reactant	cytoplasm
+R09541	2	iron(3+)	reactant	extracellular
 R09541	1	NADPH	reactant	cytoplasm
 R09541	2	iron(2+)	product	cytoplasm
 R09541	1	H+	product	cytoplasm
@@ -784,7 +784,7 @@ R03042	2	phosphate	product	cytoplasm
 MNXR96952	1	Cu2(+)	reactant	cytoplasm
 MNXR96952	1	ATP	reactant	cytoplasm
 MNXR96952	1	H2O	reactant	cytoplasm
-MNXR96952	1	Cu2(+)	product	extracellular
+MNXR96952	1	Cu2(+)	product	Golgi
 MNXR96952	1	ADP	product	cytoplasm
 MNXR96952	1	phosphate	product	cytoplasm
 MNXR96952	1	H+	product	cytoplasm
@@ -796,15 +796,33 @@ R03804	1	2-Oxoglutaramate	reactant	cytoplasm
 R03804	1	H2O	reactant	cytoplasm
 R03804	1	2-oxoglutarate	product	cytoplasm
 R03804	1	ammonium	product	cytoplasm
-MNXR124629	1	porphyrin	reactant	extracellular
+MNXR124629	1	porphyrin	reactant	mitochondrion
 MNXR124629	1	porphyrin	product	cytoplasm
-MNXR124629	1	ATP	reactant	cytoplasm
-MNXR124629	1	H2O	reactant	cytoplasm
-MNXR124629	1	ADP	product	cytoplasm
-MNXR124629	1	phosphate	product	cytoplasm
-MNXR124629	1	H+	product	cytoplasm
+MNXR124629	1	ATP	reactant	mitochondrion
+MNXR124629	1	H2O	reactant	mitochondrion
+MNXR124629	1	ADP	product	mitochondrion
+MNXR124629	1	phosphate	product	mitochondrion
+MNXR124629	1	H+	product	mitochondrion
 R06199	1	Starch	reactant	cytoplasm
 R06199	1	H2O	reactant	cytoplasm
 R06199	2	alpha-D-Glucose	product	cytoplasm
-MNXR99010	1	UDP-N-acetyl-alpha-D-glucosamine	reactant	cytoplasm
+MNXR99010	1	UDP-N-acetyl-alpha-D-glucosamine	reactant	endoplasmic reticulum
 MNXR99010	1	UDP-N-acetyl-alpha-D-glucosamine	product	Golgi
+MNXR105277_2	1	Zn(2+)	reactant	mitochondrion
+MNXR105277_2	1	Zn(2+)	product	vacuole
+R03522_4	1	RX	reactant	mitochondrion
+R03522_4	1	glutathione	reactant	mitochondrion
+R03522_4	1	HX	product	mitochondrion
+R03522_4	1	R-S-glutathione	product	mitochondrion
+MNXR96434_2	1	Ca(2+)	reactant	cytoplasm
+MNXR96434_2	1	ATP	reactant	vacuole
+MNXR96434_2	1	H2O	reactant	cytoplasm
+MNXR96434_2	1	Ca(2+)	product	vacuole
+MNXR96434_2	1	ADP	product	vacuole
+MNXR96434_2	1	phosphate	product	vacuole
+MNXR96434_2	1	H+	product	vacuole
+R09541_2	2	iron(3+)	reactant	vacuole
+R09541_2	1	NADPH	reactant	cytoplasm
+R09541_2	2	iron(2+)	product	cytoplasm
+R09541_2	1	H+	product	cytoplasm
+R09541_2	1	NADP(+)	product	cytoplasm
