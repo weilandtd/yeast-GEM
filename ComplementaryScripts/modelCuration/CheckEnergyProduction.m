@@ -13,6 +13,7 @@ function [EnergyResults,RedoxResults] = CheckEnergyProduction(model,rxn,EnergyRe
 [~,rxnID] = ismember(rxn,model.rxns);
 %EnergyResults = {};
 %RedoxResults = {};
+if rxnID ~= 0
 model_test = model;
 model_test = minimal_Y6(model_test);
 %Add/change ATP production reaction:
@@ -21,7 +22,8 @@ mets  = {'s_0434[c]','s_0803[c]','s_0394[c]','s_0794[c]','s_1322[c]'};
 coefs = [-1,-1,1,1,1];
 model_test = addReaction(model_test,{'GenerateATP','leaktest1'}, ...
                     mets,coefs,false,0,1000);
-model_test = changeObjective(model_test, model_test.rxns(end), 1);
+
+model_test = changeObjective(model_test,'GenerateATP', 1);
 sol = optimizeCbModel(model_test);
 if sol.obj <= 360 && sol.obj > 0 %later can be changed to the experimental value
   EnergyResults = [EnergyResults; model.rxns(rxnID),'pass',num2str(sol.obj)];
@@ -48,6 +50,10 @@ elseif sol.obj > 120
     RedoxResults = [RedoxResults; model.rxns(rxnID),'Fail',num2str(sol.obj)];
 elseif sol.obj <= 0
     RedoxResults = [RedoxResults; model.rxns(rxnID),'error','error'];
+end
+else
+    RedoxResults = [RedoxResults; {'alreadlyexist'},'skip','skip'];
+end
 end
 
 

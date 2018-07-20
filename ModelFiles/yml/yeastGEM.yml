@@ -18384,16 +18384,16 @@
     - id: s_3748
     - name: Cytochrome c
     - compartment: m
-    - formula: C42H44FeN8O8S2R4
-    - charge: 0
+    - formula: C40H40FeN6O6S2
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:18070
+      - chebi: CHEBI:83739
       - kegg.compound: C00524
   - !!omap
     - id: s_3749
     - name: Apocytochrome c
     - compartment: m
-    - formula: C8H12N4O4S2R4
+    - formula: C6H10N2O2S2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15697
@@ -18438,7 +18438,7 @@
     - id: s_3754
     - name: L-glutamyl-tRNA(Gln)
     - compartment: m
-    - formula: C20H28N6O13PRC5H8O6PR
+    - formula: C20H28N6O13PR
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29165
@@ -18456,7 +18456,7 @@
     - id: s_3756
     - name: Gln-tRNA(Gln)
     - compartment: m
-    - formula: C20H29N7O12PRC5H8O6PR
+    - formula: C20H29N7O12PR
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29166
@@ -18491,10 +18491,10 @@
     - id: s_3760
     - name: ADP-D-ribose 1''-phosphate
     - compartment: c
-    - formula: C15H24N5O17P3
-    - charge: 0
+    - formula: C15H20N5O17P3
+    - charge: -4
     - annotation: !!omap
-      - chebi: CHEBI:48584
+      - chebi: CHEBI:58753
   - !!omap
     - id: s_3761
     - name: ADP-ribose
@@ -18534,7 +18534,7 @@
     - id: s_3765
     - name: N-Acetyl-D-glucosaminyldiphosphodolichol
     - compartment: er
-    - formula: C28H51NO12P2
+    - formula: C28H51NO12P2R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:18278
@@ -18552,18 +18552,16 @@
     - id: s_3767
     - name: N,N'-Chitobiosyldiphosphodolichol
     - compartment: er
+    - formula: C36H64N2O17P2R
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00002
   - !!omap
     - id: s_3768
     - name: D-ribofuranose 5-phosphate
     - compartment: c
-    - formula: C5H11O8P
-    - charge: 0
+    - formula: C5H9O8P
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:17797
-      - kegg.compound: C00117
+      - chebi: CHEBI:78346
   - !!omap
     - id: s_3769
     - name: Oxalate
@@ -18577,19 +18575,17 @@
     - id: s_3770
     - name: Oxalyl-CoA
     - compartment: p
-    - formula: C23H36N7O19P3S
-    - charge: 0
+    - formula: C23H31N7O19P3S
+    - charge: -5
     - annotation: !!omap
-      - chebi: CHEBI:15535
+      - chebi: CHEBI:57388
       - kegg.compound: C00313
   - !!omap
     - id: s_3771
     - name: G00171
     - compartment: er
-    - formula: Glc2GlcNAc2Man9Asn1
+    - formula: C86H142N4O67R
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00171
   - !!omap
     - id: s_3772
     - name: D-glucose
@@ -18603,18 +18599,14 @@
     - id: s_3773
     - name: G00010
     - compartment: er
-    - formula: Glc1GlcNAc2Man9Asn1
+    - formula: C80H132N4O62R
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00010
   - !!omap
     - id: s_3774
     - name: G00011
     - compartment: er
-    - formula: GlcNAc2Man9Asn1
+    - formula: C74H122N4O57R
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00011
   - !!omap
     - id: s_3775
     - name: sodium
@@ -18698,6 +18690,7 @@
     - id: s_3784
     - name: (sulfur carrier)-H
     - compartment: m
+    - formula: R
     - charge: 0
   - !!omap
     - id: s_3785
@@ -18712,6 +18705,7 @@
     - id: s_3786
     - name: (sulfur carrier)-SH
     - compartment: m
+    - formula: SR
     - charge: 0
   - !!omap
     - id: s_3787
@@ -18737,16 +18731,12 @@
     - compartment: c
     - formula: C7H7ClO
     - charge: 0
-    - annotation: !!omap
-      - chebi: PubChem CID:70117
   - !!omap
     - id: s_3790
     - name: 3-chlorobenzaldehyde
     - compartment: c
     - formula: C7H5ClO
     - charge: 0
-    - annotation: !!omap
-      - chebi: PubChem CID:70117
   - !!omap
     - id: s_3791
     - name: 3-hydroxybenzyl alcohol
@@ -18867,10 +18857,10 @@
     - id: s_3806
     - name: 4-hydroxy-4-methyl-2-oxoglutarate
     - compartment: c
-    - formula: C6H8O6
-    - charge: 0
+    - formula: C6H6O6
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:17801
+      - chebi: CHEBI:58276
       - kegg.compound: C06033
   - !!omap
     - id: s_3807
@@ -18886,7 +18876,7 @@
     - name: tRNA(Pro)
     - compartment: m
     - formula: R
-    - charge: 0
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:29177
       - kegg.compound: C01649
@@ -18903,10 +18893,10 @@
     - id: s_3810
     - name: 5-oxo-L-proline
     - compartment: c
-    - formula: C5H7NO3
-    - charge: 0
+    - formula: C5H6NO3
+    - charge: -1
     - annotation: !!omap
-      - chebi: CHEBI:18183
+      - chebi: CHEBI:58402
       - kegg.compound: C01879
   - !!omap
     - id: s_3811
@@ -18939,10 +18929,10 @@
     - id: s_3814
     - name: 2-deoxy-D-glucose 6-phosphate
     - compartment: c
-    - formula: C6H13O8P
-    - charge: 0
+    - formula: C6H11O8P
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:16043
+      - chebi: CHEBI:84760
       - kegg.compound: C06369
   - !!omap
     - id: s_3815
@@ -18951,18 +18941,24 @@
     - formula: C6H12O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:15866
+      - chebi: CHEBI:84755
       - kegg.compound: C00586
   - !!omap
     - id: s_3816
     - name: [cytochrome c]-L-lysine
     - compartment: c
-    - charge: 0
+    - formula: C6H13N2O
+    - charge: 1
+    - annotation: !!omap
+      - chebi: CHEBI:29969
   - !!omap
     - id: s_3817
     - name: [cytochrome c]-N6-methyl-L-lysine
     - compartment: c
-    - charge: 0
+    - formula: C7H15N2O
+    - charge: 1
+    - annotation: !!omap
+      - chebi: CHEBI:61929
   - !!omap
     - id: s_3818
     - name: S-adenosyl-L-methionine
@@ -18976,7 +18972,10 @@
     - id: s_3819
     - name: L-lysine-[histone]
     - compartment: n
-    - charge: 0
+    - formula: C6H13N2OR2
+    - charge: 1
+    - annotation: !!omap
+      - chebi: CHEBI:29969
   - !!omap
     - id: s_3820
     - name: S-adenosyl-L-homocysteine
@@ -18990,8 +18989,10 @@
     - id: s_3821
     - name: N6-methyl-L-lysine-[histone]
     - compartment: n
-    - formula: C8H15N3O2R2
-    - charge: 0
+    - formula: C7H15N2OR2
+    - charge: 1
+    - annotation: !!omap
+      - chebi: CHEBI:61929
   - !!omap
     - id: s_3822
     - name: Zn(2+)
@@ -19014,7 +19015,8 @@
     - id: s_3824
     - name: Ferricytochrome b5
     - compartment: er
-    - charge: 0
+    - formula: Fe
+    - charge: 3
     - annotation: !!omap
       - chebi: CHEBI:18097
       - kegg.compound: C00996
@@ -19022,14 +19024,16 @@
     - id: s_3825
     - name: Ferrocytochrome b5
     - compartment: er
-    - charge: 0
+    - formula: Fe
+    - charge: 2
     - annotation: !!omap
       - kegg.compound: C00999
   - !!omap
     - id: s_3826
     - name: Ferricytochrome b5
     - compartment: m
-    - charge: 0
+    - formula: Fe
+    - charge: 3
     - annotation: !!omap
       - chebi: CHEBI:18097
       - kegg.compound: C00996
@@ -19037,7 +19041,8 @@
     - id: s_3827
     - name: Ferrocytochrome b5
     - compartment: m
-    - charge: 0
+    - formula: Fe
+    - charge: 2
     - annotation: !!omap
       - kegg.compound: C00999
   - !!omap
@@ -19158,10 +19163,10 @@
     - id: s_3841
     - name: Threo-3-hydroxy-L-aspartate
     - compartment: c
-    - formula: C4H7NO5
-    - charge: 0
+    - formula: C4H6NO5
+    - charge: -1
     - annotation: !!omap
-      - chebi: CHEBI:10696
+      - chebi: CHEBI:57251
       - kegg.compound: C11511
   - !!omap
     - id: s_3842
@@ -19257,10 +19262,10 @@
     - id: s_3852
     - name: aldehydo-D-ribose 5-phosphate
     - compartment: c
-    - formula: C5H11O8P
-    - charge: 0
+    - formula: C5H9O8P
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:17797
+      - chebi: CHEBI:58273
       - kegg.compound: C00117
   - !!omap
     - id: s_3853
@@ -19284,7 +19289,11 @@
     - id: s_3855
     - name: iron(3+)
     - compartment: m
-    - charge: 0
+    - formula: Fe
+    - charge: 3
+    - annotation: !!omap
+      - chebi: CHEBI:29034
+      - kegg.compound: C14819
   - !!omap
     - id: s_3856
     - name: Glycyl-tRNA(Ala)
@@ -19294,12 +19303,13 @@
     - id: s_3857
     - name: D-tyrosyl-tRNA(Tyr)
     - compartment: c
+    - formula: C9H10NO3R
     - charge: 0
   - !!omap
     - id: s_3858
     - name: D-tyrosine
     - compartment: c
-    - formula: CH2NOR
+    - formula: C9H11NO3
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28479
@@ -19308,19 +19318,19 @@
     - id: s_3859
     - name: 4-nitrophenyl phosphate
     - compartment: c
-    - formula: C6H6NO6P
-    - charge: 0
+    - formula: C6H4NO6P
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:17440
+      - chebi: CHEBI:61146
       - kegg.compound: C03360
   - !!omap
     - id: s_3860
     - name: 4-nitrophenol
     - compartment: c
-    - formula: C6H5NO3
-    - charge: 0
+    - formula: C6H4NO3
+    - charge: -1
     - annotation: !!omap
-      - chebi: CHEBI:16836
+      - chebi: CHEBI:57917
       - kegg.compound: C00870
   - !!omap
     - id: s_3861
@@ -19344,10 +19354,10 @@
     - id: s_3863
     - name: 3-hydroxy-2-methylpropanoyl-CoA
     - compartment: m
-    - formula: C25H42N7O18P3S
-    - charge: 0
+    - formula: C25H38N7O18P3S
+    - charge: -4
     - annotation: !!omap
-      - chebi: CHEBI:15481
+      - chebi: CHEBI:57340
       - kegg.compound: C04047
   - !!omap
     - id: s_3864
@@ -19460,8 +19470,8 @@
     - id: s_3876
     - name: Protein C-terminal S-farnesyl-L-cysteine
     - compartment: c
-    - formula: C20H33N2O3SRC2H2NOR
-    - charge: 0
+    - formula: C20H32N2O3SR
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:17171
       - kegg.compound: C04506
@@ -19469,7 +19479,7 @@
     - id: s_3877
     - name: Protein C-terminal S-farnesyl-L-cysteine methyl ester
     - compartment: c
-    - formula: C21H35N2O3SRC2H2NOR
+    - formula: C21H35N2O3SR
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15818
@@ -19478,18 +19488,19 @@
     - id: s_3878
     - name: 1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: C11H16O13P
+    - formula: C11H16O13PR2
     - charge: -1
     - annotation: !!omap
-      - chebi: CHEBI:16749
+      - chebi: CHEBI:57880
       - kegg.compound: C01194
   - !!omap
     - id: s_3879
     - name: G00143
     - compartment: er
-    - charge: 0
+    - formula: C19H29NO18PR2
+    - charge: -1
     - annotation: !!omap
-      - kegg.glycan: G00143
+      - chebi: CHEBI:57265
   - !!omap
     - id: s_3880
     - name: Ca(2+)
@@ -19530,15 +19541,16 @@
     - id: s_3884
     - name: Protein
     - compartment: c
-    - charge: 0
+    - formula: C2H4NOR
+    - charge: 1
     - annotation: !!omap
       - kegg.compound: C00017
   - !!omap
     - id: s_3885
     - name: L-Arginyl-protein
     - compartment: c
-    - formula: C8H16N5O3RC2H2NOR
-    - charge: 0
+    - formula: C8H17N5O2R
+    - charge: 2
     - annotation: !!omap
       - chebi: CHEBI:17518
       - kegg.compound: C16739
@@ -19546,34 +19558,33 @@
     - id: s_3886
     - name: Protein asparagine
     - compartment: er
-    - formula: C5H7N3O3R2
+    - formula: C4H6N2O2R
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:50347
       - kegg.compound: C03021
   - !!omap
     - id: s_3887
     - name: G00008
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00008
+    - formula: C108H182N2O77P2R
+    - charge: -2
   - !!omap
     - id: s_3888
     - name: Dolichyl diphosphate
     - compartment: er
-    - formula: C20H35O7P2
+    - formula: C20H35O7P2R
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:57497
-      - kegg.compound: C00621
   - !!omap
     - id: s_3889
     - name: G00009
     - compartment: er
-    - formula: Glc3GlcNAc2Man9Asn1
+    - formula: C92H152N4O72R
     - charge: 0
     - annotation: !!omap
-      - kegg.glycan: G00009
+      - chebi: CHEBI:132537
   - !!omap
     - id: s_3890
     - name: GDP-alpha-D-mannose
@@ -19587,10 +19598,8 @@
     - id: s_3891
     - name: G10694
     - compartment: er
-    - formula: GlcNAc2Man8Asn1
+    - formula: C68H112N4O52R
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G10694
   - !!omap
     - id: s_3892
     - name: GDP
@@ -19604,31 +19613,26 @@
     - id: s_3893
     - name: G01813
     - compartment: er
-    - formula: GlcNAc2Man9Asn1
+    - formula: C74H122N4O57R
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G01813
   - !!omap
     - id: s_3894
     - name: G00003
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00003
+    - formula: C42H72N2O22P2R
+    - charge: -2
   - !!omap
     - id: s_3895
     - name: G00004
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00004
+    - formula: C48H82N2O27P2R
+    - charge: -2
   - !!omap
     - id: s_3896
     - name: G00005
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00005
+    - formula: C54H92N2O32P2R
+    - charge: -2
   - !!omap
     - id: s_3897
     - name: 2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate
@@ -19678,13 +19682,14 @@
     - id: s_3902
     - name: non glycosylated sugar acceptor
     - compartment: v
+    - formula: HOR
     - charge: 0
   - !!omap
     - id: s_3903
     - name: L-Threonylcarbamoyladenylate
     - compartment: c
-    - formula: C15H21N6O11P
-    - charge: 0
+    - formula: C15H19N6O11P
+    - charge: -2
     - annotation: !!omap
       - kegg.compound: C20641
   - !!omap
@@ -19727,8 +19732,8 @@
     - id: s_3908
     - name: CDP-diacylglycerol
     - compartment: m
-    - formula: C14H19N3O15P2R2
-    - charge: 0
+    - formula: C14H17N3O15P2R2
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:58332
       - kegg.compound: C00269
@@ -19753,8 +19758,8 @@
     - id: s_3911
     - name: Dolichyl beta-D-glucosyl phosphate
     - compartment: er
-    - formula: C31H55O9P
-    - charge: 0
+    - formula: C26H46O9PR
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:57525
       - kegg.compound: C01246
@@ -19762,9 +19767,8 @@
     - id: s_3912
     - name: G10599
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G10599
+    - formula: C102H172N2O72P2R
+    - charge: -2
   - !!omap
     - id: s_3913
     - name: nitric oxide
@@ -19778,26 +19782,26 @@
     - id: s_3914
     - name: nitrate
     - compartment: c
-    - formula: HNO3
-    - charge: 0
+    - formula: NO3
+    - charge: -1
     - annotation: !!omap
-      - chebi: CHEBI:48107
+      - chebi: CHEBI:17632
       - kegg.compound: C00244
   - !!omap
     - id: s_3915
     - name: (R)-Lipoate
     - compartment: c
-    - formula: C8H14O2S2
-    - charge: 0
+    - formula: C8H13O2S2
+    - charge: -1
     - annotation: !!omap
-      - chebi: CHEBI:30314
+      - chebi: CHEBI:83088
       - kegg.compound: C16241
   - !!omap
     - id: s_3916
     - name: Lipoyl-AMP
     - compartment: c
-    - formula: C18H26N5O8PS2
-    - charge: 0
+    - formula: C18H25N5O8PS2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:83091
       - kegg.compound: C16238
@@ -19823,12 +19827,18 @@
     - id: s_3923
     - name: N-(4-oxoglutarate)-L-cysteinylglycine
     - compartment: c
-    - charge: 0
+    - formula: C10H12N2O7S
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:138256
   - !!omap
     - id: s_3924
     - name: N-(4-oxoglutarate)-L-cysteinylglycine
     - compartment: m
-    - charge: 0
+    - formula: C10H12N2O7S
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:138256
   - !!omap
     - id: s_3925
     - name: L-cysteinylglycine
@@ -19851,35 +19861,36 @@
     - id: s_3927
     - name: ribonucleoside 5'-triphosphate
     - compartment: c
-    - formula: C5H12O13P3R
-    - charge: 0
+    - formula: C5H8O13P3R
+    - charge: -4
     - annotation: !!omap
-      - chebi: CHEBI:17972
+      - chebi: CHEBI:61557
       - kegg.compound: C03802
   - !!omap
     - id: s_3928
     - name: ribonucleoside 5'-phosphate
     - compartment: c
-    - charge: 0
+    - formula: C5H8O7PR
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:37015
+      - chebi: CHEBI:58043
   - !!omap
     - id: s_3929
     - name: 2'-deoxyribonucleoside 5'-triphosphate
     - compartment: c
-    - formula: C5H12O12P3R
-    - charge: 0
+    - formula: C5H8O12P3R
+    - charge: -4
     - annotation: !!omap
-      - chebi: CHEBI:16381
+      - chebi: CHEBI:61560
       - kegg.compound: C00677
   - !!omap
     - id: s_3930
     - name: 2'-deoxyribonucleoside 5'-phosphate
     - compartment: c
-    - formula: C5H10O6PR
-    - charge: 0
+    - formula: C5H8O6PR
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:18241
+      - chebi: CHEBI:65317
       - kegg.compound: C00676
   - !!omap
     - id: s_3931
@@ -19894,10 +19905,8 @@
     - id: s_3932
     - name: G00012
     - compartment: er
-    - formula: GlcNAc2Man5Asn1
+    - formula: C50H66N4O29
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00012
   - !!omap
     - id: s_3933
     - name: D-mannose
@@ -19911,10 +19920,10 @@
     - id: s_3934
     - name: Ethylnitronate
     - compartment: c
-    - formula: C2H4NO2
-    - charge: -1
+    - formula: C2H5NO2
+    - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:55327
+      - chebi: CHEBI:16268
       - kegg.compound: C18091
   - !!omap
     - id: s_3935
@@ -19929,33 +19938,36 @@
     - id: s_3936
     - name: iron(3+)
     - compartment: e
-    - charge: 0
+    - formula: Fe
+    - charge: 3
+    - annotation: !!omap
+      - kegg.compound: C14819
   - !!omap
     - id: s_3937
     - name: Acyl-CoA
     - compartment: er
-    - formula: C22H35N7O17P3SR
-    - charge: 0
+    - formula: C22H31N7O17P3SR
+    - charge: -4
     - annotation: !!omap
-      - chebi: CHEBI:17984
+      - chebi: CHEBI:58342
       - kegg.compound: C00040
   - !!omap
     - id: s_3938
     - name: 1-acyl-sn-glycerol 3-phosphate
     - compartment: er
-    - formula: C4H8O7PR
-    - charge: 0
+    - formula: C4H6O7PR
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:16975
+      - chebi: CHEBI:57970
       - kegg.compound: C00681
   - !!omap
     - id: s_3939
     - name: 1,2-diacyl-sn-glycerol 3-phosphate
     - compartment: er
-    - formula: C5H7O8PR2
-    - charge: 0
+    - formula: C5H5O8PR2
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:16337
+      - chebi: CHEBI:58608
       - kegg.compound: C00416
   - !!omap
     - id: s_3940
@@ -19973,14 +19985,14 @@
     - formula: C13H22N5O2R2
     - charge: 1
     - annotation: !!omap
-      - chebi: CHEBI:16692
+      - chebi: CHEBI:82696
       - kegg.compound: C02872
   - !!omap
     - id: s_3942
     - name: 8-oxo-dGTP
     - compartment: p
     - formula: C10H16N5O14P3
-    - charge: 0
+    - charge: -4
     - annotation: !!omap
       - kegg.compound: C19967
   - !!omap
@@ -19988,7 +20000,7 @@
     - name: 8-oxo-dGMP
     - compartment: p
     - formula: C10H14N5O8P
-    - charge: 0
+    - charge: -2
     - annotation: !!omap
       - kegg.compound: C19968
   - !!omap
@@ -20049,10 +20061,10 @@
     - id: s_3950
     - name: beta-D-Glucose 6-phosphate
     - compartment: c
-    - formula: C6H13O9P
-    - charge: 0
+    - formula: C6H11O9P
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:17719
+      - chebi: CHEBI:58247
       - kegg.compound: C01172
   - !!omap
     - id: s_3951
@@ -20067,10 +20079,10 @@
     - id: s_3952
     - name: alpha-D-Glucose 6-phosphate
     - compartment: c
-    - formula: C6H13O9P
-    - charge: 0
+    - formula: C6H11O9P
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:17665
+      - chebi: CHEBI:58225
       - kegg.compound: C00668
   - !!omap
     - id: s_3953
@@ -20157,10 +20169,10 @@
     - id: s_3965
     - name: (S)-Methylmalonate semialdehyde
     - compartment: c
-    - formula: C4H6O3
-    - charge: 0
+    - formula: C4H5O3
+    - charge: -1
     - annotation: !!omap
-      - chebi: CHEBI:27821
+      - chebi: CHEBI:62413
       - kegg.compound: C06002
   - !!omap
     - id: s_3966
@@ -20372,16 +20384,18 @@
     - id: s_3989
     - name: G10526
     - compartment: er
-    - charge: 0
+    - formula: C66H112N2O42P2R
+    - charge: -2
     - annotation: !!omap
-      - kegg.glycan: G10526
+      - chebi: CHEBI:132511
   - !!omap
     - id: s_3990
     - name: G00006
     - compartment: er
-    - charge: 0
+    - formula: C78H132N2O52P2R
+    - charge: -2
     - annotation: !!omap
-      - kegg.glycan: G00006
+      - chebi: CHEBI:132515
   - !!omap
     - id: s_3991
     - name: carnosine
@@ -20404,30 +20418,26 @@
     - id: s_3993
     - name: G10595
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G10595
+    - formula: C72H122N2O47P2R
+    - charge: -2
   - !!omap
     - id: s_3994
     - name: G10596
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G10596
+    - formula: C78H132N2O52P2R
+    - charge: -2
   - !!omap
     - id: s_3995
     - name: G10597
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G10597
+    - formula: C84H142N2O57P2R
+    - charge: -2
   - !!omap
     - id: s_3996
     - name: G00007
     - compartment: er
-    - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00007
+    - formula: C90H152N2O62P2R
+    - charge: -2
   - !!omap
     - id: s_3997
     - name: glycolate
@@ -20468,23 +20478,18 @@
     - id: s_4001
     - name: G10598
     - compartment: er
+    - formula: C96H162N2O67P2R
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G10598
   - !!omap
     - id: s_4002
     - name: G00149
     - compartment: er
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00149
   - !!omap
     - id: s_4003
     - name: G00140
     - compartment: er
     - charge: 0
-    - annotation: !!omap
-      - kegg.glycan: G00140
   - !!omap
     - id: s_4004
     - name: Sulfur donor
@@ -20539,10 +20544,10 @@
     - id: s_4011
     - name: sulphite
     - compartment: m
-    - formula: HO3S
-    - charge: -1
+    - formula: O3S
+    - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:17137
+      - chebi: CHEBI:17359
       - kegg.compound: C11481
   - !!omap
     - id: s_4012
@@ -20593,12 +20598,17 @@
     - id: s_4017
     - name: N-Acetyl-D-glucosamine
     - compartment: c
+    - formula: C8H15NO6
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:506227
+      - kegg.compound: C00140
   - !!omap
     - id: s_4018
     - name: polyphosphate
     - compartment: c
-    - formula: O3PnHO
-    - charge: 0
+    - formula: HO7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:16838
       - kegg.compound: C00404
@@ -20607,18 +20617,18 @@
     - name: Cu2(+)
     - compartment: c
     - formula: Cu
-    - charge: 0
+    - charge: 2
     - annotation: !!omap
-      - chebi: CHEBI:28694
+      - chebi: CHEBI:29036
       - kegg.compound: C00070
   - !!omap
     - id: s_4020
     - name: Cu2(+)
     - compartment: g
     - formula: Cu
-    - charge: 0
+    - charge: 2
     - annotation: !!omap
-      - chebi: CHEBI:28694
+      - chebi: CHEBI:29036
       - kegg.compound: C00070
   - !!omap
     - id: s_4021
@@ -20651,6 +20661,7 @@
     - id: s_4024
     - name: Starch
     - compartment: c
+    - formula: C12H22O11
     - charge: 0
   - !!omap
     - id: s_4025
@@ -20715,6 +20726,23 @@
     - annotation: !!omap
       - chebi: CHEBI:29034
       - kegg.compound: C14819
+  - !!omap
+    - id: s_4032
+    - name: [protein]-L-lysine
+    - compartment: c
+    - formula: C6H13N2O
+    - charge: 1
+    - annotation: !!omap
+      - chebi: CHEBI:29969
+      - kegg.compound: C02188
+  - !!omap
+    - id: s_4033
+    - name: [protein]-N(6)-acetyl-L-lysine
+    - compartment: c
+    - formula: C8H14N2O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:61930
 - reactions:
   - !!omap
     - id: r_0001
@@ -74969,6 +74997,7 @@
     - name: (R)-Acetoin:NAD+ oxidoreductase
     - metabolites: !!omap
       - s_0020: -1
+      - s_0794: 1
       - s_1198: -1
       - s_1203: 1
       - s_3750: 1
@@ -74982,6 +75011,7 @@
     - id: r_4154
     - name: Probable diacetyl reductase [(R)-acetoin forming] 2 (EC 1.1.1.303)
     - metabolites: !!omap
+      - s_0794: 1
       - s_1201: -1
       - s_3751: -1
       - s_3752: 1
@@ -74997,6 +75027,9 @@
     - name: Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial (Glu-AdT subunit B) (EC 6.3.5.-) (Cytochrome c oxidase assembly factor PET112)
     - metabolites: !!omap
       - s_0397: 1
+      - s_0437: -1
+      - s_0799: 2
+      - s_0807: -1
       - s_0993: 1
       - s_1326: 1
       - s_3754: -1
@@ -75045,8 +75078,8 @@
       - s_0794: -1
       - s_1207: 1
       - s_1212: -1
-      - s_3762: -1
-      - s_3763: 1
+      - s_3762: -2
+      - s_3763: 2
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YBR046C
@@ -75057,6 +75090,7 @@
     - id: r_4159
     - name: UDP-N-acetylglucosamine transferase subunit ALG14 (Asparagine-linked glycosylation protein 14)
     - metabolites: !!omap
+      - s_0795: 1
       - s_3764: -1
       - s_3765: -1
       - s_3766: 1
@@ -75355,6 +75389,11 @@
     - id: r_4181
     - name: Manganese-transporting ATPase 1 (EC 3.6.3.-)
     - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
+      - s_0794: 1
+      - s_0803: -1
+      - s_1322: 1
       - s_3801: -1
       - s_3802: 1
     - lower_bound: -1000
@@ -75497,6 +75536,7 @@
     - id: r_4192
     - name: Cytochrome c lysine N-methyltransferase 1 (EC 2.1.1.59)
     - metabolites: !!omap
+      - s_0794: 1
       - s_1413: 1
       - s_1416: -1
       - s_3816: -1
@@ -75511,6 +75551,7 @@
     - id: r_4193
     - name: S-Adenosyl-L-methionine:histone-L-lysine N6-methyltransferase
     - metabolites: !!omap
+      - s_0800: 1
       - s_3818: -1
       - s_3819: -1
       - s_3820: 1
@@ -75575,6 +75616,7 @@
     - id: r_4198
     - name: Benzil reductase ((S)-benzoin forming) IRC24 (EC 1.1.1.320) (Increased recombination centers protein 24)
     - metabolites: !!omap
+      - s_0794: 1
       - s_1207: -1
       - s_1212: 1
       - s_3828: -1
@@ -75785,6 +75827,7 @@
     - metabolites: !!omap
       - s_0577: -1
       - s_0764: -1
+      - s_0794: 1
       - s_0803: 3
       - s_0991: 1
       - s_0999: -1
@@ -75875,6 +75918,8 @@
     - id: r_4219
     - name: D-aminoacyl-tRNA deacylase (DTD) (EC 3.1.1.96) (D-tyrosyl-tRNA(Tyr) deacylase) (Gly-tRNA(Ala) deacylase) (EC 3.1.1.-)
     - metabolites: !!omap
+      - s_0794: 1
+      - s_0803: -1
       - s_1612: 1
       - s_3857: -1
       - s_3858: 1
@@ -75890,6 +75935,7 @@
     - id: r_4220
     - name: 4-nitrophenyl phosphate phosphohydrolase
     - metabolites: !!omap
+      - s_0794: 1
       - s_0803: -1
       - s_1322: 1
       - s_3859: -1
@@ -75922,6 +75968,7 @@
       - s_0394: 1
       - s_0410: 1
       - s_0434: -1
+      - s_0794: 1
       - s_3862: -1
     - lower_bound: 0
     - upper_bound: 1000
@@ -75963,6 +76010,11 @@
     - id: r_4225
     - name: Broad-range acid phosphatase DET1 (EC 3.1.3.-) (Decreased ergosterol transport protein 1)
     - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
+      - s_0794: 1
+      - s_0803: -1
+      - s_1322: 1
       - s_3865: -1
       - s_3866: 1
     - lower_bound: -1000
@@ -76088,6 +76140,7 @@
     - id: r_4234
     - name: Phosphatidylinositol N-acetylglucosaminyltransferase subunit GPI19 (GPI-GlcNAc transferase complex subunit GPI19) (GPI-GnT subunit GPI19) (EC 2.4.1.198)
     - metabolites: !!omap
+      - s_0795: 1
       - s_3764: -1
       - s_3766: 1
       - s_3878: -1
@@ -76117,6 +76170,7 @@
     - name: (R)-lactate hydro-lyase
     - metabolites: !!omap
       - s_0025: -1
+      - s_0794: -1
       - s_0803: 1
       - s_1151: 1
     - lower_bound: -1000
@@ -76164,6 +76218,7 @@
     - name: L-arginyl-tRNA(Arg):protein arginyltransferase
     - metabolites: !!omap
       - s_0428: -1
+      - s_0794: 1
       - s_1583: 1
       - s_3884: -1
       - s_3885: 1
@@ -76177,6 +76232,7 @@
     - id: r_4240
     - name: Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3 (Oligosaccharyl transferase subunit STT3) (EC 2.4.99.18)
     - metabolites: !!omap
+      - s_0795: 1
       - s_3886: -1
       - s_3887: -1
       - s_3888: 1
@@ -76205,6 +76261,7 @@
     - id: r_4242
     - name: Initiation-specific alpha-1,6-mannosyltransferase (EC 2.4.1.232) (Outer chain elongation protein 1)
     - metabolites: !!omap
+      - s_0795: 1
       - s_3890: -1
       - s_3891: -1
       - s_3892: 1
@@ -76219,6 +76276,7 @@
     - id: r_4243
     - name: Alpha-1,3/1,6-mannosyltransferase ALG2 (EC 2.4.1.132) (EC 2.4.1.257) (Asparagine-linked glycosylation protein 2) (GDP-Man:Man(1)GlcNAc(2)-PP-Dol alpha-1,3-mannosyltransferase) (GDP-Man:Man(1)GlcNAc(2)-PP-dolichol mannosyltransferase) (GDP-Man:Man(2)GlcNAc(2)-PP-Dol alpha-1,6-mannosyltransferase)
     - metabolites: !!omap
+      - s_0795: 1
       - s_3890: -1
       - s_3892: 1
       - s_3894: -1
@@ -76235,6 +76293,7 @@
     - id: r_4244
     - name: GDP-D-mannose:D-Man-alpha-(1->3)-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-6-mannosyltransferase
     - metabolites: !!omap
+      - s_0795: 1
       - s_3890: -1
       - s_3892: 1
       - s_3895: -1
@@ -76282,7 +76341,6 @@
       - s_0434: -1
       - s_0445: -1
       - s_0633: 1
-      - s_0794: -1
       - s_0803: 1
       - s_1045: -1
       - s_3903: 1
@@ -76339,6 +76397,7 @@
     - metabolites: !!omap
       - s_0541: -1
       - s_0636: 1
+      - s_0799: 1
       - s_3907: -1
       - s_3908: 1
     - lower_bound: -1000
@@ -76366,6 +76425,7 @@
     - name: dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,2-glucosyltransferase
     - metabolites: !!omap
       - s_0646: 1
+      - s_0795: 1
       - s_3887: 1
       - s_3911: -1
       - s_3912: -1
@@ -76413,6 +76473,7 @@
     - metabolites: !!omap
       - s_0434: -1
       - s_0633: 1
+      - s_0794: -1
       - s_3915: -1
       - s_3916: 1
     - lower_bound: 0
@@ -76630,6 +76691,7 @@
       - s_0359: 1
       - s_0714: 1
       - s_0717: -1
+      - s_0794: 2
       - s_0803: 1
       - s_1275: -1
       - s_3934: -1
@@ -76708,7 +76770,7 @@
       - s_0423: 1
       - s_0434: -1
       - s_0633: 1
-      - s_0794: -1
+      - s_0794: 1
       - s_3940: -1
       - s_3941: 1
     - lower_bound: 0
@@ -76722,6 +76784,7 @@
     - name: 8-oxo-dGTP diphosphohydrolase
     - metabolites: !!omap
       - s_0638: 1
+      - s_0801: -1
       - s_0809: -1
       - s_3942: -1
       - s_3943: 1
@@ -76766,6 +76829,7 @@
       - s_0394: 1
       - s_0434: -1
       - s_0442: 1
+      - s_0794: 1
       - s_3948: -1
     - lower_bound: 0
     - upper_bound: 1000
@@ -76782,6 +76846,7 @@
       - s_0394: 1
       - s_0434: -1
       - s_0553: -1
+      - s_0794: 1
       - s_3948: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -76795,6 +76860,7 @@
     - metabolites: !!omap
       - s_0394: 1
       - s_0434: -1
+      - s_0794: 1
       - s_3949: -1
       - s_3950: 1
     - lower_bound: 0
@@ -76809,6 +76875,7 @@
     - metabolites: !!omap
       - s_0394: 1
       - s_0434: -1
+      - s_0794: 1
       - s_3951: -1
       - s_3952: 1
     - lower_bound: 0
@@ -76824,6 +76891,7 @@
       - s_0394: 1
       - s_0412: 1
       - s_0434: -1
+      - s_0794: 1
       - s_3953: -1
     - lower_bound: 0
     - upper_bound: 1000
@@ -76837,6 +76905,7 @@
     - metabolites: !!omap
       - s_0394: 1
       - s_0434: -1
+      - s_0794: 1
       - s_3948: 1
       - s_3954: -1
     - lower_bound: 0
@@ -76862,7 +76931,7 @@
     - name: D-Glyceraldehyde:NAD+ oxidoreductase
     - metabolites: !!omap
       - s_0570: -1
-      - s_0794: 1
+      - s_0794: 2
       - s_0803: -1
       - s_1198: -1
       - s_1203: 1
@@ -76925,7 +76994,7 @@
     - id: r_4295
     - name: 2-Propyn-1-al:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0794: 1
+      - s_0794: 2
       - s_0803: -1
       - s_1198: -1
       - s_1203: 1
@@ -76941,7 +77010,7 @@
     - id: r_4296
     - name: D-Glucuronolactone:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0794: 1
+      - s_0794: 3
       - s_0803: -2
       - s_1198: -1
       - s_1203: 1
@@ -76973,7 +77042,7 @@
     - id: r_4298
     - name: (S)-Methylmalonate semialdehyde:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0794: 1
+      - s_0794: 2
       - s_0803: -1
       - s_1198: -1
       - s_1203: 1
@@ -77005,7 +77074,7 @@
     - id: r_4300
     - name: 3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0794: 1
+      - s_0794: 2
       - s_0803: -1
       - s_1198: -1
       - s_1203: 1
@@ -77037,7 +77106,7 @@
     - id: r_4302
     - name: N4-Acetylaminobutanal:NAD+ oxidoreductase
     - metabolites: !!omap
-      - s_0794: 1
+      - s_0794: 2
       - s_0803: -1
       - s_1198: -1
       - s_1203: 1
@@ -77161,8 +77230,9 @@
     - id: r_4310
     - name: GDP-mannose:glycolipid 1,2-alpha-D-mannosyltransferase
     - metabolites: !!omap
-      - s_3890: -1
-      - s_3892: 1
+      - s_0795: 2
+      - s_3890: -2
+      - s_3892: 2
       - s_3896: -1
       - s_3989: 1
     - lower_bound: -1000
@@ -77175,8 +77245,9 @@
     - id: r_4311
     - name: GDP-mannose:glycolipid 1,2-alpha-D-mannosyltransferase
     - metabolites: !!omap
-      - s_3890: -1
-      - s_3892: 1
+      - s_0795: 2
+      - s_3890: -2
+      - s_3892: 2
       - s_3989: -1
       - s_3990: 1
     - lower_bound: -1000
@@ -77189,6 +77260,7 @@
     - id: r_4312
     - name: S-adenosyl-L-methionine:carnosine N-methyltransferase
     - metabolites: !!omap
+      - s_0794: 1
       - s_1413: 1
       - s_1416: -1
       - s_3991: -1
@@ -77205,6 +77277,7 @@
     - metabolites: !!omap
       - s_0644: -1
       - s_0646: 1
+      - s_0795: 1
       - s_3993: -1
       - s_3994: 1
     - lower_bound: -1000
@@ -77293,7 +77366,7 @@
     - name: Dextrin 6-alpha-D-glucanohydrolase
     - metabolites: !!omap
       - s_0563: 2
-      - s_0803: -1
+      - s_0803: -2
       - s_4000: -1
     - lower_bound: -1000
     - upper_bound: 1000
@@ -77306,6 +77379,7 @@
     - name: dolichyl beta-D-glucosyl phosphate:D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
     - metabolites: !!omap
       - s_0646: 1
+      - s_0795: 1
       - s_3911: -1
       - s_3996: -1
       - s_4001: 1
@@ -77320,6 +77394,7 @@
     - name: dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
     - metabolites: !!omap
       - s_0646: 1
+      - s_0795: 1
       - s_3911: -1
       - s_3912: 1
       - s_4001: -1
@@ -77335,6 +77410,7 @@
     - metabolites: !!omap
       - s_0644: -1
       - s_0646: 1
+      - s_0795: 1
       - s_4002: -1
       - s_4003: 1
     - lower_bound: -1000
@@ -77390,7 +77466,7 @@
     - id: r_4326
     - name: thiosulfate:cyanide sulfurtranserase
     - metabolites: !!omap
-      - s_0799: 2
+      - s_0799: 1
       - s_4009: -1
       - s_4010: -1
       - s_4011: 1
@@ -77457,8 +77533,8 @@
     - name: [1,4-(N-Acetyl-beta-D-glucosaminyl)]n glycanohydrolase
     - metabolites: !!omap
       - s_0509: -1
-      - s_0803: -2
-      - s_4017: 3
+      - s_0803: -1
+      - s_4017: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YDR371W or YLR286C
@@ -77479,6 +77555,7 @@
     - id: r_4333
     - name: Polyphosphate phosphohydrolase
     - metabolites: !!omap
+      - s_0794: 1
       - s_0803: -1
       - s_1322: 2
       - s_4018: -1
@@ -77514,6 +77591,7 @@
     - metabolites: !!omap
       - s_0582: 1
       - s_0586: -1
+      - s_0794: 1
       - s_0803: -1
       - s_1322: 1
     - lower_bound: 0
@@ -77576,6 +77654,23 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YEL004W
+    - confidence_score: 0
+  - !!omap
+    - id: r_4340
+    - name: D-amino-acid N-acetyltransferase HPA3 (DNT) (EC 2.3.1.36) (EC 2.3.1.48) (Histone and other protein acetyltransferase 3)
+    - metabolites: !!omap
+      - s_0373: -1
+      - s_0529: 1
+      - s_0794: 1
+      - s_4032: -1
+      - s_4033: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YEL066W
+    - annotation: !!omap
+      - ec-code:
+        - 2.3.1.36
+        - 2.3.1.48
     - confidence_score: 0
 - genes:
   - !!omap
@@ -78553,6 +78648,9 @@
   - !!omap
     - id: YEL063C
     - name: CAN1
+  - !!omap
+    - id: YEL066W
+    - name: HPA3
   - !!omap
     - id: YEL069C
     - name: HXT13

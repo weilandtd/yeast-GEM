@@ -14,6 +14,7 @@ exchangeRxns = findExcRxns(model);
 %MassChargeresults = {};
 for i = 1:length(rxn)
 [~,rxnID] = ismember(rxn(i),model.rxns);
+if rxnID ~= 0
 met = (find(model.S(:,rxnID)) ~= 0);
 %[nRxn,nMet] = size(rxn,met);
 if exchangeRxns(rxnID) == 1
@@ -40,5 +41,8 @@ else
     else
          MassChargeresults = [MassChargeresults; model.rxns(rxnID),'error'];
 end
+end
+else
+    MassChargeresults = [MassChargeresults; {'alreadlyexist'},'skip'];
 end
 end
