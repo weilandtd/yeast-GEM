@@ -110,13 +110,14 @@ end
 
 %Load rxnProp(rev and GPR)
 fid2 = fopen('../../ComplementaryData/modelCuration/DBnewRxnProp.tsv');
-rev = textscan(fid2,'%s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
+rev = textscan(fid2,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 newrxn.ID = rev{1};
 newrxn.Rev = cellfun(@str2num, rev{2});
 newrxn.GPR = rev{3};
 newrxn.rxnNames = rev{4};
 newrxn.rxnECNumbers = rev{5};
 newrxn.subSystems = rev{6};
+newrxn.rxnKEGGID = rev{7};
 fclose(fid2);
 
 %add new reactions according to rev ID. Met Coef need to be in the column,
@@ -126,7 +127,7 @@ EnergyResults = {};
 MassChargeresults = {};
 RedoxResults = {};
 %adding this to skip an error in addReaction.m
-model.grRules = cell(length(model.rxns),1)
+model.grRules = cell(length(model.rxns),1);
  for i = 1:length(newrxn.ID)
     [~,rxnID_temp] = ismember(newrxn.ID(i),mappinglist(:,1));
     if rxnID_temp ~= 0 
@@ -134,7 +135,7 @@ model.grRules = cell(length(model.rxns),1)
     else
     cd ../otherchanges
     newID   = getNewIndex(model.rxns);
-    newID = ['r_' newID]
+    newID = ['r_' newID];
     cd ../modelCuration
     end
     j = find(strcmp(matrix.rxnIDs,newrxn.ID{i}));
@@ -186,6 +187,7 @@ for i = 1:length(newrxn.ID)
     if rxnID ~= 0 
         model.rxnNames{rxnID} = newrxn.rxnNames{i};
         model.rxnECNumbers(rxnID) =  newrxn.rxnECNumbers(i);
+        model.rxnKEGGID(rxnID) =  newrxn.rxnKEGGID(i);
         %model.subSystems{rxnID} = newrxn.subSystems(i);
     end
 end

@@ -74991,6 +74991,7 @@
       - ec-code:
         - 4.4.1.17
         - 4.4.1.-
+      - kegg.reaction: R02480
     - confidence_score: 0
   - !!omap
     - id: r_4153
@@ -75006,6 +75007,7 @@
     - gene_reaction_rule: YAL061W
     - annotation: !!omap
       - ec-code: 1.1.1.303
+      - kegg.reaction: R02855
     - confidence_score: 0
   - !!omap
     - id: r_4154
@@ -75021,6 +75023,7 @@
     - gene_reaction_rule: YAL061W
     - annotation: !!omap
       - ec-code: 1.1.1.303
+      - kegg.reaction: R02855
     - confidence_score: 0
   - !!omap
     - id: r_4155
@@ -75085,6 +75088,7 @@
     - gene_reaction_rule: YBR046C
     - annotation: !!omap
       - ec-code: 1.6.5.5
+      - kegg.reaction: R02364
     - confidence_score: 0
   - !!omap
     - id: r_4159
@@ -75100,6 +75104,7 @@
     - gene_reaction_rule: YBR070C and YGL047W
     - annotation: !!omap
       - ec-code: 2.4.1.141
+      - kegg.reaction: R05970
     - confidence_score: 0
   - !!omap
     - id: r_4160
@@ -75161,6 +75166,7 @@
     - gene_reaction_rule: YBR222C
     - annotation: !!omap
       - ec-code: 6.-.-.-
+      - kegg.reaction: R01558
     - confidence_score: 0
   - !!omap
     - id: r_4165
@@ -75175,6 +75181,7 @@
     - gene_reaction_rule: YBR229C
     - annotation: !!omap
       - ec-code: 3.2.1.84
+      - kegg.reaction: R05980
     - confidence_score: 0
   - !!omap
     - id: r_4166
@@ -75189,6 +75196,7 @@
     - gene_reaction_rule: YBR229C
     - annotation: !!omap
       - ec-code: 3.2.1.84
+      - kegg.reaction: R05981
     - confidence_score: 0
   - !!omap
     - id: r_4167
@@ -75239,6 +75247,7 @@
     - gene_reaction_rule: YBR243C
     - annotation: !!omap
       - ec-code: 2.7.8.15
+      - kegg.reaction: R01007
     - confidence_score: 0
   - !!omap
     - id: r_4171
@@ -75253,6 +75262,7 @@
     - gene_reaction_rule: YBR281C and YNL191W
     - annotation: !!omap
       - ec-code: 3.4.-.-
+      - kegg.reaction: R03916
     - confidence_score: 0
   - !!omap
     - id: r_4172
@@ -75284,6 +75294,7 @@
     - gene_reaction_rule: YCL017C
     - annotation: !!omap
       - ec-code: 2.8.1.7
+      - kegg.reaction: R11528
     - confidence_score: 0
   - !!omap
     - id: r_4174
@@ -75339,6 +75350,7 @@
     - gene_reaction_rule: YCR107W or YDL243C or YJR155W or YNL331C or YOL165C or YPL088W
     - annotation: !!omap
       - ec-code: 1.1.1.-
+      - kegg.reaction: R05347
     - confidence_score: 0
   - !!omap
     - id: r_4178
@@ -75384,6 +75396,7 @@
     - gene_reaction_rule: YCR107W or YDL243C or YJR155W or YNL331C or YOL165C or YPL088W
     - annotation: !!omap
       - ec-code: 1.1.1.-
+      - kegg.reaction: R01763
     - confidence_score: 0
   - !!omap
     - id: r_4181
@@ -75416,6 +75429,7 @@
     - gene_reaction_rule: YEL070W or YNR073C
     - annotation: !!omap
       - ec-code: 1.1.1.-
+      - kegg.reaction: R00868
     - confidence_score: 0
   - !!omap
     - id: r_4184
@@ -75430,6 +75444,7 @@
       - ec-code:
         - 4.1.3.17
         - 4.1.1.3
+      - kegg.reaction: R00008
     - confidence_score: 0
   - !!omap
     - id: r_4185
@@ -75446,6 +75461,7 @@
       - ec-code:
         - 4.1.3.17
         - 4.1.1.3
+      - kegg.reaction: R00217
     - confidence_score: 0
   - !!omap
     - id: r_4186
@@ -75461,6 +75477,7 @@
     - gene_reaction_rule: YER042W
     - annotation: !!omap
       - ec-code: 1.8.4.11
+      - kegg.reaction: R07606
     - confidence_score: 0
   - !!omap
     - id: r_4187
@@ -75477,6 +75494,7 @@
     - gene_reaction_rule: YER087W
     - annotation: !!omap
       - ec-code: 6.1.1.15
+      - kegg.reaction: R03661
     - confidence_score: 0
   - !!omap
     - id: r_4188
@@ -75490,6 +75508,7 @@
     - gene_reaction_rule: YER163C
     - annotation: !!omap
       - ec-code: 4.3.2.-
+      - kegg.reaction: R11861
     - confidence_score: 0
   - !!omap
     - id: r_4189
@@ -75503,6 +75522,7 @@
     - gene_reaction_rule: YHL018W
     - annotation: !!omap
       - ec-code: 4.2.1.96
+      - kegg.reaction: R04734
     - confidence_score: 0
   - !!omap
     - id: r_4190
@@ -75517,6 +75537,7 @@
     - gene_reaction_rule: YHR008C
     - annotation: !!omap
       - ec-code: 1.15.1.1
+      - kegg.reaction: R00275
     - confidence_score: 0
   - !!omap
     - id: r_4191
@@ -75531,6 +75552,7 @@
     - gene_reaction_rule: YHR043C or YHR044C
     - annotation: !!omap
       - ec-code: 3.1.3.68
+      - kegg.reaction: R02587
     - confidence_score: 0
   - !!omap
     - id: r_4192
@@ -75546,6 +75568,7 @@
     - gene_reaction_rule: YHR109W
     - annotation: !!omap
       - ec-code: 2.1.1.59
+      - kegg.reaction: R03875
     - confidence_score: 0
   - !!omap
     - id: r_4193
@@ -75561,6 +75584,7 @@
     - gene_reaction_rule: YHR119W or YDR440W or YJL168C
     - annotation: !!omap
       - ec-code: 2.1.1.43
+      - kegg.reaction: R03938
     - confidence_score: 0
   - !!omap
     - id: r_4194
@@ -75596,6 +75620,7 @@
     - gene_reaction_rule: YIL043C or YML125C
     - annotation: !!omap
       - ec-code: 1.6.2.2
+      - kegg.reaction: R00100
     - confidence_score: 0
   - !!omap
     - id: r_4197
@@ -75611,6 +75636,7 @@
     - gene_reaction_rule: YIL043C or YKL150W or YML125C
     - annotation: !!omap
       - ec-code: 1.6.2.2
+      - kegg.reaction: R00100
     - confidence_score: 0
   - !!omap
     - id: r_4198
@@ -75640,6 +75666,7 @@
     - gene_reaction_rule: YIR038C
     - annotation: !!omap
       - ec-code: 2.5.1.18
+      - kegg.reaction: R03522
     - confidence_score: 0
   - !!omap
     - id: r_4200
@@ -75654,6 +75681,7 @@
     - gene_reaction_rule: YMR251W or YKR076W
     - annotation: !!omap
       - ec-code: 2.5.1.18
+      - kegg.reaction: R03522
     - confidence_score: 0
   - !!omap
     - id: r_4201
@@ -75668,6 +75696,7 @@
     - gene_reaction_rule: YLL060C
     - annotation: !!omap
       - ec-code: 2.5.1.18
+      - kegg.reaction: R03522
     - confidence_score: 0
   - !!omap
     - id: r_4202
@@ -75683,6 +75712,7 @@
     - gene_reaction_rule: YKL069W
     - annotation: !!omap
       - ec-code: 1.8.4.14
+      - kegg.reaction: R02025
     - confidence_score: 0
   - !!omap
     - id: r_4203
@@ -75728,6 +75758,7 @@
     - gene_reaction_rule: YKL215C
     - annotation: !!omap
       - ec-code: 3.5.2.9
+      - kegg.reaction: R00251
     - confidence_score: 0
   - !!omap
     - id: r_4206
@@ -75741,6 +75772,7 @@
     - gene_reaction_rule: YKL218C
     - annotation: !!omap
       - ec-code: 4.3.1.16
+      - kegg.reaction: R05758
     - confidence_score: 0
   - !!omap
     - id: r_4207
@@ -75755,6 +75787,7 @@
     - gene_reaction_rule: YGR154C
     - annotation: !!omap
       - ec-code: 2.5.1.18
+      - kegg.reaction: R03522
     - confidence_score: 0
   - !!omap
     - id: r_4208
@@ -75771,6 +75804,7 @@
       - ec-code:
         - 2.5.1.18
         - 1.8.5.1
+      - kegg.reaction: R01108
     - confidence_score: 0
   - !!omap
     - id: r_4209
@@ -75787,6 +75821,7 @@
       - ec-code:
         - 2.5.1.18
         - 1.8.5.1
+      - kegg.reaction: R01108
     - confidence_score: 0
   - !!omap
     - id: r_4210
@@ -75800,6 +75835,7 @@
     - gene_reaction_rule: YFL061W or YNL335W
     - annotation: !!omap
       - ec-code: 4.2.1.69
+      - kegg.reaction: R00778
     - confidence_score: 0
   - !!omap
     - id: r_4211
@@ -75820,6 +75856,7 @@
       - ec-code:
         - 4.3.3.6
         - 3.5.1.2
+      - kegg.reaction: R10089
     - confidence_score: 0
   - !!omap
     - id: r_4212
@@ -75840,6 +75877,7 @@
       - ec-code:
         - 4.3.3.6
         - 3.5.1.2
+      - kegg.reaction: R07456
     - confidence_score: 0
   - !!omap
     - id: r_4214
@@ -75854,6 +75892,7 @@
     - gene_reaction_rule: YFR044C
     - annotation: !!omap
       - ec-code: 3.4.13.-
+      - kegg.reaction: R00899
     - confidence_score: 0
   - !!omap
     - id: r_4215
@@ -75868,6 +75907,7 @@
     - gene_reaction_rule: YFR044C
     - annotation: !!omap
       - ec-code: 3.4.13.-
+      - kegg.reaction: R04951
     - confidence_score: 0
   - !!omap
     - id: r_4216
@@ -75882,6 +75922,7 @@
     - gene_reaction_rule: YDL024C
     - annotation: !!omap
       - ec-code: 3.1.3.2
+      - kegg.reaction: R00548
     - confidence_score: 0
   - !!omap
     - id: r_4217
@@ -75897,6 +75938,7 @@
     - gene_reaction_rule: YDL120W
     - annotation: !!omap
       - ec-code: 1.16.3.1
+      - kegg.reaction: R00078
     - confidence_score: 0
   - !!omap
     - id: r_4218
@@ -75945,6 +75987,7 @@
     - gene_reaction_rule: YDL236W
     - annotation: !!omap
       - ec-code: 3.1.3.41
+      - kegg.reaction: R03024
     - confidence_score: 0
   - !!omap
     - id: r_4221
@@ -75960,6 +76003,7 @@
     - gene_reaction_rule: YDL246C
     - annotation: !!omap
       - ec-code: 1.1.1.14
+      - kegg.reaction: R02896
     - confidence_score: 0
   - !!omap
     - id: r_4222
@@ -75973,6 +76017,8 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YDR009W
+    - annotation: !!omap
+      - kegg.reaction: R01092
     - confidence_score: 0
   - !!omap
     - id: r_4223
@@ -75988,6 +76034,7 @@
     - gene_reaction_rule: YDR036C
     - annotation: !!omap
       - ec-code: 3.1.2.4
+      - kegg.reaction: R03352
     - confidence_score: 0
   - !!omap
     - id: r_4224
@@ -76036,6 +76083,7 @@
     - gene_reaction_rule: YDR111C
     - annotation: !!omap
       - ec-code: 2.6.1.2
+      - kegg.reaction: R00258
     - confidence_score: 0
   - !!omap
     - id: r_4227
@@ -76050,6 +76098,7 @@
     - gene_reaction_rule: YDR242W
     - annotation: !!omap
       - ec-code: 3.5.1.4
+      - kegg.reaction: R02540
     - confidence_score: 0
   - !!omap
     - id: r_4228
@@ -76064,6 +76113,7 @@
     - gene_reaction_rule: YDR242W
     - annotation: !!omap
       - ec-code: 3.5.1.4
+      - kegg.reaction: R03096
     - confidence_score: 0
   - !!omap
     - id: r_4229
@@ -76078,6 +76128,7 @@
     - gene_reaction_rule: YDR242W
     - annotation: !!omap
       - ec-code: 3.5.1.4
+      - kegg.reaction: R03909
     - confidence_score: 0
   - !!omap
     - id: r_4230
@@ -76092,6 +76143,7 @@
     - gene_reaction_rule: YDR242W
     - annotation: !!omap
       - ec-code: 3.5.1.4
+      - kegg.reaction: R05551
     - confidence_score: 0
   - !!omap
     - id: r_4231
@@ -76121,6 +76173,7 @@
     - gene_reaction_rule: YDR248C
     - annotation: !!omap
       - ec-code: 2.7.1.12
+      - kegg.reaction: R01737
     - confidence_score: 0
   - !!omap
     - id: r_4233
@@ -76135,6 +76188,7 @@
     - gene_reaction_rule: YDR410C
     - annotation: !!omap
       - ec-code: 2.1.1.100
+      - kegg.reaction: R04496
     - confidence_score: 0
   - !!omap
     - id: r_4234
@@ -76150,6 +76204,7 @@
     - gene_reaction_rule: YDR437W and YGR216C and YNL038W and YPL076W and YPL175W and YPL096C-A
     - annotation: !!omap
       - ec-code: 2.4.1.198
+      - kegg.reaction: R05916
     - confidence_score: 0
   - !!omap
     - id: r_4235
@@ -76164,6 +76219,7 @@
     - gene_reaction_rule: YDR516C
     - annotation: !!omap
       - ec-code: 2.7.1.1
+      - kegg.reaction: R00299
     - confidence_score: 0
   - !!omap
     - id: r_4236
@@ -76178,6 +76234,7 @@
     - gene_reaction_rule: YDR533C or YMR322C or YOR391C or YPL280W
     - annotation: !!omap
       - ec-code: 4.2.1.130
+      - kegg.reaction: R09796
     - confidence_score: 0
   - !!omap
     - id: r_4237
@@ -76227,6 +76284,7 @@
     - gene_reaction_rule: YGL017W
     - annotation: !!omap
       - ec-code: 2.3.2.8
+      - kegg.reaction: R03862
     - confidence_score: 0
   - !!omap
     - id: r_4240
@@ -76242,6 +76300,7 @@
     - gene_reaction_rule: YGL022W
     - annotation: !!omap
       - ec-code: 2.4.99.18
+      - kegg.reaction: R05976
     - confidence_score: 0
   - !!omap
     - id: r_4241
@@ -76256,6 +76315,7 @@
     - gene_reaction_rule: YGL027C
     - annotation: !!omap
       - ec-code: 3.2.1.106
+      - kegg.reaction: R05979
     - confidence_score: 0
   - !!omap
     - id: r_4242
@@ -76271,6 +76331,7 @@
     - gene_reaction_rule: YGL038C
     - annotation: !!omap
       - ec-code: 2.4.1.232
+      - kegg.reaction: R08599
     - confidence_score: 0
   - !!omap
     - id: r_4243
@@ -76288,6 +76349,7 @@
       - ec-code:
         - 2.4.1.132
         - 2.4.1.257
+      - kegg.reaction: R05973
     - confidence_score: 0
   - !!omap
     - id: r_4244
@@ -76305,6 +76367,7 @@
       - ec-code:
         - 2.4.1.132
         - 2.4.1.257
+      - kegg.reaction: R06238
     - confidence_score: 0
   - !!omap
     - id: r_4245
@@ -76319,6 +76382,7 @@
     - gene_reaction_rule: YGL156W
     - annotation: !!omap
       - ec-code: 3.2.1.24
+      - kegg.reaction: R09645
     - confidence_score: 0
   - !!omap
     - id: r_4246
@@ -76349,6 +76413,7 @@
     - gene_reaction_rule: YGL169W
     - annotation: !!omap
       - ec-code: 2.7.7.87
+      - kegg.reaction: R10463
     - confidence_score: 0
   - !!omap
     - id: r_4248
@@ -76362,6 +76427,7 @@
     - gene_reaction_rule: YGL196W
     - annotation: !!omap
       - ec-code: 4.3.1.18
+      - kegg.reaction: R00221
     - confidence_score: 0
   - !!omap
     - id: r_4249
@@ -76376,6 +76442,7 @@
     - gene_reaction_rule: YGR012W
     - annotation: !!omap
       - ec-code: 2.5.1.47
+      - kegg.reaction: R00897
     - confidence_score: 0
   - !!omap
     - id: r_4250
@@ -76390,6 +76457,7 @@
     - gene_reaction_rule: YGR036C
     - annotation: !!omap
       - ec-code: 3.6.1.43
+      - kegg.reaction: R01004
     - confidence_score: 0
   - !!omap
     - id: r_4251
@@ -76405,6 +76473,7 @@
     - gene_reaction_rule: YGR046W
     - annotation: !!omap
       - ec-code: 2.7.7.41
+      - kegg.reaction: R01799
     - confidence_score: 0
   - !!omap
     - id: r_4252
@@ -76419,6 +76488,8 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YGR144W
+    - annotation: !!omap
+      - kegg.reaction: R10685
     - confidence_score: 0
   - !!omap
     - id: r_4253
@@ -76434,6 +76505,7 @@
     - gene_reaction_rule: YGR227W
     - annotation: !!omap
       - ec-code: 2.4.1.256
+      - kegg.reaction: R06264
     - confidence_score: 0
   - !!omap
     - id: r_4254
@@ -76450,6 +76522,7 @@
     - gene_reaction_rule: YGR234W
     - annotation: !!omap
       - ec-code: 1.14.12.17
+      - kegg.reaction: R05725
     - confidence_score: 0
   - !!omap
     - id: r_4255
@@ -76466,6 +76539,7 @@
     - gene_reaction_rule: YGR234W
     - annotation: !!omap
       - ec-code: 1.14.12.17
+      - kegg.reaction: R05725
     - confidence_score: 0
   - !!omap
     - id: r_4256
@@ -76481,6 +76555,7 @@
     - gene_reaction_rule: YJL046W
     - annotation: !!omap
       - ec-code: 6.3.1.20
+      - kegg.reaction: R07770
     - confidence_score: 0
   - !!omap
     - id: r_4258
@@ -76497,6 +76572,7 @@
     - gene_reaction_rule: YJL046W
     - annotation: !!omap
       - ec-code: 6.3.1.20
+      - kegg.reaction: R11143
     - confidence_score: 0
   - !!omap
     - id: r_4260
@@ -76511,6 +76587,7 @@
     - gene_reaction_rule: YJL126W
     - annotation: !!omap
       - ec-code: 3.5.1.-
+      - kegg.reaction: R12024
     - confidence_score: 0
   - !!omap
     - id: r_4261
@@ -76525,6 +76602,7 @@
     - gene_reaction_rule: YJL126W
     - annotation: !!omap
       - ec-code: 3.5.1.-
+      - kegg.reaction: R12024
     - confidence_score: 0
   - !!omap
     - id: r_4262
@@ -76537,6 +76615,7 @@
     - gene_reaction_rule: YJL200C
     - annotation: !!omap
       - ec-code: 4.2.1.-
+      - kegg.reaction: R01324
     - confidence_score: 0
   - !!omap
     - id: r_4263
@@ -76562,6 +76641,7 @@
     - gene_reaction_rule: YJR051W
     - annotation: !!omap
       - ec-code: 1.3.1.6
+      - kegg.reaction: R00402
     - confidence_score: 0
   - !!omap
     - id: r_4265
@@ -76577,6 +76657,7 @@
     - gene_reaction_rule: YJR069C
     - annotation: !!omap
       - ec-code: 3.6.1.9
+      - kegg.reaction: R01532
     - confidence_score: 0
   - !!omap
     - id: r_4266
@@ -76607,6 +76688,7 @@
     - gene_reaction_rule: YJR069C
     - annotation: !!omap
       - ec-code: 3.6.1.9
+      - kegg.reaction: R01855
     - confidence_score: 0
   - !!omap
     - id: r_4268
@@ -76622,6 +76704,7 @@
     - gene_reaction_rule: YJR069C
     - annotation: !!omap
       - ec-code: 3.6.1.9
+      - kegg.reaction: R11323
     - confidence_score: 0
   - !!omap
     - id: r_4269
@@ -76651,6 +76734,7 @@
     - gene_reaction_rule: YJR104C
     - annotation: !!omap
       - ec-code: 1.15.1.1
+      - kegg.reaction: R00275
     - confidence_score: 0
   - !!omap
     - id: r_4271
@@ -76667,6 +76751,7 @@
       - ec-code:
         - 3.2.1.113
         - 3.2.1.-
+      - kegg.reaction: R05982
     - confidence_score: 0
   - !!omap
     - id: r_4272
@@ -76683,6 +76768,7 @@
       - ec-code:
         - 3.2.1.113
         - 3.2.1.-
+      - kegg.reaction: R06722
     - confidence_score: 0
   - !!omap
     - id: r_4273
@@ -76701,6 +76787,7 @@
     - gene_reaction_rule: YJR149W
     - annotation: !!omap
       - ec-code: 1.13.12.16
+      - kegg.reaction: R00025
     - confidence_score: 0
   - !!omap
     - id: r_4274
@@ -76717,6 +76804,7 @@
     - gene_reaction_rule: YLL058W or YML082W
     - annotation: !!omap
       - ec-code: 2.5.1.48
+      - kegg.reaction: R00999
     - confidence_score: 0
   - !!omap
     - id: r_4275
@@ -76732,6 +76820,7 @@
     - gene_reaction_rule: YLR047C or YKL220C or YLR214W or YNR060W or YOL152W or YOR381W or YOR384W
     - annotation: !!omap
       - ec-code: 1.16.1.7
+      - kegg.reaction: R09541
     - confidence_score: 0
   - !!omap
     - id: r_4276
@@ -76747,6 +76836,7 @@
     - gene_reaction_rule: YLL051C
     - annotation: !!omap
       - ec-code: 1.16.1.7
+      - kegg.reaction: R09541
     - confidence_score: 0
   - !!omap
     - id: r_4277
@@ -76761,6 +76851,7 @@
     - gene_reaction_rule: YLR099C or YPR139C
     - annotation: !!omap
       - ec-code: 2.3.1.51
+      - kegg.reaction: R00851
     - confidence_score: 0
   - !!omap
     - id: r_4278
@@ -76778,6 +76869,7 @@
     - gene_reaction_rule: YLR143W
     - annotation: !!omap
       - ec-code: 6.3.1.14
+      - kegg.reaction: R03613
     - confidence_score: 0
   - !!omap
     - id: r_4279
@@ -76793,6 +76885,7 @@
     - gene_reaction_rule: YLR151C
     - annotation: !!omap
       - ec-code: 3.6.1.55
+      - kegg.reaction: R09832
     - confidence_score: 0
   - !!omap
     - id: r_4280
@@ -76807,6 +76900,7 @@
     - gene_reaction_rule: YLR239C
     - annotation: !!omap
       - ec-code: 2.3.1.181
+      - kegg.reaction: R07766
     - confidence_score: 0
   - !!omap
     - id: r_4281
@@ -76821,6 +76915,7 @@
     - gene_reaction_rule: YLR239C
     - annotation: !!omap
       - ec-code: 2.3.1.181
+      - kegg.reaction: R07769
     - confidence_score: 0
   - !!omap
     - id: r_4282
@@ -76838,6 +76933,7 @@
       - ec-code:
         - 2.7.1.105
         - 3.1.3.46
+      - kegg.reaction: R02732
     - confidence_score: 0
   - !!omap
     - id: r_4283
@@ -76853,6 +76949,7 @@
     - gene_reaction_rule: YLR446W
     - annotation: !!omap
       - ec-code: 2.7.1.1
+      - kegg.reaction: R00867
     - confidence_score: 0
   - !!omap
     - id: r_4284
@@ -76868,6 +76965,7 @@
     - gene_reaction_rule: YLR446W
     - annotation: !!omap
       - ec-code: 2.7.1.1
+      - kegg.reaction: R01600
     - confidence_score: 0
   - !!omap
     - id: r_4285
@@ -76883,6 +76981,7 @@
     - gene_reaction_rule: YLR446W
     - annotation: !!omap
       - ec-code: 2.7.1.1
+      - kegg.reaction: R01786
     - confidence_score: 0
   - !!omap
     - id: r_4286
@@ -76898,6 +76997,7 @@
     - gene_reaction_rule: YLR446W
     - annotation: !!omap
       - ec-code: 2.7.1.1
+      - kegg.reaction: R01961
     - confidence_score: 0
   - !!omap
     - id: r_4287
@@ -76913,6 +77013,7 @@
     - gene_reaction_rule: YLR446W
     - annotation: !!omap
       - ec-code: 2.7.1.1
+      - kegg.reaction: R03920
     - confidence_score: 0
   - !!omap
     - id: r_4288
@@ -76925,6 +77026,7 @@
     - gene_reaction_rule: YMR099C
     - annotation: !!omap
       - ec-code: 5.1.3.15
+      - kegg.reaction: R02739
     - confidence_score: 0
   - !!omap
     - id: r_4291
@@ -76941,6 +77043,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R01752
     - confidence_score: 0
   - !!omap
     - id: r_4292
@@ -76957,6 +77060,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R01986
     - confidence_score: 0
   - !!omap
     - id: r_4293
@@ -76973,6 +77077,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R02549
     - confidence_score: 0
   - !!omap
     - id: r_4294
@@ -76989,6 +77094,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R02678
     - confidence_score: 0
   - !!omap
     - id: r_4295
@@ -77005,6 +77111,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R02940
     - confidence_score: 0
   - !!omap
     - id: r_4296
@@ -77021,6 +77128,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R02957
     - confidence_score: 0
   - !!omap
     - id: r_4297
@@ -77037,6 +77145,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R03283
     - confidence_score: 0
   - !!omap
     - id: r_4298
@@ -77053,6 +77162,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R03869
     - confidence_score: 0
   - !!omap
     - id: r_4299
@@ -77069,6 +77179,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R04065
     - confidence_score: 0
   - !!omap
     - id: r_4300
@@ -77085,6 +77196,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R04506
     - confidence_score: 0
   - !!omap
     - id: r_4301
@@ -77101,6 +77213,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R04903
     - confidence_score: 0
   - !!omap
     - id: r_4302
@@ -77117,6 +77230,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R05050
     - confidence_score: 0
   - !!omap
     - id: r_4303
@@ -77131,6 +77245,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R05237
     - confidence_score: 0
   - !!omap
     - id: r_4304
@@ -77145,6 +77260,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R05238
     - confidence_score: 0
   - !!omap
     - id: r_4305
@@ -77161,6 +77277,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R05286
     - confidence_score: 0
   - !!omap
     - id: r_4306
@@ -77177,6 +77294,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R06366
     - confidence_score: 0
   - !!omap
     - id: r_4307
@@ -77193,6 +77311,7 @@
     - gene_reaction_rule: YMR110C
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R08146
     - confidence_score: 0
   - !!omap
     - id: r_4308
@@ -77240,6 +77359,7 @@
     - gene_reaction_rule: YNL048W
     - annotation: !!omap
       - ec-code: 2.4.1.131
+      - kegg.reaction: R06127
     - confidence_score: 0
   - !!omap
     - id: r_4311
@@ -77255,6 +77375,7 @@
     - gene_reaction_rule: YNL048W
     - annotation: !!omap
       - ec-code: 2.4.1.131
+      - kegg.reaction: R06128
     - confidence_score: 0
   - !!omap
     - id: r_4312
@@ -77270,6 +77391,7 @@
     - gene_reaction_rule: YNL092W
     - annotation: !!omap
       - ec-code: 2.1.1.22
+      - kegg.reaction: R02144
     - confidence_score: 0
   - !!omap
     - id: r_4313
@@ -77287,6 +77409,7 @@
       - ec-code:
         - 2.4.1.259
         - 2.4.1.261
+      - kegg.reaction: R06259
     - confidence_score: 0
   - !!omap
     - id: r_4314
@@ -77303,6 +77426,7 @@
       - ec-code:
         - 2.4.1.259
         - 2.4.1.261
+      - kegg.reaction: R06261
     - confidence_score: 0
   - !!omap
     - id: r_4315
@@ -77318,6 +77442,7 @@
     - gene_reaction_rule: YNL274C
     - annotation: !!omap
       - ec-code: 1.1.1.26
+      - kegg.reaction: R00717
     - confidence_score: 0
   - !!omap
     - id: r_4316
@@ -77332,6 +77457,7 @@
     - gene_reaction_rule: YNR030W
     - annotation: !!omap
       - ec-code: 2.4.1.260
+      - kegg.reaction: R06260
     - confidence_score: 0
   - !!omap
     - id: r_4317
@@ -77346,6 +77472,7 @@
     - gene_reaction_rule: YOL157C
     - annotation: !!omap
       - ec-code: 3.2.1.10
+      - kegg.reaction: R00801
     - confidence_score: 0
   - !!omap
     - id: r_4318
@@ -77360,6 +77487,7 @@
     - gene_reaction_rule: YOL157C
     - annotation: !!omap
       - ec-code: 3.2.1.10
+      - kegg.reaction: R01718
     - confidence_score: 0
   - !!omap
     - id: r_4319
@@ -77373,6 +77501,7 @@
     - gene_reaction_rule: YOL157C
     - annotation: !!omap
       - ec-code: 3.2.1.10
+      - kegg.reaction: R01791
     - confidence_score: 0
   - !!omap
     - id: r_4320
@@ -77388,6 +77517,7 @@
     - gene_reaction_rule: YOR002W
     - annotation: !!omap
       - ec-code: 2.4.1.267
+      - kegg.reaction: R06262
     - confidence_score: 0
   - !!omap
     - id: r_4321
@@ -77403,6 +77533,7 @@
     - gene_reaction_rule: YOR067C
     - annotation: !!omap
       - ec-code: 2.4.1.265
+      - kegg.reaction: R06263
     - confidence_score: 0
   - !!omap
     - id: r_4322
@@ -77418,6 +77549,7 @@
     - gene_reaction_rule: YOR149C
     - annotation: !!omap
       - ec-code: 2.4.1.-
+      - kegg.reaction: R07129
     - confidence_score: 0
   - !!omap
     - id: r_4323
@@ -77434,6 +77566,7 @@
     - gene_reaction_rule: YOR196C
     - annotation: !!omap
       - ec-code: 2.8.1.8
+      - kegg.reaction: R07767
     - confidence_score: 0
   - !!omap
     - id: r_4324
@@ -77450,6 +77583,7 @@
     - gene_reaction_rule: YOR196C
     - annotation: !!omap
       - ec-code: 2.8.1.8
+      - kegg.reaction: R07768
     - confidence_score: 0
   - !!omap
     - id: r_4325
@@ -77478,6 +77612,7 @@
       - ec-code:
         - 2.8.1.1
         - 2.8.1.-
+      - kegg.reaction: R01931
     - confidence_score: 0
   - !!omap
     - id: r_4327
@@ -77502,6 +77637,7 @@
     - gene_reaction_rule: YPL227C
     - annotation: !!omap
       - ec-code: 2.4.1.117
+      - kegg.reaction: R01005
     - confidence_score: 0
   - !!omap
     - id: r_4329
@@ -77527,6 +77663,7 @@
     - gene_reaction_rule: YPR127W
     - annotation: !!omap
       - ec-code: 1.1.1.65
+      - kegg.reaction: R01708
     - confidence_score: 0
   - !!omap
     - id: r_4331
@@ -77540,6 +77677,7 @@
     - gene_reaction_rule: YDR371W or YLR286C
     - annotation: !!omap
       - ec-code: 3.2.1.14
+      - kegg.reaction: R01206
     - confidence_score: 0
   - !!omap
     - id: r_4332
@@ -77567,6 +77705,7 @@
         - 3.6.1.10
         - 3.6.1.-
         - 3.6.1.11
+      - kegg.reaction: R03042
     - confidence_score: 0
   - !!omap
     - id: r_4334
@@ -77616,6 +77755,7 @@
     - gene_reaction_rule: YLR351C
     - annotation: !!omap
       - ec-code: 3.5.1.3
+      - kegg.reaction: R03804
     - confidence_score: 0
   - !!omap
     - id: r_4337
@@ -77644,6 +77784,7 @@
     - gene_reaction_rule: YOL157C
     - annotation: !!omap
       - ec-code: 3.2.1.10
+      - kegg.reaction: R06199
     - confidence_score: 0
   - !!omap
     - id: r_4339
