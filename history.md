@@ -1,5 +1,13 @@
 # History
 
+### yeast 8.2.0:
+* Features:
+  * Fixes #38: Added 183 new reactions, 277 new metabolites and 163 new genes based on the latest genome annotation in SGD, uniprot, KEGG, Biocyc & Reactome (PR #142).
+* Fixes:
+  * `grRules` deleted from pseudoreactions, removing with this 49 genes (PR #145).
+* Chores:
+  * Updated COBRA, which changed the number of decimals in some stoichiometric coefficients in `.txt` (PR #143)
+
 ### yeast 8.1.3:
 * Features:
   * Added SBO terms for all metabolites and reactions, based on an automatic script now part of `saveYeastModel.m` (PR #132).
