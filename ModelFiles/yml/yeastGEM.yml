@@ -23702,7 +23702,7 @@
       - s_0367: 1
       - s_0373: -2
       - s_0529: 1
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YPL028W
     - subsystem:
@@ -23730,7 +23730,7 @@
       - s_0370: 1
       - s_0376: -2
       - s_0532: 1
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YPL028W
     - subsystem:
@@ -34217,7 +34217,7 @@
       - s_0799: 1
       - s_0993: -1
       - s_1192: 1
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: YJL071W or YMR062C
     - subsystem:
@@ -45197,7 +45197,7 @@
     - metabolites: !!omap
       - s_1493: 1
       - s_1494: -1
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - confidence_score: 0
   - !!omap
