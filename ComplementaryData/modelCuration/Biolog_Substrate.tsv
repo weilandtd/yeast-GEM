@@ -1,384 +1,384 @@
-subtaate	Name_In_Model	Substrate_type	Growth_Biolog	Growth_Model
-L-Malic Acid	(S)-malate	C	NG	NA
-L-Glutamic Acid	L-glutamate	C	NG	NA
-Thymidine	thymidine	C	NG	NA
-D-Malic Acid		C	NG	NA
-L-Alanine	L-alanine	C	NG	NA
-Fumaric Acid	fumarate	C	NG	NA
-L-Lactic Acid	(S)-lactate	C	G	NA
-Butyric Acid	butyrate	C	NG	NA
-Methyl Pyruvate		C	NG	NA
-α-Keto-Glutaric Acid	2-oxoglutarate	C	NG	NA
-D,L-Malic Acid		C	NG	NA
-L-Alanyl-Glycine	Ala-Gly	C	NG	NA
-Acetic Acid	acetate	C	NG	NA
-Succinic Acid	succinate	C	NG	NA
-L-Tartaric Acid		C	NG	NA
-Propionic Acid		C	NG	NA
-Pyruvic Acid	pyruvate	C	G	NA
-Mono Methyl Succinate		C	NG	NA
-L-Alaninamide		C	NG	NA
-L-Serine	L-serine	C	NG	NA
-Formic Acid	formate	C	NG	NA
-γ-Amino Butyric Acid	gamma-aminobutyrate	C	NG	NA
-Oxalo malicAcid	3-oxalomalate(3-)	C	G	NA
-Glycyl-L-Glutamic Acid		C	NG	NA
-β-Hydroxy Butyric Acid		C	NG	NA
-D-Mannitol	Mannitol	C	NG	NA
-D-Lactic Acid Methyl Ester		C	NG	NA
-Adonitol (Ribitol)		C	NG	NA
-D-Arabitol		C	NG	NA
-L-Glutamine	L-glutamine	C	NG	NA
-Succinamic Acid		C	NG	NA
-Bromo Succinic Acid		C	NG	NA
-L-L eucine	L-leucine	C	NG	NA
-D-Xylose	D-xylose	C	G	NA
-L-Valine	L-valine	C	NG	NA
-D-Sorbitol	D-glucitol	C	NG	NA
-L-Asparagine	L-asparagine	C	NG	NA
-Glycyl-L-Proline		C	NG	NA
-2-Aminoethanol (Ethanol amine)	ethanolamine	C	NG	NA
-D-Ribose	D-ribose	C	G	NA
-Glycyl-L-Aspartic Acid		C	NG	NA
-D-Galacturonic Acid	D-galacturonate	C	NG	NA
-Uridine	uridine	C	NG	NA
-L-Proline	L-proline	C	NG	NA
-L-Galactonic Acid-γ-Lactone		C	NG	NA
-D-Mannose	D-mannose	C	G	NA
-δ-Amino Valeric Acid		C	NG	NA
-α-Hydroxy GlutaricAcid-γ-Lactone		C	NG	NA
-α-D-Glucose	D-glucose	C	G	NA
-D-Psicose		C	NG	NA
-D-Fructose	D-fructose	C	G	NA
-L-Lyxose		C	G	NA
-L-Lysine	L-lysine	C	NG	NA
-L-Isoleucine	L-isoleucine	C	NG	NA
-α-Keto-Butyric Acid	2-oxobutanoate	C	NG	NA
-α-Hydroxy Butyric Acid		C	NG	NA
-α-Keto Valeric Acid		C	NG	NA
-3-0-β-D Galacto-pyranosyl-D-Arabinose		C	NG	NA
-Acetoacetic Acid	acetoacetate	C	G	NA
-Glyoxylic Acid	glyoxylate	C	NG	NA
-Tween 20		C	NG	NA
-Palatinose	6-O-alpha-D-glucopyranosyl-D-fructofuranose	C	G	NA
-Dextrin	Dextrin	C	NG	NA
-3-Hydroxy 2-Butanone		C	NG	NA
-5-Keto-D-Gluconic Acid	5-dehydro-D-gluconate	C	G	NA
-Tyramine		C	NG	NA
-p-Hydroxy Phenyl Acetic Acid (4-Hydroxyphenylacetate)		C	NG	NA
-Glucuronamide		C	G	NA
-M-Tartaric Acid		C	NG	NA
-Inosine	inosine	C	NG	NA
-Citramalic Acid		C	NG	NA
-Glycolic Acid	glycolate	C	NG	NA
-Melibionic Acid		C	NG	NA
-D-Tartaric Acid		C	NG	NA
-Glycerol	glycerol	C	NG	NA
-Mucic Acid		C	NG	NA
-3-Methyl Glucose		C	NG	NA
-D-Fructose-6-Phosphate	D-fructose 6-phosphate	C	NG	NA
-D-Tagatose	D-tagatose	C	G	NA
-N-Acetyl-L-Glutamic Acid	N-acetyl-L-glutamate	C	NG	NA
-Turanose	turanose	C	G	NA
-D-Glucose-6-Phosphate	D-glucose 6-phosphate	C	NG	NA
-L-Sorbose	L-sorbose	C	NG	NA
-γ-Hydroxy Butyric Acid		C	NG	NA
-N-Acetyl-D-Glucosamine	N-Acetyl-D-glucosamine	C	NG	NA
-β-Methyl-D-Glucuronic Acid		C	NG	NA
-Dulcitol (Galactitol)		C	NG	NA
-D-Arabinose	D-arabinose	C	G	NA
-N-Acetyl-β-D-Mannosamine		C	NG	NA
-D-Glucosaminic Acid		C	NG	NA
-D-Melezitose		C	NG	NA
-D-Cellobiose		C	NG	NA
-Putrescine	putrescine	C	NG	NA
-Tween 80		C	NG	NA
-Quinic Acid		C	NG	NA
-Tricarballylic Acid		C	NG	NA
-β-D-Allose		C	NG	NA
-Chondroitin Sulfate C		C	NG	NA
-α-Methyl-D Galactoside		C	NG	NA
-Maltotriose	alpha-maltotriose	C	G	NA
-β-Methyl-D-Glucoside		C	NG	NA
-Tween 40		C	NG	NA
-Glycogen	glycogen	C	NG	NA
-M-Inositol	myo-inositol	C	NG	NA
-Sucrose	sucrose	C	G	NA
-D-Saccharic Acid	D-Glucarate	C	NG	NA
-Pectin	pectin	C	NG	NA
-D-Glucose-1-Phosphate	D-glucose 1-phosphate	C	NG	NA
-Hydroxy-L Proline		C	NG	NA
-D-Ribono-1,4-Lactone		C	NG	NA
-L-Pyroglutamic Acid	5-oxo-L-proline	C	NG	NA
-Lactulose		C	NG	NA
-D-Raffinose	raffinose	C	NG	NA
-Maltose	maltose	C	G	NA
-L-Rhamnose		C	NG	NA
-D-Galactose	D-galactose	C	G	NA
-α-D-Lactose		C	NG	NA
-N-Acetyl-D-Galactosamine		C	NG	NA
-2,3-Butanediol		C	NG	NA
-1,2-Propanediol		C	NG	NA
-Amygdalin		C	NG	NA
-Malonic Acid		C	NG	NA
-D-Melibiose	melibiose	C	NG	NA
-D-Gluconic Acid	D-gluconate	C	NG	NA
-D.L-Octopamine		C	NG	NA
-D-Aspartate		C	NG	NA
-Gelatin		C	NG	NA
-L-Aspartic Acid	L-aspartate	C	NG	NA
-L-Ornithine		C	NG	NA
-Salicin		C	NG	NA
-L-Arabinose	L-arabinose	C	G	NA
-L-Histidine	L-histidine	C	NG	NA
-D-Glucuronic Acid		C	NG	NA
-L-Glucose		C	NG	NA
-N-AcetylNeuraminic Acid		C	NG	NA
-β-Methyl-D-Galactoside		C	NG	NA
-Stachyose		C	NG	NA
-Maltitol		C	NG	NA
-Acetamide		C	NG	NA
-I-Erythritol		C	NG	NA
-Lactitol		C	NG	NA
-N-Acetyl-D-Glucosaminitol		C	NG	NA
-α-Methyl-D-Glucoside	methyl alpha-D-glucopyranoside	C	G	NA
-D,L-Carnitine		C	NG	NA
-D,L-α-Glycerol-Phosphate	glycerol 3-phosphate	C	NG	NA
-Sedoheptulosan		C	NG	NA
-β-Methyl-D-Xyloside		C	NG	NA
-β-Cyclodextrin		C	NG	NA
-L-Arginine	L-arginine	C	NG	NA
-α-Methyl-D-Mannoside		C	NG	NA
-Gentiobiose		C	NG	NA
-L-Fucose		C	NG	NA
-L-T hreonine	L-threonine	C	NG	NA
-L-Phenylalanine	L-phenylalanine	C	NG	NA
-Citric Acid	citrate	C	NG	NA
-α-Cyclodextrin		C	NG	NA
-Citraconic Acid		C	NG	NA
-L-Arabitol	L-arabinitol	C	NG	NA
-D-Trehalose	trehalose	C	NG	NA
-γ-Cyclodextrin		C	NG	NA
-L-Methionine	L-methionine	C	NG	NA
-Inulin		C	G	NA
-D-Fucose		C	NG	NA
-D-Galactonic Acid-γ-Lactone		C	NG	NA
-L-Homoserine	L-homoserine	C	NG	NA
-Oxalic Acid	Oxalate	C	NG	NA
-Arbutin		C	NG	NA
-Laminarin		C	G	NA
-Caproic Acid	hexanoate	C	NG	NA
-Phenylethyl-amine		C	NG	NA
-Xylitol	xylitol	C	NG	NA
-m-Hydroxy Phenyl Acetic Acid		C	NG	NA
-Sec-Butylamine		C	NG	NA
-D-Glucosamine	D-Glucosamine	C	G	NA
-Sebacic Acid		C	NG	NA
-Mannan	mannan	C	NG	NA
-Dihydroxy Acetone	glycerone	C	G	NA
-2-Deoxy Adenosine	2'-deoxyadenosine	C	NG	NA
-Adenosine	adenosine	C	NG	NA
-D-Alanine		C	NG	NA
-D-Serine	D-Serine	C	NG	NA
-2,3-Butanone H12	diacetyl	C	NG	NA
-D-Threonine		C	NG	NA
-Itaconic Acid	itaconate	C	NG	NA
-2-Deoxy-D-Ribose	2-deoxy-D-ribose	C	G	NA
-4-Hydroxy Benzoic Acid	4-hydroxybenzoate	C	NG	NA
-Capric Acid	decanoate	C	NG	NA
-Sorbic Acid		C	G	NA
-2-Hydroxy Benzoic Acid		C	NG	NA
-Glycine	L-glycine	C	NG	NA
-Uric Acid		N	NG	NA
-Ala-Gln	Ala-Gln	N	G	NA
-Ala-Leu	Ala-Leu	N	G	NA
-Ala-Gly	Ala-Gly	N	G	NA
-Xanthine	9H-xanthine	N	NG	NA
-D,L-Lactamide		N	NG	NA
-Cytosine	cytosine	N	G	NA
-Gly-Gln	Gly-Gln	N	G	NA
-Guanine	guanine	N	NG	NA
-Ethylenediamine		N	NG	NA
-Ala-His	Ala-His	N	G	NA
-Allantoin	allantoin	N	G	NA
-Parabanic Acid		N	G	NA
-L-Alanine	L-alanine	N	G	NA
-Guanosine	guanosine	N	NG	NA
-L-Glutamine	L-glutamine	N	G	NA
-L-Leucine	L-leucine	N	G	NA
-Thymidine	thymidine	N	NG	NA
-Gly-Asn	Gly-Asn	N	G	NA
-Ala-Glu	Ala-Glu	N	G	NA
-Thymine		N	NG	NA
-Cytidine	cytidine	N	NG	NA
-Uracil	uracil	N	NG	NA
-L-Asparagine	L-asparagine	N	G	NA
-Gly-Met	Gly-Met	N	G	NA
-Ala-Asp	Ala-Asp	N	G	NA
-γ-Amino-N-Butyric Acid	gamma-aminobutyrate	N	G	NA
-D-Alanine		N	NG	NA
-L-Serine	L-serine	N	G	NA
-Urea	urea	N	G	NA
-Gly-Glu	Gly-Glu	N	G	NA
-Ala-Thr	Ala-Thr	N	G	NA
-δ-Amino-N-Valeric Acid	5-Aminopentanoate	N	G	NA
-Putrescine	putrescine	N	NG	NA
-Uridine	uridine	N	NG	NA
-Met-Ala	Met-Ala	N	G	NA
-Glucuronamide		N	NG	NA
-D-Serine	D-Serine	N	NG	NA
-L-Lysine	L-lysine	N	NG	NA
-L-Histidine	L-histidine	N	G	NA
-D-Glutamic Acid		N	NG	NA
-Agmatine		N	NG	NA
-Ammonia	ammonium	N	G	NA
-Xanthosine	xanthosine	N	NG	NA
-Glycine	L-glycine	N	G	NA
-L-Glutamic Acid	L-glutamate	N	G	NA
-Ethanolamine	ethanolamine	N	NG	NA
-D-Lysine		N	NG	NA
-L-Aspartic Acid	L-aspartate	N	G	NA
-Alloxan		N	NG	NA
-N-Acetyl-D-Glucosamine	N-Acetyl-D-glucosamine	N	NG	NA
-D-Aspartate		N	G	NA
-L-Cysteine	L-cysteine	N	G	NA
-L-Proline	L-proline	N	G	NA
-L-Isoleucine	L-isoleucine	N	G	NA
-ε-Amino-N-Caproic Acid		N	NG	NA
-L-Tryptophan	L-tryptophan	N	G	NA
-α-Amino-NValeric Acid		N	G	NA
-D-Asparagine		N	NG	NA
-L-Tyrosine	L-tyrosine	N	G	NA
-Histamine		N	NG	NA
-D-Mannosamine		N	NG	NA
-D-Galactosamine		N	NG	NA
-L-Arginine	L-arginine	N	G	NA
-L-Pyroglutamic Acid	5-oxo-L-proline	N	NG	NA
-L-Citrulline	L-citrulline	N	G	NA
-Inosine	inosine	N	NG	NA
-Formamide		N	NG	NA
-Ethylamine		N	NG	NA
-Acetamide		N	NG	NA
-L-Phenylalanine	L-phenylalanine	N	G	NA
-Biuret		N	NG	NA
-N-Butylamine		N	NG	NA
-N-Acetyl-D-Galactosamine		N	NG	NA
-N-Acetyl-D ,L-Glutamic Acid	N-acetyl-L-glutamate	N	G	NA
-N-Acetyl-D-Mannosamine		N	NG	NA
-L-Homoserine	L-homoserine	N	G	NA
-Adenine	adenine	N	NG	NA
-N-Amylamine		N	NG	NA
-Tyramine		N	NG	NA
-N-Phthaloyl-L-Glutamic Acid		N	NG	NA
-Methylamine		N	NG	NA
-L-Valine	L-valine	N	G	NA
-Nitrate	nitrate	N	NG	NA
-L-Ornithine	ornithine	N	G	NA
-L-Threonine	L-threonine	N	G	NA
-β-Phenylethyl-amine		N	NG	NA
-Nitrite	Nitrite	N	NG	NA
-L-Methionine	L-methionine	N	G	NA
-D,L-α-Amino-Caprylic Acid		N	G	NA
-D-Valine		N	NG	NA
-D-Glucosamine	D-Glucosamine	N	NG	NA
-D,L-α-Amino-N-Butyric Acid	2-aminobutanoate	N	G	NA
-Adenosine	adenosine	N	NG	NA
-Hydroxylamine		N	NG	NA
-Phosphoryl Choline	choline phosphate	P	G	NA
-D,L-α-Glycerol Phosphate	glycerol 1-phosphate	P	G	NA
-O-Phospho-D-Tyrosine		P	G	NA
-D-2-Phospho-Glyceric Acid	2-phospho-D-glyceric acid	P	G	NA
-Guanosine-5’-monophosphate	GMP	P	G	NA
-O-Phospho-L-Serine	3-phospho-serine	P	G	NA
-O-Phospho-D-Serine	O-phosphonatooxy-D-serine(2-)	P	G	NA
-Phosphate	phosphate	P	G	NA
-Pyrophosphate	diphosphate	P	G	NA
-Thiophosphate		P	G	NA
-Tripolyphosphate	triphosphate	P	G	NA
-Uridine-5’-monophosphate	UMP	P	G	NA
-Cytidine-5’-monophosphate	CMP	P	G	NA
-Phosphoenol Pyruvate	phosphoenolpyruvate	P	G	NA
-Trimetaphosphate		P	G	NA
-Phospho-L-Arginine	N(omega)-phospho-L-arginine	P	G	NA
-Carbamyl Phosphate	carbamoyl phosphate	P	G	NA
-O-Phosphoryl-Ethanolamine	O-phosphoethanolamine	P	G	NA
-D-Glucosamine-6-Phosphate	alpha-D-glucosamine 6-phosphate	P	G	NA
-Phosphocreatine	N-phosphocreatine	P	G	NA
-Dithiophosphate		P	G	NA
-Thymidine-5’-monophosphate	thymidine 5'-monophosphate	P	G	NA
-Thymidine-3 ’-monophosphate	thymidine 3'-monophosphate	P	G	NA
-Cysteamine-S-Phosphate	cysteamine S-phosphate	P	G	NA
-2-Deoxy-D-Glucose 6-Phosphate	2-deoxy-D-glucose 6-phosphate	P	NG	NA
-Guanosine-2’-monophosphate	guanosine 2'-monophosphate	P	G	NA
-D-Glucose-6-Phosphate	D-glucose 6-phosphate	P	G	NA
-β-Glycerol Phosphate	glycerol 2-phosphate(2-)	P	G	NA
-Guanosine-3’-monophosphate	3'-GMP	P	G	NA
-Phospho-Glycolic Acid	2-phosphoglycolate	P	G	NA
-6-Phospho-Gluconic Acid	6-phospho-D-gluconate	P	G	NA
-D-Mannose-6-Phosphate	D-mannose 6-phosphate	P	G	NA
-Cytidine-3’,5’-cyclic monophosphate	3',5'-cyclic CMP	P	NG	NA
-Cytidine-2’-monophosphate	cytidine 2'-phosphate	P	G	NA
-Inositol Hexaphosphate	myo-inositol hexakisphosphate	P	G	NA
-Guanosine-2’,3’-cyclic monophosphate	2',3'-cyclic GMP	P	G	NA
-O-Phospho-L-Tyrosine	O(4)-phospho-L-tyrosine	P	G	NA
-O-Phospho-L-Threonine	O-phospho-L-threonine	P	G	NA
-Cytidine-3’-monophosphate		P	NG	NA
-D-3-Phospho-Glyceric Acid	3-phosphonato-D-glycerate(3-)	P	G	NA
-Triethyl Phosphate		P	NG	NA
-Phosphono Acetic Acid		P	NG	NA
-Uridine-2’-monophosphate	uridine 2'-phosphate	P	G	NA
-D-Glucose-1-Phosphate	D-glucose 1-phosphate	P	G	NA
-Uridine-3’-monophosphate	3'-UMP	P	G	NA
-Cytidine-2’ ,3’-cyclic monophosphate	2',3'-cyclic CMP	P	G	NA
-2-Aminoethyl Phosphonic Acid		P	NG	NA
-Uridine-2’,3’-cyclic monophosphate	2',3'-cyclic UMP	P	G	NA
-Adenosine-2’-monophosphate	adenosine 2'-phosphate	P	G	NA
-Adenosine-3’-monophosphate	3'-AMP	P	G	NA
-Adenosine-2’,3’-cyclic monophosphate	2',3'-cyclic AMP	P	G	NA
-Hypophosphite		P	NG	NA
-Guanosine-3’,5’-cyclic monophosphate	3',5'-cyclic GMP	P	NG	NA
-Thymidine 3’,5’-cyclic monophosphate		P	NG	NA
-D-Mannose-1-Phosphate	D-mannose 1-phosphate	P	G	NA
-Urid ine-3’,5’-cyclic monophosphate		P	NG	NA
-Methylene Diphosphonic Acid		P	G	NA
-Adenosine-3’,5’-cyclic monophosphate	3',5'-cyclic AMP	P	NG	NA
-Adenosine-5’-monophosphate	AMP	P	G	NA
-Sulfate	sulphate	S	G	NA
-L-Cysteine	L-cysteine	S	NG	NA
-Tetrathionate		S	NG	NA
-Thiosulfate	thiosulfate	S	G	NA
-S-Methyl-L-Cysteine		S	G	NA
-Hypotaurine		S	NG	NA
-D-Methionine		S	NG	NA
-L-Cysteinyl-Glycine	L-cysteinylglycine	S	NG	NA
-L-Methionine	L-methionine	S	G	NA
-Glutathione	glutathione	S	G	NA
-N-Acetyl-D,L-Methionine	N(alpha)-acetyl-L-methionine	S	G	NA
-L-Methionine Sulfoxide	L-Methionine S-oxide	S	NG	NA
-Glycyl-L-Methionine	Gly-Met	S	G	NA
-Taurine	tetrathionate	S	G	NA
-D-Cysteine		S	NG	NA
-Dithiophosphate		S	G	NA
-Cystathionine		S	NG	NA
-Cysteamine		S	NG	NA
-L-Cysteine Sulfinic Acid	3-sulfino-L-alanine	S	G	NA
-Thiophosphate		S	G	NA
-Lanthionine		S	NG	NA
-N-Acetyl-L-Cysteine	N-acetyl-L-cysteine	S	G	NA
-Thiourea		S	G	NA
-1-Thio-β-D-Glucose		S	G	NA
-Taurocholic Acid	taurocholic acid	S	NG	NA
-Butane Sulfonic Acid		S	G	NA
-D,L-Lipoamide	lipoamide	S	G	NA
-L-Djenkolic Acid		S	NG	NA
-Methane Sulfonic Acid		S	NG	NA
-L-Cysteic Acid	L-cysteate	S	G	NA
-p-Amino Benzene Sulfonic Acid		S	NG	NA
-D,L-Ethionine		S	NG	NA
-2-Hydroxyethane Sulfonic Acid	2-hydroxyethane-1-sulfonate	S	G	NA
-Tetramethylene Sulfone		S	NG	NA
-L-Methionine Sulfone	L-Methionine S-oxide	S	G	NA
-Ethanol	ethanol	C	G	NA
-D-Raffinose 	raffinose	C	G	NA
-D-Cellobise		C	G	NA
-sodium acetate	acetate	C	G	NA
+Subtrate	Name_in_Model	Substrate_type	Growth_Biolog	Growth_Model
+L-Malic Acid	(S)-malate	C	NG	G
+L-Glutamic Acid	L-glutamate	C	NG	G
+Thymidine	thymidine	C	NG	NG
+D-Malic Acid		C	NG	NG
+L-Alanine	L-alanine	C	NG	G
+Fumaric Acid	fumarate	C	NG	G
+L-Lactic Acid	(S)-lactate	C	G	G
+Butyric Acid	butyrate	C	NG	NG
+Methyl Pyruvate		C	NG	NG
+α-Keto-Glutaric Acid	2-oxoglutarate	C	NG	G
+D,L-Malic Acid		C	NG	NG
+L-Alanyl-Glycine	Ala-Gly	C	NG	NG
+Acetic Acid	acetate	C	NG	G
+Succinic Acid	succinate	C	NG	G
+L-Tartaric Acid		C	NG	NG
+Propionic Acid		C	NG	NG
+Pyruvic Acid	pyruvate	C	G	G
+Mono Methyl Succinate		C	NG	NG
+L-Alaninamide		C	NG	NG
+L-Serine	L-serine	C	NG	G
+Formic Acid	formate	C	NG	G
+γ-Amino Butyric Acid	gamma-aminobutyrate	C	NG	G
+Oxalo malicAcid	3-oxalomalate(3-)	C	G	NG
+Glycyl-L-Glutamic Acid		C	NG	NG
+β-Hydroxy Butyric Acid		C	NG	NG
+D-Mannitol	Mannitol	C	NG	NG
+D-Lactic Acid Methyl Ester		C	NG	NG
+Adonitol (Ribitol)		C	NG	NG
+D-Arabitol		C	NG	NG
+L-Glutamine	L-glutamine	C	NG	G
+Succinamic Acid		C	NG	NG
+Bromo Succinic Acid		C	NG	NG
+L-L eucine	L-leucine	C	NG	NG
+D-Xylose	D-xylose	C	G	G
+L-Valine	L-valine	C	NG	NG
+D-Sorbitol	D-glucitol	C	NG	G
+L-Asparagine	L-asparagine	C	NG	G
+Glycyl-L-Proline		C	NG	NG
+2-Aminoethanol (Ethanol amine)	ethanolamine	C	NG	NG
+D-Ribose	D-ribose	C	G	G
+Glycyl-L-Aspartic Acid		C	NG	NG
+D-Galacturonic Acid	D-galacturonate	C	NG	NG
+Uridine	uridine	C	NG	NG
+L-Proline	L-proline	C	NG	G
+L-Galactonic Acid-γ-Lactone		C	NG	NG
+D-Mannose	D-mannose	C	G	G
+δ-Amino Valeric Acid		C	NG	NG
+α-Hydroxy GlutaricAcid-γ-Lactone		C	NG	NG
+α-D-Glucose	D-glucose	C	G	G
+D-Psicose		C	NG	NG
+D-Fructose	D-fructose	C	G	G
+L-Lyxose		C	G	NG
+L-Lysine	L-lysine	C	NG	NG
+L-Isoleucine	L-isoleucine	C	NG	NG
+α-Keto-Butyric Acid	2-oxobutanoate	C	NG	NG
+α-Hydroxy Butyric Acid		C	NG	NG
+α-Keto Valeric Acid		C	NG	NG
+3-0-β-D Galacto-pyranosyl-D-Arabinose		C	NG	NG
+Acetoacetic Acid	acetoacetate	C	G	NG
+Glyoxylic Acid	glyoxylate	C	NG	G
+Tween 20		C	NG	NG
+Palatinose	6-O-alpha-D-glucopyranosyl-D-fructofuranose	C	G	NG
+Dextrin	Dextrin	C	NG	NG
+3-Hydroxy 2-Butanone		C	NG	NG
+5-Keto-D-Gluconic Acid	5-dehydro-D-gluconate	C	G	NG
+Tyramine		C	NG	NG
+p-Hydroxy Phenyl Acetic Acid (4-Hydroxyphenylacetate)		C	NG	NG
+Glucuronamide		C	G	NG
+M-Tartaric Acid		C	NG	NG
+Inosine	inosine	C	NG	G
+Citramalic Acid		C	NG	NG
+Glycolic Acid	glycolate	C	NG	NG
+Melibionic Acid		C	NG	NG
+D-Tartaric Acid		C	NG	NG
+Glycerol	glycerol	C	NG	G
+Mucic Acid		C	NG	NG
+3-Methyl Glucose		C	NG	NG
+D-Fructose-6-Phosphate	D-fructose 6-phosphate	C	NG	NG
+D-Tagatose	D-tagatose	C	G	NG
+N-Acetyl-L-Glutamic Acid	N-acetyl-L-glutamate	C	NG	NG
+Turanose	turanose	C	G	NG
+D-Glucose-6-Phosphate	D-glucose 6-phosphate	C	NG	NG
+L-Sorbose	L-sorbose	C	NG	NG
+γ-Hydroxy Butyric Acid		C	NG	NG
+N-Acetyl-D-Glucosamine	N-Acetyl-D-glucosamine	C	NG	NG
+β-Methyl-D-Glucuronic Acid		C	NG	NG
+Dulcitol (Galactitol)		C	NG	NG
+D-Arabinose	D-arabinose	C	G	NG
+N-Acetyl-β-D-Mannosamine		C	NG	NG
+D-Glucosaminic Acid		C	NG	NG
+D-Melezitose		C	NG	NG
+D-Cellobiose		C	NG	NG
+Putrescine	putrescine	C	NG	NG
+Tween 80		C	NG	NG
+Quinic Acid		C	NG	NG
+Tricarballylic Acid		C	NG	NG
+β-D-Allose		C	NG	NG
+Chondroitin Sulfate C		C	NG	NG
+α-Methyl-D Galactoside		C	NG	NG
+Maltotriose	alpha-maltotriose	C	G	NG
+β-Methyl-D-Glucoside		C	NG	NG
+Tween 40		C	NG	NG
+Glycogen	glycogen	C	NG	NG
+M-Inositol	myo-inositol	C	NG	NG
+Sucrose	sucrose	C	G	G
+D-Saccharic Acid	D-Glucarate	C	NG	NG
+Pectin	pectin	C	NG	NG
+D-Glucose-1-Phosphate	D-glucose 1-phosphate	C	NG	NG
+Hydroxy-L Proline		C	NG	NG
+D-Ribono-1,4-Lactone		C	NG	NG
+L-Pyroglutamic Acid	5-oxo-L-proline	C	NG	NG
+Lactulose		C	NG	NG
+D-Raffinose	raffinose	C	NG	G
+Maltose	maltose	C	G	G
+L-Rhamnose		C	NG	NG
+D-Galactose	D-galactose	C	G	G
+α-D-Lactose		C	NG	NG
+N-Acetyl-D-Galactosamine		C	NG	NG
+2,3-Butanediol		C	NG	NG
+1,2-Propanediol		C	NG	NG
+Amygdalin		C	NG	NG
+Malonic Acid		C	NG	NG
+D-Melibiose	melibiose	C	NG	NG
+D-Gluconic Acid	D-gluconate	C	NG	NG
+D.L-Octopamine		C	NG	NG
+D-Aspartate		C	NG	NG
+Gelatin		C	NG	NG
+L-Aspartic Acid	L-aspartate	C	NG	G
+L-Ornithine		C	NG	NG
+Salicin		C	NG	NG
+L-Arabinose	L-arabinose	C	G	NG
+L-Histidine	L-histidine	C	NG	NG
+D-Glucuronic Acid		C	NG	NG
+L-Glucose		C	NG	NG
+N-AcetylNeuraminic Acid		C	NG	NG
+β-Methyl-D-Galactoside		C	NG	NG
+Stachyose		C	NG	NG
+Maltitol		C	NG	NG
+Acetamide		C	NG	NG
+I-Erythritol		C	NG	NG
+Lactitol		C	NG	NG
+N-Acetyl-D-Glucosaminitol		C	NG	NG
+α-Methyl-D-Glucoside	methyl alpha-D-glucopyranoside	C	G	NG
+D,L-Carnitine		C	NG	NG
+D,L-α-Glycerol-Phosphate	glycerol 3-phosphate	C	NG	NG
+Sedoheptulosan		C	NG	NG
+β-Methyl-D-Xyloside		C	NG	NG
+β-Cyclodextrin		C	NG	NG
+L-Arginine	L-arginine	C	NG	G
+α-Methyl-D-Mannoside		C	NG	NG
+Gentiobiose		C	NG	NG
+L-Fucose		C	NG	NG
+L-T hreonine	L-threonine	C	NG	G
+L-Phenylalanine	L-phenylalanine	C	NG	NG
+Citric Acid	citrate	C	NG	G
+α-Cyclodextrin		C	NG	NG
+Citraconic Acid		C	NG	NG
+L-Arabitol	L-arabinitol	C	NG	NG
+D-Trehalose	trehalose	C	NG	G
+γ-Cyclodextrin		C	NG	NG
+L-Methionine	L-methionine	C	NG	NG
+Inulin		C	G	NG
+D-Fucose		C	NG	NG
+D-Galactonic Acid-γ-Lactone		C	NG	NG
+L-Homoserine	L-homoserine	C	NG	G
+Oxalic Acid	Oxalate	C	NG	NG
+Arbutin		C	NG	NG
+Laminarin		C	G	NG
+Caproic Acid	hexanoate	C	NG	NG
+Phenylethyl-amine		C	NG	NG
+Xylitol	xylitol	C	NG	G
+m-Hydroxy Phenyl Acetic Acid		C	NG	NG
+Sec-Butylamine		C	NG	NG
+D-Glucosamine	D-Glucosamine	C	G	NG
+Sebacic Acid		C	NG	NG
+Mannan	mannan	C	NG	NG
+Dihydroxy Acetone	glycerone	C	G	NG
+2-Deoxy Adenosine	2'-deoxyadenosine	C	NG	NG
+Adenosine	adenosine	C	NG	G
+D-Alanine		C	NG	NG
+D-Serine	D-Serine	C	NG	NG
+2,3-Butanone H12	diacetyl	C	NG	NG
+D-Threonine		C	NG	NG
+Itaconic Acid	itaconate	C	NG	NG
+2-Deoxy-D-Ribose	2-deoxy-D-ribose	C	G	NG
+4-Hydroxy Benzoic Acid	4-hydroxybenzoate	C	NG	NG
+Capric Acid	decanoate	C	NG	G
+Sorbic Acid		C	G	NG
+2-Hydroxy Benzoic Acid		C	NG	NG
+Glycine	L-glycine	C	NG	G
+Uric Acid		N	NG	NG
+Ala-Gln	Ala-Gln	N	G	NG
+Ala-Leu	Ala-Leu	N	G	NG
+Ala-Gly	Ala-Gly	N	G	NG
+Xanthine	9H-xanthine	N	NG	NG
+D,L-Lactamide		N	NG	NG
+Cytosine	cytosine	N	G	G
+Gly-Gln	Gly-Gln	N	G	NG
+Guanine	guanine	N	NG	G
+Ethylenediamine		N	NG	NG
+Ala-His	Ala-His	N	G	NG
+Allantoin	allantoin	N	G	G
+Parabanic Acid		N	G	NG
+L-Alanine	L-alanine	N	G	G
+Guanosine	guanosine	N	NG	G
+L-Glutamine	L-glutamine	N	G	G
+L-Leucine	L-leucine	N	G	G
+Thymidine	thymidine	N	NG	NG
+Gly-Asn	Gly-Asn	N	G	NG
+Ala-Glu	Ala-Glu	N	G	NG
+Thymine		N	NG	NG
+Cytidine	cytidine	N	NG	G
+Uracil	uracil	N	NG	NG
+L-Asparagine	L-asparagine	N	G	G
+Gly-Met	Gly-Met	N	G	NG
+Ala-Asp	Ala-Asp	N	G	NG
+γ-Amino-N-Butyric Acid	gamma-aminobutyrate	N	G	G
+D-Alanine		N	NG	NG
+L-Serine	L-serine	N	G	G
+Urea	urea	N	G	G
+Gly-Glu	Gly-Glu	N	G	NG
+Ala-Thr	Ala-Thr	N	G	NG
+δ-Amino-N-Valeric Acid	5-Aminopentanoate	N	G	NG
+Putrescine	putrescine	N	NG	NG
+Uridine	uridine	N	NG	NG
+Met-Ala	Met-Ala	N	G	NG
+Glucuronamide		N	NG	NG
+D-Serine	D-Serine	N	NG	NG
+L-Lysine	L-lysine	N	NG	NG
+L-Histidine	L-histidine	N	G	NG
+D-Glutamic Acid		N	NG	NG
+Agmatine		N	NG	NG
+Ammonia	ammonium	N	G	G
+Xanthosine	xanthosine	N	NG	NG
+Glycine	L-glycine	N	G	G
+L-Glutamic Acid	L-glutamate	N	G	G
+Ethanolamine	ethanolamine	N	NG	NG
+D-Lysine		N	NG	NG
+L-Aspartic Acid	L-aspartate	N	G	G
+Alloxan		N	NG	NG
+N-Acetyl-D-Glucosamine	N-Acetyl-D-glucosamine	N	NG	NG
+D-Aspartate		N	G	NG
+L-Cysteine	L-cysteine	N	G	NG
+L-Proline	L-proline	N	G	G
+L-Isoleucine	L-isoleucine	N	G	G
+ε-Amino-N-Caproic Acid		N	NG	NG
+L-Tryptophan	L-tryptophan	N	G	G
+α-Amino-NValeric Acid		N	G	NG
+D-Asparagine		N	NG	NG
+L-Tyrosine	L-tyrosine	N	G	NG
+Histamine		N	NG	NG
+D-Mannosamine		N	NG	NG
+D-Galactosamine		N	NG	NG
+L-Arginine	L-arginine	N	G	G
+L-Pyroglutamic Acid	5-oxo-L-proline	N	NG	NG
+L-Citrulline	L-citrulline	N	G	NG
+Inosine	inosine	N	NG	NG
+Formamide		N	NG	NG
+Ethylamine		N	NG	NG
+Acetamide		N	NG	NG
+L-Phenylalanine	L-phenylalanine	N	G	G
+Biuret		N	NG	NG
+N-Butylamine		N	NG	NG
+N-Acetyl-D-Galactosamine		N	NG	NG
+N-Acetyl-D ,L-Glutamic Acid	N-acetyl-L-glutamate	N	G	NG
+N-Acetyl-D-Mannosamine		N	NG	NG
+L-Homoserine	L-homoserine	N	G	G
+Adenine	adenine	N	NG	G
+N-Amylamine		N	NG	NG
+Tyramine		N	NG	NG
+N-Phthaloyl-L-Glutamic Acid		N	NG	NG
+Methylamine		N	NG	NG
+L-Valine	L-valine	N	G	G
+Nitrate	nitrate	N	NG	NG
+L-Ornithine	ornithine	N	G	G
+L-Threonine	L-threonine	N	G	G
+β-Phenylethyl-amine		N	NG	NG
+Nitrite	Nitrite	N	NG	NG
+L-Methionine	L-methionine	N	G	NG
+D,L-α-Amino-Caprylic Acid		N	G	NG
+D-Valine		N	NG	NG
+D-Glucosamine	D-Glucosamine	N	NG	NG
+D,L-α-Amino-N-Butyric Acid	2-aminobutanoate	N	G	NG
+Adenosine	adenosine	N	NG	G
+Hydroxylamine		N	NG	NG
+Phosphoryl Choline	choline phosphate	P	G	NG
+D,L-α-Glycerol Phosphate	glycerol 1-phosphate	P	G	NG
+O-Phospho-D-Tyrosine		P	G	NG
+D-2-Phospho-Glyceric Acid	2-phospho-D-glyceric acid	P	G	NG
+Guanosine-5’-monophosphate	GMP	P	G	NG
+O-Phospho-L-Serine	3-phospho-serine	P	G	NG
+O-Phospho-D-Serine	O-phosphonatooxy-D-serine(2-)	P	G	NG
+Phosphate	phosphate	P	G	G
+Pyrophosphate	diphosphate	P	G	NG
+Thiophosphate		P	G	NG
+Tripolyphosphate	triphosphate	P	G	NG
+Uridine-5’-monophosphate	UMP	P	G	NG
+Cytidine-5’-monophosphate	CMP	P	G	NG
+Phosphoenol Pyruvate	phosphoenolpyruvate	P	G	NG
+Trimetaphosphate		P	G	NG
+Phospho-L-Arginine	N(omega)-phospho-L-arginine	P	G	NG
+Carbamyl Phosphate	carbamoyl phosphate	P	G	NG
+O-Phosphoryl-Ethanolamine	O-phosphoethanolamine	P	G	NG
+D-Glucosamine-6-Phosphate	alpha-D-glucosamine 6-phosphate	P	G	G
+Phosphocreatine	N-phosphocreatine	P	G	NG
+Dithiophosphate		P	G	NG
+Thymidine-5’-monophosphate	thymidine 5'-monophosphate	P	G	NG
+Thymidine-3 ’-monophosphate	thymidine 3'-monophosphate	P	G	NG
+Cysteamine-S-Phosphate	cysteamine S-phosphate	P	G	NG
+2-Deoxy-D-Glucose 6-Phosphate	2-deoxy-D-glucose 6-phosphate	P	NG	NG
+Guanosine-2’-monophosphate	guanosine 2'-monophosphate	P	G	NG
+D-Glucose-6-Phosphate	D-glucose 6-phosphate	P	G	NG
+β-Glycerol Phosphate	glycerol 2-phosphate(2-)	P	G	NG
+Guanosine-3’-monophosphate	3'-GMP	P	G	NG
+Phospho-Glycolic Acid	2-phosphoglycolate	P	G	NG
+6-Phospho-Gluconic Acid	6-phospho-D-gluconate	P	G	NG
+D-Mannose-6-Phosphate	D-mannose 6-phosphate	P	G	NG
+Cytidine-3’,5’-cyclic monophosphate	3',5'-cyclic CMP	P	NG	NG
+Cytidine-2’-monophosphate	cytidine 2'-phosphate	P	G	NG
+Inositol Hexaphosphate	myo-inositol hexakisphosphate	P	G	NG
+Guanosine-2’,3’-cyclic monophosphate	2',3'-cyclic GMP	P	G	NG
+O-Phospho-L-Tyrosine	O(4)-phospho-L-tyrosine	P	G	NG
+O-Phospho-L-Threonine	O-phospho-L-threonine	P	G	NG
+Cytidine-3’-monophosphate		P	NG	NG
+D-3-Phospho-Glyceric Acid	3-phosphonato-D-glycerate(3-)	P	G	NG
+Triethyl Phosphate		P	NG	NG
+Phosphono Acetic Acid		P	NG	NG
+Uridine-2’-monophosphate	uridine 2'-phosphate	P	G	NG
+D-Glucose-1-Phosphate	D-glucose 1-phosphate	P	G	NG
+Uridine-3’-monophosphate	3'-UMP	P	G	NG
+Cytidine-2’ ,3’-cyclic monophosphate	2',3'-cyclic CMP	P	G	NG
+2-Aminoethyl Phosphonic Acid		P	NG	NG
+Uridine-2’,3’-cyclic monophosphate	2',3'-cyclic UMP	P	G	NG
+Adenosine-2’-monophosphate	adenosine 2'-phosphate	P	G	NG
+Adenosine-3’-monophosphate	3'-AMP	P	G	NG
+Adenosine-2’,3’-cyclic monophosphate	2',3'-cyclic AMP	P	G	NG
+Hypophosphite		P	NG	NG
+Guanosine-3’,5’-cyclic monophosphate	3',5'-cyclic GMP	P	NG	NG
+Thymidine 3’,5’-cyclic monophosphate		P	NG	NG
+D-Mannose-1-Phosphate	D-mannose 1-phosphate	P	G	NG
+Urid ine-3’,5’-cyclic monophosphate		P	NG	NG
+Methylene Diphosphonic Acid		P	G	NG
+Adenosine-3’,5’-cyclic monophosphate	3',5'-cyclic AMP	P	NG	NG
+Adenosine-5’-monophosphate	AMP	P	G	NG
+Sulfate	sulphate	S	G	G
+L-Cysteine	L-cysteine	S	NG	NG
+Tetrathionate		S	NG	NG
+Thiosulfate	thiosulfate	S	G	NG
+S-Methyl-L-Cysteine		S	G	NG
+Hypotaurine		S	NG	NG
+D-Methionine		S	NG	NG
+L-Cysteinyl-Glycine	L-cysteinylglycine	S	NG	NG
+L-Methionine	L-methionine	S	G	NG
+Glutathione	glutathione	S	G	NG
+N-Acetyl-D,L-Methionine	N(alpha)-acetyl-L-methionine	S	G	NG
+L-Methionine Sulfoxide	L-Methionine S-oxide	S	NG	NG
+Glycyl-L-Methionine	Gly-Met	S	G	NG
+Taurine	tetrathionate	S	G	NG
+D-Cysteine		S	NG	NG
+Dithiophosphate		S	G	NG
+Cystathionine		S	NG	NG
+Cysteamine		S	NG	NG
+L-Cysteine Sulfinic Acid	3-sulfino-L-alanine	S	G	NG
+Thiophosphate		S	G	NG
+Lanthionine		S	NG	NG
+N-Acetyl-L-Cysteine	N-acetyl-L-cysteine	S	G	NG
+Thiourea		S	G	NG
+1-Thio-β-D-Glucose		S	G	NG
+Taurocholic Acid	taurocholic acid	S	NG	NG
+Butane Sulfonic Acid		S	G	NG
+D,L-Lipoamide	lipoamide	S	G	NG
+L-Djenkolic Acid		S	NG	NG
+Methane Sulfonic Acid		S	NG	NG
+L-Cysteic Acid	L-cysteate	S	G	NG
+p-Amino Benzene Sulfonic Acid		S	NG	NG
+D,L-Ethionine		S	NG	NG
+2-Hydroxyethane Sulfonic Acid	2-hydroxyethane-1-sulfonate	S	G	NG
+Tetramethylene Sulfone		S	NG	NG
+L-Methionine Sulfone	L-Methionine S-oxide	S	G	NG
+Ethanol	ethanol	C	G	G
+D-Raffinose 	raffinose	C	G	G
+D-Cellobise		C	G	NG
+sodium acetate	acetate	C	G	G
