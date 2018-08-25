@@ -81422,6 +81422,105 @@
     - upper_bound: 1000
     - subsystem: Exchange
     - confidence_score: 0
+  - !!omap
+    - id: r_4555
+    - name: Exchange reaction, acetoacetate [extracellular]
+    - metabolites: !!omap
+      - s_4133: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4556
+    - name: Exchange reaction, N-acetyl-L-glutamate [extracellular]
+    - metabolites: !!omap
+      - s_4172: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4557
+    - name: Exchange reaction, UMP [extracellular]
+    - metabolites: !!omap
+      - s_4151: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4558
+    - name: Exchange reaction, CMP [extracellular]
+    - metabolites: !!omap
+      - s_4163: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4559
+    - name: Exchange reaction, thymidine 5'-monophosphate [extracellular]
+    - metabolites: !!omap
+      - s_4047: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4560
+    - name: Exchange reaction, thymidine 3'-monophosphate [extracellular]
+    - metabolites: !!omap
+      - s_4045: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4561
+    - name: Exchange reaction, cytidine 2'-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4101: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4562
+    - name: Exchange reaction, uridine 2'-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4082: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4563
+    - name: Exchange reaction, 3'-UMP [extracellular]
+    - metabolites: !!omap
+      - s_4084: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4564
+    - name: Exchange reaction, 2',3'-cyclic CMP [extracellular]
+    - metabolites: !!omap
+      - s_4127: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4565
+    - name: Exchange reaction, 2',3'-cyclic UMP [extracellular]
+    - metabolites: !!omap
+      - s_4103: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
 - genes:
   - !!omap
     - id: Q0045

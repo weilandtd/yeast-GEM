@@ -57,7 +57,7 @@ L-Isoleucine	L-isoleucine	C	NG	NG
 α-Hydroxy Butyric Acid		C	NG	NG
 α-Keto Valeric Acid		C	NG	NG
 3-0-β-D Galacto-pyranosyl-D-Arabinose		C	NG	NG
-Acetoacetic Acid	acetoacetate	C	G	NG
+Acetoacetic Acid	acetoacetate	C	G	G
 Glyoxylic Acid	glyoxylate	C	NG	G
 Tween 20		C	NG	NG
 Palatinose	6-O-alpha-D-glucopyranosyl-D-fructofuranose	C	G	G
@@ -78,7 +78,7 @@ Mucic Acid		C	NG	NG
 3-Methyl Glucose		C	NG	NG
 D-Fructose-6-Phosphate	D-fructose 6-phosphate	C	NG	NG
 D-Tagatose	D-tagatose	C	G	G
-N-Acetyl-L-Glutamic Acid	N-acetyl-L-glutamate	C	NG	NG
+N-Acetyl-L-Glutamic Acid	N-acetyl-L-glutamate	C	NG	G
 Turanose	turanose	C	G	G
 D-Glucose-6-Phosphate	D-glucose 6-phosphate	C	NG	G
 L-Sorbose	L-sorbose	C	NG	NG
@@ -263,7 +263,7 @@ L-Phenylalanine	L-phenylalanine	N	G	G
 Biuret		N	NG	NG
 N-Butylamine		N	NG	NG
 N-Acetyl-D-Galactosamine		N	NG	NG
-N-Acetyl-D ,L-Glutamic Acid	N-acetyl-L-glutamate	N	G	NG
+N-Acetyl-D ,L-Glutamic Acid	N-acetyl-L-glutamate	N	G	G
 N-Acetyl-D-Mannosamine		N	NG	NG
 L-Homoserine	L-homoserine	N	G	G
 Adenine	adenine	N	NG	G
@@ -295,8 +295,8 @@ Phosphate	phosphate	P	G	G
 Pyrophosphate	diphosphate	P	G	G
 Thiophosphate		P	G	NG
 Tripolyphosphate	triphosphate	P	G	G
-Uridine-5’-monophosphate	UMP	P	G	NG
-Cytidine-5’-monophosphate	CMP	P	G	NG
+Uridine-5’-monophosphate	UMP	P	G	G
+Cytidine-5’-monophosphate	CMP	P	G	G
 Phosphoenol Pyruvate	phosphoenolpyruvate	P	G	G
 Trimetaphosphate		P	G	NG
 Phospho-L-Arginine	N(omega)-phospho-L-arginine	P	G	G
@@ -305,8 +305,8 @@ O-Phosphoryl-Ethanolamine	O-phosphoethanolamine	P	G	G
 D-Glucosamine-6-Phosphate	alpha-D-glucosamine 6-phosphate	P	G	G
 Phosphocreatine	N-phosphocreatine	P	G	NG
 Dithiophosphate		P	G	NG
-Thymidine-5’-monophosphate	thymidine 5'-monophosphate	P	G	NG
-Thymidine-3 ’-monophosphate	thymidine 3'-monophosphate	P	G	NG
+Thymidine-5’-monophosphate	thymidine 5'-monophosphate	P	G	G
+Thymidine-3 ’-monophosphate	thymidine 3'-monophosphate	P	G	G
 Cysteamine-S-Phosphate	cysteamine S-phosphate	P	G	G
 2-Deoxy-D-Glucose 6-Phosphate	2-deoxy-D-glucose 6-phosphate	P	NG	NG
 Guanosine-2’-monophosphate	guanosine 2'-monophosphate	P	G	G
@@ -317,7 +317,7 @@ Phospho-Glycolic Acid	2-phosphoglycolate	P	G	G
 6-Phospho-Gluconic Acid	6-phospho-D-gluconate	P	G	G
 D-Mannose-6-Phosphate	D-mannose 6-phosphate	P	G	G
 Cytidine-3’,5’-cyclic monophosphate	3',5'-cyclic CMP	P	NG	NG
-Cytidine-2’-monophosphate	cytidine 2'-phosphate	P	G	NG
+Cytidine-2’-monophosphate	cytidine 2'-phosphate	P	G	G
 Inositol Hexaphosphate	myo-inositol hexakisphosphate	P	G	NG
 Guanosine-2’,3’-cyclic monophosphate	2',3'-cyclic GMP	P	G	G
 O-Phospho-L-Tyrosine	O(4)-phospho-L-tyrosine	P	G	G
@@ -326,12 +326,12 @@ Cytidine-3’-monophosphate		P	NG	NG
 D-3-Phospho-Glyceric Acid	3-phosphonato-D-glycerate(3-)	P	G	G
 Triethyl Phosphate		P	NG	NG
 Phosphono Acetic Acid		P	NG	NG
-Uridine-2’-monophosphate	uridine 2'-phosphate	P	G	NG
+Uridine-2’-monophosphate	uridine 2'-phosphate	P	G	G
 D-Glucose-1-Phosphate	D-glucose 1-phosphate	P	G	G
-Uridine-3’-monophosphate	3'-UMP	P	G	NG
-Cytidine-2’ ,3’-cyclic monophosphate	2',3'-cyclic CMP	P	G	NG
+Uridine-3’-monophosphate	3'-UMP	P	G	G
+Cytidine-2’ ,3’-cyclic monophosphate	2',3'-cyclic CMP	P	G	G
 2-Aminoethyl Phosphonic Acid		P	NG	NG
-Uridine-2’,3’-cyclic monophosphate	2',3'-cyclic UMP	P	G	NG
+Uridine-2’,3’-cyclic monophosphate	2',3'-cyclic UMP	P	G	G
 Adenosine-2’-monophosphate	adenosine 2'-phosphate	P	G	G
 Adenosine-3’-monophosphate	3'-AMP	P	G	G
 Adenosine-2’,3’-cyclic monophosphate	2',3'-cyclic AMP	P	G	G
