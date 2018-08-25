@@ -79099,6 +79099,1798 @@
         - 2.3.1.36
         - 2.3.1.48
     - confidence_score: 0
+  - !!omap
+    - id: r_4341
+    - name: Exchange rxns for glyc
+    - metabolites: !!omap
+      - s_4062: 1
+      - s_4063: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4342
+    - name: Glycerol-2-phosphate phosphohydrolase
+    - metabolites: !!omap
+      - s_0765: 1
+      - s_0803: -1
+      - s_1322: 1
+      - s_4062: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.19
+      - kegg.reaction: R01043
+    - confidence_score: 0
+  - !!omap
+    - id: r_4343
+    - name: L-Threonine phosphate transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4064: 1
+      - s_4065: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4344
+    - name: acid phosphatase / phosphotransferase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1045: 1
+      - s_1322: 1
+      - s_4064: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.-
+    - confidence_score: 0
+  - !!omap
+    - id: r_4345
+    - name: alkaline phosphatase
+    - metabolites: !!omap
+      - s_0790: 1
+      - s_0803: -1
+      - s_1322: 1
+      - s_4066: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.-
+    - confidence_score: 0
+  - !!omap
+    - id: r_4346
+    - name: Guanosine transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4066: 1
+      - s_4067: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4347
+    - name: Guanosine 3'-phosphate phosphohydrolase
+    - metabolites: !!omap
+      - s_0790: 1
+      - s_0803: -1
+      - s_1322: 1
+      - s_4068: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.6
+      - kegg.reaction: R02148
+    - confidence_score: 0
+  - !!omap
+    - id: r_4348
+    - name: Guanosine transport via proton symport(for 3'-GMP)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4068: 1
+      - s_4069: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4349
+    - name: 2-Phosphoglycolate transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4070: -1
+      - s_4071: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4350
+    - name: 2-phosphoglycolate phosphohydrolase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1322: 1
+      - s_3997: 1
+      - s_4071: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.18
+      - kegg.reaction: R01334
+    - confidence_score: 0
+  - !!omap
+    - id: r_4351
+    - name: alkaline phosphatase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1322: 1
+      - s_4072: -1
+      - s_4073: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.-
+    - confidence_score: 0
+  - !!omap
+    - id: r_4352
+    - name: cysteamine S-phosphate transport via proton symport
+    - metabolites: !!omap
+      - s_4072: 1
+      - s_4075: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4353
+    - name: Cysteamine:oxygen oxidoreductase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_1275: -1
+      - s_4073: -1
+      - s_4076: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.13.11.19
+      - kegg.reaction: R02467
+    - confidence_score: 0
+  - !!omap
+    - id: r_4354
+    - name: hypotaurine:NAD+ oxidoreductase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0803: -1
+      - s_1198: -1
+      - s_1203: 1
+      - s_1471: 1
+      - s_4076: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.8.1.3
+      - kegg.reaction: R01681
+    - confidence_score: 0
+  - !!omap
+    - id: r_4355
+    - name: 2-aminobutanoate:2-oxoglutarate aminotransferase
+    - metabolites: !!omap
+      - s_0178: -1
+      - s_0180: 1
+      - s_0991: -1
+      - s_4079: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.6.1.42
+      - kegg.reaction: R10991
+    - confidence_score: 0
+  - !!omap
+    - id: r_4356
+    - name: 2-aminobutyrate transport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4079: 1
+      - s_4080: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4357
+    - name: alkaline phosphatase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1322: 1
+      - s_1556: 1
+      - s_4081: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.-
+    - confidence_score: 0
+  - !!omap
+    - id: r_4358
+    - name: Uridine 2'-phosphate transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4081: 1
+      - s_4082: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4359
+    - name: Uridine 3'-monophosphate phosphohydrolase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1322: 1
+      - s_1556: 1
+      - s_4083: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.6
+      - kegg.reaction: R01877
+    - confidence_score: 0
+  - !!omap
+    - id: r_4360
+    - name: 3'-UMP transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4083: 1
+      - s_4084: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4361
+    - name: Gly-Met transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4085: -1
+      - s_4086: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4362
+    - name: dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_3758: 1
+      - s_3839: 1
+      - s_4087: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4363
+    - name: R07420
+    - metabolites: !!omap
+      - s_1322: 1
+      - s_4088: -1
+      - s_4089: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - kegg.reaction: R07420
+    - confidence_score: 0
+  - !!omap
+    - id: r_4364
+    - name: N-phosphocreatine transport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4088: 1
+      - s_4090: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4365
+    - name: creatinine transport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4089: 1
+      - s_4091: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4366
+    - name: ATP:L-arginine Nomega-phosphotransferase
+    - metabolites: !!omap
+      - s_0394: -1
+      - s_0434: 1
+      - s_0794: -1
+      - s_0965: 1
+      - s_4092: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.7.3.3
+      - kegg.reaction: R00554
+    - confidence_score: 0
+  - !!omap
+    - id: r_4367
+    - name: L-arginine phosphate transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4092: 1
+      - s_4093: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4368
+    - name: acid phosphatase / phosphotransferase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1051: 1
+      - s_1322: 1
+      - s_4096: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4369
+    - name: Tripolyphosphate transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4098: 1
+      - s_4099: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4370
+    - name: alkaline phosphatase
+    - metabolites: !!omap
+      - s_0543: 1
+      - s_0803: -1
+      - s_1322: 1
+      - s_4100: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.-
+    - confidence_score: 0
+  - !!omap
+    - id: r_4371
+    - name: Cytidine- 2'- Monophosphate transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4100: 1
+      - s_4101: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4372
+    - name: cyclic phosphodiesterase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0803: -1
+      - s_4081: 1
+      - s_4102: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.4.37
+    - confidence_score: 0
+  - !!omap
+    - id: r_4373
+    - name: 2',3'-Cyclic UMP transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4102: 1
+      - s_4103: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4374
+    - name: 3-Sulfino-L-alanine 4-carboxy-lyase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_0955: 1
+      - s_1469: 1
+      - s_4104: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.13.1.-
+      - kegg.reaction: R00863
+    - confidence_score: 0
+  - !!omap
+    - id: r_4375
+    - name: 3-Sulfino-L-alanine transport via proton antiport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4104: 1
+      - s_4105: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4376
+    - name: adenosine 3'-phosphate phosphohydrolase
+    - metabolites: !!omap
+      - s_0386: 1
+      - s_0803: -1
+      - s_1322: 1
+      - s_4106: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.6
+      - kegg.reaction: R01562
+    - confidence_score: 0
+  - !!omap
+    - id: r_4377
+    - name: 3AMP transport via diffusion (extracellular to periplasm)
+    - metabolites: !!omap
+      - s_4106: 1
+      - s_4107: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4378
+    - name: α-glucosidase
+    - metabolites: !!omap
+      - s_0553: 1
+      - s_0563: 1
+      - s_0803: -1
+      - s_4108: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.2.1.20
+    - confidence_score: 0
+  - !!omap
+    - id: r_4379
+    - name: Palatinose transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4108: 1
+      - s_4109: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4380
+    - name: Amino-Acid N-Acetyltransferase
+    - metabolites: !!omap
+      - s_0373: 1
+      - s_0529: -1
+      - s_0794: -1
+      - s_0981: 1
+      - s_4110: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4381
+    - name: Acetylcysteine transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4110: 1
+      - s_4111: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4382
+    - name: thiosulfate:ferricytochrome-c oxidoreductase
+    - metabolites: !!omap
+      - s_0709: -2
+      - s_0710: 2
+      - s_4112: -1
+      - s_4113: 2
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.8.2.2
+    - confidence_score: 0
+  - !!omap
+    - id: r_4383
+    - name: etrathionate transport via diffusion
+    - metabolites: !!omap
+      - s_4112: 1
+      - s_4114: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4384
+    - name: D-Gluconate:NADP+ 5-oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_3875: 1
+      - s_4117: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.69
+      - kegg.reaction: R01740
+    - confidence_score: 0
+  - !!omap
+    - id: r_4385
+    - name: 5-Dehydro-D-gluconate transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4117: 1
+      - s_4118: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4386
+    - name: dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_0977: 1
+      - s_3759: 1
+      - s_4121: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4387
+    - name: ala-L-asp-L transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4119: -1
+      - s_4120: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4388
+    - name: cyclic phosphodiesterase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0803: -1
+      - s_4100: 1
+      - s_4126: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.4.37
+    - confidence_score: 0
+  - !!omap
+    - id: r_4389
+    - name: 2',3'-Cyclic CMP transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4126: 1
+      - s_4127: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4390
+    - name: beta-glucosidase (methyl-alpha-D-glucoside)
+    - metabolites: !!omap
+      - s_0563: 1
+      - s_0803: -1
+      - s_4122: -1
+      - s_4123: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.2.1.21
+    - confidence_score: 0
+  - !!omap
+    - id: r_4391
+    - name: Methanol diffusion
+    - metabolites: !!omap
+      - s_4123: -1
+      - s_4124: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4392
+    - name: alpha-Methyl-D-glucoside transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4122: 1
+      - s_4125: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4393
+    - name: ATP:D-tagatose 6-phosphotransferase
+    - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
+      - s_0794: 1
+      - s_4128: -1
+      - s_4129: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.7.1.101
+    - confidence_score: 0
+  - !!omap
+    - id: r_4394
+    - name: D-tagatose 6-phosphate 4-epimerase
+    - metabolites: !!omap
+      - s_0557: 1
+      - s_4129: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4395
+    - name: D-tagatose uptake via diffusion
+    - metabolites: !!omap
+      - s_4128: 1
+      - s_4130: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4396
+    - name: Acetoacetate:CoA ligase (AMP-forming)
+    - metabolites: !!omap
+      - s_0367: 1
+      - s_0423: 1
+      - s_0434: -1
+      - s_0529: -1
+      - s_0633: 1
+      - s_4132: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 6.2.1.16
+      - kegg.reaction: R01357
+    - confidence_score: 0
+  - !!omap
+    - id: r_4397
+    - name: N-Acyl-Aliphatic-L-Amino Acid Amidohydrolase
+    - metabolites: !!omap
+      - s_0362: 1
+      - s_0803: -1
+      - s_1029: 1
+      - s_4134: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.5.1.14
+    - confidence_score: 0
+  - !!omap
+    - id: r_4398
+    - name: Ala-Gln transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4034: -1
+      - s_4035: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4399
+    - name: L-alanyl-L-glutamate transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4038: -1
+      - s_4039: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4400
+    - name: Maltodextrin glucosidase (maltotriose)
+    - metabolites: !!omap
+      - s_0565: 1
+      - s_0805: -1
+      - s_1106: 1
+      - s_4140: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.2.1.20
+    - confidence_score: 0
+  - !!omap
+    - id: r_4401
+    - name: Ala-Thr transport via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4041: -1
+      - s_4042: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4402
+    - name: Ala-Thr transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4040: -1
+      - s_4041: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4403
+    - name: Triphosphate phosphohydrolase
+    - metabolites: !!omap
+      - s_0633: 1
+      - s_0803: -1
+      - s_1322: 1
+      - s_4098: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YHR201C or YDR452W
+    - annotation: !!omap
+      - ec-code: 3.6.1.25
+      - kegg.reaction: R00138
+    - confidence_score: 0
+  - !!omap
+    - id: r_4404
+    - name: Gly-Asn transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4053: -1
+      - s_4054: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4405
+    - name: glycerol 1-phosphate transport
+    - metabolites: !!omap
+      - s_4048: 1
+      - s_4049: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4406
+    - name: D-O-Phosphoserine transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4077: 1
+      - s_4078: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4407
+    - name: D-O-Phosphoserine phosphohydrolase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1322: 1
+      - s_3904: 1
+      - s_4077: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.3
+      - kegg.reaction: R02853
+    - confidence_score: 0
+  - !!omap
+    - id: r_4408
+    - name: L-alanyl-L-glutamate transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4037: -1
+      - s_4038: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4409
+    - name: L-alanyl-gamma-L-glutamate peptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_0996: 1
+      - s_3759: 1
+      - s_4039: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4410
+    - name: 3-oxalomalate glyoxylate-lyase (oxaloacetate-forming)
+    - metabolites: !!omap
+      - s_0779: 1
+      - s_1271: 1
+      - s_4136: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 4.1.3.13
+      - kegg.reaction: R00477
+    - confidence_score: 0
+  - !!omap
+    - id: r_4411
+    - name: L-cysteate bisulfite-lyase (deaminating)
+    - metabolites: !!omap
+      - s_0419: 1
+      - s_0803: -1
+      - s_1399: 1
+      - s_1469: 1
+      - s_4138: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 4.4.1.25
+      - kegg.reaction: R07634
+    - confidence_score: 0
+  - !!omap
+    - id: r_4412
+    - name: cyclic phosphodiesterase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0803: -1
+      - s_4066: 1
+      - s_4094: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.4.37
+    - confidence_score: 0
+  - !!omap
+    - id: r_4413
+    - name: deoxynucleotide 3'-phosphatase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1322: 1
+      - s_1493: 1
+      - s_4044: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.34
+    - confidence_score: 0
+  - !!omap
+    - id: r_4414
+    - name: cytosol nonspecific dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_1002: 1
+      - s_3759: 1
+      - s_4036: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4415
+    - name: Cytosol non-specific dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_1009: 1
+      - s_3759: 1
+      - s_4052: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4416
+    - name: Cytosol non-specific dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_3759: 1
+      - s_4042: -1
+      - s_4043: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4417
+    - name: Cytosol non-specific dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_0972: 1
+      - s_3839: 1
+      - s_4055: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4418
+    - name: Cytosol non-specific dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_1002: 1
+      - s_3839: 1
+      - s_4058: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4419
+    - name: L-Cysteate transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4138: 1
+      - s_4139: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4420
+    - name: alpha-glucosidase
+    - metabolites: !!omap
+      - s_0554: 1
+      - s_0565: 1
+      - s_0805: -1
+      - s_4131: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.2.1.20
+    - confidence_score: 0
+  - !!omap
+    - id: r_4421
+    - name: 2-Hydroxyethanesulfonate transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4115: 1
+      - s_4116: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4422
+    - name: 3-Oxalomalate transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4136: 1
+      - s_4137: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4423
+    - name: Gly-Met transport via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4086: -1
+      - s_4087: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4424
+    - name: Gly-Gln transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4056: -1
+      - s_4057: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4425
+    - name: Gly-Gln transport via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4057: -1
+      - s_4058: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4426
+    - name: Ala-Gln transport via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4035: -1
+      - s_4036: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4427
+    - name: N-Acetylmethionine transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4134: 1
+      - s_4135: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4428
+    - name: Phosphotyrosine transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4096: 1
+      - s_4097: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4429
+    - name: Ala-His transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4050: -1
+      - s_4051: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4430
+    - name: Ala-His transport via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4051: -1
+      - s_4052: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4431
+    - name: ala-L-asp-L transport via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4120: -1
+      - s_4121: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4432
+    - name: FMNH2-dependent alkanesulfonate monooxygenase
+    - metabolites: !!omap
+      - s_0714: 1
+      - s_0717: -1
+      - s_0775: 1
+      - s_0794: 1
+      - s_0803: 1
+      - s_1275: -1
+      - s_1469: 1
+      - s_4115: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.14.14.5
+    - confidence_score: 0
+  - !!omap
+    - id: r_4433
+    - name: thymidine 3-monophosphate transport
+    - metabolites: !!omap
+      - s_4044: 1
+      - s_4045: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4434
+    - name: thymidine 5-monophosphate transport
+    - metabolites: !!omap
+      - s_4046: 1
+      - s_4047: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4435
+    - name: glycerol-1-phosphate phosphohydrolase
+    - metabolites: !!omap
+      - s_0765: 1
+      - s_0803: -1
+      - s_1322: 1
+      - s_4048: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: YIL053W or YER062C
+    - annotation: !!omap
+      - kegg.reaction: R08658
+    - confidence_score: 0
+  - !!omap
+    - id: r_4436
+    - name: nucleotide-specific phosphatase (thymidine 5'-monophosphate)
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_1322: 1
+      - s_1493: 1
+      - s_4046: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4437
+    - name: Gly-Glu transport via proton symport (excelluar to cytosol)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4059: -1
+      - s_4060: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4438
+    - name: Gly-Glu transport via proton symport (cytosol to vacuole)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4060: -1
+      - s_4061: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4439
+    - name: cytosol nonspecific dipeptidase
+    - metabolites: !!omap
+      - s_0810: -1
+      - s_0996: 1
+      - s_3839: 1
+      - s_4061: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.4.13.18
+    - confidence_score: 0
+  - !!omap
+    - id: r_4440
+    - name: L-methionine transport, vacuoluar
+    - metabolites: !!omap
+      - s_1029: -1
+      - s_3758: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4441
+    - name: L-threonine transport, vacuoluar
+    - metabolites: !!omap
+      - s_1045: -1
+      - s_4043: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4442
+    - name: Exchange reaction, cysteamine
+    - metabolites: !!omap
+      - s_4074: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4443
+    - name: 23cGMP transport via diffusion (extracellular to periplasm)
+    - metabolites: !!omap
+      - s_4094: 1
+      - s_4095: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4444
+    - name: D-Glycerate 2-phosphate transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0188: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4141: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4445
+    - name: 3-Phospho-D-glycerate transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0260: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4142: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4446
+    - name: D-glucose 1-phosphate transport via diffusion
+    - metabolites: !!omap
+      - s_0567: 1
+      - s_4145: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4447
+    - name: carbamoyl phosphate nuclear transport via diffusion
+    - metabolites: !!omap
+      - s_0455: 1
+      - s_4146: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4448
+    - name: Met-Ala transport via proton symport (excelluar to cytosol)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4143: -1
+      - s_4144: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4449
+    - name: Met-Ala transport via proton symport (cytosol to vacuole)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_3757: 1
+      - s_4144: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4450
+    - name: O-Phospho-L-serine transport in via proton symport
+    - metabolites: !!omap
+      - s_0259: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4147: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4451
+    - name: GMP transport via proton symport
+    - metabolites: !!omap
+      - s_0782: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4148: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4452
+    - name: myo-inositol phosphate transport via diffusion (extracellular to periplasm)
+    - metabolites: !!omap
+      - s_1158: 1
+      - s_4149: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4453
+    - name: Exchange rxns for g6p
+    - metabolites: !!omap
+      - s_0568: 1
+      - s_4150: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4454
+    - name: UMP transport
+    - metabolites: !!omap
+      - s_1545: 1
+      - s_4151: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4455
+    - name: Phosphoenolpyruvate transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_1360: 1
+      - s_4152: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4456
+    - name: Mannose 6-phosphate transport via diffusion (extracellular to periplasm)
+    - metabolites: !!omap
+      - s_0574: 1
+      - s_4153: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4457
+    - name: O-Phosphoryl-Ethanolamine transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_1239: 1
+      - s_4154: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4458
+    - name: 6-Phospho-D-gluconate transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0340: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4155: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4459
+    - name: MAN1P transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0573: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4156: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4460
+    - name: Pyrophosphate transport in via proton symport
+    - metabolites: !!omap
+      - s_0633: 1
+      - s_0794: 2
+      - s_0796: -2
+      - s_4157: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4461
+    - name: Choline phosphate intracellular transport
+    - metabolites: !!omap
+      - s_0514: 1
+      - s_4158: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4462
+    - name: thiosulfate transport
+    - metabolites: !!omap
+      - s_4113: 1
+      - s_4159: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4463
+    - name: AMP transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0423: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4160: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4464
+    - name: 23cAMP transport via diffusion (extracellular to periplasm)
+    - metabolites: !!omap
+      - s_0131: 1
+      - s_4161: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4465
+    - name: Adenosine- 2'-Monophosphate transport in via proton symport
+    - metabolites: !!omap
+      - s_0389: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4162: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4466
+    - name: CMP transport in/out via proton symport
+    - metabolites: !!omap
+      - s_0526: 1
+      - s_0794: 1
+      - s_0796: -1
+      - s_4163: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4467
+    - name: D-glucosamine transport via diffusion (extracellular to periplasm)
+    - metabolites: !!omap
+      - s_3953: 1
+      - s_4164: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4468
+    - name: 2-deoxy-D-ribose transport
+    - metabolites: !!omap
+      - s_0152: 1
+      - s_4165: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4469
+    - name: L-Citrulline transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_0979: 1
+      - s_4166: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4470
+    - name: Dihydroxyacetone transport via facilitated diffusion
+    - metabolites: !!omap
+      - s_0771: 1
+      - s_4167: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4471
+    - name: Ala-Leu transport via proton symport (excelluar to cytosol)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4168: -1
+      - s_4169: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4472
+    - name: Ala-Leu transport via proton symport (cytosol to vacuole)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_3840: 1
+      - s_4169: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4473
+    - name: L-alanylglycine transport via proton antiport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4170: -1
+      - s_4171: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4474
+    - name: L-alanylglycine transport via proton antiport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_3838: 1
+      - s_4171: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4475
+    - name: N-acetyl-L-glutamate transport
+    - metabolites: !!omap
+      - s_4172: -1
+      - s_4173: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4476
+    - name: N-acetyl-L-glutamate transport
+    - metabolites: !!omap
+      - s_1192: 1
+      - s_4173: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4477
+    - name: Lipoamide transport via proton symport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4174: -1
+      - s_4175: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4478
+    - name: L-methionine S-oxide diffusion (extracellular)
+    - metabolites: !!omap
+      - s_3837: 1
+      - s_4176: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4479
+    - name: Gly-Asn transport via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_4054: -1
+      - s_4055: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4480
+    - name: Cysteamine transport via proton antiport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4073: 1
+      - s_4074: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4481
+    - name: Hydrogen sulfide oxidation
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0841: -1
+      - s_1275: -2
+      - s_1467: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4482
+    - name: L-alanine transport in via proton symport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_0955: -1
+      - s_3759: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4483
+    - name: Glycine mitochondrial transport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0802: 1
+      - s_1003: -1
+      - s_3839: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4484
+    - name: O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase; O-succinyl-L-homoserine succinate-lyase (adding hydrogen sulfide)
+    - metabolites: !!omap
+      - s_0841: -1
+      - s_1012: 1
+      - s_1241: -1
+      - s_1458: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YJR130C or YLL058W or YML082W
+    - annotation: !!omap
+      - ec-code:
+        - 2.5.1.-
+        - 2.5.1.48
+      - kegg.reaction: R01288
+    - confidence_score: 0
+  - !!omap
+    - id: r_4485
+    - name: 4-Hydroxyphenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)
+    - metabolites: !!omap
+      - s_0204: -1
+      - s_0456: 1
+      - s_1275: -1
+      - s_4177: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.13.11.27
+      - kegg.reaction: R02521
+    - confidence_score: 0
+  - !!omap
+    - id: r_4486
+    - name: Homogentisate:oxygen 1,2-oxidoreductase (decyclizing)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_1275: -1
+      - s_4177: -1
+      - s_4178: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.13.11.5
+      - kegg.reaction: R02519
+    - confidence_score: 0
+  - !!omap
+    - id: r_4487
+    - name: 4-Maleylacetoacetate cis-trans-isomerase
+    - metabolites: !!omap
+      - s_4178: -1
+      - s_4179: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 5.2.1.2
+      - kegg.reaction: R03181
+    - confidence_score: 0
+  - !!omap
+    - id: r_4488
+    - name: 4-fumarylacetoacetate fumarylhydrolase
+    - metabolites: !!omap
+      - s_0725: 1
+      - s_0794: 1
+      - s_0803: -1
+      - s_4132: 1
+      - s_4179: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.7.1.2
+      - kegg.reaction: R01364
+    - confidence_score: 0
+  - !!omap
+    - id: r_4489
+    - name: L-arabinitol:NAD+ 4-oxidoreductase (L-xylulose-forming)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0961: -1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4180: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.1.1.12
+      - kegg.reaction: R01903
+    - confidence_score: 0
+  - !!omap
+    - id: r_4490
+    - name: Xylitol:NADP+ 4-oxidoreductase (L-xylulose-forming)
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_1566: 1
+      - s_4180: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.1.1.10
+      - kegg.reaction: R01904
+    - confidence_score: 0
+  - !!omap
+    - id: r_4491
+    - name: arabinose reductase (D-arabinose)
+    - metabolites: !!omap
+      - s_0548: -1
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4181: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4492
+    - name: D-arabinitol:NAT 4-oxidoreductase
+    - metabolites: !!omap
+      - s_0580: 1
+      - s_0794: 1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4181: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.1.1.11
+      - kegg.reaction: R05604
+    - confidence_score: 0
+  - !!omap
+    - id: r_4493
+    - name: Acetoacetate transport via diffusion
+    - metabolites: !!omap
+      - s_4132: 1
+      - s_4133: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4494
+    - name: Exchange rxns for meoh
+    - metabolites: !!omap
+      - s_4124: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - confidence_score: 0
+  - !!omap
+    - id: r_4495
+    - name: alkaline phosphatase
+    - metabolites: !!omap
+      - s_0386: 1
+      - s_0389: -1
+      - s_0803: -1
+      - s_1322: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.1.3.-
+    - confidence_score: 0
 - genes:
   - !!omap
     - id: Q0045
