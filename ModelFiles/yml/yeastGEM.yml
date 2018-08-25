@@ -80891,6 +80891,537 @@
     - annotation: !!omap
       - ec-code: 3.1.3.-
     - confidence_score: 0
+  - !!omap
+    - id: r_4496
+    - name: Exchange reaction, Ala-Gly [extracellular]
+    - metabolites: !!omap
+      - s_4170: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4497
+    - name: Exchange reaction, 3-oxalomalate(3-) [extracellular]
+    - metabolites: !!omap
+      - s_4137: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4498
+    - name: Exchange reaction, 6-O-alpha-D-glucopyranosyl-D-fructofuranose [extracellular]
+    - metabolites: !!omap
+      - s_4109: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4499
+    - name: Exchange reaction, 5-dehydro-D-gluconate [extracellular]
+    - metabolites: !!omap
+      - s_4118: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4500
+    - name: Exchange reaction, D-tagatose [extracellular]
+    - metabolites: !!omap
+      - s_4130: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4501
+    - name: Exchange reaction, turanose [extracellular]
+    - metabolites: !!omap
+      - s_4131: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4502
+    - name: Exchange reaction, D-glucose 6-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4150: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4503
+    - name: Exchange reaction, alpha-maltotriose [extracellular]
+    - metabolites: !!omap
+      - s_4140: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4504
+    - name: Exchange reaction, D-glucose 1-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4145: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4505
+    - name: Exchange reaction, methyl alpha-D-glucopyranoside [extracellular]
+    - metabolites: !!omap
+      - s_4125: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4506
+    - name: Exchange reaction, D-Glucosamine [extracellular]
+    - metabolites: !!omap
+      - s_4164: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4507
+    - name: Exchange reaction, glycerone [extracellular]
+    - metabolites: !!omap
+      - s_4167: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4508
+    - name: Exchange reaction, Ala-Gln [extracellular]
+    - metabolites: !!omap
+      - s_4034: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4509
+    - name: Exchange reaction, Ala-Leu [extracellular]
+    - metabolites: !!omap
+      - s_4168: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4510
+    - name: Exchange reaction, Gly-Gln [extracellular]
+    - metabolites: !!omap
+      - s_4056: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4511
+    - name: Exchange reaction, Ala-His [extracellular]
+    - metabolites: !!omap
+      - s_4050: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4512
+    - name: Exchange reaction, Gly-Asn [extracellular]
+    - metabolites: !!omap
+      - s_4053: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4513
+    - name: Exchange reaction, Ala-Glu [extracellular]
+    - metabolites: !!omap
+      - s_4037: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4514
+    - name: Exchange reaction, Gly-Met [extracellular]
+    - metabolites: !!omap
+      - s_4085: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4515
+    - name: Exchange reaction, Ala-Asp [extracellular]
+    - metabolites: !!omap
+      - s_4119: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4516
+    - name: Exchange reaction, Gly-Glu [extracellular]
+    - metabolites: !!omap
+      - s_4059: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4517
+    - name: Exchange reaction, Ala-Thr [extracellular]
+    - metabolites: !!omap
+      - s_4040: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4518
+    - name: Exchange reaction, Met-Ala [extracellular]
+    - metabolites: !!omap
+      - s_4143: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4519
+    - name: Exchange reaction, L-citrulline [extracellular]
+    - metabolites: !!omap
+      - s_4166: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4520
+    - name: Exchange reaction, 2-aminobutanoate [extracellular]
+    - metabolites: !!omap
+      - s_4080: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4521
+    - name: Exchange reaction, choline phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4158: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4522
+    - name: Exchange reaction, glycerol 1-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4049: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4523
+    - name: Exchange reaction, 2-phospho-D-glyceric acid [extracellular]
+    - metabolites: !!omap
+      - s_4141: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4524
+    - name: Exchange reaction, GMP [extracellular]
+    - metabolites: !!omap
+      - s_4148: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4525
+    - name: Exchange reaction, 3-phospho-serine [extracellular]
+    - metabolites: !!omap
+      - s_4147: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4526
+    - name: Exchange reaction, O-phosphonatooxy-D-serine(2-) [extracellular]
+    - metabolites: !!omap
+      - s_4078: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4527
+    - name: Exchange reaction, diphosphate [extracellular]
+    - metabolites: !!omap
+      - s_4157: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4528
+    - name: Exchange reaction, triphosphate [extracellular]
+    - metabolites: !!omap
+      - s_4099: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4529
+    - name: Exchange reaction, phosphoenolpyruvate [extracellular]
+    - metabolites: !!omap
+      - s_4152: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4530
+    - name: Exchange reaction, N(omega)-phospho-L-arginine [extracellular]
+    - metabolites: !!omap
+      - s_4093: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4531
+    - name: Exchange reaction, carbamoyl phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4146: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4532
+    - name: Exchange reaction, O-phosphoethanolamine [extracellular]
+    - metabolites: !!omap
+      - s_4154: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4533
+    - name: Exchange reaction, cysteamine S-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4075: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4534
+    - name: Exchange reaction, guanosine 2'-monophosphate [extracellular]
+    - metabolites: !!omap
+      - s_4067: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4535
+    - name: Exchange reaction, glycerol 2-phosphate(2-) [extracellular]
+    - metabolites: !!omap
+      - s_4063: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4536
+    - name: Exchange reaction, 3'-GMP [extracellular]
+    - metabolites: !!omap
+      - s_4069: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4537
+    - name: Exchange reaction, 2-phosphoglycolate [extracellular]
+    - metabolites: !!omap
+      - s_4070: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4538
+    - name: Exchange reaction, 6-phospho-D-gluconate [extracellular]
+    - metabolites: !!omap
+      - s_4155: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4539
+    - name: Exchange reaction, D-mannose 6-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4153: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4540
+    - name: Exchange reaction, 2',3'-cyclic GMP [extracellular]
+    - metabolites: !!omap
+      - s_4095: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4541
+    - name: Exchange reaction, O(4)-phospho-L-tyrosine [extracellular]
+    - metabolites: !!omap
+      - s_4097: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4542
+    - name: Exchange reaction, O-phospho-L-threonine [extracellular]
+    - metabolites: !!omap
+      - s_4065: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4543
+    - name: Exchange reaction, 3-phosphonato-D-glycerate(3-) [extracellular]
+    - metabolites: !!omap
+      - s_4142: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4544
+    - name: Exchange reaction, adenosine 2'-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4162: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4545
+    - name: Exchange reaction, 3'-AMP [extracellular]
+    - metabolites: !!omap
+      - s_4107: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4546
+    - name: Exchange reaction, 2',3'-cyclic AMP [extracellular]
+    - metabolites: !!omap
+      - s_4161: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4547
+    - name: Exchange reaction, D-mannose 1-phosphate [extracellular]
+    - metabolites: !!omap
+      - s_4156: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4548
+    - name: Exchange reaction, AMP [extracellular]
+    - metabolites: !!omap
+      - s_4160: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4549
+    - name: Exchange reaction, N(alpha)-acetyl-L-methionine [extracellular]
+    - metabolites: !!omap
+      - s_4135: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4550
+    - name: Exchange reaction, L-Methionine S-oxide [extracellular]
+    - metabolites: !!omap
+      - s_4176: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4551
+    - name: Exchange reaction, 3-sulfino-L-alanine [extracellular]
+    - metabolites: !!omap
+      - s_4105: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4552
+    - name: Exchange reaction, N-acetyl-L-cysteine [extracellular]
+    - metabolites: !!omap
+      - s_4111: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4553
+    - name: Exchange reaction, L-cysteate [extracellular]
+    - metabolites: !!omap
+      - s_4139: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
+  - !!omap
+    - id: r_4554
+    - name: Exchange reaction, 2-hydroxyethane-1-sulfonate [extracellular]
+    - metabolites: !!omap
+      - s_4116: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - subsystem: Exchange
+    - confidence_score: 0
 - genes:
   - !!omap
     - id: Q0045
