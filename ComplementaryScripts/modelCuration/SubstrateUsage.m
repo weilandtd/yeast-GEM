@@ -42,32 +42,27 @@ for i = 1:length(SubBiologName)
         duplicateE = find(sum(newModel.S ~= 0, 1) == 1 & any(newModel.S == -1, 1) & any(newModel.S(metEOrd(metEOrd~=0), :), 1));
         if ~isempty(duplicateE)
             warning(['Model already has the same exchange reaction you tried to add: ', newModel.rxns{duplicateE}]);
-            ExchRxn = newModel.rxns(duplicateE);
+            ExchRxn  = newModel.rxns{duplicateE};
+            ExchLB   = newModel.lb(duplicateE);
         else
             if metEOrd == 0
-                newID = getNewIndex(newModel.mets);
-                metE_temp_ID = strcat('s_',newID,'[e]');
-                newModel = addMetabolite(newModel,metE_temp_ID, ...
-                    'metName',metE);
-                %adding exchange rxn for this metE
-                newID = getNewIndex(newModel.rxns);
-                [newModel,rxnIDexists] = addReaction(newModel,['r_' newID],...
-                    'reactionName',['Exchange reaction, ',metE],...
-                    'metaboliteList',cellstr(metE_temp_ID),'stoichCoeffList',-1,...
-                    'lowerBound',0, 'upperBound',1000, 'subSystem', 'Exchange', 'checkDuplicate', false);
+                newID       = getNewIndex(newModel.mets);
+                metE_ID     = strcat('s_',newID,'[e]');
+                newModel    = addMetabolite(newModel,metE_ID,'metName',metE);
                 [~,metEOrd] = ismember(metE,newModel.metNames);
-                ExchRxn=['r_' newID];
-            else
-                %adding exchange rxn for this metE
-                newID = getNewIndex(newModel.rxns);
-                [newModel,rxnIDexists] = addReaction(newModel,['r_' newID],...
-                    'reactionName',['Exchange reaction, ',metE],...
-                    'metaboliteList',newModel.mets(metEOrd),'stoichCoeffList',-1,...
-                    'lowerBound',0, 'upperBound',1000, 'subSystem', 'Exchange', 'checkDuplicate', false);
-                [~,metEOrd] = ismember(metE,newModel.metNames);
-                ExchRxn=['r_' newID];
             end
+            %adding exchange rxn for this metE
+            newID    = getNewIndex(newModel.rxns);
+            ExchRxn  = ['r_' newID];
+            ExchLB   = 0;
         end
+        metE_ID = newModel.mets{metEOrd};
+        [newModel,rxnIDexists] = addReaction(newModel,ExchRxn, ...
+            'reactionName', [SubModelName{i}, ' exchange'], ...
+            'metaboliteList', cellstr(metE_ID), 'stoichCoeffList', -1, ...
+            'lowerBound', ExchLB, 'upperBound', 1000, 'subSystem', 'Exchange', ...
+            'checkDuplicate', false);
+        newModel = rmfield(newModel,'grRules');
         
         % Fix confidence score:
         SubRxnIndex = findRxnIDs(newModel,ExchRxn);
