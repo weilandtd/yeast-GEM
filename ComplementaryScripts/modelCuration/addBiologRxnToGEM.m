@@ -94,7 +94,7 @@ for i = 1:length(newmet.metNames)
     [~,metID] = ismember(newmet.metNames(i),model.metNames);
     if metID ~= 0
         model.metFormulas{metID} = newmet.metFormulas{i};
-        model.metCharges(metID)  =  newmet.metCharges(i);
+        model.metCharges(metID)  = newmet.metCharges(i);
         model.metKEGGID{metID}   = newmet.metKEGGID{i};
         model.metChEBIID{metID}  = newmet.metChEBIID{i};
         model.metNotes{metID}    = newmet.metNotes{i};
@@ -111,8 +111,7 @@ for i = 1:length(newrxn.ID)
     j     = find(strcmp(matrix.rxnIDs,newrxn.ID{i}));
     Met   = matrix.mets(j);
     Coef  = transpose(matrix.metcoef(j));
-    model = addReaction(model,...
-        ['r_' newID],...
+    [model,dupIndex] = addReaction(model, ['r_' newID],...
         'reactionName', newrxn.ID{i},...
         'metaboliteList',Met,...
         'stoichCoeffList',Coef,...
@@ -121,6 +120,10 @@ for i = 1:length(newrxn.ID)
         'checkDuplicate',1);
     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
+    if isempty(dupIndex)
+        dupIndex = strcmp(model.rxns,['r_' newID]);
+    end
+     model.rxnConfidenceScores(dupIndex) = 1;   %reactions without gene but needed for modelling
 end
 
 % Add gene standard name for new genes:
@@ -149,7 +152,6 @@ for i = 1:length(newrxn.ID)
         model.rxnNames{rxnID}            = newrxn.rxnNames{i};
         model.rxnECNumbers(rxnID)        = newrxn.rxnECNumbers(i);
         model.rxnKEGGID(rxnID)           = newrxn.rxnKEGGID(i);
-        model.rxnConfidenceScores(rxnID) = 1;   %reactions without gene but needed for modelling
     end
 end
 
