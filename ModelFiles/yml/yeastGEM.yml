@@ -41398,7 +41398,6 @@
       - s_0064: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1552
     - name: (S)-malate exchange
@@ -41406,7 +41405,6 @@
       - s_0067: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1553
     - name: 1-(sn-glycero-3-phospho)-1D-myo-inositol exchange
@@ -41601,7 +41599,6 @@
       - s_0181: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1587
     - name: 2-oxoglutarate transport
@@ -41993,7 +41990,6 @@
       - s_0364: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1635
     - name: acetate transport
@@ -42028,7 +42024,6 @@
       - s_0384: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1640
     - name: adenine transport
@@ -42061,7 +42056,6 @@
       - s_0387: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1644
     - name: ADP transport
@@ -42103,7 +42097,6 @@
       - s_0408: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1650
     - name: trehalose exchange
@@ -42111,7 +42104,6 @@
       - s_1521: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1651
     - name: alpha-D-glucosamine 6-phosphate exchange
@@ -42119,7 +42111,6 @@
       - s_0413: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1652
     - name: alpha-ketoglutarate/malate transporter
@@ -42138,7 +42129,6 @@
       - s_0420: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1656
     - name: AMP transport
@@ -42413,7 +42403,6 @@
       - s_0523: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1688
     - name: citrate/isocitrate antiport
@@ -42526,7 +42515,6 @@
       - s_0544: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1703
     - name: cytidylate kinase (CMP)
@@ -42556,7 +42544,6 @@
       - s_0546: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1706
     - name: D-arabinose exchange
@@ -42564,7 +42551,6 @@
       - s_0549: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1707
     - name: D-arabinose transport
@@ -42590,7 +42576,6 @@
       - s_0554: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1710
     - name: D-galactose exchange
@@ -42598,7 +42583,6 @@
       - s_0559: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1711
     - name: D-galacturonate exchange
@@ -42613,7 +42597,6 @@
       - s_0562: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1713
     - name: D-glucosamine 6-phosphate uniport
@@ -42630,7 +42613,6 @@
       - s_0565: -1
     - lower_bound: -1
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1715
     - name: D-mannose exchange
@@ -42638,7 +42620,6 @@
       - s_0572: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1716
     - name: D-ribose exchange
@@ -42646,7 +42627,6 @@
       - s_0576: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1717
     - name: D-sorbitol transport
@@ -42663,7 +42643,6 @@
       - s_0579: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1719
     - name: D-xylose transport
@@ -42755,7 +42734,6 @@
       - s_0597: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1728
     - name: deoxyadenosine transport
@@ -43025,7 +43003,6 @@
       - s_0681: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1762
     - name: ethanol transport
@@ -43171,7 +43148,6 @@
       - s_0723: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1794
     - name: formate transport
@@ -43218,7 +43194,6 @@
       - s_0726: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1800
     - name: gamma-aminobutyrate exchange
@@ -43226,7 +43201,6 @@
       - s_0736: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1801
     - name: GDP transport
@@ -43278,7 +43252,6 @@
       - s_0751: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1808
     - name: glycerol exchange
@@ -43286,7 +43259,6 @@
       - s_0766: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1809
     - name: glycerol-3-phosphate shuttle
@@ -43305,7 +43277,6 @@
       - s_1004: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1811
     - name: glycine transport
@@ -43347,7 +43318,6 @@
       - s_0780: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1816
     - name: glyoxylate transport
@@ -43373,7 +43343,6 @@
       - s_0788: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1819
     - name: guanine transport
@@ -43390,7 +43359,6 @@
       - s_0791: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1821
     - name: guanosine kinase
@@ -43631,7 +43599,6 @@
       - s_0857: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1848
     - name: inosine transport
@@ -43859,7 +43826,6 @@
       - s_0956: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1874
     - name: L-alanine transport
@@ -43876,7 +43842,6 @@
       - s_0962: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1876
     - name: L-arabinitol transport
@@ -43902,7 +43867,6 @@
       - s_0964: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1879
     - name: L-arginine exchange
@@ -43910,7 +43874,6 @@
       - s_0966: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1880
     - name: L-asparagine exchange
@@ -43918,7 +43881,6 @@
       - s_0970: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1881
     - name: L-aspartate exchange
@@ -43926,7 +43888,6 @@
       - s_0974: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1882
     - name: L-carnitine transport
@@ -43943,7 +43904,6 @@
       - s_0982: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1884
     - name: L-erythro-4-hydroxyglutamate transport
@@ -43987,7 +43947,6 @@
       - s_0992: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1890
     - name: L-glutamate transport
@@ -44004,7 +43963,6 @@
       - s_1000: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1892
     - name: L-glutamine transport
@@ -44037,7 +43995,6 @@
       - s_1015: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1897
     - name: L-isoleucine exchange
@@ -44045,7 +44002,6 @@
       - s_1017: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1898
     - name: L-isoleucine transport
@@ -44062,7 +44018,6 @@
       - s_1022: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1900
     - name: L-lysine exchange
@@ -44086,7 +44041,6 @@
       - s_1030: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1903
     - name: L-phenylalanine exchange
@@ -44094,7 +44048,6 @@
       - s_1033: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1904
     - name: L-proline exchange
@@ -44102,7 +44055,6 @@
       - s_1036: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1905
     - name: L-proline transport
@@ -44119,7 +44071,6 @@
       - s_1041: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1907
     - name: L-serine transport
@@ -44161,7 +44112,6 @@
       - s_1046: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1912
     - name: L-tryptophan exchange
@@ -44169,7 +44119,6 @@
       - s_1049: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1913
     - name: L-tyrosine exchange
@@ -44177,7 +44126,6 @@
       - s_1052: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1914
     - name: L-valine exchange
@@ -44185,7 +44133,6 @@
       - s_1057: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1915
     - name: lanosterol exchange
@@ -44317,7 +44264,6 @@
       - s_1106: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1932
     - name: mannan transport
@@ -44619,7 +44565,6 @@
       - s_1267: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_1988
     - name: oxaloacetate transport
@@ -44769,7 +44714,6 @@
       - s_1324: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_2008
     - name: phosphate transport
@@ -44908,7 +44852,6 @@
       - s_1400: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_2034
     - name: pyruvate transport
@@ -45079,7 +45022,6 @@
       - s_1459: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_2057
     - name: succinate transport
@@ -45096,7 +45038,6 @@
       - s_1466: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_2060
     - name: sulphate exchange
@@ -45104,7 +45045,6 @@
       - s_1468: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_2061
     - name: sulphite exchange
@@ -45357,7 +45297,6 @@
       - s_1553: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_2092
     - name: uridine exchange
@@ -45467,7 +45406,6 @@
       - s_1567: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_2105
     - name: xylitol transport
@@ -75101,7 +75039,6 @@
       - s_3715: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4044
     - name: melibiose exchange
@@ -80960,7 +80897,6 @@
       - s_4170: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4497
     - name: 3-oxalomalate(3-) exchange
@@ -80968,7 +80904,6 @@
       - s_4137: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4498
     - name: 6-O-alpha-D-glucopyranosyl-D-fructofuranose exchange
@@ -80976,7 +80911,6 @@
       - s_4109: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4499
     - name: 5-dehydro-D-gluconate exchange
@@ -80984,7 +80918,6 @@
       - s_4118: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4500
     - name: D-tagatose exchange
@@ -80992,7 +80925,6 @@
       - s_4130: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4501
     - name: turanose exchange
@@ -81000,7 +80932,6 @@
       - s_4131: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4502
     - name: D-glucose 6-phosphate exchange
@@ -81008,7 +80939,6 @@
       - s_4150: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4503
     - name: alpha-maltotriose exchange
@@ -81016,7 +80946,6 @@
       - s_4140: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4504
     - name: D-glucose 1-phosphate exchange
@@ -81024,7 +80953,6 @@
       - s_4145: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4505
     - name: methyl alpha-D-glucopyranoside exchange
@@ -81032,7 +80960,6 @@
       - s_4125: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4506
     - name: D-Glucosamine exchange
@@ -81040,7 +80967,6 @@
       - s_4164: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4507
     - name: glycerone exchange
@@ -81048,7 +80974,6 @@
       - s_4167: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4508
     - name: Ala-Gln exchange
@@ -81056,7 +80981,6 @@
       - s_4034: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4509
     - name: Ala-Leu exchange
@@ -81064,7 +80988,6 @@
       - s_4168: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4510
     - name: Gly-Gln exchange
@@ -81072,7 +80995,6 @@
       - s_4056: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4511
     - name: Ala-His exchange
@@ -81080,7 +81002,6 @@
       - s_4050: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4512
     - name: Gly-Asn exchange
@@ -81088,7 +81009,6 @@
       - s_4053: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4513
     - name: Ala-Glu exchange
@@ -81096,7 +81016,6 @@
       - s_4037: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4514
     - name: Gly-Met exchange
@@ -81104,7 +81023,6 @@
       - s_4085: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4515
     - name: Ala-Asp exchange
@@ -81112,7 +81030,6 @@
       - s_4119: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4516
     - name: Gly-Glu exchange
@@ -81120,7 +81037,6 @@
       - s_4059: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4517
     - name: Ala-Thr exchange
@@ -81128,7 +81044,6 @@
       - s_4040: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4518
     - name: Met-Ala exchange
@@ -81136,7 +81051,6 @@
       - s_4143: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4519
     - name: L-citrulline exchange
@@ -81144,7 +81058,6 @@
       - s_4166: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4520
     - name: 2-aminobutanoate exchange
@@ -81152,7 +81065,6 @@
       - s_4080: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4521
     - name: choline phosphate exchange
@@ -81160,7 +81072,6 @@
       - s_4158: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4522
     - name: glycerol 1-phosphate exchange
@@ -81168,7 +81079,6 @@
       - s_4049: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4523
     - name: 2-phospho-D-glyceric acid exchange
@@ -81176,7 +81086,6 @@
       - s_4141: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4524
     - name: GMP exchange
@@ -81184,7 +81093,6 @@
       - s_4148: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4525
     - name: 3-phospho-serine exchange
@@ -81192,7 +81100,6 @@
       - s_4147: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4526
     - name: O-phosphonatooxy-D-serine(2-) exchange
@@ -81200,7 +81107,6 @@
       - s_4078: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4527
     - name: diphosphate exchange
@@ -81208,7 +81114,6 @@
       - s_4157: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4528
     - name: triphosphate exchange
@@ -81216,7 +81121,6 @@
       - s_4099: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4529
     - name: phosphoenolpyruvate exchange
@@ -81224,7 +81128,6 @@
       - s_4152: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4530
     - name: N(omega)-phospho-L-arginine exchange
@@ -81232,7 +81135,6 @@
       - s_4093: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4531
     - name: carbamoyl phosphate exchange
@@ -81240,7 +81142,6 @@
       - s_4146: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4532
     - name: O-phosphoethanolamine exchange
@@ -81248,7 +81149,6 @@
       - s_4154: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4533
     - name: cysteamine S-phosphate exchange
@@ -81256,7 +81156,6 @@
       - s_4075: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4534
     - name: guanosine 2'-monophosphate exchange
@@ -81264,7 +81163,6 @@
       - s_4067: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4535
     - name: glycerol 2-phosphate(2-) exchange
@@ -81272,7 +81170,6 @@
       - s_4063: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4536
     - name: 3'-GMP exchange
@@ -81280,7 +81177,6 @@
       - s_4069: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4537
     - name: 2-phosphoglycolate exchange
@@ -81288,7 +81184,6 @@
       - s_4070: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4538
     - name: 6-phospho-D-gluconate exchange
@@ -81296,7 +81191,6 @@
       - s_4155: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4539
     - name: D-mannose 6-phosphate exchange
@@ -81304,7 +81198,6 @@
       - s_4153: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4540
     - name: 2',3'-cyclic GMP exchange
@@ -81312,7 +81205,6 @@
       - s_4095: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4541
     - name: O(4)-phospho-L-tyrosine exchange
@@ -81320,7 +81212,6 @@
       - s_4097: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4542
     - name: O-phospho-L-threonine exchange
@@ -81328,7 +81219,6 @@
       - s_4065: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4543
     - name: 3-phosphonato-D-glycerate(3-) exchange
@@ -81336,7 +81226,6 @@
       - s_4142: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4544
     - name: adenosine 2'-phosphate exchange
@@ -81344,7 +81233,6 @@
       - s_4162: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4545
     - name: 3'-AMP exchange
@@ -81352,7 +81240,6 @@
       - s_4107: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4546
     - name: 2',3'-cyclic AMP exchange
@@ -81360,7 +81247,6 @@
       - s_4161: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4547
     - name: D-mannose 1-phosphate exchange
@@ -81368,7 +81254,6 @@
       - s_4156: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4548
     - name: AMP exchange
@@ -81376,7 +81261,6 @@
       - s_4160: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4549
     - name: N(alpha)-acetyl-L-methionine exchange
@@ -81384,7 +81268,6 @@
       - s_4135: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4550
     - name: L-Methionine S-oxide exchange
@@ -81392,7 +81275,6 @@
       - s_4176: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4551
     - name: 3-sulfino-L-alanine exchange
@@ -81400,7 +81282,6 @@
       - s_4105: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4552
     - name: N-acetyl-L-cysteine exchange
@@ -81408,7 +81289,6 @@
       - s_4111: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4553
     - name: L-cysteate exchange
@@ -81416,7 +81296,6 @@
       - s_4139: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4554
     - name: 2-hydroxyethane-1-sulfonate exchange
@@ -81424,7 +81303,6 @@
       - s_4116: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4555
     - name: acetoacetate exchange
@@ -81432,7 +81310,6 @@
       - s_4133: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4556
     - name: N-acetyl-L-glutamate exchange
@@ -81440,7 +81317,6 @@
       - s_4172: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4557
     - name: UMP exchange
@@ -81448,7 +81324,6 @@
       - s_4151: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4558
     - name: CMP exchange
@@ -81456,7 +81331,6 @@
       - s_4163: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4559
     - name: thymidine 5'-monophosphate exchange
@@ -81464,7 +81338,6 @@
       - s_4047: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4560
     - name: thymidine 3'-monophosphate exchange
@@ -81472,7 +81345,6 @@
       - s_4045: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4561
     - name: cytidine 2'-phosphate exchange
@@ -81480,7 +81352,6 @@
       - s_4101: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4562
     - name: uridine 2'-phosphate exchange
@@ -81488,7 +81359,6 @@
       - s_4082: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4563
     - name: 3'-UMP exchange
@@ -81496,7 +81366,6 @@
       - s_4084: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4564
     - name: 2',3'-cyclic CMP exchange
@@ -81504,7 +81373,6 @@
       - s_4127: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
   - !!omap
     - id: r_4565
     - name: 2',3'-cyclic UMP exchange
@@ -81512,7 +81380,6 @@
       - s_4103: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Exchange
 - genes:
   - !!omap
     - id: Q0045
