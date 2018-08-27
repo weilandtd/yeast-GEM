@@ -43995,7 +43995,6 @@
       - s_1015: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
   - !!omap
     - id: r_1897
     - name: L-isoleucine exchange
@@ -79169,7 +79168,7 @@
       - s_4067: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4347
     - name: Guanosine 3'-phosphate phosphohydrolase
@@ -79194,7 +79193,7 @@
       - s_4069: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4349
     - name: 2-Phosphoglycolate transport in/out via proton symport
@@ -79241,7 +79240,7 @@
       - s_4075: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4353
     - name: Cysteamine:oxygen oxidoreductase
@@ -79296,7 +79295,7 @@
       - s_4080: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4357
     - name: alkaline phosphatase
@@ -79392,7 +79391,7 @@
       - s_4090: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4365
     - name: creatinine transport
@@ -79403,7 +79402,7 @@
       - s_4091: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4366
     - name: ATP:L-arginine Nomega-phosphotransferase
@@ -79878,7 +79877,7 @@
       - s_4049: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4406
     - name: D-O-Phosphoserine transport in/out via proton symport
@@ -80251,7 +80250,7 @@
       - s_4046: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4437
     - name: Gly-Glu transport via proton symport (excelluar to cytosol)
@@ -80262,7 +80261,7 @@
       - s_4060: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4438
     - name: Gly-Glu transport via proton symport (cytosol to vacuole)
@@ -80273,7 +80272,7 @@
       - s_4061: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4439
     - name: cytosol nonspecific dipeptidase
@@ -80295,7 +80294,7 @@
       - s_3758: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4441
     - name: L-threonine transport, vacuoluar
@@ -80304,7 +80303,7 @@
       - s_4043: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4442
     - name: Exchange reaction, cysteamine
@@ -80312,7 +80311,7 @@
       - s_4074: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4443
     - name: 23cGMP transport via diffusion (extracellular to periplasm)
@@ -80372,7 +80371,7 @@
       - s_4144: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4449
     - name: Met-Ala transport via proton symport (cytosol to vacuole)
@@ -80383,7 +80382,7 @@
       - s_4144: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4450
     - name: O-Phospho-L-serine transport in via proton symport
@@ -80574,7 +80573,7 @@
       - s_4165: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4469
     - name: L-Citrulline transport in via proton symport
@@ -80605,7 +80604,7 @@
       - s_4169: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4472
     - name: Ala-Leu transport via proton symport (cytosol to vacuole)
@@ -80616,7 +80615,7 @@
       - s_4169: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4473
     - name: L-alanylglycine transport via proton antiport
@@ -80647,7 +80646,7 @@
       - s_4173: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4476
     - name: N-acetyl-L-glutamate transport
@@ -80709,7 +80708,7 @@
       - s_1467: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4482
     - name: L-alanine transport in via proton symport
@@ -80845,7 +80844,7 @@
       - s_4181: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4492
     - name: D-arabinitol:NAT 4-oxidoreductase
@@ -80899,7 +80898,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4497
     - name: Exchange reaction, 3-oxalomalate(3-) [extracellular]
@@ -80908,7 +80906,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4498
     - name: Exchange reaction, 6-O-alpha-D-glucopyranosyl-D-fructofuranose [extracellular]
@@ -80917,7 +80914,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4499
     - name: Exchange reaction, 5-dehydro-D-gluconate [extracellular]
@@ -80926,7 +80922,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4500
     - name: Exchange reaction, D-tagatose [extracellular]
@@ -80935,7 +80930,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4501
     - name: Exchange reaction, turanose [extracellular]
@@ -80944,7 +80938,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4502
     - name: Exchange reaction, D-glucose 6-phosphate [extracellular]
@@ -80953,7 +80946,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4503
     - name: Exchange reaction, alpha-maltotriose [extracellular]
@@ -80962,7 +80954,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4504
     - name: Exchange reaction, D-glucose 1-phosphate [extracellular]
@@ -80971,7 +80962,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4505
     - name: Exchange reaction, methyl alpha-D-glucopyranoside [extracellular]
@@ -80980,7 +80970,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4506
     - name: Exchange reaction, D-Glucosamine [extracellular]
@@ -80989,7 +80978,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4507
     - name: Exchange reaction, glycerone [extracellular]
@@ -80998,7 +80986,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4508
     - name: Exchange reaction, Ala-Gln [extracellular]
@@ -81007,7 +80994,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4509
     - name: Exchange reaction, Ala-Leu [extracellular]
@@ -81016,7 +81002,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4510
     - name: Exchange reaction, Gly-Gln [extracellular]
@@ -81025,7 +81010,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4511
     - name: Exchange reaction, Ala-His [extracellular]
@@ -81034,7 +81018,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4512
     - name: Exchange reaction, Gly-Asn [extracellular]
@@ -81043,7 +81026,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4513
     - name: Exchange reaction, Ala-Glu [extracellular]
@@ -81052,7 +81034,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4514
     - name: Exchange reaction, Gly-Met [extracellular]
@@ -81061,7 +81042,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4515
     - name: Exchange reaction, Ala-Asp [extracellular]
@@ -81070,7 +81050,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4516
     - name: Exchange reaction, Gly-Glu [extracellular]
@@ -81079,7 +81058,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4517
     - name: Exchange reaction, Ala-Thr [extracellular]
@@ -81088,7 +81066,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4518
     - name: Exchange reaction, Met-Ala [extracellular]
@@ -81097,7 +81074,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4519
     - name: Exchange reaction, L-citrulline [extracellular]
@@ -81106,7 +81082,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4520
     - name: Exchange reaction, 2-aminobutanoate [extracellular]
@@ -81115,7 +81090,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4521
     - name: Exchange reaction, choline phosphate [extracellular]
@@ -81124,7 +81098,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4522
     - name: Exchange reaction, glycerol 1-phosphate [extracellular]
@@ -81133,7 +81106,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4523
     - name: Exchange reaction, 2-phospho-D-glyceric acid [extracellular]
@@ -81142,7 +81114,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4524
     - name: Exchange reaction, GMP [extracellular]
@@ -81151,7 +81122,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4525
     - name: Exchange reaction, 3-phospho-serine [extracellular]
@@ -81160,7 +81130,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4526
     - name: Exchange reaction, O-phosphonatooxy-D-serine(2-) [extracellular]
@@ -81169,7 +81138,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4527
     - name: Exchange reaction, diphosphate [extracellular]
@@ -81178,7 +81146,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4528
     - name: Exchange reaction, triphosphate [extracellular]
@@ -81187,7 +81154,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4529
     - name: Exchange reaction, phosphoenolpyruvate [extracellular]
@@ -81196,7 +81162,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4530
     - name: Exchange reaction, N(omega)-phospho-L-arginine [extracellular]
@@ -81205,7 +81170,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4531
     - name: Exchange reaction, carbamoyl phosphate [extracellular]
@@ -81214,7 +81178,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4532
     - name: Exchange reaction, O-phosphoethanolamine [extracellular]
@@ -81223,7 +81186,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4533
     - name: Exchange reaction, cysteamine S-phosphate [extracellular]
@@ -81232,7 +81194,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4534
     - name: Exchange reaction, guanosine 2'-monophosphate [extracellular]
@@ -81241,7 +81202,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4535
     - name: Exchange reaction, glycerol 2-phosphate(2-) [extracellular]
@@ -81250,7 +81210,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4536
     - name: Exchange reaction, 3'-GMP [extracellular]
@@ -81259,7 +81218,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4537
     - name: Exchange reaction, 2-phosphoglycolate [extracellular]
@@ -81268,7 +81226,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4538
     - name: Exchange reaction, 6-phospho-D-gluconate [extracellular]
@@ -81277,7 +81234,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4539
     - name: Exchange reaction, D-mannose 6-phosphate [extracellular]
@@ -81286,7 +81242,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4540
     - name: Exchange reaction, 2',3'-cyclic GMP [extracellular]
@@ -81295,7 +81250,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4541
     - name: Exchange reaction, O(4)-phospho-L-tyrosine [extracellular]
@@ -81304,7 +81258,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4542
     - name: Exchange reaction, O-phospho-L-threonine [extracellular]
@@ -81313,7 +81266,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4543
     - name: Exchange reaction, 3-phosphonato-D-glycerate(3-) [extracellular]
@@ -81322,7 +81274,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4544
     - name: Exchange reaction, adenosine 2'-phosphate [extracellular]
@@ -81331,7 +81282,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4545
     - name: Exchange reaction, 3'-AMP [extracellular]
@@ -81340,7 +81290,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4546
     - name: Exchange reaction, 2',3'-cyclic AMP [extracellular]
@@ -81349,7 +81298,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4547
     - name: Exchange reaction, D-mannose 1-phosphate [extracellular]
@@ -81358,7 +81306,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4548
     - name: Exchange reaction, AMP [extracellular]
@@ -81367,7 +81314,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4549
     - name: Exchange reaction, N(alpha)-acetyl-L-methionine [extracellular]
@@ -81376,7 +81322,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4550
     - name: Exchange reaction, L-Methionine S-oxide [extracellular]
@@ -81385,7 +81330,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4551
     - name: Exchange reaction, 3-sulfino-L-alanine [extracellular]
@@ -81394,7 +81338,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4552
     - name: Exchange reaction, N-acetyl-L-cysteine [extracellular]
@@ -81403,7 +81346,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4553
     - name: Exchange reaction, L-cysteate [extracellular]
@@ -81412,7 +81354,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4554
     - name: Exchange reaction, 2-hydroxyethane-1-sulfonate [extracellular]
@@ -81421,7 +81362,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4555
     - name: Exchange reaction, acetoacetate [extracellular]
@@ -81430,7 +81370,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4556
     - name: Exchange reaction, N-acetyl-L-glutamate [extracellular]
@@ -81439,7 +81378,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4557
     - name: Exchange reaction, UMP [extracellular]
@@ -81448,7 +81386,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4558
     - name: Exchange reaction, CMP [extracellular]
@@ -81457,7 +81394,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4559
     - name: Exchange reaction, thymidine 5'-monophosphate [extracellular]
@@ -81466,7 +81402,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4560
     - name: Exchange reaction, thymidine 3'-monophosphate [extracellular]
@@ -81475,7 +81410,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4561
     - name: Exchange reaction, cytidine 2'-phosphate [extracellular]
@@ -81484,7 +81418,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4562
     - name: Exchange reaction, uridine 2'-phosphate [extracellular]
@@ -81493,7 +81426,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4563
     - name: Exchange reaction, 3'-UMP [extracellular]
@@ -81502,7 +81434,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4564
     - name: Exchange reaction, 2',3'-cyclic CMP [extracellular]
@@ -81511,7 +81442,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
   - !!omap
     - id: r_4565
     - name: Exchange reaction, 2',3'-cyclic UMP [extracellular]
@@ -81520,7 +81450,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - subsystem: Exchange
-    - confidence_score: 0
 - genes:
   - !!omap
     - id: Q0045

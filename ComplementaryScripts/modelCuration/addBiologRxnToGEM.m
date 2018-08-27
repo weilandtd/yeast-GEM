@@ -146,9 +146,10 @@ end
 for i = 1:length(newrxn.ID)
     [~,rxnID] = ismember(newrxn.ID(i),model.rxnNames);
     if rxnID ~= 0
-        model.rxnNames{rxnID}     = newrxn.rxnNames{i};
-        model.rxnECNumbers(rxnID) = newrxn.rxnECNumbers(i);
-        model.rxnKEGGID(rxnID)    = newrxn.rxnKEGGID(i);
+        model.rxnNames{rxnID}            = newrxn.rxnNames{i};
+        model.rxnECNumbers(rxnID)        = newrxn.rxnECNumbers(i);
+        model.rxnKEGGID(rxnID)           = newrxn.rxnKEGGID(i);
+        model.rxnConfidenceScores(rxnID) = 1;   %reactions without gene but needed for modelling
     end
 end
 

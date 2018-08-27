@@ -69,6 +69,10 @@ for i = 1:length(SubBiologName)
             end
         end
         
+        % Fix confidence score:
+        SubRxnIndex = findRxnIDs(newModel,ExchRxn);
+        newModel.rxnConfidenceScores(SubRxnIndex) = NaN;    %exchange rxns
+        
         % Change media:
         newModel_test = newModel;
         exchangeRxns  = findExcRxns(newModel_test);
@@ -83,7 +87,6 @@ for i = 1:length(SubBiologName)
         amoExchange = {'r_1654'}; % ammonium exchange
         phoExchange = {'r_2005'}; % phosphate exchange
         sulExchange = {'r_2060'}; % phosphate exchange
-        SubRxnIndex      = findRxnIDs(newModel_test,ExchRxn);
         uptakeRxnIndexes = findRxnIDs(newModel_test,commonExchanges);
         amoExchangeIndex = findRxnIDs(newModel_test,amoExchange);
         phoExchangeIndex = findRxnIDs(newModel_test,phoExchange);
