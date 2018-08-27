@@ -69,59 +69,46 @@ for i = 1:length(SubBiologName)
             end
         end
         
-        % Model prediction:
+        % Change media:
         newModel_test = newModel;
-        exchangeRxns = findExcRxns(newModel_test);
+        exchangeRxns  = findExcRxns(newModel_test);
         newModel_test.lb(exchangeRxns) = 0;
         newModel_test.ub(exchangeRxns) = 1000;
-        desiredExchanges = {...
-            'r_1992'; ... % 'oxygen exchange';
-            'r_1861'; ... % iron for test of expanded biomass def;
-            'r_1832'; ... % hydrogen exchange;
+        commonExchanges = {...
+            'r_1992'; ... % oxygen exchange
+            'r_1861'; ... % iron exchange
+            'r_1832'; ... % hydrogen exchange
             };
-        glcExchange = {'r_1714'};% D-glucose exchange'
-        amoExchange = {'r_1654'}; % 'ammonium exchange'
-        phoExchange = {'r_2005'}; % 'phosphate exchange'
-        sulExchange = {'r_2060'}; % 'phosphate exchange'
-        uptakeRxnIndexes = findRxnIDs(newModel_test,desiredExchanges);
+        glcExchange = {'r_1714'}; % D-glucose exchange
+        amoExchange = {'r_1654'}; % ammonium exchange
+        phoExchange = {'r_2005'}; % phosphate exchange
+        sulExchange = {'r_2060'}; % phosphate exchange
+        SubRxnIndex      = findRxnIDs(newModel_test,ExchRxn);
+        uptakeRxnIndexes = findRxnIDs(newModel_test,commonExchanges);
         amoExchangeIndex = findRxnIDs(newModel_test,amoExchange);
         phoExchangeIndex = findRxnIDs(newModel_test,phoExchange);
         glcExchangeIndex = findRxnIDs(newModel_test,glcExchange);
         sulExchangeIndex = findRxnIDs(newModel_test,sulExchange);
-        if length(uptakeRxnIndexes) ~= 3 %5;
+        if length(uptakeRxnIndexes) ~= 3
             error('Not all exchange reactions were found.')
         end
-        newModel_test.lb(uptakeRxnIndexes)=-1000;
-        [~,ord] = ismember(metE,ExchRxn);
+        newModel_test.lb(uptakeRxnIndexes) = -1000;
+        newModel_test.lb(glcExchangeIndex) = -10;
+        newModel_test.lb(amoExchangeIndex) = -1000;
+        newModel_test.lb(phoExchangeIndex) = -1000;
+        newModel_test.lb(sulExchangeIndex) = -1000;
         if Subtype{i} == 'C'
-            newModel_test.lb(sulExchangeIndex)=-1000;
-            newModel_test.lb(amoExchangeIndex)=-1000;
-            newModel_test.lb(phoExchangeIndex)=-1000;
-            newModel_test.lb(glcExchangeIndex)=0;
-            SubRxnIndexes = findRxnIDs(newModel_test,ExchRxn);
-            newModel_test.lb(SubRxnIndexes)=-10;
+            newModel_test.lb(glcExchangeIndex) = 0;
         elseif Subtype{i} == 'N'
-            newModel_test.lb(sulExchangeIndex)=-1000;
-            newModel_test.lb(amoExchangeIndex)=0;
-            newModel_test.lb(phoExchangeIndex)=-1000;
-            newModel_test.lb(glcExchangeIndex)=-10;
-            SubRxnIndexes = findRxnIDs(newModel_test,ExchRxn);
-            newModel_test.lb(SubRxnIndexes)=-10;
+            newModel_test.lb(amoExchangeIndex) = 0;
         elseif Subtype{i} == 'P'
-            newModel_test.lb(sulExchangeIndex)=-1000;
-            newModel_test.lb(amoExchangeIndex)=-1000;
-            newModel_test.lb(phoExchangeIndex)=0;
-            newModel_test.lb(glcExchangeIndex)=-10;
-            SubRxnIndexes = findRxnIDs(newModel_test,ExchRxn);
-            newModel_test.lb(SubRxnIndexes)=-1000;
+            newModel_test.lb(phoExchangeIndex) = 0;
         elseif Subtype{i} == 'S'
-            newModel_test.lb(sulExchangeIndex)=0;
-            newModel_test.lb(amoExchangeIndex)=-1000;
-            newModel_test.lb(phoExchangeIndex)=-1000;
-            newModel_test.lb(glcExchangeIndex)=-10;
-            SubRxnIndexes = findRxnIDs(newModel_test,ExchRxn);
-            newModel_test.lb(SubRxnIndexes)=-1000;
+            newModel_test.lb(sulExchangeIndex) = 0;
         end
+        newModel_test.lb(SubRxnIndex) = -10;
+        
+        % Simulate model:
         sol = optimizeCbModel(newModel_test);
         if sol.obj > 0.000001
             model = newModel;
