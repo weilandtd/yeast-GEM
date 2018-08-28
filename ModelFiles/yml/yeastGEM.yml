@@ -20751,6 +20751,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73788
+      - metanetx.chemical: MNXM40495
   - !!omap
     - id: s_4035
     - name: Ala-Gln
@@ -20759,6 +20760,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73788
+      - metanetx.chemical: MNXM40495
   - !!omap
     - id: s_4036
     - name: Ala-Gln
@@ -20767,6 +20769,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73788
+      - metanetx.chemical: MNXM40495
   - !!omap
     - id: s_4037
     - name: Ala-Glu
@@ -20776,6 +20779,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61396
       - kegg.compound: C20958
+      - metanetx.chemical: MNXM4026
   - !!omap
     - id: s_4038
     - name: Ala-Glu
@@ -20785,6 +20789,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61396
       - kegg.compound: C20958
+      - metanetx.chemical: MNXM4026
   - !!omap
     - id: s_4039
     - name: Ala-Glu
@@ -20794,6 +20799,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61396
       - kegg.compound: C20958
+      - metanetx.chemical: MNXM4026
   - !!omap
     - id: s_4040
     - name: Ala-Thr
@@ -20802,6 +20808,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73762
+      - metanetx.chemical: MNXM40497
   - !!omap
     - id: s_4041
     - name: Ala-Thr
@@ -20810,6 +20817,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73762
+      - metanetx.chemical: MNXM40497
   - !!omap
     - id: s_4042
     - name: Ala-Thr
@@ -20818,6 +20826,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73762
+      - metanetx.chemical: MNXM40497
   - !!omap
     - id: s_4043
     - name: L-threonine
@@ -20827,6 +20836,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16857
       - kegg.compound: C00188
+      - metanetx.chemical: MNXM142
   - !!omap
     - id: s_4044
     - name: thymidine 3'-monophosphate
@@ -20835,6 +20845,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:77843
+      - metanetx.chemical: MNXM87165
   - !!omap
     - id: s_4045
     - name: thymidine 3'-monophosphate
@@ -20843,6 +20854,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:77843
+      - metanetx.chemical: MNXM87165
   - !!omap
     - id: s_4046
     - name: thymidine 5'-monophosphate
@@ -20851,6 +20863,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:15245
+      - metanetx.chemical: MNXM87167
   - !!omap
     - id: s_4047
     - name: thymidine 5'-monophosphate
@@ -20859,6 +20872,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:15245
+      - metanetx.chemical: MNXM87167
   - !!omap
     - id: s_4048
     - name: glycerol 1-phosphate
@@ -20868,6 +20882,7 @@
     - annotation: !!omap
       - chebi: CHEBI:231935
       - kegg.compound: C03189
+      - metanetx.chemical: MNXM682
   - !!omap
     - id: s_4049
     - name: glycerol 1-phosphate
@@ -20877,6 +20892,7 @@
     - annotation: !!omap
       - chebi: CHEBI:231935
       - kegg.compound: C03189
+      - metanetx.chemical: MNXM682
   - !!omap
     - id: s_4050
     - name: Ala-His
@@ -20885,6 +20901,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73771
+      - metanetx.chemical: MNXM40496
   - !!omap
     - id: s_4051
     - name: Ala-His
@@ -20893,6 +20910,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73771
+      - metanetx.chemical: MNXM40496
   - !!omap
     - id: s_4052
     - name: Ala-His
@@ -20901,6 +20919,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73771
+      - metanetx.chemical: MNXM40496
   - !!omap
     - id: s_4053
     - name: Gly-Asn
@@ -20909,6 +20928,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73888
+      - metanetx.chemical: MNXM55268
   - !!omap
     - id: s_4054
     - name: Gly-Asn
@@ -20917,6 +20937,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73888
+      - metanetx.chemical: MNXM55268
   - !!omap
     - id: s_4055
     - name: Gly-Asn
@@ -20925,6 +20946,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73888
+      - metanetx.chemical: MNXM55268
   - !!omap
     - id: s_4056
     - name: Gly-Gln
@@ -20933,6 +20955,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73898
+      - metanetx.chemical: MNXM55276
   - !!omap
     - id: s_4057
     - name: Gly-Gln
@@ -20941,6 +20964,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73898
+      - metanetx.chemical: MNXM55276
   - !!omap
     - id: s_4058
     - name: Gly-Gln
@@ -20949,6 +20973,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73898
+      - metanetx.chemical: MNXM55276
   - !!omap
     - id: s_4059
     - name: Gly-Glu
@@ -20957,6 +20982,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:73784
+      - metanetx.chemical: MNXM55454
   - !!omap
     - id: s_4060
     - name: Gly-Glu
@@ -20965,6 +20991,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:73784
+      - metanetx.chemical: MNXM55454
   - !!omap
     - id: s_4061
     - name: Gly-Glu
@@ -20973,6 +21000,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:73784
+      - metanetx.chemical: MNXM55454
   - !!omap
     - id: s_4062
     - name: glycerol 2-phosphate(2-)
@@ -20982,6 +21010,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58083
       - kegg.compound: C02979
+      - metanetx.chemical: MNXM2527
   - !!omap
     - id: s_4063
     - name: glycerol 2-phosphate(2-)
@@ -20991,6 +21020,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58083
       - kegg.compound: C02979
+      - metanetx.chemical: MNXM2527
   - !!omap
     - id: s_4064
     - name: O-phospho-L-threonine
@@ -21000,6 +21030,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58675
       - kegg.compound: C12147
+      - metanetx.chemical: MNXM1492
   - !!omap
     - id: s_4065
     - name: O-phospho-L-threonine
@@ -21009,6 +21040,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58675
       - kegg.compound: C12147
+      - metanetx.chemical: MNXM1492
   - !!omap
     - id: s_4066
     - name: guanosine 2'-monophosphate
@@ -21017,6 +21049,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:74604
+      - metanetx.chemical: MNXM18285
   - !!omap
     - id: s_4067
     - name: guanosine 2'-monophosphate
@@ -21025,6 +21058,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:74604
+      - metanetx.chemical: MNXM18285
   - !!omap
     - id: s_4068
     - name: 3'-GMP
@@ -21034,6 +21068,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60732
       - kegg.compound: C06193
+      - metanetx.chemical: MNXM2183
   - !!omap
     - id: s_4069
     - name: 3'-GMP
@@ -21043,6 +21078,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60732
       - kegg.compound: C06193
+      - metanetx.chemical: MNXM2183
   - !!omap
     - id: s_4070
     - name: 2-phosphoglycolate
@@ -21052,6 +21088,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58033
       - kegg.compound: C00988
+      - metanetx.chemical: MNXM2074
   - !!omap
     - id: s_4071
     - name: 2-phosphoglycolate
@@ -21061,6 +21098,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58033
       - kegg.compound: C00988
+      - metanetx.chemical: MNXM2074
   - !!omap
     - id: s_4072
     - name: cysteamine S-phosphate
@@ -21069,6 +21107,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:74631
+      - metanetx.chemical: MNXM48297
   - !!omap
     - id: s_4073
     - name: cysteamine
@@ -21078,6 +21117,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58029
       - kegg.compound: C01678
+      - metanetx.chemical: MNXM1226
   - !!omap
     - id: s_4074
     - name: cysteamine
@@ -21087,6 +21127,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58029
       - kegg.compound: C01678
+      - metanetx.chemical: MNXM1226
   - !!omap
     - id: s_4075
     - name: cysteamine S-phosphate
@@ -21095,6 +21136,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:74631
+      - metanetx.chemical: MNXM48297
   - !!omap
     - id: s_4076
     - name: hypotaurine
@@ -21104,6 +21146,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16668
       - kegg.compound: C00519
+      - metanetx.chemical: MNXM726
   - !!omap
     - id: s_4077
     - name: O-phosphonatooxy-D-serine(2-)
@@ -21113,6 +21156,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58680
       - kegg.compound: C02532
+      - metanetx.chemical: MNXM4752
   - !!omap
     - id: s_4078
     - name: O-phosphonatooxy-D-serine(2-)
@@ -21122,6 +21166,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58680
       - kegg.compound: C02532
+      - metanetx.chemical: MNXM4752
   - !!omap
     - id: s_4079
     - name: 2-aminobutanoate
@@ -21130,6 +21175,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:35621
+      - metanetx.chemical: MNXM15850
   - !!omap
     - id: s_4080
     - name: 2-aminobutanoate
@@ -21138,6 +21184,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:35621
+      - metanetx.chemical: MNXM15850
   - !!omap
     - id: s_4081
     - name: uridine 2'-phosphate
@@ -21147,6 +21194,7 @@
     - annotation: !!omap
       - chebi: CHEBI:77802
       - kegg.compound: C03031
+      - metanetx.chemical: MNXM13238
   - !!omap
     - id: s_4082
     - name: uridine 2'-phosphate
@@ -21156,6 +21204,7 @@
     - annotation: !!omap
       - chebi: CHEBI:77802
       - kegg.compound: C03031
+      - metanetx.chemical: MNXM13238
   - !!omap
     - id: s_4083
     - name: 3'-UMP
@@ -21165,6 +21214,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60784
       - kegg.compound: C01368
+      - metanetx.chemical: MNXM2184
   - !!omap
     - id: s_4084
     - name: 3'-UMP
@@ -21174,6 +21224,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60784
       - kegg.compound: C01368
+      - metanetx.chemical: MNXM2184
   - !!omap
     - id: s_4085
     - name: Gly-Met
@@ -21182,6 +21233,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74393
+      - metanetx.chemical: MNXM55287
   - !!omap
     - id: s_4086
     - name: Gly-Met
@@ -21190,6 +21242,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74393
+      - metanetx.chemical: MNXM55287
   - !!omap
     - id: s_4087
     - name: Gly-Met
@@ -21198,6 +21251,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74393
+      - metanetx.chemical: MNXM55287
   - !!omap
     - id: s_4088
     - name: N-phosphocreatine
@@ -21206,6 +21260,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:58092
+      - metanetx.chemical: MNXM819
   - !!omap
     - id: s_4089
     - name: creatinine
@@ -21215,6 +21270,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16737
       - kegg.compound: C00791
+      - metanetx.chemical: MNXM1470
   - !!omap
     - id: s_4090
     - name: N-phosphocreatine
@@ -21223,6 +21279,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:58092
+      - metanetx.chemical: MNXM819
   - !!omap
     - id: s_4091
     - name: creatinine
@@ -21232,6 +21289,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16737
       - kegg.compound: C00791
+      - metanetx.chemical: MNXM1470
   - !!omap
     - id: s_4092
     - name: N(omega)-phospho-L-arginine
@@ -21241,6 +21299,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58477
       - kegg.compound: C05945
+      - metanetx.chemical: MNXM3663
   - !!omap
     - id: s_4093
     - name: N(omega)-phospho-L-arginine
@@ -21250,6 +21309,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58477
       - kegg.compound: C05945
+      - metanetx.chemical: MNXM3663
   - !!omap
     - id: s_4094
     - name: 2',3'-cyclic GMP
@@ -21259,6 +21319,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60837
       - kegg.compound: C06194
+      - metanetx.chemical: MNXM3149
   - !!omap
     - id: s_4095
     - name: 2',3'-cyclic GMP
@@ -21268,6 +21329,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60837
       - kegg.compound: C06194
+      - metanetx.chemical: MNXM3149
   - !!omap
     - id: s_4096
     - name: O(4)-phospho-L-tyrosine
@@ -21277,6 +21339,7 @@
     - annotation: !!omap
       - chebi: CHEBI:62338
       - kegg.compound: C06501
+      - metanetx.chemical: MNXM3323
   - !!omap
     - id: s_4097
     - name: O(4)-phospho-L-tyrosine
@@ -21286,6 +21349,7 @@
     - annotation: !!omap
       - chebi: CHEBI:62338
       - kegg.compound: C06501
+      - metanetx.chemical: MNXM3323
   - !!omap
     - id: s_4098
     - name: triphosphate
@@ -21295,6 +21359,7 @@
     - annotation: !!omap
       - chebi: CHEBI:18036
       - kegg.compound: C00536
+      - metanetx.chemical: MNXM332
   - !!omap
     - id: s_4099
     - name: triphosphate
@@ -21304,6 +21369,7 @@
     - annotation: !!omap
       - chebi: CHEBI:18036
       - kegg.compound: C00536
+      - metanetx.chemical: MNXM332
   - !!omap
     - id: s_4100
     - name: cytidine 2'-phosphate
@@ -21313,6 +21379,7 @@
     - annotation: !!omap
       - chebi: CHEBI:77766
       - kegg.compound: C03104
+      - metanetx.chemical: MNXM11237
   - !!omap
     - id: s_4101
     - name: cytidine 2'-phosphate
@@ -21322,6 +21389,7 @@
     - annotation: !!omap
       - chebi: CHEBI:77766
       - kegg.compound: C03104
+      - metanetx.chemical: MNXM11237
   - !!omap
     - id: s_4102
     - name: 2',3'-cyclic UMP
@@ -21331,6 +21399,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60873
       - kegg.compound: C02355
+      - metanetx.chemical: MNXM3150
   - !!omap
     - id: s_4103
     - name: 2',3'-cyclic UMP
@@ -21340,6 +21409,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60873
       - kegg.compound: C02355
+      - metanetx.chemical: MNXM3150
   - !!omap
     - id: s_4104
     - name: 3-sulfino-L-alanine
@@ -21349,6 +21419,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61085
       - kegg.compound: C00606
+      - metanetx.chemical: MNXM498
   - !!omap
     - id: s_4105
     - name: 3-sulfino-L-alanine
@@ -21358,6 +21429,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61085
       - kegg.compound: C00606
+      - metanetx.chemical: MNXM498
   - !!omap
     - id: s_4106
     - name: 3'-AMP
@@ -21367,6 +21439,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60880
       - kegg.compound: C01367
+      - metanetx.chemical: MNXM1985
   - !!omap
     - id: s_4107
     - name: 3'-AMP
@@ -21376,6 +21449,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60880
       - kegg.compound: C01367
+      - metanetx.chemical: MNXM1985
   - !!omap
     - id: s_4108
     - name: 6-O-alpha-D-glucopyranosyl-D-fructofuranose
@@ -21385,6 +21459,7 @@
     - annotation: !!omap
       - chebi: CHEBI:18394
       - kegg.compound: C01742
+      - metanetx.chemical: MNXM3518
   - !!omap
     - id: s_4109
     - name: 6-O-alpha-D-glucopyranosyl-D-fructofuranose
@@ -21394,6 +21469,7 @@
     - annotation: !!omap
       - chebi: CHEBI:18394
       - kegg.compound: C01742
+      - metanetx.chemical: MNXM3518
   - !!omap
     - id: s_4110
     - name: N-acetyl-L-cysteine
@@ -21403,6 +21479,7 @@
     - annotation: !!omap
       - chebi: CHEBI:78236
       - kegg.compound: C06809
+      - metanetx.chemical: MNXM98606
   - !!omap
     - id: s_4111
     - name: N-acetyl-L-cysteine
@@ -21412,6 +21489,7 @@
     - annotation: !!omap
       - chebi: CHEBI:78236
       - kegg.compound: C06809
+      - metanetx.chemical: MNXM98606
   - !!omap
     - id: s_4112
     - name: tetrathionate
@@ -21421,6 +21499,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15226
       - kegg.compound: C02084
+      - metanetx.chemical: MNXM1781
   - !!omap
     - id: s_4113
     - name: thiosulfate
@@ -21430,6 +21509,7 @@
     - annotation: !!omap
       - chebi: CHEBI:33542
       - kegg.compound: C00320
+      - metanetx.chemical: MNXM323
   - !!omap
     - id: s_4114
     - name: tetrathionate
@@ -21439,6 +21519,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15226
       - kegg.compound: C02084
+      - metanetx.chemical: MNXM1781
   - !!omap
     - id: s_4115
     - name: 2-hydroxyethane-1-sulfonate
@@ -21448,6 +21529,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61904
       - kegg.compound: C05123
+      - metanetx.chemical: MNXM1630
   - !!omap
     - id: s_4116
     - name: 2-hydroxyethane-1-sulfonate
@@ -21457,6 +21539,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61904
       - kegg.compound: C05123
+      - metanetx.chemical: MNXM1630
   - !!omap
     - id: s_4117
     - name: 5-dehydro-D-gluconate
@@ -21466,6 +21549,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58143
       - kegg.compound: C01062
+      - metanetx.chemical: MNXM963
   - !!omap
     - id: s_4118
     - name: 5-dehydro-D-gluconate
@@ -21475,6 +21559,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58143
       - kegg.compound: C01062
+      - metanetx.chemical: MNXM963
   - !!omap
     - id: s_4119
     - name: Ala-Asp
@@ -21483,6 +21568,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:74363
+      - metanetx.chemical: MNXM40494
   - !!omap
     - id: s_4120
     - name: Ala-Asp
@@ -21491,6 +21577,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:74363
+      - metanetx.chemical: MNXM40494
   - !!omap
     - id: s_4121
     - name: Ala-Asp
@@ -21499,6 +21586,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:74363
+      - metanetx.chemical: MNXM40494
   - !!omap
     - id: s_4122
     - name: methyl alpha-D-glucopyranoside
@@ -21507,6 +21595,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:320061
+      - metanetx.chemical: MNXM61741
   - !!omap
     - id: s_4123
     - name: methanol
@@ -21516,6 +21605,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17790
       - kegg.compound: C00132
+      - metanetx.chemical: MNXM157
   - !!omap
     - id: s_4124
     - name: methanol
@@ -21525,6 +21615,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17790
       - kegg.compound: C00132
+      - metanetx.chemical: MNXM157
   - !!omap
     - id: s_4125
     - name: methyl alpha-D-glucopyranoside
@@ -21533,6 +21624,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:320061
+      - metanetx.chemical: MNXM61741
   - !!omap
     - id: s_4126
     - name: 2',3'-cyclic CMP
@@ -21542,6 +21634,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60877
       - kegg.compound: C02354
+      - metanetx.chemical: MNXM3148
   - !!omap
     - id: s_4127
     - name: 2',3'-cyclic CMP
@@ -21551,6 +21644,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60877
       - kegg.compound: C02354
+      - metanetx.chemical: MNXM3148
   - !!omap
     - id: s_4128
     - name: D-tagatose
@@ -21560,6 +21654,7 @@
     - annotation: !!omap
       - chebi: CHEBI:4249
       - kegg.compound: C00795
+      - metanetx.chemical: MNXM92401
   - !!omap
     - id: s_4129
     - name: D-tagatofuranose 6-phosphate
@@ -21569,6 +21664,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58695
       - kegg.compound: C01097
+      - metanetx.chemical: MNXM795
   - !!omap
     - id: s_4130
     - name: D-tagatose
@@ -21578,6 +21674,7 @@
     - annotation: !!omap
       - chebi: CHEBI:4249
       - kegg.compound: C00795
+      - metanetx.chemical: MNXM92401
   - !!omap
     - id: s_4131
     - name: turanose
@@ -21587,6 +21684,7 @@
     - annotation: !!omap
       - chebi: CHEBI:32528
       - kegg.compound: C19636
+      - metanetx.chemical: MNXM161984
   - !!omap
     - id: s_4132
     - name: acetoacetate
@@ -21596,6 +21694,7 @@
     - annotation: !!omap
       - chebi: CHEBI:13705
       - kegg.compound: C00164
+      - metanetx.chemical: MNXM154
   - !!omap
     - id: s_4133
     - name: acetoacetate
@@ -21605,6 +21704,7 @@
     - annotation: !!omap
       - chebi: CHEBI:13705
       - kegg.compound: C00164
+      - metanetx.chemical: MNXM154
   - !!omap
     - id: s_4134
     - name: N(alpha)-acetyl-L-methionine
@@ -21614,6 +21714,7 @@
     - annotation: !!omap
       - chebi: CHEBI:132957
       - kegg.compound: C02712
+      - metanetx.chemical: MNXM7576
   - !!omap
     - id: s_4135
     - name: N(alpha)-acetyl-L-methionine
@@ -21623,6 +21724,7 @@
     - annotation: !!omap
       - chebi: CHEBI:132957
       - kegg.compound: C02712
+      - metanetx.chemical: MNXM7576
   - !!omap
     - id: s_4136
     - name: 3-oxalomalate(3-)
@@ -21632,6 +21734,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15593
       - kegg.compound: C01990
+      - metanetx.chemical: MNXM3850
   - !!omap
     - id: s_4137
     - name: 3-oxalomalate(3-)
@@ -21641,6 +21744,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15593
       - kegg.compound: C01990
+      - metanetx.chemical: MNXM3850
   - !!omap
     - id: s_4138
     - name: L-cysteate
@@ -21650,6 +21754,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58090
       - kegg.compound: C00506
+      - metanetx.chemical: MNXM713
   - !!omap
     - id: s_4139
     - name: L-cysteate
@@ -21659,6 +21764,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58090
       - kegg.compound: C00506
+      - metanetx.chemical: MNXM713
   - !!omap
     - id: s_4140
     - name: alpha-maltotriose
@@ -21668,6 +21774,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61993
       - kegg.compound: C01835
+      - metanetx.chemical: MNXM468
   - !!omap
     - id: s_4141
     - name: 2-phospho-D-glyceric acid
@@ -21677,6 +21784,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58289
       - kegg.compound: C00631
+      - metanetx.chemical: MNXM275
   - !!omap
     - id: s_4142
     - name: 3-phosphonato-D-glycerate(3-)
@@ -21686,6 +21794,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58272
       - kegg.compound: C00197
+      - metanetx.chemical: MNXM126
   - !!omap
     - id: s_4143
     - name: Met-Ala
@@ -21694,6 +21803,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73610
+      - metanetx.chemical: MNXM61647
   - !!omap
     - id: s_4144
     - name: Met-Ala
@@ -21702,6 +21812,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73610
+      - metanetx.chemical: MNXM61647
   - !!omap
     - id: s_4145
     - name: D-glucose 1-phosphate
@@ -21711,6 +21822,7 @@
     - annotation: !!omap
       - chebi: CHEBI:57629
       - kegg.compound: C00103
+      - metanetx.chemical: MNXM89588
   - !!omap
     - id: s_4146
     - name: carbamoyl phosphate
@@ -21720,6 +21832,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58228
       - kegg.compound: C00169
+      - metanetx.chemical: MNXM138
   - !!omap
     - id: s_4147
     - name: 3-phospho-serine
@@ -21729,6 +21842,7 @@
     - annotation: !!omap
       - chebi: CHEBI:57524
       - kegg.compound: C01005
+      - metanetx.chemical: MNXM379
   - !!omap
     - id: s_4148
     - name: GMP
@@ -21738,6 +21852,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58115
       - kegg.compound: C00144
+      - metanetx.chemical: MNXM113
   - !!omap
     - id: s_4149
     - name: myo-inositol hexakisphosphate
@@ -21747,6 +21862,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58130
       - kegg.compound: C01204
+      - metanetx.chemical: MNXM491
   - !!omap
     - id: s_4150
     - name: D-glucose 6-phosphate
@@ -21756,6 +21872,7 @@
     - annotation: !!omap
       - chebi: CHEBI:61548
       - kegg.compound: C00092
+      - metanetx.chemical: MNXM160
   - !!omap
     - id: s_4151
     - name: UMP
@@ -21765,6 +21882,7 @@
     - annotation: !!omap
       - chebi: CHEBI:57865
       - kegg.compound: C00105
+      - metanetx.chemical: MNXM80
   - !!omap
     - id: s_4152
     - name: phosphoenolpyruvate
@@ -21774,6 +21892,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58702
       - kegg.compound: C00074
+      - metanetx.chemical: MNXM73
   - !!omap
     - id: s_4153
     - name: D-mannose 6-phosphate
@@ -21783,6 +21902,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58735
       - kegg.compound: C00275
+      - metanetx.chemical: MNXM427
   - !!omap
     - id: s_4154
     - name: O-phosphoethanolamine
@@ -21792,6 +21912,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58190
       - kegg.compound: C00346
+      - metanetx.chemical: MNXM187
   - !!omap
     - id: s_4155
     - name: 6-phospho-D-gluconate
@@ -21801,6 +21922,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58759
       - kegg.compound: C00345
+      - metanetx.chemical: MNXM325
   - !!omap
     - id: s_4156
     - name: D-mannose 1-phosphate
@@ -21810,6 +21932,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58409
       - kegg.compound: C00636
+      - metanetx.chemical: MNXM721
   - !!omap
     - id: s_4157
     - name: diphosphate
@@ -21819,6 +21942,7 @@
     - annotation: !!omap
       - chebi: CHEBI:33019
       - kegg.compound: C00013
+      - metanetx.chemical: MNXM11
   - !!omap
     - id: s_4158
     - name: choline phosphate
@@ -21828,6 +21952,7 @@
     - annotation: !!omap
       - chebi: CHEBI:295975
       - kegg.compound: C00588
+      - metanetx.chemical: MNXM229
   - !!omap
     - id: s_4159
     - name: thiosulfate
@@ -21837,6 +21962,7 @@
     - annotation: !!omap
       - chebi: CHEBI:33542
       - kegg.compound: C00320
+      - metanetx.chemical: MNXM323
   - !!omap
     - id: s_4160
     - name: AMP
@@ -21846,6 +21972,7 @@
     - annotation: !!omap
       - chebi: CHEBI:456215
       - kegg.compound: C00020
+      - metanetx.chemical: MNXM14
   - !!omap
     - id: s_4161
     - name: 2',3'-cyclic AMP
@@ -21855,6 +21982,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60879
       - kegg.compound: C02353
+      - metanetx.chemical: MNXM2598
   - !!omap
     - id: s_4162
     - name: adenosine 2'-phosphate
@@ -21864,6 +21992,7 @@
     - annotation: !!omap
       - chebi: CHEBI:77740
       - kegg.compound: C00946
+      - metanetx.chemical: MNXM7028
   - !!omap
     - id: s_4163
     - name: CMP
@@ -21873,6 +22002,7 @@
     - annotation: !!omap
       - chebi: CHEBI:60377
       - kegg.compound: C00055
+      - metanetx.chemical: MNXM31
   - !!omap
     - id: s_4164
     - name: D-Glucosamine
@@ -21882,6 +22012,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58723
       - kegg.compound: C00329
+      - metanetx.chemical: MNXM533
   - !!omap
     - id: s_4165
     - name: 2-deoxy-D-ribose
@@ -21891,6 +22022,7 @@
     - annotation: !!omap
       - chebi: CHEBI:28816
       - kegg.compound: C08347
+      - metanetx.chemical: MNXM2474
   - !!omap
     - id: s_4166
     - name: L-citrulline
@@ -21900,6 +22032,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16349
       - kegg.compound: C00327
+      - metanetx.chemical: MNXM211
   - !!omap
     - id: s_4167
     - name: glycerone
@@ -21909,6 +22042,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16016
       - kegg.compound: C00184
+      - metanetx.chemical: MNXM460
   - !!omap
     - id: s_4168
     - name: Ala-Leu
@@ -21917,6 +22051,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73770
+      - metanetx.chemical: MNXM15786
   - !!omap
     - id: s_4169
     - name: Ala-Leu
@@ -21925,6 +22060,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73770
+      - metanetx.chemical: MNXM15786
   - !!omap
     - id: s_4170
     - name: Ala-Gly
@@ -21933,6 +22069,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73757
+      - metanetx.chemical: MNXM15783
   - !!omap
     - id: s_4171
     - name: Ala-Gly
@@ -21941,6 +22078,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73757
+      - metanetx.chemical: MNXM15783
   - !!omap
     - id: s_4172
     - name: N-acetyl-L-glutamate
@@ -21950,6 +22088,7 @@
     - annotation: !!omap
       - chebi: CHEBI:44337
       - kegg.compound: C00624
+      - metanetx.chemical: MNXM730
   - !!omap
     - id: s_4173
     - name: N-acetyl-L-glutamate
@@ -21959,6 +22098,7 @@
     - annotation: !!omap
       - chebi: CHEBI:44337
       - kegg.compound: C00624
+      - metanetx.chemical: MNXM730
   - !!omap
     - id: s_4174
     - name: lipoamide
@@ -21968,6 +22108,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17460
       - kegg.compound: C00248
+      - metanetx.chemical: MNXM1024
   - !!omap
     - id: s_4175
     - name: lipoamide
@@ -21977,6 +22118,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17460
       - kegg.compound: C00248
+      - metanetx.chemical: MNXM1024
   - !!omap
     - id: s_4176
     - name: L-Methionine S-oxide
@@ -21986,6 +22128,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17016
       - kegg.compound: C02989
+      - metanetx.chemical: MNXM2246
   - !!omap
     - id: s_4177
     - name: homogentisate
@@ -21995,6 +22138,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16169
       - kegg.compound: C00544
+      - metanetx.chemical: MNXM345
   - !!omap
     - id: s_4178
     - name: 4-maleylacetoacetate
@@ -22004,6 +22148,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17105
       - kegg.compound: C01036
+      - metanetx.chemical: MNXM691
   - !!omap
     - id: s_4179
     - name: 4-fumarylacetoacetate
@@ -22013,6 +22158,7 @@
     - annotation: !!omap
       - chebi: CHEBI:18034
       - kegg.compound: C01061
+      - metanetx.chemical: MNXM708
   - !!omap
     - id: s_4180
     - name: L-xylulose
@@ -22022,6 +22168,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17140
       - kegg.compound: C00310
+      - metanetx.chemical: MNXM597
   - !!omap
     - id: s_4181
     - name: D-arabinitol
@@ -22031,6 +22178,7 @@
     - annotation: !!omap
       - chebi: CHEBI:18333
       - kegg.compound: C01904
+      - metanetx.chemical: MNXM1018
 - reactions:
   - !!omap
     - id: r_0001

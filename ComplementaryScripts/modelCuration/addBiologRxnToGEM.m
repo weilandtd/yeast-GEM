@@ -82,22 +82,24 @@ end
 
 % Add metabolite data:
 fid = fopen('../../ComplementaryData/modelCuration/Biolog_newRxnMetAnnotation.tsv');
-newmet_annot = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
-newmet.metNames    = newmet_annot{1};
-newmet.metFormulas = newmet_annot{2};
-newmet.metCharges  = cellfun(@str2num, newmet_annot{3});
-newmet.metKEGGID   = newmet_annot{5};
-newmet.metChEBIID  = newmet_annot{6};
-newmet.metNotes    = newmet_annot{7};
+newmet_annot         = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
+newmet.metNames      = newmet_annot{1};
+newmet.metFormulas   = newmet_annot{2};
+newmet.metCharges    = cellfun(@str2num, newmet_annot{3});
+newmet.metKEGGID     = newmet_annot{5};
+newmet.metChEBIID    = newmet_annot{6};
+newmet.metMetaNetXID = newmet_annot{7};
+
 fclose(fid);
 for i = 1:length(newmet.metNames)
     [~,metID] = ismember(newmet.metNames(i),model.metNames);
     if metID ~= 0
-        model.metFormulas{metID} = newmet.metFormulas{i};
-        model.metCharges(metID)  = newmet.metCharges(i);
-        model.metKEGGID{metID}   = newmet.metKEGGID{i};
-        model.metChEBIID{metID}  = newmet.metChEBIID{i};
-        model.metNotes{metID}    = newmet.metNotes{i};
+        model.metFormulas{metID}   = newmet.metFormulas{i};
+        model.metCharges(metID)    = newmet.metCharges(i);
+        model.metKEGGID{metID}     = newmet.metKEGGID{i};
+        model.metChEBIID{metID}    = newmet.metChEBIID{i};
+        model.metMetaNetXID{metID} = newmet.metMetaNetXID{i};
+        model.metNotes{metID}      = '';
     end
 end
 
