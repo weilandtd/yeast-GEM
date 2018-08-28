@@ -6,7 +6,7 @@
 %        Biolog_newRxnMet.tsv.
 %
 % NOTE: changeGeneAssociation.m is a function from COBRA
-% 
+%
 % Feiran Li     2018-08-25
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -30,10 +30,17 @@ rev = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 newrxn.ID  = rev{1};
 newrxn.Rev = cellfun(@str2num, rev{2});
 newrxn.GPR = rev{3};
-newrxn.rxnNames     = rev{4};
-newrxn.rxnECNumbers = rev{5};
-newrxn.rxnKEGGID    = rev{6};
-newrxn.rxnNotes     = rev{7};
+newrxn.rxnNames      = rev{4};
+newrxn.rxnECNumbers  = rev{5};
+newrxn.rxnKEGGID     = rev{6};
+newrxn.rxnNotes      = rev{7};
+newrxn.rxnMetaNetXID = newrxn.ID;
+for i = 1:length(newrxn.rxnMetaNetXID)
+    if ~startsWith(newrxn.rxnMetaNetXID{i},'MNXR')
+        newrxn.rxnMetaNetXID{i} = '';
+    end
+end
+newrxn.rxnMetaNetXID = regexprep(newrxn.rxnMetaNetXID,'_cv','');
 fclose(fid);
 
 % Change coefficients for reactants:
@@ -108,12 +115,15 @@ end
 EnergyResults     = {};
 MassChargeresults = {};
 RedoxResults      = {};
+if ~isfield(model,'rxnMetaNetXID')
+    model.rxnMetaNetXID = cell(size(model.rxns));
+end
 for i = 1:length(newrxn.ID)
     newID = getNewIndex(model.rxns);
     j     = find(strcmp(matrix.rxnIDs,newrxn.ID{i}));
     Met   = matrix.mets(j);
     Coef  = transpose(matrix.metcoef(j));
-    [model,dupIndex] = addReaction(model, ['r_' newID],...
+    [model,rxnIndex] = addReaction(model, ['r_' newID],...
         'reactionName', newrxn.ID{i},...
         'metaboliteList',Met,...
         'stoichCoeffList',Coef,...
@@ -122,10 +132,15 @@ for i = 1:length(newrxn.ID)
         'checkDuplicate',1);
     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
-    if isempty(dupIndex)
-        dupIndex = strcmp(model.rxns,['r_' newID]);
+    if isempty(rxnIndex)
+        rxnIndex = strcmp(model.rxns,['r_' newID]);
     end
-     model.rxnConfidenceScores(dupIndex) = 1;   %reactions without gene but needed for modelling
+    % Add rxn annotation:
+    model.rxnNames{rxnIndex}      = newrxn.rxnNames{i};
+    model.rxnECNumbers(rxnIndex)  = newrxn.rxnECNumbers(i);
+    model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
+    model.rxnMetaNetXID(rxnIndex) = newrxn.rxnMetaNetXID(i);
+    model.rxnConfidenceScores(rxnIndex) = 1;   %reactions without gene but needed for modelling
 end
 
 % Add gene standard name for new genes:
@@ -145,16 +160,6 @@ end
 % Add protein name for genes:
 for i = 1:length(model.genes)
     model.proteins{i} = strcat('COBRAProtein',num2str(i));
-end
-
-% Add rxn annotation:
-for i = 1:length(newrxn.ID)
-    [~,rxnID] = ismember(newrxn.ID(i),model.rxnNames);
-    if rxnID ~= 0
-        model.rxnNames{rxnID}            = newrxn.rxnNames{i};
-        model.rxnECNumbers(rxnID)        = newrxn.rxnECNumbers(i);
-        model.rxnKEGGID(rxnID)           = newrxn.rxnKEGGID(i);
-    end
 end
 
 % Save model:
