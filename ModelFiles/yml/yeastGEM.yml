@@ -80454,7 +80454,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4442
-    - name: Exchange reaction, cysteamine
+    - name: cysteamine exchange
     - metabolites: !!omap
       - s_4074: -1
     - lower_bound: -1000

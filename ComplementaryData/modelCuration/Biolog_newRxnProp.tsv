@@ -100,7 +100,7 @@ Gly-Glu transport via proton symport (cytosol to vacuole)	1		Gly-Glu transport v
 MNXR123352	0		cytosol nonspecific dipeptidase	3.4.13.18		rhea:36463;Gly-Glu_N Source
 L-methionine transport, vacuoluar	1		L-methionine transport, vacuoluar			NA;L-methionine_N Source
 L-threonine transport, vacuoluar	1		L-threonine transport, vacuoluar			NA;L-threonine_N Source
-Exchange reaction, cysteamine	1		Exchange reaction, cysteamine			NA;cysteamine S-phosphate_P Source
+cysteamine exchange	1		cysteamine exchange			NA;cysteamine S-phosphate_P Source
 MNXR94721	1		23cGMP transport via diffusion (extracellular to periplasm)			seed:rxn07927;2',3'-cyclic GMP_P Source
 MNXR94824	1		D-Glycerate 2-phosphate transport in/out via proton symport			seed:rxn05474;2-phospho-D-glyceric acid_P Source
 MNXR94973	1		3-Phospho-D-glycerate transport in/out via proton symport			seed:rxn05479;3-phosphonato-D-glycerate(3-)_P Source

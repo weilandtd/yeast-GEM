@@ -147,7 +147,7 @@ MNXR118734	1	cysteamine	product	cytoplasm
 MNXR137130	1	H+	reactant	extracellular
 MNXR137130	1	cysteamine	reactant	extracellular
 MNXR137130	1	cysteamine	product	cytoplasm
-Exchange reaction, cysteamine	1	cysteamine	reactant	extracellular
+cysteamine exchange	1	cysteamine	reactant	extracellular
 MNXR137130	1	H+	product	cytoplasm
 MNXR118734	1	phosphate	product	cytoplasm
 cysteamine S-phosphate transport via proton symport	1	cysteamine S-phosphate	reactant	extracellular
