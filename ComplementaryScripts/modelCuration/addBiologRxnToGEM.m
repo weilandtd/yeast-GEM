@@ -143,25 +143,6 @@ for i = 1:length(newrxn.ID)
     model.rxnConfidenceScores(rxnIndex) = 1;   %reactions without gene but needed for modelling
 end
 
-% Add gene standard name for new genes:
-fid = fopen('../../ComplementaryData/databases/SGDgeneNames.tsv');
-yeast_gene_annotation = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
-fclose(fid);
-geneIndex = zeros(1,1);
-for i = 1: length(model.genes)
-    geneIndex = strcmp(yeast_gene_annotation{1}, model.genes{i});
-    if sum(geneIndex) == 1 && ~isempty(yeast_gene_annotation{2}{geneIndex})
-        model.geneNames{i} = yeast_gene_annotation{2}{geneIndex};
-    else
-        model.geneNames{i} = model.genes{i};
-    end
-end
-
-% Add protein name for genes:
-for i = 1:length(model.genes)
-    model.proteins{i} = strcat('COBRAProtein',num2str(i));
-end
-
 % Save model:
 cd ..
 saveYeastModel(model)
