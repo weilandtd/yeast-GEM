@@ -60,9 +60,9 @@ MNXR137087	1		Ala-Gln transport via proton symport			seed:rxn12568;Ala-Gln_N Sou
 MNXR101006_cv	1		L-alanyl-L-glutamate transport in via proton symport			rhea:35131;Ala-Glu_N Source
 MNXR101619	0		Maltodextrin glucosidase (maltotriose)	3.2.1.20		seed:rxn05746;alpha-maltotriose_C Source
 Ala-Thr transport via proton symport (cytosol to vacuole)	1		Ala-Thr transport via proton symport			NA;Ala-Thr_N Source
-Ala-Thr transport via proton symport (excelluar to cytosol)	1		Ala-Thr transport via proton symport			NA;Ala-Thr_N Source
+Ala-Thr transport via proton symport (extracellular to cytosol)	1		Ala-Thr transport via proton symport (extracellular to cytosol)			NA;Ala-Thr_N Source
 MNXR103069	0	( YHR201C or YDR452W )	Triphosphate phosphohydrolase	3.6.1.25	R00138	rhea:14157;triphosphate_P Source
-Gly-Asn transport via proton symport (excelluar to cytosol)	1		Gly-Asn transport via proton symport			NA;Gly-Asn_N Source
+Gly-Asn transport via proton symport (extracellular to cytosol)	1		Gly-Asn transport via proton symport (extracellular to cytosol)			NA;Gly-Asn_N Source
 glycerol 1-phosphate transport	1		glycerol 1-phosphate transport			NA;glycerol 1-phosphate_P Source
 MNXR103244	1		D-O-Phosphoserine transport in/out via proton symport			seed:rxn05639;O-phosphonatooxy-D-serine(2-)_P Source
 MNXR103265	1		D-O-Phosphoserine phosphohydrolase	3.1.3.3	R02853	rhea:24873;O-phosphonatooxy-D-serine(2-)_P Source
@@ -95,7 +95,7 @@ thymidine 3'-monophosphate transport	1		thymidine 3-monophosphate transport			NA
 thymidine 5'-monophosphate transport	1		thymidine 5-monophosphate transport			NA;thymidine 5'-monophosphate_P Source
 RHEA:11477	0	( YIL053W or YER062C )	glycerol-1-phosphate phosphohydrolase		R08658	NA;glycerol 1-phosphate_P Source
 nucleotide-specific phosphatase (thymidine 5'-monophosphate)	0		nucleotide-specific phosphatase (thymidine 5'-monophosphate)			NA;thymidine 5'-monophosphate_P Source
-Gly-Glu transport via proton symport (excelluar to cytosol)	1		Gly-Glu transport via proton symport (excelluar to cytosol)			NA;Gly-Glu_N Source
+Gly-Glu transport via proton symport (extracellular to cytosol)	1		Gly-Glu transport via proton symport (extracellular to cytosol)			NA;Gly-Glu_N Source
 Gly-Glu transport via proton symport (cytosol to vacuole)	1		Gly-Glu transport via proton symport (cytosol to vacuole)			NA;Gly-Glu_N Source
 MNXR123352	0		cytosol nonspecific dipeptidase	3.4.13.18		rhea:36463;Gly-Glu_N Source
 L-methionine transport, vacuoluar	1		L-methionine transport, vacuoluar			NA;L-methionine_N Source
@@ -106,7 +106,7 @@ MNXR94824	1		D-Glycerate 2-phosphate transport in/out via proton symport			seed:
 MNXR94973	1		3-Phospho-D-glycerate transport in/out via proton symport			seed:rxn05479;3-phosphonato-D-glycerate(3-)_P Source
 MNXR99849	1		D-glucose 1-phosphate transport via diffusion			seed:rxn08545;D-glucose 1-phosphate_P Source
 MNXR96488	1		carbamoyl phosphate nuclear transport via diffusion			seed:rxn09823;carbamoyl phosphate_P Source
-Met-Ala transport via proton symport (excelluar to cytosol)	1		Met-Ala transport via proton symport (excelluar to cytosol)			NA;Met-Ala_N Source
+Met-Ala transport via proton symport (extracellular to cytosol)	1		Met-Ala transport via proton symport (extracellular to cytosol)			NA;Met-Ala_N Source
 Met-Ala transport via proton symport (cytosol to vacuole)	1		Met-Ala transport via proton symport (cytosol to vacuole)			NA;Met-Ala_N Source
 MNXR103245	1		O-Phospho-L-serine transport in via proton symport			seed:rxn05640;3-phospho-serine_P Source
 MNXR100385	1		GMP transport via proton symport			seed:rxn05471;GMP_P Source
@@ -129,7 +129,7 @@ MNXR100035	1		D-glucosamine transport via diffusion (extracellular to periplasm)
 2-deoxy-D-ribose transport	1		2-deoxy-D-ribose transport			NA;2-deoxy-D-ribose_C Source
 MNXR96737	1		L-Citrulline transport in via proton symport			seed:rxn05674;L-citrulline_N Source
 MNXR97367	1		Dihydroxyacetone transport via facilitated diffusion			seed:rxn05532;glycerone_C Source
-Ala-Leu transport via proton symport (excelluar to cytosol)	1		Ala-Leu transport via proton symport (excelluar to cytosol)			NA;Ala-Leu_N Source
+Ala-Leu transport via proton symport (extracellular to cytosol)	1		Ala-Leu transport via proton symport (extracellular to cytosol)			NA;Ala-Leu_N Source
 Ala-Leu transport via proton symport (cytosol to vacuole)	1		Ala-Leu transport via proton symport (cytosol to vacuole)			NA;Ala-Leu_N Source
 MNXR137133	1		L-alanylglycine transport via proton antiport			seed:rxn12625;Ala-Gly_N Source
 MNXR137133_cv	1		L-alanylglycine transport via proton antiport			seed:rxn12625;Ala-Gly_N Source

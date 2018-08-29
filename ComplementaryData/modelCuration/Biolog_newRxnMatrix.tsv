@@ -23,10 +23,10 @@ MNXR101011	1	Ala-Glu	reactant	vacuole
 MNXR101011	1	H2O	reactant	vacuole
 MNXR101011	1	L-glutamate	product	vacuole
 MNXR101011	1	L-alanine	product	vacuole
-Ala-Thr transport via proton symport (excelluar to cytosol)	1	Ala-Thr	reactant	extracellular
-Ala-Thr transport via proton symport (excelluar to cytosol)	1	H+	reactant	extracellular
-Ala-Thr transport via proton symport (excelluar to cytosol)	1	H+	product	cytoplasm
-Ala-Thr transport via proton symport (excelluar to cytosol)	1	Ala-Thr	product	cytoplasm
+Ala-Thr transport via proton symport (extracellular to cytosol)	1	Ala-Thr	reactant	extracellular
+Ala-Thr transport via proton symport (extracellular to cytosol)	1	H+	reactant	extracellular
+Ala-Thr transport via proton symport (extracellular to cytosol)	1	H+	product	cytoplasm
+Ala-Thr transport via proton symport (extracellular to cytosol)	1	Ala-Thr	product	cytoplasm
 Ala-Thr transport via proton symport (cytosol to vacuole)	1	H+	reactant	cytoplasm
 Ala-Thr transport via proton symport (cytosol to vacuole)	1	Ala-Thr	reactant	cytoplasm
 Ala-Thr transport via proton symport (cytosol to vacuole)	1	H+	product	vacuole
@@ -67,10 +67,10 @@ MNXR123347	1	Ala-His	reactant	vacuole
 MNXR123347	1	H2O	reactant	vacuole
 MNXR123347	1	L-histidine	product	vacuole
 MNXR123347	1	L-alanine	product	vacuole
-Gly-Asn transport via proton symport (excelluar to cytosol)	1	Gly-Asn	reactant	extracellular
-Gly-Asn transport via proton symport (excelluar to cytosol)	1	H+	reactant	extracellular
-Gly-Asn transport via proton symport (excelluar to cytosol)	1	H+	product	cytoplasm
-Gly-Asn transport via proton symport (excelluar to cytosol)	1	Gly-Asn	product	cytoplasm
+Gly-Asn transport via proton symport (extracellular to cytosol)	1	Gly-Asn	reactant	extracellular
+Gly-Asn transport via proton symport (extracellular to cytosol)	1	H+	reactant	extracellular
+Gly-Asn transport via proton symport (extracellular to cytosol)	1	H+	product	cytoplasm
+Gly-Asn transport via proton symport (extracellular to cytosol)	1	Gly-Asn	product	cytoplasm
 Gly-Asn transport via proton symport (cytosol to vacuole)	1	H+	reactant	cytoplasm
 Gly-Asn transport via proton symport (cytosol to vacuole)	1	Gly-Asn	reactant	cytoplasm
 Gly-Asn transport via proton symport (cytosol to vacuole)	1	H+	product	vacuole
@@ -91,10 +91,10 @@ MNXR123351	1	Gly-Gln	reactant	vacuole
 MNXR123351	1	H2O	reactant	vacuole
 MNXR123351	1	L-glycine	product	vacuole
 MNXR123351	1	L-glutamine	product	vacuole
-Gly-Glu transport via proton symport (excelluar to cytosol)	1	Gly-Glu	reactant	extracellular
-Gly-Glu transport via proton symport (excelluar to cytosol)	1	H+	reactant	extracellular
-Gly-Glu transport via proton symport (excelluar to cytosol)	1	H+	product	cytoplasm
-Gly-Glu transport via proton symport (excelluar to cytosol)	1	Gly-Glu	product	cytoplasm
+Gly-Glu transport via proton symport (extracellular to cytosol)	1	Gly-Glu	reactant	extracellular
+Gly-Glu transport via proton symport (extracellular to cytosol)	1	H+	reactant	extracellular
+Gly-Glu transport via proton symport (extracellular to cytosol)	1	H+	product	cytoplasm
+Gly-Glu transport via proton symport (extracellular to cytosol)	1	Gly-Glu	product	cytoplasm
 Gly-Glu transport via proton symport (cytosol to vacuole)	1	H+	reactant	cytoplasm
 Gly-Glu transport via proton symport (cytosol to vacuole)	1	Gly-Glu	reactant	cytoplasm
 Gly-Glu transport via proton symport (cytosol to vacuole)	1	H+	product	vacuole
@@ -412,10 +412,10 @@ MNXR94973	1	H+	reactant	extracellular
 MNXR94973	1	3-phosphonato-D-glycerate(3-)	reactant	extracellular
 MNXR94973	1	3-phosphonato-D-glycerate(3-)	product	cytoplasm
 MNXR94973	1	H+	product	cytoplasm
-Met-Ala transport via proton symport (excelluar to cytosol)	1	Met-Ala	reactant	extracellular
-Met-Ala transport via proton symport (excelluar to cytosol)	1	H+	reactant	extracellular
-Met-Ala transport via proton symport (excelluar to cytosol)	1	H+	product	cytoplasm
-Met-Ala transport via proton symport (excelluar to cytosol)	1	Met-Ala	product	cytoplasm
+Met-Ala transport via proton symport (extracellular to cytosol)	1	Met-Ala	reactant	extracellular
+Met-Ala transport via proton symport (extracellular to cytosol)	1	H+	reactant	extracellular
+Met-Ala transport via proton symport (extracellular to cytosol)	1	H+	product	cytoplasm
+Met-Ala transport via proton symport (extracellular to cytosol)	1	Met-Ala	product	cytoplasm
 Met-Ala transport via proton symport (cytosol to vacuole)	1	H+	reactant	cytoplasm
 Met-Ala transport via proton symport (cytosol to vacuole)	1	Met-Ala	reactant	cytoplasm
 Met-Ala transport via proton symport (cytosol to vacuole)	1	H+	product	vacuole
@@ -488,10 +488,10 @@ MNXR96737	1	H+	product	cytoplasm
 MNXR96737	1	L-citrulline	product	cytoplasm
 MNXR97367	1	glycerone	reactant	extracellular
 MNXR97367	1	glycerone	product	cytoplasm
-Ala-Leu transport via proton symport (excelluar to cytosol)	1	Ala-Leu	reactant	extracellular
-Ala-Leu transport via proton symport (excelluar to cytosol)	1	H+	reactant	extracellular
-Ala-Leu transport via proton symport (excelluar to cytosol)	1	H+	product	cytoplasm
-Ala-Leu transport via proton symport (excelluar to cytosol)	1	Ala-Leu	product	cytoplasm
+Ala-Leu transport via proton symport (extracellular to cytosol)	1	Ala-Leu	reactant	extracellular
+Ala-Leu transport via proton symport (extracellular to cytosol)	1	H+	reactant	extracellular
+Ala-Leu transport via proton symport (extracellular to cytosol)	1	H+	product	cytoplasm
+Ala-Leu transport via proton symport (extracellular to cytosol)	1	Ala-Leu	product	cytoplasm
 Ala-Leu transport via proton symport (cytosol to vacuole)	1	H+	reactant	cytoplasm
 Ala-Leu transport via proton symport (cytosol to vacuole)	1	Ala-Leu	reactant	cytoplasm
 Ala-Leu transport via proton symport (cytosol to vacuole)	1	H+	product	vacuole

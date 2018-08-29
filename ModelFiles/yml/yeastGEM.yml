@@ -79982,7 +79982,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4402
-    - name: Ala-Thr transport via proton symport
+    - name: Ala-Thr transport via proton symport (extracellular to cytosol)
     - metabolites: !!omap
       - s_0794: 1
       - s_0796: -1
@@ -80008,7 +80008,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4404
-    - name: Gly-Asn transport via proton symport
+    - name: Gly-Asn transport via proton symport (extracellular to cytosol)
     - metabolites: !!omap
       - s_0794: 1
       - s_0796: -1
@@ -80401,7 +80401,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4437
-    - name: Gly-Glu transport via proton symport (excelluar to cytosol)
+    - name: Gly-Glu transport via proton symport (extracellular to cytosol)
     - metabolites: !!omap
       - s_0794: 1
       - s_0796: -1
@@ -80511,7 +80511,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4448
-    - name: Met-Ala transport via proton symport (excelluar to cytosol)
+    - name: Met-Ala transport via proton symport (extracellular to cytosol)
     - metabolites: !!omap
       - s_0794: 1
       - s_0796: -1
@@ -80744,7 +80744,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4471
-    - name: Ala-Leu transport via proton symport (excelluar to cytosol)
+    - name: Ala-Leu transport via proton symport (extracellular to cytosol)
     - metabolites: !!omap
       - s_0794: 1
       - s_0796: -1
