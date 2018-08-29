@@ -1,5 +1,5 @@
 rxnID	rev	GPR	rxn_name_seed	EC	rxnID_kegg	Source;reason
-MNXR98598	1		Exchange rxns for glyc			bigg:EX_glyc2p_e;glycerol 2-phosphate(2-)_P Source
+MNXR98598	1		glycerol 2-phosphate(2-) transport			bigg:EX_glyc2p_e;glycerol 2-phosphate(2-)_P Source
 MNXR99852	0		Glycerol-2-phosphate phosphohydrolase	3.1.3.19	R01043	rhea:13105;glycerol 2-phosphate(2-)_P Source
 MNXR136678	1		L-Threonine phosphate transport in via proton symport			seed:rxn11407;O-phospho-L-threonine_P Source
 MNXR103332	0		acid phosphatase / phosphotransferase	3.1.3.-		rhea:30579;O-phospho-L-threonine_P Source
@@ -36,7 +36,7 @@ MNXR123155	0		3-Sulfino-L-alanine 4-carboxy-lyase	3.13.1.-	R00863	rhea:28278;3-s
 MNXR137086	1		3-Sulfino-L-alanine transport via proton antiport			seed:rxn12567;3-sulfino-L-alanine_S Source
 MNXR94935	0		adenosine 3'-phosphate phosphohydrolase	3.1.3.6	R01562	rhea:27898;3'-AMP_P Source
 MNXR94857	1		3AMP transport via diffusion (extracellular to periplasm)			seed:rxn07973;3'-AMP_P Source
-MNXR130717	0		α-glucosidase	3.2.1.20		sabiork:11700;6-O-alpha-D-glucopyranosyl-D-fructofuranose_C Source
+MNXR130717	0		alpha-glucosidase	3.2.1.20		sabiork:11700;6-O-alpha-D-glucopyranosyl-D-fructofuranose_C Source
 MNXR102339	1		Palatinose transport in via proton symport			seed:rxn05629;6-O-alpha-D-glucopyranosyl-D-fructofuranose_C Source
 MNXR103637	1		Amino-Acid N-Acetyltransferase			bigg:RE2223M;N-acetyl-L-cysteine_S Source
 MNXR137052	1		Acetylcysteine transport via proton symport			seed:rxn12528;N-acetyl-L-cysteine_S Source
@@ -111,7 +111,7 @@ Met-Ala transport via proton symport (cytosol to vacuole)	1		Met-Ala transport v
 MNXR103245	1		O-Phospho-L-serine transport in via proton symport			seed:rxn05640;3-phospho-serine_P Source
 MNXR100385	1		GMP transport via proton symport			seed:rxn05471;GMP_P Source
 MNXR101585	1		myo-inositol phosphate transport via diffusion (extracellular to periplasm)			seed:rxn08925;myo-inositol hexakisphosphate_P Source
-MNXR98531	1		Exchange rxns for g6p			bigg:EX_g6p_e;D-glucose 6-phosphate_P Source
+MNXR98531	1		D-glucose 6-phosphate transport			bigg:EX_g6p_e;D-glucose 6-phosphate_P Source
 MNXR105127	1		UMP transport			rhea:27926;UMP_P Source
 MNXR102493	1		Phosphoenolpyruvate transport in via proton symport			seed:rxn05630;phosphoenolpyruvate_P Source
 MNXR101385	1		Mannose 6-phosphate transport via diffusion (extracellular to periplasm)			seed:rxn08880;D-mannose 6-phosphate_P Source
@@ -152,5 +152,5 @@ MNXR105265	1		Xylitol:NADP+ 4-oxidoreductase (L-xylulose-forming)	1.1.1.10	R0190
 arabinose reductase (D-arabinose)	0		arabinose reductase (D-arabinose)			NA;D-arabinose_C Source
 MNXR95188	0		D-arabinitol:NAT 4-oxidoreductase	1.1.1.11	R05604	rhea:17921;D-arabinose_C Source
 MNXR95208	1		Acetoacetate transport via diffusion			rhea:29751;acetoacetate_C Source
-MNXR98748	1		Exchange rxns for meoh			bigg:EX_meoh_e;methyl alpha-D-glucopyranoside_C Source
+MNXR98748	1		methanol exchange			bigg:EX_meoh_e;methyl alpha-D-glucopyranoside_C Source
 MNXR118733	0		alkaline phosphatase	3.1.3.-		rhea:37343;adenosine 2'-phosphate_P Source

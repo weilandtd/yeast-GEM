@@ -79248,7 +79248,7 @@
     - confidence_score: 0
   - !!omap
     - id: r_4341
-    - name: Exchange rxns for glyc
+    - name: glycerol 2-phosphate(2-) transport
     - metabolites: !!omap
       - s_4062: 1
       - s_4063: -1
@@ -79697,7 +79697,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4378
-    - name: α-glucosidase
+    - name: alpha-glucosidase
     - metabolites: !!omap
       - s_0553: 1
       - s_0563: 1
@@ -80564,7 +80564,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4453
-    - name: Exchange rxns for g6p
+    - name: D-glucose 6-phosphate transport
     - metabolites: !!omap
       - s_0568: 1
       - s_4150: -1
@@ -81019,7 +81019,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4494
-    - name: Exchange rxns for meoh
+    - name: methanol exchange
     - metabolites: !!omap
       - s_4124: -1
     - lower_bound: -1000
