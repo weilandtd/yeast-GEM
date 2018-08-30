@@ -80817,7 +80817,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4478
-    - name: L-methionine S-oxide diffusion (extracellular)
+    - name: L-methionine S-oxide transport via diffusion (extracellular)
     - metabolites: !!omap
       - s_3837: 1
       - s_4176: -1
@@ -80870,7 +80870,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4483
-    - name: Glycine mitochondrial transport
+    - name: Glycine transport (vacuole)
     - metabolites: !!omap
       - s_0794: -1
       - s_0802: 1

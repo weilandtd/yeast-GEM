@@ -136,12 +136,12 @@ MNXR137133_cv	1		L-alanylglycine transport via proton antiport			seed:rxn12625;A
 N-acetyl-L-glutamate transport	1		N-acetyl-L-glutamate transport			NA;N-acetyl-L-glutamate_N Source
 N-acetyl-L-glutamate transport, mitochondrion	1		N-acetyl-L-glutamate transport			NA;N-acetyl-L-glutamate_N Source
 MNXR137094	1		Lipoamide transport via proton symport			seed:rxn12577;lipoamide_S Source
-MNXR101483	1		L-methionine S-oxide diffusion (extracellular)			seed:rxn08915;L-Methionine S-oxide_S Source
+MNXR101483	1		L-methionine S-oxide transport via diffusion (extracellular)			seed:rxn08915;L-Methionine S-oxide_S Source
 Gly-Asn transport via proton symport (cytosol to vacuole)	1		Gly-Asn transport via proton symport			NA;Gly-Asn_N Source
 MNXR137130	1		Cysteamine transport via proton antiport			seed:rxn12622;cysteamine S-phosphate_P Source
 Hydrogen sulfide oxidation	0		Hydrogen sulfide oxidation			NA;general sulfur metabolism_S Source
 MNXR95704	1		L-alanine transport in via proton symport			rhea:29443;L-alanine_N Source
-MNXR100368	1		Glycine mitochondrial transport			rhea:28899;L-glycine_N Source
+MNXR100368	1		Glycine transport (vacuole)			rhea:28899;L-glycine_N Source
 MNXR104382	1	( YJR130C or YLL058W or YML082W )	O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase; O-succinyl-L-homoserine succinate-lyase (adding hydrogen sulfide)	2.5.1.-;2.5.1.48	R01288	rhea:27826;L-methionine_N Source
 MNXR94843	0		4-Hydroxyphenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)	1.13.11.27	R02521	rhea:16189;L-tyrosine_N Source
 MNXR100628	0		Homogentisate:oxygen 1,2-oxidoreductase (decyclizing)	1.13.11.5	R02519	rhea:15449;L-tyrosine_N Source
