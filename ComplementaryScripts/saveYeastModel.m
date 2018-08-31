@@ -3,7 +3,11 @@
 % Saves model as a .xml, .txt and .yml file. Also updates complementary
 % files (boundaryMets.txt, README.md and dependencies.txt).
 %
-% Benjamín J. Sánchez
+% model     model structure to save (note: must be in COBRA format)
+% upDATE    logical =true if updating the date in the README file is needed
+%           (opt, default true)
+%
+% Benjamin J. Sanchez
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function saveYeastModel(model,upDATE)
@@ -12,13 +16,15 @@ if nargin < 2
     upDATE = true;
 end
 
-%Remove any space in rxnECNumbers:
-model.rxnECNumbers = strrep(model.rxnECNumbers,' ','');
-
 %Get and change to the script folder, as all folders are relative to this
 %folder
 scriptFolder = fileparts(which(mfilename));
 currentDir = cd(scriptFolder);
+
+%Delete model.grRules (redundant and possibly conflicting with model.rules):
+if isfield(model,'grRules')
+    model = rmfield(model,'grRules');
+end
 
 %Update SBO terms in model:
 cd missingFields
