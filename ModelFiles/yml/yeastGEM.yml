@@ -25245,6 +25245,160 @@
       - kegg.compound: C01904
       - metanetx.chemical: MNXM1018
       - sbo: SBO:0000247
+  - !!omap
+    - id: s_4182
+    - name: 2-hydroxyglutarate
+    - compartment: c
+    - formula: C5H6O5
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:11596
+      - kegg.compound: C02630
+      - metanetx.chemical: MNXM1210
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4183
+    - name: propionyl-CoA
+    - compartment: c
+    - formula: C24H36N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:57392
+      - kegg.compound: C00100
+      - metanetx.chemical: MNXM86
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4184
+    - name: 3-oxopropanoate
+    - compartment: c
+    - formula: C3H3O3
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:33190
+      - kegg.compound: C00222
+      - metanetx.chemical: MNXM244
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4185
+    - name: (R)-2,3-dihydroxy-3-methylbutanoate
+    - compartment: c
+    - formula: C5H9O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:49072
+      - kegg.compound: C04272
+      - metanetx.chemical: MNXM114097
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4186
+    - name: 3-hydroxy-3-methyl-2-oxobutanoate
+    - compartment: c
+    - formula: C5H7O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:11812
+      - kegg.compound: C04181
+      - metanetx.chemical: MNXM1638
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4187
+    - name: 2-acetyllactic acid
+    - compartment: c
+    - formula: C5H7O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:57774
+      - kegg.compound: C00900
+      - metanetx.chemical: MNXM426
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4188
+    - name: (2S)-2-acetolactate
+    - compartment: c
+    - formula: C5H7O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:58476
+      - kegg.compound: C06010
+      - metanetx.chemical: MNXM114079
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4189
+    - name: (2R,3S)-3-methylmalate
+    - compartment: c
+    - formula: C5H6O5
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:58511
+      - kegg.compound: C06032
+      - metanetx.chemical: MNXM2512
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4190
+    - name: trans-2,cis-9-octadecadienoyl-CoA
+    - compartment: c
+    - formula: C39H62N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:57383
+      - kegg.compound: C02050
+      - metanetx.chemical: MNXM638
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4191
+    - name: (9Z,12Z)-octadecadienoate
+    - compartment: c
+    - formula: C18H31O2
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:30245
+      - kegg.compound: C01595
+      - metanetx.chemical: MNXM293
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4192
+    - name: stachyose
+    - compartment: c
+    - formula: C24H42O21
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17164
+      - kegg.compound: C01613
+      - metanetx.chemical: MNXM1503
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4193
+    - name: raffinose
+    - compartment: c
+    - formula: C18H32O16
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:16634
+      - kegg.compound: C00492
+      - metanetx.chemical: MNXM621
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4194
+    - name: 4-hydroxyphenyl acetate
+    - compartment: c
+    - formula: C8H8O3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:18101
+      - kegg.compound: C00642
+      - metanetx.chemical: MNXM3863
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4195
+    - name: Hydroquinone
+    - compartment: c
+    - formula: C6H6O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17594
+      - kegg.compound: C00530
+      - metanetx.chemical: MNXM376
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
