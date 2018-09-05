@@ -15,6 +15,8 @@ function saveYeastModel(model,upDATE)
 if nargin < 2
     upDATE = true;
 end
+%set minimal media
+model = minimal_Y6(model);
 
 %Get and change to the script folder, as all folders are relative to this
 %folder
