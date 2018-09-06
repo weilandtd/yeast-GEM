@@ -46721,7 +46721,7 @@
     - metabolites: !!omap
       - s_0446: -1
     - lower_bound: 0
-    - upper_bound: 1000
+    - upper_bound: 0
     - annotation: !!omap
       - sbo: SBO:0000627
   - !!omap
@@ -49831,7 +49831,7 @@
     - name: potassium exchange
     - metabolites: !!omap
       - s_1374: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -50113,7 +50113,7 @@
     - name: sodium exchange
     - metabolites: !!omap
       - s_1438: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -88703,7 +88703,7 @@
     - name: cysteamine exchange
     - metabolites: !!omap
       - s_4074: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -89405,7 +89405,7 @@
     - name: methanol exchange
     - metabolites: !!omap
       - s_4124: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
       - metanetx.reaction: MNXR98748

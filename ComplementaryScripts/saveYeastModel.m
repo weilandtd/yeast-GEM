@@ -21,6 +21,11 @@ end
 scriptFolder = fileparts(which(mfilename));
 currentDir = cd(scriptFolder);
 
+%Set minimal media
+cd modelCuration
+model = minimal_Y6(model);
+cd ..
+
 %Delete model.grRules (redundant and possibly conflicting with model.rules):
 if isfield(model,'grRules')
     model = rmfield(model,'grRules');
