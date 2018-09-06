@@ -10,13 +10,13 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** Species; **Utilisation:** predictive simulation, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Condition:** aerobic, glucose-limited, defined media, maximization of growth.
 
-* Last update: 2018-08-07
+* Last update: 2018-09-05
 
 * Main Model Descriptors:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
-|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3703|2518|1133|
+|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3928|2666|1133|
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
@@ -61,43 +61,20 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 * `dependencies.txt`: Tracks versions of toolboxes & SBML used for saving the model.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name. 
 
-## Complementary Scripts
+### Complementary Scripts
 
 * `missingFields`: Folder with functions for adding missing fields to the model.
-  * `addGeneNames.m`: Adds the field `geneNames` by extracting the data from KEGG.
-  * `addConfidenceScores.m`: Adds confidence scores based in a basic automatic criteria.
-  * `addSBOterms.m`: Adds SBO terms to metabolites and reactions based on the corresponding names.
-  * `getMissingFields.m`: Retrieves missing information (`rxnECNumbers` and `subSystems`) from KEGG & Swissprot. It uses `changeRules.m` for properly reading the gene-reaction rules, and `findInDB.m`, `getAllPath.m`, `findSubSystem.m` & `deleteRepeated.m` for reading the databases. The latter 4 functions are adapted versions of functions from the [GECKO toolbox](https://github.com/SysBioChalmers/GECKO).
 * `modelCuration`: Folder with curation functions.
-  * `addiSce926changes.m`: Updates the model to include curation from [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
-  * `calculateContent.m`: Calculates the protein and carb fraction in the biomass pseudo-rxn.
-  * `changeBiomass.m`: Rescales the biomass composition for varying protein content in anaerobic case. Also changes GAM and NGAM.
-  * `checkMetBalance.m`: Shows rxns that consume/produce a given metabolite in the model.
-  * `makeFormulasCompliant.m`: Fixes the compliance problems of all metabolite formulas.
-  * `modelCorrections.m`: Corrects various issues in yeast7 (biomass composition, proton balance, Ox.Pho., GAM and NGAM).
-  * `takeOutFromFormula.m`: Takes away from formula each of the elements specified.
-  * `updateMetaboliteAnnotation.m`: Reads `metabolite_manual_curation.tsv` and updates the model with it.
 * `otherChanges`: Folder with other types of changes.
-  * `addSLIMErxns.m`: Replaces old ISA rxns with SLIME rxns, using [SLIMEr](https://github.com/SysBioChalmers/SLIMEr).
-  * `anaerobicModel.m`: Transforms the model to anaerobic conditions.
-  * `clusterBiomass.m`: Separates the biomass in 5 main components: protein, carbohydrate, lipid, RNA and DNA.
-  * `convertYmn2FBC2.m`: Converts yeast7 from COBRA-compatible SBML2 to FBC v2, thereby adding the missing annotation data, which could not be retained with the older COBRA versions.
-  * `getNewIndex.m`: Finds the highest index available in either metabolites or rxns, and then adds one to it, for creating any new species.
 * `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file. Saves the model as `.mat` and as `.xlsx`
 * `loadYeastModel.m`: Loads the yeast model from the `.xml` file for Matlab.
 * `loadYeastModel.py`: Loads the yeast model from the `.xml` file for Python.
 * `saveYeastModel.m`: Saves yeast model as a `.xml`, `.yml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
 
-## Complementary Data
+### Complementary Data
 
-* `databases`
-  * `kegg.tsv`: KEGG data for _S. cerevisiae_.
-  * `SGDgeneNames.tsv`: Short gene names for each gene ID.
-  * `swissprot.tsv`: SWISSPROT data for _S. cerevisiae_.
-* `modelCuration`
-  * `iSce926curatedGeneRules.tsv`: Manually curated gene rules added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
-  * `iSce926newGenes.tsv`: New genes added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
-  * `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
+* `databases`: Yeast data from different databases (KEGG, SGD, swissprot, etc).
+* `modelCuration`: Data files used for performing curations to the model. Mostly lists of new rxns, mets or genes added (or fixed) in the model.
 
 ## Contributors
 

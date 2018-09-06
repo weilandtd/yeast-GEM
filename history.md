@@ -1,5 +1,14 @@
 # History
 
+### yeast 8.3.0:
+* Features:
+  * Added 225 new reactions and 148 new metabolites, based on growth data from a Biolog substrate usage experiment on carbon, nitrogen, sulfur and phosphorus substrates (PR #149).
+* Fixes/Others:
+  * Removed verbose details from `README.md` (PR #150).
+  * Updated RAVEN, which added extra annotation to the `.yml` file (PR #151).
+  * Minor changes to `saveYeastModel.m` (PR #152).
+  * Model is now stored simulating minimal media conditions (PR #157).
+
 ### yeast 8.2.0:
 * Features:
   * Fixes #38: Added 183 new reactions, 277 new metabolites and 163 new genes based on the latest genome annotation in SGD, uniprot, KEGG, Biocyc & Reactome (PR #142).
