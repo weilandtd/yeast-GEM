@@ -75,6 +75,7 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 
 * `databases`: Yeast data from different databases (KEGG, SGD, swissprot, etc).
 * `modelCuration`: Data files used for performing curations to the model. Mostly lists of new rxns, mets or genes added (or fixed) in the model.
+* `physiology`: Data on yeast growth under different conditions, biomass composition, gene essentiality experiments, etc.
 
 ## Contributors
 
