@@ -90246,7 +90246,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4568
-    - name: seed:rxn04605
+    - name: R06790
     - metabolites: !!omap
       - s_0794: -1
       - s_1321: -1
@@ -90254,6 +90254,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R06790
       - metanetx.reaction: MNXR110535
       - sbo: SBO:0000176
     - confidence_score: 1
@@ -90326,7 +90327,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4573
-    - name: "3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)"
+    - name: 3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)
     - metabolites: !!omap
       - s_0373: 1
       - s_0456: 1
@@ -90347,7 +90348,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4574
-    - name: "3-Oxopropanoate:NADP+ oxidoreductase (decarboxylating, CoA-acetylating)"
+    - name: 3-Oxopropanoate:NADP+ oxidoreductase (decarboxylating, CoA-acetylating)
     - metabolites: !!omap
       - s_0373: 1
       - s_0456: 1
@@ -90385,7 +90386,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4576
-    - name: "(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"
+    - name: (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
     - metabolites: !!omap
       - s_0794: 1
       - s_1207: -1
@@ -90402,7 +90403,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4577
-    - name: "Dihydroxy-acid dehydratase, mitochondrial"
+    - name: Dihydroxy-acid dehydratase, mitochondrial
     - metabolites: !!omap
       - s_0232: -1
       - s_4186: 1
@@ -90414,7 +90415,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4578
-    - name: "Ketol-acid reductoisomerase, mitochondrial"
+    - name: Ketol-acid reductoisomerase, mitochondrial
     - metabolites: !!omap
       - s_0794: 1
       - s_1207: 1
@@ -90445,7 +90446,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4580
-    - name: "(R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)"
+    - name: (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
     - metabolites: !!omap
       - s_0794: 1
       - s_1207: -1
@@ -90464,7 +90465,7 @@
     - confidence_score: 1
   - !!omap
     - id: r_4581
-    - name: "(2R,3S)-3-methylmalate:NAD+ oxidoreductase"
+    - name: (2R,3S)-3-methylmalate:NAD+ oxidoreductase
     - metabolites: !!omap
       - s_0178: 1
       - s_0456: 1
