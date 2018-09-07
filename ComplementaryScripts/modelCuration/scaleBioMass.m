@@ -6,6 +6,8 @@
 % 2. Improve with data from a more recent study (Lahtvee et al. 2017)
 %    compatible with the current 8% lipid fraction
 % 3. Rescale carbohydrate fraction (total) to have biomass add up to 1
+% 4. GAM is fitted to simulate chemostat data of S. cerevisiae at low
+%    growth rates (Van Hoek et al. 1988)
 % 
 % Function adapted from SLIMEr: https://github.com/SysBioChalmers/SLIMEr
 %
@@ -87,6 +89,10 @@ end
 delta = X - 1;           %difference to balance
 fC    = (C - delta)/C;
 model = rescalePseudoReaction(model,'carbohydrate',fC);
+sumBioMass(model,data);
+
+%Fit GAM:
+model = fitGAM(model);
 sumBioMass(model,data);
 
 %Finally, save model:
