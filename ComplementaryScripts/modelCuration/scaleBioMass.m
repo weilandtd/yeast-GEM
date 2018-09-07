@@ -4,7 +4,8 @@
 % iterative fashion:
 % 1. Switch back to original model's abundance values (Forster et al. 2003)
 % 2. Improve with data from a more recent study (Lahtvee et al. 2017)
-% compatible with the current 8% lipid fraction
+%    compatible with the current 8% lipid fraction
+% 3. Rescale carbohydrate fraction (total) to have biomass add up to 1
 % 
 % Function adapted from SLIMEr: https://github.com/SysBioChalmers/SLIMEr
 %
@@ -80,6 +81,12 @@ for i = 1:length(data2.mets)
         end
     end
 end
+[X,~,C,~,~,~,~] = sumBioMass(model,data);
+
+%Balance out mass with carbohydrate content:
+delta = X - 1;           %difference to balance
+fC    = (C - delta)/C;
+model = rescalePseudoReaction(model,'carbohydrate',fC);
 sumBioMass(model,data);
 
 %Finally, save model:
