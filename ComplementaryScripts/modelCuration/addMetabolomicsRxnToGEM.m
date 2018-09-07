@@ -85,13 +85,14 @@ end
 
 % Add metabolite data:
 fid = fopen('../../ComplementaryData/modelCuration/Metabolomics_newRxnMetAnnotation.tsv');
-newmet_annot         = textscan(fid,'%s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
+newmet_annot         = textscan(fid,'%s %s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 newmet.metNames      = newmet_annot{1};
 newmet.metFormulas   = newmet_annot{2};
 newmet.metCharges    = cellfun(@str2num, newmet_annot{3});
 newmet.metKEGGID     = newmet_annot{5};
 newmet.metChEBIID    = newmet_annot{6};
 newmet.metMetaNetXID = newmet_annot{7};
+
 
 fclose(fid);
 for i = 1:length(newmet.metNames)
