@@ -10,7 +10,7 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** Species; **Utilisation:** predictive simulation, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Condition:** aerobic, glucose-limited, defined media, maximization of growth.
 
-* Last update: 2018-09-05
+* Last update: 2018-09-07
 
 * Main Model Descriptors:
 
@@ -75,6 +75,7 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 
 * `databases`: Yeast data from different databases (KEGG, SGD, swissprot, etc).
 * `modelCuration`: Data files used for performing curations to the model. Mostly lists of new rxns, mets or genes added (or fixed) in the model.
+* `physiology`: Data on yeast growth under different conditions, biomass composition, gene essentiality experiments, etc.
 
 ## Contributors
 
