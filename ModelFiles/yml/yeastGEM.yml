@@ -90226,7 +90226,7 @@
       - kegg.reaction: R01737
       - metanetx.reaction: MNXR100390
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4567
     - name: 6-phosphogluconate phosphatase
@@ -90243,7 +90243,7 @@
         - 3.1.3.29
       - metanetx.reaction: MNXR123213
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4568
     - name: R06790
@@ -90257,7 +90257,7 @@
       - kegg.reaction: R06790
       - metanetx.reaction: MNXR110535
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4569
     - name: Carboxylic ester hydrolases
@@ -90275,7 +90275,7 @@
         - 3.1.1.2
       - metanetx.reaction: MNXR110621
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4570
     - name: phosphoglycerate dehydrogenase
@@ -90292,7 +90292,7 @@
       - kegg.reaction: R08198
       - metanetx.reaction: MNXR111769
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4571
     - name: seed:rxn00681
@@ -90306,7 +90306,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR134240
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4572
     - name: beta-alanine:2-oxoglutarate aminotransferase
@@ -90324,7 +90324,7 @@
       - kegg.reaction: R00908
       - metanetx.reaction: MNXR95862
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4573
     - name: 3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)
@@ -90345,7 +90345,7 @@
       - kegg.reaction: R00705
       - metanetx.reaction: MNXR101665
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4574
     - name: 3-Oxopropanoate:NADP+ oxidoreductase (decarboxylating, CoA-acetylating)
@@ -90365,7 +90365,7 @@
       - kegg.reaction: R00706
       - metanetx.reaction: MNXR106650
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4575
     - name: 3-oxopropanoate carboxy-lyase
@@ -90383,7 +90383,7 @@
       - kegg.reaction: R06973
       - metanetx.reaction: MNXR110693
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4576
     - name: (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
@@ -90400,7 +90400,7 @@
       - kegg.reaction: R04440
       - metanetx.reaction: MNXR100904
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4577
     - name: Dihydroxy-acid dehydratase, mitochondrial
@@ -90412,7 +90412,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR137278
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4578
     - name: Ketol-acid reductoisomerase, mitochondrial
@@ -90427,7 +90427,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR137279
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4579
     - name: pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)
@@ -90443,7 +90443,7 @@
       - kegg.reaction: R00226
       - metanetx.reaction: MNXR95271
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4580
     - name: (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
@@ -90462,7 +90462,7 @@
       - kegg.reaction: R04439
       - metanetx.reaction: MNXR97523
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4581
     - name: (2R,3S)-3-methylmalate:NAD+ oxidoreductase
@@ -90481,7 +90481,7 @@
       - kegg.reaction: R00994
       - metanetx.reaction: MNXR106779
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4582
     - name: malate/β-methylmalate synthase
@@ -90498,7 +90498,7 @@
       - ec-code: 2.3.3.-
       - metanetx.reaction: MNXR121603
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4583
     - name: palmitoyl-CoA hydrolase
@@ -90516,7 +90516,7 @@
         - 3.1.2.2
       - metanetx.reaction: MNXR99136
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4584
     - name: long-chain-fatty-acid---CoA ligase
@@ -90533,7 +90533,7 @@
       - ec-code: 6.2.1.3
       - metanetx.reaction: MNXR99175
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4585
     - name: a-galactosidase (stachyose)
@@ -90548,7 +90548,7 @@
       - ec-code: 3.2.1.22
       - metanetx.reaction: MNXR100010
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
   - !!omap
     - id: r_4586
     - name: stachyose synthase
@@ -90562,7 +90562,7 @@
       - ec-code: 2.4.1.-
       - metanetx.reaction: MNXR122225
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 0
 - genes:
   - !!omap
     - id: Q0045

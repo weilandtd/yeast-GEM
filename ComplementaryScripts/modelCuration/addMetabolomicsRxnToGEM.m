@@ -104,6 +104,7 @@ for i = 1:length(newmet.metNames)
         model.metChEBIID{metID}    = newmet.metChEBIID{i};
         model.metMetaNetXID{metID} = newmet.metMetaNetXID{i};
         model.metNotes{metID}      = '';
+        model.metNotes{metID} = 'added from metabolomics data';
     end
 end
 
@@ -136,7 +137,8 @@ for i = 1:length(newrxn.ID)
     model.rxnECNumbers(rxnIndex)  = newrxn.rxnECNumbers(i);
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnMetaNetXID(rxnIndex) = newrxn.rxnMetaNetXID(i);
-    model.rxnConfidenceScores(rxnIndex) = 1;   %reactions without gene but needed for modelling
+    model.rxnConfidenceScores(rxnIndex) = 0;   %reactions added for metabolomics data
+    model.rxnNotes{rxnIndex} = 'metabolites observed in metabolomics data';
 end
 
 
