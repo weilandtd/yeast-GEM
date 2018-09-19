@@ -1,6 +1,6 @@
 # yeast-GEM: The consensus genome-scale metabolic model of _Saccharomyces cerevisiae_
 
-[![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem) [![Join the chat at https://gitter.im/SysBioChalmers/yeast-GEM](https://badges.gitter.im/SysBioChalmers/yeast-GEM.svg)](https://gitter.im/SysBioChalmers/yeast-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Fyeast-gem) [![Build Status](https://travis-ci.org/SysBioChalmers/yeast-GEM.svg?branch=master)](https://travis-ci.org/SysBioChalmers/yeast-GEM) [![memote history report](https://img.shields.io/badge/memote-tested-blue.svg)](https://SysBioChalmers.github.io/yeast-GEM/history_report.html) [![Join the chat at https://gitter.im/SysBioChalmers/yeast-GEM](https://badges.gitter.im/SysBioChalmers/yeast-GEM.svg)](https://gitter.im/SysBioChalmers/yeast-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 * Brief Model Description:
 
