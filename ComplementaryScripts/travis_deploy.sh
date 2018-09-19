@@ -26,15 +26,15 @@ else
 fi
 
 # Generate the history report on the deployment branch.
-output="./results/history.html"
+output="history_report.html"
 echo "Generating updated history report '${output}'."
 memote report history --filename="/tmp/${output}"
 git checkout "${deployment}"
-mv "/tmp/${output}" "${output}"
+mv "/tmp/${output}" ./
 
 # Add, commit and push the files.
 git add "${output}"
 git commit -m "Travis report #${TRAVIS_BUILD_NUMBER}"
 git push --quiet "https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" "${deployment}" > /dev/null
 
-echo "Your new report will be visible at http://sysbiochalmers.github.io/yeast-GEM/ in a moment."
+echo "Your new report will be available at http://sysbiochalmers.github.io/yeast-GEM/ in a moment."
