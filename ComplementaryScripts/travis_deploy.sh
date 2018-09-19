@@ -30,7 +30,7 @@ output="./results/history.html"
 echo "Generating updated history report '${output}'."
 memote report history --filename="/tmp/${output}"
 git checkout "${deployment}"
-mv "/tmp/${output}" ./
+mv "/tmp/${output}" "${output}"
 
 # Add, commit and push the files.
 git add "${output}"
