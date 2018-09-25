@@ -1,10 +1,19 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% increaseVersion(bumpType)
-%
-% Benjamín J. Sánchez
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 function increaseVersion(bumpType)
+% increaseVersion
+%   Upgrades the model to a new version. Run this function after merging
+%   changes to the master branch for making a new release.
+%
+%   bumpType    One of the following 3 strings: "major", "minor" or
+%               "patch", indicating the type of increase of version to be
+%               performed.
+%
+%   NOTE: This function requires a git wrapper added to the MATLAB search
+%         path: https://github.com/manur/MATLAB-git
+%
+%   Usage: increaseVersion(bumpType)
+%
+%   Benjamin Sanchez, 2018-09-25
+%
 
 %Check if in master:
 currentBranch = git('rev-parse --abbrev-ref HEAD');
@@ -74,7 +83,7 @@ if change
         'then merge to master, and try again.'])
 end
 
-%Allow .mat & .xls storage:
+%Allow .mat & .xlsx storage:
 copyfile('../.gitignore','backup')
 fin  = fopen('backup','r');
 fout = fopen('../.gitignore','w');
@@ -95,6 +104,13 @@ save('../ModelFiles/mat/yeastGEM.mat','model');
 
 %Convert to RAVEN format and store model as .xlsx:
 model = ravenCobraWrapper(model);
+model.annotation.defaultLB    = -1000;
+model.annotation.defaultUB    = +1000;
+model.annotation.taxonomy     = 'Saccharomyces cerevisiae - strain S288C';
+model.annotation.givenName    = 'Benjamin';
+model.annotation.familyName   = 'Sanchez';
+model.annotation.email        = 'bensan@chalmers.se';
+model.annotation.organization = 'Chalmers University of Technology';
 exportToExcelFormat(model,'../ModelFiles/xlsx/yeastGEM.xlsx');
 
 %Update version file:
@@ -103,5 +119,3 @@ fprintf(fid,newVersion);
 fclose(fid);
 
 end
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
