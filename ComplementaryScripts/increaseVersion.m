@@ -106,11 +106,12 @@ save('../ModelFiles/mat/yeastGEM.mat','model');
 model = ravenCobraWrapper(model);
 model.annotation.defaultLB    = -1000;
 model.annotation.defaultUB    = +1000;
-model.annotation.taxonomy     = 'Saccharomyces cerevisiae - strain S288C';
+model.annotation.taxonomy     = 'taxonomy/559292';
 model.annotation.givenName    = 'Benjamin';
 model.annotation.familyName   = 'Sanchez';
 model.annotation.email        = 'bensan@chalmers.se';
 model.annotation.organization = 'Chalmers University of Technology';
+model.annotation.note         = 'Saccharomyces cerevisiae - strain S288C';
 exportToExcelFormat(model,'../ModelFiles/xlsx/yeastGEM.xlsx');
 
 %Update version file:
