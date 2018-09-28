@@ -25245,6 +25245,160 @@
       - kegg.compound: C01904
       - metanetx.chemical: MNXM1018
       - sbo: SBO:0000247
+  - !!omap
+    - id: s_4182
+    - name: 2-hydroxyglutarate
+    - compartment: c
+    - formula: C5H6O5
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:11596
+      - kegg.compound: C02630
+      - metanetx.chemical: MNXM1210
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4183
+    - name: propionyl-CoA
+    - compartment: c
+    - formula: C24H36N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:57392
+      - kegg.compound: C00100
+      - metanetx.chemical: MNXM86
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4184
+    - name: 3-oxopropanoate
+    - compartment: c
+    - formula: C3H3O3
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:33190
+      - kegg.compound: C00222
+      - metanetx.chemical: MNXM244
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4185
+    - name: (R)-2,3-dihydroxy-3-methylbutanoate
+    - compartment: c
+    - formula: C5H9O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:49072
+      - kegg.compound: C04272
+      - metanetx.chemical: MNXM114097
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4186
+    - name: 3-hydroxy-3-methyl-2-oxobutanoate
+    - compartment: c
+    - formula: C5H7O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:11812
+      - kegg.compound: C04181
+      - metanetx.chemical: MNXM1638
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4187
+    - name: 2-acetyllactic acid
+    - compartment: c
+    - formula: C5H7O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:57774
+      - kegg.compound: C00900
+      - metanetx.chemical: MNXM426
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4188
+    - name: (2S)-2-acetolactate
+    - compartment: c
+    - formula: C5H7O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:58476
+      - kegg.compound: C06010
+      - metanetx.chemical: MNXM114079
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4189
+    - name: (2R,3S)-3-methylmalate
+    - compartment: c
+    - formula: C5H6O5
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:58511
+      - kegg.compound: C06032
+      - metanetx.chemical: MNXM2512
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4190
+    - name: trans-2,cis-9-octadecadienoyl-CoA
+    - compartment: c
+    - formula: C39H62N7O17P3S
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:57383
+      - kegg.compound: C02050
+      - metanetx.chemical: MNXM638
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4191
+    - name: (9Z,12Z)-octadecadienoate
+    - compartment: c
+    - formula: C18H31O2
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:30245
+      - kegg.compound: C01595
+      - metanetx.chemical: MNXM293
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4192
+    - name: stachyose
+    - compartment: c
+    - formula: C24H42O21
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17164
+      - kegg.compound: C01613
+      - metanetx.chemical: MNXM1503
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4193
+    - name: raffinose
+    - compartment: c
+    - formula: C18H32O16
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:16634
+      - kegg.compound: C00492
+      - metanetx.chemical: MNXM621
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4194
+    - name: 4-hydroxyphenyl acetate
+    - compartment: c
+    - formula: C8H8O3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:18101
+      - kegg.compound: C00642
+      - metanetx.chemical: MNXM3863
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4195
+    - name: Hydroquinone
+    - compartment: c
+    - formula: C6H6O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17594
+      - kegg.compound: C00530
+      - metanetx.chemical: MNXM376
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
@@ -82733,13 +82887,13 @@
     - id: r_4041
     - name: biomass pseudoreaction
     - metabolites: !!omap
-      - s_0394: 61.9779
-      - s_0434: -61.9779
+      - s_0394: 55.4
+      - s_0434: -55.4
       - s_0450: 1
-      - s_0794: 61.9779
-      - s_0803: -61.9779
+      - s_0794: 55.4
+      - s_0803: -55.4
       - s_1096: -1
-      - s_1322: 61.9779
+      - s_1322: 55.4
       - s_1405: -0.00099
       - s_1467: -0.02
       - s_3714: -1e-06
@@ -82826,46 +82980,46 @@
     - id: r_4047
     - name: protein pseudoreaction
     - metabolites: !!omap
-      - s_0404: -0.45212
-      - s_0428: -0.1584
-      - s_0430: -0.10017
-      - s_0432: -0.29318
-      - s_0542: -0.0064696
-      - s_0747: -0.10384
-      - s_0748: -0.29739
-      - s_0757: -0.28617
-      - s_0832: -0.065343
-      - s_0847: -0.18988
-      - s_1077: -0.2921
-      - s_1099: -0.28208
-      - s_1148: -0.049924
-      - s_1314: -0.13198
-      - s_1379: -0.16228
-      - s_1428: -0.18266
-      - s_1491: -0.18859
-      - s_1527: -0.028035
-      - s_1533: -0.1005
-      - s_1561: -0.26073
-      - s_1582: 0.45212
-      - s_1583: 0.1584
-      - s_1585: 0.10017
-      - s_1587: 0.29318
-      - s_1589: 0.0064696
-      - s_1590: 0.10384
-      - s_1591: 0.29739
-      - s_1593: 0.28617
-      - s_1594: 0.065343
-      - s_1596: 0.18988
-      - s_1598: 0.2921
-      - s_1600: 0.28208
-      - s_1602: 0.049924
-      - s_1604: 0.13198
-      - s_1606: 0.16228
-      - s_1607: 0.18266
-      - s_1608: 0.18859
-      - s_1610: 0.028035
-      - s_1612: 0.1005
-      - s_1614: 0.26073
+      - s_0404: -0.52701
+      - s_0428: -0.18459
+      - s_0430: -0.11682
+      - s_0432: -0.34173
+      - s_0542: -0.0075813
+      - s_0747: -0.12107
+      - s_0748: -0.34667
+      - s_0757: -0.33358
+      - s_0832: -0.076157
+      - s_0847: -0.22135
+      - s_1077: -0.34047
+      - s_1099: -0.32875
+      - s_1148: -0.058238
+      - s_1314: -0.15381
+      - s_1379: -0.18919
+      - s_1428: -0.21296
+      - s_1491: -0.21986
+      - s_1527: -0.032622
+      - s_1533: -0.11716
+      - s_1561: -0.30394
+      - s_1582: 0.52701
+      - s_1583: 0.18459
+      - s_1585: 0.11682
+      - s_1587: 0.34173
+      - s_1589: 0.0075813
+      - s_1590: 0.12107
+      - s_1591: 0.34667
+      - s_1593: 0.33358
+      - s_1594: 0.076157
+      - s_1596: 0.22135
+      - s_1598: 0.34047
+      - s_1600: 0.32875
+      - s_1602: 0.058238
+      - s_1604: 0.15381
+      - s_1606: 0.18919
+      - s_1607: 0.21296
+      - s_1608: 0.21986
+      - s_1610: 0.032622
+      - s_1612: 0.11716
+      - s_1614: 0.30394
       - s_3717: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -82876,11 +83030,11 @@
     - id: r_4048
     - name: carbohydrate pseudoreaction
     - metabolites: !!omap
-      - s_0001: -0.71609
-      - s_0004: -0.23919
-      - s_0773: -0.28569
-      - s_1107: -0.68015
-      - s_1520: -0.11505
+      - s_0001: -0.75841
+      - s_0004: -0.2534
+      - s_0773: -0.36619
+      - s_1107: -0.72034
+      - s_1520: -0.1401
       - s_3718: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -82891,10 +83045,10 @@
     - id: r_4049
     - name: RNA pseudoreaction
     - metabolites: !!omap
-      - s_0423: -0.042167
-      - s_0526: -0.040975
-      - s_0782: -0.042167
-      - s_1545: -0.054908
+      - s_0423: -0.044535
+      - s_0526: -0.043276
+      - s_0782: -0.044535
+      - s_1545: -0.057992
       - s_3719: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -90056,6 +90210,359 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
+  - !!omap
+    - id: r_4566
+    - name: ATP:D-Gluconate 6-phosphotransferase
+    - metabolites: !!omap
+      - s_0340: -1
+      - s_0394: -1
+      - s_0434: 1
+      - s_0794: -1
+      - s_3875: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.7.1.12
+      - kegg.reaction: R01737
+      - metanetx.reaction: MNXR100390
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4567
+    - name: 6-phosphogluconate phosphatase
+    - metabolites: !!omap
+      - s_0340: -1
+      - s_1322: 1
+      - s_3875: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 3.1.3.-
+        - 3.1.3.2
+        - 3.1.3.29
+      - metanetx.reaction: MNXR123213
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4568
+    - name: R06790
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1321: -1
+      - s_4194: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - kegg.reaction: R06790
+      - metanetx.reaction: MNXR110535
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4569
+    - name: Carboxylic ester hydrolases
+    - metabolites: !!omap
+      - s_0362: -1
+      - s_0794: -1
+      - s_0803: 1
+      - s_4194: 1
+      - s_4195: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 3.1.1.-
+        - 3.1.1.2
+      - metanetx.reaction: MNXR110621
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4570
+    - name: phosphoglycerate dehydrogenase
+    - metabolites: !!omap
+      - s_0180: 1
+      - s_0794: 1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4182: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.1.1.95
+      - kegg.reaction: R08198
+      - metanetx.reaction: MNXR111769
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4571
+    - name: seed:rxn00681
+    - metabolites: !!omap
+      - s_0779: 1
+      - s_0794: 3
+      - s_4182: -1
+      - s_4183: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - metanetx.reaction: MNXR134240
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4572
+    - name: beta-alanine:2-oxoglutarate aminotransferase
+    - metabolites: !!omap
+      - s_0180: -1
+      - s_0441: -1
+      - s_0991: 1
+      - s_4184: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 2.6.1.19
+        - 2.6.1.55
+      - kegg.reaction: R00908
+      - metanetx.reaction: MNXR95862
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4573
+    - name: 3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)
+    - metabolites: !!omap
+      - s_0373: 1
+      - s_0456: 1
+      - s_0529: -1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4184: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 1.2.1.-
+        - 1.2.1.18
+        - 1.2.1.27
+      - kegg.reaction: R00705
+      - metanetx.reaction: MNXR101665
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4574
+    - name: 3-Oxopropanoate:NADP+ oxidoreductase (decarboxylating, CoA-acetylating)
+    - metabolites: !!omap
+      - s_0373: 1
+      - s_0456: 1
+      - s_0529: -1
+      - s_1207: -1
+      - s_1212: 1
+      - s_4184: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 1.2.1.-
+        - 1.2.1.18
+      - kegg.reaction: R00706
+      - metanetx.reaction: MNXR106650
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4575
+    - name: 3-oxopropanoate carboxy-lyase
+    - metabolites: !!omap
+      - s_0359: 1
+      - s_0456: 1
+      - s_0794: -1
+      - s_4184: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 4.1.1.-
+        - 4.2.1.155
+      - kegg.reaction: R06973
+      - metanetx.reaction: MNXR110693
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4576
+    - name: (R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_1207: -1
+      - s_1212: 1
+      - s_4185: -1
+      - s_4186: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 1.1.1.86
+      - kegg.reaction: R04440
+      - metanetx.reaction: MNXR100904
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4577
+    - name: Dihydroxy-acid dehydratase, mitochondrial
+    - metabolites: !!omap
+      - s_0232: -1
+      - s_4186: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - metanetx.reaction: MNXR137278
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4578
+    - name: Ketol-acid reductoisomerase, mitochondrial
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4186: 1
+      - s_4187: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - metanetx.reaction: MNXR137279
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4579
+    - name: pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)
+    - metabolites: !!omap
+      - s_0456: 1
+      - s_0794: -1
+      - s_1399: -2
+      - s_4188: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.2.1.6
+      - kegg.reaction: R00226
+      - metanetx.reaction: MNXR95271
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4580
+    - name: (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_1207: -1
+      - s_1212: 1
+      - s_4185: -1
+      - s_4188: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.383
+        - 1.1.1.86
+      - kegg.reaction: R04439
+      - metanetx.reaction: MNXR97523
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4581
+    - name: (2R,3S)-3-methylmalate:NAD+ oxidoreductase
+    - metabolites: !!omap
+      - s_0178: 1
+      - s_0456: 1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4189: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.-
+        - 1.1.1.85
+      - kegg.reaction: R00994
+      - metanetx.reaction: MNXR106779
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4582
+    - name: malate/β-methylmalate synthase
+    - metabolites: !!omap
+      - s_0529: 1
+      - s_0779: -1
+      - s_0794: 1
+      - s_0803: -1
+      - s_4183: -1
+      - s_4189: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.3.3.-
+      - metanetx.reaction: MNXR121603
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4583
+    - name: palmitoyl-CoA hydrolase
+    - metabolites: !!omap
+      - s_0529: 1
+      - s_0794: 1
+      - s_0803: -1
+      - s_4190: -1
+      - s_4191: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code:
+        - 3.1.2.-
+        - 3.1.2.2
+      - metanetx.reaction: MNXR99136
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4584
+    - name: long-chain-fatty-acid---CoA ligase
+    - metabolites: !!omap
+      - s_0423: 1
+      - s_0434: -1
+      - s_0529: -1
+      - s_0633: 1
+      - s_4190: 1
+      - s_4191: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 6.2.1.3
+      - metanetx.reaction: MNXR99175
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4585
+    - name: a-galactosidase (stachyose)
+    - metabolites: !!omap
+      - s_0558: 1
+      - s_0803: -1
+      - s_4192: -1
+      - s_4193: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 3.2.1.22
+      - metanetx.reaction: MNXR100010
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4586
+    - name: stachyose synthase
+    - metabolites: !!omap
+      - s_3998: -1
+      - s_4192: -1
+      - s_4193: 2
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.4.1.-
+      - metanetx.reaction: MNXR122225
+      - sbo: SBO:0000176
+    - confidence_score: 0
 - genes:
   - !!omap
     - id: Q0045
