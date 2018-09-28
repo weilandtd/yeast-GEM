@@ -1,5 +1,14 @@
 # History
 
+### yeast 8.3.1:
+* Features:
+  * Added 21 reactions & 14 metabolites based on metabolomics data (PR #156).
+  * Added metadata to the excel version of the model (PR #163).
+  * Added `ComplementaryData/physiology` with biological data of yeast (PR #159).
+* Fixes/Others:
+  * Fixed bug that underestimated the biomass content (PR #159).
+  * Fitted GAM to chemostat data (PR #159).
+
 ### yeast 8.3.0:
 * Features:
   * Added 225 new reactions and 148 new metabolites, based on growth data from a Biolog substrate usage experiment on carbon, nitrogen, sulfur and phosphorus substrates (PR #149).
