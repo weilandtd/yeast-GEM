@@ -3,37 +3,36 @@ function model = GetMNXID(model,type,level)
 %Feiran Li 2018.09.18
 % GetMNXID
 %   mapping the model into metanetxID
-%
-%   model                   a model structure
-%   type                    tyoe = 'mets' or 'rxns'
+%   In this function, we call the function 'mapIDsViaMNXref.m' from /ComplementaryScripts/missingFields, which is orginiated from
+%   HMR3, and the part 'Load MNXref data structure' is modified to read the reference data from RAVEN.
+%   
+%   model                   a model structure;please load yeast model using function 'loadYeastModel.m' from
+%                           yeastGEM github repository.
+%   type                    type = 'mets' or 'rxns'
 %   level                   level = 1:only compares MNXid FROM kegg and CHEBI
 %                           level =2 compares MNX from yeast7.6MNX model and CHEBI and KEGG
 %                           (default =1)
 %
-%   Usage: model = GetMNXID(model,level)
+%   Usage: model = GetMNXID(model,type,level)
 %
 %   Feiran Li, 2018-09-18
 %
-%This function is for mapping the model into metanetxID
 %
-%In this function, we call the function 'mapIDsViaMNXref.m' from /ComplementaryData/databases, which is orginiated from
-%HMR3, and 'MNXref.mat' from /ComplementaryScripts/modelCuration
 %
-%model: 'loadYeastModel.m' from yeastGEM github
+%
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-%load model
-model = loadYeastModel;
+
 
 if nargin<3
     level = 1;
 end
 
-cd modelCuration/
+
 if strcmpi(type,'mets')
     %mapping KEGGID to metanet ID
     query1 = model.metKEGGID;
@@ -66,7 +65,7 @@ if strcmpi(type,'mets')
         MNX = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
         MNXmodel.mets  = MNX{1};
         MNXmodel.MetMNXid = MNX{2};
-        fclose(fid)
+        fclose(fid);
     
         for i =1:length(model.mets) 
             for j = 1:length(MNXmodel.mets)
@@ -96,7 +95,7 @@ elseif strcmpi(type,'rxns')
         MNX = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
         MNXmodel.rxns  = MNX{1};
         MNXmodel.rxnMNXid = MNX{2};
-        fclose(fid)
+        fclose(fid);
     
         for i =1:length(model.rxns) 
             for j = 1:length(MNXmodel.rxns)
