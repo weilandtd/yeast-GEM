@@ -25399,6 +25399,36 @@
       - kegg.compound: C00530
       - metanetx.chemical: MNXM376
       - sbo: SBO:0000247
+  - !!omap
+    - id: s_4196
+    - name: ATP
+    - compartment: g
+    - formula: C10H12N5O13P3
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:30616
+      - kegg.compound: C00002
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4197
+    - name: Ca(2+)
+    - compartment: g
+    - formula: Ca
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:29108
+      - kegg.compound: C00076
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4198
+    - name: ADP
+    - compartment: g
+    - formula: C10H12N5O10P2
+    - charge: -3
+    - annotation: !!omap
+      - chebi: CHEBI:456216
+      - kegg.compound: C00008
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
@@ -85744,13 +85774,13 @@
     - id: r_4238
     - name: Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)
     - metabolites: !!omap
-      - s_0802: 1
-      - s_0803: -1
-      - s_1329: 1
+      - s_0797: 1
+      - s_0806: -1
+      - s_1325: 1
       - s_3880: -1
-      - s_3881: -1
-      - s_3882: 1
-      - s_3883: 1
+      - s_4196: -1
+      - s_4197: 1
+      - s_4198: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL167C
