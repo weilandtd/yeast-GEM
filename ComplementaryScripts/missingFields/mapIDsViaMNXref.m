@@ -65,7 +65,7 @@ end
 %Check if this branch is feat/add_MetaNetX
     currentBranch = git('rev-parse --abbrev-ref HEAD');
     if ~strcmp(currentBranch,'feat/add_MetaNetX')
-            git checkout -B feat/add_MetaNetX origin/feat/add_MetaNetX
+            git checkout feat/add_MetaNetX
             currentBranch = git('rev-parse --abbrev-ref HEAD');
             if ~strcmp(currentBranch,'feat/add_MetaNetX')
                 error(['ERROR: branch:add_MetaNetX not exists. Check-out the RAVEN toolbox:https://github.com/SysBioChalmers/RAVEN'])
