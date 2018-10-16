@@ -46,8 +46,7 @@ currentPath = pwd;
 %Try to find root of toolbox:
 try
     toolboxPath = which(IDfile);                %full file path
-    %slashPos    = getSlashPos(toolboxPath);
-     slashPos = strfind(toolboxPath,'/'); 
+    slashPos    = getSlashPos(toolboxPath);
     toolboxPath = toolboxPath(1:slashPos(end)); %folder path
     %Go up until the root is found:
      D = dir(toolboxPath);    
