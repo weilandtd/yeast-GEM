@@ -88,7 +88,7 @@ for i = 1:length(newmet.metNames)
         model.metCharges(metID)  =  newmet.metCharges(i);
         model.metKEGGID{metID}   = newmet.metKEGGID{i};
         model.metChEBIID{metID}  = newmet.metChEBIID{i};
-        model.metNotes{metID}    = newmet.metNotes{i};
+        model.metNotes{metID}    = ['NOTES: added after new annotation; ',newmet.metNotes{i}];
     end
 end
 

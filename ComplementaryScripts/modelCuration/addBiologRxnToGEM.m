@@ -106,7 +106,7 @@ for i = 1:length(newmet.metNames)
         model.metKEGGID{metID}     = newmet.metKEGGID{i};
         model.metChEBIID{metID}    = newmet.metChEBIID{i};
         model.metMetaNetXID{metID} = newmet.metMetaNetXID{i};
-        model.metNotes{metID}      = '';
+        model.metNotes{metID}      = 'NOTES: added after the Biolog update';
     end
 end
 
