@@ -24,13 +24,13 @@ function targetList=mapIDsViaMNXref(type,queryList,fromDB,toDB)
 targetList={};
 
 if nargin<4
-		EM='Missing input arguments';
-		disp(EM);
+    EM='Missing input arguments';
+    disp(EM);
 end
 
 if isequal(fromDB,toDB)
-		EM='Query and subject databases cannot be the same!';
-		disp(EM);
+    EM='Query and subject databases cannot be the same!';
+    disp(EM);
 end
 
 % Load MNXref data structure, this part of code is modified by Feiran, in
@@ -49,10 +49,9 @@ try
     slashPos    = getSlashPos(toolboxPath);
     toolboxPath = toolboxPath(1:slashPos(end)); %folder path
     %Go up until the root is found:
-     D = dir(toolboxPath);    
+    D = dir(toolboxPath);
     while ~ismember({'.git'},{D.name})
-        %slashPos    = getSlashPos(toolboxPath);
-         slashPos = strfind(toolboxPath,'/'); 
+        slashPos    = getSlashPos(toolboxPath);
         toolboxPath = toolboxPath(1:slashPos(end-1));
         D = dir(toolboxPath);
     end
@@ -62,22 +61,21 @@ catch
     disp([toolbox ' toolbox cannot be found'])
 end
 %Check if this branch is feat/add_MetaNetX
+currentBranch = git('rev-parse --abbrev-ref HEAD');
+if ~strcmp(currentBranch,'feat/add_MetaNetX')
+    git checkout feat/add_MetaNetX
     currentBranch = git('rev-parse --abbrev-ref HEAD');
     if ~strcmp(currentBranch,'feat/add_MetaNetX')
-            git checkout feat/add_MetaNetX
-            currentBranch = git('rev-parse --abbrev-ref HEAD');
-            if ~strcmp(currentBranch,'feat/add_MetaNetX')
-                error(['ERROR: branch:add_MetaNetX not exists. Check-out the RAVEN toolbox:https://github.com/SysBioChalmers/RAVEN'])
-            end
+        error(['ERROR: branch:add_MetaNetX not exists. Check-out the RAVEN toolbox:https://github.com/SysBioChalmers/RAVEN'])
     end
-    cd external/MetaNetX/
-    load('MNXref.mat');
-    % swich back to the devel branch of RAVEN
-    git checkout devel
-    cd(currentPath);
-    
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+end
+cd external/MetaNetX/
+load('MNXref.mat');
+% swich back to the master branch of RAVEN
+git checkout master
+cd(currentPath);
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Associate reaction or metabolite
 if strcmpi(type,'rxns')
@@ -97,11 +95,11 @@ dbNames=[dbNames;'MetaNetX'];
 dbNames=setdiff(dbNames,{''});
 
 if ~all(ismember({fromDB;toDB},dbNames))
-		fprintf('Unknown database names! Please select from the following supported ones:\n');
-		for i=1:numel(dbNames)
-				fprintf('     %s\n',dbNames{i});
-		end
-		return;
+    fprintf('Unknown database names! Please select from the following supported ones:\n');
+    for i=1:numel(dbNames)
+        fprintf('     %s\n',dbNames{i});
+    end
+    return;
 end
 
 %Prepare field names
@@ -116,10 +114,10 @@ targetList(:)={''};
 
 % In case of using MNX ids as query
 if isequal('MetaNetX',fromDB)
-		[a, b]=ismember(queryList,MNXref.(toMNXField));
-		targetList(find(a))=MNXref.(toDBField)(b(find(a)));
-		dispNum(targetList,MNXref.Version);
-		return;
+    [a, b]=ismember(queryList,MNXref.(toMNXField));
+    targetList(find(a))=MNXref.(toDBField)(b(find(a)));
+    dispNum(targetList,MNXref.Version);
+    return;
 end
 
 % Get the intermedia MNX identifiers
@@ -130,21 +128,21 @@ MNXids(find(a))=MNXref.(fromMNXField)(b(find(a)));
 
 % In case of targting for MNX ids
 if isequal('MetaNetX',toDB)
-		targetList=MNXids;
-		dispNum(targetList,MNXref.Version);
-		return;
+    targetList=MNXids;
+    dispNum(targetList,MNXref.Version);
+    return;
 end
 
 % Map intermedia MNX identifiers one by one
 for i=1:numel(MNXids)
-		if ~isempty(MNXids{i})
-				index=strcmp(MNXids{i},MNXref.(toMNXField));
-				if length(find(index))==1
-						targetList{i}=MNXref.(toDBField){find(index)};
-				elseif length(find(index))>1
-						targetList{i}=strjoin(MNXref.(toDBField)(find(index)),';');
-				end
-		end
+    if ~isempty(MNXids{i})
+        index=strcmp(MNXids{i},MNXref.(toMNXField));
+        if length(find(index))==1
+            targetList{i}=MNXref.(toDBField){find(index)};
+        elseif length(find(index))>1
+            targetList{i}=strjoin(MNXref.(toDBField)(find(index)),';');
+        end
+    end
 end
 dispNum(targetList,MNXref.Version);
 
@@ -152,11 +150,9 @@ end
 
 % This subfunction counts and prints out the associated number
 function dispNum(List,ver)
-		num=numel(find(~cellfun(@isempty,List)));
-		fprintf('%s ids were associated by MetaNetX version %s.\n',num2str(num),ver);
+num=numel(find(~cellfun(@isempty,List)));
+fprintf('%s ids were associated by MetaNetX version %s.\n',num2str(num),ver);
 end
-
-
 
 function slashPos = getSlashPos(path)
 slashPos = strfind(path,'\');       %Windows
