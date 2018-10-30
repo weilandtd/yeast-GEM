@@ -88844,7 +88844,7 @@
     - confidence_score: 2
   - !!omap
     - id: r_4238
-    - name: Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)
+    - name: Calcium-transporting ATPase 2 (EC 3.6.3.8) (Golgi Ca(2+)-ATPase)
     - metabolites: !!omap
       - s_0797: 1
       - s_0806: -1

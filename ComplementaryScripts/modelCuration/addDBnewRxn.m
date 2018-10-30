@@ -159,10 +159,7 @@ for i = 1:length(model.genes)
     model.proteins{i} = strcat('COBRAProtein',num2str(i));
 end
 
-
-
 % Save model:
-model = rmfield(model,'grRules');
 cd ..
 saveYeastModel(model)
 cd modelCuration
