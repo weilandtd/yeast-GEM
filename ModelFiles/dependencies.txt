@@ -1,6 +1,6 @@
 MATLAB	9.1.0.441655 (R2016b)
 libSBML	5.17.0
-RAVEN_toolbox	commit 61bdeb1
+RAVEN_toolbox	2.0.4
 COBRA_toolbox	commit ad4bb21
 SBML_level	3
 SBML_version	1
