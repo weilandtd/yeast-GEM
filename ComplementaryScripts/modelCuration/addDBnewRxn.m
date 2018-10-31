@@ -88,7 +88,7 @@ for i = 1:length(newmet.metNames)
         model.metCharges(metID)  =  newmet.metCharges(i);
         model.metKEGGID{metID}   = newmet.metKEGGID{i};
         model.metChEBIID{metID}  = newmet.metChEBIID{i};
-        model.metNotes{metID}    = ['NOTES: added after new annotation; ',newmet.metNotes{i}];
+        model.metNotes{metID}    = ['NOTES: added after new annotation (PR #142); ',newmet.metNotes{i}];
     end
 end
 
@@ -135,7 +135,7 @@ for i = 1:length(newrxn.ID)
     model.rxnECNumbers(rxnIndex)  = newrxn.rxnECNumbers(i);
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnConfidenceScores(rxnIndex) = 2;   %reactions added 
-    model.rxnNotes{rxnIndex} = 'NOTES: Database new annotation';
+    model.rxnNotes{rxnIndex} = 'NOTES: added after new annotation (PR #142)';
 end
 
 

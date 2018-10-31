@@ -103,8 +103,7 @@ for i = 1:length(newmet.metNames)
         model.metKEGGID{metID}     = newmet.metKEGGID{i};
         model.metChEBIID{metID}    = newmet.metChEBIID{i};
         model.metMetaNetXID{metID} = newmet.metMetaNetXID{i};
-        model.metNotes{metID}      = '';
-        model.metNotes{metID} = 'added from metabolomics data';
+        model.metNotes{metID}      = 'added from metabolomics data (PR #156)';
     end
 end
 
@@ -117,6 +116,7 @@ if ~isfield(model,'rxnMetaNetXID')
     model.rxnMetaNetXID = cell(size(model.rxns));
 end
 for i = 1:length(newrxn.ID)
+    cd ../otherChanges
     newID = getNewIndex(model.rxns);
     j     = find(strcmp(matrix.rxnIDs,newrxn.ID{i}));
     Met   = matrix.mets(j);
@@ -127,6 +127,7 @@ for i = 1:length(newrxn.ID)
         'stoichCoeffList',Coef,...
         'reversible',newrxn.Rev(i,1),...
         'checkDuplicate',1);
+    cd ../modelCuration
     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
     if isempty(rxnIndex)
@@ -138,7 +139,7 @@ for i = 1:length(newrxn.ID)
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnMetaNetXID(rxnIndex) = newrxn.rxnMetaNetXID(i);
     model.rxnConfidenceScores(rxnIndex) = 0;   %reactions added for metabolomics data
-    model.rxnNotes{rxnIndex} = 'metabolites observed in metabolomics data';
+    model.rxnNotes{rxnIndex} = 'metabolites observed in metabolomics data (PR #156)';
 end
 
 
