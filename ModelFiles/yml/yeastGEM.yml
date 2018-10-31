@@ -27092,6 +27092,36 @@
       - kegg.compound: C00530
       - metanetx.chemical: MNXM376
       - sbo: SBO:0000247
+  - !!omap
+    - id: s_4196
+    - name: ATP
+    - compartment: g
+    - formula: C10H12N5O13P3
+    - charge: -4
+    - annotation: !!omap
+      - chebi: CHEBI:30616
+      - kegg.compound: C00002
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4197
+    - name: Ca(2+)
+    - compartment: g
+    - formula: Ca
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:29108
+      - kegg.compound: C00076
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4198
+    - name: ADP
+    - compartment: g
+    - formula: C10H12N5O10P2
+    - charge: -3
+    - annotation: !!omap
+      - chebi: CHEBI:456216
+      - kegg.compound: C00008
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
@@ -87406,7 +87436,7 @@
       - kegg.reaction: R02480
       - metanetx.reaction: MNXR100594
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4153
     - name: (R)-Acetoin:NAD+ oxidoreductase
@@ -87424,7 +87454,7 @@
       - kegg.reaction: R02855
       - metanetx.reaction: MNXR95419
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4154
     - name: Probable diacetyl reductase [(R)-acetoin forming] 2 (EC 1.1.1.303)
@@ -87442,7 +87472,7 @@
       - kegg.reaction: R02855
       - metanetx.reaction: MNXR95419
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4155
     - name: Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial (Glu-AdT subunit B) (EC 6.3.5.-) (Cytochrome c oxidase assembly factor PET112)
@@ -87462,7 +87492,7 @@
     - annotation: !!omap
       - ec-code: 6.3.5.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4156
     - name: Methionine aminopeptidase 2 (MAP 2) (MetAP 2) (EC 3.4.11.18) (Peptidase M)
@@ -87477,7 +87507,7 @@
     - annotation: !!omap
       - ec-code: 3.4.11.18
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4157
     - name: ADP-ribose 1''-phosphate phosphatase (EC 3.1.3.84) (EC 3.2.2.-) ([Protein ADP-ribosylglutamate] hydrolase)
@@ -87494,7 +87524,7 @@
         - 3.1.3.84
         - 3.2.2.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4158
     - name: NADPH2:quinone oxidoreductase
@@ -87512,7 +87542,7 @@
       - kegg.reaction: R02364
       - metanetx.reaction: MNXR107466
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4159
     - name: UDP-N-acetylglucosamine transferase subunit ALG14 (Asparagine-linked glycosylation protein 14)
@@ -87530,7 +87560,7 @@
       - kegg.reaction: R05970
       - metanetx.reaction: MNXR100208
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4160
     - name: ADP-ribose pyrophosphatase (EC 3.6.1.13) (ADP-ribose diphosphatase) (ADP-ribose phosphohydrolase) (Adenosine diphosphoribose pyrophosphatase) (ADPR-PPase)
@@ -87546,7 +87576,7 @@
     - annotation: !!omap
       - ec-code: 3.6.1.13
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4161
     - name: Probable vacuolar amino acid transporter YPQ3 (PQ-loop repeat-containing protein 3) (Protein RTC2) (Restriction of telomere capping protein 2)
@@ -87558,7 +87588,7 @@
     - gene_reaction_rule: YBR147W or YDR352W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4162
     - name: Probable vacuolar amino acid transporter YPQ3 (PQ-loop repeat-containing protein 3) (Protein RTC2) (Restriction of telomere capping protein 2)
@@ -87570,7 +87600,7 @@
     - gene_reaction_rule: YBR147W or YDR352W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4163
     - name: Probable vacuolar amino acid transporter YPQ3 (PQ-loop repeat-containing protein 3) (Protein RTC2) (Restriction of telomere capping protein 2)
@@ -87582,7 +87612,7 @@
     - gene_reaction_rule: YBR147W or YDR352W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4164
     - name: oxalate:CoA ligase (AMP-forming)
@@ -87601,7 +87631,7 @@
       - kegg.reaction: R01558
       - metanetx.reaction: MNXR102232
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4165
     - name: Glucosidase 2 subunit alpha (EC 3.2.1.84) (Alpha-glucosidase II subunit alpha) (Glucosidase II subunit alpha) (Reversal of TOR2 lethality protein 2)
@@ -87618,7 +87648,7 @@
       - kegg.reaction: R05980
       - metanetx.reaction: MNXR109971
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4166
     - name: Glucosidase 2 subunit alpha (EC 3.2.1.84) (Alpha-glucosidase II subunit alpha) (Glucosidase II subunit alpha) (Reversal of TOR2 lethality protein 2)
@@ -87635,7 +87665,7 @@
       - kegg.reaction: R05981
       - metanetx.reaction: MNXR109972
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4167
     - name: Vacuolar cation-chloride cotransporter 1 (Vacuolar homolog of CCC family protein 1)
@@ -87652,7 +87682,7 @@
     - annotation: !!omap
       - ec-code: 3.6.3.7
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4168
     - name: Probable metabolite transport protein YBR241C
@@ -87664,7 +87694,7 @@
     - gene_reaction_rule: YBR241C or YGL104C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4169
     - name: Probable metabolite transport protein YBR241C
@@ -87676,7 +87706,7 @@
     - gene_reaction_rule: YBR241C or YGL104C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4170
     - name: UDP-N-acetyl-D-glucosamine:dolichyl-phosphate N-acetyl-D-glucosamine phosphotransferase
@@ -87693,7 +87723,7 @@
       - kegg.reaction: R01007
       - metanetx.reaction: MNXR106786
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4171
     - name: (5-glutamyl)-peptide:amino-acid 5-glutamyltransferase
@@ -87710,7 +87740,7 @@
       - kegg.reaction: R03916
       - metanetx.reaction: MNXR108524
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4172
     - name: P-type cation-transporting ATPase (EC 3.6.3.3) (Cadmium resistance protein 2) (Cadmium-translocating P-type ATPase) (Cd(2+)-exporting ATPase)
@@ -87728,7 +87758,7 @@
     - annotation: !!omap
       - ec-code: 3.6.3.3
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4173
     - name: L-cysteine:sulfur-acceptor sulfurtransferase
@@ -87745,7 +87775,7 @@
       - kegg.reaction: R11528
       - metanetx.reaction: MNXR114822
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4174
     - name: Probable ATP-dependent permease
@@ -87757,7 +87787,7 @@
     - gene_reaction_rule: YCR011C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4175
     - name: Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)
@@ -87773,7 +87803,7 @@
     - annotation: !!omap
       - ec-code: 1.1.1.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4176
     - name: Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)
@@ -87789,7 +87819,7 @@
     - annotation: !!omap
       - ec-code: 1.1.1.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4177
     - name: Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)
@@ -87807,7 +87837,7 @@
       - kegg.reaction: R05347
       - metanetx.reaction: MNXR94914
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4178
     - name: Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)
@@ -87823,7 +87853,7 @@
     - annotation: !!omap
       - ec-code: 1.1.1.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4179
     - name: Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)
@@ -87839,7 +87869,7 @@
     - annotation: !!omap
       - ec-code: 1.1.1.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4180
     - name: Benzyl alcohol:NAD+ oxidoreductase
@@ -87857,7 +87887,7 @@
       - kegg.reaction: R01763
       - metanetx.reaction: MNXR96362
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4181
     - name: Manganese-transporting ATPase 1 (EC 3.6.3.-)
@@ -87875,7 +87905,7 @@
     - annotation: !!omap
       - ec-code: 3.6.3.-
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4183
     - name: D-Mannitol:NAD+ 2-oxidoreductase
@@ -87893,7 +87923,7 @@
       - kegg.reaction: R00868
       - metanetx.reaction: MNXR101675
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4184
     - name: 4-hydroxy-4-methyl-2-oxoglutarate pyruvate-lyase (pyruvate-forming)
@@ -87910,7 +87940,7 @@
       - kegg.reaction: R00008
       - metanetx.reaction: MNXR106336
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4185
     - name: oxaloacetate carboxy-lyase (pyruvate-forming)
@@ -87929,7 +87959,7 @@
       - kegg.reaction: R00217
       - metanetx.reaction: MNXR102097
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4186
     - name: L-methionine:thioredoxin-disulfide S-oxidoreductase
@@ -87947,7 +87977,7 @@
       - kegg.reaction: R07606
       - metanetx.reaction: MNXR101484
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4187
     - name: L-proline:tRNA(Pro) ligase (AMP-forming)
@@ -87966,7 +87996,7 @@
       - kegg.reaction: R03661
       - metanetx.reaction: MNXR103208
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4188
     - name: Glutathione-specific gamma-glutamylcyclotransferase (Gamma-GCG) (EC 4.3.2.-)
@@ -87981,7 +88011,7 @@
       - ec-code: 4.3.2.-
       - kegg.reaction: R11861
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4189
     - name: 4a-hydroxytetrahydrobiopterin hydro-lyase
@@ -87997,7 +88027,7 @@
       - kegg.reaction: R04734
       - metanetx.reaction: MNXR109090
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4190
     - name: superoxide:superoxide oxidoreductase
@@ -88014,7 +88044,7 @@
       - kegg.reaction: R00275
       - metanetx.reaction: MNXR104498
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4191
     - name: 2-Deoxy-D-glucose 6-phosphate phosphohydrolase
@@ -88031,7 +88061,7 @@
       - kegg.reaction: R02587
       - metanetx.reaction: MNXR94794
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4192
     - name: Cytochrome c lysine N-methyltransferase 1 (EC 2.1.1.59)
@@ -88049,7 +88079,7 @@
       - kegg.reaction: R03875
       - metanetx.reaction: MNXR108494
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4193
     - name: S-Adenosyl-L-methionine:histone-L-lysine N6-methyltransferase
@@ -88067,7 +88097,7 @@
       - kegg.reaction: R03938
       - metanetx.reaction: MNXR108541
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4194
     - name: Zinc transporter YKE4
@@ -88079,7 +88109,7 @@
     - gene_reaction_rule: YIL023C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4195
     - name: Zinc transporter YKE4
@@ -88091,7 +88121,7 @@
     - gene_reaction_rule: YMR243C or YOR316C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4196
     - name: NADH:ferricytochrome-b5 oxidoreductase
@@ -88109,7 +88139,7 @@
       - kegg.reaction: R00100
       - metanetx.reaction: MNXR106388
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4197
     - name: NADH-cytochrome b5 reductase 1 (EC 1.6.2.2) (Microsomal cytochrome b reductase) (P35)
@@ -88127,7 +88157,7 @@
       - kegg.reaction: R00100
       - metanetx.reaction: MNXR106388
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4198
     - name: Benzil reductase ((S)-benzoin forming) IRC24 (EC 1.1.1.320) (Increased recombination centers protein 24)
@@ -88143,7 +88173,7 @@
     - annotation: !!omap
       - ec-code: 1.1.1.320
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4199
     - name: Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)
@@ -88160,7 +88190,7 @@
       - kegg.reaction: R03522
       - metanetx.reaction: MNXR108227
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4200
     - name: Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)
@@ -88177,7 +88207,7 @@
       - kegg.reaction: R03522
       - metanetx.reaction: MNXR108227
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4201
     - name: Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)
@@ -88194,7 +88224,7 @@
       - kegg.reaction: R03522
       - metanetx.reaction: MNXR108227
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4202
     - name: L-methionine:oxidized-thioredoxin S-oxidoreductase
@@ -88212,7 +88242,7 @@
       - kegg.reaction: R02025
       - metanetx.reaction: MNXR101484
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4203
     - name: Vacuolar aminopeptidase 1 (EC 3.4.11.22) (Aminopeptidase yscI) (Leucine aminopeptidase IV) (LAPIV) (Lysosomal aminopeptidase III) (Polypeptidase) (Vacuolar aminopeptidase I)
@@ -88227,7 +88257,7 @@
     - annotation: !!omap
       - ec-code: 3.4.11.22
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4204
     - name: Vacuolar aminopeptidase 1 (EC 3.4.11.22) (Aminopeptidase yscI) (Leucine aminopeptidase IV) (LAPIV) (Lysosomal aminopeptidase III) (Polypeptidase) (Vacuolar aminopeptidase I)
@@ -88242,7 +88272,7 @@
     - annotation: !!omap
       - ec-code: 3.4.11.22
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4205
     - name: 5-oxo-L-proline amidohydrolase (ATP-hydrolysing)
@@ -88262,7 +88292,7 @@
       - kegg.reaction: R00251
       - metanetx.reaction: MNXR102200
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4206
     - name: threo-3-hydroxy-L-aspartate ammonia-lyase
@@ -88278,7 +88308,7 @@
       - kegg.reaction: R05758
       - metanetx.reaction: MNXR109814
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4207
     - name: Glutathione S-transferase omega-like 2 (EC 2.5.1.18) (Extracellular mutant protein 4) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1)
@@ -88295,7 +88325,7 @@
       - kegg.reaction: R03522
       - metanetx.reaction: MNXR108227
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4208
     - name: glutathione:dehydroascorbate oxidoreductase
@@ -88314,7 +88344,7 @@
       - kegg.reaction: R01108
       - metanetx.reaction: MNXR100442
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4209
     - name: Glutathione S-transferase omega-like 2 (EC 2.5.1.18) (Extracellular mutant protein 4) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1)
@@ -88333,7 +88363,7 @@
       - kegg.reaction: R01108
       - metanetx.reaction: MNXR100442
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4210
     - name: urea hydro-lyase (cyanamide-forming)
@@ -88349,7 +88379,7 @@
       - kegg.reaction: R00778
       - metanetx.reaction: MNXR106683
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4211
     - name: D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5-phosphate-lyase (glutamine-hydrolyzing)
@@ -88372,7 +88402,7 @@
       - kegg.reaction: R10089
       - metanetx.reaction: MNXR113465
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4212
     - name: D-ribulose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5-phosphate-lyase
@@ -88395,7 +88425,7 @@
       - kegg.reaction: R07456
       - metanetx.reaction: MNXR103369
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4214
     - name: L-cysteinylglycine dipeptidase
@@ -88412,7 +88442,7 @@
       - kegg.reaction: R00899
       - metanetx.reaction: MNXR95828
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4215
     - name: Cys-Gly metallodipeptidase DUG1 (EC 3.4.13.-) (Deficient in utilization of glutathione protein 1) (GSH degradosomal complex subunit DUG1)
@@ -88429,7 +88459,7 @@
       - kegg.reaction: R04951
       - metanetx.reaction: MNXR109244
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4216
     - name: riboflavin-5-phosphate phosphohydrolase
@@ -88446,7 +88476,7 @@
       - kegg.reaction: R00548
       - metanetx.reaction: MNXR95393
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4217
     - name: Fe(II):oxygen oxidoreductase; Fe2+:oxygen oxidoreductase
@@ -88464,7 +88494,7 @@
       - kegg.reaction: R00078
       - metanetx.reaction: MNXR99561
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4218
     - name: D-aminoacyl-tRNA deacylase (DTD) (EC 3.1.1.96) (D-tyrosyl-tRNA(Tyr) deacylase) (Gly-tRNA(Ala) deacylase) (EC 3.1.1.-)
@@ -88481,7 +88511,7 @@
         - 3.1.1.96
         - 3.1.1.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4219
     - name: D-aminoacyl-tRNA deacylase (DTD) (EC 3.1.1.96) (D-tyrosyl-tRNA(Tyr) deacylase) (Gly-tRNA(Ala) deacylase) (EC 3.1.1.-)
@@ -88499,7 +88529,7 @@
         - 3.1.1.96
         - 3.1.1.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4220
     - name: 4-nitrophenyl phosphate phosphohydrolase
@@ -88517,7 +88547,7 @@
       - kegg.reaction: R03024
       - metanetx.reaction: MNXR107896
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4221
     - name: D-Iditol:NAD+ 2-oxidoreductase
@@ -88535,7 +88565,7 @@
       - kegg.reaction: R02896
       - metanetx.reaction: MNXR107809
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4222
     - name: ATP:alpha-D-galactose 1-phosphotransferase
@@ -88552,7 +88582,7 @@
       - kegg.reaction: R01092
       - metanetx.reaction: MNXR99985
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4223
     - name: 3-Hydroxy-2-methylpropanoyl-CoA hydrolase
@@ -88570,7 +88600,7 @@
       - kegg.reaction: R03352
       - metanetx.reaction: MNXR108112
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4224
     - name: Sodium transport ATPase 5 (EC 3.6.3.7)
@@ -88588,7 +88618,7 @@
     - annotation: !!omap
       - ec-code: 3.6.3.7
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4225
     - name: Broad-range acid phosphatase DET1 (EC 3.1.3.-) (Decreased ergosterol transport protein 1)
@@ -88606,7 +88636,7 @@
     - annotation: !!omap
       - ec-code: 3.1.3.-
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4226
     - name: L-Alanine:2-oxoglutarate aminotransferase
@@ -88623,7 +88653,7 @@
       - kegg.reaction: R00258
       - metanetx.reaction: MNXR95698
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4227
     - name: 2-phenylacetamide amidohydrolase
@@ -88640,7 +88670,7 @@
       - kegg.reaction: R02540
       - metanetx.reaction: MNXR95813
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4228
     - name: Indole-3-acetamide amidohydrolase
@@ -88657,7 +88687,7 @@
       - kegg.reaction: R03096
       - metanetx.reaction: MNXR95814
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4229
     - name: Monocarboxylic acid amide amidohydrolase
@@ -88674,7 +88704,7 @@
       - kegg.reaction: R03909
       - metanetx.reaction: MNXR108518
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4230
     - name: Probable amidase (EC 3.5.1.4)
@@ -88691,7 +88721,7 @@
       - kegg.reaction: R05551
       - metanetx.reaction: MNXR95816
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4231
     - name: Acylamide aminohydrolase
@@ -88706,7 +88736,7 @@
     - annotation: !!omap
       - ec-code: 3.5.1.4
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4232
     - name: ATP:D-Gluconate 6-phosphotransferase
@@ -88724,7 +88754,7 @@
       - kegg.reaction: R01737
       - metanetx.reaction: MNXR100390
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4233
     - name: S-Adenosyl-L-methionine:protein-C-terminal-S-farnesyl-L-cysteine O-methyltransferase
@@ -88741,7 +88771,7 @@
       - kegg.reaction: R04496
       - metanetx.reaction: MNXR108926
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4234
     - name: Phosphatidylinositol N-acetylglucosaminyltransferase subunit GPI19 (GPI-GlcNAc transferase complex subunit GPI19) (GPI-GnT subunit GPI19) (EC 2.4.1.198)
@@ -88759,7 +88789,7 @@
       - kegg.reaction: R05916
       - metanetx.reaction: MNXR109940
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4235
     - name: ATP:D-glucose 6-phosphotransferase
@@ -88776,7 +88806,7 @@
       - kegg.reaction: R00299
       - metanetx.reaction: MNXR100612
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4236
     - name: (R)-lactate hydro-lyase
@@ -88793,7 +88823,7 @@
       - kegg.reaction: R09796
       - metanetx.reaction: MNXR100354
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4237
     - name: Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)
@@ -88811,25 +88841,25 @@
     - annotation: !!omap
       - ec-code: 3.6.3.8
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4238
-    - name: Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)
+    - name: Calcium-transporting ATPase 2 (EC 3.6.3.8) (Golgi Ca(2+)-ATPase)
     - metabolites: !!omap
-      - s_0802: 1
-      - s_0803: -1
-      - s_1329: 1
+      - s_0797: 1
+      - s_0806: -1
+      - s_1325: 1
       - s_3880: -1
-      - s_3881: -1
-      - s_3882: 1
-      - s_3883: 1
+      - s_4196: -1
+      - s_4197: 1
+      - s_4198: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YGL167C
     - annotation: !!omap
       - ec-code: 3.6.3.8
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4239
     - name: L-arginyl-tRNA(Arg):protein arginyltransferase
@@ -88847,7 +88877,7 @@
       - kegg.reaction: R03862
       - metanetx.reaction: MNXR108483
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4240
     - name: Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3 (Oligosaccharyl transferase subunit STT3) (EC 2.4.99.18)
@@ -88865,7 +88895,7 @@
       - kegg.reaction: R05976
       - metanetx.reaction: MNXR109968
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4241
     - name: Mannosyl-oligosaccharide glucosidase (EC 3.2.1.106) (Processing A-glucosidase I) (Glucosidase I)
@@ -88882,7 +88912,7 @@
       - kegg.reaction: R05979
       - metanetx.reaction: MNXR109970
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4242
     - name: Initiation-specific alpha-1,6-mannosyltransferase (EC 2.4.1.232) (Outer chain elongation protein 1)
@@ -88900,7 +88930,7 @@
       - kegg.reaction: R08599
       - metanetx.reaction: MNXR112120
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4243
     - name: Alpha-1,3/1,6-mannosyltransferase ALG2 (EC 2.4.1.132) (EC 2.4.1.257) (Asparagine-linked glycosylation protein 2) (GDP-Man:Man(1)GlcNAc(2)-PP-Dol alpha-1,3-mannosyltransferase) (GDP-Man:Man(1)GlcNAc(2)-PP-dolichol mannosyltransferase) (GDP-Man:Man(2)GlcNAc(2)-PP-Dol alpha-1,6-mannosyltransferase)
@@ -88920,7 +88950,7 @@
       - kegg.reaction: R05973
       - metanetx.reaction: MNXR109280
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4244
     - name: GDP-D-mannose:D-Man-alpha-(1->3)-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-6-mannosyltransferase
@@ -88940,7 +88970,7 @@
       - kegg.reaction: R06238
       - metanetx.reaction: MNXR110084
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4245
     - name: 2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate 6-phosphomannohydrolase
@@ -88957,7 +88987,7 @@
       - kegg.reaction: R09645
       - metanetx.reaction: MNXR101397
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4246
     - name: Alpha-mannosidase (EC 3.2.1.24) (Alpha-D-mannoside mannohydrolase)
@@ -88972,7 +89002,7 @@
     - annotation: !!omap
       - ec-code: 3.2.1.24
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4247
     - name: ATP:L-threonyl,bicarbonate adenylyltransferase
@@ -88991,7 +89021,7 @@
       - kegg.reaction: R10463
       - metanetx.reaction: MNXR113802
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4248
     - name: D-serine ammonia-lyase
@@ -89007,7 +89037,7 @@
       - kegg.reaction: R00221
       - metanetx.reaction: MNXR104338
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4249
     - name: O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase; O3-acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
@@ -89024,7 +89054,7 @@
       - kegg.reaction: R00897
       - metanetx.reaction: MNXR97007
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4250
     - name: Dolichyl-diphosphate phosphohydrolase
@@ -89041,7 +89071,7 @@
       - kegg.reaction: R01004
       - metanetx.reaction: MNXR106783
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4251
     - name: CTP:phosphatidate cytidyltransferase
@@ -89059,7 +89089,7 @@
       - kegg.reaction: R01799
       - metanetx.reaction: MNXR107177
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4252
     - name: Thiamine thiazole synthase (Thiazole biosynthetic enzyme)
@@ -89077,7 +89107,7 @@
       - kegg.reaction: R10685
       - metanetx.reaction: MNXR114005
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4253
     - name: dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,2-glucosyltransferase
@@ -89095,7 +89125,7 @@
       - kegg.reaction: R06264
       - metanetx.reaction: MNXR110098
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4254
     - name: nitric oxide, NADPH2:oxygen oxidoreductase
@@ -89114,7 +89144,7 @@
       - kegg.reaction: R05725
       - metanetx.reaction: MNXR101997
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4255
     - name: Flavohemoprotein (EC 1.14.12.17) (Flavohemoglobin) (Hemoglobin-like protein) (Nitric oxide dioxygenase) (NO oxygenase) (NOD)
@@ -89133,7 +89163,7 @@
       - kegg.reaction: R05725
       - metanetx.reaction: MNXR101997
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4256
     - name: Putative lipoate-protein ligase A (EC 6.3.1.20) (Altered inheritance rate of mitochondria protein 22)
@@ -89151,7 +89181,7 @@
       - kegg.reaction: R07770
       - metanetx.reaction: MNXR101081
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4258
     - name: [lipoyl-carrier protein]-L-lysine:lipoate ligase (AMP-forming)
@@ -89170,7 +89200,7 @@
       - kegg.reaction: R11143
       - metanetx.reaction: MNXR114442
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4260
     - name: Deaminated glutathione amidase (dGSH amidase) (EC 3.5.1.-) (Nitrilase homolog 1)
@@ -89186,7 +89216,7 @@
       - ec-code: 3.5.1.-
       - kegg.reaction: R12024
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4261
     - name: Deaminated glutathione amidase (dGSH amidase) (EC 3.5.1.-) (Nitrilase homolog 1)
@@ -89202,7 +89232,7 @@
       - ec-code: 3.5.1.-
       - kegg.reaction: R12024
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4262
     - name: citrate hydroxymutase
@@ -89217,7 +89247,7 @@
       - kegg.reaction: R01324
       - metanetx.reaction: MNXR95384
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4263
     - name: Anion/proton exchange transporter GEF1 (CLC protein GEF1) (ClC-A) (ClC-Y1) (Voltage-gated chloride channel) [Cleaved into: GEF1 N-terminal; GEF1 C-terminal]
@@ -89229,7 +89259,7 @@
     - gene_reaction_rule: YJR040W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4264
     - name: succinate:NAD+ oxidoreductase
@@ -89247,7 +89277,7 @@
       - kegg.reaction: R00402
       - metanetx.reaction: MNXR106516
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4265
     - name: nucleoside-triphosphate diphosphohydrolase
@@ -89265,7 +89295,7 @@
       - kegg.reaction: R01532
       - metanetx.reaction: MNXR107043
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4266
     - name: Inosine triphosphate pyrophosphatase (ITPase) (Inosine triphosphatase) (EC 3.6.1.9) (Hydroxylaminopurine sensitivity protein 1) (Non-canonical purine NTP pyrophosphatase) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)
@@ -89281,7 +89311,7 @@
     - annotation: !!omap
       - ec-code: 3.6.1.9
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4267
     - name: 2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase
@@ -89299,7 +89329,7 @@
       - kegg.reaction: R01855
       - metanetx.reaction: MNXR102049
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4268
     - name: dTTP diphosphohydrolase
@@ -89317,7 +89347,7 @@
       - kegg.reaction: R11323
       - metanetx.reaction: MNXR97809
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4269
     - name: Inosine triphosphate pyrophosphatase (ITPase) (Inosine triphosphatase) (EC 3.6.1.9) (Hydroxylaminopurine sensitivity protein 1) (Non-canonical purine NTP pyrophosphatase) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)
@@ -89333,7 +89363,7 @@
     - annotation: !!omap
       - ec-code: 3.6.1.9
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4270
     - name: superoxide:superoxide oxidoreductase
@@ -89350,7 +89380,7 @@
       - kegg.reaction: R00275
       - metanetx.reaction: MNXR104498
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4271
     - name: Endoplasmic reticulum mannosyl-oligosaccharide 1,2-alpha-mannosidase (EC 3.2.1.113) (ER alpha-1,2-mannosidase) (Man(9)-alpha-mannosidase)
@@ -89369,7 +89399,7 @@
       - kegg.reaction: R05982
       - metanetx.reaction: MNXR109973
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4272
     - name: alpha 1,2-mannosyloligosaccharide alpha-D-mannohydrolase
@@ -89388,7 +89418,7 @@
       - kegg.reaction: R06722
       - metanetx.reaction: MNXR110483
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4273
     - name: ethylnitronate:oxygen 2-oxidoreductase (nitrite-forming)
@@ -89409,7 +89439,7 @@
       - kegg.reaction: R00025
       - metanetx.reaction: MNXR106342
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4274
     - name: O-Succinyl-L-homoserine succinate-lyase (deaminating; 2-oxobutanoate-forming)
@@ -89428,7 +89458,7 @@
       - kegg.reaction: R00999
       - metanetx.reaction: MNXR104384
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4275
     - name: Fe(II):NADP+ oxidoreductase
@@ -89446,7 +89476,7 @@
       - kegg.reaction: R09541
       - metanetx.reaction: MNXR112960
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4276
     - name: Fe(II):NADP+ oxidoreductase
@@ -89464,7 +89494,7 @@
       - kegg.reaction: R09541
       - metanetx.reaction: MNXR112960
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4277
     - name: acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase
@@ -89481,7 +89511,7 @@
       - kegg.reaction: R00851
       - metanetx.reaction: MNXR106715
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4278
     - name: diphthine:ammonia ligase (AMP-forming)
@@ -89501,7 +89531,7 @@
       - kegg.reaction: R03613
       - metanetx.reaction: MNXR108295
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4279
     - name: 8-oxo-dGTP diphosphohydrolase
@@ -89519,7 +89549,7 @@
       - kegg.reaction: R09832
       - metanetx.reaction: MNXR113234
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4280
     - name: octanoyl-[acp]:protein N6-octanoyltransferase
@@ -89536,7 +89566,7 @@
       - kegg.reaction: R07766
       - metanetx.reaction: MNXR111354
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4281
     - name: lipoyl-[acp]:protein N6-lipoyltransferase
@@ -89553,7 +89583,7 @@
       - kegg.reaction: R07769
       - metanetx.reaction: MNXR111357
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4282
     - name: ATP:D-fructose-6-phosphate 2-phosphotransferase
@@ -89573,7 +89603,7 @@
       - kegg.reaction: R02732
       - metanetx.reaction: MNXR102508
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4283
     - name: ATP:D-fructose 6-phosphotransferase
@@ -89591,7 +89621,7 @@
       - kegg.reaction: R00867
       - metanetx.reaction: MNXR100614
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4284
     - name: ATP:beta-D-glucose 6-phosphotransferase
@@ -89609,7 +89639,7 @@
       - kegg.reaction: R01600
       - metanetx.reaction: MNXR107081
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4285
     - name: ATP:alpha-D-glucose 6-phosphotransferase
@@ -89627,7 +89657,7 @@
       - kegg.reaction: R01786
       - metanetx.reaction: MNXR100284
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4286
     - name: ATP:D-glucosamine 6-phosphotransferase
@@ -89645,7 +89675,7 @@
       - kegg.reaction: R01961
       - metanetx.reaction: MNXR100613
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4287
     - name: ATP:D-fructose 6-phosphotransferase
@@ -89663,7 +89693,7 @@
       - kegg.reaction: R03920
       - metanetx.reaction: MNXR95167
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4288
     - name: alpha-D-Glucose 6-phosphate ketol-isomerase
@@ -89678,7 +89708,7 @@
       - kegg.reaction: R02739
       - metanetx.reaction: MNXR99911
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4291
     - name: D-Glyceraldehyde:NAD+ oxidoreductase
@@ -89697,7 +89727,7 @@
       - kegg.reaction: R01752
       - metanetx.reaction: MNXR100310
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4292
     - name: 4-Aminobutyraldehyde:NAD+ oxidoreductase
@@ -89716,7 +89746,7 @@
       - kegg.reaction: R01986
       - metanetx.reaction: MNXR94991
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4293
     - name: 4-aminobutanal:NAD+ 1-oxidoreductase; 4-aminobutyraldehyde:NAD+ oxidoreductase
@@ -89735,7 +89765,7 @@
       - kegg.reaction: R02549
       - metanetx.reaction: MNXR95191
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4294
     - name: Indole-3-acetaldehyde:NAD+ oxidoreductase
@@ -89754,7 +89784,7 @@
       - kegg.reaction: R02678
       - metanetx.reaction: MNXR95744
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4295
     - name: 2-Propyn-1-al:NAD+ oxidoreductase
@@ -89773,7 +89803,7 @@
       - kegg.reaction: R02940
       - metanetx.reaction: MNXR107839
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4296
     - name: D-Glucuronolactone:NAD+ oxidoreductase
@@ -89792,7 +89822,7 @@
       - kegg.reaction: R02957
       - metanetx.reaction: MNXR95753
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4297
     - name: 4-Trimethylammoniobutanal:NAD+ 1-oxidoreductase; 4-Trimethylammoniobutanal:NAD+ oxidoreductase
@@ -89811,7 +89841,7 @@
       - kegg.reaction: R03283
       - metanetx.reaction: MNXR108074
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4298
     - name: (S)-Methylmalonate semialdehyde:NAD+ oxidoreductase
@@ -89830,7 +89860,7 @@
       - kegg.reaction: R03869
       - metanetx.reaction: MNXR95762
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4299
     - name: Imidazole acetaldehyde:NAD+ oxidoreductase
@@ -89849,7 +89879,7 @@
       - kegg.reaction: R04065
       - metanetx.reaction: MNXR95745
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4300
     - name: 3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase
@@ -89868,7 +89898,7 @@
       - kegg.reaction: R04506
       - metanetx.reaction: MNXR108934
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4301
     - name: 5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase
@@ -89887,7 +89917,7 @@
       - kegg.reaction: R04903
       - metanetx.reaction: MNXR109205
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4302
     - name: N4-Acetylaminobutanal:NAD+ oxidoreductase
@@ -89906,7 +89936,7 @@
       - kegg.reaction: R05050
       - metanetx.reaction: MNXR101805
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4303
     - name: Fatty aldehyde dehydrogenase HFD1 (EC 1.2.1.3)
@@ -89923,7 +89953,7 @@
       - kegg.reaction: R05237
       - metanetx.reaction: MNXR109413
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4304
     - name: Fatty aldehyde dehydrogenase HFD1 (EC 1.2.1.3)
@@ -89940,7 +89970,7 @@
       - kegg.reaction: R05238
       - metanetx.reaction: MNXR109414
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4305
     - name: Chloroacetaldehyde:NAD+ oxidoreductase
@@ -89959,7 +89989,7 @@
       - kegg.reaction: R05286
       - metanetx.reaction: MNXR109457
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4306
     - name: Aldehyde:NAD+ oxidoreductase
@@ -89978,7 +90008,7 @@
       - kegg.reaction: R06366
       - metanetx.reaction: MNXR110183
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4307
     - name: farnesal:NAD+ oxidoreductase
@@ -89997,7 +90027,7 @@
       - kegg.reaction: R08146
       - metanetx.reaction: MNXR111724
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4308
     - name: Probable phospholipid-transporting ATPase DNF3 (EC 3.6.3.1) (Aminophospholipid translocase) (APT) (Phospholipid translocase) (PLT)
@@ -90015,7 +90045,7 @@
     - annotation: !!omap
       - ec-code: 3.6.3.1
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4309
     - name: Putative esterase YMR210W (EC 3.1.1.-)
@@ -90031,7 +90061,7 @@
     - annotation: !!omap
       - ec-code: 3.1.1.-
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4310
     - name: GDP-mannose:glycolipid 1,2-alpha-D-mannosyltransferase
@@ -90049,7 +90079,7 @@
       - kegg.reaction: R06127
       - metanetx.reaction: MNXR110030
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4311
     - name: GDP-mannose:glycolipid 1,2-alpha-D-mannosyltransferase
@@ -90067,7 +90097,7 @@
       - kegg.reaction: R06128
       - metanetx.reaction: MNXR110031
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4312
     - name: S-adenosyl-L-methionine:carnosine N-methyltransferase
@@ -90085,7 +90115,7 @@
       - kegg.reaction: R02144
       - metanetx.reaction: MNXR107333
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4313
     - name: Alpha-1,2-mannosyltransferase ALG9 (EC 2.4.1.259) (EC 2.4.1.261) (Asparagine-linked glycosylation protein 9) (Dol-P-Man:Man(6)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase) (Dol-P-Man:Man(8)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase)
@@ -90105,7 +90135,7 @@
       - kegg.reaction: R06259
       - metanetx.reaction: MNXR110093
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4314
     - name: Alpha-1,2-mannosyltransferase ALG9 (EC 2.4.1.259) (EC 2.4.1.261) (Asparagine-linked glycosylation protein 9) (Dol-P-Man:Man(6)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase) (Dol-P-Man:Man(8)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase)
@@ -90124,7 +90154,7 @@
       - kegg.reaction: R06261
       - metanetx.reaction: MNXR110095
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4315
     - name: Glycolate:NAD+ oxidoreductase
@@ -90142,7 +90172,7 @@
       - kegg.reaction: R00717
       - metanetx.reaction: MNXR100331
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4316
     - name: Dol-P-Man:Man(7)GlcNAc(2)-PP-Dol alpha-1,6-mannosyltransferase (EC 2.4.1.260) (Asparagine-linked glycosylation protein 12) (Dolichyl-P-Man:Man(7)GlcNAc(2)-PP-dolichyl-alpha-1,6-mannosyltransferase) (Extracellular mutant protein 39) (Mannosyltransferase ALG12)
@@ -90159,7 +90189,7 @@
       - kegg.reaction: R06260
       - metanetx.reaction: MNXR110094
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4317
     - name: sucrose glucohydrolase
@@ -90176,7 +90206,7 @@
       - kegg.reaction: R00801
       - metanetx.reaction: MNXR104638
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4318
     - name: Isomaltose 6-alpha-D-glucanohydrolase
@@ -90193,7 +90223,7 @@
       - kegg.reaction: R01718
       - metanetx.reaction: MNXR107140
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4319
     - name: Dextrin 6-alpha-D-glucanohydrolase
@@ -90209,7 +90239,7 @@
       - kegg.reaction: R01791
       - metanetx.reaction: MNXR107171
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4320
     - name: dolichyl beta-D-glucosyl phosphate:D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
@@ -90227,7 +90257,7 @@
       - kegg.reaction: R06262
       - metanetx.reaction: MNXR110096
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4321
     - name: dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
@@ -90245,7 +90275,7 @@
       - kegg.reaction: R06263
       - metanetx.reaction: MNXR110097
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4322
     - name: GPI mannosyltransferase 4 (EC 2.4.1.-) (GPI mannosyltransferase IV) (GPI-MT-IV)
@@ -90263,7 +90293,7 @@
       - kegg.reaction: R07129
       - metanetx.reaction: MNXR110833
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4323
     - name: protein N6-(octanoyl)lysine:sulfur sulfurtransferase
@@ -90282,7 +90312,7 @@
       - kegg.reaction: R07767
       - metanetx.reaction: MNXR111355
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4324
     - name: octanoyl-[acp]:sulfur sulfurtransferase
@@ -90301,7 +90331,7 @@
       - kegg.reaction: R07768
       - metanetx.reaction: MNXR111356
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4325
     - name: Iron sulfur cluster assembly protein 2, mitochondrial (Iron sulfur cluster scaffold protein 2)
@@ -90314,7 +90344,7 @@
     - gene_reaction_rule: YOR226C or YPL135W
     - annotation: !!omap
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4326
     - name: thiosulfate:cyanide sulfurtranserase
@@ -90334,7 +90364,7 @@
       - kegg.reaction: R01931
       - metanetx.reaction: MNXR96956
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4327
     - name: Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)
@@ -90346,7 +90376,7 @@
     - gene_reaction_rule: YOR334W or YPL060W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4328
     - name: UDPglucose:dolichyl-phosphate beta-D-glucosyltransferase
@@ -90363,7 +90393,7 @@
       - kegg.reaction: R01005
       - metanetx.reaction: MNXR106784
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4329
     - name: Putative sulfate transporter YPR003C
@@ -90375,7 +90405,7 @@
     - gene_reaction_rule: YPR003C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4330
     - name: Pyridoxine:NADP+ 4-oxidoreductase
@@ -90393,7 +90423,7 @@
       - kegg.reaction: R01708
       - metanetx.reaction: MNXR103366
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4331
     - name: [1,4-(N-Acetyl-beta-D-glucosaminyl)]n glycanohydrolase
@@ -90409,7 +90439,7 @@
       - kegg.reaction: R01206
       - metanetx.reaction: MNXR106866
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4332
     - name: Protein PNS1 (pH nine-sensitive protein 1)
@@ -90421,7 +90451,7 @@
     - gene_reaction_rule: YOR161C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4333
     - name: Polyphosphate phosphohydrolase
@@ -90441,7 +90471,7 @@
       - kegg.reaction: R03042
       - metanetx.reaction: MNXR107906
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4334
     - name: Copper-transporting ATPase (EC 3.6.3.54) (Cu(2+)-ATPase)
@@ -90459,7 +90489,7 @@
     - annotation: !!omap
       - ec-code: 3.6.3.54
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4335
     - name: Endopolyphosphatase (EC 3.6.1.10) (Deoxyadenosine triphosphate phosphohydrolase) (dATP phosphohydrolase) (EC 3.6.1.-) (Exopolyphosphatase) (EC 3.6.1.11) (Phosphate metabolism protein 5)
@@ -90478,7 +90508,7 @@
         - 3.6.1.-
         - 3.6.1.11
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4336
     - name: Monoamide of a dicarboxylic acid amidohydrolase
@@ -90495,7 +90525,7 @@
       - kegg.reaction: R03804
       - metanetx.reaction: MNXR108439
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4337
     - name: Iron-sulfur clusters transporter ATM1, mitochondrial
@@ -90512,7 +90542,7 @@
     - gene_reaction_rule: YMR301C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4338
     - name: Oligo-1,6-glucosidase IMA2 (EC 3.2.1.10) (Alpha-glucosidase) (Isomaltase 2)
@@ -90528,7 +90558,7 @@
       - kegg.reaction: R06199
       - metanetx.reaction: MNXR110064
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4339
     - name: UDP-N-acetylglucosamine transporter YEA4
@@ -90540,7 +90570,7 @@
     - gene_reaction_rule: YEL004W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4340
     - name: D-amino-acid N-acetyltransferase HPA3 (DNT) (EC 2.3.1.36) (EC 2.3.1.48) (Histone and other protein acetyltransferase 3)
@@ -90558,7 +90588,7 @@
         - 2.3.1.36
         - 2.3.1.48
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_4341
     - name: glycerol 2-phosphate(2-) transport

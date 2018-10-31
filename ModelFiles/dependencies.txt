@@ -1,4 +1,4 @@
-MATLAB	9.4.0.813654 (R2018a)
+MATLAB	9.5.0.944444 (R2018b)
 libSBML	5.17.0
 RAVEN_toolbox	2.0.4
 COBRA_toolbox	commit ad4bb21
