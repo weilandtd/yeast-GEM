@@ -99,6 +99,10 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
   * `iSce926newGenes.tsv`: New genes added to the model based on [the iSce926 model](http://www.maranasgroup.com/submission_models/iSce926.htm).
   * `metabolite_manual_curation.tsv`: All manually curated data added to metabolites.
 
+## Contributing
+
+Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
+  
 ## Contributors
 
 * [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
