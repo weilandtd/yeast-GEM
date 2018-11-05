@@ -86004,13 +86004,13 @@
     - id: r_4041
     - name: biomass pseudoreaction
     - metabolites: !!omap
-      - s_0394: 55.4
-      - s_0434: -55.4
+      - s_0394: 55.3
+      - s_0434: -55.3
       - s_0450: 1
-      - s_0794: 55.4
-      - s_0803: -55.4
+      - s_0794: 55.3
+      - s_0803: -55.3
       - s_1096: -1
-      - s_1322: 55.4
+      - s_1322: 55.3
       - s_3717: -1
       - s_3718: -1
       - s_3719: -1
@@ -86148,11 +86148,11 @@
     - id: r_4048
     - name: carbohydrate pseudoreaction
     - metabolites: !!omap
-      - s_0001: -0.75433
-      - s_0004: -0.25204
-      - s_0773: -0.36422
-      - s_1107: -0.71647
-      - s_1520: -0.13935
+      - s_0001: -0.74844
+      - s_0004: -0.25007
+      - s_0773: -0.36138
+      - s_1107: -0.71086
+      - s_1520: -0.13826
       - s_3718: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -93832,10 +93832,10 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR96437
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4588
-    - name: Cl(-) transport
+    - name: chloride transport
     - metabolites: !!omap
       - s_3778: 1
       - s_4200: -1
@@ -93845,7 +93845,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR96797
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4589
     - name: Cu2(+) transport
@@ -93860,7 +93860,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR126350
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4590
     - name: Mn(2+) transport
@@ -93875,7 +93875,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR101669
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4591
     - name: Zn(2+) transport
@@ -93890,7 +93890,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR105278
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4592
     - name: Mg(2+) transport
@@ -93905,7 +93905,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR101553
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4593
     - name: chloride exchange
@@ -93962,10 +93962,10 @@
     - metabolites: !!omap
       - s_0529: -0.00019
       - s_0687: -1e-05
-      - s_1198: -0.001
-      - s_1203: -0.00078846
-      - s_1207: -6.54e-05
-      - s_1212: -7.69e-05
+      - s_1198: -0.00265
+      - s_1203: -0.00015
+      - s_1207: -0.00057
+      - s_1212: -0.0027
       - s_1405: -0.00099
       - s_1475: -1.2e-05
       - s_1487: -6.34e-05
