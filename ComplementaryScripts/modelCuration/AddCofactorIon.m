@@ -104,7 +104,7 @@ for i = 1:length(newmet.metNames)
         model.metKEGGID{metID}     = newmet.metKEGGID{i};
         model.metChEBIID{metID}    = newmet.metChEBIID{i};
         model.metMetaNetXID{metID} = newmet.metMetaNetXID{i};
-        model.metNotes{metID}      = 'NOTES: added for BiomassUpdate';
+        model.metNotes{metID}      = 'NOTES:added for BiomassUpdate (PR #174)';
     end
 end
 
@@ -117,6 +117,7 @@ if ~isfield(model,'rxnMetaNetXID')
     model.rxnMetaNetXID = cell(size(model.rxns));
 end
 for i = 1:length(newrxn.ID)
+    cd ../otherChanges
     newID = getNewIndex(model.rxns);
     j     = find(strcmp(matrix.rxnIDs,newrxn.ID{i}));
     Met   = matrix.mets(j);
@@ -128,6 +129,7 @@ for i = 1:length(newrxn.ID)
         'reversible',newrxn.Rev(i,1),...
         'geneRule',newrxn.GPR{i},...
         'checkDuplicate',1);
+    cd ../modelCuration    
     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
     if isempty(rxnIndex)
@@ -138,8 +140,12 @@ for i = 1:length(newrxn.ID)
     model.rxnECNumbers(rxnIndex)  = newrxn.rxnECNumbers(i);
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnMetaNetXID(rxnIndex) = newrxn.rxnMetaNetXID(i);
-    model.rxnConfidenceScores(rxnIndex) = 1;   %reactions without gene but needed for modelling
-    model.rxnNotes{rxnIndex} = 'NOTES:added for BiomassUpdate';
+    model.rxnNotes{rxnIndex} = 'NOTES:added for BiomassUpdate (PR #174)';
+    if ~isempty(model.rules{rxnIndex})
+        model.rxnConfidenceScores(rxnIndex) = 2;   %reactions has GPR rules
+    else
+        model.rxnConfidenceScores(rxnIndex) = 1;   %reactions without gene but needed for modelling
+    end
 end
 
 % add gene standard name for new genes
@@ -167,10 +173,18 @@ end
 group = unique(data.groups);
 for i = 1:length(group)
 %get new metID for pseudo mets :ion and cofactor
-    metID  = ['s_' getNewIndex(model.mets) '[c]'];
-    model  = addMetabolite(model,metID,'metName',[group{i} ' [cytoplasm]']);
+    cd ../otherChanges
+    metname = [group{i} ' [cytoplasm]'];
+    [~,index] = ismember(metname,model.metNames);
+    if index ~= 0
+        metID = model.mets(index);
+    elseif index == 0
+        metID  = ['s_' getNewIndex(model.mets) '[c]'];
+        model = addMetabolite(model,metID, ...
+            'metName',metname);
+    end
     [~,index] = ismember(metID,model.mets);
-    model.metNotes{index}      = 'NOTES: added for BiomassUpdate';
+    model.metNotes{index}      = 'NOTES:added for BiomassUpdate (PR #174)';
 
 % Get coefficients for pseudo rxns: ion pseudoreaction, cofactor pseudoreaction
     newps.rxnName = {[group{i},' pseudoreaction']};
@@ -181,20 +195,26 @@ for i = 1:length(group)
 % introduce two pseudo mets ion [cytoplasm], cofactor [cytoplasm] into the reaction
     newps.metIDs = [newps.metIDs;metID];
     newps.metcoef = [newps.metcoef;1];
-
-    rxnID = ['r_' getNewIndex(model.rxns)];
+    [~,index] = ismember(newps.rxnName,model.rxnNames);
+    if index == 0
+        rxnID = ['r_' getNewIndex(model.rxns)];
+    else
+        rxnID = model.rxns{index};
+    end
     [model,rxnIndex] = addReaction(model, rxnID,...
                        'reactionName', char(newps.rxnName),...
                        'metaboliteList',newps.metIDs,...
                        'stoichCoeffList',newps.metcoef,...
                        'reversible',false,...
                        'checkDuplicate',1);
+     cd ../modelCuration/
     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
     if isempty(rxnIndex)
-        rxnIndex = strcmp(model.rxns,['r_' newID]);
+        rxnIndex = strcmp(model.rxns,rxnID);
     end
-    model.rxnNotes{rxnIndex} = 'NOTES:added for BiomassUpdate';
+    model.rxnNotes{rxnIndex} = 'NOTES:added for BiomassUpdate (PR #174)';
+    model = rmfield(model,'grRules');
 end
 
 % Change original biomass equation
@@ -208,7 +228,9 @@ model.S(UnusedMets_index,biomassRxn_index) = 0;
 model.S(AddMets_index,biomassRxn_index) = -1;
 
 % Save model:
+if isfield(model,'grRules')
 model = rmfield(model,'grRules');
+end
 %cd ..
 model = minimal_Y6(model);
 %saveYeastModel(model)
