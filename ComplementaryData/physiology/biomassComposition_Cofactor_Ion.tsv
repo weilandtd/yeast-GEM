@@ -8,11 +8,11 @@ s_1373[c]	potassium 	3.63E-03	39.1	ion	DOI: 10.22161/ijeab/2.2.16
 s_1437[c]	sodium 	3.97E-03	22.99	ion	DOI: 10.22161/ijeab/2.2.17
 s_4013[c]	Mg(2+) 	0.001242543	24.3	ion	DOI: 10.22161/ijeab/2.2.18
 s_1467[c]	sulphate	0.02	96.06	ion	Forster2003
-s_1203[c]	NADH 	0.000788462	663.43	cofactor	YMDB
-s_1198[c]	NAD 	0.001	663.43	cofactor	YMDB
-s_1212[c]	NADPH 	7.69E-05	745.4209	cofactor	YMDB
-s_1207[c]	NADP(+) 	6.54E-05	744.4129	cofactor	YMDB
-s_0529[c]	coenzyme A 	1.90E-04	767.5341	cofactor	DOI: 10.1016/j.ymben.2013.11.005
+s_1203[c]	NADH 	1.5E-04	663.43	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Supplementary file
+s_1198[c]	NAD 	2.65E-03	662.43	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Supplementary file
+s_1212[c]	NADPH 	2.7E-03	745.4209	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Supplementary file
+s_1207[c]	NADP(+) 	5.7E-04	744.4129	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Supplementary file
+s_0529[c]	coenzyme A 	1.90E-04	767.5341	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Supplementary file
 s_1487[c]	THF 	6.34E-05	445.4292	cofactor	DOI: 10.1021/jf048083g
 s_1475[c]	TDP 	0.000012	425.3144	cofactor	DOI:10.1002/jib.293
 s_0687[c]	FAD 	0.00001	785.5497	cofactor	DOI: 10.1002/yea.1897
