@@ -58,7 +58,7 @@ Here's how to set up yeast-GEM for local development to contribute smaller featu
     * If your changes are not so small and require several steps, create a script that loads the model, reads data (if applicable), changes the model accordingly, and saves the model back.
     * Each script should start with a commented section describing the script, explaining the parameters, and indicating your name and the date it was written. Existing functions can clarify what style should be used.
     * Store scripts in the appropriate folder in `/ComplementaryScripts` and data (as `.tsv` files) in the appropriate folder in `/ComplementaryData`. If you think no folder is adequate for your script/data, feel free to create your own folder. Note that binary data such as `.mat` structures or `.xls` tables cannot be stored in the repo (as they cannot be version-controlled, and they increment too much the size of the repo).
-    * When you are done making changes, review locally your changes with `git diff` or any git client, to make sure you are doing to the model what you intended.
+    * When you are done making changes, review locally your changes with `git diff` or any git client, to make sure you are modifying the model as you intended.
 
 7. Commit your changes and push your branch to GitHub.
     ```
