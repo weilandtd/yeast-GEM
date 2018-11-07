@@ -57,6 +57,7 @@ Here's how to set up yeast-GEM for local development to contribute smaller featu
     * If your changes are minor (e.g. a single chemical formula you wish to correct), you can do it directly from the command line.
     * If your changes are not so small and require several steps, create a script that loads the model, reads data (if applicable), changes the model accordingly, and saves the model back.
     * Each script should start with a commented section describing the script, explaining the parameters, and indicating your name and the date it was written. Existing functions can clarify what style should be used.
+	* If you add new metabolites and/or rxns to the model, please use `/ComplementaryScripts/otherChanges/getNewIndex.m` for obtaining new ids. If you add a new gene, please use as id the [systematic names from SGD](http://seq.yeastgenome.org/help/community/nomenclature-conventions).
     * Store scripts in the appropriate folder in `/ComplementaryScripts` and data (as `.tsv` files) in the appropriate folder in `/ComplementaryData`. If you think no folder is adequate for your script/data, feel free to create your own folder. Note that binary data such as `.mat` structures or `.xls` tables cannot be stored in the repo (as they cannot be version-controlled, and they increment too much the size of the repo).
     * When you are done making changes, review locally your changes with `git diff` or any git client, to make sure you are modifying the model as you intended.
 
@@ -92,7 +93,7 @@ Please use concise descriptive commit messages. Ideally, use semantic commit mes
 
 `action-object: brief description`
 * `action` = {`feat`, `fix`, `refactor`, `style`, `doc`, `chore`, `test`}
-* `object` = {`rxn`, `rxn.annot`, `rxn.prop`, `met`, `met.annot`, `met.prop`, `gene`, `gene.annot`, `comp`, `comp.annot`, `data`}
+* `object` (optional field) = {`rxn`, `rxn.annot`, `rxn.prop`, `met`, `met.annot`, `met.prop`, `gene`, `gene.annot`, `comp`, `comp.annot`, `data`}
 
 `action` refers to what exactly are you doing in the commit, following a [standard definition](http://karma-runner.github.io/2.0/dev/git-commit-msg.html) in software development: 
 * `chore`: updating toolbox, data files, etc.
@@ -122,7 +123,7 @@ Some examples:
 |Update documentation of function|`doc: addDBnewRxn.m`|
 |Update toolbox|`chore: update RAVEN version`|
 
-More examples [here](https://github.com/SysBioChalmers/yeast-GEM/commits/master). A more detailed explanation or comments can be left in the commit description.
+More examples [here](https://github.com/SysBioChalmers/yeast-GEM/commits/master). A more detailed explanation or comments is encouraged to be left in the commit description.
 
 ## Development team guidelines
 
@@ -151,7 +152,7 @@ Every pull request must be approved by at least one reviewer before it can be me
 * **Reproducibility:** If there are any added scripts, make sure that if you run them, the model gets updated from how it was in `devel` to how it is in the pull request. For this, you may _locally_ switch to the corresponding branch, replace the `.xml` file with the one from `devel` before the changes, and run the associated scripts. Remember to stash any undesired changes afterwards.
 * **Style:** Ensure that the changes to the model are compliant with the model's rxn/met/gene naming conventions (when unsure, take a look at a similar field in the model). Also, make sure that scripts have a compliant style, and datasets are straight-forward to understand.
 * When commenting in the review, please comply with our [code of conduct](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CODE_OF_CONDUCT.md).
-* Avoid vague comments and try to be as explicit as possible (e.g.: _"please change this"_ instead of _"this could be changed"_).
+* Avoid vague comments and try to be as explicit as possible (e.g.: _"Please include X here"_ instead of _"X could be included here"_).
 * As much as possible, try to keep the review process in the pull request discussion, and not in separate private emails.
 
 ## Administrator guidelines
@@ -192,12 +193,12 @@ yeast-GEM follows [semantic versioning](https://semver.org/), adapted to GEMs:
   
 When releasing, please follow these steps:
   1. Make sure all dependencies in `devel` correspond to the setup from the local computer from which the release will be made. If not, make a single commit in `devel` updating this with a `loadYeastModel`/`saveYeastModel` cycle.
-  2. Create a pull request from `devel` to `master`, indicating all new features/fixes/etc. and referencing every previous pull request included. Tip: if any [issue](https://github.com/SysBioChalmers/yeast-GEM/issues) gets solved in the release, write in the pull request description "Fixes #X", where "X" is the issue number. That way the issue will be automatically closed after merge.
+  2. Create a pull request from `devel` to `master`, indicating all new features/fixes/etc. and referencing every previous pull request included (examples [here](https://github.com/SysBioChalmers/yeast-GEM/releases)). Tip: if any [issue](https://github.com/SysBioChalmers/yeast-GEM/issues) gets solved in the release, write in the pull request description "Fixes #X", where "X" is the issue number. That way the issue will be automatically closed after merge.
   3. Merge at least a day after (having at least one accepted review).
-  4. Switch locally to `master` and update `history.md`, by putting at the top a description with what is included in the new version.
+  4. Switch locally to `master` and update `history.md`, by putting at the top the same description of the corresponding PR from step 2.
   5. Bump version with `increaseVersion.m`. **NOTE:** The function will error if unexpected changes are occurring. If this happens, probably step 1 was done incorrectly. To fix it, commit in `devel` any necessary changes and make a new pull request.
-  6. Commit all changes with `chore: version X.Y.Z`
-  7. Make the new release at GitHub: https://github.com/SysBioChalmers/yeast-GEM/releases/new
+  6. Commit changes from steps 4 and 5 with the message `chore: version X.Y.Z`.
+  7. Make the new release at GitHub (https://github.com/SysBioChalmers/yeast-GEM/releases/new), using the proper tag "vX.Y.Z" and with the same description as the corresponding PR from step 2.
   8. Pull from `master` to `gh-pages` to update the landing page.
   
 ## Acknowledgments
