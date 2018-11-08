@@ -53,8 +53,7 @@ CONValldata = cat(2,model.compNames,model.comps);
 lbracket    = ' [' ;
 llbracket   = '[';
 rbrackets   = ']';
-space       = ' ';
-[m, n]      = size(CONValldata);
+[m, ~]      = size(CONValldata);
 for i = 1:m
     aa = CONValldata(i,1);
     aa = char(aa);
@@ -231,8 +230,5 @@ model.S(AddMets_index,biomassRxn_index) = -1;
 if isfield(model,'grRules')
 model = rmfield(model,'grRules');
 end
-%cd ..
 model = minimal_Y6(model);
-%saveYeastModel(model)
-%cd modelCuration/
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
