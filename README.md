@@ -77,6 +77,10 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 * `modelCuration`: Data files used for performing curations to the model. Mostly lists of new rxns, mets or genes added (or fixed) in the model.
 * `physiology`: Data on yeast growth under different conditions, biomass composition, gene essentiality experiments, etc.
 
+## Contributing
+
+Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
+  
 ## Contributors
 
 * [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
