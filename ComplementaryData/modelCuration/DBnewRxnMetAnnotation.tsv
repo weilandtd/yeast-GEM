@@ -276,3 +276,6 @@ R-S-glutathione [mitochondrion]	C10H16N3O6SR	0	mitochondrion	C02320	CHEBI:17021	
 iron(3+) [vacuole]	Fe	3	vacuole	C14819	CHEBI:29034	based on chebi
 UDP-N-acetyl-alpha-D-glucosamine [Golgi]	C17H25N3O17P2	-2	Golgi	C00043	CHEBI:57705	Present in yeast model
 L-methionine [vacuole]	C5H11NO2S	0	vacuole	C00073	CHEBI:16643	Present in yeast model
+ATP [Golgi]	C10H12N5O13P3	-4	vacuole	C00002	CHEBI:30616	Present in yeast model
+Ca(2+) [Golgi]	Ca	2	vacuole	C00076	CHEBI:29108	based on metnx
+ADP [Golgi]	C10H12N5O10P2	-3	vacuole	C00008	CHEBI:456216	Present in yeast model

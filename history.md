@@ -1,5 +1,14 @@
 # History
 
+### yeast 8.3.2:
+* Features:
+  * Fixes #154: MetaNetX IDs added from the yeast7.6 [MetaNetX](https://www.metanetx.org) model & from existing ChEBI and KEGG IDs in the model (PR #167).
+  * Introduced contributing guidelines + code of conduct (PR #175).
+* Fixes:
+  * Fixes #161: Added as `rxnNotes` and `metNotes` the corresponding PR number (#112, #142, #149 or #156) in which each rxn and met was introduced (PR #170).
+  * Fixes #169: Compartment error for `r_4238` (PR #170).
+  * Corrected confidence score of rxns from PR #142 (PR #170).
+
 ### yeast 8.3.1:
 * Features:
   * Added 21 reactions & 14 metabolites based on metabolomics data (PR #156).

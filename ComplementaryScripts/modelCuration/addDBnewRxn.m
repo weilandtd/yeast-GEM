@@ -88,7 +88,7 @@ for i = 1:length(newmet.metNames)
         model.metCharges(metID)  =  newmet.metCharges(i);
         model.metKEGGID{metID}   = newmet.metKEGGID{i};
         model.metChEBIID{metID}  = newmet.metChEBIID{i};
-        model.metNotes{metID}    = newmet.metNotes{i};
+        model.metNotes{metID}    = ['NOTES: added after new annotation (PR #142); ',newmet.metNotes{i}];
     end
 end
 
@@ -117,7 +117,7 @@ for i = 1:length(newrxn.ID)
     j = find(strcmp(matrix.rxnIDs,newrxn.ID{i}));
     Met = matrix.mets(j);
     Coef = transpose(matrix.metcoef(j));
-    model = addReaction(model,...
+    [model,rxnIndex] = addReaction(model,...
                         ['r_' newID],...
                         'reactionName', newrxn.ID{i},...
                         'metaboliteList',Met,...
@@ -127,7 +127,17 @@ for i = 1:length(newrxn.ID)
                         'checkDuplicate',1);
     [EnergyResults,RedoxResults] = CheckEnergyProduction(model,{['r_' newID]},EnergyResults,RedoxResults);
     [MassChargeresults] = CheckBalanceforSce(model,{['r_' newID]},MassChargeresults);
+    if isempty(rxnIndex)
+        rxnIndex = strcmp(model.rxns,['r_' newID]);
+    end
+    % Add rxn annotation:
+    model.rxnNames{rxnIndex}      = newrxn.rxnNames{i};
+    model.rxnECNumbers(rxnIndex)  = newrxn.rxnECNumbers(i);
+    model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
+    model.rxnConfidenceScores(rxnIndex) = 2;   %reactions added 
+    model.rxnNotes{rxnIndex} = 'NOTES: added after new annotation (PR #142)';
 end
+
 
 % add gene standard name for new genes
 fid = fopen('../../ComplementaryData/databases/SGDgeneNames.tsv');
@@ -149,18 +159,7 @@ for i = 1:length(model.genes)
     model.proteins{i} = strcat('COBRAProtein',num2str(i));
 end
 
-%add rxn annotation
-for i = 1:length(newrxn.ID)
-    [~,rxnID] = ismember(newrxn.ID(i),model.rxnNames);
-    if rxnID ~= 0
-        model.rxnNames{rxnID}     = newrxn.rxnNames{i};
-        model.rxnECNumbers(rxnID) = newrxn.rxnECNumbers(i);
-        model.rxnKEGGID(rxnID)    =  newrxn.rxnKEGGID(i);
-    end
-end
-
 % Save model:
-model = rmfield(model,'grRules');
 cd ..
 saveYeastModel(model)
 cd modelCuration
