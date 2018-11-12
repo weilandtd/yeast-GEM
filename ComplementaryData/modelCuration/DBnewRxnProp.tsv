@@ -84,7 +84,7 @@ R05916	1	( YDR437W and YGR216C and YNL038W and YPL076W and YPL175W and YPL096C-A
 R00299	0	YDR516C	ATP:D-glucose 6-phosphotransferase	2.7.1.1	sce00010  glycolysis / gluconeogenesis	R00299
 R09796	1	( YDR533C or YMR322C or YOR391C or YPL280W )	(R)-lactate hydro-lyase	4.2.1.130	methylglyoxal metabolism	R09796
 MNXR96434	0	YGL006W	Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)	3.6.3.8	ca2+ transport
-MNXR96434_2	0	YGL167C	Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)	3.6.3.8	ca2+ transport
+MNXR96434_2	0	YGL167C	Calcium-transporting ATPase 2 (EC 3.6.3.8) (Golgi Ca(2+)-ATPase)	3.6.3.8	ca2+ transport
 R03862	1	YGL017W	L-arginyl-tRNA(Arg):protein arginyltransferase	2.3.2.8	other	R03862
 R05976	1	YGL022W	Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3 (Oligosaccharyl transferase subunit STT3) (EC 2.4.99.18)	2.4.99.18	sce00510  n-glycan biosynthesis	R05976
 R05979	1	YGL027C	Mannosyl-oligosaccharide glucosidase (EC 3.2.1.106) (Processing A-glucosidase I) (Glucosidase I)	3.2.1.106	sce00510  n-glycan biosynthesis	R05979
