@@ -1,4 +1,4 @@
-function model = AddCofactorIon(model,data)
+function model = addBiomassUpdate(model,data)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % addBiomassUpdate
 % Adds rxns and metabolites for BiomassUpdate.

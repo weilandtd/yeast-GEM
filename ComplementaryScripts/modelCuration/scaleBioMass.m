@@ -66,7 +66,7 @@ data.MWs        = double(Cofactors{4});
 data.groups     = Cofactors{5};
 fclose(fid);
 
-model = AddCofactorIon(model,data);
+model = addBiomassUpdate(model,data);
 
 for j = 1:length(data_original.mets)
     if ~ismember(data_original.mets(j),data.mets)
