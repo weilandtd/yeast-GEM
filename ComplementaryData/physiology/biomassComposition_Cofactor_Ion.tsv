@@ -14,7 +14,7 @@ s_1212[c]	NADPH 	2.7E-03	745.4209	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Sup
 s_1207[c]	NADP(+) 	5.7E-04	744.4129	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Supplementary file
 s_0529[c]	coenzyme A 	1.90E-04	767.5341	cofactor	DOI: 10.1016/j.ymben.2013.11.005; Supplementary file
 s_1487[c]	THF 	6.34E-05	445.4292	cofactor	DOI: 10.1021/jf048083g
-s_1475[c]	TDP 	0.000012	425.3144	cofactor	DOI:10.1002/jib.293
+s_1475[c]	TDP 	0.0000012	425.3144	cofactor	DOI:10.1002/jib.293; Figure 6B
 s_0687[c]	FAD 	0.00001	785.5497	cofactor	DOI: 10.1002/yea.1897
 s_1405[c]	riboflavin	0.00099	376.36	cofactor	Forster2003
 s_3714[c]	heme a	0.000001	852.83	cofactor	Forster2003
