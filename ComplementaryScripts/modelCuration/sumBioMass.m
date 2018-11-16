@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% [X,P,C,R,D,L,N] = sumBioMass(model)
+% [X,P,C,R,D,L,I,F] = sumBioMass(model,data)
 % Calculates breakdown of biomass
 %
 % model     metabolic model in COBRA format
@@ -13,14 +13,18 @@
 % R         RNA fraction [g/gDW]
 % D         DNA fraction [g/gDW]
 % L         Lipid fraction [g/gDW]
-% N         Other mets [g/gDW]
+% F         cofactor [g/gDW]
+% I         ion [g/gDW]
+% 
 %
 % Function adapted from SLIMEr: https://github.com/SysBioChalmers/SLIMEr
 %
-% Benjamin Sanchez. Last update: 2018-09-04
+% Benjamin Sanchez. Update: 2018-09-04
+% Feiran Li. Last update: 2018-09-24 -Update the sumBiomass to include ions
+% and cofactors
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [X,P,C,R,D,L,N] = sumBioMass(model,data)
+function [X,P,C,R,D,L,I,F] = sumBioMass(model,data)
 
 %Get main fractions:
 [P,X] = getFraction(model,data,'P',0);
@@ -28,7 +32,8 @@ function [X,P,C,R,D,L,N] = sumBioMass(model,data)
 [R,X] = getFraction(model,data,'R',X);
 [D,X] = getFraction(model,data,'D',X);
 [L,X] = getFraction(model,data,'L',X);
-[N,X] = getFraction(model,data,'N',X);
+[I,X] = getFraction(model,data,'I',X);
+[F,X] = getFraction(model,data,'F',X);
 
 disp(['X -> ' num2str(X) ' gDW/gDW'])
 
@@ -51,32 +56,39 @@ rxnName = strrep(rxnName,'N','biomass');
 rxnName = strrep(rxnName,'L','lipid backbone');
 rxnName = strrep(rxnName,'R','RNA');
 rxnName = strrep(rxnName,'D','DNA');
+rxnName = strrep(rxnName,'I','ion');
+rxnName = strrep(rxnName,'F','cofactor');
+
 
 %Add up fraction:
 rxnPos = strcmp(model.rxnNames,rxnName);
-isSub   = model.S(:,rxnPos) < 0;        %substrates in pseudo-rxn
-if strcmp(compType,'L')
-    F = -sum(model.S(isSub,rxnPos));   %g/gDW
-else
-    F = 0;
-    %Add up all components:
-    for i = 1:length(model.mets)
-        pos = strcmp(data.mets,model.mets{i});
-        if isSub(i) && sum(pos) == 1
-            if strcmp(compType,'N')
-                MW = data.MWs(pos);
-            else
-                MW = data.MWs(pos)-18;
+if ~all(rxnPos==0)
+    isSub   = model.S(:,rxnPos) < 0;        %substrates in pseudo-rxn
+    if strcmp(compType,'L')
+        F = -sum(model.S(isSub,rxnPos));   %g/gDW
+    else
+        F = 0;
+        %Add up all components:
+        for i = 1:length(model.mets)
+            pos = strcmp(data.mets,model.mets{i});
+            if isSub(i) && sum(pos) == 1
+                if strcmp(compType,'I') || strcmp(compType,'F')
+                    MW = data.MWs(pos);
+                else
+                    MW = data.MWs(pos)-18;
+                end
+                abundance = -model.S(i,rxnPos)*MW/1000;
+                F         = F + abundance;
             end
-            abundance = -model.S(i,rxnPos)*MW/1000;
-            F         = F + abundance;
         end
     end
+    X = X + F;
+
+    disp([compType ' -> ' num2str(F) ' g/gDW'])
+else
+    disp([compType ' do not exist '])
+        F = 0;
+    X = X + F;
 end
-X = X + F;
-
-disp([compType ' -> ' num2str(F) ' g/gDW'])
-
 end
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
