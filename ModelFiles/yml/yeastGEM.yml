@@ -46394,6 +46394,7 @@
       - s_0684: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YGL077C
     - annotation: !!omap
       - metanetx.reaction: MNXR97974
       - pmid: 15201274
@@ -46671,6 +46672,7 @@
       - s_0926: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YJL133W or YKR052C
     - annotation: !!omap
       - metanetx.reaction: MNXR99505
       - pmid: 9660806
@@ -47511,6 +47513,7 @@
       - s_1451: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR99109
       - pmid: 8993619
@@ -48699,6 +48702,7 @@
       - s_0164: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL120W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -49401,6 +49405,7 @@
       - s_0392: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YPR011C
     - annotation: !!omap
       - metanetx.reaction: MNXR102382
       - sbo: SBO:0000655
@@ -49532,6 +49537,7 @@
       - s_0967: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBR147W
     - annotation: !!omap
       - metanetx.reaction: MNXR95953
       - pmid: 9874237
@@ -49545,6 +49551,7 @@
       - s_0971: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR96069
       - sbo: SBO:0000655
@@ -49826,6 +49833,7 @@
       - s_0512: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YGL077C or YOR161C
     - annotation: !!omap
       - metanetx.reaction: MNXR96693
       - sbo: SBO:0000655
@@ -50065,6 +50073,7 @@
       - s_0549: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -50164,6 +50173,7 @@
       - s_0562: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YEL069C or YJR158W or YNR072W
     - annotation: !!omap
       - metanetx.reaction: MNXR104288
       - sbo: SBO:0000655
@@ -50185,6 +50195,7 @@
       - s_0579: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YHR092C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -50387,6 +50398,7 @@
       - s_0139: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBL042C
     - annotation: !!omap
       - metanetx.reaction: MNXR97819
       - sbo: SBO:0000655
@@ -50627,6 +50639,7 @@
       - s_0666: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL013C or YOR011W
     - annotation: !!omap
       - metanetx.reaction: MNXR97950
       - sbo: SBO:0000655
@@ -50714,6 +50727,7 @@
       - s_1070: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR135773
       - sbo: SBO:0000655
@@ -50726,6 +50740,7 @@
       - s_1166: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR128297
       - sbo: SBO:0000655
@@ -50738,6 +50753,7 @@
       - s_1291: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR99101
       - sbo: SBO:0000655
@@ -50849,6 +50865,7 @@
       - s_0723: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR99620
       - sbo: SBO:0000655
@@ -50929,6 +50946,7 @@
       - s_0744: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YGL225W
     - annotation: !!omap
       - metanetx.reaction: MNXR131177
       - sbo: SBO:0000655
@@ -51004,6 +51022,7 @@
       - s_1005: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YPR058W
     - annotation: !!omap
       - metanetx.reaction: MNXR100371
       - sbo: SBO:0000655
@@ -51058,6 +51077,7 @@
       - s_0780: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR100306
       - sbo: SBO:0000655
@@ -51288,6 +51308,7 @@
       - s_1008: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBR147W
     - annotation: !!omap
       - metanetx.reaction: MNXR100649
       - sbo: SBO:0000655
@@ -51743,6 +51764,7 @@
       - s_0964: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - metanetx.reaction: MNXR135734
       - sbo: SBO:0000655
@@ -51791,6 +51813,7 @@
       - s_0023: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YOR100C
     - annotation: !!omap
       - metanetx.reaction: MNXR96906
       - sbo: SBO:0000655
@@ -52030,6 +52053,7 @@
       - s_1040: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR104354
       - sbo: SBO:0000655
@@ -52042,6 +52066,7 @@
       - s_0990: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YEL069C or YJR158W or YNR072W
     - annotation: !!omap
       - metanetx.reaction: MNXR104289
       - sbo: SBO:0000655
@@ -52063,6 +52088,7 @@
       - s_1044: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W
     - annotation: !!omap
       - metanetx.reaction: MNXR104533
       - sbo: SBO:0000655
@@ -52129,6 +52155,7 @@
       - s_1027: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBR147W
     - annotation: !!omap
       - metanetx.reaction: MNXR101269
       - sbo: SBO:0000655
@@ -52287,6 +52314,7 @@
       - s_1031: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR101493
       - sbo: SBO:0000655
@@ -52572,6 +52600,7 @@
       - s_1236: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YOR100C
     - annotation: !!omap
       - metanetx.reaction: MNXR95412
       - sbo: SBO:0000655
@@ -52684,6 +52713,7 @@
       - s_0755: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YJL212C
     - annotation: !!omap
       - metanetx.reaction: MNXR100443
       - sbo: SBO:0000655
@@ -52858,6 +52888,7 @@
       - s_1329: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNR013C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
@@ -53093,6 +53124,7 @@
       - s_1406: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YOR306C
     - annotation: !!omap
       - metanetx.reaction: MNXR104033
       - sbo: SBO:0000655
@@ -53105,6 +53137,7 @@
       - s_0576: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - metanetx.reaction: MNXR104036
       - sbo: SBO:0000655
@@ -53147,6 +53180,7 @@
       - s_1042: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR104354
       - sbo: SBO:0000655
@@ -53428,6 +53462,7 @@
       - s_1047: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR104852
       - sbo: SBO:0000655
@@ -53624,6 +53659,7 @@
       - s_0804: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YLL052C or YPR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR98641
       - sbo: SBO:0000655
@@ -53747,6 +53783,7 @@
       - s_1567: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YLL043W
     - annotation: !!omap
       - metanetx.reaction: MNXR105264
       - sbo: SBO:0000655
@@ -53768,6 +53805,7 @@
       - s_1569: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL013C or YOR011W
     - annotation: !!omap
       - metanetx.reaction: MNXR105285
       - sbo: SBO:0000655
@@ -55149,6 +55187,7 @@
       - s_2828: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -55160,6 +55199,7 @@
       - s_2829: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR100750
       - sbo: SBO:0000655
@@ -55988,6 +56028,7 @@
       - s_2855: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR99110
       - sbo: SBO:0000655
@@ -80112,6 +80153,7 @@
       - s_2808: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YLL052C or YPR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR98641
       - sbo: SBO:0000655
@@ -80339,6 +80381,7 @@
       - s_3107: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR104354
       - sbo: SBO:0000655
@@ -81018,6 +81061,7 @@
       - s_3449: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YLL052C or YLL053C or YPR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR98641
       - sbo: SBO:0000655
@@ -81030,6 +81074,7 @@
       - s_3536: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YCR037C or YJL198W or YML123C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
@@ -81042,6 +81087,7 @@
       - s_1433: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YCR098C
     - annotation: !!omap
       - metanetx.reaction: MNXR99874
       - sbo: SBO:0000655
@@ -81054,6 +81100,7 @@
       - s_3495: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YCR098C
     - annotation: !!omap
       - metanetx.reaction: MNXR99888
       - sbo: SBO:0000655
@@ -81523,6 +81570,7 @@
       - s_2977: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNR013C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
@@ -81880,6 +81928,7 @@
       - s_3321: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YHR002W
     - annotation: !!omap
       - metanetx.reaction: MNXR96815
       - sbo: SBO:0000655
@@ -83352,6 +83401,7 @@
       - s_3145: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83363,6 +83413,7 @@
       - s_3149: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83374,6 +83425,7 @@
       - s_3151: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83385,6 +83437,7 @@
       - s_3153: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83396,6 +83449,7 @@
       - s_3155: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83407,6 +83461,7 @@
       - s_3157: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83418,6 +83473,7 @@
       - s_3159: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83429,6 +83485,7 @@
       - s_3161: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83440,6 +83497,7 @@
       - s_3181: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83451,6 +83509,7 @@
       - s_3185: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83462,6 +83521,7 @@
       - s_3187: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83473,6 +83533,7 @@
       - s_3189: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83484,6 +83545,7 @@
       - s_3191: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83495,6 +83557,7 @@
       - s_3193: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83506,6 +83569,7 @@
       - s_3195: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -83517,6 +83581,7 @@
       - s_3197: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84144,6 +84209,7 @@
       - s_3465: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84155,6 +84221,7 @@
       - s_3467: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84166,6 +84233,7 @@
       - s_3469: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84177,6 +84245,7 @@
       - s_3471: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84188,6 +84257,7 @@
       - s_3473: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84199,6 +84269,7 @@
       - s_3474: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84210,6 +84281,7 @@
       - s_3475: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84221,6 +84293,7 @@
       - s_3476: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84232,6 +84305,7 @@
       - s_3478: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84243,6 +84317,7 @@
       - s_3480: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84254,6 +84329,7 @@
       - s_3482: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84265,6 +84341,7 @@
       - s_3484: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84276,6 +84353,7 @@
       - s_3486: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84287,6 +84365,7 @@
       - s_3487: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84298,6 +84377,7 @@
       - s_3488: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84309,6 +84389,7 @@
       - s_3489: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 0
@@ -84966,6 +85047,7 @@
       - s_3219: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YBR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR96806
       - sbo: SBO:0000655
@@ -84978,6 +85060,7 @@
       - s_3093: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YBR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR96946
       - sbo: SBO:0000655
@@ -84990,6 +85073,7 @@
       - s_3228: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YER053C or YJR077C or YLR348C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
@@ -90962,6 +91046,7 @@
       - s_4086: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137072
       - sbo: SBO:0000655
@@ -91339,6 +91424,7 @@
       - s_4120: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137135
       - sbo: SBO:0000655
@@ -91448,6 +91534,7 @@
       - s_4130: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W
     - annotation: !!omap
       - metanetx.reaction: MNXR104707
       - sbo: SBO:0000655
@@ -91495,6 +91582,7 @@
       - s_4035: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137087
       - sbo: SBO:0000655
@@ -91551,6 +91639,7 @@
       - s_4041: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 1
@@ -91581,6 +91670,7 @@
       - s_4054: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 1
@@ -91635,6 +91725,7 @@
       - s_4038: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR101006
       - sbo: SBO:0000655
@@ -91872,6 +91963,7 @@
       - s_4057: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137074
       - sbo: SBO:0000655
@@ -91942,6 +92034,7 @@
       - s_4051: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137107
       - sbo: SBO:0000655
@@ -92054,6 +92147,7 @@
       - s_4060: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 1
@@ -92191,6 +92285,7 @@
       - s_4144: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 1
@@ -92307,6 +92402,7 @@
       - s_4154: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR135002
       - sbo: SBO:0000655
@@ -92451,6 +92547,7 @@
       - s_4165: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 1
@@ -92464,6 +92561,7 @@
       - s_4166: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR96737
       - sbo: SBO:0000655
@@ -92490,6 +92588,7 @@
       - s_4169: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 1
@@ -92516,6 +92615,7 @@
       - s_4171: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137133
       - sbo: SBO:0000655
@@ -92805,6 +92905,7 @@
       - s_4133: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR95208
       - sbo: SBO:0000655
@@ -94030,6 +94131,9 @@
     - id: YAL023C
     - name: PMT2
   - !!omap
+    - id: YAL026C
+    - name: DRS2
+  - !!omap
     - id: YAL035W
     - name: FUN12
   - !!omap
@@ -94635,6 +94739,9 @@
   - !!omap
     - id: YDR074W
     - name: TPS2
+  - !!omap
+    - id: YDR093W
+    - name: DNF2
   - !!omap
     - id: YDR098C
     - name: GRX3
@@ -95644,6 +95751,9 @@
     - id: YIL043C
     - name: CBR1
   - !!omap
+    - id: YIL048W
+    - name: NEO1
+  - !!omap
     - id: YIL053W
     - name: GPP1
   - !!omap
@@ -95778,6 +95888,9 @@
   - !!omap
     - id: YJL130C
     - name: URA2
+  - !!omap
+    - id: YJL133W
+    - name: MRS3
   - !!omap
     - id: YJL134W
     - name: LCB3
@@ -96091,6 +96204,9 @@
     - id: YKR043C
     - name: SHB17
   - !!omap
+    - id: YKR052C
+    - name: MRS4
+  - !!omap
     - id: YKR053C
     - name: YSR3
   - !!omap
@@ -96120,6 +96236,9 @@
   - !!omap
     - id: YKR089C
     - name: TGL4
+  - !!omap
+    - id: YKR093W
+    - name: PTR2
   - !!omap
     - id: YKR097W
     - name: PCK1
@@ -96159,6 +96278,9 @@
   - !!omap
     - id: YLL052C
     - name: AQY2
+  - !!omap
+    - id: YLL053C
+    - name: YLL053C
   - !!omap
     - id: YLL057C
     - name: JLP1
@@ -96691,6 +96813,9 @@
     - id: YNL052W
     - name: COX5A
   - !!omap
+    - id: YNL065W
+    - name: AQR1
+  - !!omap
     - id: YNL071W
     - name: LAT1
   - !!omap
@@ -97108,6 +97233,9 @@
     - id: YOR303W
     - name: CPA1
   - !!omap
+    - id: YOR306C
+    - name: MCH5
+  - !!omap
     - id: YOR311C
     - name: DGK1
   - !!omap
@@ -97327,6 +97455,9 @@
     - id: YPR006C
     - name: ICL2
   - !!omap
+    - id: YPR011C
+    - name: YPR011C
+  - !!omap
     - id: YPR020W
     - name: ATP20
   - !!omap
@@ -97347,6 +97478,9 @@
   - !!omap
     - id: YPR047W
     - name: MSF1
+  - !!omap
+    - id: YPR058W
+    - name: YMC1
   - !!omap
     - id: YPR060C
     - name: ARO7
