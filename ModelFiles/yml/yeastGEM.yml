@@ -93739,7 +93739,7 @@
     - confidence_score: 0
   - !!omap
     - id: r_4582
-    - name: malate/β-methylmalate synthase
+    - name: malate/beta-methylmalate synthase
     - metabolites: !!omap
       - s_0529: 1
       - s_0779: -1
