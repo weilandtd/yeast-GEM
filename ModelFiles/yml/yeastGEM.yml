@@ -27187,13 +27187,13 @@
     - name: cofactor
     - compartment: c
     - annotation: !!omap
-      - sbo: SBO:0000247
+      - sbo: SBO:0000649
   - !!omap
     - id: s_4206
     - name: ion
     - compartment: c
     - annotation: !!omap
-      - sbo: SBO:0000247
+      - sbo: SBO:0000649
 - reactions:
   - !!omap
     - id: r_0001
