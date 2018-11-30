@@ -27187,13 +27187,13 @@
     - name: cofactor
     - compartment: c
     - annotation: !!omap
-      - sbo: SBO:0000247
+      - sbo: SBO:0000649
   - !!omap
     - id: s_4206
     - name: ion
     - compartment: c
     - annotation: !!omap
-      - sbo: SBO:0000247
+      - sbo: SBO:0000649
 - reactions:
   - !!omap
     - id: r_0001
@@ -93840,7 +93840,7 @@
     - confidence_score: 0
   - !!omap
     - id: r_4582
-    - name: malate/β-methylmalate synthase
+    - name: malate/beta-methylmalate synthase
     - metabolites: !!omap
       - s_0529: 1
       - s_0779: -1
