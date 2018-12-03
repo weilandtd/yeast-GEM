@@ -15,7 +15,7 @@ MNXR137279	0	Ketol-acid reductoisomerase, mitochondrial			seed:rxn13008
 MNXR95271	0	pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)	2.2.1.6	R00226	rhea:25249
 MNXR97523	1	(R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)	1.1.1.383;1.1.1.86	R04439	rhea:22068
 MNXR106779	0	(2R,3S)-3-methylmalate:NAD+ oxidoreductase	1.1.1.-;1.1.1.85	R00994	rhea:32715
-MNXR121603	0	malate/β-methylmalate synthase	2.3.3.-		metacyc:RXN-18333
+MNXR121603	0	malate/beta-methylmalate synthase	2.3.3.-		metacyc:RXN-18333
 MNXR99136	0	palmitoyl-CoA hydrolase	3.1.2.-;3.1.2.2		rhea:40143
 MNXR99175	0	long-chain-fatty-acid---CoA ligase	6.2.1.3		rhea:33651
 MNXR100010	0	a-galactosidase (stachyose)	3.2.1.22		seed:rxn02596

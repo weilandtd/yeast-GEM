@@ -8,15 +8,15 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 * Model KeyWords:
 
-**GEM Category:** Species; **Utilisation:** predictive simulation, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Condition:** aerobic, glucose-limited, defined media, maximization of growth.
+**GEM Category:** species; **Utilisation:** experimental data reconstruction, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** reconstruction, curated; **Model Source:** YeastMetabolicNetwork; **Omic Source:** genomics, metabolomics; **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** general metabolism; **Bioreactor**; **Strain:** S288C; **Condition:** aerobic, glucose-limited, defined media;
 
-* Last update: 2018-09-26
+* Last update: 2018-11-26
 
 * Main Model Descriptors:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
-|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3949|2680|1133|
+|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3962|2691|1139|
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
@@ -77,6 +77,10 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 * `modelCuration`: Data files used for performing curations to the model. Mostly lists of new rxns, mets or genes added (or fixed) in the model.
 * `physiology`: Data on yeast growth under different conditions, biomass composition, gene essentiality experiments, etc.
 
+## Contributing
+
+Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
+  
 ## Contributors
 
 * [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
