@@ -91,8 +91,12 @@ Contributions are always welcome! Please read the [contributions guideline](http
   
 ## Contributors
 
+* [Mihail Anton](https://www.chalmers.se/en/staff/Pages/mihail-anton.aspx) ([@mihai-sysbio](https://github.com/mihai-sysbio)), Chalmers University of Technology, Sweden
+* [Moritz Beber](https://www.dtu.dk/english/service/phonebook/person?id=121829&tab=2&qt=dtupublicationquery) ([@Midnighter](https://github.com/Midnighter)), Danish Technical University, Denmark
 * [Eduard J. Kerkhoven](https://www.chalmers.se/en/staff/Pages/Eduard-Kerkhoven.aspx) ([@edkerk](https://github.com/edkerk)), Chalmers University of Technology, Sweden
+* [Dimitra Lappa](https://www.chalmers.se/en/Staff/Pages/lappa.aspx) ([@demilappa](https://github.com/demilappa)), Chalmers University of Technology, Sweden
 * [Feiran Li](https://www.chalmers.se/en/staff/Pages/feiranl.aspx) ([@feiranl](https://github.com/feiranl)), Chalmers University of Technology, Sweden
+* [Christian Lieven](https://www.dtu.dk/english/service/phonebook/person?id=103199&tab=2&qt=dtupublicationquery) ([@ChristianLieven](https://github.com/ChristianLieven)), Danish Technical University, Denmark
 * [Hongzhong Lu](https://www.chalmers.se/en/Staff/Pages/luho.aspx) ([@hongzhonglu](https://github.com/hongzhonglu)), Chalmers University of Technology, Sweden
 * [Simonas Marcišauskas](https://www.chalmers.se/en/Staff/Pages/simmarc.aspx) ([@simas232](https://github.com/simas232)), Chalmers University of Technology, Sweden
 * [Thomas Pfau](https://wwwen.uni.lu/research/fstc/life_sciences_research_unit/research_areas/systems_biology/people/thomas_pfau) ([@tpfau](https://github.com/tpfau)), University of Luxembourg, Luxembourg
