@@ -93915,7 +93915,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4594
     - name: Cu2(+) exchange
@@ -93925,7 +93924,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4595
     - name: Mn(2+) exchange
@@ -93935,7 +93933,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4596
     - name: Zn(2+) exchange
@@ -93945,7 +93942,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4597
     - name: Mg(2+) exchange
@@ -93955,7 +93951,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4598
     - name: cofactor pseudoreaction
@@ -93975,7 +93970,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000395
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4599
     - name: ion pseudoreaction
@@ -93995,7 +93990,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000395
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4600
     - name: Ca(2+) exchange
@@ -94005,7 +94000,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
 - genes:
   - !!omap
     - id: GR191W
