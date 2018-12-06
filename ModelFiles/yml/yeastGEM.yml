@@ -27122,6 +27122,78 @@
       - chebi: CHEBI:456216
       - kegg.compound: C00008
       - sbo: SBO:0000247
+  - !!omap
+    - id: s_4199
+    - name: Ca(2+)
+    - compartment: e
+    - formula: Ca
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:29108
+      - kegg.compound: C00076
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4200
+    - name: chloride
+    - compartment: e
+    - formula: Cl
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:17996
+      - kegg.compound: C00698
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4201
+    - name: Cu2(+)
+    - compartment: e
+    - formula: Cu
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:29036
+      - kegg.compound: C00070
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4202
+    - name: Mn(2+)
+    - compartment: e
+    - formula: Mn
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:29035
+      - kegg.compound: C19610
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4203
+    - name: Zn(2+)
+    - compartment: e
+    - formula: Zn
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:29105
+      - kegg.compound: C00038
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4204
+    - name: Mg(2+)
+    - compartment: e
+    - formula: Mg
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:18420
+      - kegg.compound: C00305
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4205
+    - name: cofactor
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000649
+  - !!omap
+    - id: s_4206
+    - name: ion
+    - compartment: c
+    - annotation: !!omap
+      - sbo: SBO:0000649
 - reactions:
   - !!omap
     - id: r_0001
@@ -52795,7 +52867,7 @@
     - name: potassium exchange
     - metabolites: !!omap
       - s_1374: -1
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -53093,7 +53165,7 @@
     - name: sodium exchange
     - metabolites: !!omap
       - s_1438: -1
-    - lower_bound: 0
+    - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
@@ -85932,20 +86004,19 @@
     - id: r_4041
     - name: biomass pseudoreaction
     - metabolites: !!omap
-      - s_0394: 55.4
-      - s_0434: -55.4
+      - s_0394: 55.3
+      - s_0434: -55.3
       - s_0450: 1
-      - s_0794: 55.4
-      - s_0803: -55.4
+      - s_0794: 55.3
+      - s_0803: -55.3
       - s_1096: -1
-      - s_1322: 55.4
-      - s_1405: -0.00099
-      - s_1467: -0.02
-      - s_3714: -1e-06
+      - s_1322: 55.3
       - s_3717: -1
       - s_3718: -1
       - s_3719: -1
       - s_3720: -1
+      - s_4205: -1
+      - s_4206: -1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
@@ -86077,11 +86148,11 @@
     - id: r_4048
     - name: carbohydrate pseudoreaction
     - metabolites: !!omap
-      - s_0001: -0.75841
-      - s_0004: -0.2534
-      - s_0773: -0.36619
-      - s_1107: -0.72034
-      - s_1520: -0.1401
+      - s_0001: -0.74851
+      - s_0004: -0.25009
+      - s_0773: -0.36141
+      - s_1107: -0.71094
+      - s_1520: -0.13828
       - s_3718: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -93668,7 +93739,7 @@
     - confidence_score: 0
   - !!omap
     - id: r_4582
-    - name: malate/β-methylmalate synthase
+    - name: malate/beta-methylmalate synthase
     - metabolites: !!omap
       - s_0529: 1
       - s_0779: -1
@@ -93747,7 +93818,192 @@
       - metanetx.reaction: MNXR122225
       - sbo: SBO:0000176
     - confidence_score: 0
+  - !!omap
+    - id: r_4587
+    - name: Ca(2+) transport 
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_3880: 1
+      - s_4199: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YOL122C
+    - annotation: !!omap
+      - metanetx.reaction: MNXR96437
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4588
+    - name: chloride transport
+    - metabolites: !!omap
+      - s_3778: 1
+      - s_4200: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YNL275W
+    - annotation: !!omap
+      - metanetx.reaction: MNXR96797
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4589
+    - name: Cu2(+) transport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4019: 1
+      - s_4201: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YOL122C
+    - annotation: !!omap
+      - metanetx.reaction: MNXR126350
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4590
+    - name: Mn(2+) transport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_3801: 1
+      - s_4202: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YGR191W
+    - annotation: !!omap
+      - metanetx.reaction: MNXR101669
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4591
+    - name: Zn(2+) transport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_3822: 1
+      - s_4203: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: YGL255W or YLR130C
+    - annotation: !!omap
+      - metanetx.reaction: MNXR105278
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4592
+    - name: Mg(2+) transport
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_0796: -1
+      - s_4013: 1
+      - s_4204: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: GR191W or YOL130W
+    - annotation: !!omap
+      - metanetx.reaction: MNXR101553
+      - sbo: SBO:0000655
+    - confidence_score: 2
+  - !!omap
+    - id: r_4593
+    - name: chloride exchange
+    - metabolites: !!omap
+      - s_4200: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: r_4594
+    - name: Cu2(+) exchange
+    - metabolites: !!omap
+      - s_4201: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: r_4595
+    - name: Mn(2+) exchange
+    - metabolites: !!omap
+      - s_4202: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: r_4596
+    - name: Zn(2+) exchange
+    - metabolites: !!omap
+      - s_4203: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: r_4597
+    - name: Mg(2+) exchange
+    - metabolites: !!omap
+      - s_4204: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
+  - !!omap
+    - id: r_4598
+    - name: cofactor pseudoreaction
+    - metabolites: !!omap
+      - s_0529: -0.00019
+      - s_0687: -1e-05
+      - s_1198: -0.00265
+      - s_1203: -0.00015
+      - s_1207: -0.00057
+      - s_1212: -0.0027
+      - s_1405: -0.00099
+      - s_1475: -1.2e-06
+      - s_1487: -6.34e-05
+      - s_3714: -1e-06
+      - s_4205: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000395
+    - confidence_score: 1
+  - !!omap
+    - id: r_4599
+    - name: ion pseudoreaction
+    - metabolites: !!omap
+      - s_0924: -3.04e-05
+      - s_1373: -0.00363
+      - s_1437: -0.00397
+      - s_1467: -0.02
+      - s_3778: -0.00129
+      - s_3801: -0.00273
+      - s_3822: -0.000748
+      - s_3880: -0.000217
+      - s_4013: -0.0012425
+      - s_4019: -0.000659
+      - s_4206: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000395
+    - confidence_score: 1
+  - !!omap
+    - id: r_4600
+    - name: Ca(2+) exchange
+    - metabolites: !!omap
+      - s_4199: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
 - genes:
+  - !!omap
+    - id: GR191W
+    - name: GR191W
   - !!omap
     - id: Q0045
     - name: COX1
@@ -95012,6 +95268,9 @@
     - id: YGL253W
     - name: HXK2
   - !!omap
+    - id: YGL255W
+    - name: ZRT1
+  - !!omap
     - id: YGL256W
     - name: ADH4
   - !!omap
@@ -95981,6 +96240,9 @@
     - id: YLR109W
     - name: AHP1
   - !!omap
+    - id: YLR130C
+    - name: ZRT2
+  - !!omap
     - id: YLR133W
     - name: CKI1
   - !!omap
@@ -96509,6 +96771,9 @@
     - id: YNL274C
     - name: GOR1
   - !!omap
+    - id: YNL275W
+    - name: BOR1
+  - !!omap
     - id: YNL277W
     - name: MET2
   - !!omap
@@ -96659,8 +96924,14 @@
     - id: YOL103W
     - name: ITR2
   - !!omap
+    - id: YOL122C
+    - name: SMF1
+  - !!omap
     - id: YOL126C
     - name: MDH2
+  - !!omap
+    - id: YOL130W
+    - name: ALR1
   - !!omap
     - id: YOL136C
     - name: PFK27

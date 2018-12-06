@@ -52,7 +52,31 @@ for i = 1:length(data.mets)
     %Change stoichiometry:
     model.S(metPos,rxnPos) = sign(model.S(metPos,rxnPos))*data.abundances(i);
 end
-[~,P,~,R,~,~,~] = sumBioMass(model,data);
+
+%Compute current composition:
+sumBioMass(model,data);
+
+%Correct with data from biomassComposition_Cofactor_Ion:
+data_original = data;
+fid = fopen('../../ComplementaryData/physiology/biomassComposition_Cofactor_Ion.tsv');
+Cofactors       = textscan(fid,'%s %s %f32 %f32 %s %s','Delimiter','\t','HeaderLines',1);
+data.mets       = Cofactors{1};
+data.abundances = double(Cofactors{3});
+data.MWs        = double(Cofactors{4});
+data.groups     = Cofactors{5};
+fclose(fid);
+
+model = addBiomassUpdate(model,data);
+
+for j = 1:length(data_original.mets)
+    if ~ismember(data_original.mets(j),data.mets)
+        data.mets = [data.mets; data_original.mets(j)];
+        data.abundances = [data.abundances; data_original.abundances(j)];
+        data.MWs = [data.MWs; data_original.MWs(j)];
+        data.groups = [data.groups; data_original.groups(j)];
+    end
+end
+[X,P,C,R,~,~,~,~] = sumBioMass(model,data);
 
 %Correct with data from Lahtvee 2017:
 fid = fopen('../../ComplementaryData/physiology/biomassComposition_Lahtvee2017.tsv');
@@ -83,7 +107,7 @@ for i = 1:length(data2.mets)
         end
     end
 end
-[X,~,C,~,~,~,~] = sumBioMass(model,data);
+[X,P,C,R,~,~,~,~] = sumBioMass(model,data);
 
 %Balance out mass with carbohydrate content:
 delta = X - 1;           %difference to balance
