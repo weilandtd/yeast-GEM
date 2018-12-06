@@ -27,6 +27,7 @@ desiredExchanges = {'r_1654'; ... % ammonium exchange
                     'r_4597'; ... % Mg(2+) exchange
                     'r_2049'; ... % sodium exchange
                     'r_4594'; ... % Cu(2+) exchange
+                    'r_4600'; ... % Ca(2+) exchange
                     'r_2020' };   % potassium exchange
 
 blockedExchanges = {'r_1663'; ... % bicarbonate exchange
@@ -39,7 +40,7 @@ uptakeRxnIndexes     = findRxnIDs(model,desiredExchanges);
 glucoseExchangeIndex = findRxnIDs(model,glucoseExchange);
 BlockedRxnIndex      = findRxnIDs(model,blockedExchanges);
 
-if length(find(uptakeRxnIndexes~= 0)) ~= 14
+if length(find(uptakeRxnIndexes~= 0)) ~= 15
     warning('Not all exchange reactions were found.')
 end
 
