@@ -1,5 +1,15 @@
 # History
 
+### yeast 8.3.3:
+* Features:
+  * Fixes #107: Two new pseudoreactions (`cofactor pseudoreaction` and `ion pseudoreaction`) added to the model as extra requirements to the biomass pseudoreaction (PRs #174 & #183).
+* Fixes:
+  * `addSBOterms.m` adapted to identify new pseudoreactions (PR #180).
+  * Removed non-compliant symbol from a reaction name to avoid parsing errors (PR #179).
+* Documentation:
+  * Model keywords modified to comply with the sysbio rulebook (PR #173).
+  * Added citation guidelines (PR #181).
+
 ### yeast 8.3.2:
 * Features:
   * Fixes #154: MetaNetX IDs added from the yeast7.6 [MetaNetX](https://www.metanetx.org) model & from existing ChEBI and KEGG IDs in the model (PR #167).
