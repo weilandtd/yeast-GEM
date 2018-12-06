@@ -86148,10 +86148,10 @@
     - id: r_4048
     - name: carbohydrate pseudoreaction
     - metabolites: !!omap
-      - s_0001: -0.74853
-      - s_0004: -0.2501
-      - s_0773: -0.36142
-      - s_1107: -0.71096
+      - s_0001: -0.74851
+      - s_0004: -0.25009
+      - s_0773: -0.36141
+      - s_1107: -0.71094
       - s_1520: -0.13828
       - s_3718: 1
     - lower_bound: 0
@@ -93915,7 +93915,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4594
     - name: Cu2(+) exchange
@@ -93925,7 +93924,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4595
     - name: Mn(2+) exchange
@@ -93935,7 +93933,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4596
     - name: Zn(2+) exchange
@@ -93945,7 +93942,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4597
     - name: Mg(2+) exchange
@@ -93955,7 +93951,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4598
     - name: cofactor pseudoreaction
@@ -93975,7 +93970,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000395
-    - confidence_score: 0
+    - confidence_score: 1
   - !!omap
     - id: r_4599
     - name: ion pseudoreaction
@@ -93987,6 +93982,7 @@
       - s_3778: -0.00129
       - s_3801: -0.00273
       - s_3822: -0.000748
+      - s_3880: -0.000217
       - s_4013: -0.0012425
       - s_4019: -0.000659
       - s_4206: 1
@@ -93994,7 +93990,16 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000395
-    - confidence_score: 0
+    - confidence_score: 1
+  - !!omap
+    - id: r_4600
+    - name: Ca(2+) exchange
+    - metabolites: !!omap
+      - s_4199: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000627
 - genes:
   - !!omap
     - id: GR191W
