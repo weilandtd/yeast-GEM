@@ -5818,6 +5818,7 @@
     - id: s_0709
     - name: ferricytochrome c
     - compartment: m
+    - formula: C42H44FeN8O8S2R4
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15991
@@ -5828,6 +5829,7 @@
     - id: s_0710
     - name: ferrocytochrome c
     - compartment: m
+    - formula: C42H44FeN8O8S2R4
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16928
@@ -6322,6 +6324,7 @@
     - id: s_0773
     - name: glycogen
     - compartment: c
+    - formula: C6H12O6
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28087
@@ -6332,6 +6335,7 @@
     - id: s_0774
     - name: glycogen
     - compartment: v
+    - formula: C6H12O6
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28087
@@ -9443,6 +9447,7 @@
     - id: s_1107
     - name: mannan
     - compartment: c
+    - formula: C6H12O6
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28808
@@ -9453,6 +9458,7 @@
     - id: s_1108
     - name: mannan
     - compartment: er
+    - formula: C6H12O6
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28808
@@ -13780,6 +13786,7 @@
     - id: s_2775
     - name: 3-hydroxybutanoyl-ACP
     - compartment: m
+    - formula: C4H7O2SR
     - charge: 0
     - annotation: !!omap
       - kegg.compound: C04618
@@ -13809,6 +13816,7 @@
     - id: s_2778
     - name: trans-but-2-enoyl-ACP
     - compartment: m
+    - formula: C4H5OS
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:132146
@@ -13817,6 +13825,7 @@
     - id: s_2779
     - name: trans-hex-2-enoyl-ACP
     - compartment: m
+    - formula: C6H9OSR
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:10727
@@ -13827,6 +13836,7 @@
     - id: s_2780
     - name: trans-oct-2-enoyl-ACP
     - compartment: m
+    - formula: C8H13OSR
     - charge: 0
     - annotation: !!omap
       - kegg.compound: C05751
@@ -14166,6 +14176,7 @@
     - id: s_2812
     - name: trans-icos-2-enoyl-CoA
     - compartment: erm
+    - formula: C41H72N7O17P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -14951,6 +14962,7 @@
     - id: s_2889
     - name: trans-icos-2-enoyl-CoA
     - compartment: p
+    - formula: C41H72N7O17P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15009,6 +15021,7 @@
     - id: s_2896
     - name: trans-2,cis-5-dodecadienoyl-CoA
     - compartment: p
+    - formula: C35H54N7O17P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15082,6 +15095,7 @@
     - id: s_2904
     - name: (R)-3-hydroxyoctanoyl-CoA
     - compartment: p
+    - formula: C29H50N7O18P3S
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28573
@@ -20186,6 +20200,7 @@
     - id: s_3479
     - name: 1-acylglycerophosphoserine (16:0)
     - compartment: ce
+    - formula: C22H44NP10
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -20201,6 +20216,7 @@
     - id: s_3481
     - name: 1-acylglycerophosphoserine (16:1)
     - compartment: ce
+    - formula: C22H42NP10
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -20217,6 +20233,7 @@
     - id: s_3483
     - name: 1-acylglycerophosphoserine (18:0)
     - compartment: ce
+    - formula: C24H48NP10
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -20233,6 +20250,7 @@
     - id: s_3485
     - name: 1-acylglycerophosphoserine (18:1)
     - compartment: ce
+    - formula: C24H46NP10
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
