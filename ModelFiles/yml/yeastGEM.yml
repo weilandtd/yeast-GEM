@@ -35294,7 +35294,7 @@
       - metanetx.reaction: MNXR100030
       - pmid: 3309138
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_0476
     - name: glutamine synthetase
@@ -46394,11 +46394,12 @@
       - s_0684: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YGL077C
     - annotation: !!omap
       - metanetx.reaction: MNXR97974
       - pmid: 15201274
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_1151
     - name: fadH2 transport
@@ -46671,11 +46672,12 @@
       - s_0926: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YJL133W or YKR052C
     - annotation: !!omap
       - metanetx.reaction: MNXR99505
       - pmid: 9660806
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_1180
     - name: isoamyl acetate transport
@@ -47511,11 +47513,12 @@
       - s_1451: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR99109
       - pmid: 8993619
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_1237
     - name: ornithine transport
@@ -48699,9 +48702,10 @@
       - s_0164: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL120W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1575
     - name: 2-methyl-1-butanol transport
@@ -49401,10 +49405,11 @@
       - s_0392: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YPR011C
     - annotation: !!omap
       - metanetx.reaction: MNXR102382
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1643
     - name: adenosine exchange
@@ -49532,11 +49537,12 @@
       - s_0967: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBR147W
     - annotation: !!omap
       - metanetx.reaction: MNXR95953
       - pmid: 9874237
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 3
   - !!omap
     - id: r_1658
     - name: asparagine transport
@@ -49545,10 +49551,11 @@
       - s_0971: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR96069
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1659
     - name: aspartate-glutamate transporter
@@ -49639,7 +49646,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR100482
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1668
     - name: bicarbonate formation
@@ -49826,10 +49833,11 @@
       - s_0512: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YGL077C or YOR161C
     - annotation: !!omap
       - metanetx.reaction: MNXR96693
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1685
     - name: chorismate pyruvate lyase
@@ -50065,9 +50073,10 @@
       - s_0549: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1708
     - name: D-erythrose 4-phosphate transport
@@ -50164,10 +50173,11 @@
       - s_0562: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YEL069C or YJR158W or YNR072W
     - annotation: !!omap
       - metanetx.reaction: MNXR104288
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1718
     - name: D-xylose exchange
@@ -50185,9 +50195,10 @@
       - s_0579: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YHR092C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1720
     - name: dADP transport
@@ -50318,7 +50329,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR96117
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1730
     - name: deoxycytidine exchange
@@ -50387,10 +50398,11 @@
       - s_0139: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBL042C
     - annotation: !!omap
       - metanetx.reaction: MNXR97819
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1736
     - name: dephospho-CoA kinase
@@ -50627,10 +50639,11 @@
       - s_0666: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL013C or YOR011W
     - annotation: !!omap
       - metanetx.reaction: MNXR97950
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1761
     - name: ethanol exchange
@@ -50714,10 +50727,11 @@
       - s_1070: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR135773
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1772
     - name: fatty acid transport
@@ -50726,10 +50740,11 @@
       - s_1166: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR128297
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1774
     - name: fatty acid transport
@@ -50738,10 +50753,11 @@
       - s_1291: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR99101
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1775
     - name: fatty acid transport
@@ -50849,10 +50865,11 @@
       - s_0723: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR99620
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1796
     - name: formate transport
@@ -50929,10 +50946,11 @@
       - s_0744: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YGL225W
     - annotation: !!omap
       - metanetx.reaction: MNXR131177
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1805
     - name: glucose transport, vacuolar
@@ -50945,7 +50963,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR100188
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1806
     - name: glutathione disulfide exchange
@@ -51004,10 +51022,11 @@
       - s_1005: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YPR058W
     - annotation: !!omap
       - metanetx.reaction: MNXR100371
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1812
     - name: glycoaldehyde transport
@@ -51058,10 +51077,11 @@
       - s_0780: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR100306
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1817
     - name: glyoxylate transport
@@ -51288,10 +51308,11 @@
       - s_1008: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBR147W
     - annotation: !!omap
       - metanetx.reaction: MNXR100649
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1838
     - name: homocitrate synthase
@@ -51743,10 +51764,11 @@
       - s_0964: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - metanetx.reaction: MNXR135734
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1878
     - name: L-arabinose exchange
@@ -51791,10 +51813,11 @@
       - s_0023: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YOR100C
     - annotation: !!omap
       - metanetx.reaction: MNXR96906
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1883
     - name: L-cysteine exchange
@@ -52030,10 +52053,11 @@
       - s_1040: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR104354
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1908
     - name: L-sorbitol transport
@@ -52042,10 +52066,11 @@
       - s_0990: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YEL069C or YJR158W or YNR072W
     - annotation: !!omap
       - metanetx.reaction: MNXR104289
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1909
     - name: L-sorbose exchange
@@ -52063,10 +52088,11 @@
       - s_1044: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W
     - annotation: !!omap
       - metanetx.reaction: MNXR104533
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1911
     - name: L-threonine exchange
@@ -52129,10 +52155,11 @@
       - s_1027: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YBR147W
     - annotation: !!omap
       - metanetx.reaction: MNXR101269
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1920
     - name: M(IP)2C transport
@@ -52287,10 +52314,11 @@
       - s_1031: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR101493
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1936
     - name: methylglyoxal synthase
@@ -52572,10 +52600,11 @@
       - s_1236: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YOR100C
     - annotation: !!omap
       - metanetx.reaction: MNXR95412
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1977
     - name: O2 transport
@@ -52684,10 +52713,11 @@
       - s_0755: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YJL212C
     - annotation: !!omap
       - metanetx.reaction: MNXR100443
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_1991
     - name: oxidized thioredoxin transport
@@ -52858,10 +52888,11 @@
       - s_1329: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNR013C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2020
     - name: potassium exchange
@@ -52919,7 +52950,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR103361
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2026
     - name: pyridoxamine kinase
@@ -53093,10 +53124,11 @@
       - s_1406: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YOR306C
     - annotation: !!omap
       - metanetx.reaction: MNXR104033
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2041
     - name: ribose transporter
@@ -53105,10 +53137,11 @@
       - s_0576: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - metanetx.reaction: MNXR104036
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2042
     - name: S-adenosyl-L-homocysteine transport
@@ -53147,10 +53180,11 @@
       - s_1042: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR104354
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2046
     - name: sn-glycero-3-phosphocholine exchange
@@ -53319,7 +53353,7 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR104823
       - sbo: SBO:0000176
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2065
     - name: thiaminase
@@ -53428,10 +53462,11 @@
       - s_1047: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - gene_reaction_rule: YDR508C
     - annotation: !!omap
       - metanetx.reaction: MNXR104852
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2073
     - name: thymidine exchange
@@ -53624,10 +53659,11 @@
       - s_0804: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YLL052C or YPR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR98641
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2095
     - name: water diffusion
@@ -53747,10 +53783,11 @@
       - s_1567: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YLL043W
     - annotation: !!omap
       - metanetx.reaction: MNXR105264
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2106
     - name: zymosterol exchange
@@ -53768,10 +53805,11 @@
       - s_1569: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL013C or YOR011W
     - annotation: !!omap
       - metanetx.reaction: MNXR105285
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2108
     - name: lipid pseudoreaction - merge
@@ -55149,9 +55187,10 @@
       - s_2828: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2191
     - name: hexanoate (n-C6:0) transport
@@ -55160,10 +55199,11 @@
       - s_2829: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR100750
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2192
     - name: octadecenoate (n-C18:1) transport
@@ -55988,10 +56028,11 @@
       - s_2855: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKL188C and YPL147W
     - annotation: !!omap
       - metanetx.reaction: MNXR99110
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_2232
     - name: peroxisomal acyl-CoA thioesterase (4:0)
@@ -80112,10 +80153,11 @@
       - s_2808: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YLL052C or YPR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR98641
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3527
     - name: CO2 transport, cytoplasm-ER membrane
@@ -80339,10 +80381,11 @@
       - s_3107: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR104354
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3546
     - name: myo-inositol transport, cytoplasm-ER membrane
@@ -81018,10 +81061,11 @@
       - s_3449: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YLL052C or YLL053C or YPR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR98641
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3605
     - name: phosphate transport, cytoplasm-cell envelope
@@ -81030,10 +81074,11 @@
       - s_3536: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YCR037C or YJL198W or YML123C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3606
     - name: sn-glycero-3-phosphocholine transport, cell envelope-cytoplasm
@@ -81042,10 +81087,11 @@
       - s_1433: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YCR098C
     - annotation: !!omap
       - metanetx.reaction: MNXR99874
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3607
     - name: 1-(sn-glycero-3-phospho)-1D-myo-inositol transport, cell envelope-cytoplasm
@@ -81054,10 +81100,11 @@
       - s_3495: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YCR098C
     - annotation: !!omap
       - metanetx.reaction: MNXR99888
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3608
     - name: palmitate transport, cell envelope-cytoplasm
@@ -81523,10 +81570,11 @@
       - s_2977: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNR013C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3650
     - name: H+ transport, cytoplasm-vacuolar membrane
@@ -81880,10 +81928,11 @@
       - s_3321: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YHR002W
     - annotation: !!omap
       - metanetx.reaction: MNXR96815
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3681
     - name: laurate transport, ER membrane-lipid particle
@@ -83352,9 +83401,10 @@
       - s_3145: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3814
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1) transport, ER membrane-Golgi membrane
@@ -83363,9 +83413,10 @@
       - s_3149: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3815
     - name: phosphatidyl-L-serine (1-18:0, 2-16:1) transport, ER membrane-Golgi membrane
@@ -83374,9 +83425,10 @@
       - s_3151: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3816
     - name: phosphatidyl-L-serine (1-18:1, 2-16:1) transport, ER membrane-Golgi membrane
@@ -83385,9 +83437,10 @@
       - s_3153: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3817
     - name: phosphatidyl-L-serine (1-16:0, 2-18:1) transport, ER membrane-Golgi membrane
@@ -83396,9 +83449,10 @@
       - s_3155: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3818
     - name: phosphatidyl-L-serine (1-16:1, 2-18:1) transport, ER membrane-Golgi membrane
@@ -83407,9 +83461,10 @@
       - s_3157: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3819
     - name: phosphatidyl-L-serine (1-18:0, 2-18:1) transport, ER membrane-Golgi membrane
@@ -83418,9 +83473,10 @@
       - s_3159: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3820
     - name: phosphatidyl-L-serine (1-18:1, 2-18:1) transport, ER membrane-Golgi membrane
@@ -83429,9 +83485,10 @@
       - s_3161: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W or YMR162C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3821
     - name: phosphatidylethanolamine (1-16:0, 2-16:1) transport, Golgi membrane-ER membrane
@@ -83440,9 +83497,10 @@
       - s_3181: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3822
     - name: phosphatidylethanolamine (1-16:1, 2-16:1) transport, Golgi membrane-ER membrane
@@ -83451,9 +83509,10 @@
       - s_3185: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3823
     - name: phosphatidylethanolamine (1-18:0, 2-16:1) transport, Golgi membrane-ER membrane
@@ -83462,9 +83521,10 @@
       - s_3187: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3824
     - name: phosphatidylethanolamine (1-18:1, 2-16:1) transport, Golgi membrane-ER membrane
@@ -83473,9 +83533,10 @@
       - s_3189: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3825
     - name: phosphatidylethanolamine (1-16:0, 2-18:1) transport, Golgi membrane-ER membrane
@@ -83484,9 +83545,10 @@
       - s_3191: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3826
     - name: phosphatidylethanolamine (1-16:1, 2-18:1) transport, Golgi membrane-ER membrane
@@ -83495,9 +83557,10 @@
       - s_3193: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3827
     - name: phosphatidylethanolamine (1-18:0, 2-18:1) transport, Golgi membrane-ER membrane
@@ -83506,9 +83569,10 @@
       - s_3195: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3828
     - name: phosphatidylethanolamine (1-18:1, 2-18:1) transport, Golgi membrane-ER membrane
@@ -83517,9 +83581,10 @@
       - s_3197: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3829
     - name: phosphatidate (1-16:0, 2-16:1) transport, ER membrane-vacuolar membrane
@@ -84144,9 +84209,10 @@
       - s_3465: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3886
     - name: phosphatidylethanolamine (1-16:1, 2-16:1) transport, ER membrane-cell envelope
@@ -84155,9 +84221,10 @@
       - s_3467: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3887
     - name: phosphatidylethanolamine (1-18:0, 2-16:1) transport, ER membrane-cell envelope
@@ -84166,9 +84233,10 @@
       - s_3469: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3888
     - name: phosphatidylethanolamine (1-18:1, 2-16:1) transport, ER membrane-cell envelope
@@ -84177,9 +84245,10 @@
       - s_3471: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3889
     - name: phosphatidylethanolamine (1-16:0, 2-18:1) transport, ER membrane-cell envelope
@@ -84188,9 +84257,10 @@
       - s_3473: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3890
     - name: phosphatidylethanolamine (1-16:1, 2-18:1) transport, ER membrane-cell envelope
@@ -84199,9 +84269,10 @@
       - s_3474: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3891
     - name: phosphatidylethanolamine (1-18:0, 2-18:1) transport, ER membrane-cell envelope
@@ -84210,9 +84281,10 @@
       - s_3475: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3892
     - name: phosphatidylethanolamine (1-18:1, 2-18:1) transport, ER membrane-cell envelope
@@ -84221,9 +84293,10 @@
       - s_3476: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YAL026C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3893
     - name: phosphatidyl-L-serine (1-16:0, 2-16:1) transport, ER membrane-cell envelope
@@ -84232,9 +84305,10 @@
       - s_3478: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3894
     - name: phosphatidyl-L-serine (1-16:1, 2-16:1) transport, ER membrane-cell envelope
@@ -84243,9 +84317,10 @@
       - s_3480: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3895
     - name: phosphatidyl-L-serine (1-18:0, 2-16:1) transport, ER membrane-cell envelope
@@ -84254,9 +84329,10 @@
       - s_3482: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3896
     - name: phosphatidyl-L-serine (1-18:1, 2-16:1) transport, ER membrane-cell envelope
@@ -84265,9 +84341,10 @@
       - s_3484: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3897
     - name: phosphatidyl-L-serine (1-16:0, 2-18:1) transport, ER membrane-cell envelope
@@ -84276,9 +84353,10 @@
       - s_3486: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3898
     - name: phosphatidyl-L-serine (1-16:1, 2-18:1) transport, ER membrane-cell envelope
@@ -84287,9 +84365,10 @@
       - s_3487: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3899
     - name: phosphatidyl-L-serine (1-18:0, 2-18:1) transport, ER membrane-cell envelope
@@ -84298,9 +84377,10 @@
       - s_3488: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3900
     - name: phosphatidyl-L-serine (1-18:1, 2-18:1) transport, ER membrane-cell envelope
@@ -84309,9 +84389,10 @@
       - s_3489: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YIL048W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3901
     - name: lignoceric acid transport, cell envelope-ER membrane
@@ -84966,10 +85047,11 @@
       - s_3219: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YBR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR96806
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3960
     - name: CTP transport, mitochondrion-mitochondrial membrane
@@ -84978,10 +85060,11 @@
       - s_3093: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YBR192W
     - annotation: !!omap
       - metanetx.reaction: MNXR96946
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3961
     - name: phosphate transport, mitochondrion-mitochondrial membrane
@@ -84990,10 +85073,11 @@
       - s_3228: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YER053C or YJR077C or YLR348C
     - annotation: !!omap
       - metanetx.reaction: MNXR102871
       - sbo: SBO:0000655
-    - confidence_score: 0
+    - confidence_score: 2
   - !!omap
     - id: r_3962
     - name: diphosphate transport, mitochondrion-mitochondrial membrane
@@ -90962,10 +91046,11 @@
       - s_4086: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137072
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4362
     - name: dipeptidase
@@ -91339,10 +91424,11 @@
       - s_4120: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137135
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4388
     - name: cyclic phosphodiesterase
@@ -91448,10 +91534,11 @@
       - s_4130: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDL245C or YDR342C or YDR343C or YDR345C or YEL069C or YFL011W or YHR092C or YHR094C or YHR096C or YJL214W or YJL219W or YJR158W or YMR011W or YNR072W or YOL156W
     - annotation: !!omap
       - metanetx.reaction: MNXR104707
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4396
     - name: Acetoacetate:CoA ligase (AMP-forming)
@@ -91495,10 +91582,11 @@
       - s_4035: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137087
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4399
     - name: L-alanyl-L-glutamate transport in via proton symport
@@ -91551,9 +91639,10 @@
       - s_4041: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4403
     - name: Triphosphate phosphohydrolase
@@ -91570,7 +91659,7 @@
       - kegg.reaction: R00138
       - metanetx.reaction: MNXR103069
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4404
     - name: Gly-Asn transport via proton symport (extracellular to cytosol)
@@ -91581,9 +91670,10 @@
       - s_4054: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4405
     - name: glycerol 1-phosphate transport
@@ -91635,10 +91725,11 @@
       - s_4038: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR101006
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4409
     - name: L-alanyl-gamma-L-glutamate peptidase
@@ -91872,10 +91963,11 @@
       - s_4057: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137074
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4425
     - name: Gly-Gln transport via proton symport
@@ -91942,10 +92034,11 @@
       - s_4051: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137107
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4430
     - name: Ala-His transport via proton symport
@@ -92030,7 +92123,7 @@
       - kegg.reaction: R08658
       - metanetx.reaction: MNXR112173
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4436
     - name: nucleotide-specific phosphatase (thymidine 5'-monophosphate)
@@ -92054,9 +92147,10 @@
       - s_4060: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4438
     - name: Gly-Glu transport via proton symport (cytosol to vacuole)
@@ -92116,7 +92210,6 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4443
     - name: 23cGMP transport via diffusion (extracellular to periplasm)
@@ -92191,9 +92284,10 @@
       - s_4144: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4449
     - name: Met-Ala transport via proton symport (cytosol to vacuole)
@@ -92307,10 +92401,11 @@
       - s_4154: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR135002
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4458
     - name: 6-Phospho-D-gluconate transport in/out via proton symport
@@ -92451,9 +92546,10 @@
       - s_4165: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YDR342C or YHR092C
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4469
     - name: L-Citrulline transport in via proton symport
@@ -92464,10 +92560,11 @@
       - s_4166: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR96737
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4470
     - name: Dihydroxyacetone transport via facilitated diffusion
@@ -92490,9 +92587,10 @@
       - s_4169: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4472
     - name: Ala-Leu transport via proton symport (cytosol to vacuole)
@@ -92516,10 +92614,11 @@
       - s_4171: 1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YJR152W or YKR093W
     - annotation: !!omap
       - metanetx.reaction: MNXR137133
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4474
     - name: L-alanylglycine transport via proton antiport
@@ -92668,7 +92767,7 @@
       - kegg.reaction: R01288
       - metanetx.reaction: MNXR104382
       - sbo: SBO:0000176
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4485
     - name: 4-Hydroxyphenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)
@@ -92805,10 +92904,11 @@
       - s_4133: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - gene_reaction_rule: YNL065W
     - annotation: !!omap
       - metanetx.reaction: MNXR95208
       - sbo: SBO:0000655
-    - confidence_score: 1
+    - confidence_score: 2
   - !!omap
     - id: r_4494
     - name: methanol exchange
@@ -92819,7 +92919,6 @@
     - annotation: !!omap
       - metanetx.reaction: MNXR98748
       - sbo: SBO:0000627
-    - confidence_score: 1
   - !!omap
     - id: r_4495
     - name: alkaline phosphatase
@@ -93820,7 +93919,7 @@
     - confidence_score: 0
   - !!omap
     - id: r_4587
-    - name: Ca(2+) transport 
+    - name: Ca(2+) transport
     - metabolites: !!omap
       - s_0794: 1
       - s_0796: -1
@@ -94034,6 +94133,9 @@
   - !!omap
     - id: YAL023C
     - name: PMT2
+  - !!omap
+    - id: YAL026C
+    - name: DRS2
   - !!omap
     - id: YAL035W
     - name: FUN12
@@ -94640,6 +94742,9 @@
   - !!omap
     - id: YDR074W
     - name: TPS2
+  - !!omap
+    - id: YDR093W
+    - name: DNF2
   - !!omap
     - id: YDR098C
     - name: GRX3
@@ -95649,6 +95754,9 @@
     - id: YIL043C
     - name: CBR1
   - !!omap
+    - id: YIL048W
+    - name: NEO1
+  - !!omap
     - id: YIL053W
     - name: GPP1
   - !!omap
@@ -95783,6 +95891,9 @@
   - !!omap
     - id: YJL130C
     - name: URA2
+  - !!omap
+    - id: YJL133W
+    - name: MRS3
   - !!omap
     - id: YJL134W
     - name: LCB3
@@ -96096,6 +96207,9 @@
     - id: YKR043C
     - name: SHB17
   - !!omap
+    - id: YKR052C
+    - name: MRS4
+  - !!omap
     - id: YKR053C
     - name: YSR3
   - !!omap
@@ -96125,6 +96239,9 @@
   - !!omap
     - id: YKR089C
     - name: TGL4
+  - !!omap
+    - id: YKR093W
+    - name: PTR2
   - !!omap
     - id: YKR097W
     - name: PCK1
@@ -96164,6 +96281,9 @@
   - !!omap
     - id: YLL052C
     - name: AQY2
+  - !!omap
+    - id: YLL053C
+    - name: YLL053C
   - !!omap
     - id: YLL057C
     - name: JLP1
@@ -96696,6 +96816,9 @@
     - id: YNL052W
     - name: COX5A
   - !!omap
+    - id: YNL065W
+    - name: AQR1
+  - !!omap
     - id: YNL071W
     - name: LAT1
   - !!omap
@@ -97113,6 +97236,9 @@
     - id: YOR303W
     - name: CPA1
   - !!omap
+    - id: YOR306C
+    - name: MCH5
+  - !!omap
     - id: YOR311C
     - name: DGK1
   - !!omap
@@ -97332,6 +97458,9 @@
     - id: YPR006C
     - name: ICL2
   - !!omap
+    - id: YPR011C
+    - name: YPR011C
+  - !!omap
     - id: YPR020W
     - name: ATP20
   - !!omap
@@ -97352,6 +97481,9 @@
   - !!omap
     - id: YPR047W
     - name: MSF1
+  - !!omap
+    - id: YPR058W
+    - name: YMC1
   - !!omap
     - id: YPR060C
     - name: ARO7
