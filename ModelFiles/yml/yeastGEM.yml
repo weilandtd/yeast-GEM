@@ -94117,6 +94117,335 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
+  - !!omap
+    - id: r_4601
+    - name: 3-(4-hydroxyphenyl)pyruvate transport
+    - metabolites: !!omap
+      - s_0204: -1
+      - s_0206: 1
+      - s_0794: -1
+      - s_0801: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4602
+    - name: acetate transport
+    - metabolites: !!omap
+      - s_0362: -1
+      - s_0363: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4603
+    - name: ADP-ribose transport
+    - metabolites: !!omap
+      - s_0402: 1
+      - s_3761: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4604
+    - name: farnesyl diphosphate transport
+    - metabolites: !!omap
+      - s_0190: -1
+      - s_0692: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4605
+    - name: nicotinate transport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0799: 1
+      - s_1219: -1
+      - s_1221: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4606
+    - name: O-phosphoethanolamine transport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0795: 1
+      - s_1239: -1
+      - s_1240: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4607
+    - name: phosphate transport
+    - metabolites: !!omap
+      - s_1322: -1
+      - s_1325: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4608
+    - name: propionyl-CoA transport
+    - metabolites: !!omap
+      - s_0397: 1
+      - s_0434: -1
+      - s_0799: 1
+      - s_0803: -1
+      - s_1326: 1
+      - s_1382: 1
+      - s_4183: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4609
+    - name: UDP transport
+    - metabolites: !!omap
+      - s_1538: -1
+      - s_1539: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4610
+    - name: UDP transport
+    - metabolites: !!omap
+      - s_1538: -1
+      - s_1540: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4611
+    - name: UMP transport
+    - metabolites: !!omap
+      - s_1545: -1
+      - s_1546: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4612
+    - name: TRX1 disulphide transport
+    - metabolites: !!omap
+      - s_1620: -1
+      - s_1622: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4613
+    - name: oleate transport
+    - metabolites: !!omap
+      - s_1260: -1
+      - s_3677: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4614
+    - name: (R)-acetoin transport
+    - metabolites: !!omap
+      - s_0020: -1
+      - s_0794: -1
+      - s_0800: 1
+      - s_3751: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4615
+    - name: L-glutamine transport
+    - metabolites: !!omap
+      - s_0999: -1
+      - s_3755: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4616
+    - name: UMP transport
+    - metabolites: !!omap
+      - s_1545: -1
+      - s_3781: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4617
+    - name: S-adenosyl-L-methionine transport
+    - metabolites: !!omap
+      - s_1416: -1
+      - s_3818: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4618
+    - name: glutathione transport
+    - metabolites: !!omap
+      - s_0750: -1
+      - s_3831: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4619
+    - name: ATP transport
+    - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
+      - s_3881: 1
+      - s_3883: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.7.4.6
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4620
+    - name: D-mannose 6-phosphate transport
+    - metabolites: !!omap
+      - s_0574: -1
+      - s_3898: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4621
+    - name: O-acetyl-L-serine transport
+    - metabolites: !!omap
+      - s_1234: -1
+      - s_3905: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4622
+    - name: hydrogen sulfide transport
+    - metabolites: !!omap
+      - s_0841: -1
+      - s_3906: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4623
+    - name: L-cysteinylglycine transport
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0799: 1
+      - s_0983: -1
+      - s_3925: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4624
+    - name: ATP transport
+    - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
+      - s_2831: 1
+      - s_3987: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - ec-code: 2.7.4.6
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4625
+    - name: thiosulfate transport
+    - metabolites: !!omap
+      - s_4010: 1
+      - s_4113: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4626
+    - name: sulphite transport
+    - metabolites: !!omap
+      - s_1469: -1
+      - s_4011: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4627
+    - name: UDP-D-glucose transport
+    - metabolites: !!omap
+      - s_1543: -1
+      - s_4015: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
+  - !!omap
+    - id: r_4628
+    - name: UDP-N-acetyl-alpha-D-glucosamine transport
+    - metabolites: !!omap
+      - s_1544: -1
+      - s_4025: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - annotation: !!omap
+      - sbo: SBO:0000655
+    - confidence_score: 0
 - genes:
   - !!omap
     - id: GR191W
