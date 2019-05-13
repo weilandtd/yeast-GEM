@@ -94018,7 +94018,7 @@
       - s_4204: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: GR191W or YOL130W
+    - gene_reaction_rule: YGR191W or YOL130W
     - annotation: !!omap
       - metanetx.reaction: MNXR101553
       - sbo: SBO:0000655
@@ -94447,9 +94447,6 @@
       - sbo: SBO:0000655
     - confidence_score: 0
 - genes:
-  - !!omap
-    - id: GR191W
-    - name: GR191W
   - !!omap
     - id: Q0045
     - name: COX1
