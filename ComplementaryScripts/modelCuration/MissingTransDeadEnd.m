@@ -1,20 +1,16 @@
-function [canbesolved]= MissingTransDeadEnd(model)
+function canbesolved = MissingTransDeadEnd(model)
 
 %This function is to detect whether the deadend metabolites can be solved
 %by adding a transport reaction.
 % Feiran Li 2019-02-01
 
-
-
-solverOK = changeCobraSolver ('gurobi', 'LP');
+changeCobraSolver('gurobi', 'LP');
 exchangeRxns = findExcRxns(model);
 model.lb(exchangeRxns) = -1000;
 model.ub(exchangeRxns) = 1000;
 outputMets_index = detectDeadEnds(model);
 outputMets = model.metNames(outputMets_index);
 outputMetsMNX = model.metMetaNetXID(outputMets_index);
-% * Detect reactions contained deadEnds metabolites
-%[rxnList, rxnFormulaList] = findRxnsFromMets(model, outputMets);
 
 model_r = ravenCobraWrapper(model);
 for j = 1:length(model_r.metComps)
@@ -55,7 +51,7 @@ for i = 1:length(outputMets)
             end
         end
     else
-        deadendmets = [deadendmets;outputMets_index(i),outputMets(i),outputMetsMNX(i),'noMetsInOtherComps','mets only appear in one compartment'];     
+        deadendmets = [deadendmets;outputMets_index(i),outputMets(i),outputMetsMNX(i),'noMetsInOtherComps','mets only appear in one compartment'];
     end
 end
 
@@ -63,38 +59,38 @@ end
 % can be solved
 canbesolved = [];
 for i = 1:length(deadendmets1(:,1))
-        if ~isempty(cell2mat(deadendmets1(i,3)))
-            if strncmpi(deadendmets1(i,5),'add a transport reaction from cytosol',37)
-                mets = [deadendmets1(i,2),deadendmets1(i,4)];
-                [~,metindex] = ismember(mets,model.metNames);
-                metsID = model.mets(metindex);
-                cd ../otherChanges
-                newID    = getNewIndex(model.rxns);
-                TransRxn  = ['r_' newID];
-                newModel = addReaction(model,TransRxn, ...
+    if ~isempty(cell2mat(deadendmets1(i,3)))
+        if strncmpi(deadendmets1(i,5),'add a transport reaction from cytosol',37)
+            mets = [deadendmets1(i,2),deadendmets1(i,4)];
+            [~,metindex] = ismember(mets,model.metNames);
+            metsID = model.mets(metindex);
+            cd ../otherChanges
+            newID    = getNewIndex(model.rxns);
+            TransRxn  = ['r_' newID];
+            newModel = addReaction(model,TransRxn, ...
                 'reactionName', [deadendmets1{i,2}, ' transport'], ...
                 'metaboliteList', metsID, 'stoichCoeffList', [-1 1], ...
                 'lowerBound', -1000, 'upperBound', 1000, 'subSystem', '', ...
                 'checkDuplicate', false);
-                outputMets_index_temp = detectDeadEnds(newModel);
-                %if ~isempty(setdiff(outputMets_index,outputMets_index_temp))
-                if ~any(outputMets_index_temp(:)==deadendmets1{i,1})
-                    canbesolved = [canbesolved;deadendmets1(i,:)];
-                    model = newModel;
-                end
-            elseif strncmpi(deadendmets1(i,5),'change lb',9)
-                rxn_temp = deadendmets1{i,5};
-                rxnID = rxn_temp(end-5:end);
-                [~,rxnindex] = ismember({rxnID},model.rxns);
-                newModel = model;
-                newModel.lb(rxnindex) = -1000;
-                outputMets_index_temp = detectDeadEnds(newModel);
-                if ~any(outputMets_index_temp(:)==deadendmets1{i,1})
-                    canbesolved = [canbesolved;deadendmets1(i,:)];
-                    model = newModel;
-                end 
+            outputMets_index_temp = detectDeadEnds(newModel);
+            %if ~isempty(setdiff(outputMets_index,outputMets_index_temp))
+            if ~any(outputMets_index_temp(:)==deadendmets1{i,1})
+                canbesolved = [canbesolved;deadendmets1(i,:)];
+                model = newModel;
+            end
+        elseif strncmpi(deadendmets1(i,5),'change lb',9)
+            rxn_temp = deadendmets1{i,5};
+            rxnID = rxn_temp(end-5:end);
+            [~,rxnindex] = ismember({rxnID},model.rxns);
+            newModel = model;
+            newModel.lb(rxnindex) = -1000;
+            outputMets_index_temp = detectDeadEnds(newModel);
+            if ~any(outputMets_index_temp(:)==deadendmets1{i,1})
+                canbesolved = [canbesolved;deadendmets1(i,:)];
+                model = newModel;
             end
         end
+    end
 end
 
-                
+end

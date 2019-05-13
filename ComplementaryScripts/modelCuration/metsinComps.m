@@ -1,7 +1,7 @@
-function [metsindiffcomps] = metsinComps(model,modle_r,mets)
+function metsindiffcomps = metsinComps(model,modle_r,mets)
 % this function is to identify same metabolites occuring in different
 % compartements
-% usage: [metsindiffcomps] = SpecificModel(model,mets)
+% usage: metsindiffcomps = SpecificModel(model,mets)
 %
 % model     model structure to save (note: must be in COBRA format)
 % mets      should be a cell array of metlist (here we are matching metname)
@@ -9,11 +9,10 @@ function [metsindiffcomps] = metsinComps(model,modle_r,mets)
 %
 % Feiran Li 2018.10.12
 
-
 if nargin<2
     mets = model.metNames;
 end
-%model_r = ravenCobraWrapper(model);
+
 metsindiffcomps = [];
 for i = 1:length(mets)
     S = regexp(mets{i}, ' [', 'split');
@@ -22,3 +21,4 @@ for i = 1:length(mets)
     metsindiffcomps = [metsindiffcomps;model.metNames(metMapping)];
 end
 
+end

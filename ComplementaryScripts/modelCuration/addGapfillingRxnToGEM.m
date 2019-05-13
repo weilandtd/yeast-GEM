@@ -1,10 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % addGapfillingRxnToGEM
 % Adds rxns and metabolites based on Gpfilling results, here we adde
-% transport reactions for deadend metabolites but have same metabolites in different compartment. 
-% Input: model, GapfillingnewRxnMatrix.tsv,
-%        GapfillingnewRxnProp.tsv.
-%
+% transport reactions for deadend metabolites but have same metabolites in different compartment.
+% Input: model, GapfillingnewRxnMatrix.tsv, GapfillingnewRxnProp.tsv.
 %
 % Feiran Li     2018-10-12
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -85,7 +83,6 @@ for j = 1:length(matrix.metnames)
     end
 end
 
-
 % Add new reactions according to rev ID: Met Coef needs to be a column, not
 % a row. Coef should be a double, which was converted at the import section
 EnergyResults     = {};
@@ -118,9 +115,9 @@ for i = 1:length(newrxn.ID)
     model.rxnECNumbers(rxnIndex)  = newrxn.rxnECNumbers(i);
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnMetaNetXID(rxnIndex) = newrxn.rxnMetaNetXID(i);
-    model.rxnConfidenceScores(rxnIndex) = 0; 
+    model.rxnConfidenceScores(rxnIndex) = 0;
     model.rxnNotes{rxnIndex} = ['NOTES: Gap-filling; ',newrxn.rxnNotes{i}];
-
+    
 end
 
 % Save model:
