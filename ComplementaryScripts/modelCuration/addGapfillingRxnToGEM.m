@@ -116,8 +116,7 @@ for i = 1:length(newrxn.ID)
     model.rxnKEGGID(rxnIndex)     = newrxn.rxnKEGGID(i);
     model.rxnMetaNetXID(rxnIndex) = newrxn.rxnMetaNetXID(i);
     model.rxnConfidenceScores(rxnIndex) = 0;
-    model.rxnNotes{rxnIndex} = ['NOTES: Gap-filling; ',newrxn.rxnNotes{i}];
-    
+    model.rxnNotes{rxnIndex} = ['NOTES: added after Gapfilling (PR #185); ',newrxn.rxnNotes{i}];
 end
 
 % Save model:
