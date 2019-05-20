@@ -1,7 +1,8 @@
-function canbesolved = MissingTransDeadEnd(model)
+function [canbesolved deadendmets] = MissingTransDeadEnd(model)
 
-%This function is to detect whether the deadend metabolites can be solved
-%by adding a transport reaction.
+% This function is to detect whether the deadend metabolites can be solved by adding a transport reaction.
+% Output: canbesolved is a list of deadend metabolites that can be solved by adding a transport rxn.
+%         deadendmets is a list of deadend metaolites that
 % Feiran Li 2019-02-01
 
 changeCobraSolver('gurobi', 'LP');
@@ -21,6 +22,7 @@ for j = 1:length(model_r.metComps)
 end
 deadendmets = [];
 deadendmets1 = [];
+% deadendmets is a list contains all deadend mets in the model: the first column is the deadend, the second coloum is the possiblr solution
 for i = 1:length(outputMets)
     [metsindiffcomps] = metsinComps(model,model_r,outputMets(i));
     metsinOtherComps = setdiff(metsindiffcomps,outputMets(i));
@@ -56,7 +58,7 @@ for i = 1:length(outputMets)
 end
 
 % trying to add a transport reaction to see whether the deadend metaolites
-% can be solved
+% canbesolved is a list that deadend mets can be linked into the model by adding a transport rxns
 canbesolved = [];
 for i = 1:length(deadendmets1(:,1))
     if ~isempty(cell2mat(deadendmets1(i,3)))
