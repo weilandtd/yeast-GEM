@@ -10,13 +10,13 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** species; **Utilisation:** experimental data reconstruction, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** reconstruction, curated; **Model Source:** YeastMetabolicNetwork; **Omic Source:** genomics, metabolomics; **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** general metabolism; **Bioreactor**; **Strain:** S288C; **Condition:** aerobic, glucose-limited, defined media;
 
-* Last update: 2018-12-06
+* Last update: 2019-05-21
 
 * Main Model Descriptors:
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 |:-------:|:--------------:|:---------:|:----------:|:-----:|
-|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3963|2691|1139|
+|_Saccharomyces cerevisiae_|[Yeast 7.6](https://sourceforge.net/projects/yeast/)|3991|2691|1149|
 
 This repository is administered by Benjamín J. Sánchez ([@BenjaSanchez](https://github.com/benjasanchez)), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
@@ -59,7 +59,7 @@ Make sure to load/save the model with the corresponding wrapper functions!
 
 The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2 extensions only in `master`). Additionally, the following 2 files are available:
 * `dependencies.txt`: Tracks versions of toolboxes & SBML used for saving the model.
-* `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name. 
+* `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
 
 ### Complementary Scripts
 
@@ -88,7 +88,7 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 ## Contributing
 
 Contributions are always welcome! Please read the [contributions guideline](https://github.com/SysBioChalmers/yeast-GEM/blob/master/.github/CONTRIBUTING.md) to get started.
-  
+
 ## Contributors
 
 * [Mihail Anton](https://www.chalmers.se/en/staff/Pages/mihail-anton.aspx) ([@mihai-sysbio](https://github.com/mihai-sysbio)), Chalmers University of Technology, Sweden

@@ -1,5 +1,13 @@
 # History
 
+### yeast 8.3.4:
+* Features:
+  * Fixes #171: Added 101 GPR rules to transport rxns according to TCDB database (PR #178).
+  * Added 18 met formulas from manual search (PR #155).
+  * Performed gap-filling for connecting 29 dead-end mets, by adding 28 transport rxns (PR #185). Added documentation to the gap-filling functions in PR #195.
+* Fixes:
+  * Corrected typo in gene ID (PR #186).
+
 ### yeast 8.3.3:
 * Features:
   * Fixes #107: Two new pseudoreactions (`cofactor pseudoreaction` and `ion pseudoreaction`) added to the model as extra requirements to the biomass pseudoreaction (PRs #174 & #183).
