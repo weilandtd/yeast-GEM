@@ -52,7 +52,7 @@ xlabel('Experimental growth rate [h/1]','FontSize',14,'FontName','Helvetica')
 ylabel('In silico growth rate [h/1]','FontSize',14,'FontName','Helvetica')
 legend(b,'N-limited aerboic','C-limited aerobic','C-limited anaerobic','N-limited anaerobic','Location','northwest')
 meanerror = sum(([exp_data1(:,4);exp_data2(:,4);exp_data3(:,4);exp_data4(:,4)]-[mod_data1(:,4);mod_data2(:,4);mod_data3(:,4);mod_data4(:,4)]).^2)/32;
-text(2,7,['meanerror:',num2str(meanerror)])
+text(0.4,0.1,['meanerror:',num2str(meanerror*100),'%'])
 hold off
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
