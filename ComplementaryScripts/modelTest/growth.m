@@ -6,6 +6,7 @@
 % to be 0.
 % Feiran Li -2018-08-25
 % Feiran Li -Last update: 2019-09-24 
+initCobraToolbox
 cd ..
 model = loadYeastModel;
 model_origin = model;
@@ -30,7 +31,8 @@ mod_data2 = simulateChemostat(model_origin,exp_data2,1,'C');
 mod_data3 = simulateChemostat(model_origin,exp_data3,2,'C');
 mod_data4 = simulateChemostat(model_origin,exp_data4,2,'N');    
 
-
+cd ../modelTest/
+% plot the figure
 figure
 hold on
 cols = [215,25,28;253,174,97;171,217,233;44,123,182]/256;
@@ -49,10 +51,11 @@ plot(x,y,'--','MarkerSize',6,'Color',[64,64,64]/256)
 xlabel('Experimental growth rate [h/1]','FontSize',14,'FontName','Helvetica')
 ylabel('In silico growth rate [h/1]','FontSize',14,'FontName','Helvetica')
 legend(b,'N-limited aerboic','C-limited aerobic','C-limited anaerobic','N-limited anaerobic','Location','northwest')
+meanerror = sum(([exp_data1(:,4);exp_data2(:,4);exp_data3(:,4);exp_data4(:,4)]-[mod_data1(:,4);mod_data2(:,4);mod_data3(:,4);mod_data4(:,4)]).^2)/32;
+text(2,7,['meanerror:',num2str(meanerror)])
 hold off
 
-meanerror = sum(([exp_data1(:,4);exp_data2(:,4);exp_data3(:,4);exp_data4(:,4)]-[mod_data1(:,4);mod_data2(:,4);mod_data3(:,4);mod_data4(:,4)]).^2)/32;
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [mod_data,solresult] = simulateChemostat(model_origin,exp_data,mode1,mode2)
 model = model_origin;
 %Relevant positions:
@@ -65,13 +68,12 @@ pos(4) = find(strcmp(model.rxns,'r_2111'));%growth
 mod_data = zeros(size(exp_data));
 solresult = zeros(length(model.rxns),length(exp_data(:,1)));
 if strcmp(mode2,'N')
-    cd ../otherChanges/
-    model = NitrogenlimitedBiomass(model);
-    cd ../modelCuration/
+    content = {'carbohydrate','protein','lipid backbone','RNA'};
+    fraction = [0.587 0.289 0.048 0.077];
+    model = scaleBioMass(content,fraction,model,false,false);
 end
 if mode1 == 2
-    anaerobicModel
-
+    model = anaerobicModel(model);
 end
 for i = 1:length(exp_data(:,1))
     model_test= model;
@@ -86,7 +88,7 @@ for i = 1:length(exp_data(:,1))
     end
    
     model_test = changeObjective(model_test,model_test.rxns(pos(4)),+1);
-    sol   = optimizeCbModel(model_test,'max','one');
+    sol   = optimizeCbModel(model_test,'max');
     %Store relevant variables:
     mod_data(i,:) = abs(sol.x(pos)');
     solresult(:,i) = sol.x;
