@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% scaleBioMass
+% model = scaleBioMass(content,fraction,model,save,fit)
 % Corrects the stoichiometry coefficients of all pseudo-rxns in an
 % iterative fashion:
 % 1. Switch back to original model's abundance values (Forster et al. 2003)
@@ -10,6 +10,13 @@
 %    growth rates (Van Hoek et al. 1988)
 % 
 % the function also accept input values for those fraction
+% format for content should be cell arrays eg: {'protein','carbohydrate'}
+% format for fraction should be number arrary eg: [0.46 0.3]
+% the third input:model is optional
+% the fourth input:save is for the option whether to save the model at
+% the end or not, default is true 
+% the fifth input:fit is for fitGAM using a aerobic glucose-limited
+% chemostat to fit GAM, default is true
 % Function adapted from SLIMEr: https://github.com/SysBioChalmers/SLIMEr
 %
 % Benjamin Sanchez.  2018-09-07
