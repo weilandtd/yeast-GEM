@@ -15,9 +15,7 @@ P     = 0.461;  %Data from Nissen et al. 1997
 NGAM  = 0;      %Refit done in Jouthen et al. 2012
 
 model = changeGAM(model,GAM,NGAM);
-cd ../modelCuration
-model = scaleBioMass({'protein'},P,model,false,false);
-cd ../otherChanges
+model = scaleBioMass(model,'protein',P,'carbohydrate');
 
 %2nd change: Removes the requirement of heme a in the biomass equation
 %            (not used under aerobic conditions)
@@ -47,7 +45,7 @@ model.ub(strcmp(model.rxns,'r_0472')) = 0;
 
 end
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
 
 function model = changeGAM(model,GAM,NGAM)
 

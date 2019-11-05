@@ -11,7 +11,7 @@ initCobraToolbox
 cd ..
 model = loadYeastModel;
 model_origin = model;
-cd modelCuration/
+cd otherChanges/
 
 %Load chemostat data:
 fid = fopen('../../ComplementaryData/physiology/chemostatData_Tobias2013.tsv','r');
@@ -60,23 +60,21 @@ hold off
 function [mod_data,solresult] = simulateChemostat(model_origin,exp_data,mode1,mode2)
 model = model_origin;
 %Relevant positions:
-pos(1) = find(strcmp(model.rxns,'r_1714'));%glc
+pos(1) = find(strcmp(model.rxns,'r_1714')); %glc
 pos(2) = find(strcmp(model.rxns,'r_1992')); %O2
 pos(3) = find(strcmp(model.rxns,'r_1654')); %NH3
-pos(4) = find(strcmp(model.rxns,'r_2111'));%growth
+pos(4) = find(strcmp(model.rxns,'r_2111')); %growth
 
 %Simulate chemostats:
 mod_data = zeros(size(exp_data));
 solresult = zeros(length(model.rxns),length(exp_data(:,1)));
 if strcmp(mode2,'N')
-    content = {'carbohydrate','protein','lipid backbone','RNA'};
-    fraction = [0.587 0.289 0.048 0.077];
-    model = scaleBioMass(content,fraction,model,false,false);
+    model = scaleBioMass(model,'protein',0.289);
+    model = scaleBioMass(model,'lipid',0.048);
+    model = scaleBioMass(model,'RNA',0.077,'carbohydrate');
 end
 if mode1 == 2
-    cd ../otherChanges
     model = anaerobicModel(model);
-    cd ../modelCuration
 end
 for i = 1:length(exp_data(:,1))
     model_test= model;
@@ -91,7 +89,7 @@ for i = 1:length(exp_data(:,1))
     end
 
     model_test = changeObjective(model_test,model_test.rxns(pos(4)),+1);
-    sol   = optimizeCbModel(model_test,'max');
+    sol        = optimizeCbModel(model_test,'max');
     %Store relevant variables:
     mod_data(i,:) = abs(sol.x(pos)');
     solresult(:,i) = sol.x;

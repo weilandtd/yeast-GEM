@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% scaleBioMass
+% fixBiomassComp
 % Corrects the stoichiometry coefficients of all pseudo-rxns in an
 % iterative fashion:
 % 1. Switch back to original model's abundance values (Forster et al. 2003)
@@ -14,7 +14,7 @@
 % Benjamin Sanchez. Last update: 2018-09-07
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function scaleBioMass
+function fixBiomassComp
 
 %Load model:
 initCobraToolbox
