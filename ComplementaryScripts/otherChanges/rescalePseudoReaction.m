@@ -4,7 +4,7 @@ function model = rescalePseudoReaction(model,metName,f)
   %
   %   model      (struct) the yeast GEM
   %   metName    (str) name of the component to rescale (e.g. "protein")
-  %   f          (float) value to use for rescaling
+  %   f          (float) fraction to use for rescaling
   %
   %   model    (struct) the (rescaled) yeast GEM
   %

@@ -32,7 +32,7 @@ data.groups     = Forster2003{5};
 fclose(fid);
 
 %Compute current composition:
-sumBioMass(model,data);
+sumBioMass(model);
 
 %Switch to Forster 2003 data:
 for i = 1:length(data.mets)
@@ -54,7 +54,7 @@ for i = 1:length(data.mets)
 end
 
 %Compute current composition:
-sumBioMass(model,data);
+sumBioMass(model);
 
 %Correct with data from biomassComposition_Cofactor_Ion:
 data_original = data;
@@ -78,7 +78,7 @@ for j = 1:length(data_original.mets)
         data.groups = [data.groups; data_original.groups(j)];
     end
 end
-[X,P,C,R,~,~,~,~] = sumBioMass(model,data);
+[X,P,C,R,~,~,~,~] = sumBioMass(model);
 
 %Correct with data from Lahtvee 2017:
 fid = fopen('../../ComplementaryData/physiology/biomassComposition_Lahtvee2017.tsv');
@@ -109,17 +109,17 @@ for i = 1:length(data2.mets)
         end
     end
 end
-[X,P,C,R,~,~,~,~] = sumBioMass(model,data);
+[X,P,C,R,~,~,~,~] = sumBioMass(model);
 
 %Balance out mass with carbohydrate content:
 delta = X - 1;           %difference to balance
 fC    = (C - delta)/C;
 model = rescalePseudoReaction(model,'carbohydrate',fC);
-sumBioMass(model,data);
+sumBioMass(model);
 
 %Fit GAM:
 model = fitGAM(model);
-sumBioMass(model,data);
+sumBioMass(model);
 
 %Finally, save model:
 cd ..
