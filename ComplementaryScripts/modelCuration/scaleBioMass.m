@@ -20,7 +20,7 @@ function scaleBioMass
 initCobraToolbox
 cd ..
 model = loadYeastModel;
-cd modelCuration
+cd otherChanges
 
 %Load data from Forster 2003:
 fid = fopen('../../ComplementaryData/physiology/biomassComposition_Forster2003.tsv');
@@ -66,7 +66,9 @@ data.MWs        = double(Cofactors{4});
 data.groups     = Cofactors{5};
 fclose(fid);
 
+cd ../modelCuration
 model = addBiomassUpdate(model,data);
+cd ../otherChanges
 
 for j = 1:length(data_original.mets)
     if ~ismember(data_original.mets(j),data.mets)
@@ -125,21 +127,3 @@ saveYeastModel(model)
 cd modelCuration
 
 end
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-function model = rescalePseudoReaction(model,metName,f)
-
-rxnName = [metName ' pseudoreaction'];
-rxnPos  = strcmp(model.rxnNames,rxnName);
-for i = 1:length(model.mets)
-    S_ir   = model.S(i,rxnPos);
-    isProd = strcmp(model.metNames{i},[metName ' [cytoplasm]']);
-    if S_ir ~= 0 && ~isProd
-        model.S(i,rxnPos) = f*S_ir;
-    end
-end
-
-end
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
