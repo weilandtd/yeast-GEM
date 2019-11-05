@@ -73,7 +73,9 @@ if strcmp(mode2,'N')
     model = scaleBioMass(content,fraction,model,false,false);
 end
 if mode1 == 2
+    cd ../otherChanges
     model = anaerobicModel(model);
+    cd ../modelCuration
 end
 for i = 1:length(exp_data(:,1))
     model_test= model;
