@@ -31,7 +31,7 @@ mod_data2 = simulateChemostat(model_origin,exp_data2,1,'C');
 mod_data3 = simulateChemostat(model_origin,exp_data3,2,'C');
 mod_data4 = simulateChemostat(model_origin,exp_data4,2,'N');    
 
-cd ../modelTest/
+cd ../modelTests/
 % plot the figure
 figure
 hold on
