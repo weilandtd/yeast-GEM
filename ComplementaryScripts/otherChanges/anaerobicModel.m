@@ -2,10 +2,11 @@
 % anaerobicModel.m
 % Converts model to anaerobic
 %
-% Benjamín J. Sánchez
-% Feiran Li - 2019-09-24 
+% Benjamin J. Sanchez
+% Feiran Li - 2019-09-24
 % Feiran Li - Last update: 2019-10-02 modify the order of changes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function model = anaerobicModel(model)
 
 %1th change: Refit GAM and NGAM to exp. data, change biomass composition
@@ -44,8 +45,10 @@ model.ub(strcmp(model.rxns,'r_0487')) = 0;
 %Block 2-oxoglutarate + L-glutamine -> 2 L-glutamate (alternative pathway)
 model.ub(strcmp(model.rxns,'r_0472')) = 0;
 
-[X,P,C,R,D,L,I,F] = sumBioMass(model,data)
+end
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function model = changeGAM(model,GAM,NGAM)
 
 bioPos = strcmp(model.rxnNames,'biomass pseudoreaction');
@@ -57,9 +60,10 @@ for i = 1:length(model.mets)
         model.S(i,bioPos) = sign(S_ix)*GAM;
     end
 end
+
 if nargin >1
     pos = strcmp(model.rxnNames,'non-growth associated maintenance reaction');%NGAM
     model = setParam(model,'eq',model.rxns(pos),NGAM);% set both lb and ub to be mu
 end
-end
+
 end

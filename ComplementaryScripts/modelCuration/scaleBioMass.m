@@ -8,13 +8,13 @@
 % 3. Rescale carbohydrate fraction (total) to have biomass add up to 1
 % 4. GAM is fitted to simulate chemostat data of S. cerevisiae at low
 %    growth rates (Van Hoek et al. 1988)
-% 
+%
 % the function also accept input values for those fraction
 % format for content should be cell arrays eg: {'protein','carbohydrate'}
 % format for fraction should be number arrary eg: [0.46 0.3]
 % the third input:model is optional
 % the fourth input:save is for the option whether to save the model at
-% the end or not, default is true 
+% the end or not, default is true
 % the fifth input:fit is for fitGAM using a aerobic glucose-limited
 % chemostat to fit GAM, default is true
 % Function adapted from SLIMEr: https://github.com/SysBioChalmers/SLIMEr
@@ -25,7 +25,6 @@
 
 function model = scaleBioMass(content,fraction,model,save,fit)
 
-initCobraToolbox
 content_all = {'carbohydrate','protein','lipid backbone','RNA','DNA','ion','cofactor'};
 content_Cap = {'C','P','L','R','D','I','C'};
 fraction_input = zeros(length(content_all),1);
@@ -43,10 +42,10 @@ elseif nargin >= 2
             fitmode = fit;
         end
     end
-    
+
     end
 end
-    
+
 %Load model:
 if nargin < 3
     cd ..
@@ -124,11 +123,11 @@ for i = 1:length(data2.mets)
     if strcmp(metName,'protein')      %protein fraction
         fP    = abundance/P;        %ratio to scale
         model = rescalePseudoReaction(model,'protein',fP);
-        
+
     elseif strcmp(metName,'RNA')      %RNA fraction
         fR    = abundance/R;        %ratio to scale
         model = rescalePseudoReaction(model,'RNA',fR);
-        
+
     else    %Some extra carbohydrates:
         modelPos = strcmp(model.mets,metID);
         compPos  = strcmp(data.mets,metID);

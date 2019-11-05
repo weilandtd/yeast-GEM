@@ -5,7 +5,8 @@
 % when simulate anaerobic condtion, heme NADH NADP NADPH NAD were rescaled
 % to be 0.
 % Feiran Li -2018-08-25
-% Feiran Li -Last update: 2019-09-24 
+% Feiran Li -Last update: 2019-09-24
+
 initCobraToolbox
 cd ..
 model = loadYeastModel;
@@ -29,7 +30,7 @@ exp_data4 = exp_data(27:32,:);
 mod_data1 = simulateChemostat(model_origin,exp_data1,1,'N');
 mod_data2 = simulateChemostat(model_origin,exp_data2,1,'C');
 mod_data3 = simulateChemostat(model_origin,exp_data3,2,'C');
-mod_data4 = simulateChemostat(model_origin,exp_data4,2,'N');    
+mod_data4 = simulateChemostat(model_origin,exp_data4,2,'N');
 
 cd ../modelTests/
 % plot the figure
@@ -43,13 +44,13 @@ b(4) = plot(exp_data4(:,4),mod_data4(:,4),'>','MarkerSize',10,'MarkerEdgeColor',
 exp_max = max(exp_data2(:,4));
 mod_max = max(mod_data1(:,4));
 lim = max(exp_max,mod_max)+0.05;
-xlim([0 lim]) 
-ylim([0 lim]) 
+xlim([0 lim])
+ylim([0 lim])
 x=0:0.001:lim;
 y = x;
 plot(x,y,'--','MarkerSize',6,'Color',[64,64,64]/256)
-xlabel('Experimental growth rate [h/1]','FontSize',14,'FontName','Helvetica')
-ylabel('In silico growth rate [h/1]','FontSize',14,'FontName','Helvetica')
+xlabel('Experimental growth rate [1/h]','FontSize',14,'FontName','Helvetica')
+ylabel('In silico growth rate [1/h]','FontSize',14,'FontName','Helvetica')
 legend(b,'N-limited aerboic','C-limited aerobic','C-limited anaerobic','N-limited anaerobic','Location','northwest')
 meanerror = sum(([exp_data1(:,4);exp_data2(:,4);exp_data3(:,4);exp_data4(:,4)]-[mod_data1(:,4);mod_data2(:,4);mod_data3(:,4);mod_data4(:,4)]).^2)/32;
 text(0.4,0.1,['meanerror:',num2str(meanerror*100),'%'])
@@ -63,7 +64,7 @@ pos(1) = find(strcmp(model.rxns,'r_1714'));%glc
 pos(2) = find(strcmp(model.rxns,'r_1992')); %O2
 pos(3) = find(strcmp(model.rxns,'r_1654')); %NH3
 pos(4) = find(strcmp(model.rxns,'r_2111'));%growth
- 
+
 %Simulate chemostats:
 mod_data = zeros(size(exp_data));
 solresult = zeros(length(model.rxns),length(exp_data(:,1)));
@@ -88,7 +89,7 @@ for i = 1:length(exp_data(:,1))
             model_test = changeRxnBounds(model_test,model_test.rxns(pos(j)),-exp_data(i,j),'b');
         end
     end
-   
+
     model_test = changeObjective(model_test,model_test.rxns(pos(4)),+1);
     sol   = optimizeCbModel(model_test,'max');
     %Store relevant variables:
