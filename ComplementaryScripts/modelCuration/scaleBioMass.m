@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% model = scaleBioMass(content,fraction,model,save,fit)
+% scaleBioMass
 % Corrects the stoichiometry coefficients of all pseudo-rxns in an
 % iterative fashion:
 % 1. Switch back to original model's abundance values (Forster et al. 2003)
@@ -9,49 +9,18 @@
 % 4. GAM is fitted to simulate chemostat data of S. cerevisiae at low
 %    growth rates (Van Hoek et al. 1988)
 %
-% the function also accept input values for those fraction
-% format for content should be cell arrays eg: {'protein','carbohydrate'}
-% format for fraction should be number arrary eg: [0.46 0.3]
-% the third input:model is optional
-% the fourth input:save is for the option whether to save the model at
-% the end or not, default is true
-% the fifth input:fit is for fitGAM using a aerobic glucose-limited
-% chemostat to fit GAM, default is true
 % Function adapted from SLIMEr: https://github.com/SysBioChalmers/SLIMEr
 %
-% Benjamin Sanchez.  2018-09-07
-% Feiran Li. Last update: 2019-10-01
+% Benjamin Sanchez. Last update: 2018-09-07
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function model = scaleBioMass(content,fraction,model,save,fit)
-
-content_all = {'carbohydrate','protein','lipid backbone','RNA','DNA','ion','cofactor'};
-content_Cap = {'C','P','L','R','D','I','C'};
-fraction_input = zeros(length(content_all),1);
-savemode = true;
-fitmode = true;
-if nargin > 1
-    if nargin < 2
-        warning(['should input the content and the fraction: eg: scaleBioMass(protein,0.46)'])
-elseif nargin >= 2
-    content_change = contains(content_all,content);
-    fraction_input(content_change) = fraction;
-    if nargin >= 4
-        savemode = save;
-        if nargin >= 5
-            fitmode = fit;
-        end
-    end
-
-    end
-end
+function scaleBioMass
 
 %Load model:
-if nargin < 3
-    cd ..
-    model = loadYeastModel;
-    cd modelCuration
-end
+initCobraToolbox
+cd ..
+model = loadYeastModel;
+cd modelCuration
 
 %Load data from Forster 2003:
 fid = fopen('../../ComplementaryData/physiology/biomassComposition_Forster2003.tsv');
@@ -138,19 +107,7 @@ for i = 1:length(data2.mets)
         end
     end
 end
-[X,P,C,R,D,L,I,F] = sumBioMass(model,data);
-
-%Scale the content to the input values
-for k = 1:length(fraction_input)
-    if fraction_input(k) ~= 0
-        f = fraction_input(k)/eval(content_Cap{k});
-        model = rescalePseudoReaction(model,content_all{k},f);
-        if strcmp(content_Cap{k},'L')
-            model = rescalePseudoReaction(model,'lipid chain',f);
-        end
-    end
-end
-[X,P,C,R,D,L,I,F] = sumBioMass(model,data);
+[X,P,C,R,~,~,~,~] = sumBioMass(model,data);
 
 %Balance out mass with carbohydrate content:
 delta = X - 1;           %difference to balance
@@ -159,17 +116,14 @@ model = rescalePseudoReaction(model,'carbohydrate',fC);
 sumBioMass(model,data);
 
 %Fit GAM:
-if fitmode
 model = fitGAM(model);
 sumBioMass(model,data);
-end
 
 %Finally, save model:
-if savemode
-    cd ..
-    saveYeastModel(model)
-    cd modelCuration
-end
+cd ..
+saveYeastModel(model)
+cd modelCuration
+
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
