@@ -1,4 +1,4 @@
-function [Accurancy,tp,tn,fn,fp] = Geneessential
+function [Accurancy,tp,tn,fn,fp] = essentialGenes
 
 % This function is to test essitial genes of the model, took from https://doi.org/10.1371/journal.pcbi.1004530
 % and modified media set up.
@@ -7,7 +7,7 @@ function [Accurancy,tp,tn,fn,fp] = Geneessential
 initCobraToolbox
 cd ..
 model = loadYeastModel;
-cd modelTest/
+cd modelTests
 ko_tol = 1e-6;
 
 %input the original model and the updated model
