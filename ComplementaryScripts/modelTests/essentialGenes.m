@@ -1,8 +1,19 @@
-function [Accurancy,tp,tn,fn,fp] = essentialGenes
-
-% This function is to test essitial genes of the model, took from https://doi.org/10.1371/journal.pcbi.1004530
-% and modified media set up.
-% Feiran Li 2019-09-25
+function [accurancy,tp,tn,fn,fp] = essentialGenes
+% essentialGenes
+%   Modify media + find essential genes in model. Adapted from:
+%   https://doi.org/10.1371/journal.pcbi.1004530
+%
+%   accurancy   (tp+tn)/(tp+tn+fn+fp)
+%   tp          true positives
+%   tn          true negatives
+%   fn          false negatives
+%   fp          false positives
+%
+%   Usage: [accurancy,tp,tn,fn,fp] = essentialGenes
+%
+%   Feiran Li, 2019-09-25
+%   Benjamin J. Sanchez, 2020-01-01
+%
 
 initCobraToolbox
 cd ..
@@ -10,17 +21,14 @@ model = loadYeastModel;
 cd modelTests
 ko_tol = 1e-6;
 
-%input the original model and the updated model
-
-
 modeltemp = ravenCobraWrapper(model);
 model.rxnGeneMat = modeltemp.rxnGeneMat;
+
 %constraints from genotype: check the genotype of the strains used in deletion experiment
     % no model changes based on genotype
 
 %constraints from growth medium:
 model = complete_Y7(model); %change Y7 model medium to the Kennedy synthetic complete medium
-
 
 %import the gene deletion resuts:
     % compare gene essentiality predictions in minimal media with glucose
@@ -31,23 +39,16 @@ model = complete_Y7(model); %change Y7 model medium to the Kennedy synthetic com
     % it's not an ideal reference gene list. However, we can compare all
     % models against it, so it's useful for comparative purposes. The
     % reference lists of genes are at the end of this function.
-
 inviableORFsAll = inviableORFs;
-%verifiedORFs = verifiedORFs;
-
 exp_inviable = intersect(model.genes,inviableORFsAll);
 exp_inviable = intersect(exp_inviable,verifiedORFs);
-
 exp_viable = setdiff(model.genes,inviableORFsAll);
 exp_viable = intersect(exp_viable,verifiedORFs);
 
 %calculate the growth rate after the single gene deletion using the original model and update model
-grRatio = singleGeneDeletion(model)
-
-
+grRatio = singleGeneDeletion(model);
 mod_viable  = model.genes(grRatio >= ko_tol);
 mod_viable = intersect(mod_viable,verifiedORFs);
-
 mod_inviable = model.genes(grRatio < ko_tol );
 mod_inviable = intersect(mod_inviable,verifiedORFs);
 
@@ -63,7 +64,7 @@ fn = intersect(exp_viable,mod_inviable); n_fn = length(fn);
 %compare the prediction performances of two models
 %prediction accuracy was used to evaluate the quality of model update in
 %each step
-Accurancy = (n_tp+n_tn)/(n_tp+n_tn+n_fn+n_fp);
+accurancy = (n_tp+n_tn)/(n_tp+n_tn+n_fn+n_fp);
 sensitivity = (100*n_tp/(n_tp+n_fn));
 specificity = (100*n_tn/(n_tn+n_fp));
 positivePredictive = (100*n_tp/(n_tp+n_fp));
