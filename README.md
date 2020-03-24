@@ -61,22 +61,6 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 * `dependencies.txt`: Tracks versions of toolboxes & SBML used for saving the model.
 * `boundaryMets.txt`: Contains a list of all boundary metabolites in model, listing the id and name.
 
-### Complementary Scripts
-
-* `missingFields`: Folder with functions for adding missing fields to the model.
-* `modelCuration`: Folder with curation functions.
-* `otherChanges`: Folder with other types of changes.
-* `increaseVersion.m`: Updates the version of the model in `version.txt` and as metaid in the `.xml` file. Saves the model as `.mat` and as `.xlsx`
-* `loadYeastModel.m`: Loads the yeast model from the `.xml` file for Matlab.
-* `loadYeastModel.py`: Loads the yeast model from the `.xml` file for Python.
-* `saveYeastModel.m`: Saves yeast model as a `.xml`, `.yml` and `.txt` file, and updates `boundaryMets.txt` and `dependencies.txt`.
-
-### Complementary Data
-
-* `databases`: Yeast data from different databases (KEGG, SGD, swissprot, etc).
-* `modelCuration`: Data files used for performing curations to the model. Mostly lists of new rxns, mets or genes added (or fixed) in the model.
-* `physiology`: Data on yeast growth under different conditions, biomass composition, gene essentiality experiments, etc.
-
 ## Citation
 
 * All yeast-GEM releases are archived in [Zenodo](https://zenodo.org/badge/latestdoi/52777598), for you to cite the specific version of yeast-GEM that you used in your study. Find the corresponding DOI [here](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%221494182%22&sort=-publication_date&all_versions=True).
