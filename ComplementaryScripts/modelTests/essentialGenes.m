@@ -21,9 +21,6 @@ model = loadYeastModel;
 cd modelTests
 ko_tol = 1e-6;
 
-modeltemp = ravenCobraWrapper(model);
-model.rxnGeneMat = modeltemp.rxnGeneMat;
-
 %constraints from genotype: check the genotype of the strains used in deletion experiment
     % no model changes based on genotype
 
