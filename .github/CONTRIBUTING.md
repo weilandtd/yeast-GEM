@@ -204,13 +204,13 @@ When releasing, please follow these steps:
   7. Make the new release at GitHub [here](https://github.com/SysBioChalmers/yeast-GEM/releases/new), using the proper tag "vX.Y.Z" and with the same description as the corresponding PR from step 2.
   8. Pull from `master` to `gh-pages` to update the landing page.
   9. Review the [Zenodo](https://zenodo.org) release: Every new release from Github (step 7) automatically triggers a new release in Zenodo. However, so far it is not possible to fully customize this release, and some manual curation is needed. This includes:
-    * Ensuring the title of the release has the format `SysBioChalmers/yeast-GEM: yeast X.Y.Z`.
-    * Correcting author names.
-    * Ensuring the version of the release has the format `vX.Y.Z`.
-    * Setting the language to English.
-    * Adding any Grant IDs (if applicable).
+      * Ensuring the title of the release has the format `SysBioChalmers/yeast-GEM: yeast X.Y.Z`.
+      * Correcting author names.
+      * Ensuring the version of the release has the format `vX.Y.Z`.
+      * Setting the language to English.
+      * Adding any Grant IDs (if applicable).
 
-  Make sure to both save & publish your edits. You will find the new release at the top of [all Zenodo releases](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%221494182%22&sort=-publication_date&all_versions=True). Note that it might take some minutes for the Zenodo release to appear after you create the release in Github.
+     Make sure to both save & publish your edits. You will find the new release at the top of [all Zenodo releases](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%221494182%22&sort=-publication_date&all_versions=True). Note that it might take some minutes for the Zenodo release to appear after you create the release in Github.
 
 ## Acknowledgments
 
