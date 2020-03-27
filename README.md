@@ -10,7 +10,7 @@ This repository contains the current consensus genome-scale metabolic model of _
 
 **GEM Category:** species; **Utilisation:** experimental data reconstruction, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** reconstruction, curated; **Model Source:** YeastMetabolicNetwork; **Omic Source:** genomics, metabolomics; **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** general metabolism; **Bioreactor**; **Strain:** S288C; **Condition:** aerobic, glucose-limited, defined media;
 
-* Last update: 2019-05-21
+* Last update: 2020-03-27
 
 * Main Model Descriptors:
 
@@ -79,11 +79,13 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 
 ## Citation
 
-* All yeast-GEM releases are archived in [Zenodo](https://zenodo.org/badge/latestdoi/52777598), for you to cite the specific version of yeast-GEM that you used in your study. Find the corresponding DOI [here](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%221494182%22&sort=-publication_date&all_versions=True).
+* If you use yeast-GEM please cite the yeast8 paper:
+  > Lu, H. et al. _A consensus S. cerevisiae metabolic model Yeast8 and its ecosystem for comprehensively probing cellular metabolism._ Nature Communications 10, 3586 (2019). https://doi.org/10.1038/s41467-019-11581-3.
 
-* Additionally, if you would like to cite the yeast-GEM project, you may also refer to the [yeast 7 paper](https://doi.org/10.1089/ind.2013.0013), and point to the new link in the text, e.g.: *"The yeast consensus genome-scale model [Aung et al. 2013], which is currently being hosted at https://github.com/SysBioChalmers/yeast-GEM, [...]"*.
+* Additionally, all yeast-GEM releases are archived in [Zenodo](https://zenodo.org/badge/latestdoi/52777598), for you to cite the specific version of yeast-GEM that you used in your study, to ensure reproducibility. You should always cite the original publication + the specific version, for instance:
+  > _The yeast consensus genome-scale model [Lu et al. 2019], version 8.3.4 [Sánchez et al. 2019], was used._
 
-* Finally, if you would like to cite the idea of hosting a genome-scale model in Github, you may also refer to the [RAVEN 2 paper](https://doi.org/10.1371/journal.pcbi.1006541), which mentions this idea and exemplifies it on [Streptomyces_coelicolor-GEM](https://github.com/SysBioChalmers/Streptomyces_coelicolor-GEM).
+  Find the citation details for your specific version [here](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%221494182%22&sort=-publication_date&all_versions=True).
 
 ## Contributing
 
