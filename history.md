@@ -1,5 +1,18 @@
 # History
 
+### yeast 8.3.5:
+* Fixes:
+  * Closes #129: Removed non-S288C genes (PR #211).
+  * Closes #198: Fixes function for converting model to anaerobic (PR #199).
+* Tests:
+  * Added growth tests for carbon & nitrogen limitation (#199).
+  * Added test for computing gene essentiality (PR #200).
+* Documentation/Others:
+  * Clarified with README's the purpose of each script/data folder (#209).
+  * Closes #206: Updated citation guidelines (PR #210).
+  * Updated contribution guidelines + issue/PR templates (PR #210).
+  * Created folders with deprecated scripts (PR #209).
+
 ### yeast 8.3.4:
 * Features:
   * Fixes #171: Added 101 GPR rules to transport rxns according to TCDB database (PR #178).
@@ -165,6 +178,6 @@ First version of the yeast8 model, to separate it from previous versions:
   * Ox.Pho. stoichiometry fixed
   * NGAM rxn introduced
   * GAM in biomass pseudo-rxn fixed and refitted to chemostat data
-  
+
   ### yeast 7.6.0:
 First release of the yeast model in GitHub, identical to the last model available at https://sourceforge.net/projects/yeast/
