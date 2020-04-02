@@ -28863,7 +28863,6 @@
       - s_1368: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YAR069W-A or YHR214W-F
     - annotation: !!omap
       - kegg.reaction: R03210
       - metanetx.reaction: MNXR95854
@@ -94511,9 +94510,6 @@
     - id: YAR035W
     - name: YAT1
   - !!omap
-    - id: YAR069W-A
-    - name: YAR069W-A
-  - !!omap
     - id: YAR071W
     - name: PHO11
   - !!omap
@@ -96064,9 +96060,6 @@
   - !!omap
     - id: YHR208W
     - name: BAT1
-  - !!omap
-    - id: YHR214W-F
-    - name: YHR214W-F
   - !!omap
     - id: YHR215W
     - name: PHO12
