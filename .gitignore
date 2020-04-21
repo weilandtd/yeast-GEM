@@ -41,7 +41,7 @@ Thumbs.db
 *.asv
 *.m~
 *.mex*
-*.mlappinstall 
+*.mlappinstall
 *.mltbx
 *.mat
 helpsearch*/
@@ -51,3 +51,7 @@ helpsearch*/
 *.xls
 *.xlsx
 *.tab
+
+# Python-related things #
+#########################
+*.ipynb_checkpoints/
