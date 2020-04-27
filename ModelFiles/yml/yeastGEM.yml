@@ -26942,7 +26942,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17140
-      - kegg.compound: C00310
+      - kegg.compound: C00312
       - metanetx.chemical: MNXM597
       - sbo: SBO:0000247
   - !!omap
