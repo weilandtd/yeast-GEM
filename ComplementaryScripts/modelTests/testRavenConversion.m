@@ -22,7 +22,7 @@ compareModels(model_r1,model_r2,'RAVEN')
 
 % Save model:
 saveYeastModel(model_c2);
-cd missingFields
+cd modelTests
 
 end
 
