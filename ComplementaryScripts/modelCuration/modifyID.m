@@ -44,6 +44,7 @@ alternativeID = modifyrxnID(:,4);
 for i = 1:length(currentID)
     idx_rxn = find(ismember(model.rxns,rxn(i)));
     %Check for new ID, if present = replace current ID/add ID to model
+    %if blank = remove current ID in model
     if ~ismember(newID(i),'[]') && contains(newID(i),'MNXR')
         model.rxnMetaNetXID(idx_rxn) = newID(i);
         if ~ismember(currentID(i),'[]') && contains(newID(i),'MNXR')
@@ -122,6 +123,7 @@ alternativeID = modifymetID(:,4);
 for i = 1:length(metNames)
     idx_met = find(ismember(modelR.metNames,metNames(i)));
     %Check for new ID, replace current ID/add new ID into model
+    %if blank = remove current ID in model
     for j = 1:length(idx_met)
         if ~ismember(newID(i),'[]') && contains(newID(i),'MNXM')
             model.metMetaNetXID(idx_met(j)) = newID(i);
@@ -130,6 +132,9 @@ for i = 1:length(metNames)
             else
                 model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| MNXMID',newID(i),'added after new annotation (PR #198)']);
             end
+        elseif ismember(newID(i),'Blank')
+            model.metMetaNetXID(idx_met(j)) = {''};
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metMetaNetXID',currentID(i),'removed after new annotation (PR #198)']);
         elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'MNXM')
             warning('Check for error in %s under metID curation data of the tsv file', string(met(i)));
         end
@@ -151,6 +156,7 @@ alternativeID = modifymetID(:,7);
 for i = 1:length(metNames)
     idx_met = find(ismember(modelR.metNames,metNames(i)));
     %Check for new ID, replace current ID/add new ID into model
+    %if blank = remove current ID in model
     for j = 1:length(idx_met)
         if ~ismember(newID(i),'[]') && contains(newID(i),'C')
             model.metKEGGID(idx_met(j)) = newID(i);
@@ -159,6 +165,9 @@ for i = 1:length(metNames)
             else
                 model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metKEGGID',newID(i),'added after new annotation (PR #198)']);
             end
+        elseif ismember(newID(i),'Blank')
+            model.metKEGGID(idx_met(j)) = {''};
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metKEGGID',currentID(i),'removed after new annotation (PR #198)']);
         elseif ~ismember(newID(i),'[]') && contains(newID(i),'G')
             warning('new KEGGID %s not added as it contains G and does not fulfil SBML format', string(newID(i)));
         elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'C')
@@ -182,6 +191,7 @@ alternativeID = modifymetID(:,10);
 for i = 1:length(metNames)
     idx_met = find(ismember(modelR.metNames,metNames(i)));
     %Check for new ID, replace current ID/add new ID into model
+    %if blank = remove current ID in model
     for j = 1:length(idx_met)
         if ~ismember(newID(i),'[]') && contains(newID(i),'CHEBI')
             model.metChEBIID(idx_met(j)) = newID(i);
@@ -190,6 +200,9 @@ for i = 1:length(metNames)
             else
                 model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metChEBIID',newID(i),'added after new annotation (PR #198)']);
             end
+        elseif ismember(newID(i),'Blank')
+            model.metChEBIID(idx_met(j)) = {''};
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metChEBIID',currentID(i),'removed after new annotation (PR #198)']);
         elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'CHEBI')
             warning('Check for error in %s under metID curation data of the tsv file', string(met(i)));
         end
