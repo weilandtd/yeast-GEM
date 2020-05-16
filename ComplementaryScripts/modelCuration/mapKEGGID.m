@@ -1,9 +1,9 @@
-% This script maps reaction IDs of different databases
-% to find new rxnKEGGID(s)
+% This script maps reaction IDs and metabolite IDs of different databases
+% to find new rxnKEGGID(s) and metKEGGID(s)
 %
 % Inputs: model
 %
-% getRxnsFromMetaCyc is a function from RAVEN
+% getRxnsFromMetaCyc and getMetsFromMetaCyc are functions from RAVEN
 %
 % reactions.tsv from modelSEED database is accessed directly from cloned GitHub repository ModelSEEDDatabase
 % link: github.com/ModelSEED/ModelSEEDDatabase
@@ -136,6 +136,137 @@ if size(xref_rxnSEED,2) == 5
     end
 else
     xref_rxnSEED(:) = []; %erase all cell array, since no KEGGID matched and added
+end
+
+%% metKEGGID
+%map metMetaNetXID to metKEGGID via function mapIDsViaMNXref
+temp = what('RAVEN\external\MetaNetX'); %require switching to branch: feat/add_MetaNetX and adding RAVEN to MATLAB directory (to modify after feature branch is merged)
+cd(temp.path);
+xref_metKEGG = mapIDsViaMNXref('mets',model.metMetaNetXID,'MetaNetX','KEGG');
+xref_metKEGG(:,2) = model.mets; %match metKEGGID with model.mets
+xref_metKEGG(:,3) = model.metMetaNetXID; %match metKEGGID with model.metMetaNetXID
+xref_metKEGG(:,4) = model.metKEGGID; %match metKEGGID with model.metKEGGID
+
+%only retain mapped metKEGGID if model.metKEGGID is empty
+empties = find(cellfun('isempty',xref_metKEGG(:,1)));
+xref_metKEGG(empties,:) = [];
+empties = find(~cellfun('isempty',xref_metKEGG(:,4)));
+xref_metKEGG(empties,:) = [];
+
+%add metKEGGID into model
+[~,idx] = ismember(xref_metKEGG(:,2),model.mets);
+idx = idx(idx~=0);
+
+for i = 1:length(idx)
+    if ~contains(xref_metKEGG(i,1),'G') %metKEGGID containing G not added, since it is not compatible with current SBML format
+        model.metKEGGID(idx(i)) = xref_metKEGG(i,1);
+    end
+end
+
+%map metMetaNetXID to metMetaCycID via function mapIDsViaMNXref, then map metMetaCycID to metKEGGID
+xref_metMetaCyc = mapIDsViaMNXref('mets',model.metMetaNetXID,'MetaNetX','MetaCyc');
+xref_metMetaCyc(:,2) = model.mets; %match metMetaCycID with model.mets
+xref_metMetaCyc(:,3) = model.metMetaNetXID; %match metMetaCycID with model.metMetaNetXID
+xref_metMetaCyc(:,4) = model.metKEGGID; %match metMetaCycID with model.metKEGGID
+empties = find(cellfun('isempty',xref_metMetaCyc(:,1)));
+xref_metMetaCyc(empties,:) = [];
+
+%load metaCycMets.mat via getMetsFromMetaCyc from RAVEN directory
+MetaCyc_metInfo = getMetsFromMetaCyc('..RAVEN/metacyc/external');
+
+%Input metKEGGID into xref array
+for i = 1:length(xref_metMetaCyc)
+    if isempty(xref_metMetaCyc{i,4})
+        idx = find(ismember(MetaCyc_metInfo.mets,xref_metMetaCyc(i,1)));
+        if idx~=0
+            if ~isempty(MetaCyc_metInfo.keggid{idx})
+                xref_metMetaCyc(i,5) = MetaCyc_metInfo.keggid(idx);
+            end
+        end
+    end
+end
+
+if size(xref_metMetaCyc,2) == 5
+    %only retain mapped metKEGGID if model.metKEGGID is empty
+    empties = find(cellfun('isempty',xref_metMetaCyc(:,5)));
+    xref_metMetaCyc(empties,:) = [];
+    empties = find(~cellfun('isempty',xref_metMetaCyc(:,4)));
+    xref_metMetaCyc(empties,:) = [];
+    
+    %add metKEGGID into model
+    [~,idx] = ismember(xref_metMetaCyc(:,2),model.mets);
+    idx = idx(idx~=0);
+    
+    for i = 1:length(idx)
+        if ~contains(xref_metMetaCyc(i,5),'G') %metKEGGID containing G not added, since it is not compatible with current SBML format
+            model.metKEGGID(idx(i)) = xref_metMetaCyc(i,5);
+        end
+    end
+else
+    xref_metMetaCyc(:) = []; %erase all cell array, since no KEGGID matched and added
+end
+
+%map metMetaNetXID to metSEEDID via function mapIDsViaMNXref, then map metSEEDID to metKEGGID
+xref_metSEED = mapIDsViaMNXref('mets',model.metMetaNetXID,'MetaNetX','SEED');
+xref_metSEED(:,2) = model.mets; %match metSEEDID with model.mets
+xref_metSEED(:,3) = model.metMetaNetXID; %match metSEEDID with model.metMetaNetXID
+xref_metSEED(:,4) = model.metKEGGID; %match metSEEDID with model.metKEGGID
+empties = find(cellfun('isempty',xref_metSEED(:,1)));
+xref_metSEED(empties,:) = [];
+
+temp = what('ModelSEEDDatabase\Biochemistry'); %require cloned/downloaded GitHub repo ModelSEEDDatabase
+cd(temp.path);
+fid2 = fopen('compounds.tsv');
+format = repmat('%s ',1,21);
+format = strtrim(format);
+met_temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',0);
+for i = 1:length(met_temp)
+    SEED_metInfo(:,i) = met_temp{i};
+end
+commentLines = startsWith(SEED_metInfo(:,1),'#');
+SEED_metInfo(commentLines,:) = [];
+fclose(fid2);
+
+%Input metKEGGID into xref array
+for i = 1:length(xref_metSEED)
+    if isempty(xref_metSEED{i,4})
+        idx = find(ismember(SEED_metInfo(:,1),xref_metSEED(i,1)));
+        if idx~=0
+            if ~isempty(SEED_metInfo{idx,19}) && contains(SEED_metInfo(idx,19),'KEGG')
+                temp_ID = extractBetween(SEED_metInfo(idx,19),'KEGG: ','|');
+                if isempty(temp_ID) %KEGGID may be present at the end
+                    temp_ID = extractAfter(SEED_metInfo(idx,19),'KEGG: ');
+                    temp_ID = erase(temp_ID,'"');
+                end
+                if contains(temp_ID,';') %if more than 1 ID recorded, take the 1st one by default
+                    temp_ID = split(temp_ID,';',2);
+                    temp_ID = temp_ID(1,1);
+                    warning('check %s, may contain more than 1 metKEGGID',string(SEED_metInfo(idx,1)));
+                end
+                xref_metSEED(i,5) = temp_ID;
+            end
+        end
+    end
+end
+
+if size(xref_metSEED,2) == 5
+    %only retain mapped metKEGGID if model.metKEGGID is empty
+    empties = find(cellfun('isempty',xref_metSEED(:,5)));
+    xref_metSEED(empties,:) = [];
+    empties = find(~cellfun('isempty',xref_metSEED(:,4)));
+    xref_metSEED(empties,:) = [];
+    
+    %add metKEGGID into model
+    [~,idx] = ismember(xref_metSEED(:,2),model.mets);
+    idx = idx(idx~=0);
+    
+    for i = 1:length(idx)
+        if ~contains(xref_metSEED(i,5),'G') %metKEGGID containing G not added, since it is not compatible with current SBML format
+            model.metKEGGID(idx(i)) = xref_metSEED(i,5);
+        end
+    end
+else
+    xref_metSEED(:) = []; %erase all cell array, since no KEGGID matched and added
 end
 
 %Save model

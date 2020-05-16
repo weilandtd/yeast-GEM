@@ -984,6 +984,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52957
+      - kegg.compound: C18910
       - metanetx.chemical: MNXM1099
       - sbo: SBO:0000247
   - !!omap
@@ -1038,6 +1039,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:29044
+      - kegg.compound: C04409
       - metanetx.chemical: MNXM1372
       - sbo: SBO:0000247
   - !!omap
@@ -5322,6 +5324,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53041
+      - kegg.compound: C05847
       - metanetx.chemical: MNXM11433
       - sbo: SBO:0000247
   - !!omap
@@ -6808,6 +6811,7 @@
     - formula: C37H64N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - kegg.compound: C05272
       - metanetx.chemical: MNXM581
       - sbo: SBO:0000247
   - !!omap
@@ -15330,6 +15334,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:27989
+      - kegg.compound: C02944
       - metanetx.chemical: MNXM3949
       - sbo: SBO:0000247
   - !!omap
@@ -17089,6 +17094,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:34086
+      - kegg.compound: C13880
       - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
@@ -17319,6 +17325,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:34086
+      - kegg.compound: C13880
       - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
@@ -17492,6 +17499,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:34086
+      - kegg.compound: C13880
       - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
@@ -17665,6 +17673,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:34086
+      - kegg.compound: C13880
       - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
@@ -18747,6 +18756,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:72998
+      - kegg.compound: C04102
       - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
@@ -18807,6 +18817,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:28610
+      - kegg.compound: C03916
       - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
@@ -19899,6 +19910,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:72998
+      - kegg.compound: C04102
       - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
@@ -19929,6 +19941,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:28610
+      - kegg.compound: C03916
       - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
@@ -20125,6 +20138,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:72998
+      - kegg.compound: C04102
       - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
@@ -20196,6 +20210,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:28610
+      - kegg.compound: C03916
       - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
@@ -20473,6 +20488,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:34086
+      - kegg.compound: C13880
       - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
@@ -22345,6 +22361,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:72998
+      - kegg.compound: C04102
       - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
@@ -22405,6 +22422,7 @@
     - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:28610
+      - kegg.compound: C03916
       - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
@@ -22498,6 +22516,7 @@
     - formula: C6H10NO6P
     - charge: 0
     - annotation: !!omap
+      - kegg.compound: C02737
       - metanetx.chemical: MNXM221
       - sbo: SBO:0000649
   - !!omap
@@ -22507,6 +22526,7 @@
     - formula: C8H16NO3P
     - charge: 1
     - annotation: !!omap
+      - kegg.compound: C00157
       - metanetx.chemical: MNXM96952
       - sbo: SBO:0000649
   - !!omap
@@ -22516,6 +22536,7 @@
     - formula: C5H10NO4P
     - charge: 0
     - annotation: !!omap
+      - kegg.compound: C00350
       - metanetx.chemical: MNXM115
       - sbo: SBO:0000649
   - !!omap
@@ -22525,6 +22546,7 @@
     - formula: C3H2
     - charge: 0
     - annotation: !!omap
+      - kegg.compound: C00422
       - metanetx.chemical: MNXM248
       - sbo: SBO:0000649
   - !!omap
@@ -22565,6 +22587,7 @@
     - name: protein
     - compartment: c
     - annotation: !!omap
+      - kegg.compound: C00492
       - metanetx.chemical: MNXM621
       - sbo: SBO:0000649
   - !!omap
@@ -22572,6 +22595,7 @@
     - name: carbohydrate
     - compartment: c
     - annotation: !!omap
+      - kegg.compound: C05402
       - metanetx.chemical: MNXM1434
       - sbo: SBO:0000649
   - !!omap
@@ -25277,6 +25301,7 @@
     - formula: C90H152N2O62P2R
     - charge: -2
     - annotation: !!omap
+      - kegg.compound: C05868
       - metanetx.chemical: MNXM31425
       - sbo: SBO:0000247
   - !!omap
