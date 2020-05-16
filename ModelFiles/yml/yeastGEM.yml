@@ -27654,6 +27654,7 @@
         - sce00330  Arginine and proline metabolism
     - annotation: !!omap
       - ec-code: 1.2.1.88
+      - kegg.reaction: R00707
       - metanetx.reaction: MNXR102301
       - pmid: 387737
       - sbo: SBO:0000176
@@ -29349,6 +29350,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 2.3.1.9
+      - kegg.reaction: R00238
       - metanetx.reaction: MNXR95194
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -29379,6 +29381,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 2.3.1.9
+      - kegg.reaction: R00238
       - metanetx.reaction: MNXR95194
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -29715,6 +29718,7 @@
     - gene_reaction_rule: YPL148C
     - annotation: !!omap
       - ec-code: 2.7.8.7
+      - kegg.reaction: R10747
       - metanetx.reaction: MNXR95402
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -30054,6 +30058,7 @@
     - subsystem: sce00230  Purine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.2
+      - kegg.reaction: R01244
       - metanetx.reaction: MNXR95443
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -30091,6 +30096,7 @@
     - subsystem: sce00230  Purine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.2
+      - kegg.reaction: R01560
       - metanetx.reaction: MNXR95432
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -30131,6 +30137,7 @@
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 3.5.4.6
+      - kegg.reaction: R00181
       - metanetx.reaction: MNXR95824
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -30773,6 +30780,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 1.2.1.3
+      - kegg.reaction: R00904
       - metanetx.reaction: MNXR95748
       - pmid: 12586697
       - sbo: SBO:0000176
@@ -31307,6 +31315,7 @@
       - ec-code:
         - 3.5.1.54
         - 6.3.4.6
+      - kegg.reaction: R00005
       - metanetx.reaction: MNXR95786
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -31349,6 +31358,7 @@
     - subsystem: sce00500  Starch and sucrose metabolism
     - annotation: !!omap
       - ec-code: 3.2.1.28
+      - kegg.reaction: R00010
       - metanetx.reaction: MNXR95163
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -31365,6 +31375,7 @@
     - subsystem: sce00500  Starch and sucrose metabolism
     - annotation: !!omap
       - ec-code: 3.2.1.28
+      - kegg.reaction: R00010
       - metanetx.reaction: MNXR95163
       - pmid: 8764988
       - sbo: SBO:0000176
@@ -31426,6 +31437,7 @@
     - subsystem: sce00970  Aminoacyl-tRNA biosynthesis
     - annotation: !!omap
       - ec-code: 6.3.5.7
+      - kegg.reaction: R03180
       - metanetx.reaction: MNXR95812
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -31442,6 +31454,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02529
       - metanetx.reaction: MNXR95149
       - pmid: 3086094
       - sbo: SBO:0000176
@@ -31584,6 +31597,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 3.5.3.1
+      - kegg.reaction: R00551
       - metanetx.reaction: MNXR95945
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -32086,6 +32100,7 @@
       - ec-code:
         - 3.6.1.5
         - 3.6.3.6
+      - kegg.reaction: R00086
       - metanetx.reaction: MNXR96131
       - pmid: 10409709
       - sbo: SBO:0000176
@@ -32193,6 +32208,7 @@
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 1.14.19.41
+      - kegg.reaction: R07506
       - metanetx.reaction: MNXR123636
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -32493,6 +32509,7 @@
     - subsystem: sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 2.3.1.7
+      - kegg.reaction: R02396
       - metanetx.reaction: MNXR96926
       - pmid: 11329169
       - sbo: SBO:0000176
@@ -32511,6 +32528,7 @@
     - subsystem: sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 2.3.1.7
+      - kegg.reaction: R02396
       - metanetx.reaction: MNXR96926
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -32528,6 +32546,7 @@
     - subsystem: sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 2.3.1.7
+      - kegg.reaction: R02396
       - metanetx.reaction: MNXR96926
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -32578,6 +32597,7 @@
         - sce04213  Longevity regulating pathway - multiple species
     - annotation: !!omap
       - ec-code: 1.11.1.6
+      - kegg.reaction: R00009
       - metanetx.reaction: MNXR96455
       - pmid: 9931255
       - sbo: SBO:0000176
@@ -33396,6 +33416,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 2.3.3.1
+      - kegg.reaction: R00351
       - metanetx.reaction: MNXR96920
       - pmid: 9140965
       - sbo: SBO:0000176
@@ -33423,6 +33444,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 2.3.3.16
+      - kegg.reaction: R00351
       - metanetx.reaction: MNXR96920
       - pmid: 10587442
       - sbo: SBO:0000176
@@ -33539,6 +33561,7 @@
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 6.3.4.2
+      - kegg.reaction: R00571
       - metanetx.reaction: MNXR96944
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -33561,6 +33584,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 4.4.1.8
+      - kegg.reaction: R01286
       - metanetx.reaction: MNXR96469
       - pmid: 10922376
       - sbo: SBO:0000176
@@ -33608,6 +33632,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 4.4.1.1
+      - kegg.reaction: R01001
       - metanetx.reaction: MNXR97012
       - pmid: 1577698
       - sbo: SBO:0000176
@@ -33704,6 +33729,7 @@
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.5
+      - kegg.reaction: R01878
       - metanetx.reaction: MNXR97039
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -33771,6 +33797,7 @@
         - sce00330  Arginine and proline metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.1
+      - kegg.reaction: R00974
       - metanetx.reaction: MNXR96927
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -33890,6 +33917,7 @@
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.12
+      - kegg.reaction: R01663
       - metanetx.reaction: MNXR97185
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -33908,6 +33936,7 @@
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.12
+      - kegg.reaction: R02325
       - metanetx.reaction: MNXR97201
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -33926,6 +33955,7 @@
     - subsystem: sce00230  Purine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.2
+      - kegg.reaction: R02556
       - metanetx.reaction: MNXR97076
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -33944,6 +33974,7 @@
     - subsystem: sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.5
+      - kegg.reaction: R02485
       - metanetx.reaction: MNXR97207
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -35507,6 +35538,7 @@
         - sce00910  Nitrogen metabolism
     - annotation: !!omap
       - ec-code: 1.4.1.2
+      - kegg.reaction: R00243
       - metanetx.reaction: MNXR100085
       - pmid: 14554197
       - sbo: SBO:0000176
@@ -35531,6 +35563,7 @@
         - sce00910  Nitrogen metabolism
     - annotation: !!omap
       - ec-code: 1.4.1.4
+      - kegg.reaction: R00248
       - metanetx.reaction: MNXR100086
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -35597,6 +35630,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YFL060C or YNL334C
     - annotation: !!omap
+      - kegg.reaction: R00256
       - metanetx.reaction: MNXR100030
       - pmid: 3309138
       - sbo: SBO:0000176
@@ -35623,6 +35657,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 6.3.1.2
+      - kegg.reaction: R00253
       - metanetx.reaction: MNXR100024
       - pmid: 9611819
       - sbo: SBO:0000176
@@ -35838,6 +35873,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 1.2.1.12
+      - kegg.reaction: R01061
       - metanetx.reaction: MNXR100040
       - pmid: 3905788
       - sbo: SBO:0000176
@@ -35857,6 +35893,7 @@
     - subsystem: sce00561  Glycerolipid metabolism
     - annotation: !!omap
       - ec-code: 1.1.1.156
+      - kegg.reaction: R01039
       - metanetx.reaction: MNXR100327
       - pmid: 11113971
       - sbo: SBO:0000176
@@ -36560,6 +36597,7 @@
     - subsystem: sce00230  Purine metabolism
     - annotation: !!omap
       - ec-code: 3.5.4.3
+      - kegg.reaction: R01676
       - metanetx.reaction: MNXR100464
       - pmid: 15565584
       - sbo: SBO:0000176
@@ -36994,6 +37032,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 1.1.1.87
+      - kegg.reaction: R01934
       - metanetx.reaction: MNXR107239
       - pmid: 10714900
       - sbo: SBO:0000176
@@ -37243,6 +37282,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 2.5.1.61
+      - kegg.reaction: R00084
       - metanetx.reaction: MNXR100658
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -37497,6 +37537,7 @@
     - subsystem: sce00190  Oxidative phosphorylation
     - annotation: !!omap
       - ec-code: 3.6.1.1
+      - kegg.reaction: R00004
       - metanetx.reaction: MNXR100808
       - pmid: 8224193
       - sbo: SBO:0000176
@@ -37515,6 +37556,7 @@
     - subsystem: sce00190  Oxidative phosphorylation
     - annotation: !!omap
       - ec-code: 3.6.1.1
+      - kegg.reaction: R00004
       - metanetx.reaction: MNXR100808
       - pmid: 1648084
       - sbo: SBO:0000176
@@ -37582,6 +37624,7 @@
         - sce04138  Autophagy - yeast
     - annotation: !!omap
       - ec-code: 2.7.1.151
+      - kegg.reaction: R10953
       - metanetx.reaction: MNXR114260
       - pmid: 11956213
       - sbo: SBO:0000176
@@ -38880,6 +38923,7 @@
         - sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 1.1.1.42
+      - kegg.reaction: R00267
       - metanetx.reaction: MNXR100781
       - pmid: 9175438
       - sbo: SBO:0000176
@@ -39248,6 +39292,7 @@
         - sce00260  Glycine, serine and threonine metabolism
     - annotation: !!omap
       - ec-code: 1.1.1.381
+      - kegg.reaction: R10851
       - metanetx.reaction: MNXR96121
       - pmid: 12535615
       - sbo: SBO:0000176
@@ -39298,6 +39343,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 3.5.1.1
+      - kegg.reaction: R00485
       - metanetx.reaction: MNXR96056
       - pmid: 8026756
       - sbo: SBO:0000176
@@ -39315,6 +39361,7 @@
     - gene_reaction_rule: YLR155C or YLR157C or YLR158C or YLR160C
     - annotation: !!omap
       - ec-code: 3.5.1.1
+      - kegg.reaction: R00485
       - metanetx.reaction: MNXR96056
       - pmid: 3042786
       - sbo: SBO:0000176
@@ -39345,6 +39392,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 2.6.1.1
+      - kegg.reaction: R03266
       - metanetx.reaction: MNXR97908
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -39374,6 +39422,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 2.6.1.1
+      - kegg.reaction: R03266
       - metanetx.reaction: MNXR97908
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -39403,6 +39452,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 2.6.1.1
+      - kegg.reaction: R03266
       - metanetx.reaction: MNXR97908
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -39479,6 +39529,7 @@
       - ec-code:
         - 4.3.1.17
         - 4.3.1.19
+      - kegg.reaction: R00220
       - metanetx.reaction: MNXR104339
       - pmid: 2194168
       - sbo: SBO:0000176
@@ -39547,6 +39598,7 @@
       - ec-code:
         - 4.3.1.17
         - 4.3.1.19
+      - kegg.reaction: R00996
       - metanetx.reaction: MNXR104714
       - pmid: 1628804
       - sbo: SBO:0000176
@@ -39570,6 +39622,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 4.3.1.19
+      - kegg.reaction: R00996
       - metanetx.reaction: MNXR104714
       - pmid: 3289762
       - sbo: SBO:0000176
@@ -40867,6 +40920,7 @@
         - sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 3.6.1.22
+      - kegg.reaction: R00103
       - metanetx.reaction: MNXR101861
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -40955,6 +41009,7 @@
     - subsystem: sce00760  Nicotinate and nicotinamide metabolism
     - annotation: !!omap
       - ec-code: 6.3.5.1
+      - kegg.reaction: R00257
       - metanetx.reaction: MNXR97678
       - pmid: 12771147
       - sbo: SBO:0000176
@@ -40978,6 +41033,7 @@
     - subsystem: sce00760  Nicotinate and nicotinamide metabolism
     - annotation: !!omap
       - ec-code: 6.3.5.1
+      - kegg.reaction: R00257
       - metanetx.reaction: MNXR97678
       - pmid: 12771147
       - sbo: SBO:0000176
@@ -41115,6 +41171,7 @@
         - sce04213  Longevity regulating pathway - multiple species
     - annotation: !!omap
       - ec-code: 3.5.1.19
+      - kegg.reaction: R01268
       - metanetx.reaction: MNXR101977
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -41583,6 +41640,7 @@
         - sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 3.6.1.5
+      - kegg.reaction: R00335
       - metanetx.reaction: MNXR102043
       - pmid: 10409709
       - sbo: SBO:0000176
@@ -41647,6 +41705,7 @@
         - sce00240  Pyrimidine metabolism
     - annotation: !!omap
       - ec-code: 3.6.1.5
+      - kegg.reaction: R00719
       - metanetx.reaction: MNXR100892
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -41790,6 +41849,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 2.1.3.3
+      - kegg.reaction: R01398
       - metanetx.reaction: MNXR102137
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -41811,6 +41871,7 @@
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 4.1.1.17
+      - kegg.reaction: R00670
       - metanetx.reaction: MNXR102209
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -41835,6 +41896,7 @@
       - ec-code:
         - 2.3.1.1
         - 2.3.1.35
+      - kegg.reaction: R02282
       - metanetx.reaction: MNXR102221
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -41855,6 +41917,7 @@
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 2.6.1.13
+      - kegg.reaction: R00667
       - metanetx.reaction: MNXR102220
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -41924,6 +41987,7 @@
         - 1.2.4.2
         - 1.8.1.4
         - 2.3.1.61
+      - kegg.reaction: R02570
       - metanetx.reaction: MNXR95656
       - pmid: 2178788
       - sbo: SBO:0000176
@@ -41959,6 +42023,7 @@
         - 1.2.4.2
         - 1.8.1.4
         - 2.3.1.61
+      - kegg.reaction: R01700
       - metanetx.reaction: MNXR95657
       - pmid: 10224250
       - sbo: SBO:0000176
@@ -42792,6 +42857,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 4.1.1.21
+      - kegg.reaction: R04209
       - metanetx.reaction: MNXR108735
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -43103,6 +43169,7 @@
         - sce00410  beta-Alanine metabolism
     - annotation: !!omap
       - ec-code: 1.5.3.17
+      - kegg.reaction: R03899
       - metanetx.reaction: MNXR103058
       - pmid: 12670477
       - sbo: SBO:0000176
@@ -43125,6 +43192,7 @@
         - sce00410  beta-Alanine metabolism
     - annotation: !!omap
       - ec-code: 1.5.3.17
+      - kegg.reaction: R09076
       - metanetx.reaction: MNXR103059
       - pmid: 12670477
       - sbo: SBO:0000176
@@ -43193,6 +43261,7 @@
         - sce01130  Biosynthesis of antibiotics
     - annotation: !!omap
       - ec-code: 1.5.5.2
+      - kegg.reaction: R10507
       - metanetx.reaction: MNXR103187
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -43260,6 +43329,7 @@
         - 2.4.2.1
         - 2.4.2.28
         - 3.2.2.3
+      - kegg.reaction: R02294
       - metanetx.reaction: MNXR103048
       - pmid: 17482543
       - sbo: SBO:0000176
@@ -43282,6 +43352,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 2.4.2.1
+      - kegg.reaction: R02147
       - metanetx.reaction: MNXR103345
       - pmid: 23670538
       - sbo: SBO:0000176
@@ -43304,6 +43375,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 2.4.2.1
+      - kegg.reaction: R02147
       - metanetx.reaction: MNXR103345
       - pmid: 23670538
       - sbo: SBO:0000176
@@ -43326,6 +43398,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 2.4.2.1
+      - kegg.reaction: R01863
       - metanetx.reaction: MNXR103347
       - pmid: 23670538
       - sbo: SBO:0000176
@@ -43365,6 +43438,7 @@
     - subsystem: sce00750  Vitamin B6 metabolism
     - annotation: !!omap
       - ec-code: 1.4.3.5
+      - kegg.reaction: R00277
       - metanetx.reaction: MNXR103355
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -43423,6 +43497,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 1.5.1.2
+      - kegg.reaction: R01251
       - metanetx.reaction: MNXR102302
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -44268,6 +44343,7 @@
       - ec-code:
         - 1.3.1.76
         - 4.99.1.4
+      - kegg.reaction: R03947
       - metanetx.reaction: MNXR104373
       - pmid: 11980703
       - sbo: SBO:0000176
@@ -44730,6 +44806,7 @@
     - subsystem: sce00920  Sulfur metabolism
     - annotation: !!omap
       - ec-code: 1.8.1.2
+      - kegg.reaction: R00858
       - metanetx.reaction: MNXR104650
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -44769,6 +44846,7 @@
     - gene_reaction_rule: YLL057C
     - annotation: !!omap
       - ec-code: 1.14.11.-
+      - kegg.reaction: R05320
       - metanetx.reaction: MNXR104730
       - pmid: 10482536
       - sbo: SBO:0000176
@@ -44802,6 +44880,7 @@
         - 1.4.4.2
         - 1.8.1.4
         - 2.1.2.10
+      - kegg.reaction: R02300
       - metanetx.reaction: MNXR99614
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -45242,6 +45321,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 5.3.1.1
+      - kegg.reaction: R01015
       - metanetx.reaction: MNXR104918
       - pmid: 6759603
       - sbo: SBO:0000176
@@ -45630,6 +45710,7 @@
     - subsystem: sce00230  Purine metabolism
     - annotation: !!omap
       - ec-code: 4.3.2.3
+      - kegg.reaction: R00469
       - metanetx.reaction: MNXR105091
       - pmid: 1776360
       - sbo: SBO:0000176
@@ -46234,6 +46315,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YBL030C or YBR085W or YMR056C
     - annotation: !!omap
+      - kegg.reaction: R00124
       - metanetx.reaction: MNXR96123
       - pmid:
         - 22672422
@@ -49398,6 +49480,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00183
       - metanetx.reaction: MNXR102037
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49412,6 +49495,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02088
       - metanetx.reaction: MNXR102036
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49426,6 +49510,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01664
       - metanetx.reaction: MNXR102033
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49440,6 +49525,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01968
       - metanetx.reaction: MNXR102038
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49454,6 +49540,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01569
       - metanetx.reaction: MNXR102035
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49468,6 +49555,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02102
       - metanetx.reaction: MNXR102028
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49483,6 +49571,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YER037W
     - annotation: !!omap
+      - kegg.reaction: R01227
       - metanetx.reaction: MNXR100381
       - pmid: 23670538
       - sbo: SBO:0000176
@@ -49498,6 +49587,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02719
       - metanetx.reaction: MNXR102029
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49535,6 +49625,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YER183C
     - annotation: !!omap
+      - kegg.reaction: R02301
       - metanetx.reaction: MNXR99668
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -49929,6 +50020,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00132
       - metanetx.reaction: MNXR100482
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49943,6 +50035,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00132
       - metanetx.reaction: MNXR100482
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -49958,6 +50051,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YNL036W
     - annotation: !!omap
+      - kegg.reaction: R00132
       - metanetx.reaction: MNXR100482
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -49972,6 +50066,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00132
       - metanetx.reaction: MNXR100482
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50162,6 +50257,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01302
       - metanetx.reaction: MNXR96711
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50344,6 +50440,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00512
       - metanetx.reaction: MNXR97047
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50358,6 +50455,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01665
       - metanetx.reaction: MNXR97053
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50420,6 +50518,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R10619
       - metanetx.reaction: MNXR113944
       - sbo: SBO:0000627
   - !!omap
@@ -50549,6 +50648,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00088
       - metanetx.reaction: MNXR96130
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50579,6 +50679,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00123
       - metanetx.reaction: MNXR106399
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50641,6 +50742,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDL166C
     - annotation: !!omap
+      - kegg.reaction: R01547
       - metanetx.reaction: MNXR96117
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -50701,6 +50803,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02099
       - metanetx.reaction: MNXR97817
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50729,6 +50832,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00130
       - metanetx.reaction: MNXR97762
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -50795,6 +50899,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R04638
       - metanetx.reaction: MNXR97680
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -51129,6 +51234,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDL045C
     - annotation: !!omap
+      - kegg.reaction: R00161
       - metanetx.reaction: MNXR95501
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -51449,6 +51555,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01228
       - metanetx.reaction: MNXR100432
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -51647,6 +51754,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 2.3.3.14
+      - kegg.reaction: R00271
       - metanetx.reaction: MNXR141692
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -51785,6 +51893,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01131
       - metanetx.reaction: MNXR100845
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -52024,6 +52133,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R03758
       - metanetx.reaction: MNXR95851
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -52184,6 +52294,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R03314
       - metanetx.reaction: MNXR99897
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -52642,6 +52753,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01016
       - metanetx.reaction: MNXR101551
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53016,6 +53128,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00363
       - metanetx.reaction: MNXR125856
       - sbo: SBO:0000627
   - !!omap
@@ -53106,6 +53219,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R03035
       - metanetx.reaction: MNXR95892
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53261,6 +53375,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YNR027W
     - annotation: !!omap
+      - kegg.reaction: R00174
       - metanetx.reaction: MNXR103361
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -53276,6 +53391,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02493
       - metanetx.reaction: MNXR103357
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53290,6 +53406,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02494
       - metanetx.reaction: MNXR100763
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53317,6 +53434,7 @@
     - subsystem: sce00750  Vitamin B6 metabolism
     - annotation: !!omap
       - ec-code: 2.7.1.35
+      - kegg.reaction: R01909
       - metanetx.reaction: MNXR103362
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -53331,6 +53449,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R07280
       - metanetx.reaction: MNXR96145
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53345,6 +53464,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01876
       - metanetx.reaction: MNXR103377
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53664,6 +53784,7 @@
     - upper_bound: 1000
     - gene_reaction_rule: YDL024C
     - annotation: !!omap
+      - kegg.reaction: R02135
       - metanetx.reaction: MNXR104823
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -53679,6 +53800,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R02133
       - metanetx.reaction: MNXR104901
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53720,6 +53842,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R00617
       - metanetx.reaction: MNXR104907
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -53801,6 +53924,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R01567
       - metanetx.reaction: MNXR104885
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -54190,6 +54314,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
+      - kegg.reaction: R04293
       - metanetx.reaction: MNXR103396
       - pmid: 18205391
       - sbo: SBO:0000176
@@ -54834,6 +54959,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 2.3.1.199
+      - kegg.reaction: R07758
       - metanetx.reaction: MNXR94939
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -54995,6 +55121,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 1.1.1.330
+      - kegg.reaction: R07759
       - metanetx.reaction: MNXR103465
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -55107,6 +55234,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 4.2.1.134
+      - kegg.reaction: R04740
       - metanetx.reaction: MNXR97891
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -55148,6 +55276,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 4.2.1.134
+      - kegg.reaction: R07760
       - metanetx.reaction: MNXR103466
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -55252,6 +55381,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 1.3.1.93
+      - kegg.reaction: R03989
       - metanetx.reaction: MNXR95374
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -55297,6 +55427,7 @@
         - sce01212  Fatty acid metabolism
     - annotation: !!omap
       - ec-code: 1.3.1.93
+      - kegg.reaction: R07761
       - metanetx.reaction: MNXR97895
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -55611,6 +55742,7 @@
         - sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 6.2.1.3
+      - kegg.reaction: R01280
       - metanetx.reaction: MNXR99153
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -55755,6 +55887,7 @@
         - sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 6.2.1.3
+      - kegg.reaction: R01280
       - metanetx.reaction: MNXR99153
       - pmid: 22345606
       - sbo: SBO:0000176
@@ -56434,6 +56567,7 @@
         - sce01110  Biosynthesis of secondary metabolites
     - annotation: !!omap
       - ec-code: 3.1.2.2
+      - kegg.reaction: R08176
       - metanetx.reaction: MNXR111750
       - pmid: 16490786
       - sbo: SBO:0000176
@@ -56719,6 +56853,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R04744
       - metanetx.reaction: MNXR97889
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -56737,6 +56872,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R04170
       - metanetx.reaction: MNXR97890
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -56755,6 +56891,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R04740
       - metanetx.reaction: MNXR97891
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -56773,6 +56910,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R04738
       - metanetx.reaction: MNXR97892
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -56791,6 +56929,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R07760
       - metanetx.reaction: MNXR103466
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -57034,6 +57173,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R04743
       - metanetx.reaction: MNXR100545
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -57054,6 +57194,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R04741
       - metanetx.reaction: MNXR100546
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -57074,6 +57215,7 @@
       - ec-code:
         - 1.1.1.n12
         - 4.2.1.119
+      - kegg.reaction: R04737
       - metanetx.reaction: MNXR100548
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -57365,6 +57507,7 @@
         - sce04146  Peroxisome
     - annotation: !!omap
       - ec-code: 2.3.1.16
+      - kegg.reaction: R00238
       - metanetx.reaction: MNXR95194
       - pmid: 12697341
       - sbo: SBO:0000176
@@ -57819,6 +57962,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 4.2.1.3
+      - kegg.reaction: R01900
       - metanetx.reaction: MNXR95387
       - pmid: 15975908
       - sbo: SBO:0000176
@@ -86392,6 +86536,7 @@
     - subsystem: sce00620  Pyruvate metabolism
     - annotation: !!omap
       - ec-code: 3.1.2.1
+      - kegg.reaction: R10343
       - metanetx.reaction: MNXR104636
       - pmid: 19298859
       - sbo: SBO:0000176
@@ -86445,6 +86590,7 @@
         - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 5.3.1.16
+      - kegg.reaction: R02410
       - metanetx.reaction: MNXR103420
       - pmid: 4967422
       - sbo: SBO:0000176
@@ -86483,6 +86629,7 @@
         - sce00760  Nicotinate and nicotinamide metabolism
     - annotation: !!omap
       - ec-code: 3.2.2.3
+      - kegg.reaction: R01080
       - metanetx.reaction: MNXR105161
       - pmid: 23670538
       - sbo: SBO:0000176
@@ -89462,6 +89609,7 @@
     - gene_reaction_rule: YGL156W
     - annotation: !!omap
       - ec-code: 3.2.1.24
+      - kegg.reaction: R09645
       - metanetx.reaction: MNXR101397
       - sbo: SBO:0000176
     - confidence_score: 2
@@ -91835,6 +91983,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - ec-code: 2.7.1.101
+      - kegg.reaction: R02927
       - metanetx.reaction: MNXR107830
       - sbo: SBO:0000176
     - confidence_score: 1
@@ -91936,6 +92085,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - ec-code: 3.2.1.20
+      - kegg.reaction: R05196
       - metanetx.reaction: MNXR101619
       - sbo: SBO:0000176
     - confidence_score: 1
@@ -93950,6 +94100,7 @@
       - ec-code:
         - 3.1.1.-
         - 3.1.1.2
+      - kegg.reaction: R06893
       - metanetx.reaction: MNXR110621
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -94192,6 +94343,7 @@
       - ec-code:
         - 3.1.2.-
         - 3.1.2.2
+      - kegg.reaction: R08177
       - metanetx.reaction: MNXR99136
       - sbo: SBO:0000176
     - confidence_score: 0
@@ -94224,6 +94376,7 @@
     - upper_bound: 1000
     - annotation: !!omap
       - ec-code: 3.2.1.22
+      - kegg.reaction: R03634
       - metanetx.reaction: MNXR100010
       - sbo: SBO:0000176
     - confidence_score: 0
