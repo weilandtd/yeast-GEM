@@ -150,7 +150,7 @@
     - annotation: !!omap
       - chebi: CHEBI:57472
       - kegg.compound: C03406
-      - metanetx.chemical: MNXM550
+      - metanetx.chemical: MNXM722743
       - sbo: SBO:0000247
   - !!omap
     - id: s_0016
@@ -721,7 +721,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58509
       - kegg.compound: C04281
-      - metanetx.chemical: MNXM848
+      - metanetx.chemical: MNXM114091
       - sbo: SBO:0000247
   - !!omap
     - id: s_0117
@@ -732,7 +732,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58509
       - kegg.compound: C04281
-      - metanetx.chemical: MNXM848
+      - metanetx.chemical: MNXM114091
       - sbo: SBO:0000247
   - !!omap
     - id: s_0118
@@ -1713,7 +1713,7 @@
     - annotation: !!omap
       - chebi: CHEBI:11814
       - kegg.compound: C00356
-      - metanetx.chemical: MNXM36493
+      - metanetx.chemical: MNXM197
       - sbo: SBO:0000247
   - !!omap
     - id: s_0221
@@ -1724,7 +1724,7 @@
     - annotation: !!omap
       - chebi: CHEBI:11814
       - kegg.compound: C00356
-      - metanetx.chemical: MNXM36493
+      - metanetx.chemical: MNXM197
       - sbo: SBO:0000247
   - !!omap
     - id: s_0222
@@ -2073,7 +2073,8 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53064
-      - metanetx.chemical: MNXM37435
+      - kegg.compound: C11526
+      - metanetx.chemical: MNXM1715
       - sbo: SBO:0000247
   - !!omap
     - id: s_0280
@@ -2282,7 +2283,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58592
       - kegg.compound: C03373
-      - metanetx.chemical: MNXM162266
+      - metanetx.chemical: MNXM388
       - sbo: SBO:0000247
   - !!omap
     - id: s_0301
@@ -2348,7 +2349,7 @@
     - annotation: !!omap
       - chebi: CHEBI:12071
       - kegg.compound: C00143
-      - metanetx.chemical: MNXM90098
+      - metanetx.chemical: MNXM183
       - sbo: SBO:0000247
   - !!omap
     - id: s_0307
@@ -2359,7 +2360,7 @@
     - annotation: !!omap
       - chebi: CHEBI:12071
       - kegg.compound: C00143
-      - metanetx.chemical: MNXM90098
+      - metanetx.chemical: MNXM183
       - sbo: SBO:0000247
   - !!omap
     - id: s_0308
@@ -2370,7 +2371,7 @@
     - annotation: !!omap
       - chebi: CHEBI:27650
       - kegg.compound: C09332
-      - metanetx.chemical: MNXM317
+      - metanetx.chemical: MNXM723480
       - sbo: SBO:0000247
   - !!omap
     - id: s_0309
@@ -2620,7 +2621,7 @@
     - annotation: !!omap
       - chebi: CHEBI:57265
       - kegg.compound: C01288
-      - metanetx.chemical: MNXM92477
+      - metanetx.chemical: MNXM999
       - sbo: SBO:0000247
   - !!omap
     - id: s_0332
@@ -2640,7 +2641,8 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53065
-      - metanetx.chemical: MNXM38670
+      - kegg.compound: C11526
+      - metanetx.chemical: MNXM1715
       - sbo: SBO:0000247
   - !!omap
     - id: s_0334
@@ -2775,7 +2777,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17839
       - kegg.compound: C00921
-      - metanetx.chemical: MNXM965
+      - metanetx.chemical: MNXM722728
       - sbo: SBO:0000247
   - !!omap
     - id: s_0348
@@ -2786,7 +2788,7 @@
     - annotation: !!omap
       - chebi: CHEBI:17839
       - kegg.compound: C00921
-      - metanetx.chemical: MNXM965
+      - metanetx.chemical: MNXM722728
       - sbo: SBO:0000247
   - !!omap
     - id: s_0349
@@ -3303,7 +3305,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15873
       - kegg.compound: C00352
-      - metanetx.chemical: MNXM162238
+      - metanetx.chemical: MNXM370
       - sbo: SBO:0000247
   - !!omap
     - id: s_0413
@@ -3314,7 +3316,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15873
       - kegg.compound: C00352
-      - metanetx.chemical: MNXM162238
+      - metanetx.chemical: MNXM370
       - sbo: SBO:0000247
   - !!omap
     - id: s_0414
@@ -4577,7 +4579,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16905
       - kegg.compound: C00354
-      - metanetx.chemical: MNXM500
+      - metanetx.chemical: MNXM417
       - sbo: SBO:0000247
   - !!omap
     - id: s_0556
@@ -4588,7 +4590,7 @@
     - annotation: !!omap
       - chebi: CHEBI:18105
       - kegg.compound: C01094
-      - metanetx.chemical: MNXM1553
+      - metanetx.chemical: MNXM145568
       - sbo: SBO:0000247
   - !!omap
     - id: s_0557
@@ -4599,7 +4601,7 @@
     - annotation: !!omap
       - chebi: CHEBI:57579
       - kegg.compound: C00085
-      - metanetx.chemical: MNXM89629
+      - metanetx.chemical: MNXM162235
       - sbo: SBO:0000247
   - !!omap
     - id: s_0558
@@ -5834,7 +5836,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16928
       - kegg.compound: C00126
-      - metanetx.chemical: MNXM5749
+      - metanetx.chemical: MNXM746
       - sbo: SBO:0000247
   - !!omap
     - id: s_0712
@@ -6893,7 +6895,7 @@
     - annotation: !!omap
       - chebi: CHEBI:36457
       - kegg.compound: C01251
-      - metanetx.chemical: MNXM1056
+      - metanetx.chemical: MNXM722779
       - sbo: SBO:0000247
   - !!omap
     - id: s_0835
@@ -6904,7 +6906,7 @@
     - annotation: !!omap
       - chebi: CHEBI:36457
       - kegg.compound: C01251
-      - metanetx.chemical: MNXM1056
+      - metanetx.chemical: MNXM722779
       - sbo: SBO:0000247
   - !!omap
     - id: s_0836
@@ -9823,7 +9825,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16635
       - kegg.compound: C02430
-      - metanetx.chemical: MNXM28
+      - metanetx.chemical: MNXM90636
       - sbo: SBO:0000247
   - !!omap
     - id: s_1149
@@ -9834,7 +9836,7 @@
     - annotation: !!omap
       - chebi: CHEBI:16635
       - kegg.compound: C02430
-      - metanetx.chemical: MNXM28
+      - metanetx.chemical: MNXM90636
       - sbo: SBO:0000247
   - !!omap
     - id: s_1150
@@ -10021,7 +10023,7 @@
     - annotation: !!omap
       - chebi: CHEBI:27596
       - kegg.compound: C01152
-      - metanetx.chemical: MNXM3309
+      - metanetx.chemical: MNXM722872
       - sbo: SBO:0000247
   - !!omap
     - id: s_1184
@@ -10042,7 +10044,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:50611
-      - metanetx.chemical: MNXM63081
+      - metanetx.chemical: MNXM147516
       - sbo: SBO:0000247
   - !!omap
     - id: s_1186
@@ -10052,7 +10054,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:50611
-      - metanetx.chemical: MNXM63081
+      - metanetx.chemical: MNXM147516
       - sbo: SBO:0000247
   - !!omap
     - id: s_1187
@@ -12583,6 +12585,7 @@
     - formula: C31H48N7O17P3S
     - charge: -4
     - annotation: !!omap
+      - chebi: CHEBI:61406
       - kegg.compound: C05275
       - metanetx.chemical: MNXM580
       - sbo: SBO:0000247
@@ -12593,6 +12596,7 @@
     - formula: C33H52N7O17P3S
     - charge: -4
     - annotation: !!omap
+      - chebi: CHEBI:57330
       - kegg.compound: C03221
       - metanetx.chemical: MNXM642
       - sbo: SBO:0000247
@@ -12867,7 +12871,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58367
       - kegg.compound: C00029
-      - metanetx.chemical: MNXM52
+      - metanetx.chemical: MNXM722710
       - sbo: SBO:0000247
   - !!omap
     - id: s_1544
@@ -13594,7 +13598,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
-      - metanetx.chemical: MNXM155
+      - metanetx.chemical: MNXM96993
       - sbo: SBO:0000247
   - !!omap
     - id: s_1617
@@ -13605,7 +13609,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
-      - metanetx.chemical: MNXM155
+      - metanetx.chemical: MNXM96993
       - sbo: SBO:0000247
   - !!omap
     - id: s_1618
@@ -13616,7 +13620,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
-      - metanetx.chemical: MNXM155
+      - metanetx.chemical: MNXM96993
       - sbo: SBO:0000247
   - !!omap
     - id: s_1619
@@ -13627,7 +13631,7 @@
     - annotation: !!omap
       - chebi: CHEBI:15967
       - kegg.compound: C00342
-      - metanetx.chemical: MNXM155
+      - metanetx.chemical: MNXM96993
       - sbo: SBO:0000247
   - !!omap
     - id: s_1620
@@ -13811,6 +13815,7 @@
     - annotation: !!omap
       - chebi: CHEBI:80387
       - kegg.compound: C16220
+      - metanetx.chemical: MNXM10033
       - sbo: SBO:0000247
   - !!omap
     - id: s_2778
@@ -13840,6 +13845,7 @@
     - charge: 0
     - annotation: !!omap
       - kegg.compound: C05751
+      - metanetx.chemical: MNXM23766
       - sbo: SBO:0000247
   - !!omap
     - id: s_2781
@@ -14118,7 +14124,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52326
-      - metanetx.chemical: MNXM163185
+      - metanetx.chemical: MNXM36558
       - sbo: SBO:0000247
   - !!omap
     - id: s_2807
@@ -14160,6 +14166,7 @@
     - charge: 0
     - annotation: !!omap
       - kegg.compound: C05272
+      - metanetx.chemical: MNXM581
       - sbo: SBO:0000247
   - !!omap
     - id: s_2811
@@ -14179,6 +14186,7 @@
     - formula: C41H72N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM22115
       - sbo: SBO:0000247
   - !!omap
     - id: s_2813
@@ -14187,6 +14195,7 @@
     - formula: C33H56N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM97615
       - sbo: SBO:0000247
   - !!omap
     - id: s_2814
@@ -14196,6 +14205,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75068
+      - metanetx.chemical: MNXM97616
       - sbo: SBO:0000247
   - !!omap
     - id: s_2815
@@ -14965,6 +14975,7 @@
     - formula: C41H72N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM22115
       - sbo: SBO:0000247
   - !!omap
     - id: s_2890
@@ -14973,6 +14984,7 @@
     - formula: C33H56N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM97615
       - sbo: SBO:0000247
   - !!omap
     - id: s_2891
@@ -14982,6 +14994,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75068
+      - metanetx.chemical: MNXM97616
       - sbo: SBO:0000247
   - !!omap
     - id: s_2892
@@ -14990,7 +15003,8 @@
     - formula: C37H62N7O17P3S
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:76889
+      - chebi: CHEBI:78178
+      - metanetx.chemical: MNXM146680
       - sbo: SBO:0000247
   - !!omap
     - id: s_2893
@@ -15044,6 +15058,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88008
+      - metanetx.chemical: MNXM149511
       - sbo: SBO:0000247
   - !!omap
     - id: s_2899
@@ -15062,6 +15077,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:70712
+      - metanetx.chemical: MNXM103862
       - sbo: SBO:0000247
   - !!omap
     - id: s_2901
@@ -15110,6 +15126,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:76453
+      - metanetx.chemical: MNXM36530
       - sbo: SBO:0000247
   - !!omap
     - id: s_2906
@@ -15128,6 +15145,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:76463
+      - metanetx.chemical: MNXM36558
       - sbo: SBO:0000247
   - !!omap
     - id: s_2908
@@ -15159,6 +15177,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:87781
+      - metanetx.chemical: MNXM149457
       - sbo: SBO:0000247
   - !!omap
     - id: s_2912
@@ -15281,6 +15300,8 @@
     - formula: C37H64N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:88090
+      - metanetx.chemical: MNXM150996
       - sbo: SBO:0000247
   - !!omap
     - id: s_2925
@@ -15289,6 +15310,8 @@
     - formula: C35H60N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:88080
+      - metanetx.chemical: MNXM147795
       - sbo: SBO:0000247
   - !!omap
     - id: s_2926
@@ -15297,6 +15320,7 @@
     - formula: C31H52N7O17P3S
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM164218
       - sbo: SBO:0000247
   - !!omap
     - id: s_2927
@@ -15306,6 +15330,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:27989
+      - metanetx.chemical: MNXM3949
       - sbo: SBO:0000247
   - !!omap
     - id: s_2928
@@ -15332,6 +15357,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:72001
+      - metanetx.chemical: MNXM9966
       - sbo: SBO:0000247
   - !!omap
     - id: s_2931
@@ -15341,6 +15367,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88083
+      - metanetx.chemical: MNXM7189
       - sbo: SBO:0000247
   - !!omap
     - id: s_2932
@@ -15361,6 +15388,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88084
+      - metanetx.chemical: MNXM147629
       - sbo: SBO:0000247
   - !!omap
     - id: s_2934
@@ -15392,6 +15420,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75070
+      - metanetx.chemical: MNXM66496
       - sbo: SBO:0000247
   - !!omap
     - id: s_2937
@@ -15401,6 +15430,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74850
+      - metanetx.chemical: MNXM32950
       - sbo: SBO:0000247
   - !!omap
     - id: s_2938
@@ -15410,6 +15440,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:62837
+      - metanetx.chemical: MNXM32960
       - sbo: SBO:0000247
   - !!omap
     - id: s_2939
@@ -15483,6 +15514,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75070
+      - metanetx.chemical: MNXM66496
       - sbo: SBO:0000247
   - !!omap
     - id: s_2946
@@ -15492,6 +15524,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74850
+      - metanetx.chemical: MNXM32950
       - sbo: SBO:0000247
   - !!omap
     - id: s_2947
@@ -15501,6 +15534,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:62837
+      - metanetx.chemical: MNXM32960
       - sbo: SBO:0000247
   - !!omap
     - id: s_2948
@@ -15574,6 +15608,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:73998
+      - metanetx.chemical: MNXM66470
       - sbo: SBO:0000247
   - !!omap
     - id: s_2955
@@ -15594,6 +15629,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75071
+      - metanetx.chemical: MNXM66504
       - sbo: SBO:0000247
   - !!omap
     - id: s_2957
@@ -15602,6 +15638,7 @@
     - formula: C37H69O8P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM66509
       - sbo: SBO:0000247
   - !!omap
     - id: s_2958
@@ -15611,6 +15648,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75073
+      - metanetx.chemical: MNXM66631
       - sbo: SBO:0000247
   - !!omap
     - id: s_2959
@@ -15620,6 +15658,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74847
+      - metanetx.chemical: MNXM66635
       - sbo: SBO:0000247
   - !!omap
     - id: s_2960
@@ -15629,6 +15668,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75074
+      - metanetx.chemical: MNXM66663
       - sbo: SBO:0000247
   - !!omap
     - id: s_2961
@@ -15638,6 +15678,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:83775
+      - metanetx.chemical: MNXM51075
       - sbo: SBO:0000247
   - !!omap
     - id: s_2962
@@ -15657,6 +15698,7 @@
     - formula: C37H69O8P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM66509
       - sbo: SBO:0000247
   - !!omap
     - id: s_2964
@@ -15666,6 +15708,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74847
+      - metanetx.chemical: MNXM66635
       - sbo: SBO:0000247
   - !!omap
     - id: s_2965
@@ -15675,6 +15718,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:83775
+      - metanetx.chemical: MNXM51075
       - sbo: SBO:0000247
   - !!omap
     - id: s_2966
@@ -15694,7 +15738,8 @@
     - formula: C35H68O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:82929
+      - chebi: CHEBI:84394
+      - metanetx.chemical: MNXM32182
       - sbo: SBO:0000247
   - !!omap
     - id: s_2968
@@ -15713,6 +15758,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84417
+      - metanetx.chemical: MNXM176611
       - sbo: SBO:0000247
   - !!omap
     - id: s_2970
@@ -15722,6 +15768,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_2971
@@ -15731,6 +15778,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88527
+      - metanetx.chemical: MNXM49511
       - sbo: SBO:0000247
   - !!omap
     - id: s_2972
@@ -15740,6 +15788,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75468
+      - metanetx.chemical: MNXM49514
       - sbo: SBO:0000247
   - !!omap
     - id: s_2973
@@ -15749,6 +15798,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89229
+      - metanetx.chemical: MNXM49575
       - sbo: SBO:0000247
   - !!omap
     - id: s_2974
@@ -15758,6 +15808,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52333
+      - metanetx.chemical: MNXM9533
       - sbo: SBO:0000247
   - !!omap
     - id: s_2975
@@ -15767,6 +15818,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:73998
+      - metanetx.chemical: MNXM66470
       - sbo: SBO:0000247
   - !!omap
     - id: s_2976
@@ -15797,7 +15849,8 @@
     - formula: C35H68O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:82929
+      - chebi: CHEBI:84394
+      - metanetx.chemical: MNXM32182
       - sbo: SBO:0000247
   - !!omap
     - id: s_2979
@@ -15827,6 +15880,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75071
+      - metanetx.chemical: MNXM66504
       - sbo: SBO:0000247
   - !!omap
     - id: s_2982
@@ -15836,6 +15890,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84417
+      - metanetx.chemical: MNXM176611
       - sbo: SBO:0000247
   - !!omap
     - id: s_2983
@@ -15844,6 +15899,7 @@
     - formula: C37H69O8P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM66509
       - sbo: SBO:0000247
   - !!omap
     - id: s_2984
@@ -15853,6 +15909,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_2985
@@ -15862,6 +15919,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75073
+      - metanetx.chemical: MNXM66631
       - sbo: SBO:0000247
   - !!omap
     - id: s_2986
@@ -15871,6 +15929,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88527
+      - metanetx.chemical: MNXM49511
       - sbo: SBO:0000247
   - !!omap
     - id: s_2987
@@ -15880,6 +15939,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74847
+      - metanetx.chemical: MNXM66635
       - sbo: SBO:0000247
   - !!omap
     - id: s_2988
@@ -15889,6 +15949,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75468
+      - metanetx.chemical: MNXM49514
       - sbo: SBO:0000247
   - !!omap
     - id: s_2989
@@ -15898,6 +15959,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75074
+      - metanetx.chemical: MNXM66663
       - sbo: SBO:0000247
   - !!omap
     - id: s_2990
@@ -15907,6 +15969,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89229
+      - metanetx.chemical: MNXM49575
       - sbo: SBO:0000247
   - !!omap
     - id: s_2991
@@ -15916,6 +15979,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:83775
+      - metanetx.chemical: MNXM51075
       - sbo: SBO:0000247
   - !!omap
     - id: s_2992
@@ -15925,6 +15989,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52333
+      - metanetx.chemical: MNXM9533
       - sbo: SBO:0000247
   - !!omap
     - id: s_2993
@@ -15934,6 +15999,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:73998
+      - metanetx.chemical: MNXM66470
       - sbo: SBO:0000247
   - !!omap
     - id: s_2994
@@ -15964,7 +16030,8 @@
     - formula: C35H68O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:82929
+      - chebi: CHEBI:84394
+      - metanetx.chemical: MNXM32182
       - sbo: SBO:0000247
   - !!omap
     - id: s_2997
@@ -15994,6 +16061,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75071
+      - metanetx.chemical: MNXM66504
       - sbo: SBO:0000247
   - !!omap
     - id: s_3000
@@ -16003,6 +16071,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84417
+      - metanetx.chemical: MNXM176611
       - sbo: SBO:0000247
   - !!omap
     - id: s_3001
@@ -16011,6 +16080,7 @@
     - formula: C37H69O8P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM66509
       - sbo: SBO:0000247
   - !!omap
     - id: s_3002
@@ -16020,6 +16090,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_3003
@@ -16029,6 +16100,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75073
+      - metanetx.chemical: MNXM66631
       - sbo: SBO:0000247
   - !!omap
     - id: s_3004
@@ -16038,6 +16110,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88527
+      - metanetx.chemical: MNXM49511
       - sbo: SBO:0000247
   - !!omap
     - id: s_3005
@@ -16047,6 +16120,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74847
+      - metanetx.chemical: MNXM66635
       - sbo: SBO:0000247
   - !!omap
     - id: s_3006
@@ -16056,6 +16130,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75468
+      - metanetx.chemical: MNXM49514
       - sbo: SBO:0000247
   - !!omap
     - id: s_3007
@@ -16065,6 +16140,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75074
+      - metanetx.chemical: MNXM66663
       - sbo: SBO:0000247
   - !!omap
     - id: s_3008
@@ -16074,6 +16150,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89229
+      - metanetx.chemical: MNXM49575
       - sbo: SBO:0000247
   - !!omap
     - id: s_3009
@@ -16083,6 +16160,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:83775
+      - metanetx.chemical: MNXM51075
       - sbo: SBO:0000247
   - !!omap
     - id: s_3010
@@ -16092,6 +16170,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52333
+      - metanetx.chemical: MNXM9533
       - sbo: SBO:0000247
   - !!omap
     - id: s_3011
@@ -16371,7 +16450,8 @@
     - formula: C35H68O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:82929
+      - chebi: CHEBI:84394
+      - metanetx.chemical: MNXM32182
       - sbo: SBO:0000247
   - !!omap
     - id: s_3044
@@ -16408,6 +16488,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84417
+      - metanetx.chemical: MNXM176611
       - sbo: SBO:0000247
   - !!omap
     - id: s_3048
@@ -16425,6 +16506,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_3050
@@ -16442,6 +16524,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88527
+      - metanetx.chemical: MNXM49511
       - sbo: SBO:0000247
   - !!omap
     - id: s_3052
@@ -16459,6 +16542,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75468
+      - metanetx.chemical: MNXM49514
       - sbo: SBO:0000247
   - !!omap
     - id: s_3054
@@ -16477,6 +16561,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89229
+      - metanetx.chemical: MNXM49575
       - sbo: SBO:0000247
   - !!omap
     - id: s_3056
@@ -16494,6 +16579,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52333
+      - metanetx.chemical: MNXM9533
       - sbo: SBO:0000247
   - !!omap
     - id: s_3058
@@ -16734,6 +16820,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:104012
+      - metanetx.chemical: MNXM4508
       - sbo: SBO:0000247
   - !!omap
     - id: s_3086
@@ -16795,6 +16882,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:73998
+      - metanetx.chemical: MNXM66470
       - sbo: SBO:0000247
   - !!omap
     - id: s_3093
@@ -16845,6 +16933,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75071
+      - metanetx.chemical: MNXM66504
       - sbo: SBO:0000247
   - !!omap
     - id: s_3098
@@ -16854,6 +16943,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:104012
+      - metanetx.chemical: MNXM4508
       - sbo: SBO:0000247
   - !!omap
     - id: s_3099
@@ -16863,6 +16953,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75073
+      - metanetx.chemical: MNXM66631
       - sbo: SBO:0000247
   - !!omap
     - id: s_3100
@@ -16880,6 +16971,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75074
+      - metanetx.chemical: MNXM66663
       - sbo: SBO:0000247
   - !!omap
     - id: s_3102
@@ -16918,6 +17010,7 @@
     - formula: C37H69O8P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM66509
       - sbo: SBO:0000247
   - !!omap
     - id: s_3106
@@ -16957,6 +17050,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89824
+      - metanetx.chemical: MNXM78605
       - sbo: SBO:0000247
   - !!omap
     - id: s_3110
@@ -16965,6 +17059,7 @@
     - formula: C38H70NO10P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM78637
       - sbo: SBO:0000247
   - !!omap
     - id: s_3111
@@ -16974,6 +17069,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90036
+      - metanetx.chemical: MNXM78765
       - sbo: SBO:0000247
   - !!omap
     - id: s_3112
@@ -16983,6 +17079,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75101
+      - metanetx.chemical: MNXM78797
       - sbo: SBO:0000247
   - !!omap
     - id: s_3113
@@ -16991,7 +17088,8 @@
     - formula: C40H76NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134541
+      - chebi: CHEBI:34086
+      - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
     - id: s_3114
@@ -17001,6 +17099,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90032
+      - metanetx.chemical: MNXM78642
       - sbo: SBO:0000247
   - !!omap
     - id: s_3115
@@ -17009,7 +17108,8 @@
     - formula: C42H80NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:90433
+      - chebi: CHEBI:79096
+      - metanetx.chemical: MNXM32529
       - sbo: SBO:0000247
   - !!omap
     - id: s_3116
@@ -17019,6 +17119,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:60568
+      - metanetx.chemical: MNXM32173
       - sbo: SBO:0000247
   - !!omap
     - id: s_3117
@@ -17039,6 +17140,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88396
+      - metanetx.chemical: MNXM75492
       - sbo: SBO:0000247
   - !!omap
     - id: s_3119
@@ -17056,6 +17158,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88557
+      - metanetx.chemical: MNXM75665
       - sbo: SBO:0000247
   - !!omap
     - id: s_3121
@@ -17075,6 +17178,7 @@
     - annotation: !!omap
       - chebi: CHEBI:73215
       - kegg.compound: C13888
+      - metanetx.chemical: MNXM75499
       - sbo: SBO:0000247
   - !!omap
     - id: s_3123
@@ -17093,6 +17197,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:77346
+      - metanetx.chemical: MNXM75671
       - sbo: SBO:0000247
   - !!omap
     - id: s_3125
@@ -17110,6 +17215,7 @@
     - formula: C25H41O12P
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:138108
       - sbo: SBO:0000247
   - !!omap
     - id: s_3127
@@ -17127,6 +17233,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89824
+      - metanetx.chemical: MNXM78605
       - sbo: SBO:0000247
   - !!omap
     - id: s_3129
@@ -17155,6 +17262,7 @@
     - formula: C38H70NO10P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM78637
       - sbo: SBO:0000247
   - !!omap
     - id: s_3132
@@ -17173,6 +17281,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90036
+      - metanetx.chemical: MNXM78765
       - sbo: SBO:0000247
   - !!omap
     - id: s_3134
@@ -17191,6 +17300,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75101
+      - metanetx.chemical: MNXM78797
       - sbo: SBO:0000247
   - !!omap
     - id: s_3136
@@ -17208,7 +17318,8 @@
     - formula: C40H76NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134541
+      - chebi: CHEBI:34086
+      - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
     - id: s_3138
@@ -17227,6 +17338,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90032
+      - metanetx.chemical: MNXM78642
       - sbo: SBO:0000247
   - !!omap
     - id: s_3140
@@ -17244,7 +17356,8 @@
     - formula: C42H80NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:90433
+      - chebi: CHEBI:79096
+      - metanetx.chemical: MNXM32529
       - sbo: SBO:0000247
   - !!omap
     - id: s_3142
@@ -17263,6 +17376,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:60568
+      - metanetx.chemical: MNXM32173
       - sbo: SBO:0000247
   - !!omap
     - id: s_3144
@@ -17281,6 +17395,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89824
+      - metanetx.chemical: MNXM78605
       - sbo: SBO:0000247
   - !!omap
     - id: s_3146
@@ -17320,6 +17435,7 @@
     - formula: C38H70NO10P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM78637
       - sbo: SBO:0000247
   - !!omap
     - id: s_3150
@@ -17338,6 +17454,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90036
+      - metanetx.chemical: MNXM78765
       - sbo: SBO:0000247
   - !!omap
     - id: s_3152
@@ -17356,6 +17473,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75101
+      - metanetx.chemical: MNXM78797
       - sbo: SBO:0000247
   - !!omap
     - id: s_3154
@@ -17373,7 +17491,8 @@
     - formula: C40H76NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134541
+      - chebi: CHEBI:34086
+      - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
     - id: s_3156
@@ -17392,6 +17511,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90032
+      - metanetx.chemical: MNXM78642
       - sbo: SBO:0000247
   - !!omap
     - id: s_3158
@@ -17409,7 +17529,8 @@
     - formula: C42H80NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:90433
+      - chebi: CHEBI:79096
+      - metanetx.chemical: MNXM32529
       - sbo: SBO:0000247
   - !!omap
     - id: s_3160
@@ -17428,6 +17549,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:60568
+      - metanetx.chemical: MNXM32173
       - sbo: SBO:0000247
   - !!omap
     - id: s_3162
@@ -17446,6 +17568,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89824
+      - metanetx.chemical: MNXM78605
       - sbo: SBO:0000247
   - !!omap
     - id: s_3164
@@ -17485,6 +17608,7 @@
     - formula: C38H70NO10P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM78637
       - sbo: SBO:0000247
   - !!omap
     - id: s_3168
@@ -17503,6 +17627,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90036
+      - metanetx.chemical: MNXM78765
       - sbo: SBO:0000247
   - !!omap
     - id: s_3170
@@ -17521,6 +17646,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75101
+      - metanetx.chemical: MNXM78797
       - sbo: SBO:0000247
   - !!omap
     - id: s_3172
@@ -17538,7 +17664,8 @@
     - formula: C40H76NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134541
+      - chebi: CHEBI:34086
+      - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
     - id: s_3174
@@ -17557,6 +17684,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90032
+      - metanetx.chemical: MNXM78642
       - sbo: SBO:0000247
   - !!omap
     - id: s_3176
@@ -17574,7 +17702,8 @@
     - formula: C42H80NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:90433
+      - chebi: CHEBI:79096
+      - metanetx.chemical: MNXM32529
       - sbo: SBO:0000247
   - !!omap
     - id: s_3178
@@ -17593,6 +17722,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:60568
+      - metanetx.chemical: MNXM32173
       - sbo: SBO:0000247
   - !!omap
     - id: s_3180
@@ -17843,7 +17973,8 @@
     - formula: C40H76NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134637
+      - chebi: CHEBI:83717
+      - metanetx.chemical: MNXM69377
       - sbo: SBO:0000247
   - !!omap
     - id: s_3209
@@ -17852,7 +17983,8 @@
     - formula: C42H82NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89972
+      - chebi: CHEBI:86097
+      - metanetx.chemical: MNXM69528
       - sbo: SBO:0000247
   - !!omap
     - id: s_3210
@@ -17861,7 +17993,8 @@
     - formula: C42H80NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89506
+      - chebi: CHEBI:86100
+      - metanetx.chemical: MNXM69658
       - sbo: SBO:0000247
   - !!omap
     - id: s_3211
@@ -17879,7 +18012,8 @@
     - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89668
+      - chebi: CHEBI:84811
+      - metanetx.chemical: MNXM69383
       - sbo: SBO:0000247
   - !!omap
     - id: s_3213
@@ -17888,7 +18022,8 @@
     - formula: C44H86NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89679
+      - chebi: CHEBI:75034
+      - metanetx.chemical: MNXM32526
       - sbo: SBO:0000247
   - !!omap
     - id: s_3214
@@ -17897,7 +18032,8 @@
     - formula: C44H84NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89504
+      - chebi: CHEBI:74669
+      - metanetx.chemical: MNXM8549
       - sbo: SBO:0000247
   - !!omap
     - id: s_3215
@@ -17993,6 +18129,7 @@
     - formula: C42H76O13P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM725269
       - sbo: SBO:0000247
   - !!omap
     - id: s_3225
@@ -18085,6 +18222,7 @@
     - formula: C73H140O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120766
       - sbo: SBO:0000247
   - !!omap
     - id: s_3235
@@ -18093,6 +18231,7 @@
     - formula: C73H136O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120775
       - sbo: SBO:0000247
   - !!omap
     - id: s_3236
@@ -18101,6 +18240,7 @@
     - formula: C75H144O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120785
       - sbo: SBO:0000247
   - !!omap
     - id: s_3237
@@ -18109,6 +18249,7 @@
     - formula: C75H140O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120792
       - sbo: SBO:0000247
   - !!omap
     - id: s_3238
@@ -18117,6 +18258,7 @@
     - formula: C75H144O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120768
       - sbo: SBO:0000247
   - !!omap
     - id: s_3239
@@ -18125,6 +18267,7 @@
     - formula: C75H140O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120778
       - sbo: SBO:0000247
   - !!omap
     - id: s_3240
@@ -18142,6 +18285,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:104873
+      - metanetx.chemical: MNXM4501
       - sbo: SBO:0000247
   - !!omap
     - id: s_3242
@@ -18158,6 +18302,7 @@
     - formula: C75H138O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM121254
       - sbo: SBO:0000247
   - !!omap
     - id: s_3244
@@ -18174,6 +18319,7 @@
     - formula: C75H138O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM121237
       - sbo: SBO:0000247
   - !!omap
     - id: s_3246
@@ -18286,6 +18432,7 @@
     - formula: C75H140O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120922
       - sbo: SBO:0000247
   - !!omap
     - id: s_3260
@@ -18302,6 +18449,7 @@
     - formula: C77H144O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120940
       - sbo: SBO:0000247
   - !!omap
     - id: s_3262
@@ -18318,6 +18466,7 @@
     - formula: C77H144O17P2
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM120924
       - sbo: SBO:0000247
   - !!omap
     - id: s_3264
@@ -18597,6 +18746,8 @@
     - formula: C24H51NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:72998
+      - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
     - id: s_3298
@@ -18605,7 +18756,8 @@
     - formula: C40H76NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134637
+      - chebi: CHEBI:83717
+      - metanetx.chemical: MNXM69377
       - sbo: SBO:0000247
   - !!omap
     - id: s_3299
@@ -18614,6 +18766,8 @@
     - formula: C24H49NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73851
+      - metanetx.chemical: MNXM32519
       - sbo: SBO:0000247
   - !!omap
     - id: s_3300
@@ -18622,7 +18776,8 @@
     - formula: C42H82NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89972
+      - chebi: CHEBI:86097
+      - metanetx.chemical: MNXM69528
       - sbo: SBO:0000247
   - !!omap
     - id: s_3301
@@ -18631,6 +18786,8 @@
     - formula: C26H55NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73858
+      - metanetx.chemical: MNXM32545
       - sbo: SBO:0000247
   - !!omap
     - id: s_3302
@@ -18639,7 +18796,8 @@
     - formula: C42H80NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89506
+      - chebi: CHEBI:86100
+      - metanetx.chemical: MNXM69658
       - sbo: SBO:0000247
   - !!omap
     - id: s_3303
@@ -18648,6 +18806,8 @@
     - formula: C26H53NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:28610
+      - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
     - id: s_3304
@@ -18665,7 +18825,8 @@
     - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89668
+      - chebi: CHEBI:84811
+      - metanetx.chemical: MNXM69383
       - sbo: SBO:0000247
   - !!omap
     - id: s_3306
@@ -18674,7 +18835,8 @@
     - formula: C44H86NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89679
+      - chebi: CHEBI:75034
+      - metanetx.chemical: MNXM32526
       - sbo: SBO:0000247
   - !!omap
     - id: s_3307
@@ -18683,7 +18845,8 @@
     - formula: C44H84NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89504
+      - chebi: CHEBI:74669
+      - metanetx.chemical: MNXM8549
       - sbo: SBO:0000247
   - !!omap
     - id: s_3308
@@ -18822,6 +18985,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88396
+      - metanetx.chemical: MNXM75492
       - sbo: SBO:0000247
   - !!omap
     - id: s_3324
@@ -18866,6 +19030,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88557
+      - metanetx.chemical: MNXM75665
       - sbo: SBO:0000247
   - !!omap
     - id: s_3329
@@ -18901,6 +19066,7 @@
     - annotation: !!omap
       - chebi: CHEBI:73215
       - kegg.compound: C13888
+      - metanetx.chemical: MNXM75499
       - sbo: SBO:0000247
   - !!omap
     - id: s_3333
@@ -18935,6 +19101,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:77346
+      - metanetx.chemical: MNXM75671
       - sbo: SBO:0000247
   - !!omap
     - id: s_3337
@@ -18970,6 +19137,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88396
+      - metanetx.chemical: MNXM75492
       - sbo: SBO:0000247
   - !!omap
     - id: s_3341
@@ -19025,6 +19193,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88557
+      - metanetx.chemical: MNXM75665
       - sbo: SBO:0000247
   - !!omap
     - id: s_3347
@@ -19060,6 +19229,7 @@
     - annotation: !!omap
       - chebi: CHEBI:73215
       - kegg.compound: C13888
+      - metanetx.chemical: MNXM75499
       - sbo: SBO:0000247
   - !!omap
     - id: s_3351
@@ -19094,6 +19264,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:77346
+      - metanetx.chemical: MNXM75671
       - sbo: SBO:0000247
   - !!omap
     - id: s_3355
@@ -19129,6 +19300,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88396
+      - metanetx.chemical: MNXM75492
       - sbo: SBO:0000247
   - !!omap
     - id: s_3359
@@ -19184,6 +19356,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88557
+      - metanetx.chemical: MNXM75665
       - sbo: SBO:0000247
   - !!omap
     - id: s_3365
@@ -19219,6 +19392,7 @@
     - annotation: !!omap
       - chebi: CHEBI:73215
       - kegg.compound: C13888
+      - metanetx.chemical: MNXM75499
       - sbo: SBO:0000247
   - !!omap
     - id: s_3369
@@ -19253,6 +19427,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:77346
+      - metanetx.chemical: MNXM75671
       - sbo: SBO:0000247
   - !!omap
     - id: s_3373
@@ -19288,6 +19463,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88396
+      - metanetx.chemical: MNXM75492
       - sbo: SBO:0000247
   - !!omap
     - id: s_3377
@@ -19321,6 +19497,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88557
+      - metanetx.chemical: MNXM75665
       - sbo: SBO:0000247
   - !!omap
     - id: s_3381
@@ -19356,6 +19533,7 @@
     - annotation: !!omap
       - chebi: CHEBI:73215
       - kegg.compound: C13888
+      - metanetx.chemical: MNXM75499
       - sbo: SBO:0000247
   - !!omap
     - id: s_3385
@@ -19390,6 +19568,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:77346
+      - metanetx.chemical: MNXM75671
       - sbo: SBO:0000247
   - !!omap
     - id: s_3389
@@ -19719,6 +19898,8 @@
     - formula: C24H51NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:72998
+      - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
     - id: s_3429
@@ -19727,6 +19908,8 @@
     - formula: C24H49NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73851
+      - metanetx.chemical: MNXM32519
       - sbo: SBO:0000247
   - !!omap
     - id: s_3430
@@ -19735,6 +19918,8 @@
     - formula: C26H55NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73858
+      - metanetx.chemical: MNXM32545
       - sbo: SBO:0000247
   - !!omap
     - id: s_3431
@@ -19743,6 +19928,8 @@
     - formula: C26H53NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:28610
+      - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
     - id: s_3432
@@ -19937,6 +20124,8 @@
     - formula: C24H51NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:72998
+      - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
     - id: s_3451
@@ -19956,7 +20145,8 @@
     - formula: C40H76NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134637
+      - chebi: CHEBI:83717
+      - metanetx.chemical: MNXM69377
       - sbo: SBO:0000247
   - !!omap
     - id: s_3453
@@ -19965,6 +20155,8 @@
     - formula: C24H49NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73851
+      - metanetx.chemical: MNXM32519
       - sbo: SBO:0000247
   - !!omap
     - id: s_3454
@@ -19973,7 +20165,8 @@
     - formula: C42H82NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89972
+      - chebi: CHEBI:86097
+      - metanetx.chemical: MNXM69528
       - sbo: SBO:0000247
   - !!omap
     - id: s_3455
@@ -19982,6 +20175,8 @@
     - formula: C26H55NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73858
+      - metanetx.chemical: MNXM32545
       - sbo: SBO:0000247
   - !!omap
     - id: s_3456
@@ -19990,7 +20185,8 @@
     - formula: C42H80NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89506
+      - chebi: CHEBI:86100
+      - metanetx.chemical: MNXM69658
       - sbo: SBO:0000247
   - !!omap
     - id: s_3457
@@ -19999,6 +20195,8 @@
     - formula: C26H53NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:28610
+      - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
     - id: s_3458
@@ -20027,7 +20225,8 @@
     - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89668
+      - chebi: CHEBI:84811
+      - metanetx.chemical: MNXM69383
       - sbo: SBO:0000247
   - !!omap
     - id: s_3461
@@ -20036,7 +20235,8 @@
     - formula: C44H86NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89679
+      - chebi: CHEBI:75034
+      - metanetx.chemical: MNXM32526
       - sbo: SBO:0000247
   - !!omap
     - id: s_3462
@@ -20045,7 +20245,8 @@
     - formula: C44H84NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89504
+      - chebi: CHEBI:74669
+      - metanetx.chemical: MNXM8549
       - sbo: SBO:0000247
   - !!omap
     - id: s_3463
@@ -20195,6 +20396,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89824
+      - metanetx.chemical: MNXM78605
       - sbo: SBO:0000247
   - !!omap
     - id: s_3479
@@ -20203,6 +20405,7 @@
     - formula: C22H44NP10
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM78597
       - sbo: SBO:0000247
   - !!omap
     - id: s_3480
@@ -20211,6 +20414,7 @@
     - formula: C38H70NO10P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM78637
       - sbo: SBO:0000247
   - !!omap
     - id: s_3481
@@ -20219,6 +20423,7 @@
     - formula: C22H42NP10
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM78629
       - sbo: SBO:0000247
   - !!omap
     - id: s_3482
@@ -20228,6 +20433,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90036
+      - metanetx.chemical: MNXM78765
       - sbo: SBO:0000247
   - !!omap
     - id: s_3483
@@ -20236,6 +20442,8 @@
     - formula: C24H48NP10
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:85403
+      - metanetx.chemical: MNXM78757
       - sbo: SBO:0000247
   - !!omap
     - id: s_3484
@@ -20245,6 +20453,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75101
+      - metanetx.chemical: MNXM78797
       - sbo: SBO:0000247
   - !!omap
     - id: s_3485
@@ -20253,6 +20462,8 @@
     - formula: C24H46NP10
     - charge: 0
     - annotation: !!omap
+      - chebi: CHEBI:52649
+      - metanetx.chemical: MNXM32944
       - sbo: SBO:0000247
   - !!omap
     - id: s_3486
@@ -20261,7 +20472,8 @@
     - formula: C40H76NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134541
+      - chebi: CHEBI:34086
+      - metanetx.chemical: MNXM32501
       - sbo: SBO:0000247
   - !!omap
     - id: s_3487
@@ -20271,6 +20483,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:90032
+      - metanetx.chemical: MNXM78642
       - sbo: SBO:0000247
   - !!omap
     - id: s_3488
@@ -20279,7 +20492,8 @@
     - formula: C42H80NO10P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:90433
+      - chebi: CHEBI:79096
+      - metanetx.chemical: MNXM32529
       - sbo: SBO:0000247
   - !!omap
     - id: s_3489
@@ -20289,6 +20503,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:60568
+      - metanetx.chemical: MNXM32173
       - sbo: SBO:0000247
   - !!omap
     - id: s_3490
@@ -20361,7 +20576,8 @@
     - formula: C35H68O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:82929
+      - chebi: CHEBI:84394
+      - metanetx.chemical: MNXM32182
       - sbo: SBO:0000247
   - !!omap
     - id: s_3498
@@ -20390,6 +20606,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84417
+      - metanetx.chemical: MNXM176611
       - sbo: SBO:0000247
   - !!omap
     - id: s_3501
@@ -20407,6 +20624,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88527
+      - metanetx.chemical: MNXM49511
       - sbo: SBO:0000247
   - !!omap
     - id: s_3503
@@ -20424,6 +20642,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89229
+      - metanetx.chemical: MNXM49575
       - sbo: SBO:0000247
   - !!omap
     - id: s_3505
@@ -20458,6 +20677,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_3509
@@ -20476,6 +20696,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75468
+      - metanetx.chemical: MNXM49514
       - sbo: SBO:0000247
   - !!omap
     - id: s_3511
@@ -20493,6 +20714,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52333
+      - metanetx.chemical: MNXM9533
       - sbo: SBO:0000247
   - !!omap
     - id: s_3513
@@ -20501,7 +20723,8 @@
     - formula: C35H68O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:82929
+      - chebi: CHEBI:84394
+      - metanetx.chemical: MNXM32182
       - sbo: SBO:0000247
   - !!omap
     - id: s_3514
@@ -20511,6 +20734,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84417
+      - metanetx.chemical: MNXM176611
       - sbo: SBO:0000247
   - !!omap
     - id: s_3515
@@ -20520,6 +20744,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88527
+      - metanetx.chemical: MNXM49511
       - sbo: SBO:0000247
   - !!omap
     - id: s_3516
@@ -20529,6 +20754,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89229
+      - metanetx.chemical: MNXM49575
       - sbo: SBO:0000247
   - !!omap
     - id: s_3517
@@ -20547,6 +20773,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_3519
@@ -20556,6 +20783,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75468
+      - metanetx.chemical: MNXM49514
       - sbo: SBO:0000247
   - !!omap
     - id: s_3520
@@ -20565,6 +20793,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52333
+      - metanetx.chemical: MNXM9533
       - sbo: SBO:0000247
   - !!omap
     - id: s_3521
@@ -20573,7 +20802,8 @@
     - formula: C35H68O5
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:82929
+      - chebi: CHEBI:84394
+      - metanetx.chemical: MNXM32182
       - sbo: SBO:0000247
   - !!omap
     - id: s_3522
@@ -20583,6 +20813,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84417
+      - metanetx.chemical: MNXM176611
       - sbo: SBO:0000247
   - !!omap
     - id: s_3523
@@ -20592,6 +20823,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88527
+      - metanetx.chemical: MNXM49511
       - sbo: SBO:0000247
   - !!omap
     - id: s_3524
@@ -20601,6 +20833,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:89229
+      - metanetx.chemical: MNXM49575
       - sbo: SBO:0000247
   - !!omap
     - id: s_3525
@@ -20619,6 +20852,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_3527
@@ -20628,6 +20862,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:73998
+      - metanetx.chemical: MNXM66470
       - sbo: SBO:0000247
   - !!omap
     - id: s_3528
@@ -20637,6 +20872,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75071
+      - metanetx.chemical: MNXM66504
       - sbo: SBO:0000247
   - !!omap
     - id: s_3529
@@ -20646,6 +20882,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75073
+      - metanetx.chemical: MNXM66631
       - sbo: SBO:0000247
   - !!omap
     - id: s_3530
@@ -20655,6 +20892,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75074
+      - metanetx.chemical: MNXM66663
       - sbo: SBO:0000247
   - !!omap
     - id: s_3531
@@ -20674,6 +20912,7 @@
     - formula: C37H69O8P
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM66509
       - sbo: SBO:0000247
   - !!omap
     - id: s_3533
@@ -20683,6 +20922,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74847
+      - metanetx.chemical: MNXM66635
       - sbo: SBO:0000247
   - !!omap
     - id: s_3534
@@ -20692,6 +20932,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:83775
+      - metanetx.chemical: MNXM51075
       - sbo: SBO:0000247
   - !!omap
     - id: s_3535
@@ -20786,6 +21027,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88396
+      - metanetx.chemical: MNXM75492
       - sbo: SBO:0000247
   - !!omap
     - id: s_3546
@@ -20819,6 +21061,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88557
+      - metanetx.chemical: MNXM75665
       - sbo: SBO:0000247
   - !!omap
     - id: s_3550
@@ -20854,6 +21097,7 @@
     - annotation: !!omap
       - chebi: CHEBI:73215
       - kegg.compound: C13888
+      - metanetx.chemical: MNXM75499
       - sbo: SBO:0000247
   - !!omap
     - id: s_3554
@@ -20889,6 +21133,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:77346
+      - metanetx.chemical: MNXM75671
       - sbo: SBO:0000247
   - !!omap
     - id: s_3558
@@ -21523,6 +21768,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75070
+      - metanetx.chemical: MNXM66496
       - sbo: SBO:0000247
   - !!omap
     - id: s_3635
@@ -21541,6 +21787,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74850
+      - metanetx.chemical: MNXM32950
       - sbo: SBO:0000247
   - !!omap
     - id: s_3637
@@ -21559,6 +21806,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:62837
+      - metanetx.chemical: MNXM32960
       - sbo: SBO:0000247
   - !!omap
     - id: s_3639
@@ -21597,6 +21845,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75070
+      - metanetx.chemical: MNXM66496
       - sbo: SBO:0000247
   - !!omap
     - id: s_3643
@@ -21615,6 +21864,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74850
+      - metanetx.chemical: MNXM32950
       - sbo: SBO:0000247
   - !!omap
     - id: s_3645
@@ -21633,6 +21883,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:62837
+      - metanetx.chemical: MNXM32960
       - sbo: SBO:0000247
   - !!omap
     - id: s_3647
@@ -21671,6 +21922,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75070
+      - metanetx.chemical: MNXM66496
       - sbo: SBO:0000247
   - !!omap
     - id: s_3651
@@ -21689,6 +21941,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74850
+      - metanetx.chemical: MNXM32950
       - sbo: SBO:0000247
   - !!omap
     - id: s_3653
@@ -21707,6 +21960,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:62837
+      - metanetx.chemical: MNXM32960
       - sbo: SBO:0000247
   - !!omap
     - id: s_3655
@@ -21943,6 +22197,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88500
+      - metanetx.chemical: MNXM49417
       - sbo: SBO:0000247
   - !!omap
     - id: s_3679
@@ -21961,6 +22216,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75468
+      - metanetx.chemical: MNXM49514
       - sbo: SBO:0000247
   - !!omap
     - id: s_3681
@@ -21979,6 +22235,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52333
+      - metanetx.chemical: MNXM9533
       - sbo: SBO:0000247
   - !!omap
     - id: s_3683
@@ -22087,6 +22344,8 @@
     - formula: C24H51NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:72998
+      - metanetx.chemical: MNXM32510
       - sbo: SBO:0000247
   - !!omap
     - id: s_3695
@@ -22095,7 +22354,8 @@
     - formula: C40H76NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:134637
+      - chebi: CHEBI:83717
+      - metanetx.chemical: MNXM69377
       - sbo: SBO:0000247
   - !!omap
     - id: s_3696
@@ -22104,6 +22364,8 @@
     - formula: C24H49NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73851
+      - metanetx.chemical: MNXM32519
       - sbo: SBO:0000247
   - !!omap
     - id: s_3697
@@ -22112,7 +22374,8 @@
     - formula: C42H82NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89972
+      - chebi: CHEBI:86097
+      - metanetx.chemical: MNXM69528
       - sbo: SBO:0000247
   - !!omap
     - id: s_3698
@@ -22121,6 +22384,8 @@
     - formula: C26H55NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:73858
+      - metanetx.chemical: MNXM32545
       - sbo: SBO:0000247
   - !!omap
     - id: s_3699
@@ -22129,7 +22394,8 @@
     - formula: C42H80NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89506
+      - chebi: CHEBI:86100
+      - metanetx.chemical: MNXM69658
       - sbo: SBO:0000247
   - !!omap
     - id: s_3700
@@ -22138,6 +22404,8 @@
     - formula: C26H53NO7P
     - charge: 1
     - annotation: !!omap
+      - chebi: CHEBI:28610
+      - metanetx.chemical: MNXM13872
       - sbo: SBO:0000247
   - !!omap
     - id: s_3701
@@ -22155,7 +22423,8 @@
     - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89668
+      - chebi: CHEBI:84811
+      - metanetx.chemical: MNXM69383
       - sbo: SBO:0000247
   - !!omap
     - id: s_3703
@@ -22164,7 +22433,8 @@
     - formula: C44H86NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89679
+      - chebi: CHEBI:75034
+      - metanetx.chemical: MNXM32526
       - sbo: SBO:0000247
   - !!omap
     - id: s_3704
@@ -22173,7 +22443,8 @@
     - formula: C44H84NO7P
     - charge: 0
     - annotation: !!omap
-      - chebi: CHEBI:89504
+      - chebi: CHEBI:74669
+      - metanetx.chemical: MNXM8549
       - sbo: SBO:0000247
   - !!omap
     - id: s_3705
@@ -22777,6 +23048,7 @@
     - formula: C74H122N4O57R
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM6479
       - sbo: SBO:0000247
   - !!omap
     - id: s_3775
@@ -23099,7 +23371,7 @@
     - annotation: !!omap
       - chebi: CHEBI:49031
       - kegg.compound: C15999
-      - metanetx.chemical: MNXM2246
+      - metanetx.chemical: MNXM722780
       - sbo: SBO:0000247
   - !!omap
     - id: s_3808
@@ -23132,7 +23404,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58402
       - kegg.compound: C01879
-      - metanetx.chemical: MNXM964
+      - metanetx.chemical: MNXM722719
       - sbo: SBO:0000247
   - !!omap
     - id: s_3811
@@ -23517,7 +23789,7 @@
     - annotation: !!omap
       - chebi: CHEBI:38290
       - kegg.compound: C00072
-      - metanetx.chemical: MNXM89592
+      - metanetx.chemical: MNXM129
       - sbo: SBO:0000247
   - !!omap
     - id: s_3848
@@ -23550,7 +23822,7 @@
     - annotation: !!omap
       - chebi: CHEBI:38290
       - kegg.compound: C00072
-      - metanetx.chemical: MNXM89592
+      - metanetx.chemical: MNXM129
       - sbo: SBO:0000247
   - !!omap
     - id: s_3851
@@ -23572,7 +23844,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58273
       - kegg.compound: C00117
-      - metanetx.chemical: MNXM116
+      - metanetx.chemical: MNXM722712
       - sbo: SBO:0000247
   - !!omap
     - id: s_3853
@@ -23940,6 +24212,7 @@
     - formula: C108H182N2O77P2R
     - charge: -2
     - annotation: !!omap
+      - metanetx.chemical: MNXM9308
       - sbo: SBO:0000247
   - !!omap
     - id: s_3888
@@ -23949,6 +24222,8 @@
     - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:57497
+      - kegg.compound: C00621
+      - metanetx.chemical: MNXM2370
       - sbo: SBO:0000247
   - !!omap
     - id: s_3889
@@ -24144,7 +24419,7 @@
     - formula: C14H17N3O15P2R2
     - charge: -2
     - annotation: !!omap
-      - chebi: CHEBI:58332
+      - chebi: CHEBI:17962
       - kegg.compound: C00269
       - metanetx.chemical: MNXM201
       - sbo: SBO:0000247
@@ -24167,7 +24442,7 @@
     - annotation: !!omap
       - chebi: CHEBI:134399
       - kegg.compound: C20784
-      - metanetx.chemical: MNXM37826
+      - metanetx.chemical: MNXM722955
       - sbo: SBO:0000247
   - !!omap
     - id: s_3911
@@ -24187,6 +24462,7 @@
     - formula: C102H172N2O72P2R
     - charge: -2
     - annotation: !!omap
+      - metanetx.chemical: MNXM9258
       - sbo: SBO:0000247
   - !!omap
     - id: s_3913
@@ -24353,6 +24629,7 @@
     - formula: C50H66N4O29
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM9328
       - sbo: SBO:0000247
   - !!omap
     - id: s_3933
@@ -24458,6 +24735,7 @@
     - charge: -4
     - annotation: !!omap
       - kegg.compound: C19967
+      - metanetx.chemical: MNXM4425
       - sbo: SBO:0000247
   - !!omap
     - id: s_3943
@@ -24467,6 +24745,7 @@
     - charge: -2
     - annotation: !!omap
       - kegg.compound: C19968
+      - metanetx.chemical: MNXM2497
       - sbo: SBO:0000247
   - !!omap
     - id: s_3944
@@ -24972,6 +25251,7 @@
     - formula: C72H122N2O47P2R
     - charge: -2
     - annotation: !!omap
+      - metanetx.chemical: MNXM9262
       - sbo: SBO:0000247
   - !!omap
     - id: s_3994
@@ -24980,6 +25260,7 @@
     - formula: C78H132N2O52P2R
     - charge: -2
     - annotation: !!omap
+      - metanetx.chemical: MNXM9265
       - sbo: SBO:0000247
   - !!omap
     - id: s_3995
@@ -24996,6 +25277,7 @@
     - formula: C90H152N2O62P2R
     - charge: -2
     - annotation: !!omap
+      - metanetx.chemical: MNXM31425
       - sbo: SBO:0000247
   - !!omap
     - id: s_3997
@@ -25047,6 +25329,7 @@
     - formula: C96H162N2O67P2R
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM9336
       - sbo: SBO:0000247
   - !!omap
     - id: s_4002
@@ -25054,6 +25337,7 @@
     - compartment: er
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM7903
       - sbo: SBO:0000247
   - !!omap
     - id: s_4003
@@ -25061,6 +25345,7 @@
     - compartment: er
     - charge: 0
     - annotation: !!omap
+      - metanetx.chemical: MNXM9266
       - sbo: SBO:0000247
   - !!omap
     - id: s_4004
@@ -25179,7 +25464,7 @@
     - annotation: !!omap
       - chebi: CHEBI:58367
       - kegg.compound: C00029
-      - metanetx.chemical: MNXM52
+      - metanetx.chemical: MNXM722710
       - sbo: SBO:0000247
   - !!omap
     - id: s_4016
@@ -26312,7 +26597,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:320061
-      - metanetx.chemical: MNXM61741
+      - metanetx.chemical: MNXM724960
       - sbo: SBO:0000247
   - !!omap
     - id: s_4123
@@ -26344,7 +26629,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:320061
-      - metanetx.chemical: MNXM61741
+      - metanetx.chemical: MNXM724960
       - sbo: SBO:0000247
   - !!omap
     - id: s_4126
