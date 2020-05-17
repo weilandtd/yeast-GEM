@@ -96,7 +96,7 @@ model.rxnNotes(:) = strtrim(model.rxnNotes(:));
 
 %additional changes to rxnNames in r_2117, r_4254 and r_4255
 [~,idx] = ismember('r_4254',model.rxns); %rxnFormula: NADH [cytoplasm] + 2 oxygen [cytoplasm] + 2 nitric oxide [cytoplasm]  -> H+ [cytoplasm] + NAD [cytoplasm] + 2 nitrate [cytoplasm]
-model.rxnNames(idx) = {'nitric oxide, NAD(P)H2:oxygen oxidoreductase'};
+model.rxnNames(idx) = {'nitric oxide, NADH2:oxygen oxidoreductase'};
 [~,idx] = ismember('r_4255',model.rxns); %rxnFormula: NADPH [cytoplasm] + 2 oxygen [cytoplasm] + 2 nitric oxide [cytoplasm]  -> H+ [cytoplasm] + NADP(+) [cytoplasm] + 2 nitrate [cytoplasm]
 model.rxnNames(idx) = {'nitric oxide, NADPH2:oxygen oxidoreductase'};
 [~,idx] = ismember('r_2117',model.rxns); %rxnFormula: L-phenylalanine [cytoplasm] + pyruvate [cytoplasm]  <=> keto-phenylpyruvate [cytoplasm] + L-alanine [cytoplasm]
