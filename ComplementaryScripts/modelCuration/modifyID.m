@@ -119,20 +119,16 @@ for i = 1:length(metNames)
     for j = 1:length(idx_met)
         if ~ismember(newID(i),'[]') && contains(newID(i),'MNXM')
             model.metMetaNetXID(idx_met(j)) = newID(i);
-            if ~ismember(currentID(i),'[]')
-                model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| MNXMID changed from',currentID(i),'to',newID(i),'after new annotation (PR #220)']);
-            else
-                model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| MNXMID',newID(i),'added after new annotation (PR #220)']);
-            end
+        model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| MetaNetX ID curated (PR #220)']);
         elseif ismember(newID(i),'Blank')
             model.metMetaNetXID(idx_met(j)) = {''};
-            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metMetaNetXID',currentID(i),'removed after new annotation (PR #220)']);
+        model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| MetaNetX ID curated (PR #220)']);
         elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'MNXM')
             warning('Check for error in %s under metID curation data of the tsv file', string(met(i)));
         end
         
         if ~ismember(alternativeID(i),'[]') && contains(alternativeID(i),'MNXM')
-            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| alternative MNXMID',alternativeID(i),'found after new annotation (PR #220)']);
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| alternative MetaNetX ID',alternativeID(i),'(PR #220)']);
         elseif ~ismember(alternativeID(i),'[]') && ~contains(alternativeID(i),'MNXM')
             warning('Check for error in %s under metID curation data of the tsv file', string(met(i)));
         end
@@ -152,14 +148,10 @@ for i = 1:length(metNames)
     for j = 1:length(idx_met)
         if ~ismember(newID(i),'[]') && contains(newID(i),'C')
             model.metKEGGID(idx_met(j)) = newID(i);
-            if ~ismember(currentID(i),'[]')
-                model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metKEGGID changed from',currentID(i),'to',newID(i),'after new annotation (PR #220)']);
-            else
-                model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metKEGGID',newID(i),'added after new annotation (PR #220)']);
-            end
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| KEGG ID curated (PR #220)']);
         elseif ismember(newID(i),'Blank')
             model.metKEGGID(idx_met(j)) = {''};
-            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metKEGGID',currentID(i),'removed after new annotation (PR #220)']);
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| KEGG ID curated (PR #220)']);
         elseif ~ismember(newID(i),'[]') && contains(newID(i),'G')
             warning('new KEGGID %s not added as it contains G and does not fulfil SBML format', string(newID(i)));
         elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'C')
@@ -167,7 +159,7 @@ for i = 1:length(metNames)
         end
         
         if ~ismember(alternativeID(i),'[]') && contains(alternativeID(i),'C')
-            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| alternative metKEGGID',alternativeID(i),'added after new annotation (PR #220)']);
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| alternative KEGG ID',alternativeID(i),'(PR #220)']);
         elseif ~ismember(alternativeID(i),'[]') && ~contains(alternativeID(i),'C')
             warning('Check for error in %s under metID curation data of the tsv file', string(met(i)));
         end
@@ -187,20 +179,16 @@ for i = 1:length(metNames)
     for j = 1:length(idx_met)
         if ~ismember(newID(i),'[]') && contains(newID(i),'CHEBI')
             model.metChEBIID(idx_met(j)) = newID(i);
-            if ~ismember(currentID(i),'[]')
-                model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metChEBIID changed from',currentID(i),'to',newID(i),'after new annotation (PR #220)']);
-            else
-                model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metChEBIID',newID(i),'added after new annotation (PR #220)']);
-            end
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| ChEBI curated (PR #220)']);
         elseif ismember(newID(i),'Blank')
             model.metChEBIID(idx_met(j)) = {''};
-            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| metChEBIID',currentID(i),'removed after new annotation (PR #220)']);
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| ChEBI curated (PR #220)']);
         elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'CHEBI')
             warning('Check for error in %s under metID curation data of the tsv file', string(met(i)));
         end
         
         if ~ismember(alternativeID(i),'[]') && contains(alternativeID(i),'CHEBI')
-            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| alternative metChEBIID',alternativeID(i),'added after new annotation (PR #220)']);
+            model.metNotes(idx_met(j)) = join([model.metNotes(idx_met(j)),'| alternative ChEBI',alternativeID(i),'(PR #220)']);
         elseif ~ismember(alternativeID(i),'[]') && ~contains(alternativeID(i),'CHEBI')
             warning('Check for error in %s under metID curation data of the tsv file', string(met(i)));
         end
@@ -209,6 +197,8 @@ end
 
 %remove whitespace(s) when adding notes into rxnNotes
 model.metNotes(:) = strtrim(model.metNotes(:));
-
+% Remove leading '| ' in notes that were previously empty
+model.rxnNotes = regexprep(model.rxnNotes,'^\| ','');
+model.metNotes = regexprep(model.metNotes,'^\| ','');
 %Save model
 saveYeastModel(model);
