@@ -47,21 +47,17 @@ for i = 1:length(currentID)
     %if blank = remove current ID in model
     if ~ismember(newID(i),'[]') && contains(newID(i),'MNXR')
         model.rxnMetaNetXID(idx_rxn) = newID(i);
-        if ~ismember(currentID(i),'[]') && contains(newID(i),'MNXR')
-            model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| MNXRID changed from',currentID(i),'to',newID(i),'after new annotation (PR #220)']);
-        else
-            model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| MNXRID',newID(i),'added after new annotation (PR #220)']);
-        end
+        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| MetaNetX ID curated (PR #220)']);
     elseif ismember(newID(i),'Blank')
         model.rxnMetaNetXID(idx_rxn) = {''};
-        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| MNXRID',currentID(i),'removed after new annotation (PR #220)']);
+        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| MetaNetX ID curated (PR #220)']);
     elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'MNXR')
         warning('Check for error in %s under rxnID curation data of the tsv file', string(rxn(i)));
     end
     
     %Check for alternative ID, if present = add to rxnNotes
     if ~ismember(alternativeID(i),'[]') && contains(alternativeID(i),'MNXR')
-        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| alternative MNXRID',alternativeID(i),'added after new annotation (PR #220)']);
+        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| alternative MetaNetX ID',alternativeID(i),'(PR #220)']);
     elseif ~ismember(alternativeID(i),'[]') && ~contains(alternativeID(i),'MNXR')
         warning('Check for error in %s under rxnID curation data of the tsv file', string(rxn(i)));
     end
@@ -79,21 +75,17 @@ for i = 1:length(currentID)
     %if blank = remove current ID in model
     if ~ismember(newID(i),'[]') && contains(newID(i),'R')
         model.rxnKEGGID(idx_rxn) = newID(i);
-        if ~ismember(currentID(i),'[]') && contains(newID(i),'R')
-            model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| rxnKEGGID changed from',currentID(i),'to',newID(i),'after new annotation (PR #220)']);
-        else
-            model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| rxnKEGGID',newID(i),'added after new annotation (PR #220)']);
-        end
+        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| KEGG ID curated (PR #220)']);
     elseif ismember(newID(i),'Blank')
         model.rxnKEGGID(idx_rxn) = {''};
-        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| rxnKEGGID',currentID(i),'removed after new annotation (PR #220)']);
+        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| KEGG ID curated (PR #220)']);
     elseif ~ismember(newID(i),'[]') && ~contains(newID(i),'R')
         warning('Check for error in %s under rxnID curation data of the tsv file', string(rxn(i)));
     end
     
     %Check for alternative ID, if present = add to rxnNotes
     if ~ismember(alternativeID(i),'[]') && contains(alternativeID(i),'R')
-        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| alternative rxnKEGGID',alternativeID(i),'found after new annotation (PR #220)']);
+        model.rxnNotes(idx_rxn) = join([model.rxnNotes(idx_rxn),'| alternative KEGG ID',alternativeID(i),'(PR #220)']);
     elseif ~ismember(alternativeID(i),'[]') && ~contains(alternativeID(i),'R')
         warning('Check for error in %s under rxnID curation data of the tsv file', string(rxn(i)));
     end
