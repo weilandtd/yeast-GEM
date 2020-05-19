@@ -14646,6 +14646,7 @@
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:32360
+      - kegg.compound: C06425
       - metanetx.chemical: MNXM2976
       - sbo: SBO:0000247
   - !!omap
@@ -23011,6 +23012,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17977
+      - kegg.compound: C02389
       - metanetx.chemical: MNXM7107
       - sbo: SBO:0000247
   - !!omap
@@ -23062,6 +23064,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:78346
+      - kegg.compound: C00117
       - metanetx.chemical: MNXM722712
       - sbo: SBO:0000247
   - !!omap
@@ -23207,6 +23210,7 @@
     - charge: 2
     - annotation: !!omap
       - chebi: CHEBI:48775
+      - kegg.compound: C01413
       - metanetx.chemical: MNXM4505
       - sbo: SBO:0000247
   - !!omap
@@ -23217,6 +23221,7 @@
     - charge: 2
     - annotation: !!omap
       - chebi: CHEBI:48775
+      - kegg.compound: C01413
       - metanetx.chemical: MNXM4505
       - sbo: SBO:0000247
   - !!omap
@@ -23336,6 +23341,7 @@
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:27628
+      - kegg.compound: C06576
       - metanetx.chemical: MNXM5878
       - sbo: SBO:0000247
   - !!omap
@@ -24677,6 +24683,7 @@
     - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:58043
+      - kegg.compound: C00171
       - metanetx.chemical: MNXM80910
       - sbo: SBO:0000247
   - !!omap
@@ -89858,7 +89865,7 @@
     - confidence_score: 2
   - !!omap
     - id: r_4254
-    - name: nitric oxide, NAD(P)H2:oxygen oxidoreductase
+    - name: nitric oxide, NADH2:oxygen oxidoreductase
     - metabolites: !!omap
       - s_0794: 1
       - s_1198: 1

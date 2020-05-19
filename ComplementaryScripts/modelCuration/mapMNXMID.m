@@ -1,7 +1,7 @@
 % This script maps metabolite IDs of different databases to find new MNXMID(s)
 %
 % Inputs: model
-% 
+%
 % New MNXMID(s) will only be added if 1 of the following 3 criteria is met:
 %   a) Both metKEGGID and metChEBIID is mapped to the same MNXMID
 %   b) Only metKEGGID mapped to MNXMID, metFormula of new MNXMID matches model.metFormula 
@@ -15,7 +15,7 @@
 cd ..
 model = loadYeastModel;
 
-%Check for reac_prop.tsv in current directory
+%Check for chem_prop.tsv in current directory
 %If not available, file will be downloaded
 downloadMNXdb('chem_prop',pwd)
 
@@ -70,8 +70,8 @@ idx2 = idx2(idx2~=0);
 matchKEGGChEBI(:,2) = model.metFormulas(idx2); %model.metFormulas
 
 [~,idx3] = ismember(matchKEGGChEBI(:,3),MNXchem_prop(:,1));
-idx3 = idx3(idx3~=0);
-matchKEGGChEBI(:,5) = MNXchem_prop(idx3,3); %metFormula of MNXMID mapped via metChEBIID
+matchKEGGChEBI(:,5) = {''};
+matchKEGGChEBI(idx3~=0,5) = MNXchem_prop(idx3(idx3~=0),3); %metFormula of MNXMID mapped via metChEBIID
 
 [~,idx4] = ismember(xref_metMetaNetX(:,2),xref_metMetaNetX_2(:,2));
 idx4 = idx4(idx4~=0);
@@ -114,8 +114,8 @@ idx2 = idx2(idx2~=0);
 matchChEBI(:,2) = model.metFormulas(idx2); %model.metFormulas
 
 [~,idx3] = ismember(matchChEBI(:,3),MNXchem_prop(:,1));
-idx3 = idx3(idx3~=0);
-matchChEBI(:,5) = MNXchem_prop(idx3,3); %metFormula of MNXMID mapped via metChEBIID
+matchChEBI(:,5) = {''};
+matchChEBI(idx3~=0,5) = MNXchem_prop(idx3(idx3~=0),3); %metFormula of MNXMID mapped via metChEBIID
 
 for i = 1:size(matchChEBI,1)
     if ismember(matchChEBI(i,2),matchChEBI(i,5))
@@ -139,8 +139,8 @@ idx2 = idx2(idx2~=0);
 matchKEGG(:,2) = model.metFormulas(idx2); %model.metFormulas
 
 [~,idx3] = ismember(matchKEGG(:,3),MNXchem_prop(:,1));
-idx3 = idx3(idx3~=0);
-matchKEGG(:,5) = MNXchem_prop(idx3,3); %metFormula of MNXMID mapped via metKEGGID
+matchKEGG(:,5) = {''};
+matchKEGG(idx3~=0,5) = MNXchem_prop(idx3(idx3~=0),3); %metFormula of MNXMID mapped via metKEGGID
 
 for i = 1:size(matchKEGG,1)
     if ismember(matchKEGG(i,2),matchKEGG(i,5))
@@ -154,4 +154,8 @@ end
 
 %Save model
 cd ..
+fileDir = dir('chem_prop.tsv');
+if ~isempty(fileDir)
+    delete('chem_prop.tsv');
+end
 saveYeastModel(model);
