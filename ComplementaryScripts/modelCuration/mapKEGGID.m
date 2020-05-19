@@ -16,7 +16,7 @@ model = loadYeastModel;
 
 %% rxnKEGGID
 %map rxnMetaNetXID to rxnKEGGID via function mapIDsViaMNXref
-cd ./missingFields
+cd missingFields
 xref_rxnKEGG = mapIDsViaMNXref('rxns',model.rxnMetaNetXID,'MetaNetX','KEGG');
 xref_rxnKEGG(:,2) = model.rxns; %match rxnKEGGID with model.rxns
 xref_rxnKEGG(:,3) = model.rxnMetaNetXID; %match rxnKEGGID with model.rxnMetaNetXID

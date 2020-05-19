@@ -20,7 +20,7 @@ model = loadYeastModel;
 downloadMNXdb('chem_prop',pwd)
 
 %Load MNXchem_prop.tsv file containing data on all compounds from MetaNetX database
-fid = fopen('./chem_prop.tsv');
+fid = fopen('chem_prop.tsv');
 format = repmat('%s ',1,9);
 format = strtrim(format);
 met_temp = textscan(fid,format,'Delimiter','\t','HeaderLines',0);
@@ -32,7 +32,7 @@ MNXchem_prop(commentLines,:) = []; %MNX_ID Description Formula Charge Mass InChI
 fclose(fid);
 
 %map metCheBIID to metMetaNetXID via function mapIDsViaMNXref
-cd ./missingFields
+cd missingFields
 temp = replace(model.metChEBIID,'CHEBI:','');
 xref_metMetaNetX = mapIDsViaMNXref('mets',temp,'ChEBI','MetaNetX');
 xref_metMetaNetX(:,2) = model.mets; %match MNXMID with model.mets
