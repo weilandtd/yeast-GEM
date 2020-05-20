@@ -202,3 +202,4 @@ model.rxnNotes = regexprep(model.rxnNotes,'^\| ','');
 model.metNotes = regexprep(model.metNotes,'^\| ','');
 %Save model
 saveYeastModel(model);
+cd modelCuration/

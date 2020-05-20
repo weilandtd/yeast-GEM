@@ -159,3 +159,4 @@ if ~isempty(fileDir)
     delete('chem_prop.tsv');
 end
 saveYeastModel(model);
+cd modelCuration/

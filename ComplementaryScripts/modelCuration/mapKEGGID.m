@@ -311,3 +311,4 @@ end
 %Save model
 cd ..
 saveYeastModel(model);
+cd modelCuration/
