@@ -16,7 +16,6 @@ s_0337[er],amphalmaalglacphmyin
 s_0338[er],almaalmaamphalmaalglacphmyin
 s_0339[er],almaamphalmaalglacphmyin
 s_0414[g],alpdmanbetdman
-s_0450[c],bio
 s_0487[er],cer2a24
 s_0488[g],cer2a24
 s_0489[m],cer2a24
@@ -106,6 +105,7 @@ s_0920[m],ipc424
 s_0921[er],ipc426
 s_0922[g],ipc426
 s_0923[m],ipc426
+s_1096[c],lipid
 s_1114[g],mipc
 s_1116[er],mipc124
 s_1117[g],mipc124
@@ -797,10 +797,7 @@ s_3705[lp],pe160161
 s_3707[lp],pe180161
 s_3708[lp],pe181161
 s_3709[erm],ergstest
-s_3717[c],prote
-s_3718[c],carb
-s_3719[c],rna
-s_3720[c],dna2
+s_3718[c],carbohydrate
 s_3721[g],cer
 s_3722[c],cer
 s_3723[c],mip2c
@@ -968,5 +965,5 @@ s_4131[e],tur
 s_4136[c],3oxa3
 s_4137[e],3oxa3
 s_4187[c],2aceaci
-s_4205[c],cof
+s_4205[c],cofactor
 s_4206[c],ion

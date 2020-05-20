@@ -316,6 +316,7 @@ s_0445[c],hco3
 s_0446[e],hco3
 s_0447[m],hco3
 s_0448[n],hco3
+s_0450[c],biomass
 s_0451[c],btn
 s_0452[e],btn
 s_0453[c],btamp
@@ -753,7 +754,6 @@ s_1080[n],leuktrA4
 s_1081[c],leuktrB4
 s_1082[n],leuktrB4
 s_1085[er],lgnc
-s_1096[c],LIPID
 s_1097[m],lpam
 s_1098[m],lpro
 s_1099[c],lystrna
@@ -1409,6 +1409,9 @@ s_3713[erm],tag_cho
 s_3714[c],hemeA
 s_3715[e],raffin
 s_3716[e],melib
+s_3717[c],protein
+s_3719[c],rna
+s_3720[c],dna
 s_3748[m],cytc
 s_3749[m],apocytc
 s_3750[c],diact
