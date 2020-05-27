@@ -1,7 +1,8 @@
 % This script fixes unbalanced reaction in the model based on data from modMetsandSmatrix.tsv
 % 
 % modMetsandSmatrix.tsv includes details on changes to current metFormula
-% and metCharges, after manual curation of selected unbalanced reactions in the model
+% and metCharges as well modifications of S matrix coefficient,
+% after manual curation of selected unbalanced reactions in the model
 %
 % Inputs: model and modMetsandSmatrix.tsv
 % Note: functions checkMassChargeBalance.m and changerxn.m are required
@@ -28,9 +29,11 @@ fclose(fid);
 brackets = startsWith(curationfile(:,1),'%');
 idx = find(brackets);
 idx_mets = idx(1)+1:idx(2)-1;
+idx_Smatrix = idx(2)+1:idx(3)-1;
 
 %Separate data into various cell arrays
 updatemets = curationfile(idx_mets,1:11);
+updateSmatrix = curationfile(idx_Smatrix,1:9);
 
 %Add 2 new metabolites to model 
 metList = {'trans-4-hydroxy-L-proline [cytoplasm]';'2,3-dihydroxy-3-methylbutanoate [cytoplasm]'};
@@ -129,8 +132,31 @@ for i = 1:length(metNames)
     end
 end
 
-%remove whitespace(s) when adding notes into metNotes
+%Modification of H+/H2O/other metabolite coefficient to balance equation
+temp = erase(updateSmatrix(:,1),'"');
+idx = str2num(char(temp));
+met2 = updateSmatrix(:,2);
+rxn2 = updateSmatrix(:,3);
+[~,idx_rxn2] = ismember(rxn2,model.rxns);
+currentCoef = str2double(updateSmatrix(:,4));
+newCoef = str2double(updateSmatrix(:,5));
+
+for i = 1:length(idx)
+    currentmetCoef = model.S(idx(i,1),idx(i,2));
+    if isequal(currentmetCoef,currentCoef(i)) && ~isnan(newCoef(i))
+        model.S(idx(i,1),idx(i,2)) = newCoef(i);
+        model.rxnNotes(idx_rxn2(i)) = join([model.rxnNotes(idx_rxn2(i)),'| model.S(',...
+                cellstr(string(temp(i))),') curated (PR #222)']);
+        model.rxnNotes(idx_rxn2(i)) = strrep(model.rxnNotes(idx_rxn2(i)),'( ','(');
+        model.rxnNotes(idx_rxn2(i)) = strrep(model.rxnNotes(idx_rxn2(i)),' )',')');
+    elseif ~isequal(currentmetCoef,currentCoef(i))
+        warning('error with metCoef matching in modMetsandSmatrix.tsv for %s, idx_rxn: %d', string(rxn2(i)), idx(i,2));
+    end
+end 
+
+%remove whitespace(s) when adding notes
 model.metNotes(:) = strtrim(model.metNotes(:));
+model.rxnNotes(:) = strtrim(model.rxnNotes(:));
 
 %Check of metFormula/metCharges after change (for updatemets)
 for i = 1:length(metNames)
@@ -163,6 +189,18 @@ for i = 1:length(metNames)
         end
     end
 end
+
+%Check of metBalance/metCharges after change (for updateSmatrix)
+metResults2{length(idx),5} = [];
+for i = 1:length(idx)
+    rxn = updateSmatrix(i,3);
+    MassChargeresults2 = checkMassChargeBalance(model,rxn);
+    metResults2(i,:) = MassChargeresults2;
+end
+
+%Remove leading '| ' in notes that were previously empty
+model.rxnNotes = regexprep(model.rxnNotes,'^\| ','');
+model.metNotes = regexprep(model.metNotes,'^\| ','');
 
 %Save model
 cd ..
