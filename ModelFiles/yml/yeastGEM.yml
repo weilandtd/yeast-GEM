@@ -125,8 +125,8 @@
     - id: s_0013
     - name: (5S,6S)-di-HETE
     - compartment: c
-    - formula: C20H32O4
-    - charge: 0
+    - formula: C20H31O4
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:53026
       - metanetx.chemical: MNXM31306
@@ -135,8 +135,8 @@
     - id: s_0014
     - name: (5S,6S)-di-HETE
     - compartment: n
-    - formula: C20H32O4
-    - charge: 0
+    - formula: C20H31O4
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:53026
       - metanetx.chemical: MNXM31306
@@ -167,8 +167,8 @@
     - id: s_0017
     - name: (R)-4'-phosphopantothenic acid
     - compartment: c
-    - formula: C9H18NO8P
-    - charge: 0
+    - formula: C9H15NO8P
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:15905
       - kegg.compound: C03492
@@ -420,8 +420,8 @@
     - id: s_0042
     - name: (R)-3-hydroxydecanoyl-CoA
     - compartment: p
-    - formula: C31H54N7O18P3S
-    - charge: 0
+    - formula: C31H50N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:28325
       - kegg.compound: C05264
@@ -431,8 +431,8 @@
     - id: s_0045
     - name: (S)-3-hydroxyhexacosanoyl-CoA
     - compartment: p
-    - formula: C47H86N7O18P3S
-    - charge: 0
+    - formula: C47H82N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52976
       - metanetx.chemical: MNXM31741
@@ -441,8 +441,8 @@
     - id: s_0048
     - name: (R)-3-hydroxylauroyl-CoA
     - compartment: p
-    - formula: C33H58N7O18P3S
-    - charge: 0
+    - formula: C33H54N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:27668
       - kegg.compound: C05262
@@ -452,8 +452,8 @@
     - id: s_0051
     - name: (S)-3-hydroxypalmitoyl-CoA
     - compartment: p
-    - formula: C37H66N7O18P3S
-    - charge: 0
+    - formula: C37H62N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:27402
       - kegg.compound: C05258
@@ -463,8 +463,8 @@
     - id: s_0054
     - name: (S)-3-hydroxytetradecanoyl-CoA
     - compartment: p
-    - formula: C35H62N7O18P3S
-    - charge: 0
+    - formula: C35H58N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:27466
       - kegg.compound: C05260
@@ -980,8 +980,8 @@
     - id: s_0142
     - name: 2,5-diamino-6-(5-phosphono)ribitylamino-4(3H)-pyrimidinone
     - compartment: c
-    - formula: C9H18N5O8P
-    - charge: 0
+    - formula: C9H16N5O8P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:52957
       - kegg.compound: C18910
@@ -1035,8 +1035,8 @@
     - id: s_0147
     - name: 2-amino-3-carboxymuconate-6-semialdehyde
     - compartment: c
-    - formula: C7H5NO5
-    - charge: -2
+    - formula: C7H6NO5
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:29044
       - kegg.compound: C04409
@@ -1145,8 +1145,8 @@
     - id: s_0158
     - name: 2-hydroxy-3-oxobutyl phosphate
     - compartment: c
-    - formula: C4H9O6P
-    - charge: 0
+    - formula: C4H7O6P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:50606
       - kegg.compound: C15556
@@ -1502,8 +1502,8 @@
     - id: s_0194
     - name: 3',5'-cyclic dAMP
     - compartment: c
-    - formula: C10H12N5O5P
-    - charge: 0
+    - formula: C10H11N5O5P
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:28074
       - kegg.compound: C00968
@@ -1524,8 +1524,8 @@
     - id: s_0196
     - name: 3',5'-cyclic IMP
     - compartment: c
-    - formula: C10H11N4O7P
-    - charge: 0
+    - formula: C10H10N4O7P
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:27541
       - kegg.compound: C00943
@@ -1678,8 +1678,8 @@
     - id: s_0215
     - name: 3-hexaprenyl-4-hydroxybenzoic acid
     - compartment: c
-    - formula: C37H54O3
-    - charge: 0
+    - formula: C37H53O3
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31116
       - kegg.compound: C13425
@@ -1689,8 +1689,8 @@
     - id: s_0216
     - name: 3-hexaprenyl-4-hydroxybenzoic acid
     - compartment: m
-    - formula: C37H54O3
-    - charge: 0
+    - formula: C37H53O3
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:31116
       - kegg.compound: C13425
@@ -1710,8 +1710,8 @@
     - id: s_0218
     - name: 3-hydroxy-3-methylglutaryl-CoA
     - compartment: c
-    - formula: C27H44N7O20P3S
-    - charge: 0
+    - formula: C27H39N7O20P3S
+    - charge: -5
     - annotation: !!omap
       - chebi: CHEBI:11814
       - kegg.compound: C00356
@@ -1721,8 +1721,8 @@
     - id: s_0221
     - name: 3-hydroxy-3-methylglutaryl-CoA
     - compartment: m
-    - formula: C27H44N7O20P3S
-    - charge: 0
+    - formula: C27H39N7O20P3S
+    - charge: -5
     - annotation: !!omap
       - chebi: CHEBI:11814
       - kegg.compound: C00356
@@ -1754,8 +1754,8 @@
     - id: s_0229
     - name: 3-hydroxyoctadecanoyl-CoA
     - compartment: p
-    - formula: C39H70N7O18P3S
-    - charge: 0
+    - formula: C39H66N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:50583
       - kegg.compound: C16217
@@ -1831,8 +1831,8 @@
     - id: s_0239
     - name: 3-oxodecanoyl-CoA
     - compartment: p
-    - formula: C31H52N7O18P3S
-    - charge: 0
+    - formula: C31H48N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:28528
       - kegg.compound: C05265
@@ -1842,8 +1842,8 @@
     - id: s_0243
     - name: 3-oxohexacosanoyl-CoA
     - compartment: p
-    - formula: C47H84N7O18P3S
-    - charge: 0
+    - formula: C47H80N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52977
       - metanetx.chemical: MNXM36758
@@ -1852,8 +1852,8 @@
     - id: s_0247
     - name: 3-oxolauroyl-CoA
     - compartment: p
-    - formula: C33H56N7O18P3S
-    - charge: 0
+    - formula: C33H52N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:27868
       - kegg.compound: C05263
@@ -1863,8 +1863,8 @@
     - id: s_0250
     - name: 3-oxooctadecanoyl-CoA
     - compartment: p
-    - formula: C39H68N7O18P3S
-    - charge: 0
+    - formula: C39H64N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:50571
       - kegg.compound: C16216
@@ -1885,8 +1885,8 @@
     - id: s_0257
     - name: 3-oxotetradecanoyl-CoA
     - compartment: p
-    - formula: C35H60N7O18P3S
-    - charge: 0
+    - formula: C35H56N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:28726
       - kegg.compound: C05261
@@ -1951,8 +1951,8 @@
     - id: s_0263
     - name: 4,5-bis(diphospho)-1D-myo-inositol tetrakisphosphate
     - compartment: c
-    - formula: C6H20O30P8
-    - charge: 0
+    - formula: C6H7O30P8
+    - charge: -13
     - annotation: !!omap
       - chebi: CHEBI:53066
       - metanetx.chemical: MNXM484827
@@ -1994,8 +1994,8 @@
     - id: s_0269
     - name: 4-amino-4-deoxychorismate
     - compartment: c
-    - formula: C10H9NO5
-    - charge: -2
+    - formula: C10H10NO5
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:35181
       - kegg.compound: C11355
@@ -2071,8 +2071,8 @@
     - id: s_0279
     - name: 4-diphospho-1D-myo-inositol pentakisphosphate
     - compartment: c
-    - formula: C6H19O27P7
-    - charge: 0
+    - formula: C6H6O27P7
+    - charge: -13
     - annotation: !!omap
       - chebi: CHEBI:53064
       - kegg.compound: C11526
@@ -2225,8 +2225,8 @@
     - id: s_0295
     - name: 4-phospho-L-aspartate
     - compartment: c
-    - formula: C4H5NO7P
-    - charge: -3
+    - formula: C4H6NO7P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:30407
       - kegg.compound: C03082
@@ -2247,8 +2247,8 @@
     - id: s_0297
     - name: 4beta-methylzymosterol-4alpha-carboxylic acid
     - compartment: c
-    - formula: C29H46O3
-    - charge: 0
+    - formula: C29H45O3
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:50591
       - kegg.compound: C15808
@@ -2368,8 +2368,8 @@
     - id: s_0308
     - name: 5,6,7,8-tetrahydrofolyl-L-glutamic acid
     - compartment: c
-    - formula: C24H30N8O9
-    - charge: 0
+    - formula: C24H27N8O9
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:27650
       - kegg.compound: C09332
@@ -2379,8 +2379,8 @@
     - id: s_0309
     - name: 5,6-bis(diphospho)-1D-myo-inositol tetrakisphosphate
     - compartment: c
-    - formula: C6H20O30P8
-    - charge: 0
+    - formula: C6H7O30P8
+    - charge: -13
     - annotation: !!omap
       - chebi: CHEBI:52965
       - metanetx.chemical: MNXM487477
@@ -2618,8 +2618,8 @@
     - id: s_0331
     - name: 6-(N-acetyl-alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol
     - compartment: er
-    - formula: C19H29NO18PR2
-    - charge: -1
+    - formula: C19H30NO18PR2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:57265
       - kegg.compound: C01288
@@ -2639,8 +2639,8 @@
     - id: s_0333
     - name: 6-diphospho-1D-myo-inositol pentakisphosphate
     - compartment: c
-    - formula: C6H19O27P7
-    - charge: 0
+    - formula: C6H6O27P7
+    - charge: -13
     - annotation: !!omap
       - chebi: CHEBI:53065
       - kegg.compound: C11526
@@ -2708,8 +2708,8 @@
     - id: s_0341
     - name: 7,8-diaminononanoate
     - compartment: c
-    - formula: C9H19N2O2
-    - charge: -1
+    - formula: C9H21N2O2
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:17830
       - kegg.compound: C01037
@@ -2719,8 +2719,8 @@
     - id: s_0342
     - name: 7,8-diaminononanoate
     - compartment: e
-    - formula: C9H19N2O2
-    - charge: -1
+    - formula: C9H21N2O2
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:17830
       - kegg.compound: C01037
@@ -3082,8 +3082,8 @@
     - id: s_0389
     - name: adenosine 2'-phosphate
     - compartment: c
-    - formula: C10H14N5O7P
-    - charge: 0
+    - formula: C10H12N5O7P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:28223
       - kegg.compound: C00946
@@ -3214,8 +3214,8 @@
     - id: s_0404
     - name: Ala-tRNA(Ala)
     - compartment: c
-    - formula: C3H6NOR
-    - charge: 0
+    - formula: C3H7NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:17732
       - kegg.compound: C00886
@@ -3302,8 +3302,8 @@
     - id: s_0412
     - name: alpha-D-glucosamine 6-phosphate
     - compartment: c
-    - formula: C6H14NO8P
-    - charge: 0
+    - formula: C6H13NO8P
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:15873
       - kegg.compound: C00352
@@ -3313,8 +3313,8 @@
     - id: s_0413
     - name: alpha-D-glucosamine 6-phosphate
     - compartment: e
-    - formula: C6H14NO8P
-    - charge: 0
+    - formula: C6H13NO8P
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:15873
       - kegg.compound: C00352
@@ -3324,7 +3324,7 @@
     - id: s_0414
     - name: alpha-D-mannosyl-beta-D-mannosyldiacetylchitobiosyldiphosphodolichol
     - compartment: g
-    - formula: C38H68N2O27P2
+    - formula: C48H84N2O27P2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28067
@@ -3467,8 +3467,8 @@
     - id: s_0428
     - name: Arg-tRNA(Arg)
     - compartment: c
-    - formula: C6H14N4OR
-    - charge: 0
+    - formula: C6H15N4OR
+    - charge: 2
     - annotation: !!omap
       - chebi: CHEBI:18366
       - kegg.compound: C02163
@@ -3478,8 +3478,8 @@
     - id: s_0429
     - name: Arg-tRNA(Arg)
     - compartment: m
-    - formula: C6H14N4OR
-    - charge: 0
+    - formula: C6H15N4OR
+    - charge: 2
     - annotation: !!omap
       - chebi: CHEBI:18366
       - kegg.compound: C02163
@@ -3489,8 +3489,8 @@
     - id: s_0430
     - name: Asn-tRNA(Asn)
     - compartment: c
-    - formula: C4H7N2O2R
-    - charge: 0
+    - formula: C4H8N2O2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29265
       - kegg.compound: C03402
@@ -3500,8 +3500,8 @@
     - id: s_0431
     - name: Asn-tRNA(Asn)
     - compartment: m
-    - formula: C4H7N2O2R
-    - charge: 0
+    - formula: C4H8N2O2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29265
       - kegg.compound: C03402
@@ -3511,7 +3511,7 @@
     - id: s_0432
     - name: Asp-tRNA(Asp)
     - compartment: c
-    - formula: C4H5NO3R
+    - formula: C4H6NO3R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29158
@@ -3522,7 +3522,7 @@
     - id: s_0433
     - name: Asp-tRNA(Asp)
     - compartment: m
-    - formula: C4H5NO3R
+    - formula: C4H6NO3R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29158
@@ -3610,8 +3610,8 @@
     - id: s_0443
     - name: beta-D-mannosyldiacetylchitobiosyldiphosphodolichol
     - compartment: c
-    - formula: C32H58N2O22P2
-    - charge: 0
+    - formula: C42H72N2O22P2
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:18396
       - kegg.compound: C05860
@@ -3621,8 +3621,8 @@
     - id: s_0444
     - name: beta-D-mannosyldiacetylchitobiosyldiphosphodolichol
     - compartment: g
-    - formula: C32H58N2O22P2
-    - charge: 0
+    - formula: C42H72N2O22P2
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:18396
       - kegg.compound: C05860
@@ -3837,8 +3837,8 @@
     - id: s_0469
     - name: CDP-choline
     - compartment: c
-    - formula: C14H26N4O11P2
-    - charge: 0
+    - formula: C14H25N4O11P2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:16436
       - kegg.compound: C00307
@@ -4180,7 +4180,7 @@
     - id: s_0510
     - name: chitosan
     - compartment: ce
-    - formula: C6H12NO4
+    - formula: C6H11NO4
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16261
@@ -4433,8 +4433,8 @@
     - id: s_0542
     - name: Cys-tRNA(Cys)
     - compartment: c
-    - formula: C3H6NOSR
-    - charge: 0
+    - formula: C3H7NOSR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29152
       - kegg.compound: C03125
@@ -4576,8 +4576,8 @@
     - id: s_0555
     - name: D-fructose 1,6-bisphosphate
     - compartment: c
-    - formula: C6H14O12P2
-    - charge: 0
+    - formula: C6H10O12P2
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:16905
       - kegg.compound: C00354
@@ -4587,8 +4587,8 @@
     - id: s_0556
     - name: D-fructose 1-phosphate
     - compartment: c
-    - formula: C6H13O9P
-    - charge: 0
+    - formula: C6H11O9P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:18105
       - kegg.compound: C01094
@@ -4708,8 +4708,8 @@
     - id: s_0568
     - name: D-glucose 6-phosphate
     - compartment: c
-    - formula: C6H13O9P
-    - charge: 0
+    - formula: C6H11O9P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:14314
       - kegg.compound: C00092
@@ -4752,8 +4752,8 @@
     - id: s_0573
     - name: D-mannose 1-phosphate
     - compartment: c
-    - formula: C6H13O9P
-    - charge: 0
+    - formula: C6H11O9P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:35374
       - kegg.compound: C00636
@@ -4763,8 +4763,8 @@
     - id: s_0574
     - name: D-mannose 6-phosphate
     - compartment: c
-    - formula: C6H13O9P
-    - charge: 0
+    - formula: C6H11O9P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:17369
       - kegg.compound: C00275
@@ -4939,8 +4939,8 @@
     - id: s_0590
     - name: dCTP
     - compartment: c
-    - formula: C9H13N3O13P3
-    - charge: -3
+    - formula: C9H12N3O13P3
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57724
       - kegg.compound: C00458
@@ -4950,8 +4950,8 @@
     - id: s_0591
     - name: deamido-NAD(+)
     - compartment: c
-    - formula: C21H27N6O15P2
-    - charge: 1
+    - formula: C21H24N6O15P2
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:18304
       - kegg.compound: C00857
@@ -4961,8 +4961,8 @@
     - id: s_0593
     - name: deamido-NAD(+)
     - compartment: n
-    - formula: C21H27N6O15P2
-    - charge: 1
+    - formula: C21H24N6O15P2
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:18304
       - kegg.compound: C00857
@@ -5016,8 +5016,8 @@
     - id: s_0606
     - name: decaprenyl diphosphate
     - compartment: lp
-    - formula: C50H84O7P2
-    - charge: 0
+    - formula: C50H81O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53043
       - kegg.compound: C17432
@@ -5038,8 +5038,8 @@
     - id: s_0608
     - name: Delta(6)-trans,Delta(8)-cis-leukotriene B4
     - compartment: c
-    - formula: C20H32O4
-    - charge: 0
+    - formula: C20H31O4
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:53027
       - metanetx.chemical: MNXM507621
@@ -5048,8 +5048,8 @@
     - id: s_0609
     - name: Delta(6)-trans,Delta(8)-cis-leukotriene B4
     - compartment: n
-    - formula: C20H32O4
-    - charge: 0
+    - formula: C20H31O4
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:53027
       - metanetx.chemical: MNXM507621
@@ -5135,8 +5135,8 @@
     - id: s_0617
     - name: dGTP
     - compartment: c
-    - formula: C10H13N5O13P3
-    - charge: -3
+    - formula: C10H12N5O13P3
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57794
       - kegg.compound: C00286
@@ -5146,8 +5146,8 @@
     - id: s_0618
     - name: dIDP
     - compartment: c
-    - formula: C10H14N4O10P2
-    - charge: 0
+    - formula: C10H11N4O10P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:28823
       - kegg.compound: C01344
@@ -5200,7 +5200,7 @@
     - id: s_0628
     - name: dihydrolipoylprotein
     - compartment: m
-    - formula: C8H15OS2R
+    - formula: C8H16NOS2R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16194
@@ -5310,8 +5310,8 @@
     - id: s_0640
     - name: docosaprenyl diphosphate
     - compartment: lp
-    - formula: C110H180O7P2
-    - charge: 0
+    - formula: C110H177O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53031
       - metanetx.chemical: MNXM51449
@@ -5320,8 +5320,8 @@
     - id: s_0641
     - name: dodecaprenyl diphosphate
     - compartment: lp
-    - formula: C60H100O7P2
-    - charge: 0
+    - formula: C60H97O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53041
       - kegg.compound: C05847
@@ -5386,8 +5386,8 @@
     - id: s_0649
     - name: dTMP
     - compartment: c
-    - formula: C10H15N2O8P
-    - charge: 0
+    - formula: C10H13N2O8P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:17013
       - kegg.compound: C00364
@@ -5397,8 +5397,8 @@
     - id: s_0650
     - name: dTTP
     - compartment: c
-    - formula: C10H14N2O14P3
-    - charge: -3
+    - formula: C10H13N2O14P3
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:58370
       - kegg.compound: C00459
@@ -5408,8 +5408,8 @@
     - id: s_0651
     - name: dTTP
     - compartment: e
-    - formula: C10H14N2O14P3
-    - charge: -3
+    - formula: C10H13N2O14P3
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:58370
       - kegg.compound: C00459
@@ -5463,8 +5463,8 @@
     - id: s_0656
     - name: dUTP
     - compartment: c
-    - formula: C9H12N2O14P3
-    - charge: -3
+    - formula: C9H11N2O14P3
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:58212
       - kegg.compound: C00460
@@ -5604,8 +5604,8 @@
     - id: s_0677
     - name: erythro-4-hydroxy-L-glutamic acid
     - compartment: c
-    - formula: C5H9NO5
-    - charge: 0
+    - formula: C5H8NO5
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:21285
       - kegg.compound: C05947
@@ -5615,8 +5615,8 @@
     - id: s_0678
     - name: erythro-4-hydroxy-L-glutamic acid
     - compartment: m
-    - formula: C5H9NO5
-    - charge: 0
+    - formula: C5H8NO5
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:21285
       - kegg.compound: C05947
@@ -5626,8 +5626,8 @@
     - id: s_0679
     - name: erythro-4-hydroxy-L-glutamic acid
     - compartment: p
-    - formula: C5H9NO5
-    - charge: 0
+    - formula: C5H8NO5
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:21285
       - kegg.compound: C05947
@@ -5834,7 +5834,7 @@
     - id: s_0710
     - name: ferrocytochrome c
     - compartment: m
-    - formula: C42H44FeN8O8S2R4
+    - formula: C42H45FeN8O8S2R4
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16928
@@ -6131,8 +6131,8 @@
     - id: s_0747
     - name: Gln-tRNA(Gln)
     - compartment: c
-    - formula: C5H9N2O2R
-    - charge: 0
+    - formula: C5H10N2O2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29166
       - kegg.compound: C02282
@@ -6142,7 +6142,7 @@
     - id: s_0748
     - name: Glu-tRNA(Glu)
     - compartment: c
-    - formula: C5H7NO3R
+    - formula: C5H8NO3R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29157
@@ -6153,7 +6153,7 @@
     - id: s_0749
     - name: Glu-tRNA(Glu)
     - compartment: m
-    - formula: C5H7NO3R
+    - formula: C5H8NO3R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29157
@@ -6241,8 +6241,8 @@
     - id: s_0757
     - name: Gly-tRNA(Gly)
     - compartment: c
-    - formula: C2H4NOR
-    - charge: 0
+    - formula: C2H5NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29156
       - kegg.compound: C02412
@@ -6329,7 +6329,7 @@
     - id: s_0773
     - name: glycogen
     - compartment: c
-    - formula: C6H12O6
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28087
@@ -6340,7 +6340,7 @@
     - id: s_0774
     - name: glycogen
     - compartment: v
-    - formula: C6H12O6
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28087
@@ -6439,8 +6439,8 @@
     - id: s_0785
     - name: GTP
     - compartment: c
-    - formula: C10H13N5O14P3
-    - charge: -3
+    - formula: C10H12N5O14P3
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57600
       - kegg.compound: C00044
@@ -6450,8 +6450,8 @@
     - id: s_0786
     - name: GTP
     - compartment: m
-    - formula: C10H13N5O14P3
-    - charge: -3
+    - formula: C10H12N5O14P3
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:57600
       - kegg.compound: C00044
@@ -6725,8 +6725,8 @@
     - id: s_0811
     - name: heme a
     - compartment: m
-    - formula: C49H56FeN4O6
-    - charge: 0
+    - formula: C49H55FeN4O6
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:24479
       - kegg.compound: C15670
@@ -6736,8 +6736,8 @@
     - id: s_0812
     - name: heme o
     - compartment: m
-    - formula: C49H58FeN4O5
-    - charge: 0
+    - formula: C49H56FeN4O5
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:24480
       - kegg.compound: C15672
@@ -6747,8 +6747,8 @@
     - id: s_0813
     - name: henicosaprenyl diphosphate
     - compartment: lp
-    - formula: C105H172O7P2
-    - charge: 0
+    - formula: C105H169O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53032
       - metanetx.chemical: MNXM56060
@@ -6757,8 +6757,8 @@
     - id: s_0814
     - name: heptadecaprenyl diphosphate
     - compartment: lp
-    - formula: C85H140O7P2
-    - charge: 0
+    - formula: C85H137O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53036
       - metanetx.chemical: MNXM56121
@@ -6767,8 +6767,8 @@
     - id: s_0815
     - name: heptaprenyl diphosphate
     - compartment: lp
-    - formula: C35H60O7P2
-    - charge: 0
+    - formula: C35H57O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53046
       - kegg.compound: C04216
@@ -6778,8 +6778,8 @@
     - id: s_0816
     - name: hexacosanoyl-CoA
     - compartment: c
-    - formula: C47H86N7O17P3S
-    - charge: 0
+    - formula: C47H82N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52966
       - metanetx.chemical: MNXM1190
@@ -6788,8 +6788,8 @@
     - id: s_0817
     - name: hexacosanoyl-CoA
     - compartment: er
-    - formula: C47H86N7O17P3S
-    - charge: 0
+    - formula: C47H82N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52966
       - metanetx.chemical: MNXM1190
@@ -6798,8 +6798,8 @@
     - id: s_0819
     - name: hexacosanoyl-CoA
     - compartment: p
-    - formula: C47H86N7O17P3S
-    - charge: 0
+    - formula: C47H82N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52966
       - metanetx.chemical: MNXM1190
@@ -6808,8 +6808,8 @@
     - id: s_0823
     - name: hexadec-2-enoyl-CoA
     - compartment: p
-    - formula: C37H64N7O17P3S
-    - charge: 0
+    - formula: C37H60N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - kegg.compound: C05272
       - metanetx.chemical: MNXM581
@@ -6840,8 +6840,8 @@
     - id: s_0829
     - name: hexadecaprenyl diphosphate
     - compartment: lp
-    - formula: C80H132O7P2
-    - charge: 0
+    - formula: C80H129O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53037
       - metanetx.chemical: MNXM56347
@@ -6850,8 +6850,8 @@
     - id: s_0830
     - name: hexaprenyl diphosphate
     - compartment: lp
-    - formula: C30H52O7P2
-    - charge: 0
+    - formula: C30H49O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53047
       - kegg.compound: C01230
@@ -6861,8 +6861,8 @@
     - id: s_0831
     - name: hexaprenyl diphosphate
     - compartment: m
-    - formula: C30H52O7P2
-    - charge: 0
+    - formula: C30H49O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53047
       - kegg.compound: C01230
@@ -6872,8 +6872,8 @@
     - id: s_0832
     - name: His-tRNA(His)
     - compartment: c
-    - formula: C6H8N3OR
-    - charge: 0
+    - formula: C6H9N3OR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29155
       - kegg.compound: C02988
@@ -6883,8 +6883,8 @@
     - id: s_0833
     - name: His-tRNA(His)
     - compartment: m
-    - formula: C6H8N3OR
-    - charge: 0
+    - formula: C6H9N3OR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29155
       - kegg.compound: C02988
@@ -7004,8 +7004,8 @@
     - id: s_0845
     - name: icosaprenyl diphosphate
     - compartment: lp
-    - formula: C100H164O7P2
-    - charge: 0
+    - formula: C100H161O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53033
       - metanetx.chemical: MNXM57076
@@ -7025,8 +7025,8 @@
     - id: s_0847
     - name: Ile-tRNA(Ile)
     - compartment: c
-    - formula: C6H12NOR
-    - charge: 0
+    - formula: C6H13NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29160
       - kegg.compound: C03127
@@ -7036,8 +7036,8 @@
     - id: s_0848
     - name: Ile-tRNA(Ile)
     - compartment: m
-    - formula: C6H12NOR
-    - charge: 0
+    - formula: C6H13NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29160
       - kegg.compound: C03127
@@ -8134,8 +8134,8 @@
     - id: s_0960
     - name: L-alpha-formylglycine
     - compartment: c
-    - formula: C3H4NO3
-    - charge: -1
+    - formula: C3H5NO3
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:58671
       - kegg.compound: C11822
@@ -8431,8 +8431,8 @@
     - id: s_0987
     - name: L-gamma-glutamyl-L-alanine
     - compartment: c
-    - formula: C8H14N2O5
-    - charge: 0
+    - formula: C8H13N2O5
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:50619
       - kegg.compound: C03738
@@ -9278,8 +9278,8 @@
     - id: s_1077
     - name: Leu-tRNA(Leu)
     - compartment: c
-    - formula: C6H12NOR
-    - charge: 0
+    - formula: C6H13NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:16624
       - kegg.compound: C02047
@@ -9289,8 +9289,8 @@
     - id: s_1078
     - name: Leu-tRNA(Leu)
     - compartment: m
-    - formula: C6H12NOR
-    - charge: 0
+    - formula: C6H13NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:16624
       - kegg.compound: C02047
@@ -9376,7 +9376,7 @@
     - id: s_1098
     - name: lipoylprotein
     - compartment: m
-    - formula: C12H18N2O4S2R2
+    - formula: C8H14NOS2R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15804
@@ -9387,8 +9387,8 @@
     - id: s_1099
     - name: Lys-tRNA(Lys)
     - compartment: c
-    - formula: C6H14N2OR
-    - charge: 0
+    - formula: C6H15N2OR
+    - charge: 2
     - annotation: !!omap
       - chebi: CHEBI:16047
       - kegg.compound: C01931
@@ -9398,8 +9398,8 @@
     - id: s_1100
     - name: Lys-tRNA(Lys)
     - compartment: m
-    - formula: C6H14N2OR
-    - charge: 0
+    - formula: C6H15N2OR
+    - charge: 2
     - annotation: !!omap
       - chebi: CHEBI:16047
       - kegg.compound: C01931
@@ -9453,7 +9453,7 @@
     - id: s_1107
     - name: mannan
     - compartment: c
-    - formula: C6H12O6
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28808
@@ -9464,7 +9464,7 @@
     - id: s_1108
     - name: mannan
     - compartment: er
-    - formula: C6H12O6
+    - formula: C6H10O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28808
@@ -9824,8 +9824,8 @@
     - id: s_1148
     - name: Met-tRNA(Met)
     - compartment: c
-    - formula: C5H10NOSR
-    - charge: 0
+    - formula: C5H11NOSR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:16635
       - kegg.compound: C02430
@@ -9835,8 +9835,8 @@
     - id: s_1149
     - name: Met-tRNA(Met)
     - compartment: m
-    - formula: C5H10NOSR
-    - charge: 0
+    - formula: C5H11NOSR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:16635
       - kegg.compound: C02430
@@ -10033,8 +10033,8 @@
     - id: s_1184
     - name: N,N'-diacetylchitobiosyldiphosphodolichol
     - compartment: c
-    - formula: C36H64N2O17P2
-    - charge: 0
+    - formula: C36H62N2O17P2
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:12427
       - kegg.compound: C04537
@@ -10044,8 +10044,8 @@
     - id: s_1185
     - name: N,N'-diformyldityrosine
     - compartment: c
-    - formula: C20H20N2O8
-    - charge: 0
+    - formula: C20H22N2O8
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:50611
       - metanetx.chemical: MNXM147516
@@ -10054,8 +10054,8 @@
     - id: s_1186
     - name: N,N'-diformyldityrosine
     - compartment: e
-    - formula: C20H20N2O8
-    - charge: 0
+    - formula: C20H22N2O8
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:50611
       - metanetx.chemical: MNXM147516
@@ -10086,8 +10086,8 @@
     - id: s_1189
     - name: N-acetyl-alpha-D-glucosamine 1-phosphate
     - compartment: c
-    - formula: C8H16NO9P
-    - charge: 0
+    - formula: C8H14NO9P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:16446
       - kegg.compound: C04501
@@ -10163,8 +10163,8 @@
     - id: s_1196
     - name: N-formyl-L-tyrosine
     - compartment: c
-    - formula: C10H11NO4
-    - charge: 0
+    - formula: C10H10NO4
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:50603
       - metanetx.chemical: MNXM63755
@@ -10492,8 +10492,8 @@
     - id: s_1229
     - name: nonadecaprenyl diphosphate
     - compartment: lp
-    - formula: C95H156O7P2
-    - charge: 0
+    - formula: C95H153O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53034
       - metanetx.chemical: MNXM64863
@@ -10502,8 +10502,8 @@
     - id: s_1230
     - name: nonaprenyl 4-hydroxybenzoate
     - compartment: c
-    - formula: C52H78O3
-    - charge: 0
+    - formula: C52H77O3
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:18162
       - kegg.compound: C03885
@@ -10513,8 +10513,8 @@
     - id: s_1231
     - name: nonaprenyl diphosphate
     - compartment: c
-    - formula: C45H76O7P2
-    - charge: 0
+    - formula: C45H73O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53044
       - kegg.compound: C04145
@@ -10524,8 +10524,8 @@
     - id: s_1232
     - name: nonaprenyl diphosphate
     - compartment: lp
-    - formula: C45H76O7P2
-    - charge: 0
+    - formula: C45H73O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53044
       - kegg.compound: C04145
@@ -10634,8 +10634,8 @@
     - id: s_1246
     - name: octadecaprenyl diphosphate
     - compartment: lp
-    - formula: C90H148O7P2
-    - charge: 0
+    - formula: C90H145O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53035
       - metanetx.chemical: MNXM65303
@@ -10699,8 +10699,8 @@
     - id: s_1259
     - name: octaprenyl diphosphate
     - compartment: lp
-    - formula: C40H68O7P2
-    - charge: 0
+    - formula: C40H65O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53045
       - kegg.compound: C04146
@@ -10919,8 +10919,8 @@
     - id: s_1284
     - name: P1-(5'-adenosyl),P4-(5'-guanosyl) tetraphosphate
     - compartment: c
-    - formula: C20H28N10O20P4
-    - charge: 0
+    - formula: C20H24N10O20P4
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52968
       - metanetx.chemical: MNXM66180
@@ -11050,7 +11050,7 @@
     - id: s_1309
     - name: pectin
     - compartment: e
-    - formula: C6H8O6
+    - formula: C6H7O6
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17309
@@ -11061,8 +11061,8 @@
     - id: s_1310
     - name: pentadecaprenyl diphosphate
     - compartment: lp
-    - formula: C75H124O7P2
-    - charge: 0
+    - formula: C75H121O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53038
       - metanetx.chemical: MNXM73155
@@ -11071,8 +11071,8 @@
     - id: s_1311
     - name: pentaprenyl diphosphate
     - compartment: c
-    - formula: C25H44O7P2
-    - charge: 0
+    - formula: C25H41O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53048
       - kegg.compound: C04217
@@ -11082,8 +11082,8 @@
     - id: s_1312
     - name: pentaprenyl diphosphate
     - compartment: lp
-    - formula: C25H44O7P2
-    - charge: 0
+    - formula: C25H41O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53048
       - kegg.compound: C04217
@@ -11093,8 +11093,8 @@
     - id: s_1313
     - name: pentaprenyl diphosphate
     - compartment: m
-    - formula: C25H44O7P2
-    - charge: 0
+    - formula: C25H41O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53048
       - kegg.compound: C04217
@@ -11104,8 +11104,8 @@
     - id: s_1314
     - name: Phe-tRNA(Phe)
     - compartment: c
-    - formula: C9H10NOR
-    - charge: 0
+    - formula: C9H11NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29153
       - kegg.compound: C03511
@@ -11115,8 +11115,8 @@
     - id: s_1315
     - name: Phe-tRNA(Phe)
     - compartment: m
-    - formula: C9H10NOR
-    - charge: 0
+    - formula: C9H11NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29153
       - kegg.compound: C03511
@@ -11324,8 +11324,8 @@
     - id: s_1364
     - name: phosphoribosyl-carboxy-aminoimidazole
     - compartment: c
-    - formula: C9H11N3O9P
-    - charge: -3
+    - formula: C9H12N3O9P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:58564
       - kegg.compound: C04751
@@ -11346,8 +11346,8 @@
     - id: s_1366
     - name: phytosphingosine
     - compartment: er
-    - formula: C18H39NO3
-    - charge: 0
+    - formula: C18H40NO3
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:46961
       - kegg.compound: C12144
@@ -11357,8 +11357,8 @@
     - id: s_1367
     - name: phytosphingosine 1-phosphate
     - compartment: er
-    - formula: C18H40NO6P
-    - charge: 0
+    - formula: C18H39NO6P
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:46970
       - metanetx.chemical: MNXM3337
@@ -11466,8 +11466,8 @@
     - id: s_1379
     - name: Pro-tRNA(Pro)
     - compartment: c
-    - formula: C5H8NOR
-    - charge: 0
+    - formula: C5H9NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29154
       - kegg.compound: C02702
@@ -11752,8 +11752,8 @@
     - id: s_1408
     - name: ribose-5-phosphate
     - compartment: c
-    - formula: C5H11O8P
-    - charge: 0
+    - formula: C5H9O8P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:18189
       - kegg.compound: C03736
@@ -11763,8 +11763,8 @@
     - id: s_1409
     - name: S(8)-aminomethyldihydrolipoamide
     - compartment: m
-    - formula: C9H20N2OS2
-    - charge: 0
+    - formula: C9H21N2OS2
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:50622
       - metanetx.chemical: MNXM81220
@@ -11773,7 +11773,7 @@
     - id: s_1410
     - name: S(8)-aminomethyldihydrolipoylprotein
     - compartment: m
-    - formula: C9H18NOS2R
+    - formula: C9H19N2OS2R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:16882
@@ -11784,8 +11784,8 @@
     - id: s_1411
     - name: S(8)-succinyldihydrolipoamide
     - compartment: m
-    - formula: C12H21NO4S2
-    - charge: 0
+    - formula: C12H20NO4S2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:17432
       - kegg.compound: C01169
@@ -11949,8 +11949,8 @@
     - id: s_1428
     - name: Ser-tRNA(Ser)
     - compartment: c
-    - formula: C3H6NO2R
-    - charge: 0
+    - formula: C3H7NO2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29162
       - kegg.compound: C02553
@@ -12301,8 +12301,8 @@
     - id: s_1469
     - name: sulphite
     - compartment: c
-    - formula: HO3S
-    - charge: -1
+    - formula: O3S
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:17137
       - kegg.compound: C11481
@@ -12312,8 +12312,8 @@
     - id: s_1470
     - name: sulphite
     - compartment: e
-    - formula: HO3S
-    - charge: -1
+    - formula: O3S
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:17137
       - kegg.compound: C11481
@@ -12367,8 +12367,8 @@
     - id: s_1475
     - name: TDP
     - compartment: c
-    - formula: C12H18N4O7P2S
-    - charge: 0
+    - formula: C12H16N4O7P2S
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:45931
       - kegg.compound: C00068
@@ -12378,8 +12378,8 @@
     - id: s_1476
     - name: TDP
     - compartment: e
-    - formula: C12H18N4O7P2S
-    - charge: 0
+    - formula: C12H16N4O7P2S
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:45931
       - kegg.compound: C00068
@@ -12389,8 +12389,8 @@
     - id: s_1477
     - name: TDP
     - compartment: m
-    - formula: C12H18N4O7P2S
-    - charge: 0
+    - formula: C12H16N4O7P2S
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:45931
       - kegg.compound: C00068
@@ -12400,8 +12400,8 @@
     - id: s_1479
     - name: tetracosanoyl-CoA
     - compartment: c
-    - formula: C45H82N7O17P3S
-    - charge: 0
+    - formula: C45H78N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52974
       - kegg.compound: C16529
@@ -12411,8 +12411,8 @@
     - id: s_1480
     - name: tetracosanoyl-CoA
     - compartment: er
-    - formula: C45H82N7O17P3S
-    - charge: 0
+    - formula: C45H78N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52974
       - kegg.compound: C16529
@@ -12422,8 +12422,8 @@
     - id: s_1482
     - name: tetracosanoyl-CoA
     - compartment: p
-    - formula: C45H82N7O17P3S
-    - charge: 0
+    - formula: C45H78N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52974
       - kegg.compound: C16529
@@ -12433,8 +12433,8 @@
     - id: s_1483
     - name: tetradecaprenyl diphosphate
     - compartment: lp
-    - formula: C70H116O7P2
-    - charge: 0
+    - formula: C70H113O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53039
       - metanetx.chemical: MNXM83846
@@ -12454,8 +12454,8 @@
     - id: s_1487
     - name: THF
     - compartment: c
-    - formula: C19H23N7O6
-    - charge: 0
+    - formula: C19H21N7O6
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:20506
       - kegg.compound: C00101
@@ -12465,8 +12465,8 @@
     - id: s_1488
     - name: THF
     - compartment: m
-    - formula: C19H23N7O6
-    - charge: 0
+    - formula: C19H21N7O6
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:20506
       - kegg.compound: C00101
@@ -12498,8 +12498,8 @@
     - id: s_1491
     - name: Thr-tRNA(Thr)
     - compartment: c
-    - formula: C4H8NO2R
-    - charge: 0
+    - formula: C4H9NO2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29163
       - kegg.compound: C02992
@@ -12509,8 +12509,8 @@
     - id: s_1492
     - name: Thr-tRNA(Thr)
     - compartment: m
-    - formula: C4H8NO2R
-    - charge: 0
+    - formula: C4H9NO2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29163
       - kegg.compound: C02992
@@ -12542,8 +12542,8 @@
     - id: s_1497
     - name: TMP
     - compartment: c
-    - formula: C12H18N4O4PS
-    - charge: 1
+    - formula: C12H16N4O4PS
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:9533
       - kegg.compound: C01081
@@ -12553,8 +12553,8 @@
     - id: s_1498
     - name: TMP
     - compartment: e
-    - formula: C12H18N4O4PS
-    - charge: 1
+    - formula: C12H16N4O4PS
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:9533
       - kegg.compound: C01081
@@ -12608,8 +12608,8 @@
     - id: s_1513
     - name: trans-hexacos-2-enoyl-CoA
     - compartment: p
-    - formula: C47H84N7O17P3S
-    - charge: 0
+    - formula: C47H80N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52975
       - metanetx.chemical: MNXM114303
@@ -12618,8 +12618,8 @@
     - id: s_1516
     - name: trans-octadec-2-enoyl-CoA
     - compartment: p
-    - formula: C39H68N7O17P3S
-    - charge: 0
+    - formula: C39H64N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:50570
       - kegg.compound: C16218
@@ -12673,8 +12673,8 @@
     - id: s_1523
     - name: tridecaprenyl diphosphate
     - compartment: lp
-    - formula: C65H108O7P2
-    - charge: 0
+    - formula: C65H105O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53040
       - metanetx.chemical: MNXM5721
@@ -12705,8 +12705,8 @@
     - id: s_1527
     - name: Trp-tRNA(Trp)
     - compartment: c
-    - formula: C11H11N2OR
-    - charge: 0
+    - formula: C11H12N2OR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29159
       - kegg.compound: C03512
@@ -12716,8 +12716,8 @@
     - id: s_1528
     - name: Trp-tRNA(Trp)
     - compartment: m
-    - formula: C11H11N2OR
-    - charge: 0
+    - formula: C11H12N2OR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29159
       - kegg.compound: C03512
@@ -12771,8 +12771,8 @@
     - id: s_1533
     - name: Tyr-tRNA(Tyr)
     - compartment: c
-    - formula: C9H10NO2R
-    - charge: 0
+    - formula: C9H11NO2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29161
       - kegg.compound: C02839
@@ -12782,8 +12782,8 @@
     - id: s_1534
     - name: Tyr-tRNA(Tyr)
     - compartment: m
-    - formula: C9H10NO2R
-    - charge: 0
+    - formula: C9H11NO2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29161
       - kegg.compound: C02839
@@ -12936,8 +12936,8 @@
     - id: s_1549
     - name: undecaprenyl diphosphate
     - compartment: lp
-    - formula: C55H92O7P2
-    - charge: 0
+    - formula: C55H89O7P2
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:53042
       - kegg.compound: C03543
@@ -13002,8 +13002,8 @@
     - id: s_1555
     - name: ureidoglycolic acid
     - compartment: c
-    - formula: C3H6N2O4
-    - charge: 0
+    - formula: C3H5N2O4
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:49050
       - kegg.compound: C05241
@@ -13068,8 +13068,8 @@
     - id: s_1561
     - name: Val-tRNA(Val)
     - compartment: c
-    - formula: C5H10NOR
-    - charge: 0
+    - formula: C5H11NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29164
       - kegg.compound: C02554
@@ -13079,8 +13079,8 @@
     - id: s_1562
     - name: Val-tRNA(Val)
     - compartment: m
-    - formula: C5H10NOR
-    - charge: 0
+    - formula: C5H11NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29164
       - kegg.compound: C02554
@@ -13209,8 +13209,8 @@
     - id: s_1578
     - name: zymosterol intermediate 1c
     - compartment: c
-    - formula: C29H46O2
-    - charge: 0
+    - formula: C28H43O3
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:52389
       - metanetx.chemical: MNXM89471
@@ -13229,7 +13229,8 @@
     - id: s_1582
     - name: tRNA(Ala)
     - compartment: c
-    - formula: R
+    - formula: RH
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29170
       - kegg.compound: C01635
@@ -13239,7 +13240,7 @@
     - id: s_1583
     - name: tRNA(Arg)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29171
@@ -13250,7 +13251,7 @@
     - id: s_1584
     - name: tRNA(Arg)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29171
@@ -13261,7 +13262,7 @@
     - id: s_1585
     - name: tRNA(Asn)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29172
@@ -13272,7 +13273,7 @@
     - id: s_1586
     - name: tRNA(Asn)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29172
@@ -13283,7 +13284,7 @@
     - id: s_1587
     - name: tRNA(Asp)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29186
@@ -13294,7 +13295,7 @@
     - id: s_1588
     - name: tRNA(Asp)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29186
@@ -13305,7 +13306,8 @@
     - id: s_1589
     - name: tRNA(Cys)
     - compartment: c
-    - formula: R
+    - formula: RH
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29167
       - kegg.compound: C01639
@@ -13315,7 +13317,8 @@
     - id: s_1590
     - name: tRNA(Gln)
     - compartment: c
-    - formula: R
+    - formula: RH
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29168
       - kegg.compound: C01640
@@ -13325,7 +13328,7 @@
     - id: s_1591
     - name: tRNA(Glu)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29175
@@ -13336,7 +13339,7 @@
     - id: s_1592
     - name: tRNA(Glu)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29175
@@ -13347,7 +13350,8 @@
     - id: s_1593
     - name: tRNA(Gly)
     - compartment: c
-    - formula: R
+    - formula: RH
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29176
       - kegg.compound: C01642
@@ -13357,7 +13361,7 @@
     - id: s_1594
     - name: tRNA(His)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29178
@@ -13368,7 +13372,7 @@
     - id: s_1595
     - name: tRNA(His)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29178
@@ -13379,7 +13383,7 @@
     - id: s_1596
     - name: tRNA(Ile)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29174
@@ -13390,7 +13394,7 @@
     - id: s_1597
     - name: tRNA(Ile)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29174
@@ -13401,7 +13405,7 @@
     - id: s_1598
     - name: tRNA(Leu)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29169
@@ -13412,7 +13416,7 @@
     - id: s_1599
     - name: tRNA(Leu)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29169
@@ -13423,7 +13427,7 @@
     - id: s_1600
     - name: tRNA(Lys)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29185
@@ -13434,7 +13438,7 @@
     - id: s_1601
     - name: tRNA(Lys)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29185
@@ -13445,7 +13449,7 @@
     - id: s_1602
     - name: tRNA(Met)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29173
@@ -13456,7 +13460,7 @@
     - id: s_1603
     - name: tRNA(Met)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29173
@@ -13467,7 +13471,7 @@
     - id: s_1604
     - name: tRNA(Phe)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29184
@@ -13478,7 +13482,7 @@
     - id: s_1605
     - name: tRNA(Phe)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29184
@@ -13489,7 +13493,8 @@
     - id: s_1606
     - name: tRNA(Pro)
     - compartment: c
-    - formula: R
+    - formula: RH
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29177
       - kegg.compound: C01649
@@ -13499,7 +13504,8 @@
     - id: s_1607
     - name: tRNA(Ser)
     - compartment: c
-    - formula: R
+    - formula: RH
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29179
       - kegg.compound: C01650
@@ -13509,7 +13515,7 @@
     - id: s_1608
     - name: tRNA(Thr)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29180
@@ -13520,7 +13526,7 @@
     - id: s_1609
     - name: tRNA(Thr)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29180
@@ -13531,7 +13537,7 @@
     - id: s_1610
     - name: tRNA(Trp)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29181
@@ -13542,7 +13548,7 @@
     - id: s_1611
     - name: tRNA(Trp)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29181
@@ -13553,7 +13559,7 @@
     - id: s_1612
     - name: tRNA(Tyr)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29182
@@ -13564,7 +13570,7 @@
     - id: s_1613
     - name: tRNA(Tyr)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29182
@@ -13575,7 +13581,7 @@
     - id: s_1614
     - name: tRNA(Val)
     - compartment: c
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29183
@@ -13586,7 +13592,7 @@
     - id: s_1615
     - name: tRNA(Val)
     - compartment: m
-    - formula: R
+    - formula: RH
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29183
@@ -13597,7 +13603,7 @@
     - id: s_1616
     - name: TRX1
     - compartment: c
-    - formula: C6H9NO2S2R2
+    - formula: C6H10N2O2S2R2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15033
@@ -13608,7 +13614,7 @@
     - id: s_1617
     - name: TRX1
     - compartment: m
-    - formula: C6H9NO2S2R2
+    - formula: C6H10N2O2S2R2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15033
@@ -13619,7 +13625,7 @@
     - id: s_1618
     - name: TRX1
     - compartment: n
-    - formula: C6H9NO2S2R2
+    - formula: C6H10N2O2S2R2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15033
@@ -13630,7 +13636,7 @@
     - id: s_1619
     - name: TRX1
     - compartment: p
-    - formula: C6H9NO2S2R2
+    - formula: C6H10N2O2S2R2
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:15033
@@ -13641,8 +13647,8 @@
     - id: s_1620
     - name: TRX1 disulphide
     - compartment: c
-    - formula: C6H8N2O2S2R4
-    - charge: 0
+    - formula: C6H9N2O2S2R4
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -13652,8 +13658,8 @@
     - id: s_1621
     - name: TRX1 disulphide
     - compartment: m
-    - formula: C6H8N2O2S2R4
-    - charge: 0
+    - formula: C6H9N2O2S2R4
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -13663,8 +13669,8 @@
     - id: s_1622
     - name: TRX1 disulphide
     - compartment: n
-    - formula: C6H8N2O2S2R4
-    - charge: 0
+    - formula: C6H9N2O2S2R4
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -13674,8 +13680,8 @@
     - id: s_1623
     - name: TRX1 disulphide
     - compartment: p
-    - formula: C6H8N2O2S2R4
-    - charge: 0
+    - formula: C6H9N2O2S2R4
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:18191
       - kegg.compound: C00343
@@ -13695,8 +13701,8 @@
     - id: s_2763
     - name: kynurenic acid
     - compartment: c
-    - formula: C10H7NO3
-    - charge: 0
+    - formula: C10H6NO3
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:18344
       - kegg.compound: C01717
@@ -13707,7 +13713,7 @@
     - name: quinaldic acid
     - compartment: c
     - formula: C10H7NO2
-    - charge: 0
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:18386
       - kegg.compound: C06325
@@ -13814,7 +13820,7 @@
     - id: s_2777
     - name: 3-hydroxyoctanoyl-ACP
     - compartment: m
-    - formula: C18H35O2S
+    - formula: C8H15O2S
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:80387
@@ -13910,8 +13916,8 @@
     - id: s_2786
     - name: 3-oxotetradecanoyl-CoA
     - compartment: erm
-    - formula: C35H60N7O18P3S
-    - charge: 0
+    - formula: C35H56N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:28726
       - kegg.compound: C05261
@@ -13954,8 +13960,8 @@
     - id: s_2790
     - name: 3-oxooctadecanoyl-CoA
     - compartment: erm
-    - formula: C39H68N7O18P3S
-    - charge: 0
+    - formula: C39H64N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:50571
       - kegg.compound: C16216
@@ -13976,8 +13982,8 @@
     - id: s_2792
     - name: 3-oxoicosanoyl-CoA
     - compartment: erm
-    - formula: C41H72N7O18P3S
-    - charge: 0
+    - formula: C41H68N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52327
       - metanetx.chemical: MNXM36762
@@ -13986,8 +13992,8 @@
     - id: s_2793
     - name: icosanoyl-CoA
     - compartment: erm
-    - formula: C41H74N7O17P3S
-    - charge: 0
+    - formula: C41H70N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:15527
       - kegg.compound: C02041
@@ -13997,8 +14003,8 @@
     - id: s_2794
     - name: 3-oxodocosanoyl-CoA
     - compartment: erm
-    - formula: C43H76N7O18P3S
-    - charge: 0
+    - formula: C43H72N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52328
       - metanetx.chemical: MNXM36756
@@ -14007,8 +14013,8 @@
     - id: s_2795
     - name: docosanoyl-CoA
     - compartment: erm
-    - formula: C43H78N7O17P3S
-    - charge: 0
+    - formula: C43H74N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:65088
       - kegg.compound: C16528
@@ -14018,8 +14024,8 @@
     - id: s_2796
     - name: 3-oxotetracosanoyl-CoA
     - compartment: erm
-    - formula: C45H80N7O18P3S
-    - charge: 0
+    - formula: C45H76N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52329
       - metanetx.chemical: MNXM36773
@@ -14028,8 +14034,8 @@
     - id: s_2797
     - name: tetracosanoyl-CoA
     - compartment: erm
-    - formula: C45H82N7O17P3S
-    - charge: 0
+    - formula: C45H78N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52974
       - kegg.compound: C16529
@@ -14039,8 +14045,8 @@
     - id: s_2798
     - name: 3-oxohexacosanoyl-CoA
     - compartment: erm
-    - formula: C47H84N7O18P3S
-    - charge: 0
+    - formula: C47H80N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52977
       - metanetx.chemical: MNXM36758
@@ -14071,8 +14077,8 @@
     - id: s_2801
     - name: (S)-3-hydroxytetradecanoyl-CoA
     - compartment: erm
-    - formula: C35H62N7O18P3S
-    - charge: 0
+    - formula: C35H58N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:27466
       - kegg.compound: C05260
@@ -14082,8 +14088,8 @@
     - id: s_2802
     - name: (S)-3-hydroxypalmitoyl-CoA
     - compartment: erm
-    - formula: C37H66N7O18P3S
-    - charge: 0
+    - formula: C37H62N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:27402
       - kegg.compound: C05258
@@ -14093,8 +14099,8 @@
     - id: s_2803
     - name: 3-hydroxyoctadecanoyl-CoA
     - compartment: erm
-    - formula: C39H70N7O18P3S
-    - charge: 0
+    - formula: C39H66N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:50583
       - kegg.compound: C16217
@@ -14104,8 +14110,8 @@
     - id: s_2804
     - name: 3-hydroxyicosanoyl-CoA
     - compartment: erm
-    - formula: C41H74N7O18P3S
-    - charge: 0
+    - formula: C41H70N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52324
       - metanetx.chemical: MNXM146349
@@ -14114,8 +14120,8 @@
     - id: s_2805
     - name: 3-hydroxydocosanoyl-CoA
     - compartment: erm
-    - formula: C43H78N7O18P3S
-    - charge: 0
+    - formula: C43H74N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52325
       - metanetx.chemical: MNXM162568
@@ -14124,8 +14130,8 @@
     - id: s_2806
     - name: 3-hydroxytetracosanoyl-CoA
     - compartment: erm
-    - formula: C45H82N7O18P3S
-    - charge: 0
+    - formula: C45H78N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52326
       - metanetx.chemical: MNXM36558
@@ -14134,8 +14140,8 @@
     - id: s_2807
     - name: (S)-3-hydroxyhexacosanoyl-CoA
     - compartment: erm
-    - formula: C47H86N7O18P3S
-    - charge: 0
+    - formula: C47H82N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52976
       - metanetx.chemical: MNXM31741
@@ -14166,8 +14172,8 @@
     - id: s_2810
     - name: trans-hexadec-2-enoyl-CoA
     - compartment: erm
-    - formula: C37H64N7O17P3S
-    - charge: 0
+    - formula: C37H60N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - kegg.compound: C05272
       - metanetx.chemical: MNXM581
@@ -14176,8 +14182,8 @@
     - id: s_2811
     - name: trans-octadec-2-enoyl-CoA
     - compartment: erm
-    - formula: C39H68N7O17P3S
-    - charge: 0
+    - formula: C39H64N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:50570
       - kegg.compound: C16218
@@ -14187,8 +14193,8 @@
     - id: s_2812
     - name: trans-icos-2-enoyl-CoA
     - compartment: erm
-    - formula: C41H72N7O17P3S
-    - charge: 0
+    - formula: C41H68N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - metanetx.chemical: MNXM22115
       - sbo: SBO:0000247
@@ -14196,8 +14202,8 @@
     - id: s_2813
     - name: trans-docos-2-enoyl-CoA
     - compartment: erm
-    - formula: C33H56N7O17P3S
-    - charge: 0
+    - formula: C43H72N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - metanetx.chemical: MNXM97615
       - sbo: SBO:0000247
@@ -14205,8 +14211,8 @@
     - id: s_2814
     - name: trans-tetracos-2-enoyl-CoA
     - compartment: erm
-    - formula: C45H80N7O17P3S
-    - charge: 0
+    - formula: C45H76N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:75068
       - metanetx.chemical: MNXM97616
@@ -14215,8 +14221,8 @@
     - id: s_2815
     - name: trans-hexacos-2-enoyl-CoA
     - compartment: erm
-    - formula: C47H84N7O17P3S
-    - charge: 0
+    - formula: C47H80N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52975
       - metanetx.chemical: MNXM114303
@@ -14225,8 +14231,8 @@
     - id: s_2816
     - name: hexacosanoyl-CoA
     - compartment: erm
-    - formula: C47H86N7O17P3S
-    - charge: 0
+    - formula: C47H82N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52966
       - metanetx.chemical: MNXM1190
@@ -14675,8 +14681,8 @@
     - id: s_2861
     - name: icosanoyl-CoA
     - compartment: ce
-    - formula: C41H74N7O17P3S
-    - charge: 0
+    - formula: C41H70N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:15527
       - kegg.compound: C02041
@@ -14697,8 +14703,8 @@
     - id: s_2863
     - name: docosanoyl-CoA
     - compartment: ce
-    - formula: C43H78N7O17P3S
-    - charge: 0
+    - formula: C43H74N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:65088
       - kegg.compound: C16528
@@ -14719,8 +14725,8 @@
     - id: s_2865
     - name: tetracosanoyl-CoA
     - compartment: ce
-    - formula: C45H82N7O17P3S
-    - charge: 0
+    - formula: C45H78N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52974
       - kegg.compound: C16529
@@ -14740,8 +14746,8 @@
     - id: s_2867
     - name: hexacosanoyl-CoA
     - compartment: ce
-    - formula: C47H86N7O17P3S
-    - charge: 0
+    - formula: C47H82N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52966
       - metanetx.chemical: MNXM1190
@@ -14793,8 +14799,8 @@
     - id: s_2872
     - name: docosanoyl-CoA
     - compartment: lp
-    - formula: C43H78N7O17P3S
-    - charge: 0
+    - formula: C43H74N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:65088
       - kegg.compound: C16528
@@ -14815,8 +14821,8 @@
     - id: s_2874
     - name: tetracosanoyl-CoA
     - compartment: lp
-    - formula: C45H82N7O17P3S
-    - charge: 0
+    - formula: C45H78N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52974
       - kegg.compound: C16529
@@ -14836,8 +14842,8 @@
     - id: s_2876
     - name: hexacosanoyl-CoA
     - compartment: lp
-    - formula: C47H86N7O17P3S
-    - charge: 0
+    - formula: C47H82N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52966
       - metanetx.chemical: MNXM1190
@@ -14857,8 +14863,8 @@
     - id: s_2878
     - name: icosanoyl-CoA
     - compartment: c
-    - formula: C41H74N7O17P3S
-    - charge: 0
+    - formula: C41H70N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:15527
       - kegg.compound: C02041
@@ -14868,8 +14874,8 @@
     - id: s_2879
     - name: icosanoyl-CoA
     - compartment: p
-    - formula: C41H74N7O17P3S
-    - charge: 0
+    - formula: C41H70N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:15527
       - kegg.compound: C02041
@@ -14879,8 +14885,8 @@
     - id: s_2880
     - name: docosanoyl-CoA
     - compartment: c
-    - formula: C43H78N7O17P3S
-    - charge: 0
+    - formula: C43H74N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:65088
       - kegg.compound: C16528
@@ -14890,8 +14896,8 @@
     - id: s_2881
     - name: docosanoyl-CoA
     - compartment: p
-    - formula: C43H78N7O17P3S
-    - charge: 0
+    - formula: C43H74N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:65088
       - kegg.compound: C16528
@@ -14967,8 +14973,8 @@
     - id: s_2888
     - name: trans-oct-2-enoyl-CoA
     - compartment: p
-    - formula: C29H48N7O17P3S
-    - charge: 0
+    - formula: C29H44N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:27537
       - kegg.compound: C05276
@@ -14978,8 +14984,8 @@
     - id: s_2889
     - name: trans-icos-2-enoyl-CoA
     - compartment: p
-    - formula: C41H72N7O17P3S
-    - charge: 0
+    - formula: C41H68N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - metanetx.chemical: MNXM22115
       - sbo: SBO:0000247
@@ -14987,8 +14993,8 @@
     - id: s_2890
     - name: trans-docos-2-enoyl-CoA
     - compartment: p
-    - formula: C33H56N7O17P3S
-    - charge: 0
+    - formula: C43H72N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - metanetx.chemical: MNXM97615
       - sbo: SBO:0000247
@@ -14996,8 +15002,8 @@
     - id: s_2891
     - name: trans-tetracos-2-enoyl-CoA
     - compartment: p
-    - formula: C45H80N7O17P3S
-    - charge: 0
+    - formula: C45H76N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:75068
       - metanetx.chemical: MNXM97616
@@ -15041,7 +15047,7 @@
     - id: s_2896
     - name: trans-2,cis-5-dodecadienoyl-CoA
     - compartment: p
-    - formula: C35H54N7O17P3S
+    - formula: C33H54N7O17P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15049,8 +15055,8 @@
     - id: s_2897
     - name: trans-2,cis-9-octadecadienoyl-CoA
     - compartment: p
-    - formula: C39H66N7O17P3S
-    - charge: 0
+    - formula: C39H62N7O17P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:15530
       - kegg.compound: C02050
@@ -15097,8 +15103,8 @@
     - id: s_2902
     - name: (R)-3-hydroxybutanoyl-CoA
     - compartment: p
-    - formula: C25H42N7O18P3S
-    - charge: 0
+    - formula: C25H38N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:15452
       - kegg.compound: C03561
@@ -15128,8 +15134,8 @@
     - id: s_2905
     - name: (R)-3-hydroxyicosanoyl-CoA
     - compartment: p
-    - formula: C41H74N7O18P3S
-    - charge: 0
+    - formula: C41H70N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:76453
       - metanetx.chemical: MNXM36530
@@ -15148,8 +15154,8 @@
     - id: s_2907
     - name: (R)-3-hydroxytetracosanoyl-CoA
     - compartment: p
-    - formula: C45H82N7O18P3S
-    - charge: 0
+    - formula: C45H78N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:76463
       - metanetx.chemical: MNXM36558
@@ -15158,7 +15164,7 @@
     - id: s_2908
     - name: (R)-3-hydroxy-cis-hexadec-9-enoyl-CoA
     - compartment: p
-    - formula: C39H68N7O18P3S
+    - formula: C37H64N7O18P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15166,6 +15172,7 @@
     - id: s_2909
     - name: (R)-3-hydroxy-cis-tetradec-7-enoyl-CoA
     - compartment: p
+    - formula: C35H60N7O18P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15173,6 +15180,7 @@
     - id: s_2910
     - name: (R)-3-hydroxy-cis-dodec-5-enoyl-CoA
     - compartment: p
+    - formula: C33H56N7O18P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15241,8 +15249,8 @@
     - id: s_2917
     - name: 3-oxoicosanoyl-CoA
     - compartment: p
-    - formula: C41H72N7O18P3S
-    - charge: 0
+    - formula: C41H68N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52327
       - metanetx.chemical: MNXM36762
@@ -15251,8 +15259,8 @@
     - id: s_2918
     - name: 3-oxodocosanoyl-CoA
     - compartment: p
-    - formula: C43H76N7O18P3S
-    - charge: 0
+    - formula: C43H72N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52328
       - metanetx.chemical: MNXM36756
@@ -15261,8 +15269,8 @@
     - id: s_2919
     - name: 3-oxotetracosanoyl-CoA
     - compartment: p
-    - formula: C45H80N7O18P3S
-    - charge: 0
+    - formula: C45H76N7O18P3S
+    - charge: -4
     - annotation: !!omap
       - chebi: CHEBI:52329
       - metanetx.chemical: MNXM36773
@@ -15271,7 +15279,7 @@
     - id: s_2920
     - name: 3-oxo-cis-hexadec-9-enoyl-CoA
     - compartment: p
-    - formula: C37H64N7O17P3S
+    - formula: C37H62N7O18P3S
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:53152
@@ -15280,7 +15288,7 @@
     - id: s_2921
     - name: 3-oxo-cis-tetradec-7-enoyl-CoA
     - compartment: p
-    - formula: C35H60N7O17P3S
+    - formula: C35H58N7O18P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15288,6 +15296,7 @@
     - id: s_2922
     - name: 3-oxo-cis-dodec-5-enoyl-CoA
     - compartment: p
+    - formula: C33H54N7O18P3S
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -15295,7 +15304,7 @@
     - id: s_2923
     - name: 3-oxo-cis-octadec-9-enoyl-CoA
     - compartment: p
-    - formula: C39H68N7O17P3S
+    - formula: C39H66N7O18P3S
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:78146
@@ -15304,7 +15313,7 @@
     - id: s_2924
     - name: 3-oxo-cis-hexadec-7-enoyl-CoA
     - compartment: p
-    - formula: C37H64N7O17P3S
+    - formula: C37H62N7O18P3S
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88090
@@ -15314,7 +15323,7 @@
     - id: s_2925
     - name: 3-oxo-cis-tetradec-5-enoyl-CoA
     - compartment: p
-    - formula: C35H60N7O17P3S
+    - formula: C35H58N7O18P3S
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88080
@@ -15392,7 +15401,7 @@
     - id: s_2933
     - name: trans-2,trans-4-tetradecadienoyl-CoA
     - compartment: p
-    - formula: C35H54N7O17P3S
+    - formula: C35H58N7O17P3S
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:88084
@@ -15477,15 +15486,15 @@
     - name: acylglycerone phosphate (16:1)
     - compartment: erm
     - formula: C19H35O7P
-    - charge: -2
+    - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_2942
     - name: acylglycerone phosphate (18:0)
     - compartment: erm
-    - formula: C21H39O7P
-    - charge: -2
+    - formula: C21H41O7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:36476
       - kegg.compound: C03805
@@ -15495,7 +15504,7 @@
     - id: s_2943
     - name: acylglycerone phosphate (18:1)
     - compartment: erm
-    - formula: C35H65O8P
+    - formula: C21H39O7P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:36475
@@ -15559,15 +15568,15 @@
     - name: acylglycerone phosphate (16:1)
     - compartment: lp
     - formula: C19H35O7P
-    - charge: -2
+    - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_2950
     - name: acylglycerone phosphate (18:0)
     - compartment: lp
-    - formula: C21H39O7P
-    - charge: -2
+    - formula: C21H41O7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:36476
       - kegg.compound: C03805
@@ -15577,7 +15586,7 @@
     - id: s_2951
     - name: acylglycerone phosphate (18:1)
     - compartment: lp
-    - formula: C35H65O8P
+    - formula: C21H39O7P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:36475
@@ -15610,8 +15619,8 @@
     - id: s_2954
     - name: phosphatidate (1-16:0, 2-16:1)
     - compartment: erm
-    - formula: C35H65O8P
-    - charge: -2
+    - formula: C35H67O8P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73998
       - metanetx.chemical: MNXM66470
@@ -15741,7 +15750,7 @@
     - id: s_2967
     - name: diglyceride (1-16:0, 2-16:1)
     - compartment: erm
-    - formula: C35H68O5
+    - formula: C35H66O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84394
@@ -15821,8 +15830,8 @@
     - id: s_2975
     - name: phosphatidate (1-16:0, 2-16:1)
     - compartment: vm
-    - formula: C35H65O8P
-    - charge: -2
+    - formula: C35H67O8P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73998
       - metanetx.chemical: MNXM66470
@@ -15853,7 +15862,7 @@
     - id: s_2978
     - name: diglyceride (1-16:0, 2-16:1)
     - compartment: vm
-    - formula: C35H68O5
+    - formula: C35H66O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84394
@@ -16003,8 +16012,8 @@
     - id: s_2993
     - name: phosphatidate (1-16:0, 2-16:1)
     - compartment: gm
-    - formula: C35H65O8P
-    - charge: -2
+    - formula: C35H67O8P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73998
       - metanetx.chemical: MNXM66470
@@ -16035,7 +16044,7 @@
     - id: s_2996
     - name: diglyceride (1-16:0, 2-16:1)
     - compartment: gm
-    - formula: C35H68O5
+    - formula: C35H66O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84394
@@ -16470,7 +16479,7 @@
     - id: s_3043
     - name: diglyceride (1-16:0, 2-16:1)
     - compartment: lp
-    - formula: C35H68O5
+    - formula: C35H66O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84394
@@ -16899,7 +16908,7 @@
     - id: s_3090
     - name: CDP-diacylglycerol (1-18:0, 2-18:1)
     - compartment: erm
-    - formula: C48H83N3O15P2
+    - formula: C48H87N3O15P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -16916,8 +16925,8 @@
     - id: s_3092
     - name: phosphatidate (1-16:0, 2-16:1)
     - compartment: mm
-    - formula: C35H65O8P
-    - charge: -2
+    - formula: C35H67O8P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73998
       - metanetx.chemical: MNXM66470
@@ -17251,7 +17260,7 @@
     - id: s_3126
     - name: sn-2-acyl-1-lysophosphatidylinositol (16:1)
     - compartment: erm
-    - formula: C25H41O12P
+    - formula: C25H47O12P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:138108
@@ -17260,7 +17269,7 @@
     - id: s_3127
     - name: sn-2-acyl-1-lysophosphatidylinositol (18:1)
     - compartment: erm
-    - formula: C27H45O12P
+    - formula: C27H51O12P
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18028,7 +18037,7 @@
     - id: s_3209
     - name: phosphatidylcholine (1-18:0, 2-16:1)
     - compartment: erm
-    - formula: C42H82NO7P
+    - formula: C42H82NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86097
@@ -18038,7 +18047,7 @@
     - id: s_3210
     - name: phosphatidylcholine (1-18:1, 2-16:1)
     - compartment: erm
-    - formula: C42H80NO7P
+    - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86100
@@ -18067,7 +18076,7 @@
     - id: s_3213
     - name: phosphatidylcholine (1-18:0, 2-18:1)
     - compartment: erm
-    - formula: C44H86NO7P
+    - formula: C44H86NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75034
@@ -18077,7 +18086,7 @@
     - id: s_3214
     - name: phosphatidylcholine (1-18:1, 2-18:1)
     - compartment: erm
-    - formula: C44H84NO7P
+    - formula: C44H84NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74669
@@ -18109,8 +18118,8 @@
     - id: s_3217
     - name: CDP-choline
     - compartment: erm
-    - formula: C14H26N4O11P2
-    - charge: 0
+    - formula: C14H25N4O11P2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:16436
       - kegg.compound: C00307
@@ -18142,7 +18151,7 @@
     - id: s_3220
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:0, 2-16:1)
     - compartment: mm
-    - formula: C40H74O13P2
+    - formula: C38H74O13P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18150,7 +18159,7 @@
     - id: s_3221
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:1, 2-16:1)
     - compartment: mm
-    - formula: C40H72O13P2
+    - formula: C38H72O13P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18158,7 +18167,7 @@
     - id: s_3222
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-18:0, 2-16:1)
     - compartment: mm
-    - formula: C42H76O13P2
+    - formula: C40H78O13P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18166,7 +18175,7 @@
     - id: s_3223
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-18:1, 2-16:1)
     - compartment: mm
-    - formula: C42H74O13P2
+    - formula: C40H76O13P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18174,7 +18183,7 @@
     - id: s_3224
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:0, 2-18:1)
     - compartment: mm
-    - formula: C42H76O13P2
+    - formula: C40H78O13P2
     - charge: 0
     - annotation: !!omap
       - metanetx.chemical: MNXM725269
@@ -18183,7 +18192,7 @@
     - id: s_3225
     - name: 3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate (1-16:1, 2-18:1)
     - compartment: mm
-    - formula: C42H74O13P2
+    - formula: C40H76O13P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18267,7 +18276,7 @@
     - id: s_3234
     - name: cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
-    - formula: C73H140O17P2
+    - formula: C73H138O17P2
     - charge: 0
     - annotation: !!omap
       - metanetx.chemical: MNXM120766
@@ -18285,7 +18294,7 @@
     - id: s_3236
     - name: cardiolipin (1-16:0, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
-    - formula: C75H144O17P2
+    - formula: C75H142O17P2
     - charge: 0
     - annotation: !!omap
       - metanetx.chemical: MNXM120785
@@ -18303,7 +18312,7 @@
     - id: s_3238
     - name: cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
-    - formula: C75H144O17P2
+    - formula: C75H142O17P2
     - charge: 0
     - annotation: !!omap
       - metanetx.chemical: MNXM120768
@@ -18321,7 +18330,7 @@
     - id: s_3240
     - name: cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
-    - formula: C73H138O17P2
+    - formula: C73H136O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18339,7 +18348,7 @@
     - id: s_3242
     - name: cardiolipin (1-16:1, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
-    - formula: C75H142O17P2
+    - formula: C75H140O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18356,7 +18365,7 @@
     - id: s_3244
     - name: cardiolipin (1-16:1, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
-    - formula: C75H142O17P2
+    - formula: C75H140O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18373,7 +18382,7 @@
     - id: s_3246
     - name: cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
-    - formula: C75H144O17P2
+    - formula: C75H142O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18389,7 +18398,7 @@
     - id: s_3248
     - name: cardiolipin (1-18:0, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
-    - formula: C77H148O17P2
+    - formula: C77H146O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18405,7 +18414,7 @@
     - id: s_3250
     - name: cardiolipin (1-18:0, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
-    - formula: C77H148O17P2
+    - formula: C77H146O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18421,7 +18430,7 @@
     - id: s_3252
     - name: cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-16:1)
     - compartment: mm
-    - formula: C75H142O17P2
+    - formula: C75H140O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18437,7 +18446,7 @@
     - id: s_3254
     - name: cardiolipin (1-18:1, 2-16:1, 3-18:0, 4-16:1)
     - compartment: mm
-    - formula: C77H146O17P2
+    - formula: C77H144O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18453,7 +18462,7 @@
     - id: s_3256
     - name: cardiolipin (1-18:1, 2-16:1, 3-16:0, 4-18:1)
     - compartment: mm
-    - formula: C77H146O17P2
+    - formula: C77H144O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18469,7 +18478,7 @@
     - id: s_3258
     - name: cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-16:1)
     - compartment: mm
-    - formula: C75H144O17P2
+    - formula: C75H142O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18486,7 +18495,7 @@
     - id: s_3260
     - name: cardiolipin (1-16:0, 2-18:1, 3-18:0, 4-16:1)
     - compartment: mm
-    - formula: C77H148O17P2
+    - formula: C77H146O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18503,7 +18512,7 @@
     - id: s_3262
     - name: cardiolipin (1-16:0, 2-18:1, 3-16:0, 4-18:1)
     - compartment: mm
-    - formula: C77H148O17P2
+    - formula: C77H146O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18520,7 +18529,7 @@
     - id: s_3264
     - name: cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-16:1)
     - compartment: mm
-    - formula: C75H142O17P2
+    - formula: C75H140O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18536,7 +18545,7 @@
     - id: s_3266
     - name: cardiolipin (1-16:1, 2-18:1, 3-18:0, 4-16:1)
     - compartment: mm
-    - formula: C77H146O17P2
+    - formula: C77H144O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18552,7 +18561,7 @@
     - id: s_3268
     - name: cardiolipin (1-16:1, 2-18:1, 3-16:0, 4-18:1)
     - compartment: mm
-    - formula: C77H146O17P2
+    - formula: C77H144O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18791,8 +18800,8 @@
     - id: s_3297
     - name: 1-acylglycerophosphocholine (16:0)
     - compartment: mm
-    - formula: C24H51NO7P
-    - charge: 1
+    - formula: C24H50NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:72998
       - kegg.compound: C04102
@@ -18812,8 +18821,8 @@
     - id: s_3299
     - name: 1-acylglycerophosphocholine (16:1)
     - compartment: mm
-    - formula: C24H49NO7P
-    - charge: 1
+    - formula: C24H48NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73851
       - metanetx.chemical: MNXM32519
@@ -18822,7 +18831,7 @@
     - id: s_3300
     - name: phosphatidylcholine (1-18:0, 2-16:1)
     - compartment: mm
-    - formula: C42H82NO7P
+    - formula: C42H82NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86097
@@ -18832,8 +18841,8 @@
     - id: s_3301
     - name: 1-acylglycerophosphocholine (18:0)
     - compartment: mm
-    - formula: C26H55NO7P
-    - charge: 1
+    - formula: C26H54NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73858
       - metanetx.chemical: MNXM32545
@@ -18842,7 +18851,7 @@
     - id: s_3302
     - name: phosphatidylcholine (1-18:1, 2-16:1)
     - compartment: mm
-    - formula: C42H80NO7P
+    - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86100
@@ -18852,8 +18861,8 @@
     - id: s_3303
     - name: 1-acylglycerophosphocholine (18:1)
     - compartment: mm
-    - formula: C26H53NO7P
-    - charge: 1
+    - formula: C26H52NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28610
       - kegg.compound: C03916
@@ -18882,7 +18891,7 @@
     - id: s_3306
     - name: phosphatidylcholine (1-18:0, 2-18:1)
     - compartment: mm
-    - formula: C44H86NO7P
+    - formula: C44H86NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75034
@@ -18892,7 +18901,7 @@
     - id: s_3307
     - name: phosphatidylcholine (1-18:1, 2-18:1)
     - compartment: mm
-    - formula: C44H84NO7P
+    - formula: C44H84NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74669
@@ -18902,7 +18911,7 @@
     - id: s_3308
     - name: cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-16:1)
     - compartment: mm
-    - formula: C77H146O17P2
+    - formula: C77H144O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18918,7 +18927,7 @@
     - id: s_3310
     - name: cardiolipin (1-18:1, 2-18:1, 3-18:0, 4-16:1)
     - compartment: mm
-    - formula: C79H150O17P2
+    - formula: C79H148O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -18934,7 +18943,7 @@
     - id: s_3312
     - name: cardiolipin (1-18:1, 2-18:1, 3-16:0, 4-18:1)
     - compartment: mm
-    - formula: C79H150O17P2
+    - formula: C79H148O17P2
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
@@ -19945,8 +19954,8 @@
     - id: s_3428
     - name: 1-acylglycerophosphocholine (16:0)
     - compartment: erm
-    - formula: C24H51NO7P
-    - charge: 1
+    - formula: C24H50NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:72998
       - kegg.compound: C04102
@@ -19956,8 +19965,8 @@
     - id: s_3429
     - name: 1-acylglycerophosphocholine (16:1)
     - compartment: erm
-    - formula: C24H49NO7P
-    - charge: 1
+    - formula: C24H48NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73851
       - metanetx.chemical: MNXM32519
@@ -19966,8 +19975,8 @@
     - id: s_3430
     - name: 1-acylglycerophosphocholine (18:0)
     - compartment: erm
-    - formula: C26H55NO7P
-    - charge: 1
+    - formula: C26H54NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73858
       - metanetx.chemical: MNXM32545
@@ -19976,8 +19985,8 @@
     - id: s_3431
     - name: 1-acylglycerophosphocholine (18:1)
     - compartment: erm
-    - formula: C26H53NO7P
-    - charge: 1
+    - formula: C26H52NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28610
       - kegg.compound: C03916
@@ -20173,8 +20182,8 @@
     - id: s_3450
     - name: 1-acylglycerophosphocholine (16:0)
     - compartment: ce
-    - formula: C24H51NO7P
-    - charge: 1
+    - formula: C24H50NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:72998
       - kegg.compound: C04102
@@ -20205,8 +20214,8 @@
     - id: s_3453
     - name: 1-acylglycerophosphocholine (16:1)
     - compartment: ce
-    - formula: C24H49NO7P
-    - charge: 1
+    - formula: C24H48NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73851
       - metanetx.chemical: MNXM32519
@@ -20215,7 +20224,7 @@
     - id: s_3454
     - name: phosphatidylcholine (1-18:0, 2-16:1)
     - compartment: ce
-    - formula: C42H82NO7P
+    - formula: C42H82NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86097
@@ -20225,8 +20234,8 @@
     - id: s_3455
     - name: 1-acylglycerophosphocholine (18:0)
     - compartment: ce
-    - formula: C26H55NO7P
-    - charge: 1
+    - formula: C26H54NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73858
       - metanetx.chemical: MNXM32545
@@ -20235,7 +20244,7 @@
     - id: s_3456
     - name: phosphatidylcholine (1-18:1, 2-16:1)
     - compartment: ce
-    - formula: C42H80NO7P
+    - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86100
@@ -20245,8 +20254,8 @@
     - id: s_3457
     - name: 1-acylglycerophosphocholine (18:1)
     - compartment: ce
-    - formula: C26H53NO7P
-    - charge: 1
+    - formula: C26H52NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28610
       - kegg.compound: C03916
@@ -20286,7 +20295,7 @@
     - id: s_3461
     - name: phosphatidylcholine (1-18:0, 2-18:1)
     - compartment: ce
-    - formula: C44H86NO7P
+    - formula: C44H86NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75034
@@ -20296,7 +20305,7 @@
     - id: s_3462
     - name: phosphatidylcholine (1-18:1, 2-18:1)
     - compartment: ce
-    - formula: C44H84NO7P
+    - formula: C44H84NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74669
@@ -20457,7 +20466,7 @@
     - id: s_3479
     - name: 1-acylglycerophosphoserine (16:0)
     - compartment: ce
-    - formula: C22H44NP10
+    - formula: C22H44NO9P
     - charge: 0
     - annotation: !!omap
       - metanetx.chemical: MNXM78597
@@ -20475,7 +20484,7 @@
     - id: s_3481
     - name: 1-acylglycerophosphoserine (16:1)
     - compartment: ce
-    - formula: C22H42NP10
+    - formula: C22H42NO9P
     - charge: 0
     - annotation: !!omap
       - metanetx.chemical: MNXM78629
@@ -20494,7 +20503,7 @@
     - id: s_3483
     - name: 1-acylglycerophosphoserine (18:0)
     - compartment: ce
-    - formula: C24H48NP10
+    - formula: C24H48NO9P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:85403
@@ -20514,7 +20523,7 @@
     - id: s_3485
     - name: 1-acylglycerophosphoserine (18:1)
     - compartment: ce
-    - formula: C24H46NP10
+    - formula: C24H46NO9P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:52649
@@ -20629,7 +20638,7 @@
     - id: s_3497
     - name: diglyceride (1-16:0, 2-16:1)
     - compartment: c
-    - formula: C35H68O5
+    - formula: C35H66O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84394
@@ -20777,7 +20786,7 @@
     - id: s_3513
     - name: diglyceride (1-16:0, 2-16:1)
     - compartment: n
-    - formula: C35H68O5
+    - formula: C35H66O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84394
@@ -20857,7 +20866,7 @@
     - id: s_3521
     - name: diglyceride (1-16:0, 2-16:1)
     - compartment: mm
-    - formula: C35H68O5
+    - formula: C35H66O5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:84394
@@ -20917,8 +20926,8 @@
     - id: s_3527
     - name: phosphatidate (1-16:0, 2-16:1)
     - compartment: ce
-    - formula: C35H65O8P
-    - charge: -2
+    - formula: C35H67O8P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73998
       - metanetx.chemical: MNXM66470
@@ -22401,8 +22410,8 @@
     - id: s_3694
     - name: 1-acylglycerophosphocholine (16:0)
     - compartment: lp
-    - formula: C24H51NO7P
-    - charge: 1
+    - formula: C24H50NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:72998
       - kegg.compound: C04102
@@ -22422,8 +22431,8 @@
     - id: s_3696
     - name: 1-acylglycerophosphocholine (16:1)
     - compartment: lp
-    - formula: C24H49NO7P
-    - charge: 1
+    - formula: C24H48NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73851
       - metanetx.chemical: MNXM32519
@@ -22432,7 +22441,7 @@
     - id: s_3697
     - name: phosphatidylcholine (1-18:0, 2-16:1)
     - compartment: lp
-    - formula: C42H82NO7P
+    - formula: C42H82NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86097
@@ -22442,8 +22451,8 @@
     - id: s_3698
     - name: 1-acylglycerophosphocholine (18:0)
     - compartment: lp
-    - formula: C26H55NO7P
-    - charge: 1
+    - formula: C26H54NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:73858
       - metanetx.chemical: MNXM32545
@@ -22452,7 +22461,7 @@
     - id: s_3699
     - name: phosphatidylcholine (1-18:1, 2-16:1)
     - compartment: lp
-    - formula: C42H80NO7P
+    - formula: C42H80NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:86100
@@ -22462,8 +22471,8 @@
     - id: s_3700
     - name: 1-acylglycerophosphocholine (18:1)
     - compartment: lp
-    - formula: C26H53NO7P
-    - charge: 1
+    - formula: C26H52NO7P
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:28610
       - kegg.compound: C03916
@@ -22492,7 +22501,7 @@
     - id: s_3703
     - name: phosphatidylcholine (1-18:0, 2-18:1)
     - compartment: lp
-    - formula: C44H86NO7P
+    - formula: C44H86NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:75034
@@ -22502,7 +22511,7 @@
     - id: s_3704
     - name: phosphatidylcholine (1-18:1, 2-18:1)
     - compartment: lp
-    - formula: C44H84NO7P
+    - formula: C44H84NO8P
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:74669
@@ -22598,8 +22607,8 @@
     - id: s_3714
     - name: heme a
     - compartment: c
-    - formula: C49H56FeN4O6
-    - charge: 0
+    - formula: C49H55FeN4O6
+    - charge: -3
     - annotation: !!omap
       - chebi: CHEBI:24479
       - kegg.compound: C15670
@@ -22911,7 +22920,7 @@
     - id: s_3754
     - name: L-glutamyl-tRNA(Gln)
     - compartment: m
-    - formula: C20H28N6O13PR
+    - formula: C5H8NO3R
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29165
@@ -22933,8 +22942,8 @@
     - id: s_3756
     - name: Gln-tRNA(Gln)
     - compartment: m
-    - formula: C20H29N7O12PR
-    - charge: 0
+    - formula: C5H10N2O2R
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29166
       - kegg.compound: C02282
@@ -23458,8 +23467,8 @@
     - id: s_3808
     - name: tRNA(Pro)
     - compartment: m
-    - formula: R
-    - charge: -1
+    - formula: RH
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:29177
       - kegg.compound: C01649
@@ -23469,8 +23478,8 @@
     - id: s_3809
     - name: Pro-tRNA(Pro)
     - compartment: m
-    - formula: C5H8NOR
-    - charge: 0
+    - formula: C5H9NOR
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:29154
       - kegg.compound: C02702
@@ -23973,15 +23982,16 @@
     - id: s_3856
     - name: Glycyl-tRNA(Ala)
     - compartment: c
-    - charge: 0
+    - formula: C2H5NOR
+    - charge: 1
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
     - id: s_3857
     - name: D-tyrosyl-tRNA(Tyr)
     - compartment: c
-    - formula: C9H10NO3R
-    - charge: 0
+    - formula: C9H11NO2R
+    - charge: 1
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
@@ -24404,8 +24414,8 @@
     - id: s_3898
     - name: D-mannose 6-phosphate
     - compartment: v
-    - formula: C6H13O9P
-    - charge: 0
+    - formula: C6H11O9P
+    - charge: -2
     - annotation: !!omap
       - chebi: CHEBI:17369
       - kegg.compound: C00275
@@ -24510,8 +24520,8 @@
     - id: s_3908
     - name: CDP-diacylglycerol
     - compartment: m
-    - formula: C14H17N3O15P2R2
-    - charge: -2
+    - formula: C14H19N3O15P2R2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17962
       - kegg.compound: C00269
@@ -24723,7 +24733,7 @@
     - id: s_3932
     - name: G00012
     - compartment: er
-    - formula: C50H66N4O29
+    - formula: C50H82N4O37
     - charge: 0
     - annotation: !!omap
       - metanetx.chemical: MNXM9328
@@ -24830,7 +24840,7 @@
     - id: s_3942
     - name: 8-oxo-dGTP
     - compartment: p
-    - formula: C10H16N5O14P3
+    - formula: C10H12N5O14P3
     - charge: -4
     - annotation: !!omap
       - kegg.compound: C19967
@@ -24840,7 +24850,7 @@
     - id: s_3943
     - name: 8-oxo-dGMP
     - compartment: p
-    - formula: C10H14N5O8P
+    - formula: C10H12N5O8P
     - charge: -2
     - annotation: !!omap
       - kegg.compound: C19968
@@ -24949,8 +24959,8 @@
     - id: s_3953
     - name: D-Glucosamine
     - compartment: c
-    - formula: C6H13NO5
-    - charge: 0
+    - formula: C6H14NO5
+    - charge: 1
     - annotation: !!omap
       - chebi: CHEBI:47977
       - kegg.compound: C00329
@@ -25037,8 +25047,8 @@
     - id: s_3964
     - name: 4-Trimethylammoniobutanoate
     - compartment: c
-    - formula: C7H16NO2
-    - charge: 1
+    - formula: C7H15NO2
+    - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:1941
       - kegg.compound: C01181
@@ -25081,8 +25091,8 @@
     - id: s_3968
     - name: Imidazole-4-acetate
     - compartment: c
-    - formula: C5H6N2O2
-    - charge: 0
+    - formula: C5H5N2O2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:16974
       - kegg.compound: C02835
@@ -25125,8 +25135,8 @@
     - id: s_3972
     - name: 5-Hydroxyindoleacetate
     - compartment: c
-    - formula: C10H9NO3
-    - charge: 0
+    - formula: C10H8NO3
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:27823
       - kegg.compound: C05635
@@ -25213,8 +25223,8 @@
     - id: s_3980
     - name: Chloroacetic acid
     - compartment: c
-    - formula: C2H3ClO2
-    - charge: 0
+    - formula: C2H2ClO2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:27869
       - kegg.compound: C06755
@@ -25235,8 +25245,8 @@
     - id: s_3982
     - name: Perillic acid
     - compartment: c
-    - formula: C10H14O2
-    - charge: 0
+    - formula: C10H13O2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:36999
       - kegg.compound: C11924
@@ -25257,8 +25267,8 @@
     - id: s_3984
     - name: Farnesoic acid
     - compartment: c
-    - formula: C15H24O2
-    - charge: 0
+    - formula: C15H23O2
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:84162
       - kegg.compound: C16502
@@ -25528,8 +25538,8 @@
     - id: s_4012
     - name: thiocyanate
     - compartment: m
-    - formula: CHNS
-    - charge: 0
+    - formula: CNS
+    - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:29200
       - kegg.compound: C01755
@@ -27609,6 +27619,28 @@
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000649
+  - !!omap
+    - id: s_4207
+    - name: trans-4-hydroxy-L-proline
+    - compartment: c
+    - formula: C5H9NO3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:18072
+      - kegg.compound: C01157
+      - metanetx.chemical: MNXM87584
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4208
+    - name: 2,3-dihydroxy-3-methylbutanoate
+    - compartment: c
+    - formula: C5H9O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:11424
+      - kegg.compound: C04039
+      - metanetx.chemical: MNXM734
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
@@ -39574,17 +39606,12 @@
     - metabolites: !!omap
       - s_0116: -1
       - s_0794: -2
-      - s_1035: 1
       - s_1207: 1
       - s_1212: -1
+      - s_4207: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: YER023W
-    - subsystem:
-        - sce00330  Arginine and proline metabolism
-        - sce01110  Biosynthesis of secondary metabolites
-        - sce01130  Biosynthesis of antibiotics
-        - sce01230  Biosynthesis of amino acids
     - annotation: !!omap
       - ec-code: 1.5.1.2
       - kegg.reaction: R03293
@@ -94346,7 +94373,8 @@
     - name: Dihydroxy-acid dehydratase, mitochondrial
     - metabolites: !!omap
       - s_0232: -1
-      - s_4186: 1
+      - s_0803: -1
+      - s_4208: 1
     - lower_bound: 0
     - upper_bound: 1000
     - annotation: !!omap
