@@ -46,7 +46,9 @@ for j = 1:length(metaboliteList)
     if metindex ~= 0
         mets(j) = model.mets(metindex);
     elseif metindex == 0
+        cd ../otherChanges/
         newID = getNewIndex(model.mets);
+        cd ../modelCuration/
         mets(j) = strcat('s_',newID,'[',comps(j),']');
         model = addMetabolite(model,char(mets(j)), ...
                             'metName',metaboliteList{j});
