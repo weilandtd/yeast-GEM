@@ -4,6 +4,7 @@ Functions for importing and exporting the yeast model using COBRA from anywhere 
 
 import csv
 from cobra.io import read_sbml_model, write_sbml_model
+from copy import copy
 from dotenv import find_dotenv
 from os.path import dirname
 
@@ -46,6 +47,22 @@ def read_yeast_model(make_bigg_compliant=False):
         met_bigg_dict = load_bigg_dict(f"{data_path}/BiGGmetDictionary_newIDs.csv")
         rxn_bigg_dict = load_bigg_dict(f"{data_path}/BiGGrxnDictionary_newIDs.csv")
 
+        # Function for adding unique ids to the model:
+        def add_new_id(model_element, new_id):
+            original_id = copy(new_id)
+            id_assigned = False
+            copy_number = 1
+            while not id_assigned:
+                try:
+                    if hasattr(model_element, "compartment"):  # metabolites
+                        model_element.id = f"{new_id}_{model_element.compartment}"
+                    else:  # reactions
+                        model_element.id = new_id
+                    id_assigned = True
+                except ValueError:
+                    new_id = f"{original_id}_copy{str(copy_number)}"
+                    copy_number += 1
+
         # Metabolite changes:
         comp_dic = {"er":"r", "erm":"rm", "p":"x"}
         for met in model.metabolites:
@@ -58,9 +75,9 @@ def read_yeast_model(make_bigg_compliant=False):
                 met.compartment = comp_dic[met.compartment]
             # Update id with BiGG information:
             if "bigg.metabolite" in met.annotation:
-                met.id = f"{met.annotation['bigg.metabolite']}_{met.compartment}"
+                add_new_id(met, met.annotation['bigg.metabolite'])
             elif met.id in met_bigg_dict:
-                met.id = f"{met_bigg_dict[met.id]}_{met.compartment}"
+                add_new_id(met, met_bigg_dict[met.id])
             else:
                 met.id = met.id.replace(f"[{met.compartment}]", f"_{met.compartment}")
 
@@ -76,10 +93,10 @@ def read_yeast_model(make_bigg_compliant=False):
             # Update id with BiGG information:
             if "bigg.reaction" in rxn.annotation:
                 rxn.notes["Original ID"] = rxn.id
-                rxn.id = rxn.annotation['bigg.reaction']
+                add_new_id(rxn, rxn.annotation['bigg.reaction'])
             elif rxn.id in rxn_bigg_dict:
                 rxn.notes["Original ID"] = rxn.id
-                rxn.id = rxn_bigg_dict[rxn.id]
+                add_new_id(rxn, rxn_bigg_dict[rxn.id])
 
     return model
 
