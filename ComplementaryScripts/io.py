@@ -2,14 +2,15 @@
 Functions for importing and exporting the yeast model using COBRA from anywhere in the repo.
 """
 
+import csv
 from cobra.io import read_sbml_model, write_sbml_model
 from dotenv import find_dotenv
 from os.path import dirname
 
 # find .env + define paths:
 dotenv_path = find_dotenv()
-repo_path = dirname(dotenv_path)
-MODEL_PATH = f"{repo_path}/ModelFiles/xml/yeastGEM.xml"
+REPO_PATH = dirname(dotenv_path)
+MODEL_PATH = f"{REPO_PATH}/ModelFiles/xml/yeastGEM.xml"
 
 def read_yeast_model(make_bigg_compliant=False):
     """Reads the SBML file of the yeast model using COBRA.
@@ -33,6 +34,18 @@ def read_yeast_model(make_bigg_compliant=False):
 
     # Convert to BiGG compliant if not already:
     if not is_bigg_compliant and make_bigg_compliant:
+        # Load met/rxn dictionaries:
+        def load_bigg_dict(bigg_file_path):
+            bigg_dict = {}
+            with open(bigg_file_path) as bigg_file:
+                bigg_reader = csv.reader(bigg_file, delimiter=',')
+                for row in bigg_reader:
+                    bigg_dict[row[0]] = row[1]
+            return bigg_dict
+        data_path = f"{REPO_PATH}/ComplementaryData/databases"
+        met_bigg_dict = load_bigg_dict(f"{data_path}/BiGGmetDictionary_newIDs.csv")
+        rxn_bigg_dict = load_bigg_dict(f"{data_path}/BiGGrxnDictionary_newIDs.csv")
+
         # Metabolite changes:
         comp_dic = {"er":"r", "erm":"rm", "p":"x"}
         for met in model.metabolites:
@@ -46,6 +59,8 @@ def read_yeast_model(make_bigg_compliant=False):
             # Update id with BiGG information:
             if "bigg.metabolite" in met.annotation:
                 met.id = f"{met.annotation['bigg.metabolite']}_{met.compartment}"
+            elif met.id in met_bigg_dict:
+                met.id = f"{met_bigg_dict[met.id]}_{met.compartment}"
             else:
                 met.id = met.id.replace(f"[{met.compartment}]", f"_{met.compartment}")
 
@@ -62,6 +77,9 @@ def read_yeast_model(make_bigg_compliant=False):
             if "bigg.reaction" in rxn.annotation:
                 rxn.notes["Original ID"] = rxn.id
                 rxn.id = rxn.annotation['bigg.reaction']
+            elif rxn.id in rxn_bigg_dict:
+                rxn.notes["Original ID"] = rxn.id
+                rxn.id = rxn_bigg_dict[rxn.id]
 
     return model
 
